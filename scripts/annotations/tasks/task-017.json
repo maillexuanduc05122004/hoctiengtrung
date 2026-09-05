@@ -1,0 +1,755 @@
+[
+  {
+    "id": "L2-0221",
+    "simplified": "合适",
+    "traditional": "合適",
+    "pinyin": "hé shì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "suitable; fitting; appropriate"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0222",
+    "simplified": "河",
+    "pinyin": "hé",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "river (CL:條/条,道)",
+      "(bound form) the Yellow River",
+      "(bound form) the Milky Way",
+      "(bound form) (on restaurant menus) rice noodles 河粉"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0223",
+    "simplified": "黑",
+    "pinyin": "hēi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "black",
+      "dark",
+      "sinister",
+      "secret",
+      "shady",
+      "illegal",
+      "to hide (sth) away",
+      "to vilify",
+      "(loanword) to hack (computing)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0224",
+    "simplified": "黑板",
+    "pinyin": "hēi bǎn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "blackboard",
+      "CL:塊/块,個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0225",
+    "simplified": "黑色",
+    "pinyin": "hēi sè",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "black"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0226",
+    "simplified": "红",
+    "traditional": "紅",
+    "pinyin": "hóng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "red",
+      "popular",
+      "revolutionary",
+      "bonus"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0227",
+    "simplified": "红色",
+    "traditional": "紅色",
+    "pinyin": "hóng sè",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "red (color)",
+      "revolutionary"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0228",
+    "simplified": "后来",
+    "traditional": "後來",
+    "pinyin": "hòu lái",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "afterwards; later",
+      "newly arrived"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0229",
+    "simplified": "忽然",
+    "pinyin": "hū rán",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "suddenly; all of a sudden"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0230",
+    "simplified": "湖",
+    "pinyin": "hú",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "lake"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0231",
+    "simplified": "护照",
+    "traditional": "護照",
+    "pinyin": "hù zhào",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "passport",
+      "CL:本,個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0232",
+    "simplified": "花",
+    "pinyin": "huā",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "flower",
+      "blossom",
+      "CL:朵,支,束,把,盆,簇",
+      "fancy pattern",
+      "florid",
+      "to spend (money, time)",
+      "(coll.) lecherous",
+      "lustful"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0150",
+        "pinyin": "huā",
+        "partOfSpeech": [
+          "N"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0233",
+    "simplified": "花园",
+    "traditional": "花園",
+    "pinyin": "huā yuán",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "garden (for flowers, ornamental plants etc); (landscaped) park; yard with decorative plants",
+      "CL:座"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0234",
+    "simplified": "画",
+    "traditional": "畫",
+    "pinyin": "huà",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to draw; to paint",
+      "picture; painting (CL:幅,張/张)",
+      "to draw (a line) (variant of 劃/划)",
+      "stroke of a Chinese character (variant of 劃/划)",
+      "(calligraphy) horizontal stroke (variant of 劃/划)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0235",
+    "simplified": "画家",
+    "traditional": "畫家",
+    "pinyin": "huà jiā",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "painter",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0236",
+    "simplified": "画儿",
+    "traditional": "畫兒",
+    "pinyin": "huàr",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "picture",
+      "drawing",
+      "painting"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0237",
+    "simplified": "坏处",
+    "traditional": "壞處",
+    "pinyin": "huài chu",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "harm",
+      "troubles",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0238",
+    "simplified": "坏人",
+    "traditional": "壞人",
+    "pinyin": "huài rén",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "bad person",
+      "villain"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0239",
+    "simplified": "欢迎",
+    "traditional": "歡迎",
+    "pinyin": "huān yíng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to welcome",
+      "welcome"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0240",
+    "simplified": "换",
+    "traditional": "換",
+    "pinyin": "huàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to exchange",
+      "to change (clothes etc)",
+      "to substitute",
+      "to switch",
+      "to convert (currency)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0241",
+    "simplified": "黄",
+    "traditional": "黃",
+    "pinyin": "huáng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "yellow",
+      "pornographic",
+      "to fall through"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0242",
+    "simplified": "黄色",
+    "traditional": "黃色",
+    "pinyin": "huáng sè",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "yellow",
+      "vulgar; lewd; pornographic"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0243",
+    "simplified": "回",
+    "pinyin": "huí",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "to go back; to return; to turn back; to turn around",
+      "to reply; to answer",
+      "classifier for literary divisions (acts of a play, sections or chapters of a classic book)",
+      "classifier for occurrences or times"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0154",
+        "pinyin": "huí",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0244",
+    "simplified": "回国",
+    "traditional": "回國",
+    "pinyin": "huí guó",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to return to one's home country"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0245",
+    "simplified": "会",
+    "traditional": "會",
+    "pinyin": "huì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "can; to have the skill; to know how to",
+      "to be likely to; to be sure to",
+      "to meet; to get together",
+      "meeting; gathering",
+      "(suffix) union; group; association",
+      "(bound form) a moment (Taiwan pr. )"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0160",
+        "pinyin": "huì",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0246",
+    "simplified": "活动",
+    "traditional": "活動",
+    "pinyin": "huó dòng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to exercise; to move about; to work out",
+      "shaky; unsteady; loose (tooth etc)",
+      "movable; flexible; liquid (capital etc)",
+      "(volcanic, seismic, economic etc) activity",
+      "(outdoor etc) activity; event; (political) campaign; (military) maneuver (CL:項/项)",
+      "to use personal influence, connections, bribes etc"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0247",
+    "simplified": "或",
+    "pinyin": "huò",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "maybe",
+      "perhaps",
+      "might",
+      "possibly",
+      "or"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0248",
+    "simplified": "或者",
+    "pinyin": "huò zhě",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "or",
+      "possibly; maybe; perhaps"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0249",
+    "simplified": "机会",
+    "traditional": "機會",
+    "pinyin": "jī huì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "opportunity",
+      "chance",
+      "occasion",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0250",
+    "simplified": "鸡",
+    "traditional": "雞",
+    "pinyin": "jī",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "fowl",
+      "chicken",
+      "CL:隻/只",
+      "(slang) prostitute"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0251",
+    "simplified": "级",
+    "traditional": "級",
+    "pinyin": "jí",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "level",
+      "grade",
+      "rank",
+      "step (of stairs)",
+      "CL:個/个",
+      "classifier: step, level"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0252",
+    "simplified": "急",
+    "pinyin": "jí",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "urgent",
+      "pressing",
+      "rapid",
+      "hurried",
+      "worried",
+      "to make (sb) anxious"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0253",
+    "simplified": "计划",
+    "traditional": "計劃",
+    "pinyin": "jì huà",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "plan",
+      "project",
+      "program",
+      "to plan",
+      "to map out",
+      "CL:個/个,項/项"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0254",
+    "simplified": "计算机",
+    "traditional": "計算機",
+    "pinyin": "jì suàn jī",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "computer",
+      "(Tw) calculator",
+      "CL:臺/台"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0255",
+    "simplified": "加",
+    "pinyin": "jiā",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to add",
+      "(math.) plus",
+      "to increase; to augment",
+      "(used before a disyllabic verb, often after an adverb like 不, 大, 稍 etc, to indicate that the action applies to sth previously mentioned, as in 稍加改良 \"make some minor improvements to (it)\")"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0256",
+    "simplified": "加油",
+    "pinyin": "jiā yóu",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to add oil; to top up with gas; to refuel",
+      "to accelerate; to step on the gas",
+      "(fig.) to make an extra effort; to cheer sb on"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0257",
+    "simplified": "家",
+    "pinyin": "jiā",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Suffix"
+    ],
+    "cedictDefinitions": [
+      "home",
+      "family",
+      "(polite) my (sister, uncle etc)",
+      "classifier for families or businesses",
+      "refers to the philosophical schools of pre-Han China",
+      "noun suffix for a specialist in some activity, such as a musician or revolutionary, corresponding to English -ist, -er, -ary or -ian",
+      "CL:個/个"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0169",
+        "pinyin": "jiā",
+        "partOfSpeech": [
+          "N",
+          "M"
+        ]
+      }
+    ],
+    "affixExample": "科学家",
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0258",
+    "simplified": "家庭",
+    "pinyin": "jiā tíng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "family; household",
+      "CL:戶/户"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0259",
+    "simplified": "家长",
+    "traditional": "家長",
+    "pinyin": "jiā zhǎng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "head of a household",
+      "family head",
+      "patriarch",
+      "parent or guardian of a child"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0260",
+    "simplified": "假",
+    "pinyin": "jiǎ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "fake",
+      "false",
+      "artificial",
+      "to borrow",
+      "if",
+      "suppose"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0261",
+    "simplified": "假期",
+    "pinyin": "jià qī",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "vacation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0262",
+    "simplified": "检查",
+    "traditional": "檢查",
+    "pinyin": "jiǎn chá",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "inspection",
+      "to examine",
+      "to inspect",
+      "CL:次"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0263",
+    "simplified": "见到",
+    "traditional": "見到",
+    "pinyin": "jiàn dào",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to see"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0264",
+    "simplified": "见过",
+    "traditional": "見過",
+    "pinyin": "jiàng u o",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [],
+    "needsEnglish": true
+  },
+  {
+    "id": "L2-0265",
+    "simplified": "件",
+    "pinyin": "jiàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "item",
+      "component",
+      "classifier for events, things, clothes etc"
+    ],
+    "needsEnglish": false
+  }
+]

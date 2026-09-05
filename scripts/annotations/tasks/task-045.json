@@ -1,0 +1,785 @@
+[
+  {
+    "id": "L3-0709",
+    "simplified": "调整",
+    "traditional": "調整",
+    "pinyin": "tiáo zhěng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to adjust; to revise; to reorganize"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0710",
+    "simplified": "跳",
+    "pinyin": "tiào",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to jump",
+      "to hop",
+      "to skip over",
+      "to bounce",
+      "to palpitate"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0711",
+    "simplified": "跳高",
+    "pinyin": "tiào gāo",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "(athletics) high jump"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0712",
+    "simplified": "跳舞",
+    "pinyin": "tiào wǔ",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to dance"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0713",
+    "simplified": "跳远",
+    "traditional": "跳遠",
+    "pinyin": "tiào yuǎn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "long jump (athletics)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0714",
+    "simplified": "铁",
+    "traditional": "鐵",
+    "pinyin": "tiě",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "iron (metal)",
+      "arms",
+      "weapons",
+      "hard",
+      "strong",
+      "violent",
+      "unshakeable",
+      "determined",
+      "close",
+      "tight (slang)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0715",
+    "simplified": "铁路",
+    "traditional": "鐵路",
+    "pinyin": "tiě lù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "railroad",
+      "railway",
+      "CL:條/条"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0716",
+    "simplified": "听力",
+    "traditional": "聽力",
+    "pinyin": "tīng lì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "hearing",
+      "listening ability"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0717",
+    "simplified": "听众",
+    "traditional": "聽眾",
+    "pinyin": "tīng zhòng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "audience",
+      "listeners"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0718",
+    "simplified": "停止",
+    "pinyin": "tíng zhǐ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to stop; to halt; to cease"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0719",
+    "simplified": "通常",
+    "pinyin": "tōng cháng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "regular; usual; normal",
+      "usually; normally"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0720",
+    "simplified": "通信",
+    "pinyin": "tōng xìn",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to correspond (by letter, email etc)",
+      "to send or receive messages through telecommunications"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0721",
+    "simplified": "同意",
+    "pinyin": "tóng yì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to agree",
+      "to consent",
+      "to approve"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0722",
+    "simplified": "痛",
+    "pinyin": "tòng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "ache",
+      "pain",
+      "sorrow",
+      "deeply",
+      "thoroughly"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0723",
+    "simplified": "痛苦",
+    "pinyin": "tòng kǔ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "pain",
+      "suffering",
+      "painful",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0724",
+    "simplified": "头",
+    "traditional": "頭",
+    "pinyin": "tóu",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "head",
+      "hair style",
+      "the top",
+      "end",
+      "beginning or end",
+      "a stub",
+      "remnant",
+      "chief",
+      "boss",
+      "side",
+      "aspect",
+      "first",
+      "leading",
+      "classifier for pigs or livestock",
+      "CL:個/个"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0549",
+        "pinyin": "tóu",
+        "partOfSpeech": [
+          "N",
+          "M"
+        ]
+      },
+      {
+        "id": "L2-0550",
+        "pinyin": "tou",
+        "partOfSpeech": [
+          "Suffix"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0725",
+    "simplified": "头脑",
+    "traditional": "頭腦",
+    "pinyin": "tóu nǎo",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "brains",
+      "mind",
+      "skull",
+      "(fig.) gist (of a matter)",
+      "leader",
+      "boss"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0726",
+    "simplified": "突出",
+    "pinyin": "tū chū",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "prominent",
+      "outstanding",
+      "to give prominence to",
+      "to protrude",
+      "to project"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0727",
+    "simplified": "突然",
+    "pinyin": "tū rán",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "sudden; abrupt; unexpected"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0728",
+    "simplified": "图",
+    "traditional": "圖",
+    "pinyin": "tú",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "diagram",
+      "picture",
+      "drawing",
+      "chart",
+      "map",
+      "CL:張/张",
+      "to plan",
+      "to scheme",
+      "to attempt",
+      "to pursue",
+      "to seek"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0729",
+    "simplified": "图画",
+    "traditional": "圖畫",
+    "pinyin": "tú huà",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "drawing",
+      "picture"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0730",
+    "simplified": "土",
+    "pinyin": "tǔ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "earth",
+      "dust",
+      "clay",
+      "local",
+      "indigenous",
+      "crude opium",
+      "unsophisticated",
+      "one of the eight categories of ancient musical instruments 八音"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0731",
+    "simplified": "团",
+    "traditional": "團",
+    "pinyin": "tuán",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "round",
+      "lump",
+      "ball",
+      "to roll into a ball",
+      "to gather",
+      "regiment",
+      "group",
+      "society",
+      "classifier for a lump or a soft mass: wad (of paper), ball (of wool), cloud (of smoke)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0732",
+    "simplified": "团结",
+    "traditional": "團結",
+    "pinyin": "tuán jié",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to unite",
+      "unity; solidarity",
+      "united"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0733",
+    "simplified": "团体",
+    "traditional": "團體",
+    "pinyin": "tuán tǐ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "group",
+      "organization",
+      "team",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0734",
+    "simplified": "推动",
+    "traditional": "推動",
+    "pinyin": "tuī dòng",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to push (e.g. for acceptance of a plan); to promote; to give impetus to"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0735",
+    "simplified": "推广",
+    "traditional": "推廣",
+    "pinyin": "tuī guǎng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to extend",
+      "to spread",
+      "to popularize",
+      "generalization",
+      "promotion (of a product etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0736",
+    "simplified": "推进",
+    "traditional": "推進",
+    "pinyin": "tuī jìn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to impel",
+      "to carry forward",
+      "to push on",
+      "to advance",
+      "to drive forward"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0737",
+    "simplified": "推开",
+    "traditional": "推開",
+    "pinyin": "tuī kāi",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to push open (a gate etc)",
+      "to push away",
+      "to reject",
+      "to decline"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0738",
+    "simplified": "退",
+    "pinyin": "tuì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to retreat; to withdraw",
+      "to reject; to return (sth)",
+      "to decline"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0739",
+    "simplified": "退出",
+    "pinyin": "tuì chū",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to withdraw",
+      "to abort",
+      "to quit",
+      "to log out (computing)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0740",
+    "simplified": "退休",
+    "pinyin": "tuì xiū",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to retire (from the workforce); to go into retirement"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0741",
+    "simplified": "外交",
+    "pinyin": "wài jiāo",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "diplomacy",
+      "diplomatic",
+      "foreign affairs",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0742",
+    "simplified": "外面",
+    "pinyin": "wài miàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "outside (also pr. for this sense)",
+      "surface",
+      "exterior",
+      "external appearance"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0743",
+    "simplified": "外文",
+    "pinyin": "wài wén",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "foreign language (written)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0744",
+    "simplified": "完美",
+    "pinyin": "wán měi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "perfect"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0745",
+    "simplified": "完善",
+    "pinyin": "wán shàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "(of systems, facilities etc) comprehensive",
+      "well-developed",
+      "excellent",
+      "to refine",
+      "to improve"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0746",
+    "simplified": "完整",
+    "pinyin": "wán zhěng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "complete",
+      "intact"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0747",
+    "simplified": "玩具",
+    "pinyin": "wán jù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "plaything",
+      "toy"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0748",
+    "simplified": "往往",
+    "pinyin": "wǎng wǎng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "usually",
+      "in many cases",
+      "more often than not"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0749",
+    "simplified": "危害",
+    "pinyin": "wēi hài",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to harm; to jeopardize; to endanger",
+      "harmful effect; damage"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0750",
+    "simplified": "危险",
+    "traditional": "危險",
+    "pinyin": "wēi xiǎn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "danger",
+      "dangerous"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0751",
+    "simplified": "为",
+    "traditional": "為",
+    "pinyin": "wéi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "as (in the capacity of)",
+      "to take sth as",
+      "to act as",
+      "to serve as",
+      "to behave as",
+      "to become",
+      "to be",
+      "to do",
+      "by (in the passive voice)"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0570",
+        "pinyin": "wèi",
+        "partOfSpeech": [
+          "Prep"
+        ]
+      },
+      {
+        "id": "L3-0752",
+        "pinyin": "wéi",
+        "partOfSpeech": [
+          "Prep"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0752",
+    "simplified": "为",
+    "traditional": "為",
+    "pinyin": "wéi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Prep"
+    ],
+    "cedictDefinitions": [
+      "as (in the capacity of)",
+      "to take sth as",
+      "to act as",
+      "to serve as",
+      "to behave as",
+      "to become",
+      "to be",
+      "to do",
+      "by (in the passive voice)"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0570",
+        "pinyin": "wèi",
+        "partOfSpeech": [
+          "Prep"
+        ]
+      },
+      {
+        "id": "L3-0751",
+        "pinyin": "wéi",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0753",
+    "simplified": "围",
+    "traditional": "圍",
+    "pinyin": "wéi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to encircle",
+      "to surround",
+      "all around",
+      "to wear by wrapping around (scarf, shawl)"
+    ],
+    "needsEnglish": false
+  }
+]

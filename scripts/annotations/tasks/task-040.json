@@ -1,0 +1,722 @@
+[
+  {
+    "id": "L3-0484",
+    "simplified": "美术",
+    "traditional": "美術",
+    "pinyin": "měi shù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "art",
+      "fine arts",
+      "painting",
+      "CL:種/种"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0485",
+    "simplified": "美元",
+    "pinyin": "měi yuán",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "American dollar; US dollar"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0486",
+    "simplified": "迷",
+    "pinyin": "mí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to bewilder",
+      "crazy about",
+      "fan",
+      "enthusiast",
+      "lost",
+      "confused"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0487",
+    "simplified": "米",
+    "pinyin": "mǐ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "uncooked rice",
+      "meter (unit of length)",
+      "(slang) Chinese yuan"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0376",
+        "pinyin": "mǐ",
+        "partOfSpeech": [
+          "M"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0488",
+    "simplified": "面对",
+    "traditional": "面對",
+    "pinyin": "miàn duì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to face; to confront"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0489",
+    "simplified": "面积",
+    "traditional": "面積",
+    "pinyin": "miàn jī",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "area (of a floor, piece of land etc)",
+      "surface area",
+      "tract of land"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0490",
+    "simplified": "民间",
+    "traditional": "民間",
+    "pinyin": "mín jiān",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "among the people",
+      "popular",
+      "folk",
+      "non-governmental",
+      "involving people rather than governments"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0491",
+    "simplified": "民族",
+    "pinyin": "mín zú",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "nationality; ethnic group"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0492",
+    "simplified": "明确",
+    "traditional": "明確",
+    "pinyin": "míng què",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "clear-cut; definite; explicit",
+      "to clarify; to specify; to make definite"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0493",
+    "simplified": "明显",
+    "traditional": "明顯",
+    "pinyin": "míng xiǎn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "clear",
+      "distinct",
+      "obvious"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0494",
+    "simplified": "命运",
+    "traditional": "命運",
+    "pinyin": "mìng yùn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "fate; destiny"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0495",
+    "simplified": "某",
+    "pinyin": "mǒu",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "some",
+      "a certain",
+      "sb or sth indefinite",
+      "such-and-such"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0496",
+    "simplified": "母亲",
+    "traditional": "母親",
+    "pinyin": "mǔ qīn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "mother"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0497",
+    "simplified": "木头",
+    "traditional": "木頭",
+    "pinyin": "mù tou",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "wood; log (CL:塊/块,根)",
+      "(fig.) blockhead; dolt"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0498",
+    "simplified": "目标",
+    "traditional": "目標",
+    "pinyin": "mù biāo",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "target",
+      "goal",
+      "objective",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0499",
+    "simplified": "目前",
+    "pinyin": "mù qián",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "at the present time",
+      "currently"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0500",
+    "simplified": "奶茶",
+    "pinyin": "nǎi chá",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "milk tea"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0501",
+    "simplified": "男子",
+    "pinyin": "nán zǐ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "a man; a male"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0502",
+    "simplified": "南部",
+    "pinyin": "nán bù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "southern part"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0503",
+    "simplified": "难道",
+    "traditional": "難道",
+    "pinyin": "nán dào",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "don't tell me ...",
+      "could it be that...?"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0504",
+    "simplified": "难度",
+    "traditional": "難度",
+    "pinyin": "nán dù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "degree of difficulty"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0505",
+    "simplified": "内",
+    "traditional": "內",
+    "pinyin": "nèi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "inside",
+      "inner",
+      "internal",
+      "within",
+      "interior"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0506",
+    "simplified": "内容",
+    "traditional": "內容",
+    "pinyin": "nèi róng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "content; substance; details",
+      "CL:項/项"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0507",
+    "simplified": "内心",
+    "traditional": "內心",
+    "pinyin": "nèi xīn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "heart; innermost being",
+      "(math.) incenter"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0508",
+    "simplified": "能不能",
+    "pinyin": "néng bu néng",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [],
+    "needsEnglish": true
+  },
+  {
+    "id": "L3-0509",
+    "simplified": "能力",
+    "pinyin": "néng lì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "capability",
+      "ability",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0510",
+    "simplified": "年初",
+    "pinyin": "nián chū",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "beginning of the year"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0511",
+    "simplified": "年代",
+    "pinyin": "nián dài",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "a decade of a century (e.g. the Sixties)",
+      "age",
+      "era",
+      "period",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0512",
+    "simplified": "年底",
+    "pinyin": "nián dǐ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the end of the year",
+      "year-end"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0513",
+    "simplified": "年纪",
+    "traditional": "年紀",
+    "pinyin": "nián jì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "age",
+      "CL:把,個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0514",
+    "simplified": "念",
+    "pinyin": "niàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to read",
+      "to study (a subject)",
+      "to attend (a school)",
+      "to read aloud",
+      "to give (sb) a tongue-lashing (CL:頓/顿)",
+      "to miss (sb)",
+      "idea",
+      "remembrance",
+      "twenty (banker's anti-fraud numeral corresponding to 廿)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0515",
+    "simplified": "牛",
+    "pinyin": "niú",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "ox",
+      "cow",
+      "bull",
+      "CL:條/条,頭/头",
+      "newton (abbr. for 牛頓/牛顿)",
+      "(slang) awesome"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0516",
+    "simplified": "农村",
+    "traditional": "農村",
+    "pinyin": "nóng cūn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "rural area",
+      "village",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0517",
+    "simplified": "农民",
+    "traditional": "農民",
+    "pinyin": "nóng mín",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "peasant; farmer"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0518",
+    "simplified": "农业",
+    "traditional": "農業",
+    "pinyin": "nóng yè",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "agriculture",
+      "farming"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0519",
+    "simplified": "女子",
+    "pinyin": "nǚ zǐ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "woman",
+      "female"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0520",
+    "simplified": "暖和",
+    "pinyin": "nuǎn huo",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "warm",
+      "nice and warm"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0521",
+    "simplified": "怕",
+    "pinyin": "pà",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "to be afraid",
+      "to fear",
+      "to dread",
+      "to be unable to endure",
+      "perhaps"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0406",
+        "pinyin": "pà",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0522",
+    "simplified": "拍",
+    "pinyin": "pāi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to pat",
+      "to clap",
+      "to slap",
+      "to swat",
+      "to take (a photo)",
+      "to shoot (a film)",
+      "racket (sports)",
+      "beat (music)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0523",
+    "simplified": "排",
+    "pinyin": "pái",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to arrange in order; to line up",
+      "to exclude; to eliminate; to repel; to expel; to discharge",
+      "(literary) to push aside; to force open",
+      "to rehearse",
+      "row; line",
+      "platoon",
+      "(bound form) steak; chop",
+      "(bound form) raft",
+      "classifier for rows or lines (of people or things)"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0407",
+        "pinyin": "pái",
+        "partOfSpeech": [
+          "N",
+          "M"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0524",
+    "simplified": "排名",
+    "pinyin": "pái míng",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to rank (1st, 2nd etc)",
+      "ranking"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0525",
+    "simplified": "牌子",
+    "pinyin": "pái zi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "sign",
+      "trademark",
+      "brand"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0526",
+    "simplified": "派",
+    "pinyin": "pài",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(literary) tributary; branch of a river",
+      "clique; school; group; faction",
+      "(bound form) style; manner",
+      "to send (a person or resource); to dispatch; to allocate (a resource or task); to appoint (sb)",
+      "classifier for factions, groups etc",
+      "(preceded by 一) classifier used in characterizing a scene, atmosphere, demeanor, sound, remark etc",
+      "(loanword) pi (Greek letter Π, π); the circular ratio 𝜋 = 3.14159...",
+      "(loanword) pie"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0527",
+    "simplified": "判断",
+    "traditional": "判斷",
+    "pinyin": "pàn duàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to judge; to determine; judgment"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0528",
+    "simplified": "胖",
+    "pinyin": "pàng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "fat",
+      "plump"
+    ],
+    "needsEnglish": false
+  }
+]

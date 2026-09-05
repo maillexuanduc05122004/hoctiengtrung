@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L1-0046",
+    "vi": ["ăn"],
+    "viAliases": ["xơi", "ăn uống"],
+    "en": ["to eat", "to consume"],
+    "enSource": "cedict",
+    "example": { "zh": "我喜欢吃中国菜。", "vi": "Tôi thích ăn món ăn Trung Quốc.", "en": "I like to eat Chinese food." }
+  },
+  {
+    "id": "L1-0047",
+    "vi": ["ăn cơm", "dùng bữa"],
+    "viAliases": ["ăn uống", "ăn bữa"],
+    "en": ["to have a meal", "to eat"],
+    "enSource": "cedict",
+    "example": { "zh": "我们一起去吃饭吧。", "vi": "Chúng ta cùng đi ăn cơm nhé.", "en": "Let us go have a meal together." }
+  },
+  {
+    "id": "L1-0048",
+    "vi": ["ra", "đi ra"],
+    "viAliases": ["ra khỏi", "bước ra"],
+    "en": ["to go out; to come out", "to arise; to occur"],
+    "enSource": "cedict",
+    "example": { "zh": "他每天早上七点出门。", "vi": "Mỗi ngày anh ấy ra khỏi nhà lúc bảy giờ sáng.", "en": "He goes out every morning at seven." }
+  },
+  {
+    "id": "L1-0049",
+    "vi": ["ra", "bước ra"],
+    "viAliases": ["đi ra", "ra đây"],
+    "en": ["to come out", "to appear"],
+    "enSource": "cedict",
+    "example": { "zh": "请你出来一下。", "vi": "Bạn ra đây một chút nhé.", "en": "Please come out for a moment." }
+  },
+  {
+    "id": "L1-0050",
+    "vi": ["đi ra", "ra ngoài"],
+    "viAliases": ["ra", "đi ra ngoài"],
+    "en": ["to go out"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈出去买东西了。", "vi": "Mẹ đã ra ngoài mua đồ.", "en": "Mom went out to buy some things." }
+  },
+  {
+    "id": "L1-0051",
+    "vi": ["mặc", "đi giày", "xuyên qua"],
+    "viAliases": ["mặc vào", "mang giày"],
+    "en": ["to wear; to put on", "to go through; to cross"],
+    "enSource": "cedict",
+    "example": { "zh": "她今天穿了一件红衣服。", "vi": "Hôm nay cô ấy mặc một chiếc áo màu đỏ.", "en": "She is wearing red clothes today." }
+  },
+  {
+    "id": "L1-0052",
+    "vi": ["giường"],
+    "viAliases": ["cái giường", "giường ngủ"],
+    "en": ["bed; couch"],
+    "enSource": "cedict",
+    "example": { "zh": "房间里有一张大床。", "vi": "Trong phòng có một chiếc giường lớn.", "en": "There is a big bed in the room." }
+  },
+  {
+    "id": "L1-0053",
+    "vi": ["lần"],
+    "viAliases": ["lượt", "bận"],
+    "en": ["classifier for enumerated events: time"],
+    "enSource": "cedict",
+    "example": { "zh": "我去过三次北京。", "vi": "Tôi đã đến Bắc Kinh ba lần.", "en": "I have been to Beijing three times." }
+  },
+  {
+    "id": "L1-0054",
+    "vi": ["từ"],
+    "viAliases": ["kể từ", "bắt đầu từ"],
+    "en": ["from; through; via"],
+    "enSource": "cedict",
+    "example": { "zh": "我从家到学校要走十分钟。", "vi": "Từ nhà đến trường tôi phải đi bộ mười phút.", "en": "It takes me ten minutes to walk from home to school." }
+  },
+  {
+    "id": "L1-0055",
+    "vi": ["sai", "lỗi", "sai lầm"],
+    "viAliases": ["không đúng", "nhầm"],
+    "en": ["wrong", "mistake"],
+    "enSource": "cedict",
+    "example": { "zh": "这个字你写错了。", "vi": "Chữ này bạn viết sai rồi.", "en": "You wrote this character wrong." }
+  },
+  {
+    "id": "L1-0056",
+    "vi": ["đánh", "đập"],
+    "viAliases": ["đấm", "đánh đập"],
+    "en": ["to hit; to strike", "to fight"],
+    "enSource": "cedict",
+    "example": { "zh": "你不可以打小狗。", "vi": "Bạn không được đánh chú chó nhỏ.", "en": "You must not hit the puppy." }
+  },
+  {
+    "id": "L1-0057",
+    "vi": ["bắt taxi", "đi taxi"],
+    "viAliases": ["gọi taxi", "đón taxi"],
+    "en": ["to take a taxi"],
+    "enSource": "cedict",
+    "example": { "zh": "时间不早了，我们打车去吧。", "vi": "Muộn rồi, chúng ta bắt taxi đi nhé.", "en": "It is late, let us take a taxi." }
+  },
+  {
+    "id": "L1-0058",
+    "vi": ["gọi điện thoại"],
+    "viAliases": ["gọi điện", "gọi cho"],
+    "en": ["to make a telephone call"],
+    "enSource": "cedict",
+    "example": { "zh": "我给妈妈打电话了。", "vi": "Tôi đã gọi điện thoại cho mẹ.", "en": "I called my mother." }
+  },
+  {
+    "id": "L1-0059",
+    "vi": ["mở", "bật"],
+    "viAliases": ["mở ra", "bật lên"],
+    "en": ["to open", "to turn on", "to switch on"],
+    "enSource": "cedict",
+    "example": { "zh": "我打开了那本新书。", "vi": "Tôi đã mở quyển sách mới đó ra.", "en": "I opened that new book." }
+  },
+  {
+    "id": "L1-0060",
+    "vi": ["chơi bóng", "đánh bóng"],
+    "viAliases": ["chơi banh"],
+    "en": ["to play ball"],
+    "enSource": "cedict",
+    "example": { "zh": "下午我们去打球吧。", "vi": "Chiều nay chúng ta đi chơi bóng nhé.", "en": "Let us go play ball this afternoon." }
+  },
+  {
+    "id": "L1-0061",
+    "vi": ["to", "lớn"],
+    "viAliases": ["to lớn", "bự"],
+    "en": ["big; large; great", "older (than another person)"],
+    "enSource": "cedict",
+    "example": { "zh": "这个苹果很大。", "vi": "Quả táo này rất to.", "en": "This apple is very big." }
+  },
+  {
+    "id": "L1-0062",
+    "vi": ["đại học", "trường đại học"],
+    "viAliases": ["bậc đại học"],
+    "en": ["university; college"],
+    "enSource": "cedict",
+    "example": { "zh": "我姐姐在北京上大学。", "vi": "Chị gái tôi học đại học ở Bắc Kinh.", "en": "My older sister goes to university in Beijing." }
+  },
+  {
+    "id": "L1-0063",
+    "vi": ["sinh viên", "sinh viên đại học"],
+    "viAliases": ["sinh viên trường đại học"],
+    "en": ["university student; college student"],
+    "enSource": "cedict",
+    "example": { "zh": "他是一名大学生。", "vi": "Anh ấy là một sinh viên đại học.", "en": "He is a university student." }
+  },
+  {
+    "id": "L1-0064",
+    "vi": ["đến", "tới"],
+    "viAliases": ["đến nơi", "tới nơi"],
+    "en": ["to reach; to arrive", "to leave for; to go to"],
+    "enSource": "cedict",
+    "example": { "zh": "火车八点到北京。", "vi": "Tàu hỏa đến Bắc Kinh lúc tám giờ.", "en": "The train arrives in Beijing at eight." }
+  },
+  {
+    "id": "L1-0065",
+    "vi": ["nhận được", "đạt được"],
+    "viAliases": ["có được", "giành được"],
+    "en": ["to get; to obtain; to receive"],
+    "enSource": "cedict",
+    "example": { "zh": "我得到了一本新书。", "vi": "Tôi đã nhận được một quyển sách mới.", "en": "I received a new book." }
+  },
+  {
+    "id": "L1-0066",
+    "vi": ["trợ từ nối trạng ngữ với động từ"],
+    "viAliases": [],
+    "en": ["-ly", "structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct"],
+    "enSource": "cedict",
+    "example": { "zh": "他高兴地笑了。", "vi": "Anh ấy vui vẻ cười lên.", "en": "He smiled happily." }
+  },
+  {
+    "id": "L1-0067",
+    "vi": ["trợ từ sở hữu", "trợ từ nối định ngữ với danh từ"],
+    "viAliases": [],
+    "en": ["of (possessive particle)", "(used after an attribute when it modifies a noun)"],
+    "enSource": "cedict",
+    "example": { "zh": "这是我的中文书。", "vi": "Đây là sách tiếng Trung của tôi.", "en": "This is my Chinese book." }
+  },
+  {
+    "id": "L1-0068",
+    "vi": ["đợi", "chờ"],
+    "viAliases": ["chờ đợi", "đợi chờ"],
+    "en": ["to wait for; to await"],
+    "enSource": "cedict",
+    "example": { "zh": "请在门口等我。", "vi": "Hãy đợi tôi ở cửa nhé.", "en": "Please wait for me at the door." }
+  },
+  {
+    "id": "L1-0069",
+    "vi": ["đất", "mặt đất", "ruộng đất"],
+    "viAliases": ["nền đất", "mảnh đất"],
+    "en": ["earth", "ground", "land", "field"],
+    "enSource": "cedict",
+    "example": { "zh": "这块地很大。", "vi": "Mảnh đất này rất rộng.", "en": "This piece of land is very big." }
+  },
+  {
+    "id": "L1-0070",
+    "vi": ["địa điểm", "nơi chốn"],
+    "viAliases": ["chỗ", "vị trí"],
+    "en": ["place", "site", "location", "venue"],
+    "enSource": "cedict",
+    "example": { "zh": "见面的地点在学校门口。", "vi": "Địa điểm gặp mặt là ở cổng trường.", "en": "The meeting place is at the school gate." }
+  },
+  {
+    "id": "L1-0071",
+    "vi": ["nơi", "chỗ"],
+    "viAliases": ["địa điểm", "khu vực"],
+    "en": ["place; location; area; space", "aspect; part"],
+    "enSource": "cedict",
+    "example": { "zh": "这个地方很安静。", "vi": "Nơi này rất yên tĩnh.", "en": "This place is very quiet." }
+  },
+  {
+    "id": "L1-0072",
+    "vi": ["dưới đất", "trên mặt đất", "trên sàn"],
+    "viAliases": ["dưới sàn", "dưới nền nhà"],
+    "en": ["on the ground", "on the floor"],
+    "enSource": "cedict",
+    "example": { "zh": "地上有一只小猫。", "vi": "Dưới đất có một con mèo con.", "en": "There is a kitten on the ground." }
+  },
+  {
+    "id": "L1-0073",
+    "vi": ["bản đồ"],
+    "viAliases": ["tấm bản đồ"],
+    "en": ["map"],
+    "enSource": "cedict",
+    "example": { "zh": "我买了一张中国地图。", "vi": "Tôi đã mua một tấm bản đồ Trung Quốc.", "en": "I bought a map of China." }
+  },
+  {
+    "id": "L1-0074",
+    "vi": ["em trai"],
+    "viAliases": ["cậu em trai", "thằng em trai"],
+    "en": ["younger brother"],
+    "enSource": "cedict",
+    "example": { "zh": "我弟弟今年十岁。", "vi": "Em trai tôi năm nay mười tuổi.", "en": "My younger brother is ten years old this year." }
+  },
+  {
+    "id": "L1-0075",
+    "vi": ["tiền tố chỉ số thứ tự"],
+    "viAliases": [],
+    "en": ["(prefix indicating ordinal number)"],
+    "enSource": "cedict",
+    "example": { "zh": "我的房间在第二楼。", "vi": "Phòng của tôi ở tầng hai.", "en": "My room is on the second floor." }
+  },
+  {
+    "id": "L1-0076",
+    "vi": ["giờ", "điểm", "gọi món"],
+    "viAliases": ["chấm", "một chút"],
+    "en": ["(after a number) o'clock", "point; dot; spot", "to order (food etc); to select", "a small amount; a bit"],
+    "enSource": "cedict",
+    "example": { "zh": "我们八点在门口见。", "vi": "Tám giờ chúng ta gặp nhau ở cổng.", "en": "We will meet at the gate at eight o'clock." }
+  },
+  {
+    "id": "L1-0077",
+    "vi": ["điện"],
+    "viAliases": ["điện năng", "dòng điện"],
+    "en": ["electricity", "lightning"],
+    "enSource": "cedict",
+    "example": { "zh": "家里没有电了。", "vi": "Trong nhà mất điện rồi.", "en": "There is no electricity at home." }
+  },
+  {
+    "id": "L1-0078",
+    "vi": ["điện thoại", "cuộc gọi"],
+    "viAliases": ["số điện thoại", "máy điện thoại"],
+    "en": ["telephone", "phone call", "phone number"],
+    "enSource": "cedict",
+    "example": { "zh": "你的电话号码是多少？", "vi": "Số điện thoại của bạn là bao nhiêu?", "en": "What is your phone number?" }
+  },
+  {
+    "id": "L1-0079",
+    "vi": ["máy tính", "máy vi tính"],
+    "viAliases": ["máy tính điện tử"],
+    "en": ["computer"],
+    "enSource": "cedict",
+    "example": { "zh": "这台电脑是新的。", "vi": "Chiếc máy tính này là máy mới.", "en": "This computer is new." }
+  },
+  {
+    "id": "L1-0080",
+    "vi": ["ti vi", "truyền hình"],
+    "viAliases": ["tivi", "vô tuyến"],
+    "en": ["television; TV"],
+    "enSource": "cedict",
+    "example": { "zh": "晚上我喜欢看电视。", "vi": "Buổi tối tôi thích xem ti vi.", "en": "I like watching TV in the evening." }
+  },
+  {
+    "id": "L1-0081",
+    "vi": ["cái ti vi", "máy thu hình"],
+    "viAliases": ["chiếc tivi", "máy truyền hình"],
+    "en": ["television set"],
+    "enSource": "cedict",
+    "example": { "zh": "我家的电视机很大。", "vi": "Chiếc ti vi nhà tôi rất to.", "en": "The television set at my home is very big." }
+  },
+  {
+    "id": "L1-0082",
+    "vi": ["phim", "bộ phim"],
+    "viAliases": ["phim điện ảnh", "phim ảnh"],
+    "en": ["movie; film"],
+    "enSource": "cedict",
+    "example": { "zh": "这部电影很好看。", "vi": "Bộ phim này rất hay.", "en": "This movie is very good." }
+  },
+  {
+    "id": "L1-0083",
+    "vi": ["rạp chiếu phim", "rạp phim"],
+    "viAliases": ["rạp chiếu bóng"],
+    "en": ["cinema; movie theater"],
+    "enSource": "cedict",
+    "example": { "zh": "我们去电影院看电影吧。", "vi": "Chúng ta đến rạp chiếu phim xem phim nhé.", "en": "Let us go to the cinema to watch a movie." }
+  },
+  {
+    "id": "L1-0084",
+    "vi": ["phía đông", "đông"],
+    "viAliases": ["hướng đông", "phương đông"],
+    "en": ["east"],
+    "enSource": "cedict",
+    "example": { "zh": "我家在学校的东面。", "vi": "Nhà tôi ở phía đông của trường.", "en": "My home is on the east side of the school." }
+  },
+  {
+    "id": "L1-0085",
+    "vi": ["phía đông", "bên đông"],
+    "viAliases": ["mặt đông", "hướng đông"],
+    "en": ["east side", "eastern part", "to the east of"],
+    "enSource": "cedict",
+    "example": { "zh": "商店在医院的东边。", "vi": "Cửa hàng nằm ở phía đông bệnh viện.", "en": "The shop is on the east side of the hospital." }
+  },
+  {
+    "id": "L1-0086",
+    "vi": ["đồ vật", "đồ", "thứ"],
+    "viAliases": ["món đồ", "vật"],
+    "en": ["thing", "stuff"],
+    "enSource": "cedict",
+    "example": { "zh": "我要去买一些东西。", "vi": "Tôi muốn đi mua một ít đồ.", "en": "I want to go buy some things." }
+  },
+  {
+    "id": "L1-0087",
+    "vi": ["cử động", "động", "di chuyển"],
+    "viAliases": ["nhúc nhích", "chuyển động"],
+    "en": ["to move", "to set in movement", "to touch"],
+    "enSource": "cedict",
+    "example": { "zh": "他站着不动。", "vi": "Anh ấy đứng yên không nhúc nhích.", "en": "He stands still without moving." }
+  },
+  {
+    "id": "L1-0088",
+    "vi": ["động tác", "hành động"],
+    "viAliases": ["cử động", "thao tác"],
+    "en": ["movement; motion; action"],
+    "enSource": "cedict",
+    "example": { "zh": "这个动作很简单。", "vi": "Động tác này rất đơn giản.", "en": "This movement is very simple." }
+  },
+  {
+    "id": "L1-0089",
+    "vi": ["đều", "tất cả đều"],
+    "viAliases": ["cả", "hết thảy"],
+    "en": ["all; both; entirely", "(used for emphasis) even"],
+    "enSource": "cedict",
+    "example": { "zh": "我们都是学生。", "vi": "Chúng tôi đều là học sinh.", "en": "We are all students." }
+  },
+  {
+    "id": "L1-0090",
+    "vi": ["đọc", "học"],
+    "viAliases": ["đọc to", "đọc lên"],
+    "en": ["to read", "to read out; to read aloud", "to attend (school); to study"],
+    "enSource": "cedict",
+    "example": { "zh": "我喜欢读中文书。", "vi": "Tôi thích đọc sách tiếng Trung.", "en": "I like reading Chinese books." }
+  }
+]

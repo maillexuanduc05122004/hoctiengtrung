@@ -1,0 +1,698 @@
+[
+  {
+    "id": "L2-0176",
+    "simplified": "感到",
+    "pinyin": "gǎn dào",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to feel; to sense; to perceive"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0177",
+    "simplified": "感动",
+    "traditional": "感動",
+    "pinyin": "gǎn dòng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to move (sb)",
+      "to touch (sb emotionally)",
+      "moving"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0178",
+    "simplified": "感觉",
+    "traditional": "感覺",
+    "pinyin": "gǎn jué",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "feeling; impression; sensation",
+      "to feel; to perceive"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0179",
+    "simplified": "感谢",
+    "traditional": "感謝",
+    "pinyin": "gǎn xiè",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to thank; to be grateful"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0180",
+    "simplified": "干活儿",
+    "traditional": "幹活兒",
+    "pinyin": "gàn huór",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "erhua variant of 幹活/干活"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0181",
+    "simplified": "刚",
+    "traditional": "剛",
+    "pinyin": "gāng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "(literary) hard; firm; strong",
+      "exactly; precisely",
+      "barely; only just",
+      "just; only a short while ago"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0182",
+    "simplified": "刚才",
+    "traditional": "剛才",
+    "pinyin": "gāng cái",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "just now",
+      "a moment ago"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0183",
+    "simplified": "刚刚",
+    "traditional": "剛剛",
+    "pinyin": "gāng gang",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "just recently",
+      "just a moment ago"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0184",
+    "simplified": "高级",
+    "traditional": "高級",
+    "pinyin": "gāo jí",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "high level",
+      "high grade",
+      "advanced",
+      "high-ranking"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0185",
+    "simplified": "高中",
+    "pinyin": "gāo zhōng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "senior high school (abbr. for 高級中學/高级中学)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0186",
+    "simplified": "个子",
+    "traditional": "個子",
+    "pinyin": "gè zi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "stature; height; size (of a person or object)",
+      "(agriculture) bundle of cereal stalks tied together"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0187",
+    "simplified": "更",
+    "pinyin": "gèng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "more",
+      "even more",
+      "further",
+      "still",
+      "still more"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0188",
+    "simplified": "公共汽车",
+    "traditional": "公共汽車",
+    "pinyin": "gōng gòng qì chē",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "bus",
+      "CL:輛/辆,班"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0189",
+    "simplified": "公交车",
+    "traditional": "公交車",
+    "pinyin": "gōng jiāo chē",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "public transport vehicle",
+      "town bus",
+      "CL:輛/辆"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0190",
+    "simplified": "公斤",
+    "pinyin": "gōng jīn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "kilogram (kg)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0191",
+    "simplified": "公里",
+    "pinyin": "gōng lǐ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "kilometer"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0192",
+    "simplified": "公路",
+    "pinyin": "gōng lù",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "highway",
+      "road",
+      "CL:條/条"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0193",
+    "simplified": "公平",
+    "pinyin": "gōng píng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "fair",
+      "impartial"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0194",
+    "simplified": "公司",
+    "pinyin": "gōng sī",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "company; firm; corporation",
+      "CL:家"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0195",
+    "simplified": "公园",
+    "traditional": "公園",
+    "pinyin": "gōng yuán",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "park (for public recreation)",
+      "CL:座"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0196",
+    "simplified": "狗",
+    "pinyin": "gǒu",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "dog",
+      "CL:隻/只,條/条"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0197",
+    "simplified": "够",
+    "traditional": "夠",
+    "pinyin": "gòu",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "enough (sufficient)",
+      "enough (too much)",
+      "(coll.) (before adj.) really",
+      "(coll.) to reach by stretching out"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0198",
+    "simplified": "故事",
+    "pinyin": "gù shi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "narrative; story; tale"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0199",
+    "simplified": "故意",
+    "pinyin": "gù yì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "deliberately; on purpose"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0200",
+    "simplified": "顾客",
+    "traditional": "顧客",
+    "pinyin": "gù kè",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "customer; client",
+      "CL:位"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0201",
+    "simplified": "关机",
+    "traditional": "關機",
+    "pinyin": "guān jī",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to turn off (a machine or device)",
+      "to finish shooting a film"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0202",
+    "simplified": "关心",
+    "traditional": "關心",
+    "pinyin": "guān xīn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to be concerned about; to care about"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0203",
+    "simplified": "观点",
+    "traditional": "觀點",
+    "pinyin": "guān diǎn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "point of view",
+      "viewpoint",
+      "standpoint",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0204",
+    "simplified": "广场",
+    "traditional": "廣場",
+    "pinyin": "guǎng chǎng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "public square; plaza"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0205",
+    "simplified": "广告",
+    "traditional": "廣告",
+    "pinyin": "guǎng gào",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to advertise",
+      "a commercial",
+      "advertisement",
+      "CL:項/项"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0206",
+    "simplified": "国际",
+    "traditional": "國際",
+    "pinyin": "guó jì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "international"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0207",
+    "simplified": "过来",
+    "traditional": "過來",
+    "pinyin": "guò lái",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to come over",
+      "to manage",
+      "to handle",
+      "to be able to take care of"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0208",
+    "simplified": "过年",
+    "traditional": "過年",
+    "pinyin": "guò nián",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to celebrate the Chinese New Year"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0209",
+    "simplified": "过去",
+    "traditional": "過去",
+    "pinyin": "guò qù",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "(in the) past; former; previous",
+      "to go over; to pass by"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0279",
+        "pinyin": "guò qù",
+        "partOfSpeech": [
+          "N"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0210",
+    "simplified": "过",
+    "traditional": "過",
+    "pinyin": "guo",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Aux"
+    ],
+    "cedictDefinitions": [
+      "(experienced action marker)"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0131",
+        "pinyin": "guò",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0211",
+    "simplified": "海",
+    "pinyin": "hǎi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "ocean",
+      "sea",
+      "CL:個/个,片",
+      "great number of people or things",
+      "(dialect) numerous"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0212",
+    "simplified": "海边",
+    "traditional": "海邊",
+    "pinyin": "hǎi biān",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "coast; seaside; seashore; beach"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0213",
+    "simplified": "喊",
+    "pinyin": "hǎn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to yell",
+      "to shout",
+      "to call out for (a person)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0214",
+    "simplified": "好",
+    "pinyin": "hǎo",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "good",
+      "appropriate; proper",
+      "all right!",
+      "(before a verb) easy to",
+      "(before a verb) good to",
+      "(before an adjective for exclamatory effect) so",
+      "(verb complement indicating completion)",
+      "(of two people) close; on intimate terms",
+      "(after a form of address) hello"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0138",
+        "pinyin": "hǎo",
+        "partOfSpeech": [
+          "Adj"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0215",
+    "simplified": "好处",
+    "traditional": "好處",
+    "pinyin": "hǎo chu",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "benefit; advantage; merit",
+      "gain; profit",
+      "also pr."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0216",
+    "simplified": "好多",
+    "pinyin": "hǎo duō",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Num"
+    ],
+    "cedictDefinitions": [
+      "many",
+      "quite a lot",
+      "much better"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0217",
+    "simplified": "好久",
+    "pinyin": "hǎo jiǔ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "(coll.) for a long time"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0218",
+    "simplified": "好人",
+    "pinyin": "hǎo rén",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "good person",
+      "healthy person",
+      "person who tries not to offend anyone, even at the expense of principle"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0219",
+    "simplified": "好事",
+    "pinyin": "hǎo shì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "good action, deed, thing or work (also sarcastic, \"a fine thing indeed\")",
+      "charity",
+      "happy occasion",
+      "Daoist or Buddhist ceremony for the souls of the dead"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0220",
+    "simplified": "好像",
+    "pinyin": "hǎo xiàng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "as if",
+      "to seem like"
+    ],
+    "needsEnglish": false
+  }
+]

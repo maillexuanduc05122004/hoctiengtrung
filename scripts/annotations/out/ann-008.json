@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L1-0316",
+    "vi": ["đi làm"],
+    "viAliases": ["đi làm việc", "bắt đầu ca làm"],
+    "en": ["to go to work", "to be on duty", "to start work"],
+    "enSource": "cedict",
+    "example": { "zh": "我爸爸每天七点上班。", "vi": "Bố tôi ngày nào cũng đi làm lúc bảy giờ.", "en": "My father goes to work at seven every day." }
+  },
+  {
+    "id": "L1-0317",
+    "vi": ["phía trên", "bên trên"],
+    "viAliases": ["mặt trên", "ở trên"],
+    "en": ["the top", "above", "overhead"],
+    "enSource": "cedict",
+    "example": { "zh": "桌子上边有一本书。", "vi": "Phía trên bàn có một quyển sách.", "en": "There is a book on top of the table." }
+  },
+  {
+    "id": "L1-0318",
+    "vi": ["lên xe"],
+    "viAliases": ["lên tàu", "bước lên xe"],
+    "en": ["to get on or into a bus, train or car"],
+    "enSource": "cedict",
+    "example": { "zh": "请大家快点上车。", "vi": "Mọi người lên xe nhanh lên nào.", "en": "Everyone please get on the bus quickly." }
+  },
+  {
+    "id": "L1-0319",
+    "vi": ["lần trước"],
+    "viAliases": ["lần rồi", "lần vừa rồi"],
+    "en": ["last time"],
+    "enSource": "cedict",
+    "example": { "zh": "上次我们在这里见面。", "vi": "Lần trước chúng tôi gặp nhau ở đây.", "en": "Last time we met here." }
+  },
+  {
+    "id": "L1-0320",
+    "vi": ["lên lớp", "vào học"],
+    "viAliases": ["đi học", "bắt đầu giờ học"],
+    "en": ["to go to class", "to attend class", "to go to teach a class"],
+    "enSource": "cedict",
+    "example": { "zh": "我们八点开始上课。", "vi": "Chúng tôi bắt đầu vào học lúc tám giờ.", "en": "We start class at eight." }
+  },
+  {
+    "id": "L1-0321",
+    "vi": ["lên mạng", "truy cập internet"],
+    "viAliases": ["vào mạng", "vào internet"],
+    "en": ["to go online", "to connect to the Internet"],
+    "enSource": "cedict",
+    "example": { "zh": "他喜欢在家上网。", "vi": "Anh ấy thích lên mạng ở nhà.", "en": "He likes to go online at home." }
+  },
+  {
+    "id": "L1-0322",
+    "vi": ["buổi sáng"],
+    "viAliases": ["sáng", "ban sáng"],
+    "en": ["morning"],
+    "enSource": "cedict",
+    "example": { "zh": "上午我要去医院。", "vi": "Buổi sáng tôi phải đi bệnh viện.", "en": "I have to go to the hospital in the morning." }
+  },
+  {
+    "id": "L1-0323",
+    "vi": ["đi học"],
+    "viAliases": ["đến trường", "tới trường"],
+    "en": ["to go to school", "to attend school"],
+    "enSource": "cedict",
+    "example": { "zh": "弟弟今年开始上学。", "vi": "Em trai tôi năm nay bắt đầu đi học.", "en": "My younger brother starts school this year." }
+  },
+  {
+    "id": "L1-0324",
+    "vi": ["ít", "thiếu"],
+    "viAliases": ["ít ỏi", "hụt"],
+    "en": ["few", "less", "to lack", "to be missing"],
+    "enSource": "cedict",
+    "example": { "zh": "今天来的人很少。", "vi": "Hôm nay người đến rất ít.", "en": "Very few people came today." }
+  },
+  {
+    "id": "L1-0325",
+    "vi": ["ai"],
+    "viAliases": ["người nào"],
+    "en": ["who"],
+    "enSource": "cedict",
+    "example": { "zh": "你知道他是谁吗？", "vi": "Bạn có biết anh ấy là ai không?", "en": "Do you know who he is?" }
+  },
+  {
+    "id": "L1-0326",
+    "vi": ["trên người", "trên mình"],
+    "viAliases": ["trong người"],
+    "en": ["on the body", "at hand"],
+    "enSource": "cedict",
+    "example": { "zh": "我身上没有钱。", "vi": "Trên người tôi không có tiền.", "en": "I have no money on me." }
+  },
+  {
+    "id": "L1-0327",
+    "vi": ["cơ thể", "sức khỏe"],
+    "viAliases": ["thân thể"],
+    "en": ["the body", "one's health"],
+    "enSource": "cedict",
+    "example": { "zh": "爷爷的身体很好。", "vi": "Sức khỏe của ông nội rất tốt.", "en": "Grandpa is in very good health." }
+  },
+  {
+    "id": "L1-0328",
+    "vi": ["gì", "cái gì"],
+    "viAliases": ["gì đó"],
+    "en": ["what?", "something; anything"],
+    "enSource": "cedict",
+    "example": { "zh": "你想吃什么？", "vi": "Bạn muốn ăn gì?", "en": "What do you want to eat?" }
+  },
+  {
+    "id": "L1-0329",
+    "vi": ["ốm", "bị bệnh"],
+    "viAliases": ["bị ốm", "mắc bệnh", "đổ bệnh"],
+    "en": ["to fall ill"],
+    "enSource": "cedict",
+    "example": { "zh": "她昨天生病了。", "vi": "Hôm qua cô ấy bị ốm.", "en": "She fell ill yesterday." }
+  },
+  {
+    "id": "L1-0330",
+    "vi": ["tức giận", "nổi giận"],
+    "viAliases": ["giận", "bực mình", "cáu"],
+    "en": ["to get angry; to be furious"],
+    "enSource": "cedict",
+    "example": { "zh": "老师有点儿生气。", "vi": "Thầy giáo hơi tức giận.", "en": "The teacher is a little angry." }
+  },
+  {
+    "id": "L1-0331",
+    "vi": ["sinh nhật"],
+    "viAliases": ["ngày sinh"],
+    "en": ["birthday"],
+    "enSource": "cedict",
+    "example": { "zh": "今天是我的生日。", "vi": "Hôm nay là sinh nhật của tôi.", "en": "Today is my birthday." }
+  },
+  {
+    "id": "L1-0332",
+    "vi": ["mười"],
+    "viAliases": ["10"],
+    "en": ["ten", "10"],
+    "enSource": "cedict",
+    "example": { "zh": "我买了十个苹果。", "vi": "Tôi đã mua mười quả táo.", "en": "I bought ten apples." }
+  },
+  {
+    "id": "L1-0333",
+    "vi": ["lúc", "khi"],
+    "viAliases": ["thời điểm", "khoảng thời gian"],
+    "en": ["time", "length of time", "moment"],
+    "enSource": "cedict",
+    "example": { "zh": "你什么时候回家？", "vi": "Khi nào bạn về nhà?", "en": "When are you going home?" }
+  },
+  {
+    "id": "L1-0334",
+    "vi": ["thời gian"],
+    "viAliases": ["thì giờ", "giờ giấc"],
+    "en": ["time", "(duration of) time"],
+    "enSource": "cedict",
+    "example": { "zh": "我今天没有时间。", "vi": "Hôm nay tôi không có thời gian.", "en": "I have no time today." }
+  },
+  {
+    "id": "L1-0335",
+    "vi": ["việc", "chuyện"],
+    "viAliases": ["sự việc", "công việc"],
+    "en": ["matter", "thing", "item", "affair"],
+    "enSource": "cedict",
+    "example": { "zh": "我有一件事要告诉你。", "vi": "Tôi có một chuyện muốn nói với bạn.", "en": "I have something to tell you." }
+  },
+  {
+    "id": "L1-0336",
+    "vi": ["thử"],
+    "viAliases": ["thử xem", "thử nghiệm"],
+    "en": ["to test", "to try"],
+    "enSource": "cedict",
+    "example": { "zh": "你可以试一下这件衣服。", "vi": "Bạn có thể thử chiếc áo này.", "en": "You can try on this piece of clothing." }
+  },
+  {
+    "id": "L1-0337",
+    "vi": ["là"],
+    "viAliases": ["đúng", "phải"],
+    "en": ["to be", "correct; right; true"],
+    "enSource": "cedict",
+    "example": { "zh": "他是我的老师。", "vi": "Anh ấy là thầy giáo của tôi.", "en": "He is my teacher." }
+  },
+  {
+    "id": "L1-0338",
+    "vi": ["có phải không", "phải không"],
+    "viAliases": ["đúng không", "có phải"],
+    "en": ["is or is not, used to form yes-no questions"],
+    "enSource": "cedict",
+    "example": { "zh": "你是不是老师？", "vi": "Bạn có phải là giáo viên không?", "en": "Are you a teacher or not?" }
+  },
+  {
+    "id": "L1-0339",
+    "vi": ["tay", "bàn tay"],
+    "viAliases": [],
+    "en": ["hand"],
+    "enSource": "cedict",
+    "example": { "zh": "吃饭前要洗手。", "vi": "Trước khi ăn cơm phải rửa tay.", "en": "You should wash your hands before eating." }
+  },
+  {
+    "id": "L1-0340",
+    "vi": ["điện thoại di động"],
+    "viAliases": ["điện thoại", "di động"],
+    "en": ["cell phone; mobile phone"],
+    "enSource": "cedict",
+    "example": { "zh": "我的手机在桌子上。", "vi": "Điện thoại di động của tôi ở trên bàn.", "en": "My cell phone is on the table." }
+  },
+  {
+    "id": "L1-0341",
+    "vi": ["sách"],
+    "viAliases": ["quyển sách", "cuốn sách"],
+    "en": ["book"],
+    "enSource": "cedict",
+    "example": { "zh": "我喜欢看中文书。", "vi": "Tôi thích đọc sách tiếng Trung.", "en": "I like reading Chinese books." }
+  },
+  {
+    "id": "L1-0342",
+    "vi": ["cặp sách"],
+    "viAliases": ["cặp", "ba lô đi học", "túi sách"],
+    "en": ["schoolbag", "satchel", "bookbag"],
+    "enSource": "cedict",
+    "example": { "zh": "他的书包里有很多本子。", "vi": "Trong cặp sách của cậu ấy có rất nhiều vở.", "en": "There are a lot of notebooks in his schoolbag." }
+  },
+  {
+    "id": "L1-0343",
+    "vi": ["hiệu sách", "nhà sách"],
+    "viAliases": ["tiệm sách", "cửa hàng sách"],
+    "en": ["bookstore"],
+    "enSource": "cedict",
+    "example": { "zh": "学校旁边有一家书店。", "vi": "Bên cạnh trường học có một hiệu sách.", "en": "There is a bookstore next to the school." }
+  },
+  {
+    "id": "L1-0344",
+    "vi": ["cây"],
+    "viAliases": ["cây cối", "thân cây"],
+    "en": ["tree"],
+    "enSource": "cedict",
+    "example": { "zh": "门前有两棵大树。", "vi": "Trước cửa có hai cây to.", "en": "There are two big trees in front of the door." }
+  },
+  {
+    "id": "L1-0345",
+    "vi": ["nước"],
+    "viAliases": [],
+    "en": ["water"],
+    "enSource": "cedict",
+    "example": { "zh": "我想喝一杯水。", "vi": "Tôi muốn uống một cốc nước.", "en": "I want to drink a glass of water." }
+  },
+  {
+    "id": "L1-0346",
+    "vi": ["hoa quả", "trái cây"],
+    "viAliases": [],
+    "en": ["fruit"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈买了很多水果。", "vi": "Mẹ đã mua rất nhiều hoa quả.", "en": "Mom bought a lot of fruit." }
+  },
+  {
+    "id": "L1-0347",
+    "vi": ["ngủ"],
+    "viAliases": ["nằm ngủ"],
+    "en": ["to sleep", "to lie down"],
+    "enSource": "cedict",
+    "example": { "zh": "我昨天睡了八个小时。", "vi": "Hôm qua tôi ngủ tám tiếng.", "en": "I slept for eight hours yesterday." }
+  },
+  {
+    "id": "L1-0348",
+    "vi": ["đi ngủ", "ngủ"],
+    "viAliases": ["ngủ nghỉ"],
+    "en": ["to go to bed", "to sleep"],
+    "enSource": "cedict",
+    "example": { "zh": "我每天十一点睡觉。", "vi": "Ngày nào tôi cũng đi ngủ lúc mười một giờ.", "en": "I go to bed at eleven every day." }
+  },
+  {
+    "id": "L1-0349",
+    "vi": ["nói"],
+    "viAliases": ["bảo", "kể", "nói rằng"],
+    "en": ["to speak; to talk; to say", "to explain; to comment"],
+    "enSource": "cedict",
+    "example": { "zh": "老师说明天有考试。", "vi": "Thầy giáo nói ngày mai có bài kiểm tra.", "en": "The teacher said there is a test tomorrow." }
+  },
+  {
+    "id": "L1-0350",
+    "vi": ["nói chuyện"],
+    "viAliases": ["trò chuyện", "chuyện trò"],
+    "en": ["to speak", "to say", "to talk"],
+    "enSource": "cedict",
+    "example": { "zh": "上课的时候不要说话。", "vi": "Trong giờ học đừng nói chuyện.", "en": "Do not talk during class." }
+  },
+  {
+    "id": "L1-0351",
+    "vi": ["bốn"],
+    "viAliases": ["4", "tư"],
+    "en": ["four", "4"],
+    "enSource": "cedict",
+    "example": { "zh": "我家有四个人。", "vi": "Nhà tôi có bốn người.", "en": "There are four people in my family." }
+  },
+  {
+    "id": "L1-0352",
+    "vi": ["tặng", "đưa tiễn", "gửi"],
+    "viAliases": ["cho", "tiễn", "giao"],
+    "en": ["to give (as a present)", "to see (sb) off", "to send; to deliver"],
+    "enSource": "cedict",
+    "example": { "zh": "朋友送我一件礼物。", "vi": "Bạn tôi tặng tôi một món quà.", "en": "A friend gave me a present." }
+  },
+  {
+    "id": "L1-0353",
+    "vi": ["tuổi"],
+    "viAliases": [],
+    "en": ["classifier for years of age", "year"],
+    "enSource": "cedict",
+    "example": { "zh": "我妹妹今年八岁。", "vi": "Em gái tôi năm nay tám tuổi.", "en": "My younger sister is eight years old this year." }
+  },
+  {
+    "id": "L1-0354",
+    "vi": ["anh ấy", "ông ấy", "cậu ấy"],
+    "viAliases": ["hắn", "nó", "anh ta"],
+    "en": ["he; him; his"],
+    "enSource": "cedict",
+    "example": { "zh": "他是我的好朋友。", "vi": "Anh ấy là bạn tốt của tôi.", "en": "He is my good friend." }
+  },
+  {
+    "id": "L1-0355",
+    "vi": ["họ", "bọn họ"],
+    "viAliases": ["chúng nó", "các anh ấy"],
+    "en": ["they; them"],
+    "enSource": "cedict",
+    "example": { "zh": "他们都是学生。", "vi": "Họ đều là học sinh.", "en": "They are all students." }
+  },
+  {
+    "id": "L1-0356",
+    "vi": ["cô ấy", "chị ấy", "bà ấy"],
+    "viAliases": ["cô ta", "chị ta"],
+    "en": ["she"],
+    "enSource": "cedict",
+    "example": { "zh": "她是我的姐姐。", "vi": "Cô ấy là chị gái tôi.", "en": "She is my older sister." }
+  },
+  {
+    "id": "L1-0357",
+    "vi": ["các cô ấy", "họ (nữ)"],
+    "viAliases": ["bọn họ", "các chị ấy"],
+    "en": ["they; them (females)"],
+    "enSource": "cedict",
+    "example": { "zh": "她们是我的同学。", "vi": "Các cô ấy là bạn học của tôi.", "en": "They are my classmates." }
+  },
+  {
+    "id": "L1-0358",
+    "vi": ["quá", "rất"],
+    "viAliases": ["quá mức", "cực kỳ"],
+    "en": ["too (much)", "very", "extremely"],
+    "enSource": "cedict",
+    "example": { "zh": "这件衣服太贵了。", "vi": "Chiếc áo này quá đắt.", "en": "This piece of clothing is too expensive." }
+  },
+  {
+    "id": "L1-0359",
+    "vi": ["ngày", "trời", "bầu trời"],
+    "viAliases": ["hôm", "ban ngày"],
+    "en": ["day", "sky", "heaven"],
+    "enSource": "cedict",
+    "example": { "zh": "我在北京住了三天。", "vi": "Tôi đã ở Bắc Kinh ba ngày.", "en": "I stayed in Beijing for three days." }
+  },
+  {
+    "id": "L1-0360",
+    "vi": ["thời tiết"],
+    "viAliases": [],
+    "en": ["weather"],
+    "enSource": "cedict",
+    "example": { "zh": "今天天气很好。", "vi": "Hôm nay thời tiết rất đẹp.", "en": "The weather is very nice today." }
+  }
+]

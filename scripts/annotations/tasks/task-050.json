@@ -1,0 +1,638 @@
+[
+  {
+    "id": "L3-0934",
+    "simplified": "周围",
+    "traditional": "周圍",
+    "pinyin": "zhōu wéi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "environs; surroundings; periphery"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0935",
+    "simplified": "猪",
+    "traditional": "豬",
+    "pinyin": "zhū",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "hog",
+      "pig",
+      "swine",
+      "CL:口,頭/头"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0936",
+    "simplified": "主持",
+    "pinyin": "zhǔ chí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to take charge of",
+      "to manage or direct",
+      "to preside over",
+      "to uphold",
+      "to stand for (justice etc)",
+      "to host (a TV or radio program etc)",
+      "(TV) anchor"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0937",
+    "simplified": "主动",
+    "traditional": "主動",
+    "pinyin": "zhǔ dòng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "to take the initiative",
+      "to do sth of one's own accord",
+      "spontaneous",
+      "active",
+      "opposite: passive 被動/被动",
+      "drive (of gears and shafts etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0938",
+    "simplified": "主任",
+    "pinyin": "zhǔ rèn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "director",
+      "head",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0939",
+    "simplified": "主意",
+    "pinyin": "zhǔ yi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "plan",
+      "idea",
+      "decision",
+      "CL:個/个",
+      "Beijing pr."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0940",
+    "simplified": "主张",
+    "traditional": "主張",
+    "pinyin": "zhǔ zhāng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to advocate",
+      "to stand for",
+      "view",
+      "position",
+      "stand",
+      "proposition",
+      "viewpoint",
+      "assertion",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0941",
+    "simplified": "注意",
+    "pinyin": "zhù yì",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to take note of; to pay attention to"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0942",
+    "simplified": "祝",
+    "pinyin": "zhù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to pray for",
+      "to wish (sb bon voyage, happy birthday etc)",
+      "person who invokes the spirits during sacrificial ceremonies"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0943",
+    "simplified": "抓",
+    "pinyin": "zhuā",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to grab",
+      "to catch",
+      "to arrest",
+      "to snatch",
+      "to scratch"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0944",
+    "simplified": "抓住",
+    "pinyin": "zhuā zhù",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to grab hold of; to capture"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0945",
+    "simplified": "专家",
+    "traditional": "專家",
+    "pinyin": "zhuān jiā",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "expert; specialist"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0946",
+    "simplified": "专门",
+    "traditional": "專門",
+    "pinyin": "zhuān mén",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "specialized; dedicated (to a particular field or purpose)",
+      "specially; specifically (for a particular purpose)",
+      "(of institutions, personnel etc) designated or assigned for a specific task; special"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0947",
+    "simplified": "专题",
+    "traditional": "專題",
+    "pinyin": "zhuān tí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "specific topic (addressed by a book, lecture, TV program etc)",
+      "article, report or program etc on a specific topic"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0948",
+    "simplified": "专业",
+    "traditional": "專業",
+    "pinyin": "zhuān yè",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "specialty",
+      "specialized field",
+      "main field of study (at university)",
+      "major",
+      "CL:門/门,個/个",
+      "professional"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0949",
+    "simplified": "转",
+    "traditional": "轉",
+    "pinyin": "zhuǎn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to turn",
+      "to change direction",
+      "to transfer",
+      "to forward (mail)",
+      "(Internet) to share (sb else's content)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0950",
+    "simplified": "转变",
+    "traditional": "轉變",
+    "pinyin": "zhuǎn biàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to change",
+      "to transform",
+      "shift",
+      "transformation",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0951",
+    "simplified": "状况",
+    "traditional": "狀況",
+    "pinyin": "zhuàng kuàng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "condition; state; situation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0952",
+    "simplified": "状态",
+    "traditional": "狀態",
+    "pinyin": "zhuàng tài",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "condition; state; state of affairs"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0953",
+    "simplified": "追",
+    "pinyin": "zhuī",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to chase",
+      "to pursue",
+      "to look into",
+      "to investigate",
+      "to reminisce",
+      "to recall",
+      "to court (one's beloved)",
+      "to binge-watch (a TV drama)",
+      "retroactively",
+      "posthumously"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0954",
+    "simplified": "准",
+    "traditional": "準",
+    "pinyin": "zhǔn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "accurate",
+      "standard",
+      "definitely",
+      "certainly",
+      "about to become (bride, son-in-law etc)",
+      "quasi-",
+      "para-"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0955",
+    "simplified": "资格",
+    "traditional": "資格",
+    "pinyin": "zī gé",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "qualifications",
+      "seniority"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0956",
+    "simplified": "资金",
+    "traditional": "資金",
+    "pinyin": "zī jīn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "funds; capital"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0957",
+    "simplified": "子女",
+    "pinyin": "zǐ nǚ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "children; sons and daughters"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0958",
+    "simplified": "自从",
+    "traditional": "自從",
+    "pinyin": "zì cóng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Prep"
+    ],
+    "cedictDefinitions": [
+      "since (a time)",
+      "ever since"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0959",
+    "simplified": "自动",
+    "traditional": "自動",
+    "pinyin": "zì dòng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "automatic",
+      "voluntarily"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0960",
+    "simplified": "自觉",
+    "traditional": "自覺",
+    "pinyin": "zì jué",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "to realize; to be aware of; to feel that; to be conscious of (sth relating to oneself)",
+      "responsible; predisposed to do the right thing; considerate of others"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0961",
+    "simplified": "自然",
+    "pinyin": "zì rán",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N",
+      "Adj",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "nature",
+      "natural",
+      "naturally"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0962",
+    "simplified": "自身",
+    "pinyin": "zì shēn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "itself",
+      "oneself",
+      "one's own"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0963",
+    "simplified": "自主",
+    "pinyin": "zì zhǔ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to act independently; to be autonomous; to be in control of one's own affairs"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0964",
+    "simplified": "总",
+    "traditional": "總",
+    "pinyin": "zǒng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "(bound form) general; overall",
+      "to sum up",
+      "in every case; always; invariably",
+      "anyway; after all; eventually; sooner or later",
+      "surely",
+      "(after a person's name) abbr. for 總經理/总经理 or 總編/总编 etc"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0965",
+    "simplified": "总结",
+    "traditional": "總結",
+    "pinyin": "zǒng jié",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to sum up",
+      "to conclude",
+      "summary",
+      "résumé",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0966",
+    "simplified": "总是",
+    "traditional": "總是",
+    "pinyin": "zǒng shì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "always"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0967",
+    "simplified": "足够",
+    "traditional": "足夠",
+    "pinyin": "zú gòu",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "enough; sufficient"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0968",
+    "simplified": "足球",
+    "pinyin": "zú qiú",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "soccer; football",
+      "a soccer ball; a football"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0969",
+    "simplified": "组合",
+    "traditional": "組合",
+    "pinyin": "zǔ hé",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to assemble; to combine; to compose",
+      "combination; association; set; compilation",
+      "(math.) combinatorial"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0970",
+    "simplified": "左右",
+    "pinyin": "zuǒ yòu",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "left and right",
+      "nearby",
+      "approximately",
+      "attendant",
+      "to control",
+      "to influence"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0971",
+    "simplified": "作品",
+    "pinyin": "zuò pǐn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "work (of art)",
+      "opus",
+      "CL:部,篇"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0972",
+    "simplified": "作者",
+    "pinyin": "zuò zhě",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "author; writer"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0973",
+    "simplified": "做客",
+    "pinyin": "zuò kè",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to be a guest or visitor"
+    ],
+    "needsEnglish": false
+  }
+]

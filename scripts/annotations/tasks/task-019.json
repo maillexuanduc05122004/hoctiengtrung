@@ -1,0 +1,775 @@
+[
+  {
+    "id": "L2-0311",
+    "simplified": "开心",
+    "traditional": "開心",
+    "pinyin": "kāi xīn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to feel happy",
+      "to rejoice",
+      "to have a great time",
+      "to make fun of sb"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0312",
+    "simplified": "开学",
+    "traditional": "開學",
+    "pinyin": "kāi xué",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "(of a student) to start school",
+      "(of a semester) to begin",
+      "(old) to found a school",
+      "the start of a new term"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0313",
+    "simplified": "看法",
+    "pinyin": "kàn fǎ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "way of looking at a thing",
+      "view",
+      "opinion",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0314",
+    "simplified": "考生",
+    "pinyin": "kǎo shēng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "exam candidate",
+      "student whose name has been put forward for an exam"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0315",
+    "simplified": "靠",
+    "pinyin": "kào",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to lean against or on",
+      "to stand by the side of",
+      "to come near to",
+      "to depend on",
+      "to trust",
+      "to fuck (vulgar)",
+      "traditional military costume drama where the performers wear armor (old)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0316",
+    "simplified": "科",
+    "pinyin": "kē",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "branch of study",
+      "administrative section",
+      "division",
+      "field",
+      "branch",
+      "stage directions",
+      "family (taxonomy)",
+      "rules",
+      "laws",
+      "to mete out (punishment)",
+      "to levy (taxes etc)",
+      "to fine sb",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0317",
+    "simplified": "科学",
+    "traditional": "科學",
+    "pinyin": "kē xué",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "science",
+      "scientific knowledge",
+      "scientific",
+      "rational",
+      "CL:門/门,個/个,種/种"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0318",
+    "simplified": "可爱",
+    "traditional": "可愛",
+    "pinyin": "kě ài",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "adorable",
+      "cute",
+      "lovely"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0319",
+    "simplified": "可能",
+    "pinyin": "kě néng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "Adj",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "might (happen)",
+      "possible",
+      "probable",
+      "possibility",
+      "probability",
+      "maybe",
+      "perhaps",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0320",
+    "simplified": "可怕",
+    "pinyin": "kě pà",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "awful",
+      "dreadful",
+      "fearful",
+      "formidable",
+      "frightful",
+      "scary",
+      "hideous",
+      "horrible",
+      "terrible",
+      "terribly"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0321",
+    "simplified": "可是",
+    "pinyin": "kě shì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "but; however",
+      "(used for emphasis) indeed"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0322",
+    "simplified": "可以",
+    "pinyin": "kě yǐ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "can",
+      "may",
+      "possible",
+      "able to",
+      "not bad",
+      "pretty good"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0323",
+    "simplified": "克",
+    "pinyin": "kè",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "to be able to",
+      "to subdue",
+      "to restrain",
+      "to overcome",
+      "gram",
+      "Tibetan unit of land area, about 6 ares"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0324",
+    "simplified": "刻",
+    "pinyin": "kè",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "quarter (hour)",
+      "moment",
+      "to carve",
+      "to engrave",
+      "to cut",
+      "oppressive",
+      "classifier for short time intervals"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0325",
+    "simplified": "客人",
+    "pinyin": "kè rén",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "visitor",
+      "guest",
+      "customer",
+      "client",
+      "CL:位"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0326",
+    "simplified": "课堂",
+    "traditional": "課堂",
+    "pinyin": "kè táng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "classroom (CL:間/间); class session"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0327",
+    "simplified": "空气",
+    "traditional": "空氣",
+    "pinyin": "kōng qì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "air",
+      "atmosphere"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0328",
+    "simplified": "哭",
+    "pinyin": "kū",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to cry; to weep"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0329",
+    "simplified": "快餐",
+    "pinyin": "kuài cān",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "fast food",
+      "snack",
+      "quick meal"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0330",
+    "simplified": "快点儿",
+    "traditional": "快點兒",
+    "pinyin": "kuài diǎnr",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "erhua variant of 快點/快点"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0331",
+    "simplified": "快乐",
+    "traditional": "快樂",
+    "pinyin": "kuài lè",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "happy; joyful"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0332",
+    "simplified": "快要",
+    "pinyin": "kuài yào",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "nearly at the point of (doing sth); about to (do sth)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0333",
+    "simplified": "筷子",
+    "pinyin": "kuài zi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "chopsticks",
+      "CL:對/对,根,把,雙/双"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0334",
+    "simplified": "拉",
+    "pinyin": "lā",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to pull",
+      "to play (a bowed instrument)",
+      "to drag",
+      "to draw",
+      "to chat",
+      "(coll.) to empty one's bowels"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0335",
+    "simplified": "来自",
+    "traditional": "來自",
+    "pinyin": "lái zì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to come from (a place)",
+      "From: (in email header)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0336",
+    "simplified": "蓝",
+    "traditional": "藍",
+    "pinyin": "lán",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "blue",
+      "indigo plant"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0337",
+    "simplified": "蓝色",
+    "traditional": "藍色",
+    "pinyin": "lán sè",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "blue (color)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0338",
+    "simplified": "篮球",
+    "traditional": "籃球",
+    "pinyin": "lán qiú",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "basketball",
+      "CL:個/个,隻/只"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0339",
+    "simplified": "老",
+    "pinyin": "lǎo",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "prefix used before the surname of a person or a numeral indicating the order of birth of the children in a family or to indicate affection or familiarity",
+      "old (of people)",
+      "venerable (person)",
+      "experienced",
+      "of long standing",
+      "always",
+      "all the time",
+      "of the past",
+      "very",
+      "outdated",
+      "(of meat etc) tough"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0207",
+        "pinyin": "lǎo",
+        "partOfSpeech": [
+          "Adj"
+        ]
+      },
+      {
+        "id": "L2-0340",
+        "pinyin": "lǎo",
+        "partOfSpeech": [
+          "Prefix"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0340",
+    "simplified": "老",
+    "pinyin": "lǎo",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Prefix"
+    ],
+    "cedictDefinitions": [
+      "prefix used before the surname of a person or a numeral indicating the order of birth of the children in a family or to indicate affection or familiarity",
+      "old (of people)",
+      "venerable (person)",
+      "experienced",
+      "of long standing",
+      "always",
+      "all the time",
+      "of the past",
+      "very",
+      "outdated",
+      "(of meat etc) tough"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0207",
+        "pinyin": "lǎo",
+        "partOfSpeech": [
+          "Adj"
+        ]
+      },
+      {
+        "id": "L2-0339",
+        "pinyin": "lǎo",
+        "partOfSpeech": [
+          "Adv"
+        ]
+      }
+    ],
+    "affixExample": "老王",
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0341",
+    "simplified": "老年",
+    "pinyin": "lǎo nián",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "elderly",
+      "old age",
+      "autumn of one's years"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0342",
+    "simplified": "老朋友",
+    "pinyin": "lǎo péng you",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "old friend",
+      "(slang) period",
+      "menstruation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0343",
+    "simplified": "老是",
+    "pinyin": "lǎo shi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "always"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0344",
+    "simplified": "离",
+    "traditional": "離",
+    "pinyin": "lí",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "Prep"
+    ],
+    "cedictDefinitions": [
+      "to leave",
+      "to part from",
+      "to be away from",
+      "(in giving distances) from",
+      "without (sth)",
+      "independent of",
+      "one of the Eight Trigrams 八卦, symbolizing fire",
+      "☲"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0345",
+    "simplified": "离开",
+    "traditional": "離開",
+    "pinyin": "lí kāi",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to depart; to leave"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0346",
+    "simplified": "礼物",
+    "traditional": "禮物",
+    "pinyin": "lǐ wù",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "gift; present",
+      "CL:件,份"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0347",
+    "simplified": "里头",
+    "traditional": "裡頭",
+    "pinyin": "lǐ tou",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "inside; interior"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0348",
+    "simplified": "理想",
+    "pinyin": "lǐ xiǎng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "an ideal",
+      "a dream",
+      "ideal",
+      "perfect"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0349",
+    "simplified": "例如",
+    "pinyin": "lì rú",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "for example; for instance; such as"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0350",
+    "simplified": "例子",
+    "pinyin": "lì zi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "case",
+      "(for) instance",
+      "example",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0351",
+    "simplified": "脸",
+    "traditional": "臉",
+    "pinyin": "liǎn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "face",
+      "CL:張/张,個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0352",
+    "simplified": "练",
+    "traditional": "練",
+    "pinyin": "liàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to practice",
+      "to train",
+      "to drill",
+      "to perfect (one's skill)",
+      "exercise",
+      "(literary) white silk",
+      "to boil and scour raw silk"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0353",
+    "simplified": "练习",
+    "traditional": "練習",
+    "pinyin": "liàn xí",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to practice",
+      "exercise",
+      "drill",
+      "practice",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0354",
+    "simplified": "凉",
+    "traditional": "涼",
+    "pinyin": "liáng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "cool",
+      "cold"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0355",
+    "simplified": "凉快",
+    "traditional": "涼快",
+    "pinyin": "liáng kuai",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "pleasantly cool (weather etc)",
+      "to cool oneself; to cool off",
+      "(Tw) (slang) (of clothing) scanty; revealing",
+      "(coll.) to stay out of it; to butt out"
+    ],
+    "needsEnglish": false
+  }
+]

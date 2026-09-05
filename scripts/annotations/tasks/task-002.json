@@ -1,0 +1,776 @@
+[
+  {
+    "id": "L1-0046",
+    "simplified": "吃",
+    "pinyin": "chī",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to eat; to consume",
+      "to eat at (a cafeteria etc)",
+      "to eradicate; to destroy",
+      "to absorb",
+      "to suffer (shock, injury, defeat etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0047",
+    "simplified": "吃饭",
+    "traditional": "吃飯",
+    "pinyin": "chī fàn",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to have a meal",
+      "to eat",
+      "to make a living"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0048",
+    "simplified": "出",
+    "pinyin": "chū",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to go out; to come out",
+      "to arise; to occur",
+      "to produce; to yield",
+      "to go beyond; to exceed",
+      "(used after a verb to indicate an outward direction or a positive result)",
+      "classifier for dramas, plays, operas etc"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0049",
+    "simplified": "出来",
+    "traditional": "出來",
+    "pinyin": "chū lái",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to come out",
+      "to appear",
+      "to arise"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0050",
+    "simplified": "出去",
+    "pinyin": "chū qù",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to go out"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0051",
+    "simplified": "穿",
+    "pinyin": "chuān",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to bore through; to pierce; to perforate",
+      "to go through (e.g. a tunnel); to cross (e.g. a street)",
+      "to thread; to string together",
+      "to wear; to put on (clothes, shoes etc.)",
+      "verb complement indicating thoroughness or completion"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0052",
+    "simplified": "床",
+    "pinyin": "chuáng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "bed; couch (furniture that one can lie down on) (CL:張/张)",
+      "bed; bottom (of rivers, oceans, gardens etc)",
+      "frame; chassis",
+      "classifier for blankets, quilts etc"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0053",
+    "simplified": "次",
+    "pinyin": "cì",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "next in sequence",
+      "second",
+      "the second (day, time etc)",
+      "secondary",
+      "vice-",
+      "sub-",
+      "infra-",
+      "inferior quality",
+      "substandard",
+      "order",
+      "sequence",
+      "hypo- (chemistry)",
+      "classifier for enumerated events: time"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0054",
+    "simplified": "从",
+    "traditional": "從",
+    "pinyin": "cóng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Prep"
+    ],
+    "cedictDefinitions": [
+      "from; through; via",
+      "(bound form) to follow",
+      "(bound form) to obey",
+      "(bound form) to engage in (an activity)",
+      "(used before a negative) ever",
+      "(bound form) (Taiwan pr. ) retainer; attendant",
+      "(bound form) (Taiwan pr. ) assistant; auxiliary; subordinate",
+      "(bound form) (Taiwan pr. ) related by common paternal grandfather or earlier ancestor"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0055",
+    "simplified": "错",
+    "traditional": "錯",
+    "pinyin": "cuò",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "mistake",
+      "wrong",
+      "bad",
+      "interlocking",
+      "complex",
+      "to grind",
+      "to polish",
+      "to alternate",
+      "to stagger",
+      "to miss",
+      "to let slip",
+      "to evade",
+      "to inlay with gold or silver"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0056",
+    "simplified": "打",
+    "pinyin": "dǎ",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "a semantically light, transitive verb that is combined with various grammatical objects to form compound verbs and verb-object phrases with a diverse range of meanings (e.g. 打傘/打伞 \"to hold an umbrella\", 打電話/打电话 \"to make a phone call\", 打針/打针 \"to get an injection\", 打手套 \"to knit gloves\", 打氣/打气 \"to inflate\")",
+      "to hit; to strike",
+      "to fight",
+      "(coll.) from; since (as in 打那以後/打那以后 \"since then\")"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0057",
+    "simplified": "打车",
+    "traditional": "打車",
+    "pinyin": "dǎ chē",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to take a taxi (in town)",
+      "to hitch a lift"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0058",
+    "simplified": "打电话",
+    "traditional": "打電話",
+    "pinyin": "dǎ diàn huà",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to make a telephone call"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0059",
+    "simplified": "打开",
+    "traditional": "打開",
+    "pinyin": "dǎ kāi",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to open",
+      "to show (a ticket)",
+      "to turn on",
+      "to switch on"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0060",
+    "simplified": "打球",
+    "pinyin": "dǎ qiú",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to play ball",
+      "to play with a ball"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0061",
+    "simplified": "大",
+    "pinyin": "dà",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "big; large; great",
+      "older (than another person)",
+      "eldest (as in 大姐)",
+      "greatly; freely; fully",
+      "(dialect) father",
+      "(dialect) uncle (father's brother)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0062",
+    "simplified": "大学",
+    "traditional": "大學",
+    "pinyin": "dà xué",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "university; college",
+      "CL:所"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0063",
+    "simplified": "大学生",
+    "traditional": "大學生",
+    "pinyin": "dà xué shēng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "university student; college student"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0064",
+    "simplified": "到",
+    "pinyin": "dào",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to reach; to arrive",
+      "to leave for; to go to",
+      "to (a place); until (a time); up to (a point)",
+      "(verb complement indicating arriving at a place or reaching a point)",
+      "considerate; thoughtful; thorough"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0065",
+    "simplified": "得到",
+    "pinyin": "dé dào",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to get; to obtain; to receive"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0066",
+    "simplified": "地",
+    "pinyin": "de",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Aux"
+    ],
+    "cedictDefinitions": [
+      "-ly",
+      "structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0069",
+        "pinyin": "dì",
+        "partOfSpeech": [
+          "N"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0067",
+    "simplified": "的",
+    "pinyin": "de",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Aux"
+    ],
+    "cedictDefinitions": [
+      "of; ~'s (possessive particle)",
+      "(used after an attribute when it modifies a noun)",
+      "(used at the end of a declarative sentence for emphasis)",
+      "(used after a noun, verb or adjective to form a nominal expression, as in 皮革的 \"one made of leather\" or 跑堂兒的/跑堂儿的 \"a waiter (literally, one who runs back and forth in a restaurant)\" or 新的 \"new one\")",
+      "also pr. or in poetry and songs"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0068",
+    "simplified": "等",
+    "pinyin": "děng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to wait for; to await",
+      "by the time; when; till",
+      "and so on; etc.; et al.",
+      "(bound form) class; rank; grade",
+      "(bound form) equal to; same as",
+      "(used to end an enumeration)",
+      "(literary) (plural suffix attached to a personal pronoun or noun)"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0120",
+        "pinyin": "děng",
+        "partOfSpeech": [
+          "Aux",
+          "N"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0069",
+    "simplified": "地",
+    "pinyin": "dì",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "earth",
+      "ground",
+      "field",
+      "place",
+      "land",
+      "CL:片"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0066",
+        "pinyin": "de",
+        "partOfSpeech": [
+          "Aux"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0070",
+    "simplified": "地点",
+    "traditional": "地點",
+    "pinyin": "dì diǎn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "place",
+      "site",
+      "location",
+      "venue",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0071",
+    "simplified": "地方",
+    "pinyin": "dì fang",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "place; location; area; space; territory",
+      "aspect; part",
+      "CL:處/处"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0072",
+    "simplified": "地上",
+    "pinyin": "dì shang",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "on the ground",
+      "on the floor"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0073",
+    "simplified": "地图",
+    "traditional": "地圖",
+    "pinyin": "dì tú",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "map",
+      "CL:張/张,本"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0074",
+    "simplified": "弟弟",
+    "pinyin": "dì di",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "younger brother",
+      "CL:個/个,位",
+      "junior male",
+      "I (modest word in letter)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0075",
+    "simplified": "第",
+    "pinyin": "dì",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Prefix"
+    ],
+    "cedictDefinitions": [
+      "(prefix indicating ordinal number, as in 第六 \"sixth\")",
+      "(literary) grades in which successful candidates in the imperial examinations were placed",
+      "(old) residence of a high official",
+      "(literary) but; however",
+      "(literary) only; just"
+    ],
+    "affixExample": "第二",
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0076",
+    "simplified": "点",
+    "traditional": "點",
+    "pinyin": "diǎn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "M",
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to touch briefly; to tap",
+      "to mark with a dot; to check off (on a list)",
+      "to order (food etc); to select",
+      "to mention; to bring up (a topic or person)",
+      "to hint at; to imply",
+      "to administer (eye medicine etc) in drops",
+      "to light (a fire, a lamp etc); to ignite",
+      "to nod (one's head) in agreement; to beckon by moving (one's hand) up and down",
+      "point; dot; spot; speck",
+      "dot stroke in Chinese characters",
+      "(math.) decimal point",
+      "point in time or space",
+      "(after a number) o'clock",
+      "a small amount; a bit; (after a verb or adjective) a bit more",
+      "classifier for small amounts"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0077",
+    "simplified": "电",
+    "traditional": "電",
+    "pinyin": "diàn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "lightning",
+      "electricity",
+      "electric (bound form)",
+      "to get (or give) an electric shock",
+      "phone call or telegram etc",
+      "to send via telephone or telegram etc"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0078",
+    "simplified": "电话",
+    "traditional": "電話",
+    "pinyin": "diàn huà",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "telephone",
+      "CL:部",
+      "phone call",
+      "CL:通",
+      "phone number"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0079",
+    "simplified": "电脑",
+    "traditional": "電腦",
+    "pinyin": "diàn nǎo",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "computer",
+      "CL:臺/台"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0080",
+    "simplified": "电视",
+    "traditional": "電視",
+    "pinyin": "diàn shì",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "television; TV",
+      "CL:臺/台,部"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0081",
+    "simplified": "电视机",
+    "traditional": "電視機",
+    "pinyin": "diàn shì jī",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "television set",
+      "CL:臺/台"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0082",
+    "simplified": "电影",
+    "traditional": "電影",
+    "pinyin": "diàn yǐng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "movie; film",
+      "CL:部"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0083",
+    "simplified": "电影院",
+    "traditional": "電影院",
+    "pinyin": "diàn yǐng yuàn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "cinema; movie theater",
+      "CL:家,座"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0084",
+    "simplified": "东",
+    "traditional": "東",
+    "pinyin": "dōng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "east",
+      "host (i.e. sitting on east side of guest)",
+      "landlord"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0085",
+    "simplified": "东边",
+    "traditional": "東邊",
+    "pinyin": "dōng bian",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "east",
+      "east side",
+      "eastern part",
+      "to the east of"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0086",
+    "simplified": "东西",
+    "traditional": "東西",
+    "pinyin": "dōng xi",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "thing",
+      "stuff",
+      "person",
+      "CL:個/个,件"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0087",
+    "simplified": "动",
+    "traditional": "動",
+    "pinyin": "dòng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "(of sth) to move",
+      "to set in movement",
+      "to displace",
+      "to touch",
+      "to make use of",
+      "to stir (emotions)",
+      "to alter",
+      "abbr. for 動詞/动词, verb"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0088",
+    "simplified": "动作",
+    "traditional": "動作",
+    "pinyin": "dòng zuò",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "movement; motion; action",
+      "to act; to move"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0089",
+    "simplified": "都",
+    "pinyin": "dōu",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "all; both; entirely",
+      "(used for emphasis) even",
+      "already",
+      "(not) at all"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0090",
+    "simplified": "读",
+    "traditional": "讀",
+    "pinyin": "dú",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to read out; to read aloud",
+      "to read",
+      "to attend (school); to study (a subject in school)",
+      "to pronounce"
+    ],
+    "needsEnglish": false
+  }
+]

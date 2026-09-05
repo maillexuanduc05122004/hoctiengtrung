@@ -1,0 +1,746 @@
+[
+  {
+    "id": "L3-0529",
+    "simplified": "跑步",
+    "pinyin": "pǎo bù",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to run",
+      "to jog",
+      "(military) to march at the double"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0530",
+    "simplified": "配",
+    "pinyin": "pèi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to join",
+      "to fit",
+      "to mate",
+      "to mix",
+      "to match",
+      "to deserve",
+      "to make up (a prescription)",
+      "to allocate"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0531",
+    "simplified": "配合",
+    "pinyin": "pèi hé",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "matching",
+      "fitting in with",
+      "compatible with",
+      "to correspond",
+      "to fit",
+      "to conform to",
+      "rapport",
+      "to coordinate with",
+      "to act in concert with",
+      "to cooperate",
+      "to become man and wife",
+      "to combine parts of machine"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0532",
+    "simplified": "批评",
+    "traditional": "批評",
+    "pinyin": "pī píng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to criticize; criticism",
+      "CL:次,番"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0533",
+    "simplified": "批准",
+    "pinyin": "pī zhǔn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to approve; to ratify"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0534",
+    "simplified": "皮",
+    "pinyin": "pí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "skin; peel; rind; outer layer",
+      "leather; hide; fur",
+      "cover; wrapping; outer covering",
+      "(of food) no longer crisp; soggy",
+      "(coll.) naughty; mischievous",
+      "pico- (10⁻¹²)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0535",
+    "simplified": "皮包",
+    "pinyin": "pí bāo",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "handbag",
+      "briefcase"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0536",
+    "simplified": "啤酒",
+    "pinyin": "pí jiǔ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "beer (loanword)",
+      "CL:杯,瓶,罐,桶,缸"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0537",
+    "simplified": "票价",
+    "traditional": "票價",
+    "pinyin": "piào jià",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "ticket price; fare; admission fee"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0538",
+    "simplified": "评价",
+    "traditional": "評價",
+    "pinyin": "píng jià",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to evaluate",
+      "to assess"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0539",
+    "simplified": "苹果",
+    "traditional": "蘋果",
+    "pinyin": "píng guǒ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "apple",
+      "CL:個/个,顆/颗"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0540",
+    "simplified": "破",
+    "pinyin": "pò",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "broken",
+      "damaged",
+      "worn out",
+      "lousy",
+      "rotten",
+      "to break, split or cleave",
+      "to get rid of",
+      "to destroy",
+      "to break with",
+      "to defeat",
+      "to capture (a city etc)",
+      "to expose the truth of"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0541",
+    "simplified": "破坏",
+    "traditional": "破壞",
+    "pinyin": "pò huài",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "destruction",
+      "damage",
+      "to wreck",
+      "to break",
+      "to destroy"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0542",
+    "simplified": "普遍",
+    "pinyin": "pǔ biàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "universal",
+      "general",
+      "widespread",
+      "common"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0543",
+    "simplified": "普及",
+    "pinyin": "pǔ jí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "to spread extensively",
+      "to generalize",
+      "widespread",
+      "popular",
+      "universal",
+      "ubiquitous",
+      "pervasive"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0544",
+    "simplified": "期",
+    "pinyin": "qī",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "a period of time",
+      "phase",
+      "stage",
+      "classifier for issues of a periodical, courses of study",
+      "time",
+      "term",
+      "period",
+      "to hope",
+      "Taiwan pr."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0545",
+    "simplified": "齐",
+    "traditional": "齊",
+    "pinyin": "qí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "neat",
+      "even",
+      "level with",
+      "identical",
+      "simultaneous",
+      "all together",
+      "to even sth out"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0546",
+    "simplified": "其次",
+    "pinyin": "qí cì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "next",
+      "secondly"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0547",
+    "simplified": "其实",
+    "traditional": "其實",
+    "pinyin": "qí shí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "actually; in fact; really"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0548",
+    "simplified": "奇怪",
+    "pinyin": "qí guài",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "strange",
+      "odd",
+      "to marvel",
+      "to be baffled"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0549",
+    "simplified": "气候",
+    "traditional": "氣候",
+    "pinyin": "qì hòu",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(meteorology) climate",
+      "(fig.) climate; prevailing conditions (in human affairs)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0550",
+    "simplified": "千万",
+    "traditional": "千萬",
+    "pinyin": "qiān wàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "ten million",
+      "countless",
+      "many",
+      "one must by all means"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0551",
+    "simplified": "前后",
+    "traditional": "前後",
+    "pinyin": "qián hòu",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "around",
+      "from beginning to end",
+      "all around",
+      "front and rear"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0552",
+    "simplified": "前进",
+    "traditional": "前進",
+    "pinyin": "qián jìn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to go forward",
+      "to forge ahead",
+      "to advance",
+      "onward"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0553",
+    "simplified": "前面",
+    "pinyin": "qián miàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "ahead",
+      "in front",
+      "preceding",
+      "above",
+      "also pr."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0554",
+    "simplified": "前往",
+    "pinyin": "qián wǎng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to leave for; to proceed towards; to go to"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0555",
+    "simplified": "强",
+    "traditional": "強",
+    "pinyin": "qiáng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "strong",
+      "powerful",
+      "better",
+      "slightly more than",
+      "vigorous",
+      "violent",
+      "best in their category, e.g. see 百強/百强"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0556",
+    "simplified": "强大",
+    "traditional": "強大",
+    "pinyin": "qiáng dà",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "big and strong; formidable; powerful"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0557",
+    "simplified": "强调",
+    "traditional": "強調",
+    "pinyin": "qiáng diào",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to emphasize (a statement)",
+      "to stress"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0558",
+    "simplified": "强烈",
+    "traditional": "強烈",
+    "pinyin": "qiáng liè",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "strong; intense"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0559",
+    "simplified": "桥",
+    "traditional": "橋",
+    "pinyin": "qiáo",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "bridge",
+      "CL:座"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0560",
+    "simplified": "巧",
+    "pinyin": "qiǎo",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "opportunely",
+      "coincidentally",
+      "as it happens",
+      "skillful",
+      "timely"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0561",
+    "simplified": "亲",
+    "traditional": "親",
+    "pinyin": "qīn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "parent",
+      "one's own (flesh and blood)",
+      "relative",
+      "related",
+      "marriage",
+      "bride",
+      "close",
+      "intimate",
+      "in person",
+      "first-hand",
+      "in favor of",
+      "pro-",
+      "to kiss",
+      "(Internet slang) dear"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0562",
+    "simplified": "亲切",
+    "traditional": "親切",
+    "pinyin": "qīn qiè",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "amiable",
+      "cordial",
+      "close and dear",
+      "familiar"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0563",
+    "simplified": "亲人",
+    "traditional": "親人",
+    "pinyin": "qīn rén",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "one's close relatives"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0564",
+    "simplified": "亲自",
+    "traditional": "親自",
+    "pinyin": "qīn zì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "personally",
+      "in person",
+      "oneself"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0565",
+    "simplified": "情感",
+    "pinyin": "qíng gǎn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "feeling",
+      "emotion",
+      "to move (emotionally)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0566",
+    "simplified": "情况",
+    "traditional": "情況",
+    "pinyin": "qíng kuàng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "circumstances; state of affairs; situation",
+      "CL:種/种"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0567",
+    "simplified": "请教",
+    "traditional": "請教",
+    "pinyin": "qǐng jiào",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to ask for guidance",
+      "to consult"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0568",
+    "simplified": "庆祝",
+    "traditional": "慶祝",
+    "pinyin": "qìng zhù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to celebrate"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0569",
+    "simplified": "球迷",
+    "pinyin": "qiú mí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "fan (ball sports)",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0570",
+    "simplified": "区",
+    "traditional": "區",
+    "pinyin": "qū",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "area",
+      "region",
+      "district",
+      "small",
+      "distinguish",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0571",
+    "simplified": "区别",
+    "traditional": "區別",
+    "pinyin": "qū bié",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "difference",
+      "to distinguish",
+      "to discriminate",
+      "to make a distinction",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0572",
+    "simplified": "取消",
+    "pinyin": "qǔ xiāo",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to cancel; to call off; to revoke; to rescind"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0573",
+    "simplified": "去世",
+    "pinyin": "qù shì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to pass away",
+      "to die"
+    ],
+    "needsEnglish": false
+  }
+]

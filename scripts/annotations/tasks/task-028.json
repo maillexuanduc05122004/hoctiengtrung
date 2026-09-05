@@ -1,0 +1,665 @@
+[
+  {
+    "id": "L2-0716",
+    "simplified": "长大",
+    "traditional": "長大",
+    "pinyin": "zhǎng dà",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to grow up"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0717",
+    "simplified": "找出",
+    "pinyin": "zhǎo chū",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to find",
+      "to search out"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0718",
+    "simplified": "照顾",
+    "traditional": "照顧",
+    "pinyin": "zhào gu",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to take care of",
+      "to show consideration",
+      "to attend to",
+      "to look after"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0719",
+    "simplified": "照片",
+    "pinyin": "zhào piàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "photograph",
+      "CL:張/张,幅"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0720",
+    "simplified": "照相",
+    "pinyin": "zhào xiàng",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to take a photograph"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0721",
+    "simplified": "这么",
+    "traditional": "這麼",
+    "pinyin": "zhè me",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "so much",
+      "this much",
+      "how much?",
+      "this way",
+      "like this"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0722",
+    "simplified": "这时候",
+    "traditional": "這時候",
+    "pinyin": "zhè shí hou",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "at this time",
+      "at this moment"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0723",
+    "simplified": "这样",
+    "traditional": "這樣",
+    "pinyin": "zhè yàng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "this way; like this; so",
+      "(before a noun) this kind of; such"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0724",
+    "simplified": "真正",
+    "pinyin": "zhēn zhèng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "genuine; real; true",
+      "really; indeed"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0725",
+    "simplified": "正常",
+    "pinyin": "zhèng cháng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "normal; regular"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0726",
+    "simplified": "正好",
+    "pinyin": "zhèng hǎo",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "just (in time)",
+      "just right",
+      "just enough",
+      "to happen to",
+      "to chance to",
+      "by chance",
+      "it just so happens that"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0727",
+    "simplified": "正确",
+    "traditional": "正確",
+    "pinyin": "zhèng què",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "correct; sound; right; proper"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0728",
+    "simplified": "正是",
+    "pinyin": "zhèng shì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "is precisely"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0729",
+    "simplified": "直接",
+    "pinyin": "zhí jiē",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "direct (opposite: indirect 間接/间接)",
+      "immediate",
+      "straightforward"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0730",
+    "simplified": "只",
+    "pinyin": "zhǐ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "only; merely; just"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0905",
+        "pinyin": "zhī",
+        "partOfSpeech": [
+          "M"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0731",
+    "simplified": "只能",
+    "pinyin": "zhǐ néng",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "can only",
+      "obliged to do sth",
+      "to have no other choice"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0732",
+    "simplified": "只要",
+    "pinyin": "zhǐ yào",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "so long as; provided; if"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0733",
+    "simplified": "纸",
+    "traditional": "紙",
+    "pinyin": "zhǐ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "paper (CL:張/张,沓)",
+      "classifier for documents, letters etc"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0734",
+    "simplified": "中餐",
+    "pinyin": "zhōng cān",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "lunch",
+      "Chinese meal; Chinese food",
+      "CL:份,頓/顿"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0735",
+    "simplified": "中级",
+    "traditional": "中級",
+    "pinyin": "zhōng jí",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "middle level (in a hierarchy)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0736",
+    "simplified": "中年",
+    "pinyin": "zhōng nián",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "middle age"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0737",
+    "simplified": "中小学",
+    "traditional": "中小學",
+    "pinyin": "zhōng xiǎo xué",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "middle and elementary school"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0738",
+    "simplified": "中心",
+    "pinyin": "zhōng xīn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "center; heart; core"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0739",
+    "simplified": "中医",
+    "traditional": "中醫",
+    "pinyin": "zhōng yī",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "traditional Chinese medical science",
+      "a doctor trained in Chinese medicine"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0740",
+    "simplified": "重点",
+    "traditional": "重點",
+    "pinyin": "zhòng diǎn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "important point; main point; focus",
+      "key (project etc)",
+      "to focus on; to put the emphasis on"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0741",
+    "simplified": "重视",
+    "traditional": "重視",
+    "pinyin": "zhòng shì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to attach importance to sth; to value"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0742",
+    "simplified": "周",
+    "traditional": "週",
+    "pinyin": "zhōu",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "week",
+      "weekly",
+      "variant of 周"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0743",
+    "simplified": "周末",
+    "traditional": "週末",
+    "pinyin": "zhōu mò",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "weekend"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0744",
+    "simplified": "周年",
+    "traditional": "週年",
+    "pinyin": "zhōu nián",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "anniversary",
+      "annual"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0745",
+    "simplified": "主人",
+    "pinyin": "zhǔ rén",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "owner",
+      "host",
+      "master"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0746",
+    "simplified": "主要",
+    "pinyin": "zhǔ yào",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "main; principal; major; primary"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0747",
+    "simplified": "住房",
+    "pinyin": "zhù fáng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "housing"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0748",
+    "simplified": "住院",
+    "pinyin": "zhù yuàn",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to stay in hospital; to be hospitalized"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0749",
+    "simplified": "装",
+    "traditional": "裝",
+    "pinyin": "zhuāng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "adornment",
+      "to adorn",
+      "dress",
+      "clothing",
+      "costume (of an actor in a play)",
+      "to play a role",
+      "to pretend",
+      "to install",
+      "to fix",
+      "to wrap (sth in a bag)",
+      "to load",
+      "to pack"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0750",
+    "simplified": "准确",
+    "traditional": "準確",
+    "pinyin": "zhǔn què",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "accurate; exact; precise"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0751",
+    "simplified": "自己",
+    "pinyin": "zì jǐ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "oneself; (attributive) one's own"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0752",
+    "simplified": "自行车",
+    "traditional": "自行車",
+    "pinyin": "zì xíng chē",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "bicycle; bike",
+      "CL:輛/辆"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0753",
+    "simplified": "自由",
+    "pinyin": "zì yóu",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "freedom; liberty",
+      "free; unrestricted"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0754",
+    "simplified": "字典",
+    "pinyin": "zì diǎn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "Chinese character dictionary (containing entries for single characters, contrasted with a 詞典/词典, which has entries for words of one or more characters)",
+      "(coll.) dictionary",
+      "CL:本"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0755",
+    "simplified": "走过",
+    "traditional": "走過",
+    "pinyin": "zǒu guò",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to walk past",
+      "to pass by"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0756",
+    "simplified": "走进",
+    "traditional": "走進",
+    "pinyin": "zǒu jìn",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to enter; to step into"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0757",
+    "simplified": "走开",
+    "traditional": "走開",
+    "pinyin": "zǒu kāi",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to leave; to walk away; to beat it",
+      "to move aside"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0758",
+    "simplified": "租",
+    "pinyin": "zū",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to hire",
+      "to rent",
+      "to charter",
+      "to rent out",
+      "to lease out",
+      "rent",
+      "land tax"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0759",
+    "simplified": "组",
+    "traditional": "組",
+    "pinyin": "zǔ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to form",
+      "to organize",
+      "group",
+      "team",
+      "classifier for sets, series, groups of people, batteries"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0760",
+    "simplified": "组成",
+    "traditional": "組成",
+    "pinyin": "zǔ chéng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to form",
+      "to make up",
+      "to constitute"
+    ],
+    "needsEnglish": false
+  }
+]

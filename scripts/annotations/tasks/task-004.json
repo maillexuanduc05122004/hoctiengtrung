@@ -1,0 +1,780 @@
+[
+  {
+    "id": "L1-0136",
+    "simplified": "汉语",
+    "traditional": "漢語",
+    "pinyin": "hàn yǔ",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "Chinese language"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0137",
+    "simplified": "汉字",
+    "traditional": "漢字",
+    "pinyin": "hàn zì",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "Chinese character(s)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0138",
+    "simplified": "好",
+    "pinyin": "hǎo",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "good",
+      "appropriate; proper",
+      "all right!",
+      "(before a verb) easy to",
+      "(before a verb) good to",
+      "(before an adjective for exclamatory effect) so",
+      "(verb complement indicating completion)",
+      "(of two people) close; on intimate terms",
+      "(after a form of address) hello"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0214",
+        "pinyin": "hǎo",
+        "partOfSpeech": [
+          "Adv"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0139",
+    "simplified": "好吃",
+    "pinyin": "hǎo chī",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "tasty; delicious"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0140",
+    "simplified": "好看",
+    "pinyin": "hǎo kàn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "good-looking; nice-looking",
+      "(of a movie, book, TV show etc) good",
+      "in an embarrassing situation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0141",
+    "simplified": "好听",
+    "traditional": "好聽",
+    "pinyin": "hǎo tīng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "pleasant to hear"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0142",
+    "simplified": "好玩儿",
+    "traditional": "好玩兒",
+    "pinyin": "hǎo wánr",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "erhua variant of 好玩"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0143",
+    "simplified": "号",
+    "traditional": "號",
+    "pinyin": "hào",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "(literary) to call out; to command",
+      "(bound form) bugle; trumpet",
+      "(bound form) signal; bugle call (e.g. 起床號/起床号)",
+      "(bound form) mark; sign",
+      "to mark; to label; to assign a number",
+      "(bound form) name; appellation (e.g. 國號/国号, 年號/年号, 遼寧號/辽宁号)",
+      "(after a numeral) number designation (e.g. 237號房間/237号房间 \"Room 237\")",
+      "day of the month (e.g. 七號/七号 \"the 7th\")",
+      "(bound form) size; type; category (e.g. 五號電池/五号电池)",
+      "(TCM) to feel (the pulse) (used in 號脈/号脉)",
+      "classifier for numbered people or items"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0144",
+    "simplified": "喝",
+    "pinyin": "hē",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to drink",
+      "variant of 嗬"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0145",
+    "simplified": "和",
+    "pinyin": "hé",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Prep",
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "(joining two nouns) and; together with; with (Taiwan pr. )",
+      "(math.) sum",
+      "to make peace",
+      "(sports) to draw; to tie",
+      "(bound form) harmonious",
+      "(bound form) Japan; Japanese"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0146",
+    "simplified": "很",
+    "pinyin": "hěn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "very; quite",
+      "(also, often used before an adjective without intensifying its meaning, i.e. as a meaningless syntactic element)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0147",
+    "simplified": "后",
+    "traditional": "後",
+    "pinyin": "hòu",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "back",
+      "behind",
+      "rear",
+      "afterwards",
+      "after",
+      "later",
+      "post-"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0148",
+    "simplified": "后边",
+    "traditional": "後邊",
+    "pinyin": "hòu bian",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the back; the rear; the last bit",
+      "behind; near the end; at the back",
+      "later; afterwards"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0149",
+    "simplified": "后天",
+    "traditional": "後天",
+    "pinyin": "hòu tiān",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the day after tomorrow",
+      "life after birth (the period in which one develops through experiences, contrasted with 先天)",
+      "acquired (not innate or congenital)",
+      "a posteriori"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0150",
+    "simplified": "花",
+    "pinyin": "huā",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "flower",
+      "blossom",
+      "CL:朵,支,束,把,盆,簇",
+      "fancy pattern",
+      "florid",
+      "to spend (money, time)",
+      "(coll.) lecherous",
+      "lustful"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0232",
+        "pinyin": "huā",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0151",
+    "simplified": "话",
+    "traditional": "話",
+    "pinyin": "huà",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "dialect",
+      "language",
+      "spoken words",
+      "speech",
+      "talk",
+      "words",
+      "conversation",
+      "what sb said",
+      "CL:種/种,席,句,口,番"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0152",
+    "simplified": "坏",
+    "traditional": "壞",
+    "pinyin": "huài",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "bad",
+      "spoiled",
+      "broken",
+      "to break down",
+      "(suffix) to the utmost"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0153",
+    "simplified": "还",
+    "traditional": "還",
+    "pinyin": "huán",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to pay back",
+      "to return"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0132",
+        "pinyin": "hái",
+        "partOfSpeech": [
+          "Adv"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0154",
+    "simplified": "回",
+    "pinyin": "huí",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to go back; to return; to turn back; to turn around",
+      "to reply; to answer",
+      "classifier for literary divisions (acts of a play, sections or chapters of a classic book)",
+      "classifier for occurrences or times"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0243",
+        "pinyin": "huí",
+        "partOfSpeech": [
+          "M"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0155",
+    "simplified": "回答",
+    "pinyin": "huí dá",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to reply; to answer",
+      "reply; answer"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0156",
+    "simplified": "回到",
+    "pinyin": "huí dào",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to return to"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0157",
+    "simplified": "回家",
+    "pinyin": "huí jiā",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to return home"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0158",
+    "simplified": "回来",
+    "traditional": "回來",
+    "pinyin": "huí lai",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to return; to come back"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0159",
+    "simplified": "回去",
+    "pinyin": "huí qu",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to return",
+      "to go back"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0160",
+    "simplified": "会",
+    "traditional": "會",
+    "pinyin": "huì",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "can; to have the skill; to know how to",
+      "to be likely to; to be sure to",
+      "to meet; to get together",
+      "meeting; gathering",
+      "(suffix) union; group; association",
+      "(bound form) a moment (Taiwan pr. )"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0245",
+        "pinyin": "huì",
+        "partOfSpeech": [
+          "N"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0161",
+    "simplified": "火车",
+    "traditional": "火車",
+    "pinyin": "huǒ chē",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "train",
+      "CL:列,節/节,班,趟"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0162",
+    "simplified": "机场",
+    "traditional": "機場",
+    "pinyin": "jī chǎng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "airport; airfield",
+      "(slang) service provider for Shadowsocks or similar software for circumventing Internet censorship",
+      "CL:家,處/处"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0163",
+    "simplified": "机票",
+    "traditional": "機票",
+    "pinyin": "jī piào",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "plane ticket; airline ticket",
+      "CL:張/张"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0164",
+    "simplified": "鸡蛋",
+    "traditional": "雞蛋",
+    "pinyin": "jī dàn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(chicken) egg",
+      "hen's egg",
+      "CL:個/个,打"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0165",
+    "simplified": "几",
+    "traditional": "幾",
+    "pinyin": "jǐ",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Num",
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "how many; how much",
+      "several; a few"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0166",
+    "simplified": "记",
+    "traditional": "記",
+    "pinyin": "jì",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to record",
+      "to note",
+      "to memorize",
+      "to remember",
+      "mark",
+      "sign",
+      "classifier for blows, kicks, shots"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0167",
+    "simplified": "记得",
+    "traditional": "記得",
+    "pinyin": "jì de",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to remember"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0168",
+    "simplified": "记住",
+    "traditional": "記住",
+    "pinyin": "jì zhu",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to remember",
+      "to bear in mind",
+      "to learn by heart"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0169",
+    "simplified": "家",
+    "pinyin": "jiā",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "home",
+      "family",
+      "(polite) my (sister, uncle etc)",
+      "classifier for families or businesses",
+      "refers to the philosophical schools of pre-Han China",
+      "noun suffix for a specialist in some activity, such as a musician or revolutionary, corresponding to English -ist, -er, -ary or -ian",
+      "CL:個/个"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0257",
+        "pinyin": "jiā",
+        "partOfSpeech": [
+          "Suffix"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0170",
+    "simplified": "家里",
+    "traditional": "家裡",
+    "pinyin": "jiā lǐ",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "home"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0171",
+    "simplified": "家人",
+    "pinyin": "jiā rén",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "family member",
+      "(old) servant"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0172",
+    "simplified": "间",
+    "traditional": "間",
+    "pinyin": "jiān",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "between",
+      "among",
+      "within a definite time or space",
+      "room",
+      "section of a room or lateral space between two pairs of pillars",
+      "classifier for rooms"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0173",
+    "simplified": "见",
+    "traditional": "見",
+    "pinyin": "jiàn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to see",
+      "to meet",
+      "to appear (to be sth)",
+      "to interview",
+      "opinion",
+      "view"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0174",
+    "simplified": "见面",
+    "traditional": "見面",
+    "pinyin": "jiàn miàn",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to meet; to see each other",
+      "CL:次"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0175",
+    "simplified": "教",
+    "pinyin": "jiāo",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to teach; to instruct"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0176",
+    "simplified": "叫",
+    "pinyin": "jiào",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to shout",
+      "to call",
+      "to order",
+      "to ask",
+      "to be called",
+      "by (indicates agent in the passive mood)"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0355",
+        "pinyin": "jiào",
+        "partOfSpeech": [
+          "Prep"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0177",
+    "simplified": "教学楼",
+    "traditional": "教學樓",
+    "pinyin": "jiào xué lóu",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "school building; academic building"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0178",
+    "simplified": "姐姐",
+    "pinyin": "jiě jie",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "older sister",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0179",
+    "simplified": "介绍",
+    "traditional": "介紹",
+    "pinyin": "jiè shào",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to introduce (sb to sb)",
+      "to give a presentation",
+      "to present (sb for a job etc)",
+      "introduction"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0180",
+    "simplified": "今年",
+    "pinyin": "jīn nián",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "this year"
+    ],
+    "needsEnglish": false
+  }
+]

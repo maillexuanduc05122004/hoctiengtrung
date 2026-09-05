@@ -1,0 +1,786 @@
+[
+  {
+    "id": "L2-0086",
+    "simplified": "打工",
+    "pinyin": "dǎ gōng",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to work a temporary or casual job",
+      "(of students) to have a job outside of class time, or during vacation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0087",
+    "simplified": "打算",
+    "pinyin": "dǎ suàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to plan",
+      "to intend",
+      "to calculate",
+      "plan",
+      "intention",
+      "calculation",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0088",
+    "simplified": "打印",
+    "pinyin": "dǎ yìn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to affix a seal",
+      "to stamp",
+      "to print out (with a printer)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0089",
+    "simplified": "大部分",
+    "pinyin": "dà bù fen",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the greater part; the majority; most",
+      "Taiwan pr."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0090",
+    "simplified": "大大",
+    "pinyin": "dà dà",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "greatly",
+      "enormously",
+      "(dialect) dad",
+      "uncle"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0091",
+    "simplified": "大多数",
+    "traditional": "大多數",
+    "pinyin": "dà duō shù",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(great) majority"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0092",
+    "simplified": "大海",
+    "pinyin": "dà hǎi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "sea",
+      "ocean"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0093",
+    "simplified": "大家",
+    "pinyin": "dà jiā",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "everyone",
+      "influential family",
+      "great expert"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0094",
+    "simplified": "大量",
+    "pinyin": "dà liàng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "great amount",
+      "large quantity",
+      "bulk",
+      "numerous",
+      "generous",
+      "magnanimous"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0095",
+    "simplified": "大门",
+    "traditional": "大門",
+    "pinyin": "dà mén",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "entrance",
+      "door",
+      "gate",
+      "large and influential family"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0096",
+    "simplified": "大人",
+    "pinyin": "dà ren",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "adult",
+      "grownup",
+      "title of respect toward superiors"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0097",
+    "simplified": "大声",
+    "traditional": "大聲",
+    "pinyin": "dà shēng",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "loud voice",
+      "in a loud voice",
+      "loudly"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0098",
+    "simplified": "大小",
+    "pinyin": "dà xiǎo",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "large and small",
+      "size",
+      "adults and children",
+      "consideration of seniority",
+      "at any rate"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0099",
+    "simplified": "大衣",
+    "pinyin": "dà yī",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "overcoat",
+      "topcoat",
+      "cloak",
+      "CL:件"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0100",
+    "simplified": "大自然",
+    "pinyin": "dà zì rán",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "nature (the natural world)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0101",
+    "simplified": "带",
+    "traditional": "帶",
+    "pinyin": "dài",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "band",
+      "belt",
+      "girdle",
+      "ribbon",
+      "tire",
+      "area",
+      "zone",
+      "region",
+      "CL:條/条",
+      "to wear",
+      "to carry",
+      "to take along",
+      "to bear (i.e. to have)",
+      "to lead",
+      "to bring",
+      "to look after",
+      "to raise"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0102",
+    "simplified": "带来",
+    "traditional": "帶來",
+    "pinyin": "dài lái",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to bring",
+      "(fig.) to bring about; to produce"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0103",
+    "simplified": "单位",
+    "traditional": "單位",
+    "pinyin": "dān wèi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "unit (of measure)",
+      "unit (group of people as a whole)",
+      "work unit (place of employment, esp. in the PRC prior to economic reform)",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0104",
+    "simplified": "但",
+    "pinyin": "dàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "but; yet; however; still",
+      "merely; only; just"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0105",
+    "simplified": "但是",
+    "pinyin": "dàn shì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "but; however"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0106",
+    "simplified": "蛋",
+    "pinyin": "dàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "egg",
+      "CL:個/个,打",
+      "oval-shaped thing"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0107",
+    "simplified": "当",
+    "traditional": "當",
+    "pinyin": "dāng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "Prep"
+    ],
+    "cedictDefinitions": [
+      "to be",
+      "to act as",
+      "manage",
+      "withstand",
+      "when",
+      "during",
+      "ought",
+      "should",
+      "match equally",
+      "equal",
+      "same",
+      "obstruct",
+      "just at (a time or place)",
+      "on the spot",
+      "right",
+      "just at"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0108",
+    "simplified": "当时",
+    "traditional": "當時",
+    "pinyin": "dāng shí",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "then; at that time"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0109",
+    "simplified": "倒",
+    "pinyin": "dǎo",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to fall; to collapse; to lie horizontally",
+      "to fail; to go bankrupt",
+      "to overthrow",
+      "to change (trains or buses)",
+      "to move around",
+      "to resell at a profit"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0111",
+        "pinyin": "dào",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0110",
+    "simplified": "到处",
+    "traditional": "到處",
+    "pinyin": "dào chù",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "everywhere"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0111",
+    "simplified": "倒",
+    "pinyin": "dào",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to invert; to place upside down or frontside back",
+      "to pour out",
+      "to tip out; to dump",
+      "inverted; upside down; reversed",
+      "to go backward",
+      "contrary to what one might expect; but; yet"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0109",
+        "pinyin": "dǎo",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0112",
+    "simplified": "道",
+    "pinyin": "dào",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "road; path (CL:條/条,股)",
+      "(bound form) way; reason; principle",
+      "(bound form) a skill; an art; a specialization",
+      "(Daoism) the Way; the Dao",
+      "to say (introducing a direct quotation, as in a novel)",
+      "(bound form) to express; to extend (polite words)",
+      "classifier for long thin things (rivers, cracks, shadows etc), barriers (walls, doors etc), questions (in an exam etc), commands, courses in a meal, steps in a process",
+      "(old) circuit (administrative division)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0113",
+    "simplified": "道理",
+    "pinyin": "dào li",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "reason",
+      "argument",
+      "sense",
+      "principle",
+      "basis",
+      "justification",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0114",
+    "simplified": "道路",
+    "pinyin": "dào lù",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "road",
+      "path",
+      "way",
+      "CL:條/条"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0115",
+    "simplified": "得",
+    "pinyin": "dé",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to obtain",
+      "to get",
+      "to gain",
+      "to catch (a disease)",
+      "proper",
+      "suitable",
+      "proud",
+      "contented",
+      "to allow",
+      "to permit",
+      "ready",
+      "finished"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0118",
+        "pinyin": "de",
+        "partOfSpeech": [
+          "Aux"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0116",
+    "simplified": "得出",
+    "pinyin": "dé chū",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to obtain (a result); to arrive at (a conclusion)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0117",
+    "simplified": "的话",
+    "traditional": "的話",
+    "pinyin": "de huà",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Aux"
+    ],
+    "cedictDefinitions": [
+      "if (coming after a conditional clause)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0118",
+    "simplified": "得",
+    "pinyin": "de",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Aux"
+    ],
+    "cedictDefinitions": [
+      "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0115",
+        "pinyin": "dé",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0119",
+    "simplified": "灯",
+    "traditional": "燈",
+    "pinyin": "dēng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "lamp",
+      "light",
+      "lantern",
+      "CL:盞/盏"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0120",
+    "simplified": "等",
+    "pinyin": "děng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Aux",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to wait for; to await",
+      "by the time; when; till",
+      "and so on; etc.; et al.",
+      "(bound form) class; rank; grade",
+      "(bound form) equal to; same as",
+      "(used to end an enumeration)",
+      "(literary) (plural suffix attached to a personal pronoun or noun)"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0068",
+        "pinyin": "děng",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0121",
+    "simplified": "等到",
+    "pinyin": "děng dào",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Prep"
+    ],
+    "cedictDefinitions": [
+      "to wait until",
+      "by the time when (sth is ready etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0122",
+    "simplified": "等于",
+    "traditional": "等於",
+    "pinyin": "děng yú",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to equal",
+      "to be tantamount to"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0123",
+    "simplified": "低",
+    "pinyin": "dī",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "low",
+      "beneath",
+      "to lower (one's head)",
+      "to let droop",
+      "to hang down",
+      "to incline"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0124",
+    "simplified": "地球",
+    "pinyin": "dì qiú",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the earth"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0125",
+    "simplified": "地铁",
+    "traditional": "地鐵",
+    "pinyin": "dì tiě",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "underground railway; subway",
+      "subway train"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0126",
+    "simplified": "地铁站",
+    "traditional": "地鐵站",
+    "pinyin": "dì tiě zhàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "subway station"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0127",
+    "simplified": "点头",
+    "traditional": "點頭",
+    "pinyin": "diǎn tóu",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to nod"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0128",
+    "simplified": "店",
+    "pinyin": "diàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "inn; old-style hotel (CL:家)",
+      "(bound form) shop; store"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0129",
+    "simplified": "掉",
+    "pinyin": "diào",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to fall",
+      "to drop",
+      "to lag behind",
+      "to lose",
+      "to go missing",
+      "to reduce",
+      "fall (in prices)",
+      "to lose (value, weight etc)",
+      "to wag",
+      "to swing",
+      "to turn",
+      "to change",
+      "to exchange",
+      "to swap",
+      "to show off",
+      "to shed (hair)",
+      "(used after certain verbs to express completion, fulfillment, removal etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0130",
+    "simplified": "东北",
+    "traditional": "東北",
+    "pinyin": "dōng běi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "northeast"
+    ],
+    "needsEnglish": false
+  }
+]

@@ -1,0 +1,692 @@
+[
+  {
+    "id": "L1-0361",
+    "simplified": "听",
+    "traditional": "聽",
+    "pinyin": "tīng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to listen to; to hear",
+      "to heed; to obey",
+      "a can (loanword from English \"tin\")",
+      "classifier for canned beverages",
+      "to let be; to allow (Taiwan pr. )",
+      "(literary) to administer; to deal with (Taiwan pr. )"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0362",
+    "simplified": "听到",
+    "traditional": "聽到",
+    "pinyin": "tīng dào",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to hear"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0363",
+    "simplified": "听见",
+    "traditional": "聽見",
+    "pinyin": "tīng jiàn",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to hear"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0364",
+    "simplified": "听写",
+    "traditional": "聽寫",
+    "pinyin": "tīng xiě",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "(of a pupil) to write down (in a dictation exercise); dictation",
+      "(music) to transcribe by ear"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0365",
+    "simplified": "同学",
+    "traditional": "同學",
+    "pinyin": "tóng xué",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to study at the same school",
+      "fellow student",
+      "classmate",
+      "CL:位,個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0366",
+    "simplified": "图书馆",
+    "traditional": "圖書館",
+    "pinyin": "tú shū guǎn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "library",
+      "CL:家,個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0367",
+    "simplified": "外",
+    "pinyin": "wài",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "outside",
+      "in addition",
+      "foreign",
+      "external"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0368",
+    "simplified": "外边",
+    "traditional": "外邊",
+    "pinyin": "wài bian",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "outside",
+      "outer surface",
+      "abroad",
+      "place other than one's home"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0369",
+    "simplified": "外国",
+    "traditional": "外國",
+    "pinyin": "wài guó",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "foreign country"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0370",
+    "simplified": "外语",
+    "traditional": "外語",
+    "pinyin": "wài yǔ",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "foreign language",
+      "CL:門/门"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0371",
+    "simplified": "玩儿",
+    "traditional": "玩兒",
+    "pinyin": "wánr",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to play",
+      "to have fun",
+      "to hang out"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0372",
+    "simplified": "晚",
+    "pinyin": "wǎn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "evening",
+      "night",
+      "late"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0373",
+    "simplified": "晚饭",
+    "traditional": "晚飯",
+    "pinyin": "wǎn fàn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "evening meal",
+      "dinner",
+      "supper",
+      "CL:份,頓/顿,次,餐"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0374",
+    "simplified": "晚上",
+    "pinyin": "wǎn shang",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "evening",
+      "night",
+      "CL:個/个",
+      "in the evening"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0375",
+    "simplified": "网上",
+    "traditional": "網上",
+    "pinyin": "wǎng shàng",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "online"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0376",
+    "simplified": "网友",
+    "traditional": "網友",
+    "pinyin": "wǎng yǒu",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "online friend",
+      "netizen; Internet user"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0377",
+    "simplified": "忘",
+    "pinyin": "wàng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to forget",
+      "to overlook",
+      "to neglect"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0378",
+    "simplified": "忘记",
+    "traditional": "忘記",
+    "pinyin": "wàng jì",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to forget"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0379",
+    "simplified": "问",
+    "traditional": "問",
+    "pinyin": "wèn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to ask; to inquire"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0380",
+    "simplified": "我",
+    "pinyin": "wǒ",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "I; me; my"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0381",
+    "simplified": "我们",
+    "traditional": "我們",
+    "pinyin": "wǒ men",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "we; us; ourselves; our"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0382",
+    "simplified": "五",
+    "pinyin": "wǔ",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Num"
+    ],
+    "cedictDefinitions": [
+      "five",
+      "5"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0383",
+    "simplified": "午饭",
+    "traditional": "午飯",
+    "pinyin": "wǔ fàn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "lunch",
+      "CL:份,頓/顿,次,餐"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0384",
+    "simplified": "西",
+    "pinyin": "xī",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "west"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0385",
+    "simplified": "西边",
+    "traditional": "西邊",
+    "pinyin": "xī biān",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "west",
+      "west side",
+      "western part",
+      "to the west of"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0386",
+    "simplified": "洗",
+    "pinyin": "xǐ",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to wash; to bathe",
+      "to develop (photographs)",
+      "to shuffle (cards etc)",
+      "to erase (a recording)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0387",
+    "simplified": "洗手间",
+    "traditional": "洗手間",
+    "pinyin": "xǐ shǒu jiān",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "toilet",
+      "lavatory",
+      "washroom"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0388",
+    "simplified": "喜欢",
+    "traditional": "喜歡",
+    "pinyin": "xǐ huan",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to like; to be fond of"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0389",
+    "simplified": "下",
+    "pinyin": "xià",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "down",
+      "downwards",
+      "below",
+      "lower",
+      "later",
+      "next (week etc)",
+      "second (of two parts)",
+      "to decline",
+      "to go down",
+      "to arrive at (a decision, conclusion etc)",
+      "measure word to show the frequency of an action"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0589",
+        "pinyin": "xià",
+        "partOfSpeech": [
+          "M"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0390",
+    "simplified": "下班",
+    "pinyin": "xià bān",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to finish work; to get off work",
+      "next service (train, bus etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0391",
+    "simplified": "下边",
+    "traditional": "下邊",
+    "pinyin": "xià bian",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "under",
+      "the underside",
+      "below"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0392",
+    "simplified": "下车",
+    "traditional": "下車",
+    "pinyin": "xià chē",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to get off or out of (a bus, train, car etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0393",
+    "simplified": "下次",
+    "pinyin": "xià cì",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "next time"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0394",
+    "simplified": "下课",
+    "traditional": "下課",
+    "pinyin": "xià kè",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to finish class",
+      "to get out of class",
+      "(fig.) (esp. of a sports coach) to be dismissed",
+      "to be fired"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0395",
+    "simplified": "下午",
+    "pinyin": "xià wǔ",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "afternoon",
+      "CL:個/个",
+      "p.m."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0396",
+    "simplified": "下雨",
+    "pinyin": "xià yǔ",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to rain"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0397",
+    "simplified": "先",
+    "pinyin": "xiān",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "beforehand; first; earlier",
+      "at first; originally",
+      "for the time being; for now",
+      "(prefix) my late (in referring to deceased relatives older than oneself)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0398",
+    "simplified": "先生",
+    "pinyin": "xiān sheng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "teacher",
+      "gentleman; sir; mister (Mr.)",
+      "husband",
+      "(dialect) doctor",
+      "CL:位"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0399",
+    "simplified": "现在",
+    "traditional": "現在",
+    "pinyin": "xiàn zài",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "now; at present; currently"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0400",
+    "simplified": "想",
+    "pinyin": "xiǎng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to think (about)",
+      "to think of; to devise",
+      "to think (that); to believe (that)",
+      "to desire; to want (to)",
+      "to miss (feel wistful about the absence of)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0401",
+    "simplified": "小",
+    "pinyin": "xiǎo",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "small",
+      "tiny",
+      "few",
+      "young"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0602",
+        "pinyin": "xiǎo",
+        "partOfSpeech": [
+          "Prefix"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0402",
+    "simplified": "小孩儿",
+    "traditional": "小孩兒",
+    "pinyin": "xiǎo háir",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "erhua variant of 小孩"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0403",
+    "simplified": "小姐",
+    "pinyin": "xiǎo jie",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "young lady",
+      "miss",
+      "(slang) prostitute",
+      "CL:個/个,位"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0404",
+    "simplified": "小朋友",
+    "pinyin": "xiǎo péng yǒu",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "child; kid (used to refer to a child, or by an adult to address a child, or, in Taiwan, to refer to sb's own child)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0405",
+    "simplified": "小时",
+    "traditional": "小時",
+    "pinyin": "xiǎo shí",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "hour",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  }
+]

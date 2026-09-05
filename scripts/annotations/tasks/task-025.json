@@ -1,0 +1,715 @@
+[
+  {
+    "id": "L2-0581",
+    "simplified": "西北",
+    "pinyin": "xī běi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "northwest"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0582",
+    "simplified": "西餐",
+    "pinyin": "xī cān",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "Western-style food",
+      "CL:份,頓/顿"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0583",
+    "simplified": "西方",
+    "pinyin": "xī fāng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the West",
+      "the Occident",
+      "Western countries"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0584",
+    "simplified": "西南",
+    "pinyin": "xī nán",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "southwest"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0585",
+    "simplified": "西医",
+    "traditional": "西醫",
+    "pinyin": "xī yī",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "Western medicine",
+      "a doctor trained in Western medicine"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0586",
+    "simplified": "习惯",
+    "traditional": "習慣",
+    "pinyin": "xí guàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "habit",
+      "custom",
+      "usual practice",
+      "to be used to",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0587",
+    "simplified": "洗衣机",
+    "traditional": "洗衣機",
+    "pinyin": "xǐ yī jī",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "washing machine; washer",
+      "CL:臺/台"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0588",
+    "simplified": "洗澡",
+    "pinyin": "xǐ zǎo",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to bathe",
+      "to take a shower"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0589",
+    "simplified": "下",
+    "pinyin": "xià",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "down",
+      "downwards",
+      "below",
+      "lower",
+      "later",
+      "next (week etc)",
+      "second (of two parts)",
+      "to decline",
+      "to go down",
+      "to arrive at (a decision, conclusion etc)",
+      "measure word to show the frequency of an action"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0389",
+        "pinyin": "xià",
+        "partOfSpeech": [
+          "N",
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0590",
+    "simplified": "下雪",
+    "pinyin": "xià xuě",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to snow"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0591",
+    "simplified": "下周",
+    "traditional": "下週",
+    "pinyin": "xià zhōu",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "next week"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0592",
+    "simplified": "夏天",
+    "pinyin": "xià tiān",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "summer",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0593",
+    "simplified": "相同",
+    "pinyin": "xiāng tóng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "identical; same"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0594",
+    "simplified": "相信",
+    "pinyin": "xiāng xìn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to believe; to be convinced; to accept as true"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0595",
+    "simplified": "响",
+    "traditional": "響",
+    "pinyin": "xiǎng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "echo",
+      "sound",
+      "noise",
+      "to make a sound",
+      "to sound",
+      "to ring",
+      "loud",
+      "classifier for noises"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0596",
+    "simplified": "想到",
+    "pinyin": "xiǎng dào",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to think of",
+      "to call to mind",
+      "to anticipate"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0597",
+    "simplified": "想法",
+    "pinyin": "xiǎng fǎ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "way of thinking; opinion; notion",
+      "to think of a way (to do sth)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0598",
+    "simplified": "想起",
+    "pinyin": "xiǎng qǐ",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to recall",
+      "to think of",
+      "to call to mind"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0599",
+    "simplified": "向",
+    "pinyin": "xiàng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Prep",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "towards",
+      "to face",
+      "to turn towards",
+      "direction",
+      "to support",
+      "to side with",
+      "shortly before",
+      "formerly",
+      "always",
+      "all along",
+      "(suffix) suitable for ...",
+      "oriented to ..."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0600",
+    "simplified": "相机",
+    "traditional": "相機",
+    "pinyin": "xiàng jī",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "camera (abbr. for 照相機/照相机)",
+      "at the opportune moment",
+      "as the circumstances allow"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0601",
+    "simplified": "像",
+    "pinyin": "xiàng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to resemble",
+      "to be like",
+      "to look as if",
+      "such as",
+      "appearance",
+      "image",
+      "portrait",
+      "image under a mapping (math.)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0602",
+    "simplified": "小",
+    "pinyin": "xiǎo",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Prefix"
+    ],
+    "cedictDefinitions": [
+      "small",
+      "tiny",
+      "few",
+      "young"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0401",
+        "pinyin": "xiǎo",
+        "partOfSpeech": [
+          "Adj"
+        ]
+      }
+    ],
+    "affixExample": "小王",
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0603",
+    "simplified": "小声",
+    "traditional": "小聲",
+    "pinyin": "xiǎo shēng",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "in a low voice",
+      "(speak) in whispers"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0604",
+    "simplified": "小时候",
+    "traditional": "小時候",
+    "pinyin": "xiǎo shí hou",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "in one's childhood"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0605",
+    "simplified": "小说",
+    "traditional": "小說",
+    "pinyin": "xiǎo shuō",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "novel",
+      "fiction",
+      "CL:本,部"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0606",
+    "simplified": "小心",
+    "pinyin": "xiǎo xīn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to be careful",
+      "to take care"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0607",
+    "simplified": "小组",
+    "traditional": "小組",
+    "pinyin": "xiǎo zǔ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "group"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0608",
+    "simplified": "校园",
+    "traditional": "校園",
+    "pinyin": "xiào yuán",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "campus"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0609",
+    "simplified": "校长",
+    "traditional": "校長",
+    "pinyin": "xiào zhǎng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(college, university) president",
+      "headmaster",
+      "CL:個/个,位,名"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0610",
+    "simplified": "笑话",
+    "traditional": "笑話",
+    "pinyin": "xiào hua",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "joke; jest",
+      "to laugh at; to mock",
+      "ridiculous; absurd"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0611",
+    "simplified": "笑话儿",
+    "traditional": "笑話兒",
+    "pinyin": "xiào huar",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "erhua form of 笑話/笑话"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0612",
+    "simplified": "鞋",
+    "pinyin": "xié",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "shoe",
+      "CL:雙/双,隻/只"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0613",
+    "simplified": "心里",
+    "traditional": "心裡",
+    "pinyin": "xīn li",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "chest",
+      "heart; mind"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0614",
+    "simplified": "心情",
+    "pinyin": "xīn qíng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "mood; frame of mind"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0615",
+    "simplified": "心中",
+    "pinyin": "xīn zhōng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "central point",
+      "in one's thoughts",
+      "in one's heart"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0616",
+    "simplified": "新闻",
+    "traditional": "新聞",
+    "pinyin": "xīn wén",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "news",
+      "CL:條/条"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0617",
+    "simplified": "信",
+    "pinyin": "xìn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "letter",
+      "mail",
+      "CL:封",
+      "to trust",
+      "to believe",
+      "to profess faith in",
+      "truthful",
+      "confidence",
+      "trust",
+      "at will",
+      "at random"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0800",
+        "pinyin": "xìn",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0618",
+    "simplified": "信号",
+    "traditional": "信號",
+    "pinyin": "xìn hào",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "signal"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0619",
+    "simplified": "信息",
+    "pinyin": "xìn xī",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "information; news; message"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0620",
+    "simplified": "信心",
+    "pinyin": "xìn xīn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "confidence",
+      "faith (in sb or sth)",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0621",
+    "simplified": "信用卡",
+    "pinyin": "xìn yòng kǎ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "credit card"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0622",
+    "simplified": "星星",
+    "pinyin": "xīng xing",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(coll.) a star; the stars in the sky"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0623",
+    "simplified": "行动",
+    "traditional": "行動",
+    "pinyin": "xíng dòng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "operation",
+      "action",
+      "CL:個/个",
+      "to move about",
+      "mobile"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0624",
+    "simplified": "行人",
+    "pinyin": "xíng rén",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "pedestrian",
+      "traveler on foot",
+      "passer-by",
+      "official responsible for arranging audiences with the emperor"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0625",
+    "simplified": "行为",
+    "traditional": "行為",
+    "pinyin": "xíng wéi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "action; conduct; behavior; activity"
+    ],
+    "needsEnglish": false
+  }
+]

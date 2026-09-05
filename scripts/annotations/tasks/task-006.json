@@ -1,0 +1,716 @@
+[
+  {
+    "id": "L1-0226",
+    "simplified": "马上",
+    "traditional": "馬上",
+    "pinyin": "mǎ shàng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "at once",
+      "right away",
+      "immediately",
+      "on horseback (i.e. by military force)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0227",
+    "simplified": "吗",
+    "traditional": "嗎",
+    "pinyin": "ma",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Aux"
+    ],
+    "cedictDefinitions": [
+      "(question particle for \"yes-no\" questions)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0228",
+    "simplified": "买",
+    "traditional": "買",
+    "pinyin": "mǎi",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to buy",
+      "to purchase"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0229",
+    "simplified": "慢",
+    "pinyin": "màn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "slow"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0230",
+    "simplified": "忙",
+    "pinyin": "máng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "busy",
+      "hurriedly",
+      "to hurry",
+      "to rush"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0231",
+    "simplified": "毛",
+    "pinyin": "máo",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "hair",
+      "feather",
+      "down",
+      "wool",
+      "mildew",
+      "mold",
+      "coarse or semifinished",
+      "young",
+      "raw",
+      "careless",
+      "unthinking",
+      "nervous",
+      "scared",
+      "(of currency) to devalue or depreciate",
+      "classifier for Chinese fractional monetary unit ( = 角 , = one-tenth of a yuan or 10 fen 分)"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0475",
+        "pinyin": "máo",
+        "partOfSpeech": [
+          "N"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0232",
+    "simplified": "没",
+    "traditional": "沒",
+    "pinyin": "méi",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adv",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "(negative prefix for verbs) have not; not"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0233",
+    "simplified": "没关系",
+    "traditional": "沒關係",
+    "pinyin": "méi guān xi",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "it doesn't matter"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0234",
+    "simplified": "没什么",
+    "traditional": "沒什麼",
+    "pinyin": "méi shén me",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "it doesn't matter; it's nothing; never mind",
+      "think nothing of it; it's my pleasure; you're welcome"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0235",
+    "simplified": "没事儿",
+    "traditional": "沒事兒",
+    "pinyin": "méi shìr",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to have spare time",
+      "free from work",
+      "it's not important",
+      "it's nothing",
+      "never mind"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0236",
+    "simplified": "没有",
+    "traditional": "沒有",
+    "pinyin": "méi yǒu",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "haven't",
+      "hasn't",
+      "doesn't exist",
+      "to not have",
+      "to not be"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0237",
+    "simplified": "妹妹",
+    "pinyin": "mèi mei",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "younger sister",
+      "young woman",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0238",
+    "simplified": "门",
+    "traditional": "門",
+    "pinyin": "mén",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "gate; door; doorway; gateway; opening (CL:扇)",
+      "valve; switch; other door-like or gate-like structure",
+      "way to do sth; knack; method; approach",
+      "family; household; lineage",
+      "(bound form) sect; school; faction (religious or academic)",
+      "(bound form) class; category; division; phylum",
+      "classifier for courses, fields of study, branches of technology, relatives by marriage, guns etc",
+      "(suffix) -gate (scandal)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0239",
+    "simplified": "门口",
+    "traditional": "門口",
+    "pinyin": "mén kǒu",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "doorway",
+      "gate",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0240",
+    "simplified": "门票",
+    "traditional": "門票",
+    "pinyin": "mén piào",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "ticket (for theater, cinema etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0241",
+    "simplified": "们",
+    "traditional": "們",
+    "pinyin": "men",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Suffix"
+    ],
+    "cedictDefinitions": [
+      "plural marker for pronouns, and nouns referring to individuals"
+    ],
+    "affixExample": "朋友们",
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0242",
+    "simplified": "米饭",
+    "traditional": "米飯",
+    "pinyin": "mǐ fàn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(cooked) rice"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0243",
+    "simplified": "面包",
+    "traditional": "麵包",
+    "pinyin": "miàn bāo",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "bread",
+      "CL:片,塊/块"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0244",
+    "simplified": "面条儿",
+    "traditional": "麵條兒",
+    "pinyin": "miàn tiáor",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "erhua variant of 麵條/面条"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0245",
+    "simplified": "名字",
+    "pinyin": "míng zi",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "name (of a person or thing)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0246",
+    "simplified": "明白",
+    "pinyin": "míng bai",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "clear; obvious; unequivocal",
+      "sensible; reasonable",
+      "to understand; to realize"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0247",
+    "simplified": "明年",
+    "pinyin": "míng nián",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "next year"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0248",
+    "simplified": "明天",
+    "pinyin": "míng tiān",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "tomorrow"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0249",
+    "simplified": "拿",
+    "pinyin": "ná",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to hold",
+      "to seize",
+      "to catch",
+      "to apprehend",
+      "to take",
+      "(used in the same way as 把: to mark the following noun as a direct object)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0250",
+    "simplified": "哪",
+    "pinyin": "nǎ",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "how",
+      "which"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0251",
+    "simplified": "哪里",
+    "traditional": "哪裡",
+    "pinyin": "nǎ lǐ",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "where?",
+      "somewhere",
+      "anywhere",
+      "wherever",
+      "nowhere (negative answer to question)",
+      "humble expression denying compliment",
+      "also written 哪裡/哪里"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0252",
+    "simplified": "哪儿",
+    "traditional": "哪兒",
+    "pinyin": "nǎr",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "where?",
+      "wherever; anywhere; somewhere",
+      "(used in rhetorical questions) how can ...?; how could ...?"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0253",
+    "simplified": "哪些",
+    "pinyin": "nǎ xiē",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "which ones?",
+      "who?",
+      "what?"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0254",
+    "simplified": "那",
+    "pinyin": "nà",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "(specifier) that; the; those (colloquial pr. )",
+      "(pronoun) that (referring to persons, things or situations)",
+      "then (in that case)"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0387",
+        "pinyin": "nà",
+        "partOfSpeech": [
+          "Conj"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0255",
+    "simplified": "那边",
+    "traditional": "那邊",
+    "pinyin": "nà bian",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "over there",
+      "yonder"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0256",
+    "simplified": "那里",
+    "traditional": "那裡",
+    "pinyin": "nà li",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "there; that place"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0257",
+    "simplified": "那儿",
+    "traditional": "那兒",
+    "pinyin": "nàr",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "there"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0258",
+    "simplified": "那些",
+    "pinyin": "nà xiē",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "those"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0259",
+    "simplified": "奶",
+    "pinyin": "nǎi",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "breast",
+      "milk",
+      "to breastfeed"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0260",
+    "simplified": "奶奶",
+    "pinyin": "nǎi nai",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(informal) grandma (paternal grandmother)",
+      "(respectful) mistress of the house",
+      "CL:位",
+      "(coll.) boobies",
+      "breasts"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0261",
+    "simplified": "男",
+    "pinyin": "nán",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "(bound form) male",
+      "baron, the lowest of the five ranks of nobility 五等爵位"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0262",
+    "simplified": "男孩儿",
+    "traditional": "男孩兒",
+    "pinyin": "nán háir",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "erhua form of 男孩"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0263",
+    "simplified": "男朋友",
+    "pinyin": "nán péng you",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "boyfriend"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0264",
+    "simplified": "男人",
+    "pinyin": "nán rén",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "a man",
+      "a male",
+      "men",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0265",
+    "simplified": "男生",
+    "pinyin": "nán shēng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "schoolboy",
+      "male student",
+      "boy",
+      "guy (young adult male)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0266",
+    "simplified": "南",
+    "pinyin": "nán",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "south"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0267",
+    "simplified": "南边",
+    "traditional": "南邊",
+    "pinyin": "nán bian",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "south",
+      "south side",
+      "southern part",
+      "to the south of"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0268",
+    "simplified": "难",
+    "traditional": "難",
+    "pinyin": "nán",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "difficult (to...)",
+      "problem",
+      "difficulty",
+      "difficult",
+      "not good"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0269",
+    "simplified": "呢",
+    "pinyin": "ne",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Aux"
+    ],
+    "cedictDefinitions": [
+      "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\")",
+      "(sentence-final particle) indicating that a state or situation still holds",
+      "(discourse particle) used to mark a slight pause or emphasis in speech"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0270",
+    "simplified": "能",
+    "pinyin": "néng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "can",
+      "to be able to",
+      "might possibly",
+      "ability",
+      "(physics) energy"
+    ],
+    "needsEnglish": false
+  }
+]

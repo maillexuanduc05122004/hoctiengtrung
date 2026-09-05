@@ -1,0 +1,722 @@
+[
+  {
+    "id": "L1-0496",
+    "simplified": "左",
+    "pinyin": "zuǒ",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "left",
+      "the Left (politics)",
+      "east",
+      "unorthodox",
+      "queer",
+      "wrong",
+      "differing",
+      "opposite",
+      "variant of 佐"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0497",
+    "simplified": "左边",
+    "traditional": "左邊",
+    "pinyin": "zuǒ bian",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "left",
+      "the left side",
+      "to the left of"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0498",
+    "simplified": "坐",
+    "pinyin": "zuò",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to sit",
+      "to take a seat",
+      "to take (a bus, airplane etc)",
+      "to bear fruit",
+      "variant of 座"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0499",
+    "simplified": "坐下",
+    "pinyin": "zuò xia",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to sit down"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0500",
+    "simplified": "做",
+    "pinyin": "zuò",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to make; to produce",
+      "to write; to compose",
+      "to do; to engage in; to hold (a party etc)",
+      "(of a person) to be (an intermediary, a good student etc); to become (husband and wife, friends etc)",
+      "(of a thing) to serve as; to be used for",
+      "to assume (an air or manner)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0001",
+    "simplified": "啊",
+    "pinyin": "a",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Aux"
+    ],
+    "cedictDefinitions": [
+      "modal particle ending sentence, showing affirmation, approval, or consent"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0002",
+    "simplified": "爱情",
+    "traditional": "愛情",
+    "pinyin": "ài qíng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "romance; love (romantic)",
+      "CL:份"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0003",
+    "simplified": "爱人",
+    "traditional": "愛人",
+    "pinyin": "ài ren",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "spouse (PRC)",
+      "lover (non-PRC)",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0004",
+    "simplified": "安静",
+    "traditional": "安靜",
+    "pinyin": "ān jìng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "quiet",
+      "peaceful",
+      "calm"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0005",
+    "simplified": "安全",
+    "pinyin": "ān quán",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "safe; secure",
+      "safety; security"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0006",
+    "simplified": "白色",
+    "pinyin": "bái sè",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "white",
+      "fig. reactionary",
+      "anti-communist"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0007",
+    "simplified": "班长",
+    "traditional": "班長",
+    "pinyin": "bān zhǎng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "class monitor",
+      "squad leader",
+      "team leader",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0008",
+    "simplified": "办",
+    "traditional": "辦",
+    "pinyin": "bàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to take care of (a matter); to deal with (a task, procedure etc); to organize (an event)",
+      "to establish; to set up; to manage; to run (an enterprise)",
+      "(law) to handle; to investigate; to prosecute (a case or suspect)",
+      "(bound form) office (as in 招辦/招办, admissions office) (abbr. for 辦公室/办公室)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0009",
+    "simplified": "办法",
+    "traditional": "辦法",
+    "pinyin": "bàn fǎ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "way of handling sth; means; measure; (practical) solution to a problem",
+      "CL:條/条"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0010",
+    "simplified": "办公室",
+    "traditional": "辦公室",
+    "pinyin": "bàn gōng shì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "office; business premises"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0011",
+    "simplified": "半夜",
+    "pinyin": "bàn yè",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "midnight",
+      "in the middle of the night"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0012",
+    "simplified": "帮助",
+    "traditional": "幫助",
+    "pinyin": "bāng zhù",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "assistance; aid",
+      "to help; to assist"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0013",
+    "simplified": "饱",
+    "traditional": "飽",
+    "pinyin": "bǎo",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "to eat till full",
+      "satisfied"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0014",
+    "simplified": "报名",
+    "traditional": "報名",
+    "pinyin": "bào míng",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to sign up",
+      "to enter one's name",
+      "to apply",
+      "to register",
+      "to enroll",
+      "to enlist"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0015",
+    "simplified": "报纸",
+    "traditional": "報紙",
+    "pinyin": "bào zhǐ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "newspaper",
+      "newsprint",
+      "CL:份,期,張/张"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0016",
+    "simplified": "北方",
+    "pinyin": "běi fāng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "north",
+      "the northern part a country",
+      "China north of the Yellow River"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0017",
+    "simplified": "背",
+    "pinyin": "bèi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "the back of a body or object",
+      "to turn one's back",
+      "to hide something from",
+      "to learn by heart",
+      "to recite from memory",
+      "(slang) unlucky",
+      "hard of hearing"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0028",
+        "pinyin": "bēi",
+        "partOfSpeech": [
+          "V"
+        ]
+      },
+      {
+        "id": "L3-0030",
+        "pinyin": "bèi",
+        "partOfSpeech": [
+          "N"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0018",
+    "simplified": "比如",
+    "pinyin": "bǐ rú",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "for example; for instance; such as"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0019",
+    "simplified": "比如说",
+    "traditional": "比如說",
+    "pinyin": "bǐ rú shuō",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "for example"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0020",
+    "simplified": "笔",
+    "traditional": "筆",
+    "pinyin": "bǐ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "writing brush; writing implement (pen, pencil etc) (CL:支,枝)",
+      "brushstroke; stroke (in painting or calligraphy)",
+      "(bound form) style of writing; literary manner; technique of brushwork",
+      "(classifier) stroke of a Chinese character",
+      "(classifier) sum of money; financial transaction; piece of business",
+      "(literary) to write (with a brush or pen)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0021",
+    "simplified": "笔记",
+    "traditional": "筆記",
+    "pinyin": "bǐ jì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to take down (in writing)",
+      "notes",
+      "a type of literature consisting mainly of short sketches",
+      "CL:本"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0022",
+    "simplified": "笔记本",
+    "traditional": "筆記本",
+    "pinyin": "bǐ jì běn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "notebook (stationery) (CL:本)",
+      "(computing) laptop; notebook (abbr. for 筆記本電腦/笔记本电脑)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0023",
+    "simplified": "必须",
+    "traditional": "必須",
+    "pinyin": "bì xū",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "to have to",
+      "must",
+      "compulsory",
+      "necessarily"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0024",
+    "simplified": "边",
+    "traditional": "邊",
+    "pinyin": "biān",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "side",
+      "edge",
+      "margin",
+      "border",
+      "boundary",
+      "CL:個/个",
+      "simultaneously"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0025",
+    "simplified": "变",
+    "traditional": "變",
+    "pinyin": "biàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to change",
+      "to become different",
+      "to transform",
+      "to vary",
+      "rebellion"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0026",
+    "simplified": "变成",
+    "traditional": "變成",
+    "pinyin": "biàn chéng",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to change into",
+      "to turn into",
+      "to become"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0027",
+    "simplified": "遍",
+    "pinyin": "biàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "everywhere",
+      "all over",
+      "classifier for actions: one time"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0028",
+    "simplified": "表",
+    "pinyin": "biǎo",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "exterior surface",
+      "family relationship via females",
+      "to show (one's opinion)",
+      "a model",
+      "a table (listing information)",
+      "a form",
+      "a meter (measuring sth)",
+      "watch (timepiece)",
+      "meter; gauge"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0029",
+    "simplified": "表示",
+    "pinyin": "biǎo shì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(of sb) to express; to state; to show",
+      "(of sth) to indicate; to signify; to show",
+      "expression; manifestation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0030",
+    "simplified": "不错",
+    "traditional": "不錯",
+    "pinyin": "bù cuò",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "correct",
+      "right",
+      "not bad",
+      "pretty good"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0031",
+    "simplified": "不但",
+    "pinyin": "bù dàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "not only (... but also ...)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0032",
+    "simplified": "不够",
+    "traditional": "不夠",
+    "pinyin": "bù gòu",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "not enough",
+      "insufficient",
+      "inadequate"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0033",
+    "simplified": "不过",
+    "traditional": "不過",
+    "pinyin": "bù guò",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "only",
+      "merely",
+      "no more than",
+      "but",
+      "however",
+      "anyway (to get back to a previous topic)",
+      "cannot be more (after adjectival)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0034",
+    "simplified": "不太",
+    "pinyin": "bù tài",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [],
+    "needsEnglish": true
+  },
+  {
+    "id": "L2-0035",
+    "simplified": "不要",
+    "pinyin": "bù yào",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "don't!; must not"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0036",
+    "simplified": "不好意思",
+    "pinyin": "bù hǎo yì si",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to feel embarrassed",
+      "to find it embarrassing",
+      "to be sorry (for inconveniencing sb)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0037",
+    "simplified": "不久",
+    "pinyin": "bù jiǔ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "not long (after)",
+      "before too long",
+      "soon",
+      "soon after"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0038",
+    "simplified": "不满",
+    "traditional": "不滿",
+    "pinyin": "bù mǎn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "dissatisfied; discontented; resentful",
+      "(before a number) to be less than"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0039",
+    "simplified": "不如",
+    "pinyin": "bù rú",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "not equal to; not as good as; inferior to",
+      "it would be better to"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0040",
+    "simplified": "不少",
+    "pinyin": "bù shǎo",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "many; quite a few; a good number of"
+    ],
+    "needsEnglish": false
+  }
+]

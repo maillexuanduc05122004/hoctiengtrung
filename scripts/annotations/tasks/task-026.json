@@ -1,0 +1,714 @@
+[
+  {
+    "id": "L2-0626",
+    "simplified": "姓",
+    "pinyin": "xìng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "family name; surname",
+      "to be surnamed ..."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0627",
+    "simplified": "姓名",
+    "pinyin": "xìng míng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "surname and given name; full name"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0628",
+    "simplified": "休假",
+    "pinyin": "xiū jià",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to go on vacation; to have a holiday; to take leave"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0629",
+    "simplified": "许多",
+    "traditional": "許多",
+    "pinyin": "xǔ duō",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Num"
+    ],
+    "cedictDefinitions": [
+      "many",
+      "a lot of",
+      "much"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0630",
+    "simplified": "选",
+    "traditional": "選",
+    "pinyin": "xuǎn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to choose",
+      "to pick",
+      "to select",
+      "to elect"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0631",
+    "simplified": "学期",
+    "traditional": "學期",
+    "pinyin": "xué qī",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "term",
+      "semester",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0632",
+    "simplified": "雪",
+    "pinyin": "xuě",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "snow",
+      "CL:場/场",
+      "(literary) to wipe away (a humiliation etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0633",
+    "simplified": "颜色",
+    "traditional": "顏色",
+    "pinyin": "yán sè",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "color",
+      "countenance",
+      "appearance",
+      "facial expression",
+      "pigment",
+      "dyestuff"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0634",
+    "simplified": "眼",
+    "pinyin": "yǎn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "eye (CL:隻/只,雙/双)",
+      "(often used with 一) a look; a glance",
+      "small hole",
+      "(bound form) salient point",
+      "classifier for wells, cave-dwellings etc"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0635",
+    "simplified": "眼睛",
+    "pinyin": "yǎn jing",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "eye",
+      "CL:隻/只,雙/双"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0636",
+    "simplified": "养",
+    "traditional": "養",
+    "pinyin": "yǎng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to raise (animals)",
+      "to bring up (children)",
+      "to keep (pets)",
+      "to support",
+      "to give birth"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0637",
+    "simplified": "样子",
+    "traditional": "樣子",
+    "pinyin": "yàng zi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "appearance",
+      "manner",
+      "pattern",
+      "model"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0638",
+    "simplified": "要求",
+    "pinyin": "yāo qiú",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to request",
+      "to require",
+      "requirement",
+      "to stake a claim",
+      "to ask",
+      "to demand",
+      "CL:點/点"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0639",
+    "simplified": "药",
+    "traditional": "藥",
+    "pinyin": "yào",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "medicine",
+      "drug",
+      "substance used for a specific purpose (e.g. poisoning, explosion, fermenting)",
+      "CL:種/种,服,味",
+      "to poison"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0640",
+    "simplified": "药店",
+    "traditional": "藥店",
+    "pinyin": "yào diàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "pharmacy; drugstore"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0641",
+    "simplified": "药片",
+    "traditional": "藥片",
+    "pinyin": "yào piàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "a (medicine) pill or tablet",
+      "CL:片"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0642",
+    "simplified": "药水",
+    "traditional": "藥水",
+    "pinyin": "yào shuǐ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "medicine in liquid form",
+      "bottled medicine",
+      "lotion"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0643",
+    "simplified": "也许",
+    "traditional": "也許",
+    "pinyin": "yě xǔ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "perhaps; maybe"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0644",
+    "simplified": "夜",
+    "pinyin": "yè",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "night"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0645",
+    "simplified": "夜里",
+    "traditional": "夜裡",
+    "pinyin": "yè li",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "during the night",
+      "at night",
+      "nighttime"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0646",
+    "simplified": "一部分",
+    "pinyin": "yī bù fen",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "portion",
+      "part of",
+      "subset"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0647",
+    "simplified": "一定",
+    "pinyin": "yī dìng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "surely; certainly; definitely",
+      "fixed; settled",
+      "a certain ...; a given ..."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0648",
+    "simplified": "一共",
+    "pinyin": "yī gòng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "in total; altogether"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0649",
+    "simplified": "一会儿",
+    "traditional": "一會兒",
+    "pinyin": "yī huìr",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "a moment",
+      "a while",
+      "in a moment",
+      "now...now...",
+      "also pr."
+    ],
+    "siblings": [
+      {
+        "id": "L1-0432",
+        "pinyin": "yī huìr",
+        "partOfSpeech": []
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0650",
+    "simplified": "一路平安",
+    "pinyin": "yī lù píng ān",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to have a pleasant journey",
+      "Bon voyage!"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0651",
+    "simplified": "一路顺风",
+    "traditional": "一路順風",
+    "pinyin": "yī lù shùn fēng",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to have a pleasant journey (idiom)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0652",
+    "simplified": "已经",
+    "traditional": "已經",
+    "pinyin": "yǐ jīng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "already"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0653",
+    "simplified": "以后",
+    "traditional": "以後",
+    "pinyin": "yǐ hòu",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "after",
+      "later",
+      "afterwards",
+      "following",
+      "later on",
+      "in the future"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0654",
+    "simplified": "以前",
+    "pinyin": "yǐ qián",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "before",
+      "formerly",
+      "previous",
+      "ago"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0655",
+    "simplified": "以上",
+    "pinyin": "yǐ shàng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "that level or higher; that amount or more",
+      "the above-mentioned",
+      "(used to indicate that one has completed one's remarks) That is all."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0656",
+    "simplified": "以外",
+    "pinyin": "yǐ wài",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "apart from",
+      "other than",
+      "except for",
+      "external",
+      "outside of",
+      "on the other side of",
+      "beyond"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0657",
+    "simplified": "以为",
+    "traditional": "以為",
+    "pinyin": "yǐ wéi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to think; to believe (often with the implication that the belief is mistaken – unless referring to one's own current belief)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0658",
+    "simplified": "以下",
+    "pinyin": "yǐ xià",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "that level or lower",
+      "that amount or less",
+      "the following"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0659",
+    "simplified": "椅子",
+    "pinyin": "yǐ zi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "chair",
+      "CL:把,張/张"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0660",
+    "simplified": "一般",
+    "pinyin": "yī bān",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "same",
+      "ordinary",
+      "so-so",
+      "common",
+      "general",
+      "generally",
+      "in general"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0661",
+    "simplified": "一点点",
+    "traditional": "一點點",
+    "pinyin": "yī diǎn diǎn",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "a little bit"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0662",
+    "simplified": "一生",
+    "pinyin": "yī shēng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "all one's life; throughout one's life"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0663",
+    "simplified": "一直",
+    "pinyin": "yī zhí",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "straight (in a straight line)",
+      "continuously; always; all the way through"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0664",
+    "simplified": "亿",
+    "traditional": "億",
+    "pinyin": "yì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Num"
+    ],
+    "cedictDefinitions": [
+      "100 million"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0665",
+    "simplified": "意见",
+    "traditional": "意見",
+    "pinyin": "yì jiàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "idea",
+      "opinion",
+      "suggestion",
+      "objection",
+      "complaint",
+      "CL:點/点,條/条"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0666",
+    "simplified": "意思",
+    "pinyin": "yì si",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "idea",
+      "opinion",
+      "meaning",
+      "wish",
+      "desire",
+      "interest",
+      "fun",
+      "token of appreciation, affection etc",
+      "CL:個/个",
+      "to give as a small token",
+      "to do sth as a gesture of goodwill etc"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0667",
+    "simplified": "因为",
+    "traditional": "因為",
+    "pinyin": "yīn wèi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Conj",
+      "Prep"
+    ],
+    "cedictDefinitions": [
+      "because; owing to; on account of"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0668",
+    "simplified": "阴",
+    "traditional": "陰",
+    "pinyin": "yīn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "overcast (weather)",
+      "cloudy",
+      "shady",
+      "Yin (the negative principle of Yin and Yang)",
+      "negative (electric.)",
+      "feminine",
+      "moon",
+      "implicit",
+      "hidden",
+      "genitalia"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0669",
+    "simplified": "阴天",
+    "traditional": "陰天",
+    "pinyin": "yīn tiān",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "cloudy day; overcast sky"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0670",
+    "simplified": "音节",
+    "traditional": "音節",
+    "pinyin": "yīn jié",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "syllable"
+    ],
+    "needsEnglish": false
+  }
+]

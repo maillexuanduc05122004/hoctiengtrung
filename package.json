@@ -15,7 +15,9 @@
     "typecheck": "tsc -b --noEmit false --emitDeclarationOnly false",
     "data:fetch": "tsx scripts/fetch-sources.ts",
     "data:import": "tsx scripts/import-hsk.ts",
-    "data:verify": "tsx scripts/verify-data.ts"
+    "data:verify": "tsx scripts/verify-data.ts",
+    "data:syllables": "tsx scripts/generate-syllables.ts",
+    "data:tasks": "tsx scripts/prepare-annotation-tasks.ts"
   },
   "dependencies": {
     "dexie": "^4.4.5",

@@ -1,0 +1,153 @@
+@import 'tailwindcss';
+
+/*
+  Quy ước responsive của dự án: desktop là mặc định (không tiền tố),
+  điện thoại dùng tiền tố `xsm:` với ngưỡng tối đa 40rem.
+*/
+@custom-variant xsm (@media (width <= 40rem));
+
+/* Chế độ tối bật theo thuộc tính data-theme trên thẻ html. */
+@custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
+
+@theme {
+  --font-sans:
+    'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans',
+    sans-serif;
+  --font-han:
+    'Noto Serif SC', 'Source Han Serif SC', 'Songti SC', 'SimSun', 'STSong', 'Noto Sans SC',
+    'PingFang SC', 'Microsoft YaHei', 'Hiragino Sans GB', serif;
+  --font-mono: 'Cascadia Mono', 'SF Mono', 'Roboto Mono', ui-monospace, monospace;
+
+  /* Nền giấy ấm và mực đen. */
+  --color-paper: #f6f1e7;
+  --color-surface: #fffdf8;
+  --color-sunken: #eee7d9;
+  --color-ink: #201d18;
+  --color-ink-soft: #565047;
+  --color-ink-faint: #8b8377;
+  --color-line: #ddd3c1;
+  --color-line-strong: #c6b9a2;
+
+  /* Đỏ son. */
+  --color-cinnabar: #b03a28;
+  --color-cinnabar-ink: #8d2c1d;
+  --color-cinnabar-soft: #f6e5e0;
+
+  /* Xanh ngọc trầm. */
+  --color-teal: #2e6a61;
+  --color-teal-ink: #24544d;
+  --color-teal-soft: #e0eae6;
+
+  /* Màu trạng thái trả lời. */
+  --color-correct: #2e6a61;
+  --color-partial: #9a6b1f;
+  --color-partial-soft: #f6ecd8;
+  --color-wrong: #b03a28;
+
+  --radius-card: 0.375rem;
+  --spacing-tap: 2.75rem;
+}
+
+/* Chế độ tối: nền mực ấm chứ không dùng đen tuyệt đối. */
+[data-theme='dark'] {
+  --color-paper: #1b1916;
+  --color-surface: #242019;
+  --color-sunken: #14120f;
+  --color-ink: #ece4d5;
+  --color-ink-soft: #b3a999;
+  --color-ink-faint: #8a8071;
+  --color-line: #3b352c;
+  --color-line-strong: #4f4738;
+
+  --color-cinnabar: #dd7863;
+  --color-cinnabar-ink: #e89a89;
+  --color-cinnabar-soft: #33231e;
+
+  --color-teal: #6cb2a4;
+  --color-teal-ink: #8ac6ba;
+  --color-teal-soft: #1c2b28;
+
+  --color-correct: #6cb2a4;
+  --color-partial: #d2a45f;
+  --color-partial-soft: #2c2517;
+  --color-wrong: #dd7863;
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  html[data-theme='dark'] {
+    color-scheme: dark;
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.6;
+    /* Chặn tràn ngang trên màn hình hẹp. */
+    overflow-x: hidden;
+    overflow-wrap: break-word;
+  }
+
+  /* Chữ Hán cần cỡ lớn hơn và giãn dòng thoáng hơn chữ Latinh. */
+  .han {
+    font-family: var(--font-han);
+    line-height: 1.25;
+  }
+
+  :focus-visible {
+    outline: 0.125rem solid var(--color-cinnabar);
+    outline-offset: 0.125rem;
+    border-radius: 0.125rem;
+  }
+
+  button,
+  input,
+  select,
+  textarea {
+    font: inherit;
+    color: inherit;
+  }
+
+  /* Không phóng to trang khi chạm vào ô nhập trên iOS. */
+  input,
+  textarea,
+  select {
+    font-size: 1rem;
+  }
+
+  ::selection {
+    background-color: var(--color-cinnabar-soft);
+  }
+}
+
+@layer components {
+  /* Vùng chạm tối thiểu theo yêu cầu khả dụng. */
+  .tap {
+    min-height: var(--spacing-tap);
+    min-width: var(--spacing-tap);
+  }
+
+  /* Đường kẻ mảnh dùng thay cho việc bọc mọi thứ trong thẻ bo tròn. */
+  .rule {
+    border-color: var(--color-line);
+  }
+}
+
+/* Tôn trọng lựa chọn giảm chuyển động của người dùng. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

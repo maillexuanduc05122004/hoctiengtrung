@@ -1,0 +1,681 @@
+[
+  {
+    "id": "L3-0394",
+    "simplified": "就是",
+    "pinyin": "jiù shì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "exactly; precisely",
+      "only; simply; just",
+      "(used correlatively with 也) even; even if"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0395",
+    "simplified": "就业",
+    "traditional": "就業",
+    "pinyin": "jiù yè",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to get a job",
+      "employment"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0396",
+    "simplified": "举办",
+    "traditional": "舉辦",
+    "pinyin": "jǔ bàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to conduct; to hold (an event)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0397",
+    "simplified": "具体",
+    "traditional": "具體",
+    "pinyin": "jù tǐ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "concrete; specific; detailed"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0398",
+    "simplified": "具有",
+    "pinyin": "jù yǒu",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to have; to possess"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0399",
+    "simplified": "剧场",
+    "traditional": "劇場",
+    "pinyin": "jù chǎng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "theater",
+      "CL:座"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0400",
+    "simplified": "据说",
+    "traditional": "據說",
+    "pinyin": "jù shuō",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "it is said that; reportedly"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0401",
+    "simplified": "决定",
+    "traditional": "決定",
+    "pinyin": "jué dìng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to decide; to determine; to make up one's mind",
+      "decision (CL:個/个,項/项)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0402",
+    "simplified": "决赛",
+    "traditional": "決賽",
+    "pinyin": "jué sài",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "finals (of a competition)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0403",
+    "simplified": "决心",
+    "traditional": "決心",
+    "pinyin": "jué xīn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "determination",
+      "resolution",
+      "determined",
+      "firm and resolute",
+      "to make up one's mind",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0404",
+    "simplified": "绝对",
+    "traditional": "絕對",
+    "pinyin": "jué duì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "absolute; unconditional"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0405",
+    "simplified": "咖啡",
+    "pinyin": "kā fēi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(loanword) coffee",
+      "CL:杯"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0406",
+    "simplified": "开发",
+    "traditional": "開發",
+    "pinyin": "kāi fā",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to exploit (a resource); to open up (for development); to develop"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0407",
+    "simplified": "开放",
+    "traditional": "開放",
+    "pinyin": "kāi fàng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to bloom",
+      "to open",
+      "to be open (to the public)",
+      "to open up (to the outside)",
+      "to be open-minded",
+      "unrestrained by convention",
+      "unconstrained in one's sexuality"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0408",
+    "simplified": "开始",
+    "traditional": "開始",
+    "pinyin": "kāi shǐ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to begin; to start",
+      "beginning; start"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0409",
+    "simplified": "开业",
+    "traditional": "開業",
+    "pinyin": "kāi yè",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to open a business",
+      "to open a practice",
+      "open (for business)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0410",
+    "simplified": "开展",
+    "traditional": "開展",
+    "pinyin": "kāi zhǎn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to launch",
+      "to develop",
+      "to unfold",
+      "(of an exhibition etc) to open"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0411",
+    "simplified": "看起来",
+    "traditional": "看起來",
+    "pinyin": "kàn qǐ lai",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "seemingly; apparently; looks as if; appears to be; gives the impression that; seems on the face of it to be"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0412",
+    "simplified": "看上去",
+    "pinyin": "kàn shang qu",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "it would appear",
+      "it seems (that)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0413",
+    "simplified": "考验",
+    "traditional": "考驗",
+    "pinyin": "kǎo yàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to test",
+      "to put to the test",
+      "trial",
+      "ordeal"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0414",
+    "simplified": "科技",
+    "pinyin": "kē jì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "science and technology"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0415",
+    "simplified": "可靠",
+    "pinyin": "kě kào",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "reliable"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0416",
+    "simplified": "可乐",
+    "traditional": "可樂",
+    "pinyin": "kě lè",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "amusing",
+      "entertaining",
+      "(loanword) cola"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0417",
+    "simplified": "克服",
+    "pinyin": "kè fú",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "(try to) overcome (hardships etc)",
+      "to conquer",
+      "to put up with",
+      "to endure"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0418",
+    "simplified": "客观",
+    "traditional": "客觀",
+    "pinyin": "kè guān",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "objective",
+      "impartial"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0419",
+    "simplified": "课程",
+    "traditional": "課程",
+    "pinyin": "kè chéng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "course; academic program",
+      "CL:堂,節/节,門/门"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0420",
+    "simplified": "空",
+    "pinyin": "kōng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "empty",
+      "air",
+      "sky",
+      "in vain"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0421",
+    "simplified": "空调",
+    "traditional": "空調",
+    "pinyin": "kōng tiáo",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "air conditioning",
+      "air conditioner (including units that have a heating mode)",
+      "CL:臺/台"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0422",
+    "simplified": "恐怕",
+    "pinyin": "kǒng pà",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "fear",
+      "to dread",
+      "I'm afraid that...",
+      "perhaps",
+      "maybe"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0423",
+    "simplified": "空儿",
+    "traditional": "空兒",
+    "pinyin": "kòngr",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "spare time",
+      "free time"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0424",
+    "simplified": "裤子",
+    "traditional": "褲子",
+    "pinyin": "kù zi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "trousers; pants",
+      "CL:條/条"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0425",
+    "simplified": "快速",
+    "pinyin": "kuài sù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "fast; high-speed; rapid"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0426",
+    "simplified": "困",
+    "pinyin": "kùn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to trap",
+      "to surround",
+      "hard-pressed",
+      "stranded",
+      "destitute"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0427",
+    "simplified": "困难",
+    "traditional": "困難",
+    "pinyin": "kùn nan",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "difficult",
+      "challenging",
+      "straitened circumstances",
+      "difficult situation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0428",
+    "simplified": "浪费",
+    "traditional": "浪費",
+    "pinyin": "làng fèi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to waste",
+      "to squander"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0429",
+    "simplified": "老百姓",
+    "pinyin": "lǎo bǎi xìng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "ordinary people",
+      "the \"person in the street\"",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0430",
+    "simplified": "老板",
+    "traditional": "老闆",
+    "pinyin": "lǎo bǎn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "boss; proprietor"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0431",
+    "simplified": "老太太",
+    "pinyin": "lǎo tài tai",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "elderly lady (respectful)",
+      "esteemed mother",
+      "CL:位"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0432",
+    "simplified": "老头儿",
+    "traditional": "老頭兒",
+    "pinyin": "lǎo tóur",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "see 老頭子/老头子"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0433",
+    "simplified": "乐",
+    "traditional": "樂",
+    "pinyin": "lè",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "happy",
+      "cheerful",
+      "to laugh"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0434",
+    "simplified": "乐观",
+    "traditional": "樂觀",
+    "pinyin": "lè guān",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "optimistic; hopeful"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0435",
+    "simplified": "类",
+    "traditional": "類",
+    "pinyin": "lèi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "kind; type; class; category",
+      "(classifier) kind; type",
+      "(bound form) to resemble; to be similar to"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0436",
+    "simplified": "类似",
+    "traditional": "類似",
+    "pinyin": "lèi sì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "similar; analogous"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0437",
+    "simplified": "离婚",
+    "traditional": "離婚",
+    "pinyin": "lí hūn",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to divorce"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0438",
+    "simplified": "里面",
+    "traditional": "裡面",
+    "pinyin": "lǐ miàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "inside",
+      "interior",
+      "also pr."
+    ],
+    "needsEnglish": false
+  }
+]

@@ -1,0 +1,714 @@
+[
+  {
+    "id": "L2-0671",
+    "simplified": "音乐",
+    "traditional": "音樂",
+    "pinyin": "yīn yuè",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "music",
+      "CL:張/张,曲,段"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0672",
+    "simplified": "音乐会",
+    "traditional": "音樂會",
+    "pinyin": "yīn yuè huì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "concert",
+      "CL:場/场"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0673",
+    "simplified": "银行",
+    "traditional": "銀行",
+    "pinyin": "yín háng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "bank",
+      "CL:家,個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0674",
+    "simplified": "银行卡",
+    "traditional": "銀行卡",
+    "pinyin": "yín háng kǎ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "bank card"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0675",
+    "simplified": "应该",
+    "traditional": "應該",
+    "pinyin": "yīng gāi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "ought to; should; must"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0676",
+    "simplified": "英文",
+    "pinyin": "yīng wén",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "English (language)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0677",
+    "simplified": "英语",
+    "traditional": "英語",
+    "pinyin": "yīng yǔ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "English (language)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0678",
+    "simplified": "影片",
+    "pinyin": "yǐng piàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "a copy of a film",
+      "film; motion picture; movie",
+      "(Tw) video; video clip",
+      "CL:部"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0679",
+    "simplified": "影响",
+    "traditional": "影響",
+    "pinyin": "yǐng xiǎng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "influence",
+      "effect",
+      "to influence",
+      "to affect (usually adversely)",
+      "to disturb",
+      "CL:股"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0680",
+    "simplified": "永远",
+    "traditional": "永遠",
+    "pinyin": "yǒng yuǎn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "forever",
+      "eternal"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0681",
+    "simplified": "油",
+    "pinyin": "yóu",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "oil",
+      "fat",
+      "grease",
+      "petroleum",
+      "to apply tung oil, paint or varnish",
+      "oily",
+      "greasy",
+      "glib",
+      "cunning"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0682",
+    "simplified": "游客",
+    "traditional": "遊客",
+    "pinyin": "yóu kè",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "traveler; tourist",
+      "(online gaming) guest player"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0683",
+    "simplified": "友好",
+    "pinyin": "yǒu hǎo",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "friendly; amicable",
+      "close friend"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0684",
+    "simplified": "有空儿",
+    "traditional": "有空兒",
+    "pinyin": "yǒu kòngr",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "erhua form of 有空"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0685",
+    "simplified": "有人",
+    "pinyin": "yǒu rén",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "someone",
+      "people",
+      "anyone",
+      "there is someone there",
+      "occupied (as in restroom)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0686",
+    "simplified": "有点儿",
+    "traditional": "有點兒",
+    "pinyin": "yǒu diǎnr",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "slightly",
+      "a little",
+      "somewhat",
+      "a bit"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0687",
+    "simplified": "有意思",
+    "pinyin": "yǒu yì si",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "interesting",
+      "meaningful",
+      "enjoyable",
+      "fun"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0688",
+    "simplified": "又",
+    "pinyin": "yòu",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "(once) again",
+      "also",
+      "both... and...",
+      "and yet",
+      "(used for emphasis) anyway"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0689",
+    "simplified": "鱼",
+    "traditional": "魚",
+    "pinyin": "yú",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "fish (CL:條/条,尾)",
+      "used in the names of various aquatic animals that are not fish (including abalone 鮑魚/鲍鱼, alligators and crocodiles 鱷魚/鳄鱼 and octopi 章魚/章鱼)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0690",
+    "simplified": "语言",
+    "traditional": "語言",
+    "pinyin": "yǔ yán",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "language",
+      "CL:門/门,種/种"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0691",
+    "simplified": "原来",
+    "traditional": "原來",
+    "pinyin": "yuán lái",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "original; former",
+      "originally; formerly; at first",
+      "so, actually, as it turns out"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0692",
+    "simplified": "原因",
+    "pinyin": "yuán yīn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "cause",
+      "origin",
+      "root cause",
+      "reason",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0693",
+    "simplified": "院",
+    "pinyin": "yuàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "courtyard",
+      "institution",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0694",
+    "simplified": "院长",
+    "traditional": "院長",
+    "pinyin": "yuàn zhǎng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the head of an institution whose name ends in 院; chair of a board; university president; college dean; premier of the Republic of China"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0695",
+    "simplified": "院子",
+    "pinyin": "yuàn zi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "courtyard",
+      "garden",
+      "yard",
+      "patio",
+      "CL:個/个",
+      "(old) servant"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0696",
+    "simplified": "愿意",
+    "traditional": "願意",
+    "pinyin": "yuàn yì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to wish",
+      "to want",
+      "ready",
+      "willing (to do sth)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0697",
+    "simplified": "月份",
+    "pinyin": "yuè fèn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "month"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0698",
+    "simplified": "月亮",
+    "pinyin": "yuè liang",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the moon"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0699",
+    "simplified": "越",
+    "pinyin": "yuè",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "to exceed",
+      "to climb over",
+      "to surpass",
+      "the more... the more"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0700",
+    "simplified": "越来越",
+    "traditional": "越來越",
+    "pinyin": "yuè lái yuè",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "more and more"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0701",
+    "simplified": "云",
+    "traditional": "雲",
+    "pinyin": "yún",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "cloud",
+      "CL:朵"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0702",
+    "simplified": "运动",
+    "traditional": "運動",
+    "pinyin": "yùn dòng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to move",
+      "to exercise",
+      "sports",
+      "exercise",
+      "motion",
+      "movement",
+      "campaign",
+      "CL:場/场"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0703",
+    "simplified": "咱",
+    "pinyin": "zán",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "I or me",
+      "we (including both the speaker and the person spoken to)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0704",
+    "simplified": "咱们",
+    "traditional": "咱們",
+    "pinyin": "zán men",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "we or us (including both the speaker and the person(s) spoken to)",
+      "(dialect) I or me",
+      "(dialect) (in a coaxing or familiar way) you",
+      "also pr."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0705",
+    "simplified": "脏",
+    "traditional": "髒",
+    "pinyin": "zāng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "dirty",
+      "filthy",
+      "to get (sth) dirty"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0706",
+    "simplified": "早餐",
+    "pinyin": "zǎo cān",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "breakfast",
+      "CL:份,頓/顿,次"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0707",
+    "simplified": "早晨",
+    "pinyin": "zǎo chén",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "early morning",
+      "also pr."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0708",
+    "simplified": "早就",
+    "pinyin": "zǎo jiù",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "already at an earlier time"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0709",
+    "simplified": "怎么办",
+    "traditional": "怎麼辦",
+    "pinyin": "zěn me bàn",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "what's to be done"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0710",
+    "simplified": "怎么样",
+    "traditional": "怎麼樣",
+    "pinyin": "zěn me yàng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "how?",
+      "how about?",
+      "how was it?",
+      "how are things?"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0711",
+    "simplified": "怎样",
+    "traditional": "怎樣",
+    "pinyin": "zěn yàng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "how",
+      "what kind"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0712",
+    "simplified": "占",
+    "pinyin": "zhàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to take possession of",
+      "to occupy",
+      "to take up"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0713",
+    "simplified": "站",
+    "pinyin": "zhàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "station",
+      "to stand",
+      "to halt",
+      "to stop",
+      "branch of a company or organization",
+      "website"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0461",
+        "pinyin": "zhàn",
+        "partOfSpeech": [
+          "N"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0714",
+    "simplified": "站住",
+    "pinyin": "zhàn zhù",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to come to a stop; to halt",
+      "to keep one's footing; to stay upright",
+      "(fig.) to hold one's ground; to gain a firm foothold",
+      "(of an assertion etc) to hold up; to be tenable"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0715",
+    "simplified": "长",
+    "traditional": "長",
+    "pinyin": "zhǎng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "chief",
+      "head",
+      "elder",
+      "to grow",
+      "to develop",
+      "to increase",
+      "to enhance"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0055",
+        "pinyin": "cháng",
+        "partOfSpeech": [
+          "Adj"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  }
+]

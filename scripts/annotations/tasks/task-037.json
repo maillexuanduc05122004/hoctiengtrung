@@ -1,0 +1,742 @@
+[
+  {
+    "id": "L3-0349",
+    "simplified": "将来",
+    "traditional": "將來",
+    "pinyin": "jiāng lái",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "in the future",
+      "future",
+      "the future",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0350",
+    "simplified": "交费",
+    "traditional": "交費",
+    "pinyin": "jiāo fèi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to pay a fee"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0351",
+    "simplified": "交警",
+    "pinyin": "jiāo jǐng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "traffic police (abbr. for 交通警察)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0352",
+    "simplified": "交流",
+    "pinyin": "jiāo liú",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to exchange",
+      "exchange",
+      "communication",
+      "interaction",
+      "to have social contact (with sb)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0353",
+    "simplified": "交往",
+    "pinyin": "jiāo wǎng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to associate (with)",
+      "to have contact (with)",
+      "to hang out (with)",
+      "to date",
+      "(interpersonal) relationship",
+      "association",
+      "contact"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0354",
+    "simplified": "交易",
+    "pinyin": "jiāo yì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to deal; to trade; to transact",
+      "transaction; deal",
+      "CL:筆/笔"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0355",
+    "simplified": "叫",
+    "pinyin": "jiào",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Prep"
+    ],
+    "cedictDefinitions": [
+      "to shout",
+      "to call",
+      "to order",
+      "to ask",
+      "to be called",
+      "by (indicates agent in the passive mood)"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0176",
+        "pinyin": "jiào",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0356",
+    "simplified": "较",
+    "traditional": "較",
+    "pinyin": "jiào",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "(bound form) to compare",
+      "(literary) to dispute",
+      "compared to",
+      "(before an adjective) relatively; comparatively; rather",
+      "also pr."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0357",
+    "simplified": "教材",
+    "pinyin": "jiào cái",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "teaching material",
+      "CL:本"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0358",
+    "simplified": "教练",
+    "traditional": "教練",
+    "pinyin": "jiào liàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to coach; to train",
+      "instructor; sports coach; trainer (CL:位,名)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0359",
+    "simplified": "结实",
+    "traditional": "結實",
+    "pinyin": "jiē shi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "rugged",
+      "sturdy",
+      "strong",
+      "durable",
+      "buff (physique)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0360",
+    "simplified": "接待",
+    "pinyin": "jiē dài",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to receive; to entertain; to host (guests, visitors or clients)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0361",
+    "simplified": "接近",
+    "pinyin": "jiē jìn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to approach; to get close to"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0362",
+    "simplified": "节约",
+    "traditional": "節約",
+    "pinyin": "jié yuē",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to economize",
+      "to conserve (resources)",
+      "economy",
+      "frugal"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0363",
+    "simplified": "结合",
+    "traditional": "結合",
+    "pinyin": "jié hé",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to combine",
+      "to link",
+      "to integrate",
+      "binding",
+      "CL:次"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0364",
+    "simplified": "结婚",
+    "traditional": "結婚",
+    "pinyin": "jié hūn",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to marry; to get married"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0365",
+    "simplified": "结束",
+    "traditional": "結束",
+    "pinyin": "jié shù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to end; to finish; to conclude"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0366",
+    "simplified": "解决",
+    "traditional": "解決",
+    "pinyin": "jiě jué",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to solve; to resolve; to settle (a problem)",
+      "to eliminate; to wipe out (an enemy, bandits etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0367",
+    "simplified": "解开",
+    "traditional": "解開",
+    "pinyin": "jiě kāi",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to untie",
+      "to undo",
+      "to solve (a mystery)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0368",
+    "simplified": "金",
+    "pinyin": "jīn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "gold",
+      "chemical element Au",
+      "generic term for lustrous and ductile metals",
+      "money",
+      "golden",
+      "highly respected",
+      "one of the eight categories of ancient musical instruments 八音"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0369",
+    "simplified": "金牌",
+    "pinyin": "jīn pái",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "gold medal",
+      "CL:枚"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0370",
+    "simplified": "仅",
+    "traditional": "僅",
+    "pinyin": "jǐn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "barely",
+      "only",
+      "merely"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0371",
+    "simplified": "仅仅",
+    "traditional": "僅僅",
+    "pinyin": "jǐn jǐn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "barely",
+      "only",
+      "merely",
+      "only (this and nothing more)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0372",
+    "simplified": "尽量",
+    "traditional": "儘量",
+    "pinyin": "jǐn liàng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "as much as possible",
+      "to the greatest extent"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0373",
+    "simplified": "紧",
+    "traditional": "緊",
+    "pinyin": "jǐn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "tight",
+      "strict",
+      "close at hand",
+      "near",
+      "urgent",
+      "tense",
+      "hard up",
+      "short of money",
+      "to tighten"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0374",
+    "simplified": "紧急",
+    "traditional": "緊急",
+    "pinyin": "jǐn jí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "urgent",
+      "emergency"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0375",
+    "simplified": "紧张",
+    "traditional": "緊張",
+    "pinyin": "jǐn zhāng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "nervous",
+      "keyed up",
+      "intense",
+      "tense",
+      "strained",
+      "in short supply",
+      "scarce",
+      "CL:陣/阵"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0376",
+    "simplified": "进步",
+    "traditional": "進步",
+    "pinyin": "jìn bù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "progress; improvement",
+      "to improve; to progress"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0377",
+    "simplified": "进一步",
+    "traditional": "進一步",
+    "pinyin": "jìn yī bù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "to go a step further",
+      "(develop, understand, improve etc) more; further"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0378",
+    "simplified": "进展",
+    "traditional": "進展",
+    "pinyin": "jìn zhǎn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to make headway; to make progress"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0379",
+    "simplified": "近期",
+    "pinyin": "jìn qī",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "near in time",
+      "in the near future",
+      "very soon",
+      "recent"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0380",
+    "simplified": "京剧",
+    "traditional": "京劇",
+    "pinyin": "jīng jù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "Beijing opera",
+      "CL:場/场,齣/出"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0381",
+    "simplified": "经济",
+    "traditional": "經濟",
+    "pinyin": "jīng jì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "economy",
+      "economic"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0382",
+    "simplified": "经历",
+    "traditional": "經歷",
+    "pinyin": "jīng lì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to experience; to go through",
+      "experience (CL:段,次)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0383",
+    "simplified": "经验",
+    "traditional": "經驗",
+    "pinyin": "jīng yàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "experience",
+      "to go through; to experience"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0384",
+    "simplified": "经营",
+    "traditional": "經營",
+    "pinyin": "jīng yíng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to engage in (business etc); to run; to operate"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0385",
+    "simplified": "精彩",
+    "pinyin": "jīng cǎi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "wonderful",
+      "marvelous",
+      "brilliant"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0386",
+    "simplified": "精神",
+    "pinyin": "jīng shén",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "spirit",
+      "mind",
+      "consciousness",
+      "thought",
+      "mental",
+      "psychological",
+      "essence",
+      "gist",
+      "CL:個/个"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0387",
+        "pinyin": "jīng shen",
+        "partOfSpeech": [
+          "Adj",
+          "N"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0387",
+    "simplified": "精神",
+    "pinyin": "jīng shen",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "vigor; vitality",
+      "spirited",
+      "good-looking"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0386",
+        "pinyin": "jīng shén",
+        "partOfSpeech": [
+          "N"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0388",
+    "simplified": "景色",
+    "pinyin": "jǐng sè",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "scenery; landscape; view"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0389",
+    "simplified": "警察",
+    "pinyin": "jǐng chá",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "police; police officer"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0390",
+    "simplified": "静",
+    "traditional": "靜",
+    "pinyin": "jìng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "still",
+      "calm",
+      "quiet",
+      "not moving"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0391",
+    "simplified": "久",
+    "pinyin": "jiǔ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "(of a period of time) long"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0392",
+    "simplified": "旧",
+    "traditional": "舊",
+    "pinyin": "jiù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "old",
+      "opposite: new 新",
+      "former",
+      "worn (with age)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0393",
+    "simplified": "救",
+    "pinyin": "jiù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to save",
+      "to assist",
+      "to rescue"
+    ],
+    "needsEnglish": false
+  }
+]

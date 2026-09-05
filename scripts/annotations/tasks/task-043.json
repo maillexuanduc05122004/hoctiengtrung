@@ -1,0 +1,730 @@
+[
+  {
+    "id": "L3-0619",
+    "simplified": "设备",
+    "traditional": "設備",
+    "pinyin": "shè bèi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "equipment; facilities; installations"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0620",
+    "simplified": "设计",
+    "traditional": "設計",
+    "pinyin": "shè jì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to design; to plan",
+      "design; plan"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0621",
+    "simplified": "设立",
+    "traditional": "設立",
+    "pinyin": "shè lì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to set up; to establish"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0622",
+    "simplified": "社会",
+    "traditional": "社會",
+    "pinyin": "shè huì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "society"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0623",
+    "simplified": "身份证",
+    "traditional": "身份證",
+    "pinyin": "shēn fèn zhèng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "identity card",
+      "ID"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0624",
+    "simplified": "深",
+    "pinyin": "shēn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "(lit. and fig.) deep"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0625",
+    "simplified": "深刻",
+    "pinyin": "shēn kè",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "profound",
+      "deep",
+      "deep-going"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0626",
+    "simplified": "深入",
+    "pinyin": "shēn rù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "to penetrate deeply",
+      "thorough"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0627",
+    "simplified": "升",
+    "pinyin": "shēng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to ascend; to rise",
+      "to promote; to elevate",
+      "liter",
+      "unit of dry measure for grain (= one liter or one-tenth dou 斗)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0628",
+    "simplified": "生",
+    "pinyin": "shēng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "to grow; to give birth; to produce; to be born",
+      "to arise; to occur",
+      "to light (a fire)",
+      "to live; to be alive",
+      "life",
+      "raw; uncooked; unprocessed",
+      "unfamiliar; strange",
+      "(bound form) student; person engaged in a field",
+      "(bound form) male role in traditional opera",
+      "(bound form) life; lifetime",
+      "(bound form) means of livelihood",
+      "(bound form) very; intensely (as in 生疼)",
+      "(bound form) in a forced manner (as in 生拉硬拽)"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0477",
+        "pinyin": "shēng",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0629",
+    "simplified": "生产",
+    "traditional": "生產",
+    "pinyin": "shēng chǎn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to produce; to manufacture",
+      "to give birth to a child"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0630",
+    "simplified": "生存",
+    "pinyin": "shēng cún",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to exist",
+      "to survive"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0631",
+    "simplified": "生动",
+    "traditional": "生動",
+    "pinyin": "shēng dòng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "(of descriptions, writing etc) vivid; lively"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0632",
+    "simplified": "生命",
+    "pinyin": "shēng mìng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "life (as the characteristic of living beings)",
+      "living being; creature (CL:條/条)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0633",
+    "simplified": "生意",
+    "pinyin": "shēng yi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "business",
+      "CL:筆/笔"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0634",
+    "simplified": "生长",
+    "traditional": "生長",
+    "pinyin": "shēng zhǎng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to grow",
+      "to grow up",
+      "to be brought up"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0635",
+    "simplified": "声明",
+    "traditional": "聲明",
+    "pinyin": "shēng míng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to state",
+      "to declare",
+      "statement",
+      "declaration",
+      "CL:項/项,份"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0636",
+    "simplified": "胜",
+    "traditional": "勝",
+    "pinyin": "shèng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "victory",
+      "success",
+      "to beat",
+      "to defeat",
+      "to surpass",
+      "victorious",
+      "superior to",
+      "to get the better of",
+      "better than",
+      "surpassing",
+      "superb (of vista)",
+      "beautiful (scenery)",
+      "wonderful (view)",
+      "(Taiwan pr. ) able to bear",
+      "equal to (a task)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0637",
+    "simplified": "胜利",
+    "traditional": "勝利",
+    "pinyin": "shèng lì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "victory",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0638",
+    "simplified": "失去",
+    "pinyin": "shī qù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to lose"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0639",
+    "simplified": "石头",
+    "traditional": "石頭",
+    "pinyin": "shí tou",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "stone",
+      "CL:塊/块"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0640",
+    "simplified": "石油",
+    "pinyin": "shí yóu",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "oil",
+      "petroleum"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0641",
+    "simplified": "时",
+    "traditional": "時",
+    "pinyin": "shí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "o'clock",
+      "time",
+      "when",
+      "hour",
+      "season",
+      "period"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0642",
+    "simplified": "时代",
+    "traditional": "時代",
+    "pinyin": "shí dài",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "age",
+      "era",
+      "epoch",
+      "period (in one's life)",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0643",
+    "simplified": "时刻",
+    "traditional": "時刻",
+    "pinyin": "shí kè",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "time",
+      "juncture",
+      "moment",
+      "period of time",
+      "CL:個/个,段",
+      "constantly",
+      "always"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0644",
+    "simplified": "实际上",
+    "traditional": "實際上",
+    "pinyin": "shí jì shàng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "in fact",
+      "in reality",
+      "as a matter of fact",
+      "in practice"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0645",
+    "simplified": "实力",
+    "traditional": "實力",
+    "pinyin": "shí lì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "strength"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0646",
+    "simplified": "实行",
+    "traditional": "實行",
+    "pinyin": "shí xíng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to implement",
+      "to carry out",
+      "to put into practice"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0647",
+    "simplified": "实验",
+    "traditional": "實驗",
+    "pinyin": "shí yàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "experiment",
+      "test",
+      "CL:個/个,次",
+      "experimental",
+      "to experiment"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0648",
+    "simplified": "实验室",
+    "traditional": "實驗室",
+    "pinyin": "shí yàn shì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "laboratory",
+      "CL:間/间"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0649",
+    "simplified": "食品",
+    "pinyin": "shí pǐn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "foodstuff; food; provisions"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0650",
+    "simplified": "使",
+    "pinyin": "shǐ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to make",
+      "to cause",
+      "to enable",
+      "to use",
+      "to employ",
+      "to send",
+      "to instruct sb to do sth",
+      "envoy",
+      "messenger"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0651",
+    "simplified": "始终",
+    "traditional": "始終",
+    "pinyin": "shǐ zhōng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "from beginning to end",
+      "all along"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0652",
+    "simplified": "世纪",
+    "traditional": "世紀",
+    "pinyin": "shì jì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "century"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0653",
+    "simplified": "世界",
+    "pinyin": "shì jiè",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "world"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0654",
+    "simplified": "世界杯",
+    "pinyin": "shì jiè bēi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "World Cup"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0655",
+    "simplified": "市场",
+    "traditional": "市場",
+    "pinyin": "shì chǎng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "marketplace; market; bazaar",
+      "(economics) market"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0656",
+    "simplified": "事故",
+    "pinyin": "shì gù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "accident",
+      "CL:樁/桩,起,次"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0657",
+    "simplified": "事件",
+    "pinyin": "shì jiàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "incident; event"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0658",
+    "simplified": "事实",
+    "traditional": "事實",
+    "pinyin": "shì shí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "fact",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0659",
+    "simplified": "事实上",
+    "traditional": "事實上",
+    "pinyin": "shì shí shàng",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "in fact",
+      "in reality",
+      "actually",
+      "as a matter of fact",
+      "de facto",
+      "ipso facto"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0660",
+    "simplified": "事业",
+    "traditional": "事業",
+    "pinyin": "shì yè",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "undertaking",
+      "project",
+      "activity",
+      "(charitable, political or revolutionary) cause",
+      "publicly funded institution, enterprise or foundation",
+      "career",
+      "occupation",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0661",
+    "simplified": "试题",
+    "traditional": "試題",
+    "pinyin": "shì tí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "exam question",
+      "test topic"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0662",
+    "simplified": "试验",
+    "traditional": "試驗",
+    "pinyin": "shì yàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "experiment",
+      "test",
+      "CL:次,個/个",
+      "to experiment",
+      "experimental"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0663",
+    "simplified": "适合",
+    "traditional": "適合",
+    "pinyin": "shì hé",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to fit; to suit"
+    ],
+    "needsEnglish": false
+  }
+]

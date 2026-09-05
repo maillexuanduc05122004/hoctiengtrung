@@ -1,0 +1,739 @@
+[
+  {
+    "id": "L3-0664",
+    "simplified": "适应",
+    "traditional": "適應",
+    "pinyin": "shì yìng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to adapt",
+      "to fit",
+      "to suit"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0665",
+    "simplified": "适用",
+    "traditional": "適用",
+    "pinyin": "shì yòng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "to be applicable"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0666",
+    "simplified": "室",
+    "pinyin": "shì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "room",
+      "work unit",
+      "grave",
+      "scabbard",
+      "family or clan",
+      "one of the 28 constellations of Chinese astronomy"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0667",
+    "simplified": "收费",
+    "traditional": "收費",
+    "pinyin": "shōu fèi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to charge a fee"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0668",
+    "simplified": "收看",
+    "pinyin": "shōu kàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to watch (a TV program)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0669",
+    "simplified": "收听",
+    "traditional": "收聽",
+    "pinyin": "shōu tīng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to listen to (a radio broadcast)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0670",
+    "simplified": "收音机",
+    "traditional": "收音機",
+    "pinyin": "shōu yīn jī",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "radio",
+      "CL:臺/台"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0671",
+    "simplified": "手续",
+    "traditional": "手續",
+    "pinyin": "shǒu xù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "procedure",
+      "CL:道,個/个",
+      "formalities"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0672",
+    "simplified": "手指",
+    "pinyin": "shǒu zhǐ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "finger",
+      "CL:個/个,隻/只"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0673",
+    "simplified": "首都",
+    "pinyin": "shǒu dū",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "capital (city)",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0674",
+    "simplified": "首先",
+    "pinyin": "shǒu xiān",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "first of all; in the first place"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0675",
+    "simplified": "受",
+    "pinyin": "shòu",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to receive",
+      "to accept",
+      "to suffer",
+      "subjected to",
+      "to bear",
+      "to stand",
+      "pleasant",
+      "(passive marker)",
+      "(LGBT) bottom"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0676",
+    "simplified": "受伤",
+    "traditional": "受傷",
+    "pinyin": "shòu shāng",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to sustain injuries",
+      "wounded (in an accident etc)",
+      "harmed"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0677",
+    "simplified": "书架",
+    "traditional": "書架",
+    "pinyin": "shū jià",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "bookshelf",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0678",
+    "simplified": "输",
+    "traditional": "輸",
+    "pinyin": "shū",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to lose; to be beaten",
+      "(bound form) to transport",
+      "(literary) to donate; to contribute",
+      "(coll.) to enter (a password)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0679",
+    "simplified": "输入",
+    "traditional": "輸入",
+    "pinyin": "shū rù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to import",
+      "to input"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0680",
+    "simplified": "熟人",
+    "pinyin": "shú rén",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "acquaintance",
+      "friend"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0681",
+    "simplified": "属",
+    "traditional": "屬",
+    "pinyin": "shǔ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "category",
+      "genus (taxonomy)",
+      "family members",
+      "dependents",
+      "to belong to",
+      "subordinate to",
+      "affiliated with",
+      "be born in the year of (one of the 12 animals)",
+      "to be",
+      "to prove to be",
+      "to constitute"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0682",
+    "simplified": "属于",
+    "traditional": "屬於",
+    "pinyin": "shǔ yú",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to belong to; to fall under (a category)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0683",
+    "simplified": "束",
+    "pinyin": "shù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "to bind",
+      "bunch",
+      "bundle",
+      "classifier for bunches, bundles, beams of light etc",
+      "to control"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0684",
+    "simplified": "数量",
+    "traditional": "數量",
+    "pinyin": "shù liàng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "amount; quantity",
+      "quantitative",
+      "(math.) scalar quantity"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0685",
+    "simplified": "双",
+    "traditional": "雙",
+    "pinyin": "shuāng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "M",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "two",
+      "double",
+      "pair",
+      "both",
+      "even (number)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0686",
+    "simplified": "双方",
+    "traditional": "雙方",
+    "pinyin": "shuāng fāng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "bilateral",
+      "both sides",
+      "both parties involved"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0687",
+    "simplified": "思想",
+    "pinyin": "sī xiǎng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "thought",
+      "thinking",
+      "idea",
+      "ideology",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0688",
+    "simplified": "死",
+    "pinyin": "sǐ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "to die",
+      "impassable",
+      "uncrossable",
+      "inflexible",
+      "rigid",
+      "extremely",
+      "damned"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0689",
+    "simplified": "速度",
+    "pinyin": "sù dù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "speed; rate; velocity; (music) tempo"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0690",
+    "simplified": "随",
+    "traditional": "隨",
+    "pinyin": "suí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to follow",
+      "to comply with",
+      "varying according to...",
+      "to allow",
+      "subsequently"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0691",
+    "simplified": "所",
+    "pinyin": "suǒ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "actually",
+      "place",
+      "classifier for houses, small buildings, institutions etc",
+      "that which",
+      "particle introducing a relative clause or passive",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0692",
+    "simplified": "所长",
+    "traditional": "所長",
+    "pinyin": "suǒ zhǎng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "director; head of an institute, office or station"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0693",
+    "simplified": "台",
+    "pinyin": "tái",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "(classical) you (in letters)",
+      "variant of 臺/台",
+      "platform",
+      "stage",
+      "terrace",
+      "stand",
+      "support",
+      "station",
+      "broadcasting station",
+      "classifier for vehicles or machines"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0694",
+    "simplified": "谈",
+    "traditional": "談",
+    "pinyin": "tán",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to speak",
+      "to talk",
+      "to converse",
+      "to chat",
+      "to discuss"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0695",
+    "simplified": "谈话",
+    "traditional": "談話",
+    "pinyin": "tán huà",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to talk (with sb)",
+      "to have a conversation",
+      "talk",
+      "conversation",
+      "CL:次"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0696",
+    "simplified": "谈判",
+    "traditional": "談判",
+    "pinyin": "tán pàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to negotiate",
+      "negotiation",
+      "talks",
+      "conference",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0697",
+    "simplified": "汤",
+    "traditional": "湯",
+    "pinyin": "tāng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "soup",
+      "hot or boiling water",
+      "decoction of medicinal herbs",
+      "water in which sth has been boiled"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0698",
+    "simplified": "糖",
+    "pinyin": "táng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "sugar",
+      "sweets",
+      "candy",
+      "CL:顆/颗,塊/块"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0699",
+    "simplified": "特色",
+    "pinyin": "tè sè",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "a characteristic; a distinctive feature or quality"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0700",
+    "simplified": "提前",
+    "pinyin": "tí qián",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to shift to an earlier date",
+      "to do sth ahead of time",
+      "in advance"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0701",
+    "simplified": "提问",
+    "traditional": "提問",
+    "pinyin": "tí wèn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to question; to quiz; to grill"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0702",
+    "simplified": "题目",
+    "traditional": "題目",
+    "pinyin": "tí mù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "subject; title; topic",
+      "exercise or exam question (CL:道)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0703",
+    "simplified": "体会",
+    "traditional": "體會",
+    "pinyin": "tǐ huì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to know from experience",
+      "to learn through experience",
+      "to realize",
+      "understanding",
+      "experience"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0704",
+    "simplified": "体现",
+    "traditional": "體現",
+    "pinyin": "tǐ xiàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to embody",
+      "to reflect",
+      "to incarnate"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0705",
+    "simplified": "体验",
+    "traditional": "體驗",
+    "pinyin": "tǐ yàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to experience for oneself"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0706",
+    "simplified": "天空",
+    "pinyin": "tiān kōng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "sky"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0707",
+    "simplified": "甜",
+    "pinyin": "tián",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "sweet",
+      "(fig.) pleasant; endearing; lovely"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0708",
+    "simplified": "调",
+    "traditional": "調",
+    "pinyin": "tiáo",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to harmonize",
+      "to reconcile",
+      "to blend",
+      "to suit well",
+      "to adjust",
+      "to regulate",
+      "to season (food)",
+      "to provoke",
+      "to incite"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0153",
+        "pinyin": "diào",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  }
+]

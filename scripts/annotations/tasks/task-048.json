@@ -1,0 +1,716 @@
+[
+  {
+    "id": "L3-0844",
+    "simplified": "银牌",
+    "traditional": "銀牌",
+    "pinyin": "yín pái",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "silver medal",
+      "CL:枚"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0845",
+    "simplified": "印象",
+    "pinyin": "yìn xiàng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "impression (sth that stays in one's mind)",
+      "a memory"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0846",
+    "simplified": "应当",
+    "traditional": "應當",
+    "pinyin": "yīng dāng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "should; ought to"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0847",
+    "simplified": "迎接",
+    "pinyin": "yíng jiē",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to welcome; to greet"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0848",
+    "simplified": "营养",
+    "traditional": "營養",
+    "pinyin": "yíng yǎng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "nutrition",
+      "nourishment",
+      "CL:種/种"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0849",
+    "simplified": "赢",
+    "traditional": "贏",
+    "pinyin": "yíng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to beat",
+      "to win",
+      "to profit"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0850",
+    "simplified": "影视",
+    "traditional": "影視",
+    "pinyin": "yǐng shì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "movies and television"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0851",
+    "simplified": "应用",
+    "traditional": "應用",
+    "pinyin": "yìng yòng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to put to use; to apply",
+      "practical; applied (science, linguistics etc)",
+      "application; practical use",
+      "(computing) app"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0852",
+    "simplified": "优点",
+    "traditional": "優點",
+    "pinyin": "yōu diǎn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "merit",
+      "benefit",
+      "strong point",
+      "advantage",
+      "CL:個/个,項/项"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0853",
+    "simplified": "优势",
+    "traditional": "優勢",
+    "pinyin": "yōu shì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "superiority",
+      "dominance",
+      "advantage"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0854",
+    "simplified": "由",
+    "pinyin": "yóu",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Prep"
+    ],
+    "cedictDefinitions": [
+      "to follow",
+      "from",
+      "because of; due to",
+      "by; via; through",
+      "(before a noun and a verb) it is for ... to ..."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0855",
+    "simplified": "由于",
+    "traditional": "由於",
+    "pinyin": "yóu yú",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Prep",
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "due to",
+      "as a result of",
+      "thanks to",
+      "owing to",
+      "since",
+      "because"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0856",
+    "simplified": "邮件",
+    "traditional": "郵件",
+    "pinyin": "yóu jiàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "mail",
+      "post",
+      "email"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0857",
+    "simplified": "邮票",
+    "traditional": "郵票",
+    "pinyin": "yóu piào",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(postage) stamp",
+      "CL:枚,張/张"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0858",
+    "simplified": "邮箱",
+    "traditional": "郵箱",
+    "pinyin": "yóu xiāng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "mailbox",
+      "post office box",
+      "email",
+      "email inbox"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0859",
+    "simplified": "游",
+    "pinyin": "yóu",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to swim",
+      "variant of 遊/游"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0860",
+    "simplified": "游戏",
+    "traditional": "遊戲",
+    "pinyin": "yóu xì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "game (CL:場/场)",
+      "to play"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0861",
+    "simplified": "游泳",
+    "pinyin": "yóu yǒng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "swimming",
+      "to swim"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0862",
+    "simplified": "有的是",
+    "pinyin": "yǒu de shì",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "have plenty of",
+      "there's no lack of"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0863",
+    "simplified": "有利",
+    "pinyin": "yǒu lì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "advantageous; favorable"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0864",
+    "simplified": "有效",
+    "pinyin": "yǒu xiào",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "effective",
+      "in effect",
+      "valid"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0865",
+    "simplified": "预报",
+    "traditional": "預報",
+    "pinyin": "yù bào",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "forecast"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0866",
+    "simplified": "预防",
+    "traditional": "預防",
+    "pinyin": "yù fáng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to prevent",
+      "to take precautions against",
+      "to protect",
+      "to guard against",
+      "precautionary",
+      "prophylactic"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0867",
+    "simplified": "预计",
+    "traditional": "預計",
+    "pinyin": "yù jì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to forecast",
+      "to predict",
+      "to estimate"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0868",
+    "simplified": "预习",
+    "traditional": "預習",
+    "pinyin": "yù xí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to prepare a lesson"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0869",
+    "simplified": "员",
+    "traditional": "員",
+    "pinyin": "yuán",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Suffix"
+    ],
+    "cedictDefinitions": [
+      "(bound form) person engaged in a certain field of activity",
+      "(bound form) member",
+      "classifier for military generals"
+    ],
+    "affixExample": "服务员",
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0870",
+    "simplified": "员工",
+    "traditional": "員工",
+    "pinyin": "yuán gōng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "staff; personnel; employee"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0871",
+    "simplified": "愿望",
+    "traditional": "願望",
+    "pinyin": "yuàn wàng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "desire",
+      "wish"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0872",
+    "simplified": "约",
+    "traditional": "約",
+    "pinyin": "yuē",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to make an appointment",
+      "to invite",
+      "approximately",
+      "pact",
+      "treaty",
+      "to economize",
+      "to restrict",
+      "to reduce (a fraction)",
+      "concise"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0873",
+    "simplified": "乐队",
+    "traditional": "樂隊",
+    "pinyin": "yuè duì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "band",
+      "pop group",
+      "CL:支"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0874",
+    "simplified": "运输",
+    "traditional": "運輸",
+    "pinyin": "yùn shū",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to transport",
+      "to carry",
+      "transportation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0875",
+    "simplified": "杂志",
+    "traditional": "雜誌",
+    "pinyin": "zá zhì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "magazine",
+      "CL:本,份,期"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0876",
+    "simplified": "早已",
+    "pinyin": "zǎo yǐ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "for a long time; long since",
+      "(dialect) in the past"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0877",
+    "simplified": "造",
+    "pinyin": "zào",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to make",
+      "to build",
+      "to manufacture",
+      "to invent",
+      "to fabricate",
+      "to go to",
+      "party (in a lawsuit or legal agreement)",
+      "crop",
+      "classifier for crops"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0878",
+    "simplified": "造成",
+    "pinyin": "zào chéng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to bring about; to create; to cause"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0879",
+    "simplified": "责任",
+    "traditional": "責任",
+    "pinyin": "zé rèn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "responsibility; duty; liability"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0880",
+    "simplified": "增加",
+    "pinyin": "zēng jiā",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to raise; to increase"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0881",
+    "simplified": "增长",
+    "traditional": "增長",
+    "pinyin": "zēng zhǎng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to grow; to increase"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0882",
+    "simplified": "展开",
+    "traditional": "展開",
+    "pinyin": "zhǎn kāi",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to unfold; to spread out; to open up",
+      "to launch; to carry out"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0883",
+    "simplified": "张",
+    "traditional": "張",
+    "pinyin": "zhāng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "M",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to open up",
+      "to spread",
+      "sheet of paper",
+      "classifier for flat objects, sheet",
+      "classifier for votes"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0884",
+    "simplified": "照",
+    "pinyin": "zhào",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "Prep"
+    ],
+    "cedictDefinitions": [
+      "according to",
+      "in accordance with",
+      "to shine",
+      "to illuminate",
+      "to reflect",
+      "to look at (one's reflection)",
+      "to take (a photo)",
+      "photo",
+      "as requested",
+      "as before"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0885",
+    "simplified": "者",
+    "pinyin": "zhě",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Suffix"
+    ],
+    "cedictDefinitions": [
+      "(after a verb or adjective) one who (is) ...",
+      "(after a noun) person involved in ...",
+      "-er",
+      "-ist",
+      "(used after a number or 後/后 or 前 to refer to sth mentioned previously)",
+      "(used after a term, to mark a pause before defining the term)",
+      "(old) (used at the end of a command)",
+      "(old) this"
+    ],
+    "affixExample": "志愿者",
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0886",
+    "simplified": "真实",
+    "traditional": "真實",
+    "pinyin": "zhēn shí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "true; real"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0887",
+    "simplified": "争",
+    "traditional": "爭",
+    "pinyin": "zhēng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to strive for",
+      "to vie for",
+      "to argue or debate",
+      "deficient or lacking (dialect)",
+      "how or what (literary)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0888",
+    "simplified": "争取",
+    "traditional": "爭取",
+    "pinyin": "zhēng qǔ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to fight for",
+      "to strive for",
+      "to win over"
+    ],
+    "needsEnglish": false
+  }
+]

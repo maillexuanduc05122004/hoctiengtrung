@@ -1,0 +1,742 @@
+[
+  {
+    "id": "L3-0079",
+    "simplified": "厂",
+    "traditional": "廠",
+    "pinyin": "chǎng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "factory",
+      "yard",
+      "depot",
+      "workhouse",
+      "works",
+      "(industrial) plant"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0080",
+    "simplified": "场合",
+    "traditional": "場合",
+    "pinyin": "chǎng hé",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "occasion; situation; context",
+      "setting; venue"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0081",
+    "simplified": "场所",
+    "traditional": "場所",
+    "pinyin": "chǎng suǒ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "location",
+      "place"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0082",
+    "simplified": "超级",
+    "traditional": "超級",
+    "pinyin": "chāo jí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "super-",
+      "ultra-",
+      "hyper-"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0083",
+    "simplified": "朝",
+    "pinyin": "cháo",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Prep",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "imperial or royal court",
+      "government",
+      "dynasty",
+      "reign of a sovereign or emperor",
+      "court or assembly held by a sovereign or emperor",
+      "to make a pilgrimage to",
+      "facing",
+      "towards"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0084",
+    "simplified": "吵",
+    "pinyin": "chǎo",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "noisy; loud",
+      "to quarrel; to argue"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0085",
+    "simplified": "吵架",
+    "pinyin": "chǎo jià",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to quarrel",
+      "to have a row",
+      "quarrel",
+      "CL:頓/顿"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0086",
+    "simplified": "衬衫",
+    "traditional": "襯衫",
+    "pinyin": "chèn shān",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "shirt",
+      "blouse",
+      "CL:件"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0087",
+    "simplified": "衬衣",
+    "traditional": "襯衣",
+    "pinyin": "chèn yī",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "shirt",
+      "CL:件"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0088",
+    "simplified": "称为",
+    "traditional": "稱為",
+    "pinyin": "chēng wéi",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to be called; to be known as; to call it \"...\""
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0089",
+    "simplified": "成功",
+    "pinyin": "chéng gōng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "to succeed",
+      "success",
+      "successful; fruitful"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0090",
+    "simplified": "成果",
+    "pinyin": "chéng guǒ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "result",
+      "achievement",
+      "gain",
+      "profit",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0091",
+    "simplified": "成就",
+    "pinyin": "chéng jiù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "accomplishment",
+      "success",
+      "achievement",
+      "CL:個/个",
+      "to achieve (a result)",
+      "to create",
+      "to bring about"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0092",
+    "simplified": "成立",
+    "pinyin": "chéng lì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to establish",
+      "to set up",
+      "to be tenable",
+      "to hold water"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0093",
+    "simplified": "成熟",
+    "pinyin": "chéng shú",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "mature; ripe",
+      "to mature; to ripen",
+      "Taiwan pr."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0094",
+    "simplified": "成员",
+    "traditional": "成員",
+    "pinyin": "chéng yuán",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "member"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0095",
+    "simplified": "成长",
+    "traditional": "成長",
+    "pinyin": "chéng zhǎng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to mature",
+      "to grow",
+      "growth"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0096",
+    "simplified": "城",
+    "pinyin": "chéng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "city walls",
+      "city",
+      "town",
+      "CL:座,道,個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0097",
+    "simplified": "城市",
+    "pinyin": "chéng shì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "city; town",
+      "CL:座"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0098",
+    "simplified": "程度",
+    "pinyin": "chéng dù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "degree; level; extent"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0099",
+    "simplified": "持续",
+    "traditional": "持續",
+    "pinyin": "chí xù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to continue; to last; to persist"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0100",
+    "simplified": "充满",
+    "traditional": "充滿",
+    "pinyin": "chōng mǎn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "full of",
+      "brimming with",
+      "very full",
+      "permeated"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0101",
+    "simplified": "重",
+    "pinyin": "chóng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "to repeat",
+      "repetition",
+      "again",
+      "re-",
+      "classifier: layer"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0483",
+        "pinyin": "zhòng",
+        "partOfSpeech": [
+          "Adj"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0102",
+    "simplified": "初",
+    "pinyin": "chū",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "(bound form) at first; initially",
+      "(bound form) first; early",
+      "(bound form) (in lunar calendar dates, before numerals 1–10) days 1 to 10 of a month, as in 初三 \"the third\""
+    ],
+    "siblings": [
+      {
+        "id": "L3-0103",
+        "pinyin": "chū",
+        "partOfSpeech": [
+          "Prefix"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0103",
+    "simplified": "初",
+    "pinyin": "chū",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Prefix"
+    ],
+    "cedictDefinitions": [
+      "(bound form) at first; initially",
+      "(bound form) first; early",
+      "(bound form) (in lunar calendar dates, before numerals 1–10) days 1 to 10 of a month, as in 初三 \"the third\""
+    ],
+    "siblings": [
+      {
+        "id": "L3-0102",
+        "pinyin": "chū",
+        "partOfSpeech": [
+          "Adv"
+        ]
+      }
+    ],
+    "affixExample": "初一",
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0104",
+    "simplified": "初步",
+    "pinyin": "chū bù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "initial",
+      "preliminary",
+      "tentative"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0105",
+    "simplified": "初级",
+    "traditional": "初級",
+    "pinyin": "chū jí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "junior",
+      "primary"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0106",
+    "simplified": "初中",
+    "pinyin": "chū zhōng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "junior high school (abbr. for 初級中學/初级中学)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0107",
+    "simplified": "除了",
+    "pinyin": "chú le",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Prep"
+    ],
+    "cedictDefinitions": [
+      "apart from; besides; in addition to (used to exclude, as in 除了他，誰也沒來/除了他，谁也没来 \"apart from him, nobody came\", or to include, as in 除了英語，他也會法語/除了英语，他也会法语 \"in addition to English, he also knows French\")",
+      "(used to introduce one of two habitual alternatives in the pattern 除了 + A + 就是 + B, \"either A or B\")"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0108",
+    "simplified": "处理",
+    "traditional": "處理",
+    "pinyin": "chǔ lǐ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to handle; to deal with",
+      "to punish",
+      "to treat sth by a special process; to process",
+      "to sell at reduced prices"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0109",
+    "simplified": "传",
+    "traditional": "傳",
+    "pinyin": "chuán",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to pass on",
+      "to spread",
+      "to transmit",
+      "to infect",
+      "to transfer",
+      "to circulate",
+      "to conduct (electricity)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0110",
+    "simplified": "传播",
+    "traditional": "傳播",
+    "pinyin": "chuán bō",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to disseminate; to propagate; to spread"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0111",
+    "simplified": "传来",
+    "traditional": "傳來",
+    "pinyin": "chuán lái",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "(of a sound) to come through",
+      "to be heard",
+      "(of news) to arrive"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0112",
+    "simplified": "传说",
+    "traditional": "傳說",
+    "pinyin": "chuán shuō",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "legend; folk tale",
+      "to repeat from mouth to mouth; they say that..."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0113",
+    "simplified": "创新",
+    "traditional": "創新",
+    "pinyin": "chuàng xīn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to bring forth new ideas; to blaze new trails",
+      "innovation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0114",
+    "simplified": "创业",
+    "traditional": "創業",
+    "pinyin": "chuàng yè",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to begin an undertaking; to start an enterprise",
+      "entrepreneurship"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0115",
+    "simplified": "创造",
+    "traditional": "創造",
+    "pinyin": "chuàng zào",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to create",
+      "to bring about",
+      "to produce",
+      "to set (a record)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0116",
+    "simplified": "创作",
+    "traditional": "創作",
+    "pinyin": "chuàng zuò",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to create; to produce; to write",
+      "a creative work; a creation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0117",
+    "simplified": "从来",
+    "traditional": "從來",
+    "pinyin": "cóng lái",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "always",
+      "at all times",
+      "never (if used in negative sentence)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0118",
+    "simplified": "从前",
+    "traditional": "從前",
+    "pinyin": "cóng qián",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "previously",
+      "formerly",
+      "once upon a time"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0119",
+    "simplified": "从事",
+    "traditional": "從事",
+    "pinyin": "cóng shì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to go for",
+      "to engage in",
+      "to undertake",
+      "to deal with",
+      "to handle",
+      "to do"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0120",
+    "simplified": "村",
+    "pinyin": "cūn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "village",
+      "(dialect) to scold",
+      "rustic; boorish"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0121",
+    "simplified": "存",
+    "pinyin": "cún",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to exist",
+      "to deposit",
+      "to store",
+      "to keep",
+      "to survive"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0122",
+    "simplified": "存在",
+    "pinyin": "cún zài",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to exist",
+      "to be",
+      "existence"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0123",
+    "simplified": "错误",
+    "traditional": "錯誤",
+    "pinyin": "cuò wù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "mistaken; false; wrong",
+      "error; mistake",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  }
+]

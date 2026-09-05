@@ -1,0 +1,723 @@
+[
+  {
+    "id": "L3-0169",
+    "simplified": "对象",
+    "traditional": "對象",
+    "pinyin": "duì xiàng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "target; object",
+      "partner; boyfriend; girlfriend",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0170",
+    "simplified": "顿",
+    "traditional": "頓",
+    "pinyin": "dùn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "to stop",
+      "to pause",
+      "to arrange",
+      "to lay out",
+      "to kowtow",
+      "to stamp (one's foot)",
+      "at once",
+      "classifier for meals, beatings, scoldings etc: time, bout, spell, meal"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0171",
+    "simplified": "发表",
+    "traditional": "發表",
+    "pinyin": "fā biǎo",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to issue",
+      "to publish"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0172",
+    "simplified": "发出",
+    "traditional": "發出",
+    "pinyin": "fā chū",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to issue (an order, decree etc); to send out; to dispatch",
+      "to produce (a sound); to let out (a laugh)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0173",
+    "simplified": "发达",
+    "traditional": "發達",
+    "pinyin": "fā dá",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "well-developed; flourishing",
+      "to develop; to promote; to expand",
+      "(literary) to achieve fame and fortune; to prosper"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0174",
+    "simplified": "发动",
+    "traditional": "發動",
+    "pinyin": "fā dòng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to start",
+      "to launch",
+      "to unleash",
+      "to mobilize",
+      "to arouse"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0175",
+    "simplified": "发明",
+    "traditional": "發明",
+    "pinyin": "fā míng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to invent",
+      "an invention",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0176",
+    "simplified": "发生",
+    "traditional": "發生",
+    "pinyin": "fā shēng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to happen; to occur; to take place; to break out"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0177",
+    "simplified": "发送",
+    "traditional": "發送",
+    "pinyin": "fā sòng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to transmit",
+      "to dispatch",
+      "to issue (an official document or credential)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0178",
+    "simplified": "发言",
+    "traditional": "發言",
+    "pinyin": "fā yán",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to make a speech",
+      "statement",
+      "utterance",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0179",
+    "simplified": "发展",
+    "traditional": "發展",
+    "pinyin": "fā zhǎn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "development",
+      "growth",
+      "to develop",
+      "to grow",
+      "to expand"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0180",
+    "simplified": "反对",
+    "traditional": "反對",
+    "pinyin": "fǎn duì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to oppose; to be against; to object to"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0181",
+    "simplified": "反复",
+    "traditional": "反覆",
+    "pinyin": "fǎn fù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "repeatedly",
+      "over and over",
+      "to upend",
+      "unstable",
+      "to come and go",
+      "(of an illness) to return"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0182",
+    "simplified": "反应",
+    "traditional": "反應",
+    "pinyin": "fǎn yìng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to react",
+      "to respond",
+      "reaction",
+      "response",
+      "reply",
+      "chemical reaction",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0183",
+    "simplified": "反正",
+    "pinyin": "fǎn zhèng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "anyway",
+      "in any case",
+      "to come over from the enemy's side"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0184",
+    "simplified": "范围",
+    "traditional": "範圍",
+    "pinyin": "fàn wéi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "range",
+      "scope",
+      "limit",
+      "extent",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0185",
+    "simplified": "方式",
+    "pinyin": "fāng shì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "way; method; manner; mode; pattern (of behavior etc)",
+      "CL:種/种"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0186",
+    "simplified": "防",
+    "pinyin": "fáng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to protect",
+      "to defend",
+      "to guard against",
+      "to prevent"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0187",
+    "simplified": "防止",
+    "pinyin": "fáng zhǐ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to prevent",
+      "to guard against",
+      "to take precautions"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0188",
+    "simplified": "房东",
+    "traditional": "房東",
+    "pinyin": "fáng dōng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "landlord"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0189",
+    "simplified": "房屋",
+    "pinyin": "fáng wū",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "house",
+      "building",
+      "CL:所,套"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0190",
+    "simplified": "房租",
+    "pinyin": "fáng zū",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "rent for a room or house"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0191",
+    "simplified": "访问",
+    "traditional": "訪問",
+    "pinyin": "fǎng wèn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to visit; to call on (a person or place)",
+      "(computing) to visit (a website); to access (a network resource etc)",
+      "(Tw) to interview (e.g. for a report or feature story)",
+      "CL:次"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0192",
+    "simplified": "放到",
+    "pinyin": "fàng dào",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [],
+    "needsEnglish": true
+  },
+  {
+    "id": "L3-0193",
+    "simplified": "飞行",
+    "traditional": "飛行",
+    "pinyin": "fēi xíng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "(of planes etc) to fly",
+      "flying",
+      "flight",
+      "aviation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0194",
+    "simplified": "费",
+    "traditional": "費",
+    "pinyin": "fèi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to cost",
+      "to spend",
+      "fee",
+      "wasteful",
+      "expenses"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0195",
+    "simplified": "费用",
+    "traditional": "費用",
+    "pinyin": "fèi yòng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "cost",
+      "expenditure",
+      "expense",
+      "CL:筆/笔,個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0196",
+    "simplified": "分别",
+    "traditional": "分別",
+    "pinyin": "fēn bié",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "to part; to leave each other",
+      "to distinguish; to tell apart",
+      "difference; distinction",
+      "in different ways; differently",
+      "separately; individually; respectively"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0197",
+    "simplified": "分配",
+    "pinyin": "fēn pèi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to distribute",
+      "to assign",
+      "to allocate",
+      "to partition (a hard drive)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0198",
+    "simplified": "分组",
+    "traditional": "分組",
+    "pinyin": "fēn zǔ",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to divide into groups",
+      "group (formed from a larger group)",
+      "subgroup",
+      "(computer networking) packet"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0199",
+    "simplified": "丰富",
+    "traditional": "豐富",
+    "pinyin": "fēng fù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "to enrich",
+      "rich",
+      "plentiful",
+      "abundant"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0200",
+    "simplified": "风险",
+    "traditional": "風險",
+    "pinyin": "fēng xiǎn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "risk; hazard"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0201",
+    "simplified": "否定",
+    "pinyin": "fǒu dìng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "to negate",
+      "to deny",
+      "to reject",
+      "negative (answer)",
+      "negation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0202",
+    "simplified": "否认",
+    "traditional": "否認",
+    "pinyin": "fǒu rèn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to declare to be untrue",
+      "to deny"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0203",
+    "simplified": "服装",
+    "traditional": "服裝",
+    "pinyin": "fú zhuāng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "dress",
+      "clothing",
+      "costume",
+      "clothes",
+      "CL:身"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0204",
+    "simplified": "福",
+    "pinyin": "fú",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "good fortune",
+      "happiness",
+      "luck"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0205",
+    "simplified": "父母",
+    "pinyin": "fù mǔ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "father and mother; parents"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0206",
+    "simplified": "父亲",
+    "traditional": "父親",
+    "pinyin": "fù qīn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "father",
+      "also pr.",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0207",
+    "simplified": "付",
+    "pinyin": "fù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to pay",
+      "to hand over to",
+      "classifier for pairs or sets of things"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0208",
+    "simplified": "负责",
+    "traditional": "負責",
+    "pinyin": "fù zé",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "to be responsible for; to be in charge of; to bear responsibility for",
+      "conscientious"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0209",
+    "simplified": "复印",
+    "traditional": "複印",
+    "pinyin": "fù yìn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to photocopy",
+      "to duplicate a document"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0210",
+    "simplified": "复杂",
+    "traditional": "複雜",
+    "pinyin": "fù zá",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "complicated; complex"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0211",
+    "simplified": "富",
+    "pinyin": "fù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "rich",
+      "abundant",
+      "wealthy"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0212",
+    "simplified": "改进",
+    "traditional": "改進",
+    "pinyin": "gǎi jìn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to improve; to make better",
+      "improvement"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0213",
+    "simplified": "改造",
+    "pinyin": "gǎi zào",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to transform",
+      "to reform",
+      "to remodel",
+      "to remold"
+    ],
+    "needsEnglish": false
+  }
+]

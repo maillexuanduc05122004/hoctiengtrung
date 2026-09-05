@@ -1,0 +1,816 @@
+[
+  {
+    "id": "L1-0091",
+    "simplified": "读书",
+    "traditional": "讀書",
+    "pinyin": "dú shū",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to read a book",
+      "to study",
+      "to attend school"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0092",
+    "simplified": "对",
+    "traditional": "對",
+    "pinyin": "duì",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "right; correct",
+      "towards; at; for",
+      "concerning; regarding",
+      "to treat (sb a certain way)",
+      "to face",
+      "(bound form) opposite; facing; matching",
+      "to match together; to adjust",
+      "to fit; to suit",
+      "to answer; to reply",
+      "to add; to pour in (a fluid)",
+      "to check; to compare",
+      "classifier: couple; pair"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0145",
+        "pinyin": "duì",
+        "partOfSpeech": [
+          "Prep",
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0093",
+    "simplified": "对不起",
+    "traditional": "對不起",
+    "pinyin": "duì bu qǐ",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "I'm sorry; excuse me; I beg your pardon",
+      "to let (sb) down; to disappoint"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0094",
+    "simplified": "多",
+    "pinyin": "duō",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj",
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "many; much; more; a lot of",
+      "too many; in excess",
+      "(after a numeral) ... odd",
+      "how (to what extent) (Taiwan pr. )",
+      "(bound form) multi-; poly-"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0148",
+        "pinyin": "duō",
+        "partOfSpeech": [
+          "Adv"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0095",
+    "simplified": "多少",
+    "pinyin": "duō shao",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "how much?; how many?",
+      "(phone number, student ID etc) what number?"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0096",
+    "simplified": "饿",
+    "traditional": "餓",
+    "pinyin": "è",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "hungry",
+      "to starve (sb)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0097",
+    "simplified": "儿子",
+    "traditional": "兒子",
+    "pinyin": "ér zi",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "son"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0098",
+    "simplified": "二",
+    "pinyin": "èr",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Num"
+    ],
+    "cedictDefinitions": [
+      "two",
+      "2",
+      "(Beijing dialect) stupid"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0099",
+    "simplified": "饭",
+    "traditional": "飯",
+    "pinyin": "fàn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "cooked rice",
+      "CL:碗",
+      "meal",
+      "CL:頓/顿",
+      "(loanword) fan",
+      "devotee"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0100",
+    "simplified": "饭店",
+    "traditional": "飯店",
+    "pinyin": "fàn diàn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "restaurant",
+      "hotel",
+      "CL:家"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0101",
+    "simplified": "房间",
+    "traditional": "房間",
+    "pinyin": "fáng jiān",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "room",
+      "CL:間/间"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0102",
+    "simplified": "房子",
+    "pinyin": "fáng zi",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "house",
+      "building (single- or two-story)",
+      "apartment",
+      "room",
+      "CL:棟/栋,幢,座,套,間/间"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0103",
+    "simplified": "放",
+    "pinyin": "fàng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to put",
+      "to place",
+      "to release",
+      "to free",
+      "to let go",
+      "to let out",
+      "to set off (fireworks)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0104",
+    "simplified": "放假",
+    "pinyin": "fàng jià",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to have a holiday or vacation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0105",
+    "simplified": "放学",
+    "traditional": "放學",
+    "pinyin": "fàng xué",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to dismiss students at the end of the school day"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0106",
+    "simplified": "飞",
+    "traditional": "飛",
+    "pinyin": "fēi",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to fly"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0107",
+    "simplified": "飞机",
+    "traditional": "飛機",
+    "pinyin": "fēi jī",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "airplane",
+      "CL:架"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0108",
+    "simplified": "非常",
+    "pinyin": "fēi cháng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "very; really",
+      "unusual; extraordinary"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0109",
+    "simplified": "分",
+    "pinyin": "fēn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "to divide; to separate",
+      "to distribute; to allocate",
+      "to distinguish (good and bad)",
+      "(bound form) branch of (an organization); sub- (as in 分局)",
+      "fraction",
+      "one tenth (of certain units)",
+      "unit of length equivalent to 0.33 cm",
+      "minute (unit of time)",
+      "minute (angular measurement unit)",
+      "a point (in sports or games)",
+      "0.01 yuan (unit of money)"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0164",
+        "pinyin": "fēn",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0110",
+    "simplified": "风",
+    "traditional": "風",
+    "pinyin": "fēng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "wind",
+      "news",
+      "style",
+      "custom",
+      "manner",
+      "CL:陣/阵,絲/丝"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0111",
+    "simplified": "干",
+    "traditional": "乾",
+    "pinyin": "gān",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "dry",
+      "dried food",
+      "empty; hollow",
+      "taken in to nominal kinship; adoptive; foster",
+      "futile; in vain",
+      "(dialect) rude; blunt",
+      "(dialect) to cold-shoulder"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0113",
+        "pinyin": "gàn",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0112",
+    "simplified": "干净",
+    "traditional": "乾淨",
+    "pinyin": "gān jìng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "clean",
+      "neat"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0113",
+    "simplified": "干",
+    "traditional": "幹",
+    "pinyin": "gàn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "tree trunk",
+      "main part of sth",
+      "to manage",
+      "to work",
+      "to do",
+      "capable",
+      "cadre",
+      "to kill (slang)",
+      "to fuck (vulgar)",
+      "(coll.) pissed off",
+      "annoyed"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0111",
+        "pinyin": "gān",
+        "partOfSpeech": [
+          "Adj"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0114",
+    "simplified": "干什么",
+    "traditional": "幹什麼",
+    "pinyin": "gàn shén me",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "what are you doing?",
+      "what's he up to?"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0115",
+    "simplified": "高",
+    "pinyin": "gāo",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "high",
+      "tall",
+      "above average",
+      "loud",
+      "your (honorific)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0116",
+    "simplified": "高兴",
+    "traditional": "高興",
+    "pinyin": "gāo xìng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "happy",
+      "glad",
+      "willing (to do sth)",
+      "in a cheerful mood"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0117",
+    "simplified": "告诉",
+    "traditional": "告訴",
+    "pinyin": "gào su",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to tell; to inform; to let know"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0118",
+    "simplified": "哥哥",
+    "pinyin": "gē ge",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "older brother",
+      "CL:個/个,位",
+      "elder brother"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0119",
+    "simplified": "歌",
+    "pinyin": "gē",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "song (CL:首,支)",
+      "(bound form) to sing"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0120",
+    "simplified": "个",
+    "traditional": "個",
+    "pinyin": "gè",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "(classifier used before a noun that has no specific classifier)",
+      "(bound form) individual"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0121",
+    "simplified": "给",
+    "traditional": "給",
+    "pinyin": "gěi",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V",
+      "Prep"
+    ],
+    "cedictDefinitions": [
+      "to",
+      "for",
+      "for the benefit of",
+      "to give",
+      "to allow",
+      "to do sth (for sb)",
+      "(grammatical equivalent of 被)",
+      "(grammatical equivalent of 把)",
+      "(sentence intensifier)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0122",
+    "simplified": "跟",
+    "pinyin": "gēn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Prep",
+      "Conj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "heel",
+      "to follow closely",
+      "to go with",
+      "(of a woman) to marry sb",
+      "with",
+      "compared with",
+      "to",
+      "towards",
+      "and (joining two nouns)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0123",
+    "simplified": "工人",
+    "pinyin": "gōng rén",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "worker",
+      "CL:個/个,名"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0124",
+    "simplified": "工作",
+    "pinyin": "gōng zuò",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to work",
+      "(of a machine) to operate",
+      "job",
+      "work",
+      "task",
+      "CL:個/个,份,項/项"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0125",
+    "simplified": "关",
+    "traditional": "關",
+    "pinyin": "guān",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "mountain pass",
+      "to close; to shut; to turn off",
+      "to confine; to lock (sb) up; to shut (sb in a room, a bird in a cage etc)",
+      "to concern; to involve"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0126",
+    "simplified": "关上",
+    "traditional": "關上",
+    "pinyin": "guān shàng",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to close (a door)",
+      "to turn off (light, electrical equipment etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0127",
+    "simplified": "贵",
+    "traditional": "貴",
+    "pinyin": "guì",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "expensive",
+      "(bound form) highly valued; precious",
+      "(bound form) noble; of high rank",
+      "(prefix) (honorific) your"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0128",
+    "simplified": "国",
+    "traditional": "國",
+    "pinyin": "guó",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "country; nation; state",
+      "(bound form) national"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0129",
+    "simplified": "国家",
+    "traditional": "國家",
+    "pinyin": "guó jiā",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "country; nation; state"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0130",
+    "simplified": "国外",
+    "traditional": "國外",
+    "pinyin": "guó wài",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "abroad",
+      "external (affairs)",
+      "overseas",
+      "foreign"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0131",
+    "simplified": "过",
+    "traditional": "過",
+    "pinyin": "guò",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to cross",
+      "to go over",
+      "to pass (time)",
+      "to celebrate (a holiday)",
+      "to live",
+      "to get along",
+      "excessively",
+      "too-"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0210",
+        "pinyin": "guo",
+        "partOfSpeech": [
+          "Aux"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0132",
+    "simplified": "还",
+    "traditional": "還",
+    "pinyin": "hái",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "still",
+      "still in progress",
+      "still more",
+      "yet",
+      "even more",
+      "in addition",
+      "fairly",
+      "passably (good)",
+      "as early as",
+      "even",
+      "also",
+      "else"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0153",
+        "pinyin": "huán",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0133",
+    "simplified": "还是",
+    "traditional": "還是",
+    "pinyin": "hái shi",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adv",
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "still (as before)",
+      "had better",
+      "unexpectedly",
+      "or"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0134",
+    "simplified": "还有",
+    "traditional": "還有",
+    "pinyin": "hái yǒu",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "there still remain(s); there is (or are) still",
+      "in addition"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0135",
+    "simplified": "孩子",
+    "pinyin": "hái zi",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "child"
+    ],
+    "needsEnglish": false
+  }
+]

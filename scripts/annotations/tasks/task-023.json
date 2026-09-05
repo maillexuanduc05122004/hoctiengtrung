@@ -1,0 +1,711 @@
+[
+  {
+    "id": "L2-0491",
+    "simplified": "市",
+    "pinyin": "shì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "market",
+      "city",
+      "municipality (administrative unit)",
+      "(literary) to trade; to buy and sell goods"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0492",
+    "simplified": "市长",
+    "traditional": "市長",
+    "pinyin": "shì zhǎng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "mayor"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0493",
+    "simplified": "事情",
+    "pinyin": "shì qing",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "affair; matter; thing; business",
+      "CL:件,樁/桩"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0494",
+    "simplified": "收",
+    "pinyin": "shōu",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to receive",
+      "to accept",
+      "to collect",
+      "to put away",
+      "to restrain",
+      "to stop",
+      "in care of (used on address line after name)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0495",
+    "simplified": "收到",
+    "pinyin": "shōu dào",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to receive"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0496",
+    "simplified": "收入",
+    "pinyin": "shōu rù",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to take in",
+      "income",
+      "revenue",
+      "CL:筆/笔,個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0497",
+    "simplified": "手表",
+    "traditional": "手錶",
+    "pinyin": "shǒu biǎo",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "wristwatch",
+      "CL:塊/块,隻/只,個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0498",
+    "simplified": "受到",
+    "pinyin": "shòu dào",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to receive (praise, an education, punishment etc); to be ...ed (praised, educated, punished etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0499",
+    "simplified": "舒服",
+    "pinyin": "shū fu",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "comfortable",
+      "feeling well"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0500",
+    "simplified": "熟",
+    "pinyin": "shú",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "ripe; mature",
+      "thoroughly cooked; done",
+      "familiar; acquainted",
+      "experienced; skilled",
+      "(of sleep etc) deep; profound",
+      "also pr."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0501",
+    "simplified": "数",
+    "traditional": "數",
+    "pinyin": "shǔ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to count",
+      "to count as; to regard as",
+      "to enumerate; to list"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0502",
+    "simplified": "数字",
+    "traditional": "數字",
+    "pinyin": "shù zì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "numeral",
+      "digit",
+      "number",
+      "figure",
+      "amount",
+      "digital (electronics etc)",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0503",
+    "simplified": "水平",
+    "pinyin": "shuǐ píng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "horizontal; level",
+      "a standard; a level (of ability, development etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0504",
+    "simplified": "顺利",
+    "traditional": "順利",
+    "pinyin": "shùn lì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "smoothly; without a hitch"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0505",
+    "simplified": "说明",
+    "traditional": "說明",
+    "pinyin": "shuō míng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to explain",
+      "to illustrate",
+      "to indicate",
+      "to show",
+      "to prove",
+      "explanation",
+      "directions",
+      "caption",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0506",
+    "simplified": "司机",
+    "traditional": "司機",
+    "pinyin": "sī jī",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "chauffeur; driver"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0507",
+    "simplified": "送到",
+    "pinyin": "sòng dào",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [],
+    "needsEnglish": true
+  },
+  {
+    "id": "L2-0508",
+    "simplified": "送给",
+    "traditional": "送給",
+    "pinyin": "sòng gěi",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to send",
+      "to give as a present"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0509",
+    "simplified": "算",
+    "pinyin": "suàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to calculate; to figure out",
+      "to include; to count in",
+      "to count; to be valid; to carry weight",
+      "to regard as; to consider (to be ...)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0510",
+    "simplified": "虽然",
+    "traditional": "雖然",
+    "pinyin": "suī rán",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "although; even though (often used correlatively with 可是 or 但是 etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0511",
+    "simplified": "随便",
+    "traditional": "隨便",
+    "pinyin": "suí biàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "as one wishes",
+      "as one pleases",
+      "at random",
+      "negligent",
+      "casual",
+      "wanton"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0512",
+    "simplified": "随时",
+    "traditional": "隨時",
+    "pinyin": "suí shí",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "at any time; at all times",
+      "at the right time; whenever necessary"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0513",
+    "simplified": "所以",
+    "pinyin": "suǒ yǐ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "therefore",
+      "as a result",
+      "so",
+      "the reason why"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0514",
+    "simplified": "所有",
+    "pinyin": "suǒ yǒu",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "all",
+      "to have; to possess; to own"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0515",
+    "simplified": "它",
+    "pinyin": "tā",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "it"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0516",
+    "simplified": "它们",
+    "traditional": "它們",
+    "pinyin": "tā men",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "they; them"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0517",
+    "simplified": "太太",
+    "pinyin": "tài tai",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "married woman",
+      "Mrs.",
+      "Madam",
+      "wife",
+      "CL:個/个,位"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0518",
+    "simplified": "太阳",
+    "traditional": "太陽",
+    "pinyin": "tài yang",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "sun",
+      "sunlight; sunshine",
+      "temple (on the side of the human head) (abbr. for 太陽穴/太阳穴)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0519",
+    "simplified": "态度",
+    "traditional": "態度",
+    "pinyin": "tài du",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "manner",
+      "bearing",
+      "attitude",
+      "approach",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0520",
+    "simplified": "讨论",
+    "traditional": "討論",
+    "pinyin": "tǎo lùn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to discuss; to talk over"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0521",
+    "simplified": "套",
+    "pinyin": "tào",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "to cover",
+      "to encase",
+      "cover",
+      "sheath",
+      "to overlap",
+      "to interleave",
+      "to model after",
+      "to copy",
+      "formula",
+      "harness",
+      "loop of rope",
+      "(fig.) to fish for",
+      "to obtain slyly",
+      "classifier for sets, collections",
+      "bend (of a river or mountain range, in place names)",
+      "tau (Greek letter Ττ)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0522",
+    "simplified": "特别",
+    "traditional": "特別",
+    "pinyin": "tè bié",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "unusual; special",
+      "very; especially; particularly",
+      "expressly; for a specific purpose",
+      "(often followed by 是) in particular"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0523",
+    "simplified": "特点",
+    "traditional": "特點",
+    "pinyin": "tè diǎn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "characteristic; trait; feature"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0524",
+    "simplified": "疼",
+    "pinyin": "téng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "(it) hurts; sore",
+      "to love dearly"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0525",
+    "simplified": "提",
+    "pinyin": "tí",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to carry (hanging down from the hand)",
+      "to lift",
+      "to put forward",
+      "to mention",
+      "to raise (an issue)",
+      "upwards character stroke",
+      "lifting brush stroke (in painting)",
+      "scoop for measuring liquid"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0526",
+    "simplified": "提出",
+    "pinyin": "tí chū",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to raise (an issue)",
+      "to propose",
+      "to put forward",
+      "to suggest",
+      "to post (on a website)",
+      "to withdraw (cash)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0527",
+    "simplified": "提到",
+    "pinyin": "tí dào",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to mention",
+      "to raise (a subject)",
+      "to refer to"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0528",
+    "simplified": "提高",
+    "pinyin": "tí gāo",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to raise",
+      "to increase",
+      "to improve"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0529",
+    "simplified": "题",
+    "traditional": "題",
+    "pinyin": "tí",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "topic",
+      "problem for discussion",
+      "exam question",
+      "subject",
+      "to inscribe",
+      "to mention",
+      "CL:個/个,道"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0530",
+    "simplified": "体育",
+    "traditional": "體育",
+    "pinyin": "tǐ yù",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "sports",
+      "physical education"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0531",
+    "simplified": "体育场",
+    "traditional": "體育場",
+    "pinyin": "tǐ yù chǎng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "stadium",
+      "CL:個/个,座"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0532",
+    "simplified": "体育馆",
+    "traditional": "體育館",
+    "pinyin": "tǐ yù guǎn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "gym",
+      "gymnasium",
+      "stadium",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0533",
+    "simplified": "天上",
+    "pinyin": "tiān shàng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the sky; the heavens"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0534",
+    "simplified": "条",
+    "traditional": "條",
+    "pinyin": "tiáo",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "strip",
+      "item",
+      "article",
+      "clause (of law or treaty)",
+      "classifier for long thin things (ribbon, river, road, trousers etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0535",
+    "simplified": "条件",
+    "traditional": "條件",
+    "pinyin": "tiáo jiàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "condition; circumstance; term; factor",
+      "requirement; prerequisite; qualification",
+      "situation; state; condition",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  }
+]

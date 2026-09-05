@@ -1,0 +1,743 @@
+[
+  {
+    "id": "L2-0131",
+    "simplified": "东方",
+    "traditional": "東方",
+    "pinyin": "dōng fāng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "east"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0132",
+    "simplified": "东南",
+    "traditional": "東南",
+    "pinyin": "dōng nán",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "southeast"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0133",
+    "simplified": "冬天",
+    "pinyin": "dōng tiān",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "winter"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0134",
+    "simplified": "懂",
+    "pinyin": "dǒng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to understand",
+      "to comprehend"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0135",
+    "simplified": "懂得",
+    "pinyin": "dǒng de",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to understand; to know; to comprehend"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0136",
+    "simplified": "动物",
+    "traditional": "動物",
+    "pinyin": "dòng wù",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "animal"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0137",
+    "simplified": "动物园",
+    "traditional": "動物園",
+    "pinyin": "dòng wù yuán",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "zoo"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0138",
+    "simplified": "读音",
+    "traditional": "讀音",
+    "pinyin": "dú yīn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "pronunciation",
+      "literary (rather than colloquial) pronunciation of a Chinese character"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0139",
+    "simplified": "度",
+    "pinyin": "dù",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "to pass",
+      "to spend (time)",
+      "measure",
+      "limit",
+      "extent",
+      "degree of intensity",
+      "degree (angles, temperature etc)",
+      "kilowatt-hour",
+      "classifier for events and occurrences"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0140",
+    "simplified": "短",
+    "pinyin": "duǎn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "short",
+      "brief",
+      "to lack",
+      "weak point",
+      "fault"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0141",
+    "simplified": "短信",
+    "pinyin": "duǎn xìn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "text message",
+      "SMS"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0142",
+    "simplified": "段",
+    "pinyin": "duàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "paragraph",
+      "section",
+      "segment",
+      "stage (of a process)",
+      "classifier for stories, periods of time, lengths of thread etc"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0143",
+    "simplified": "队",
+    "traditional": "隊",
+    "pinyin": "duì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "squadron",
+      "team",
+      "group",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0144",
+    "simplified": "队长",
+    "traditional": "隊長",
+    "pinyin": "duì zhǎng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "captain",
+      "team leader",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0145",
+    "simplified": "对",
+    "traditional": "對",
+    "pinyin": "duì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Prep",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "right; correct",
+      "towards; at; for",
+      "concerning; regarding",
+      "to treat (sb a certain way)",
+      "to face",
+      "(bound form) opposite; facing; matching",
+      "to match together; to adjust",
+      "to fit; to suit",
+      "to answer; to reply",
+      "to add; to pour in (a fluid)",
+      "to check; to compare",
+      "classifier: couple; pair"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0092",
+        "pinyin": "duì",
+        "partOfSpeech": [
+          "Adj"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0146",
+    "simplified": "对话",
+    "traditional": "對話",
+    "pinyin": "duì huà",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to talk (with sb)",
+      "dialogue; conversation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0147",
+    "simplified": "对面",
+    "traditional": "對面",
+    "pinyin": "duì miàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "opposite; across (the street etc)",
+      "directly in front of one; up ahead",
+      "face to face"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0148",
+    "simplified": "多",
+    "pinyin": "duō",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "many; much; more; a lot of",
+      "too many; in excess",
+      "(after a numeral) ... odd",
+      "how (to what extent) (Taiwan pr. )",
+      "(bound form) multi-; poly-"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0094",
+        "pinyin": "duō",
+        "partOfSpeech": [
+          "Adj",
+          "Pron"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0149",
+    "simplified": "多久",
+    "pinyin": "duō jiǔ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "(of time) how long?",
+      "(not) a long time"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0150",
+    "simplified": "多么",
+    "traditional": "多麼",
+    "pinyin": "duō me",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "how (wonderful etc)",
+      "what (a great idea etc)",
+      "however (difficult it may be etc)",
+      "(in interrogative sentences) how (much etc)",
+      "to what extent"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0151",
+    "simplified": "多数",
+    "traditional": "多數",
+    "pinyin": "duō shù",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "majority; most"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0152",
+    "simplified": "多云",
+    "traditional": "多雲",
+    "pinyin": "duō yún",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(meteorology) cloudy"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0153",
+    "simplified": "而且",
+    "pinyin": "ér qiě",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "(not only ...) but also",
+      "moreover; in addition; furthermore"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0154",
+    "simplified": "发",
+    "traditional": "發",
+    "pinyin": "fā",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to send out",
+      "to show (one's feeling)",
+      "to issue",
+      "to develop",
+      "to make a bundle of money",
+      "classifier for gunshots (rounds)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0155",
+    "simplified": "发现",
+    "traditional": "發現",
+    "pinyin": "fā xiàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to notice; to become aware of",
+      "to discover; to find; to detect",
+      "a discovery"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0156",
+    "simplified": "饭馆",
+    "traditional": "飯館",
+    "pinyin": "fàn guǎn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "restaurant",
+      "CL:家"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0157",
+    "simplified": "方便",
+    "pinyin": "fāng biàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "convenient; suitable",
+      "to facilitate; to make things easy",
+      "having money to spare",
+      "(euphemism) to relieve oneself"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0158",
+    "simplified": "方便面",
+    "traditional": "方便麵",
+    "pinyin": "fāng biàn miàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "instant noodles"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0159",
+    "simplified": "方法",
+    "pinyin": "fāng fǎ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "method; way; technique; procedure"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0160",
+    "simplified": "方面",
+    "pinyin": "fāng miàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "respect",
+      "aspect",
+      "field",
+      "side",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0161",
+    "simplified": "方向",
+    "pinyin": "fāng xiàng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "direction; orientation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0162",
+    "simplified": "放下",
+    "pinyin": "fàng xià",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to lay down; to put down",
+      "to let go of; to relinquish; to set aside",
+      "to lower (the blinds etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0163",
+    "simplified": "放心",
+    "pinyin": "fàng xīn",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to feel relieved",
+      "to feel reassured",
+      "to be at ease"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0164",
+    "simplified": "分",
+    "pinyin": "fēn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to divide; to separate",
+      "to distribute; to allocate",
+      "to distinguish (good and bad)",
+      "(bound form) branch of (an organization); sub- (as in 分局)",
+      "fraction",
+      "one tenth (of certain units)",
+      "unit of length equivalent to 0.33 cm",
+      "minute (unit of time)",
+      "minute (angular measurement unit)",
+      "a point (in sports or games)",
+      "0.01 yuan (unit of money)"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0109",
+        "pinyin": "fēn",
+        "partOfSpeech": [
+          "N",
+          "M"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0165",
+    "simplified": "分开",
+    "traditional": "分開",
+    "pinyin": "fēn kāi",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to separate",
+      "to part"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0166",
+    "simplified": "分数",
+    "traditional": "分數",
+    "pinyin": "fēn shù",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(exam) grade",
+      "mark",
+      "score",
+      "fraction"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0167",
+    "simplified": "分钟",
+    "traditional": "分鐘",
+    "pinyin": "fēn zhōng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "minute"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0168",
+    "simplified": "份",
+    "pinyin": "fèn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "classifier for gifts, newspaper, magazine, papers, reports, contracts etc",
+      "variant of 分"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0169",
+    "simplified": "封",
+    "pinyin": "fēng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "to confer",
+      "to grant",
+      "to bestow a title",
+      "to seal",
+      "classifier for sealed objects, esp. letters"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0170",
+    "simplified": "服务",
+    "traditional": "服務",
+    "pinyin": "fú wù",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to serve",
+      "service",
+      "CL:項/项"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0171",
+    "simplified": "复习",
+    "traditional": "複習",
+    "pinyin": "fù xí",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "variant of 復習/复习"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0172",
+    "simplified": "该",
+    "traditional": "該",
+    "pinyin": "gāi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "should",
+      "ought to",
+      "probably",
+      "must be",
+      "to deserve",
+      "to owe",
+      "to be sb's turn to do sth",
+      "that",
+      "the above-mentioned"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0173",
+    "simplified": "改",
+    "pinyin": "gǎi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to change",
+      "to alter",
+      "to transform",
+      "to correct"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0174",
+    "simplified": "改变",
+    "traditional": "改變",
+    "pinyin": "gǎi biàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to change",
+      "to alter",
+      "to transform"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0175",
+    "simplified": "干杯",
+    "traditional": "乾杯",
+    "pinyin": "gān bēi",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to drink a toast",
+      "Cheers! (proposing a toast)",
+      "Here's to you!",
+      "Bottoms up!",
+      "lit. dry cup"
+    ],
+    "needsEnglish": false
+  }
+]

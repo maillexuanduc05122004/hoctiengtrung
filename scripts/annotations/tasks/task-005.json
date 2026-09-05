@@ -1,0 +1,772 @@
+[
+  {
+    "id": "L1-0181",
+    "simplified": "今天",
+    "pinyin": "jīn tiān",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "today",
+      "the present time; now"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0182",
+    "simplified": "进",
+    "traditional": "進",
+    "pinyin": "jìn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to go forward",
+      "to advance",
+      "to go in",
+      "to enter",
+      "to put in",
+      "to submit",
+      "to take in",
+      "to admit",
+      "(math.) base of a number system",
+      "classifier for sections in a building or residential compound"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0183",
+    "simplified": "进来",
+    "traditional": "進來",
+    "pinyin": "jìn lái",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to come in"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0184",
+    "simplified": "进去",
+    "traditional": "進去",
+    "pinyin": "jìn qù",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to go in"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0185",
+    "simplified": "九",
+    "pinyin": "jiǔ",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Num"
+    ],
+    "cedictDefinitions": [
+      "nine",
+      "9"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0186",
+    "simplified": "就",
+    "pinyin": "jiù",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "(after a suppositional clause) in that case; then",
+      "(after a clause of action) as soon as; immediately after",
+      "(same as 就是) merely; nothing else but; simply; just; precisely; exactly",
+      "only; as little as",
+      "as much as; as many as",
+      "to approach; to move towards",
+      "to undertake; to engage in",
+      "(often followed by 著/着) taking advantage of",
+      "(of food) to go with",
+      "with regard to; concerning",
+      "(bound form) to reach; to attain (as in 一蹴而就)",
+      "(pattern: 就 ... 也 ...) even if ... still ...",
+      "(pattern: 不 ... 就 ...) if not ... then must be ..."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0187",
+    "simplified": "觉得",
+    "traditional": "覺得",
+    "pinyin": "jué de",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to think that ...; to feel that ...",
+      "to feel (uncomfortable etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0188",
+    "simplified": "开",
+    "traditional": "開",
+    "pinyin": "kāi",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to open (transitive or intransitive)",
+      "(of ships, vehicles, troops etc) to start",
+      "to turn on; to put in operation; to operate; to run",
+      "to boil",
+      "to write out (a prescription, check, invoice etc)",
+      "(directional complement) away; off",
+      "carat (gold)",
+      "abbr. for Kelvin, 開爾文/开尔文",
+      "abbr. for 開本/开本, book format"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0189",
+    "simplified": "开车",
+    "traditional": "開車",
+    "pinyin": "kāi chē",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to drive a car (or train etc)",
+      "(slang) to post sexual content online; to make a sexual joke"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0190",
+    "simplified": "开会",
+    "traditional": "開會",
+    "pinyin": "kāi huì",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to hold a meeting",
+      "to attend a meeting"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0191",
+    "simplified": "开玩笑",
+    "traditional": "開玩笑",
+    "pinyin": "kāi wán xiào",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to play a joke; to make fun of; to joke"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0192",
+    "simplified": "看",
+    "pinyin": "kàn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to see; to look at",
+      "to read",
+      "to watch",
+      "to visit; to call on",
+      "to consider; to regard as",
+      "to look after",
+      "to treat (a patient or illness)",
+      "to depend on",
+      "to feel (that)",
+      "(after a verb) to give it a try",
+      "to watch out for"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0193",
+    "simplified": "看病",
+    "pinyin": "kàn bìng",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to visit a doctor",
+      "to see a patient"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0194",
+    "simplified": "看到",
+    "pinyin": "kàn dào",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to see"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0195",
+    "simplified": "看见",
+    "traditional": "看見",
+    "pinyin": "kàn jiàn",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to see; to catch sight of"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0196",
+    "simplified": "考",
+    "pinyin": "kǎo",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to check",
+      "to verify",
+      "to test",
+      "to examine",
+      "to take an exam",
+      "to take an entrance exam for",
+      "deceased father"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0197",
+    "simplified": "考试",
+    "traditional": "考試",
+    "pinyin": "kǎo shì",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to take an exam",
+      "exam",
+      "CL:次"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0198",
+    "simplified": "渴",
+    "pinyin": "kě",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "thirsty"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0199",
+    "simplified": "课",
+    "traditional": "課",
+    "pinyin": "kè",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "subject",
+      "course",
+      "CL:門/门",
+      "class",
+      "lesson",
+      "CL:堂,節/节",
+      "to levy",
+      "tax",
+      "form of divination"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0200",
+    "simplified": "课本",
+    "traditional": "課本",
+    "pinyin": "kè běn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "textbook",
+      "CL:本"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0201",
+    "simplified": "课文",
+    "traditional": "課文",
+    "pinyin": "kè wén",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "text",
+      "CL:篇"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0202",
+    "simplified": "口",
+    "pinyin": "kǒu",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "M",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "mouth",
+      "classifier for things with mouths (people, domestic animals, cannons, wells etc)",
+      "classifier for bites or mouthfuls"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0203",
+    "simplified": "块",
+    "traditional": "塊",
+    "pinyin": "kuài",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "lump; chunk; piece",
+      "classifier for pieces of cloth, cake, soap etc",
+      "(coll.) classifier for money and currency units"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0204",
+    "simplified": "快",
+    "pinyin": "kuài",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "rapid",
+      "quick",
+      "speed",
+      "rate",
+      "soon",
+      "almost",
+      "to make haste",
+      "clever",
+      "sharp (of knives or wits)",
+      "forthright",
+      "plainspoken",
+      "gratified",
+      "pleased",
+      "pleasant"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0205",
+    "simplified": "来",
+    "traditional": "來",
+    "pinyin": "lái",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to come",
+      "(used as a substitute for a more specific verb)",
+      "hither (directional complement for motion toward the speaker, as in 回來/回来)",
+      "ever since (as in 自古以來/自古以来)",
+      "for the past (amount of time)",
+      "(prefix) the coming ...; the next ... (as in 來世/来世)",
+      "(between two verbs) in order to",
+      "(after a round number) approximately",
+      "(used after 得 to indicate possibility, as in 談得來/谈得来, or after 不 to indicate impossibility, as in 吃不來/吃不来)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0206",
+    "simplified": "来到",
+    "traditional": "來到",
+    "pinyin": "lái dào",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to arrive; to come"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0207",
+    "simplified": "老",
+    "pinyin": "lǎo",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "prefix used before the surname of a person or a numeral indicating the order of birth of the children in a family or to indicate affection or familiarity",
+      "old (of people)",
+      "venerable (person)",
+      "experienced",
+      "of long standing",
+      "always",
+      "all the time",
+      "of the past",
+      "very",
+      "outdated",
+      "(of meat etc) tough"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0339",
+        "pinyin": "lǎo",
+        "partOfSpeech": [
+          "Adv"
+        ]
+      },
+      {
+        "id": "L2-0340",
+        "pinyin": "lǎo",
+        "partOfSpeech": [
+          "Prefix"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0208",
+    "simplified": "老人",
+    "pinyin": "lǎo rén",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "old man or woman",
+      "the elderly",
+      "one's aged parents or grandparents"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0209",
+    "simplified": "老师",
+    "traditional": "老師",
+    "pinyin": "lǎo shī",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "teacher"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0210",
+    "simplified": "了",
+    "pinyin": "le",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Aux"
+    ],
+    "cedictDefinitions": [
+      "(completed action marker)",
+      "(modal particle indicating change of state, situation now)",
+      "(modal particle intensifying preceding clause)"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0455",
+        "pinyin": "liǎo",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0211",
+    "simplified": "累",
+    "pinyin": "lèi",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "tired",
+      "weary",
+      "to strain",
+      "to wear out",
+      "to work hard"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0212",
+    "simplified": "冷",
+    "pinyin": "lěng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "cold"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0213",
+    "simplified": "里",
+    "traditional": "裡",
+    "pinyin": "lǐ",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "lining",
+      "interior",
+      "inside",
+      "internal",
+      "also written 裏/里",
+      "variant of 裡/里"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0214",
+    "simplified": "里边",
+    "traditional": "裡邊",
+    "pinyin": "lǐ bian",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "inside"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0215",
+    "simplified": "两",
+    "traditional": "兩",
+    "pinyin": "liǎng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Num"
+    ],
+    "cedictDefinitions": [
+      "two",
+      "both",
+      "some",
+      "a few",
+      "tael, unit of weight equal to 50 grams (modern) or 1⁄16 of a catty 斤 (old)"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0356",
+        "pinyin": "liǎng",
+        "partOfSpeech": [
+          "M"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0216",
+    "simplified": "零",
+    "pinyin": "líng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Num"
+    ],
+    "cedictDefinitions": [
+      "zero",
+      "nought",
+      "zero sign",
+      "fractional",
+      "fragmentary",
+      "odd (of numbers)",
+      "(placed between two numbers to indicate a smaller quantity followed by a larger one)",
+      "fraction",
+      "(in mathematics) remainder (after division)",
+      "extra",
+      "to wither and fall",
+      "to wither"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0217",
+    "simplified": "六",
+    "pinyin": "liù",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Num"
+    ],
+    "cedictDefinitions": [
+      "six",
+      "6"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0218",
+    "simplified": "楼",
+    "traditional": "樓",
+    "pinyin": "lóu",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "house with more than 1 story",
+      "storied building",
+      "floor",
+      "CL:層/层,座,棟/栋"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0219",
+    "simplified": "楼上",
+    "traditional": "樓上",
+    "pinyin": "lóu shàng",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "upstairs",
+      "(Internet slang) previous poster in a forum thread"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0220",
+    "simplified": "楼下",
+    "traditional": "樓下",
+    "pinyin": "lóu xià",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "downstairs"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0221",
+    "simplified": "路",
+    "pinyin": "lù",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "road (CL:條/条)",
+      "journey",
+      "route",
+      "line (bus etc)",
+      "sort; kind"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0222",
+    "simplified": "路口",
+    "pinyin": "lù kǒu",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "crossing",
+      "intersection (of roads)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0223",
+    "simplified": "路上",
+    "pinyin": "lù shang",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "on the road",
+      "on the way; en route"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0224",
+    "simplified": "妈妈",
+    "traditional": "媽媽",
+    "pinyin": "mā ma",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "mama",
+      "mommy",
+      "mother",
+      "CL:個/个,位",
+      "ma",
+      "mom"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0225",
+    "simplified": "马路",
+    "traditional": "馬路",
+    "pinyin": "mǎ lù",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "street",
+      "road",
+      "CL:條/条"
+    ],
+    "needsEnglish": false
+  }
+]

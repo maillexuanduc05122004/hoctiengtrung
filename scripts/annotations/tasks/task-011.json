@@ -1,0 +1,729 @@
+[
+  {
+    "id": "L1-0451",
+    "simplified": "远",
+    "traditional": "遠",
+    "pinyin": "yuǎn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "far",
+      "distant",
+      "remote",
+      "(intensifier in a comparison) by far",
+      "much (lower etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0452",
+    "simplified": "月",
+    "pinyin": "yuè",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "moon",
+      "month",
+      "monthly",
+      "CL:個/个,輪/轮"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0453",
+    "simplified": "再",
+    "pinyin": "zài",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "again; once more; re-",
+      "further; beyond this point of time",
+      "(before an adjective) more",
+      "then (after sth, and not until then)",
+      "no matter how ... (followed by an adjective or verb, and then (usually) 也 or 都 for emphasis)",
+      "(used to introduce additional information, as in 再則/再则, 再就是 etc)",
+      "(literary) to reappear; to reoccur"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0454",
+    "simplified": "再见",
+    "traditional": "再見",
+    "pinyin": "zài jiàn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "goodbye",
+      "see you again later"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0455",
+    "simplified": "在",
+    "pinyin": "zài",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V",
+      "Prep",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "to exist; to be alive",
+      "(of sb or sth) to be (located) at",
+      "(used before a verb to indicate an action in progress)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0456",
+    "simplified": "在家",
+    "pinyin": "zài jiā",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to be at home",
+      "(at a workplace) to be in (as opposed to being away on official business 出差)",
+      "(Buddhism etc) to remain a layman (as opposed to becoming a monk or a nun 出家)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0457",
+    "simplified": "早",
+    "pinyin": "zǎo",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "early",
+      "morning",
+      "Good morning!",
+      "long ago",
+      "prematurely"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0458",
+    "simplified": "早饭",
+    "traditional": "早飯",
+    "pinyin": "zǎo fàn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "breakfast",
+      "CL:份,頓/顿,次,餐"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0459",
+    "simplified": "早上",
+    "pinyin": "zǎo shang",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "early morning",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0460",
+    "simplified": "怎么",
+    "traditional": "怎麼",
+    "pinyin": "zěn me",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "how?",
+      "what?",
+      "why?"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0461",
+    "simplified": "站",
+    "pinyin": "zhàn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "station",
+      "to stand",
+      "to halt",
+      "to stop",
+      "branch of a company or organization",
+      "website"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0713",
+        "pinyin": "zhàn",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0462",
+    "simplified": "找",
+    "pinyin": "zhǎo",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to try to find",
+      "to look for",
+      "to call on sb",
+      "to find",
+      "to seek",
+      "to return",
+      "to give change"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0463",
+    "simplified": "找到",
+    "pinyin": "zhǎo dào",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to find"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0464",
+    "simplified": "这",
+    "traditional": "這",
+    "pinyin": "zhè",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "(pronoun) this; these",
+      "(bound form) this; the (followed by a noun)",
+      "(bound form) this; these (followed by a classifier) (in this sense, commonly pr. , esp. in Beijing)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0465",
+    "simplified": "这边",
+    "traditional": "這邊",
+    "pinyin": "zhè biān",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "this side",
+      "here"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0466",
+    "simplified": "这里",
+    "traditional": "這裡",
+    "pinyin": "zhè lǐ",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "here"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0467",
+    "simplified": "这儿",
+    "traditional": "這兒",
+    "pinyin": "zhèr",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "here"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0468",
+    "simplified": "这些",
+    "traditional": "這些",
+    "pinyin": "zhè xiē",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "these"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0469",
+    "simplified": "着",
+    "traditional": "著",
+    "pinyin": "zhe",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Aux"
+    ],
+    "cedictDefinitions": [
+      "aspect particle indicating action in progress or ongoing state"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0470",
+    "simplified": "真",
+    "pinyin": "zhēn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adv",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "really",
+      "truly",
+      "indeed",
+      "real",
+      "true",
+      "genuine"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0471",
+    "simplified": "真的",
+    "pinyin": "zhēn de",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "really; truly; indeed",
+      "real; true; genuine",
+      "(math.) proper"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0472",
+    "simplified": "正",
+    "pinyin": "zhèng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "straight",
+      "upright",
+      "proper",
+      "main",
+      "principal",
+      "to correct",
+      "to rectify",
+      "exactly",
+      "just (at that time)",
+      "right (in that place)",
+      "(math.) positive"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0896",
+        "pinyin": "zhèng",
+        "partOfSpeech": [
+          "Adj"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0473",
+    "simplified": "正在",
+    "pinyin": "zhèng zài",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "to be in the process of (doing sth); to be currently ...-ing"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0474",
+    "simplified": "知道",
+    "pinyin": "zhī dào",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to know; to become aware of",
+      "also pr."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0475",
+    "simplified": "知识",
+    "traditional": "知識",
+    "pinyin": "zhī shi",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "knowledge",
+      "CL:門/门",
+      "intellectual"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0476",
+    "simplified": "中",
+    "pinyin": "zhōng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "within; among; in",
+      "middle; center",
+      "while (doing sth); during",
+      "(dialect) OK; all right"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0477",
+    "simplified": "中国",
+    "traditional": "中國",
+    "pinyin": "zhōng guó",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "China"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0478",
+    "simplified": "中间",
+    "traditional": "中間",
+    "pinyin": "zhōng jiān",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the middle; the inside",
+      "in the middle; within; between; among",
+      "during; in the meantime"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0479",
+    "simplified": "中文",
+    "pinyin": "zhōng wén",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "Chinese language"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0480",
+    "simplified": "中午",
+    "pinyin": "zhōng wǔ",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "noon",
+      "midday",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0481",
+    "simplified": "中学",
+    "traditional": "中學",
+    "pinyin": "zhōng xué",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "middle school"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0482",
+    "simplified": "中学生",
+    "traditional": "中學生",
+    "pinyin": "zhōng xué shēng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "middle-school student",
+      "high school student"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0483",
+    "simplified": "重",
+    "pinyin": "zhòng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "heavy",
+      "serious",
+      "to attach importance to"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0101",
+        "pinyin": "chóng",
+        "partOfSpeech": [
+          "Adv"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0484",
+    "simplified": "重要",
+    "pinyin": "zhòng yào",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "important; significant; major"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0485",
+    "simplified": "住",
+    "pinyin": "zhù",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to live; to reside; to stay",
+      "to stop; to cease",
+      "(result complement indicating firmness or a stable achieved state)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0486",
+    "simplified": "准备",
+    "traditional": "準備",
+    "pinyin": "zhǔn bèi",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "preparation",
+      "to prepare",
+      "to intend",
+      "to be about to",
+      "reserve (fund)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0487",
+    "simplified": "桌子",
+    "pinyin": "zhuō zi",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "table",
+      "desk",
+      "CL:張/张,套"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0488",
+    "simplified": "字",
+    "pinyin": "zì",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "letter",
+      "symbol",
+      "character",
+      "word",
+      "CL:個/个",
+      "courtesy or style name traditionally given to males aged 20 in dynastic China"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0489",
+    "simplified": "子",
+    "pinyin": "zi",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Suffix"
+    ],
+    "cedictDefinitions": [
+      "noun suffix, as in 椅子 \"chair\""
+    ],
+    "affixExample": "桌子",
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0490",
+    "simplified": "走",
+    "pinyin": "zǒu",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to walk",
+      "to go",
+      "to run",
+      "to move (of vehicle)",
+      "to visit",
+      "to leave",
+      "to go away",
+      "to die (euph.)",
+      "from",
+      "through",
+      "away (in compound verbs, such as 撤走)",
+      "to change (shape, form, meaning)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0491",
+    "simplified": "走路",
+    "pinyin": "zǒu lù",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to walk; to go on foot",
+      "to leave; to depart",
+      "(informal) to clear off; to beat it",
+      "(of sb who gets fired or resigns) to leave the job; to get out"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0492",
+    "simplified": "最",
+    "pinyin": "zuì",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "(before an adjective or verb) to the highest degree; (the) most ...; -est",
+      "(after 之) best or most extreme example (e.g. 世界之最 \"the greatest in the world\")"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0493",
+    "simplified": "最好",
+    "pinyin": "zuì hǎo",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "best",
+      "had better ...; it would be best to ..."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0494",
+    "simplified": "最后",
+    "traditional": "最後",
+    "pinyin": "zuì hòu",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "final; last; ultimate",
+      "finally; in the end"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0495",
+    "simplified": "昨天",
+    "pinyin": "zuó tiān",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "yesterday"
+    ],
+    "needsEnglish": false
+  }
+]

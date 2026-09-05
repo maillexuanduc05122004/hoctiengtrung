@@ -1,0 +1,711 @@
+[
+  {
+    "id": "L2-0041",
+    "simplified": "不同",
+    "pinyin": "bù tóng",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "different",
+      "distinct",
+      "not the same",
+      "not alike"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0042",
+    "simplified": "不行",
+    "pinyin": "bù xíng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "won't do",
+      "be out of the question",
+      "be no good",
+      "not work",
+      "not be capable"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0043",
+    "simplified": "不一定",
+    "pinyin": "bù yī dìng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "not necessarily",
+      "maybe"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0044",
+    "simplified": "不一会儿",
+    "traditional": "不一會兒",
+    "pinyin": "bù yī huìr",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [],
+    "needsEnglish": true
+  },
+  {
+    "id": "L2-0045",
+    "simplified": "部分",
+    "pinyin": "bù fen",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "part; portion; piece",
+      "Taiwan pr."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0046",
+    "simplified": "才",
+    "pinyin": "cái",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "ability; talent",
+      "sb of a certain type",
+      "a capable individual",
+      "then and only then",
+      "just now",
+      "(before an expression of quantity) only",
+      "(emphatic, esp. in contrast or correction) really; actually"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0047",
+    "simplified": "菜单",
+    "traditional": "菜單",
+    "pinyin": "cài dān",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "menu",
+      "CL:份,張/张"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0048",
+    "simplified": "参观",
+    "traditional": "參觀",
+    "pinyin": "cān guān",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to visit (a place, e.g. museum or factory); to tour; to look around"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0049",
+    "simplified": "参加",
+    "traditional": "參加",
+    "pinyin": "cān jiā",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to participate",
+      "to take part",
+      "to join"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0050",
+    "simplified": "草",
+    "pinyin": "cǎo",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "grass",
+      "straw",
+      "manuscript",
+      "draft (of a document)",
+      "careless",
+      "rough",
+      "CL:棵,撮,株,根"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0051",
+    "simplified": "草地",
+    "pinyin": "cǎo dì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "lawn",
+      "meadow",
+      "sod",
+      "turf",
+      "CL:片"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0052",
+    "simplified": "层",
+    "traditional": "層",
+    "pinyin": "céng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "to pile on top of one another",
+      "layer; stratum",
+      "floor (of a building); story",
+      "(math.) sheaf",
+      "classifier for layers"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0053",
+    "simplified": "查",
+    "pinyin": "chá",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to research",
+      "to check",
+      "to investigate",
+      "to examine",
+      "to refer to",
+      "to look up (e.g. a word in a dictionary)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0054",
+    "simplified": "差不多",
+    "pinyin": "chà bu duō",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "almost",
+      "nearly",
+      "more or less",
+      "about the same",
+      "good enough",
+      "not bad"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0055",
+    "simplified": "长",
+    "traditional": "長",
+    "pinyin": "cháng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "long",
+      "(bound form) length",
+      "(bound form) strong point; forte",
+      "(bound form) to be good at",
+      "(literary) surplus; spare (Taiwan pr. )"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0715",
+        "pinyin": "zhǎng",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0056",
+    "simplified": "常见",
+    "traditional": "常見",
+    "pinyin": "cháng jiàn",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "commonly seen",
+      "common",
+      "to see sth frequently"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0057",
+    "simplified": "常用",
+    "pinyin": "cháng yòng",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "in common usage"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0058",
+    "simplified": "场",
+    "traditional": "場",
+    "pinyin": "chǎng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "large place used for a specific purpose",
+      "stage",
+      "scene (of a play)",
+      "classifier for sporting or recreational activities",
+      "classifier for number of exams"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0059",
+    "simplified": "超过",
+    "traditional": "超過",
+    "pinyin": "chāo guò",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to surpass",
+      "to exceed",
+      "to outstrip"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0060",
+    "simplified": "超市",
+    "pinyin": "chāo shì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "supermarket (abbr. for 超級市場/超级市场)",
+      "CL:家"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0061",
+    "simplified": "车辆",
+    "traditional": "車輛",
+    "pinyin": "chē liàng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "vehicle"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0062",
+    "simplified": "称",
+    "traditional": "稱",
+    "pinyin": "chēng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to weigh",
+      "to state",
+      "to name",
+      "name",
+      "appellation",
+      "to praise"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0063",
+    "simplified": "成",
+    "pinyin": "chéng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to succeed",
+      "to finish",
+      "to complete",
+      "to accomplish",
+      "to become",
+      "to turn into",
+      "to be all right",
+      "OK!",
+      "one tenth"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0064",
+    "simplified": "成绩",
+    "traditional": "成績",
+    "pinyin": "chéng jì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "achievement",
+      "performance records",
+      "grades",
+      "CL:項/项,個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0065",
+    "simplified": "成为",
+    "traditional": "成為",
+    "pinyin": "chéng wéi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to become; to turn into"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0066",
+    "simplified": "重复",
+    "traditional": "重複",
+    "pinyin": "chóng fù",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to repeat",
+      "to duplicate",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0067",
+    "simplified": "重新",
+    "pinyin": "chóng xīn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "again; once more; re-"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0068",
+    "simplified": "出发",
+    "traditional": "出發",
+    "pinyin": "chū fā",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to set off",
+      "to start (on a journey)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0069",
+    "simplified": "出国",
+    "traditional": "出國",
+    "pinyin": "chū guó",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to go abroad; to leave the country"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0070",
+    "simplified": "出口",
+    "pinyin": "chū kǒu",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "an exit",
+      "CL:個/个",
+      "to speak",
+      "to export",
+      "(of a ship) to leave port"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0071",
+    "simplified": "出门",
+    "traditional": "出門",
+    "pinyin": "chū mén",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to go out",
+      "to leave home",
+      "to go on a journey",
+      "away from home",
+      "(of a woman) to get married"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0072",
+    "simplified": "出生",
+    "pinyin": "chū shēng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to be born"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0073",
+    "simplified": "出现",
+    "traditional": "出現",
+    "pinyin": "chū xiàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to appear",
+      "to arise",
+      "to emerge",
+      "to show up"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0074",
+    "simplified": "出院",
+    "pinyin": "chū yuàn",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to leave hospital",
+      "to be discharged from hospital"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0075",
+    "simplified": "出租",
+    "pinyin": "chū zū",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to rent"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0076",
+    "simplified": "出租车",
+    "traditional": "出租車",
+    "pinyin": "chū zū chē",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "taxi",
+      "(Tw) rental car"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0077",
+    "simplified": "船",
+    "pinyin": "chuán",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "boat",
+      "vessel",
+      "ship",
+      "CL:條/条,艘,隻/只"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0078",
+    "simplified": "吹",
+    "pinyin": "chuī",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to blow",
+      "to play a wind instrument",
+      "to blast",
+      "to puff",
+      "to boast",
+      "to brag",
+      "to end in failure",
+      "to fall through"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0079",
+    "simplified": "春节",
+    "traditional": "春節",
+    "pinyin": "chūn jié",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "Spring Festival (Chinese New Year)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0080",
+    "simplified": "春天",
+    "pinyin": "chūn tiān",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "spring (season)",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0081",
+    "simplified": "词",
+    "traditional": "詞",
+    "pinyin": "cí",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "word",
+      "statement; speech; lyrics",
+      "a form of lyric poetry, flourishing in the Song dynasty 宋朝 (CL:首)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0082",
+    "simplified": "词典",
+    "traditional": "詞典",
+    "pinyin": "cí diǎn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "dictionary",
+      "CL:本,部"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0083",
+    "simplified": "词语",
+    "traditional": "詞語",
+    "pinyin": "cí yǔ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "word (general term including monosyllables through to short phrases)",
+      "term (e.g. technical term)",
+      "expression"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0084",
+    "simplified": "从小",
+    "traditional": "從小",
+    "pinyin": "cóng xiǎo",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "from childhood; from a young age"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0085",
+    "simplified": "答应",
+    "traditional": "答應",
+    "pinyin": "dā ying",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to answer; to respond",
+      "to answer positively; to agree; to accept; to promise"
+    ],
+    "needsEnglish": false
+  }
+]

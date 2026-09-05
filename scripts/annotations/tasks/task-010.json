@@ -1,0 +1,706 @@
+[
+  {
+    "id": "L1-0406",
+    "simplified": "小学",
+    "traditional": "小學",
+    "pinyin": "xiǎo xué",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "elementary school; primary school"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0407",
+    "simplified": "小学生",
+    "traditional": "小學生",
+    "pinyin": "xiǎo xué shēng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "primary school student",
+      "schoolchild",
+      "CL:個/个,名",
+      "(fig.) beginner"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0408",
+    "simplified": "笑",
+    "pinyin": "xiào",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to laugh; to smile",
+      "to laugh at"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0409",
+    "simplified": "写",
+    "traditional": "寫",
+    "pinyin": "xiě",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to write"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0410",
+    "simplified": "谢谢",
+    "traditional": "謝謝",
+    "pinyin": "xiè xie",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to thank",
+      "thanks",
+      "thank you"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0411",
+    "simplified": "新",
+    "pinyin": "xīn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "new",
+      "newly",
+      "meso- (chemistry)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0412",
+    "simplified": "新年",
+    "pinyin": "xīn nián",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "New Year",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0413",
+    "simplified": "星期",
+    "pinyin": "xīng qī",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "week",
+      "CL:個/个",
+      "day of the week",
+      "Sunday"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0414",
+    "simplified": "星期日",
+    "pinyin": "xīng qī rì",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "Sunday"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0415",
+    "simplified": "星期天",
+    "pinyin": "xīng qī tiān",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "Sunday"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0416",
+    "simplified": "行",
+    "pinyin": "xíng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "(bound form) to walk; to go; to travel",
+      "(literary) trip; journey; visit",
+      "(bound form) temporary; makeshift",
+      "(bound form) current; in circulation",
+      "(bound form) to do; to perform",
+      "capable; competent",
+      "all right; OK!; will do",
+      "behavior; conduct (Taiwan pr. )",
+      "(literary) about to; soon"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0283",
+        "pinyin": "háng",
+        "partOfSpeech": [
+          "M"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0417",
+    "simplified": "休息",
+    "pinyin": "xiū xi",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "rest",
+      "to rest"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0418",
+    "simplified": "学",
+    "traditional": "學",
+    "pinyin": "xué",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to learn",
+      "to study",
+      "to imitate",
+      "science",
+      "-ology"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0419",
+    "simplified": "学生",
+    "traditional": "學生",
+    "pinyin": "xué sheng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "student",
+      "schoolchild"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0420",
+    "simplified": "学习",
+    "traditional": "學習",
+    "pinyin": "xué xí",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to learn; to study"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0421",
+    "simplified": "学校",
+    "traditional": "學校",
+    "pinyin": "xué xiào",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "school",
+      "CL:所"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0422",
+    "simplified": "学院",
+    "traditional": "學院",
+    "pinyin": "xué yuàn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "college",
+      "educational institute",
+      "school",
+      "faculty",
+      "CL:所"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0423",
+    "simplified": "要",
+    "pinyin": "yào",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to want; to need; to ask for",
+      "will; shall; about to",
+      "need to; should",
+      "if (same as 要是)",
+      "(bound form) important"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0424",
+    "simplified": "爷爷",
+    "traditional": "爺爺",
+    "pinyin": "yé ye",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(coll.) paternal grandfather; grandpa"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0425",
+    "simplified": "也",
+    "pinyin": "yě",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "also; too; as well; (not ...) either",
+      "(used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)",
+      "(literary) particle having functions similar to 啊"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0426",
+    "simplified": "页",
+    "traditional": "頁",
+    "pinyin": "yè",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "page",
+      "leaf"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0427",
+    "simplified": "一",
+    "pinyin": "yī",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Num"
+    ],
+    "cedictDefinitions": [
+      "one",
+      "single",
+      "a (article)",
+      "as soon as",
+      "entire; whole; all; throughout",
+      "\"one\" radical in Chinese characters (Kangxi radical 1)",
+      "also pr. for greater clarity when spelling out numbers digit by digit"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0428",
+    "simplified": "衣服",
+    "pinyin": "yī fu",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "clothes",
+      "CL:件,套"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0429",
+    "simplified": "医生",
+    "traditional": "醫生",
+    "pinyin": "yī shēng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "doctor; medical practitioner"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0430",
+    "simplified": "医院",
+    "traditional": "醫院",
+    "pinyin": "yī yuàn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "hospital",
+      "CL:所,家,座"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0431",
+    "simplified": "一半",
+    "pinyin": "yī bàn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Num"
+    ],
+    "cedictDefinitions": [
+      "half"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0432",
+    "simplified": "一会儿",
+    "traditional": "一會兒",
+    "pinyin": "yī huìr",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "a moment",
+      "a while",
+      "in a moment",
+      "now...now...",
+      "also pr."
+    ],
+    "siblings": [
+      {
+        "id": "L2-0649",
+        "pinyin": "yī huìr",
+        "partOfSpeech": [
+          "Adv"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0433",
+    "simplified": "一块儿",
+    "traditional": "一塊兒",
+    "pinyin": "yī kuàir",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "erhua variant of 一塊/一块"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0434",
+    "simplified": "一下儿",
+    "traditional": "一下兒",
+    "pinyin": "yī xiàr",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "erhua form of 一下"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0435",
+    "simplified": "一样",
+    "traditional": "一樣",
+    "pinyin": "yī yàng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "same",
+      "like",
+      "equal to",
+      "the same as",
+      "just like"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0436",
+    "simplified": "一边",
+    "traditional": "一邊",
+    "pinyin": "yī biān",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "one side",
+      "either side",
+      "on the one hand",
+      "on the other hand",
+      "doing while"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0437",
+    "simplified": "一点儿",
+    "traditional": "一點兒",
+    "pinyin": "yī diǎnr",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "erhua variant of 一點/一点"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0438",
+    "simplified": "一起",
+    "pinyin": "yī qǐ",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adv",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(in) the same place",
+      "together; in company (with)",
+      "altogether; in total",
+      "an instance of; a case of (murder, accident, dispute etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0439",
+    "simplified": "一些",
+    "pinyin": "yī xiē",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "some; a few; a little; (following an adjective) slightly ...er"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0440",
+    "simplified": "用",
+    "pinyin": "yòng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to use; to make use of; to employ",
+      "(coverb) with; using",
+      "to need; to have to (usu. used in the negative or in questions)",
+      "usefulness; utility",
+      "(bound form) expense; outlay",
+      "(courteous) to eat; to drink",
+      "(literary) hence; therefore"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0441",
+    "simplified": "有",
+    "pinyin": "yǒu",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to have; there is",
+      "(bound form) having; with; -ful; -ed; -al (as in 有意 intentional)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0442",
+    "simplified": "有的",
+    "pinyin": "yǒu de",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "(there are) some (who are...)",
+      "some (exist)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0443",
+    "simplified": "有名",
+    "pinyin": "yǒu míng",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "famous",
+      "well-known"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0444",
+    "simplified": "有时候",
+    "traditional": "有時候",
+    "pinyin": "yǒu shí hou",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "sometimes",
+      "sometimes; now and then"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0445",
+    "simplified": "有些",
+    "pinyin": "yǒu xiē",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pr"
+    ],
+    "cedictDefinitions": [
+      "some",
+      "somewhat; rather; a bit",
+      "somewhat",
+      "rather"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0446",
+    "simplified": "有用",
+    "pinyin": "yǒu yòng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "useful"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0447",
+    "simplified": "右",
+    "pinyin": "yòu",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(bound form) right; right-hand side",
+      "(bound form) (politics) right of center",
+      "(bound form) (old) west",
+      "(literary) the right side as the side of precedence"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0448",
+    "simplified": "右边",
+    "traditional": "右邊",
+    "pinyin": "yòu bian",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "right side",
+      "right, to the right"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0449",
+    "simplified": "雨",
+    "pinyin": "yǔ",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "rain",
+      "CL:陣/阵,場/场"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0450",
+    "simplified": "元",
+    "pinyin": "yuán",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "currency unit (esp. Chinese yuan)",
+      "(bound form) first; original; primary",
+      "(bound form) basic; fundamental",
+      "(bound form) constituent; part",
+      "(prefix) meta-",
+      "(math.) argument; variable",
+      "era (of a reign)",
+      "(Tw) (geology) eon"
+    ],
+    "needsEnglish": false
+  }
+]

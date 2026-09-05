@@ -1,0 +1,816 @@
+[
+  {
+    "id": "L2-0761",
+    "simplified": "组长",
+    "traditional": "組長",
+    "pinyin": "zǔ zhǎng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "group leader"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0762",
+    "simplified": "嘴",
+    "pinyin": "zuǐ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "mouth",
+      "beak",
+      "nozzle",
+      "spout (of teapot etc)",
+      "CL:張/张,個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0763",
+    "simplified": "最近",
+    "pinyin": "zuì jìn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "recently",
+      "soon",
+      "nearest"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0764",
+    "simplified": "作家",
+    "pinyin": "zuò jiā",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "author",
+      "CL:個/个,位"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0765",
+    "simplified": "作文",
+    "pinyin": "zuò wén",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to write an essay",
+      "composition (student essay)",
+      "CL:篇"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0766",
+    "simplified": "作业",
+    "traditional": "作業",
+    "pinyin": "zuò yè",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "school assignment",
+      "homework",
+      "work",
+      "task",
+      "operation",
+      "CL:個/个",
+      "to operate"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0767",
+    "simplified": "作用",
+    "pinyin": "zuò yòng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to act on; to affect",
+      "action; function; activity",
+      "impact; result; effect",
+      "purpose; intent",
+      "(suffix) -ation, -tion etc, as in 抑制作用, inhibition"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0768",
+    "simplified": "座",
+    "pinyin": "zuò",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "seat",
+      "base; stand",
+      "(bound form) constellation",
+      "(archaic) suffix used in a respectful form of address (e.g. 師座/师座)",
+      "classifier for large immovable objects such as buildings, mountains, bridges etc"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0769",
+    "simplified": "座位",
+    "pinyin": "zuò wèi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "seat",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0770",
+    "simplified": "做到",
+    "pinyin": "zuò dào",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to accomplish",
+      "to achieve"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0771",
+    "simplified": "做法",
+    "pinyin": "zuò fǎ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "way of handling sth",
+      "method for making",
+      "work method",
+      "recipe",
+      "practice",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0772",
+    "simplified": "做饭",
+    "traditional": "做飯",
+    "pinyin": "zuò fàn",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to prepare a meal",
+      "to cook"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0001",
+    "simplified": "爱心",
+    "traditional": "愛心",
+    "pinyin": "ài xīn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "compassion",
+      "kindness",
+      "care for others",
+      "love",
+      "CL:片",
+      "charity (bazaar, golf day etc)",
+      "heart (the symbol ♥)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0002",
+    "simplified": "安排",
+    "pinyin": "ān pái",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to arrange",
+      "to plan",
+      "to set up",
+      "arrangements",
+      "plans"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0003",
+    "simplified": "安装",
+    "traditional": "安裝",
+    "pinyin": "ān zhuāng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to install",
+      "to erect",
+      "to fix",
+      "to mount",
+      "installation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0004",
+    "simplified": "按",
+    "pinyin": "àn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "Prep"
+    ],
+    "cedictDefinitions": [
+      "to press",
+      "to push",
+      "to leave aside or shelve",
+      "to control",
+      "to restrain",
+      "to keep one's hand on",
+      "to check or refer to",
+      "according to",
+      "in the light of",
+      "(of an editor or author) to make a comment"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0005",
+    "simplified": "按照",
+    "pinyin": "àn zhào",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Prep"
+    ],
+    "cedictDefinitions": [
+      "according to; in accordance with; on the basis of"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0006",
+    "simplified": "把",
+    "pinyin": "bǎ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Prep"
+    ],
+    "cedictDefinitions": [
+      "to hold; to grasp",
+      "to hold a baby in position to help it urinate or defecate",
+      "handlebar",
+      "classifier: handful, bundle, bunch",
+      "classifier for things with handles",
+      "(used to put the object before the verb: 把 + {noun} + {verb})"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0007",
+        "pinyin": "bǎ",
+        "partOfSpeech": [
+          "M"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0007",
+    "simplified": "把",
+    "pinyin": "bǎ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "to hold; to grasp",
+      "to hold a baby in position to help it urinate or defecate",
+      "handlebar",
+      "classifier: handful, bundle, bunch",
+      "classifier for things with handles",
+      "(used to put the object before the verb: 把 + {noun} + {verb})"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0006",
+        "pinyin": "bǎ",
+        "partOfSpeech": [
+          "Prep"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0008",
+    "simplified": "把握",
+    "pinyin": "bǎ wò",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to grasp (also fig.)",
+      "to seize",
+      "to hold",
+      "assurance",
+      "certainty",
+      "sure (of the outcome)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0009",
+    "simplified": "白",
+    "pinyin": "bái",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "white",
+      "in vain",
+      "free of charge",
+      "(bound form) (of facts, the truth, a situation) clear; evident (e.g. 真相大白)",
+      "(bound form) plain; without additions (e.g. 白飯/白饭)",
+      "(bound form) to explain; to state (e.g. 辯白/辩白)",
+      "(bound form) to give a disdainful look (e.g. 白了他一眼)",
+      "(bound form) vernacular (e.g. 白話/白话)",
+      "(bound form) spoken lines in opera (e.g. 念白)",
+      "(bound form) reactionary; anti-communist (e.g. 白區/白区)"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0006",
+        "pinyin": "bái",
+        "partOfSpeech": [
+          "Adj"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0010",
+    "simplified": "白菜",
+    "pinyin": "bái cài",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "Chinese cabbage, esp. napa cabbage (Brassica rapa subsp. pekinensis)",
+      "sometimes used to refer to bok choy (Brassica rapa subsp. chinensis)",
+      "CL:棵"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0011",
+    "simplified": "班级",
+    "traditional": "班級",
+    "pinyin": "bān jí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "class (group of students)",
+      "grade (in school)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0012",
+    "simplified": "搬",
+    "pinyin": "bān",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to move (i.e. relocate oneself)",
+      "to move (sth relatively heavy or bulky)",
+      "to shift",
+      "to copy indiscriminately"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0013",
+    "simplified": "搬家",
+    "pinyin": "bān jiā",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to move house; to relocate",
+      "to remove (sth)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0014",
+    "simplified": "板",
+    "pinyin": "bǎn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "board",
+      "plank",
+      "plate",
+      "shutter",
+      "table tennis bat",
+      "clappers (music)",
+      "CL:塊/块",
+      "accented beat in Chinese music",
+      "hard",
+      "stiff",
+      "to stop smiling or look serious"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0015",
+    "simplified": "办理",
+    "traditional": "辦理",
+    "pinyin": "bàn lǐ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to handle; to transact; to conduct"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0016",
+    "simplified": "保",
+    "pinyin": "bǎo",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to defend; to protect; to keep",
+      "to guarantee; to ensure",
+      "(old) civil administration unit in the baojia 保甲 system"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0017",
+    "simplified": "保安",
+    "pinyin": "bǎo ān",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to ensure public security",
+      "to ensure safety (for workers engaged in production)",
+      "public security",
+      "security guard"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0018",
+    "simplified": "保持",
+    "pinyin": "bǎo chí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to keep",
+      "to maintain",
+      "to hold",
+      "to preserve"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0019",
+    "simplified": "保存",
+    "pinyin": "bǎo cún",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to conserve; to preserve; to keep; to store; (computing) to save (a file etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0020",
+    "simplified": "保护",
+    "traditional": "保護",
+    "pinyin": "bǎo hù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to protect",
+      "to defend",
+      "to safeguard",
+      "protection",
+      "CL:種/种"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0021",
+    "simplified": "保留",
+    "pinyin": "bǎo liú",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to keep",
+      "to retain",
+      "to have reservations (about sth)",
+      "to hold back (from saying sth)",
+      "to put aside for later"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0022",
+    "simplified": "保险",
+    "traditional": "保險",
+    "pinyin": "bǎo xiǎn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "insurance",
+      "to insure",
+      "safe",
+      "secure",
+      "be sure",
+      "be bound to",
+      "CL:份"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0023",
+    "simplified": "保证",
+    "traditional": "保證",
+    "pinyin": "bǎo zhèng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "guarantee",
+      "to guarantee",
+      "to ensure",
+      "to safeguard",
+      "to pledge",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0024",
+    "simplified": "报",
+    "traditional": "報",
+    "pinyin": "bào",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to report; to inform; to announce",
+      "to respond; to reply",
+      "to sign up for; to register for (abbr. for 報名/报名)",
+      "to reward; to recompense",
+      "to take revenge; to retaliate",
+      "newspaper",
+      "periodical; journal",
+      "bulletin",
+      "telegram"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0025",
+    "simplified": "报到",
+    "traditional": "報到",
+    "pinyin": "bào dào",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to report for duty",
+      "to check in",
+      "to register"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0026",
+    "simplified": "报道",
+    "traditional": "報道",
+    "pinyin": "bào dào",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to report (news)",
+      "report",
+      "CL:篇,份"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0027",
+    "simplified": "报告",
+    "traditional": "報告",
+    "pinyin": "bào gào",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to inform",
+      "to report",
+      "to make known",
+      "report",
+      "speech",
+      "talk",
+      "lecture",
+      "CL:篇,份,個/个,通"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0028",
+    "simplified": "背",
+    "pinyin": "bēi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to carry on one's back",
+      "(fig.) to bear; to shoulder (a burden, blame etc)"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0017",
+        "pinyin": "bèi",
+        "partOfSpeech": [
+          "V"
+        ]
+      },
+      {
+        "id": "L3-0030",
+        "pinyin": "bèi",
+        "partOfSpeech": [
+          "N"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0029",
+    "simplified": "北部",
+    "pinyin": "běi bù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "northern part"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0030",
+    "simplified": "背",
+    "pinyin": "bèi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the back of a body or object",
+      "to turn one's back",
+      "to hide something from",
+      "to learn by heart",
+      "to recite from memory",
+      "(slang) unlucky",
+      "hard of hearing"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0017",
+        "pinyin": "bèi",
+        "partOfSpeech": [
+          "V"
+        ]
+      },
+      {
+        "id": "L3-0028",
+        "pinyin": "bēi",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0031",
+    "simplified": "背后",
+    "traditional": "背後",
+    "pinyin": "bèi hòu",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "behind",
+      "at the back",
+      "in the rear",
+      "behind sb's back"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0032",
+    "simplified": "被",
+    "pinyin": "bèi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Prep"
+    ],
+    "cedictDefinitions": [
+      "quilt",
+      "to cover (with)",
+      "(literary) to suffer (a misfortune)",
+      "used to indicate passive voice (placed before the doer of the action like \"by\" in English passive-voice sentences, or, if the doer is not mentioned, before the verb)",
+      "(since c. 2009) (sarcastic or jocular) used to indicate that the following word should be regarded as being in air quotes (as in 被旅遊/被旅游 to \"go on a trip\")"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0033",
+    "simplified": "被子",
+    "pinyin": "bèi zi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "blanket; quilt",
+      "CL:條/条,床"
+    ],
+    "needsEnglish": false
+  }
+]

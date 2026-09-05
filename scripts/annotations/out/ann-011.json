@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L1-0451",
+    "vi": ["xa", "xa xôi"],
+    "viAliases": ["cách xa"],
+    "en": ["far", "distant", "remote"],
+    "enSource": "cedict",
+    "example": { "zh": "我家离学校很远。", "vi": "Nhà tôi cách trường rất xa.", "en": "My home is very far from the school." }
+  },
+  {
+    "id": "L1-0452",
+    "vi": ["tháng", "mặt trăng"],
+    "viAliases": ["trăng"],
+    "en": ["moon", "month"],
+    "enSource": "cedict",
+    "example": { "zh": "下个月我要去中国。", "vi": "Tháng sau tôi sẽ đi Trung Quốc.", "en": "Next month I am going to China." }
+  },
+  {
+    "id": "L1-0453",
+    "vi": ["lại", "nữa", "rồi hãy"],
+    "viAliases": ["một lần nữa", "thêm lần nữa"],
+    "en": ["again; once more", "further; beyond this point of time", "then (after sth, and not until then)"],
+    "enSource": "cedict",
+    "example": { "zh": "请你再说一次。", "vi": "Xin bạn nói lại một lần nữa.", "en": "Please say it once more." }
+  },
+  {
+    "id": "L1-0454",
+    "vi": ["tạm biệt", "hẹn gặp lại"],
+    "viAliases": ["chào tạm biệt", "gặp lại sau"],
+    "en": ["goodbye", "see you again later"],
+    "enSource": "cedict",
+    "example": { "zh": "老师再见，明天见。", "vi": "Tạm biệt thầy, mai gặp lại.", "en": "Goodbye teacher, see you tomorrow." }
+  },
+  {
+    "id": "L1-0455",
+    "vi": ["ở", "tại", "đang"],
+    "viAliases": ["có mặt", "ở tại"],
+    "en": ["to exist; to be alive", "(of sb or sth) to be (located) at", "(used before a verb to indicate an action in progress)"],
+    "enSource": "cedict",
+    "example": { "zh": "我在房间里看书。", "vi": "Tôi đang đọc sách trong phòng.", "en": "I am reading a book in the room." }
+  },
+  {
+    "id": "L1-0456",
+    "vi": ["ở nhà", "có nhà"],
+    "viAliases": ["đang ở nhà"],
+    "en": ["to be at home"],
+    "enSource": "cedict",
+    "example": { "zh": "今天爸爸不在家。", "vi": "Hôm nay bố không có nhà.", "en": "Dad is not at home today." }
+  },
+  {
+    "id": "L1-0457",
+    "vi": ["sớm"],
+    "viAliases": ["sớm sủa"],
+    "en": ["early"],
+    "enSource": "cedict",
+    "example": { "zh": "你今天来得很早。", "vi": "Hôm nay bạn đến rất sớm.", "en": "You came very early today." }
+  },
+  {
+    "id": "L1-0458",
+    "vi": ["bữa sáng", "cơm sáng"],
+    "viAliases": ["bữa điểm tâm", "điểm tâm"],
+    "en": ["breakfast"],
+    "enSource": "cedict",
+    "example": { "zh": "你今天吃早饭了吗？", "vi": "Hôm nay bạn ăn bữa sáng chưa?", "en": "Did you eat breakfast today?" }
+  },
+  {
+    "id": "L1-0459",
+    "vi": ["buổi sáng", "sáng sớm"],
+    "viAliases": ["sáng"],
+    "en": ["early morning"],
+    "enSource": "cedict",
+    "example": { "zh": "我每天早上六点起床。", "vi": "Mỗi buổi sáng tôi dậy lúc sáu giờ.", "en": "I get up at six every morning." }
+  },
+  {
+    "id": "L1-0460",
+    "vi": ["thế nào", "sao", "làm sao"],
+    "viAliases": ["như thế nào", "làm thế nào"],
+    "en": ["how?", "what?", "why?"],
+    "enSource": "cedict",
+    "example": { "zh": "这个字怎么写？", "vi": "Chữ này viết thế nào?", "en": "How do you write this character?" }
+  },
+  {
+    "id": "L1-0461",
+    "vi": ["nhà ga", "trạm", "bến"],
+    "viAliases": ["ga"],
+    "en": ["station"],
+    "enSource": "cedict",
+    "example": { "zh": "火车站离这里很近。", "vi": "Nhà ga xe lửa cách đây rất gần.", "en": "The train station is very close to here." }
+  },
+  {
+    "id": "L1-0462",
+    "vi": ["tìm", "tìm kiếm"],
+    "viAliases": ["kiếm", "tìm gặp"],
+    "en": ["to look for", "to try to find", "to call on sb"],
+    "enSource": "cedict",
+    "example": { "zh": "我在找我的手机。", "vi": "Tôi đang tìm điện thoại của mình.", "en": "I am looking for my phone." }
+  },
+  {
+    "id": "L1-0463",
+    "vi": ["tìm thấy", "tìm được"],
+    "viAliases": ["tìm ra", "kiếm được"],
+    "en": ["to find"],
+    "enSource": "cedict",
+    "example": { "zh": "我找到了我的书。", "vi": "Tôi đã tìm thấy quyển sách của mình.", "en": "I found my book." }
+  },
+  {
+    "id": "L1-0464",
+    "vi": ["này", "cái này", "đây"],
+    "viAliases": ["cái đây"],
+    "en": ["this; these", "this; the (followed by a noun)"],
+    "enSource": "cedict",
+    "example": { "zh": "这是我的老师。", "vi": "Đây là thầy giáo của tôi.", "en": "This is my teacher." }
+  },
+  {
+    "id": "L1-0465",
+    "vi": ["bên này", "phía này"],
+    "viAliases": ["đằng này", "bên đây"],
+    "en": ["this side", "here"],
+    "enSource": "cedict",
+    "example": { "zh": "请你到这边来。", "vi": "Mời bạn đi sang bên này.", "en": "Please come over to this side." }
+  },
+  {
+    "id": "L1-0466",
+    "vi": ["ở đây", "nơi này"],
+    "viAliases": ["đây", "chỗ này"],
+    "en": ["here"],
+    "enSource": "cedict",
+    "example": { "zh": "这里的东西很便宜。", "vi": "Đồ ở đây rất rẻ.", "en": "The things here are very cheap." }
+  },
+  {
+    "id": "L1-0467",
+    "vi": ["ở đây", "chỗ này"],
+    "viAliases": ["đây", "nơi này"],
+    "en": ["here"],
+    "enSource": "cedict",
+    "example": { "zh": "你在这儿等我一下。", "vi": "Bạn đợi tôi ở đây một lát nhé.", "en": "Wait for me here for a moment." }
+  },
+  {
+    "id": "L1-0468",
+    "vi": ["những cái này", "các thứ này"],
+    "viAliases": ["mấy cái này", "những thứ này"],
+    "en": ["these"],
+    "enSource": "cedict",
+    "example": { "zh": "这些苹果都很甜。", "vi": "Những quả táo này đều rất ngọt.", "en": "These apples are all very sweet." }
+  },
+  {
+    "id": "L1-0469",
+    "vi": ["trợ từ chỉ hành động đang diễn ra hoặc trạng thái kéo dài"],
+    "viAliases": [],
+    "en": ["aspect particle indicating action in progress or ongoing state"],
+    "enSource": "cedict",
+    "example": { "zh": "他坐着看电视。", "vi": "Anh ấy ngồi xem tivi.", "en": "He is sitting and watching TV." }
+  },
+  {
+    "id": "L1-0470",
+    "vi": ["thật", "thật là", "thật sự"],
+    "viAliases": ["quả thật", "đúng là"],
+    "en": ["really", "truly", "real", "genuine"],
+    "enSource": "cedict",
+    "example": { "zh": "今天天气真好。", "vi": "Hôm nay thời tiết thật đẹp.", "en": "The weather is really nice today." }
+  },
+  {
+    "id": "L1-0471",
+    "vi": ["thật sự", "có thật", "thật vậy"],
+    "viAliases": ["thực sự", "đúng thật"],
+    "en": ["really; truly; indeed", "real; true; genuine"],
+    "enSource": "cedict",
+    "example": { "zh": "你说的是真的吗？", "vi": "Điều bạn nói là thật sao?", "en": "Is what you said true?" }
+  },
+  {
+    "id": "L1-0472",
+    "vi": ["đang", "vừa đúng lúc"],
+    "viAliases": ["vừa lúc", "đúng lúc"],
+    "en": ["exactly", "just (at that time)", "right (in that place)"],
+    "enSource": "cedict",
+    "example": { "zh": "我正想给你打电话。", "vi": "Tôi vừa đang định gọi điện cho bạn.", "en": "I was just about to call you." }
+  },
+  {
+    "id": "L1-0473",
+    "vi": ["đang", "đang trong lúc"],
+    "viAliases": ["đang lúc"],
+    "en": ["to be in the process of (doing sth); to be currently ...-ing"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈正在做饭。", "vi": "Mẹ đang nấu cơm.", "en": "Mom is cooking." }
+  },
+  {
+    "id": "L1-0474",
+    "vi": ["biết"],
+    "viAliases": ["hay biết", "được biết"],
+    "en": ["to know; to become aware of"],
+    "enSource": "cedict",
+    "example": { "zh": "我不知道他的名字。", "vi": "Tôi không biết tên anh ấy.", "en": "I do not know his name." }
+  },
+  {
+    "id": "L1-0475",
+    "vi": ["kiến thức", "tri thức"],
+    "viAliases": ["hiểu biết"],
+    "en": ["knowledge"],
+    "enSource": "cedict",
+    "example": { "zh": "书里有很多知识。", "vi": "Trong sách có rất nhiều kiến thức.", "en": "There is a lot of knowledge in books." }
+  },
+  {
+    "id": "L1-0476",
+    "vi": ["ở giữa", "trong", "trung tâm"],
+    "viAliases": ["chính giữa", "bên trong"],
+    "en": ["middle; center", "within; among; in"],
+    "enSource": "cedict",
+    "example": { "zh": "这些人中他最高。", "vi": "Trong những người này anh ấy cao nhất.", "en": "Among these people he is the tallest." }
+  },
+  {
+    "id": "L1-0477",
+    "vi": ["Trung Quốc"],
+    "viAliases": ["nước Trung Quốc", "Trung Hoa"],
+    "en": ["China"],
+    "enSource": "cedict",
+    "example": { "zh": "我想去中国学汉语。", "vi": "Tôi muốn đi Trung Quốc học tiếng Hán.", "en": "I want to go to China to study Chinese." }
+  },
+  {
+    "id": "L1-0478",
+    "vi": ["ở giữa", "khoảng giữa"],
+    "viAliases": ["chính giữa", "giữa"],
+    "en": ["the middle; the inside", "in the middle; between; among"],
+    "enSource": "cedict",
+    "example": { "zh": "他坐在我们中间。", "vi": "Anh ấy ngồi ở giữa chúng tôi.", "en": "He sits in the middle of us." }
+  },
+  {
+    "id": "L1-0479",
+    "vi": ["tiếng Trung", "tiếng Trung Quốc"],
+    "viAliases": ["Trung văn", "tiếng Hoa"],
+    "en": ["Chinese language"],
+    "enSource": "cedict",
+    "example": { "zh": "她的中文说得很好。", "vi": "Cô ấy nói tiếng Trung rất giỏi.", "en": "She speaks Chinese very well." }
+  },
+  {
+    "id": "L1-0480",
+    "vi": ["buổi trưa", "giữa trưa"],
+    "viAliases": ["trưa"],
+    "en": ["noon", "midday"],
+    "enSource": "cedict",
+    "example": { "zh": "中午我们一起吃饭。", "vi": "Buổi trưa chúng ta cùng ăn cơm.", "en": "At noon we eat together." }
+  },
+  {
+    "id": "L1-0481",
+    "vi": ["trường trung học", "trung học"],
+    "viAliases": ["trường cấp hai", "trường phổ thông"],
+    "en": ["middle school"],
+    "enSource": "cedict",
+    "example": { "zh": "我哥哥在中学教书。", "vi": "Anh trai tôi dạy học ở trường trung học.", "en": "My older brother teaches at a middle school." }
+  },
+  {
+    "id": "L1-0482",
+    "vi": ["học sinh trung học"],
+    "viAliases": ["học sinh cấp hai", "học sinh phổ thông"],
+    "en": ["middle-school student", "high school student"],
+    "enSource": "cedict",
+    "example": { "zh": "他是一个中学生。", "vi": "Cậu ấy là một học sinh trung học.", "en": "He is a middle school student." }
+  },
+  {
+    "id": "L1-0483",
+    "vi": ["nặng", "quan trọng"],
+    "viAliases": ["nặng nề", "hệ trọng"],
+    "en": ["heavy", "serious"],
+    "enSource": "cedict",
+    "example": { "zh": "这个箱子太重了。", "vi": "Cái hộp này nặng quá.", "en": "This box is too heavy." }
+  },
+  {
+    "id": "L1-0484",
+    "vi": ["quan trọng"],
+    "viAliases": ["hệ trọng", "trọng yếu", "chủ yếu"],
+    "en": ["important; significant; major"],
+    "enSource": "cedict",
+    "example": { "zh": "这件事很重要。", "vi": "Việc này rất quan trọng.", "en": "This matter is very important." }
+  },
+  {
+    "id": "L1-0485",
+    "vi": ["ở", "sống", "cư trú"],
+    "viAliases": ["sinh sống", "ở trọ"],
+    "en": ["to live; to reside; to stay"],
+    "enSource": "cedict",
+    "example": { "zh": "我住在北京。", "vi": "Tôi sống ở Bắc Kinh.", "en": "I live in Beijing." }
+  },
+  {
+    "id": "L1-0486",
+    "vi": ["chuẩn bị", "dự định"],
+    "viAliases": ["sửa soạn", "định"],
+    "en": ["to prepare", "to intend", "to be about to"],
+    "enSource": "cedict",
+    "example": { "zh": "我们准备去旅游。", "vi": "Chúng tôi chuẩn bị đi du lịch.", "en": "We are getting ready to go traveling." }
+  },
+  {
+    "id": "L1-0487",
+    "vi": ["cái bàn", "bàn"],
+    "viAliases": ["bàn viết", "bàn làm việc"],
+    "en": ["table", "desk"],
+    "enSource": "cedict",
+    "example": { "zh": "桌子上有一本书。", "vi": "Trên bàn có một quyển sách.", "en": "There is a book on the table." }
+  },
+  {
+    "id": "L1-0488",
+    "vi": ["chữ", "chữ viết"],
+    "viAliases": ["con chữ", "ký tự"],
+    "en": ["character", "word", "letter"],
+    "enSource": "cedict",
+    "example": { "zh": "这个字我不认识。", "vi": "Chữ này tôi không biết.", "en": "I do not know this character." }
+  },
+  {
+    "id": "L1-0489",
+    "vi": ["hậu tố tạo danh từ"],
+    "viAliases": [],
+    "en": ["noun suffix"],
+    "enSource": "cedict",
+    "example": { "zh": "教室里有很多桌子。", "vi": "Trong lớp học có rất nhiều cái bàn.", "en": "There are many tables in the classroom." }
+  },
+  {
+    "id": "L1-0490",
+    "vi": ["đi", "đi bộ", "rời đi"],
+    "viAliases": ["bước đi", "đi khỏi"],
+    "en": ["to walk", "to go", "to leave"],
+    "enSource": "cedict",
+    "example": { "zh": "他已经走了。", "vi": "Anh ấy đã đi rồi.", "en": "He has already left." }
+  },
+  {
+    "id": "L1-0491",
+    "vi": ["đi bộ", "đi đường"],
+    "viAliases": ["cuốc bộ", "đi chân"],
+    "en": ["to walk; to go on foot"],
+    "enSource": "cedict",
+    "example": { "zh": "我每天走路去学校。", "vi": "Mỗi ngày tôi đi bộ đến trường.", "en": "I walk to school every day." }
+  },
+  {
+    "id": "L1-0492",
+    "vi": ["nhất"],
+    "viAliases": ["hơn cả", "nhất là"],
+    "en": ["to the highest degree; (the) most ...; -est"],
+    "enSource": "cedict",
+    "example": { "zh": "我最喜欢吃苹果。", "vi": "Tôi thích ăn táo nhất.", "en": "I like eating apples the most." }
+  },
+  {
+    "id": "L1-0493",
+    "vi": ["tốt nhất", "tốt nhất là nên"],
+    "viAliases": ["hay nhất là", "tốt hơn hết"],
+    "en": ["best", "had better ...; it would be best to ..."],
+    "enSource": "cedict",
+    "example": { "zh": "你最好早一点回家。", "vi": "Bạn tốt nhất nên về nhà sớm một chút.", "en": "You had better go home a little earlier." }
+  },
+  {
+    "id": "L1-0494",
+    "vi": ["cuối cùng", "sau cùng"],
+    "viAliases": ["rốt cuộc", "phần cuối"],
+    "en": ["final; last; ultimate", "finally; in the end"],
+    "enSource": "cedict",
+    "example": { "zh": "最后我们都到了。", "vi": "Cuối cùng chúng tôi đều đã đến.", "en": "In the end we all arrived." }
+  },
+  {
+    "id": "L1-0495",
+    "vi": ["hôm qua", "ngày hôm qua"],
+    "viAliases": ["bữa qua"],
+    "en": ["yesterday"],
+    "enSource": "cedict",
+    "example": { "zh": "昨天我去了医院。", "vi": "Hôm qua tôi đã đi bệnh viện.", "en": "Yesterday I went to the hospital." }
+  }
+]

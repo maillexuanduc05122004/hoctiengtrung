@@ -1,0 +1,737 @@
+[
+  {
+    "id": "L1-0001",
+    "simplified": "爱",
+    "traditional": "愛",
+    "pinyin": "ài",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to love; to be fond of; to like",
+      "affection",
+      "to be inclined (to do sth); to tend to (happen)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0002",
+    "simplified": "爱好",
+    "traditional": "愛好",
+    "pinyin": "ài hào",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to like; to be fond of; to take pleasure in; to be keen on",
+      "interest; hobby"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0003",
+    "simplified": "八",
+    "pinyin": "bā",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Num"
+    ],
+    "cedictDefinitions": [
+      "eight"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0004",
+    "simplified": "爸爸",
+    "pinyin": "bà ba",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(coll.) father; dad",
+      "CL:位",
+      "father",
+      "dad",
+      "pa",
+      "papa"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0005",
+    "simplified": "吧",
+    "pinyin": "ba",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Aux"
+    ],
+    "cedictDefinitions": [
+      "(modal particle indicating suggestion or surmise)",
+      "...right?",
+      "...OK?",
+      "...I presume."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0006",
+    "simplified": "白",
+    "pinyin": "bái",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "white",
+      "in vain",
+      "free of charge",
+      "(bound form) (of facts, the truth, a situation) clear; evident (e.g. 真相大白)",
+      "(bound form) plain; without additions (e.g. 白飯/白饭)",
+      "(bound form) to explain; to state (e.g. 辯白/辩白)",
+      "(bound form) to give a disdainful look (e.g. 白了他一眼)",
+      "(bound form) vernacular (e.g. 白話/白话)",
+      "(bound form) spoken lines in opera (e.g. 念白)",
+      "(bound form) reactionary; anti-communist (e.g. 白區/白区)"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0009",
+        "pinyin": "bái",
+        "partOfSpeech": [
+          "Adv"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0007",
+    "simplified": "白天",
+    "pinyin": "bái tiān",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "daytime",
+      "during the day",
+      "day",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0008",
+    "simplified": "百",
+    "pinyin": "bǎi",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Num"
+    ],
+    "cedictDefinitions": [
+      "hundred",
+      "numerous",
+      "all kinds of"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0009",
+    "simplified": "班",
+    "pinyin": "bān",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "team; class; grade",
+      "(military) squad",
+      "work shift",
+      "classifier for groups of people and scheduled transport vehicles"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0010",
+    "simplified": "半",
+    "pinyin": "bàn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Num"
+    ],
+    "cedictDefinitions": [
+      "half",
+      "semi-",
+      "incomplete",
+      "(after a number) and a half"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0011",
+    "simplified": "半年",
+    "pinyin": "bàn nián",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "half a year"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0012",
+    "simplified": "半天",
+    "pinyin": "bàn tiān",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "half of the day",
+      "a long time",
+      "quite a while",
+      "midair",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0013",
+    "simplified": "帮",
+    "traditional": "幫",
+    "pinyin": "bāng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to help",
+      "to assist",
+      "to support",
+      "for sb (i.e. as a help)",
+      "hired (as worker)",
+      "side (of pail, boat etc)",
+      "outer layer",
+      "upper (of a shoe)",
+      "group",
+      "gang",
+      "clique",
+      "party",
+      "secret society"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0014",
+    "simplified": "帮忙",
+    "traditional": "幫忙",
+    "pinyin": "bāng máng",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to help",
+      "to lend a hand",
+      "to do a favor",
+      "to do a good turn"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0015",
+    "simplified": "包",
+    "pinyin": "bāo",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N",
+      "M",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to cover",
+      "to wrap",
+      "to hold",
+      "to include",
+      "to take charge of",
+      "to contract (to or for)",
+      "package",
+      "wrapper",
+      "container",
+      "bag",
+      "to hold or embrace",
+      "bundle",
+      "packet",
+      "CL:個/个,隻/只"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0016",
+    "simplified": "包子",
+    "pinyin": "bāo zi",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "baozi; bao (steamed stuffed bun)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0017",
+    "simplified": "杯",
+    "pinyin": "bēi",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "cup",
+      "trophy cup",
+      "classifier for certain containers of liquids: glass, cup"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0018",
+    "simplified": "杯子",
+    "pinyin": "bēi zi",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "cup",
+      "glass",
+      "CL:個/个,隻/只"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0019",
+    "simplified": "北",
+    "pinyin": "běi",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "north",
+      "(classical) to be defeated"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0020",
+    "simplified": "北边",
+    "traditional": "北邊",
+    "pinyin": "běi biān",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "north",
+      "north side",
+      "northern part",
+      "to the north of"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0021",
+    "simplified": "北京",
+    "pinyin": "běi jīng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "Beijing municipality, capital of the People's Republic of China (short name 京)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0022",
+    "simplified": "本",
+    "pinyin": "běn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "(bound form) root; stem",
+      "(bound form) origin; source",
+      "(bound form) one's own; this",
+      "(bound form) this; the current (year etc)",
+      "(bound form) original",
+      "(bound form) inherent",
+      "originally; initially",
+      "capital; principal",
+      "classifier for books, periodicals, files etc"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0023",
+    "simplified": "本子",
+    "pinyin": "běn zi",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "book",
+      "notebook",
+      "Japanese-style self-published comic (esp. an erotic one), aka \"dōjinshi\"",
+      "CL:本",
+      "edition"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0024",
+    "simplified": "比",
+    "pinyin": "bǐ",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Prep",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to compare",
+      "(followed by a noun and adjective) more {adj.} than {noun}",
+      "ratio",
+      "to gesture",
+      "(Taiwan pr. in some compounds derived from Classical Chinese)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0025",
+    "simplified": "别",
+    "traditional": "別",
+    "pinyin": "bié",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "to leave; to part (from)",
+      "(literary) to differentiate; to distinguish",
+      "(dialect) to turn away; to turn aside; to avert (one's face, gaze etc)",
+      "(bound form) other; another; different",
+      "don't ...!",
+      "to fasten with a pin or clip",
+      "to stick in; to insert (in order to hinder movement)",
+      "(noun suffix) category (as in 性別/性别, 派別/派别)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0026",
+    "simplified": "别的",
+    "traditional": "別的",
+    "pinyin": "bié de",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "else",
+      "other"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0027",
+    "simplified": "别人",
+    "traditional": "別人",
+    "pinyin": "bié ren",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "other people; others; other person"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0028",
+    "simplified": "病",
+    "pinyin": "bìng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "illness",
+      "CL:場/场",
+      "disease",
+      "to fall ill",
+      "defect"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0029",
+    "simplified": "病人",
+    "pinyin": "bìng rén",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "sick person",
+      "patient",
+      "invalid",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0030",
+    "simplified": "不大",
+    "pinyin": "bù dà",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "not very (clear, far away etc); not too",
+      "not often; infrequently"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0031",
+    "simplified": "不对",
+    "traditional": "不對",
+    "pinyin": "bù duì",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "incorrect",
+      "wrong",
+      "amiss",
+      "abnormal",
+      "queer"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0032",
+    "simplified": "不客气",
+    "traditional": "不客氣",
+    "pinyin": "bù kè qi",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "you're welcome",
+      "don't mention it",
+      "impolite",
+      "rude",
+      "blunt"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0033",
+    "simplified": "不用",
+    "pinyin": "bù yòng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "need not"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0034",
+    "simplified": "不",
+    "pinyin": "bù",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "no; not so",
+      "(bound form) not; un-"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0035",
+    "simplified": "菜",
+    "pinyin": "cài",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "vegetable; greens (CL:棵)",
+      "dish (of food) (CL:樣/样,道,盤/盘)",
+      "(of one's skills etc) weak; poor",
+      "(coll.) (one's) type"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0036",
+    "simplified": "茶",
+    "pinyin": "chá",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "tea",
+      "tea plant",
+      "CL:杯,壺/壶"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0037",
+    "simplified": "差",
+    "pinyin": "chà",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "different",
+      "wrong; mistaken",
+      "to fall short; to lack",
+      "not up to standard; inferior",
+      "Taiwan pr."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0038",
+    "simplified": "常",
+    "pinyin": "cháng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "always",
+      "ever",
+      "often",
+      "frequently",
+      "common",
+      "general",
+      "constant"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0039",
+    "simplified": "常常",
+    "pinyin": "cháng cháng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "frequently; often"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0040",
+    "simplified": "唱",
+    "pinyin": "chàng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to sing",
+      "to call loudly",
+      "to chant"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0041",
+    "simplified": "唱歌",
+    "pinyin": "chàng gē",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to sing a song"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0042",
+    "simplified": "车",
+    "traditional": "車",
+    "pinyin": "chē",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "car",
+      "vehicle",
+      "CL:輛/辆",
+      "machine",
+      "to shape with a lathe",
+      "Kangxi radical 159"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0043",
+    "simplified": "车票",
+    "traditional": "車票",
+    "pinyin": "chē piào",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "ticket (for a bus or train)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0044",
+    "simplified": "车上",
+    "traditional": "車上",
+    "pinyin": "chē shang",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [],
+    "needsEnglish": true
+  },
+  {
+    "id": "L1-0045",
+    "simplified": "车站",
+    "traditional": "車站",
+    "pinyin": "chē zhàn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "rail station",
+      "bus stop",
+      "CL:處/处,個/个"
+    ],
+    "needsEnglish": false
+  }
+]

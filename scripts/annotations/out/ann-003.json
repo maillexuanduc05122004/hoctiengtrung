@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L1-0091",
+    "vi": ["đọc sách", "học", "đi học"],
+    "viAliases": ["học hành"],
+    "en": ["to read a book", "to study", "to attend school"],
+    "enSource": "cedict",
+    "example": { "zh": "我喜欢在家读书。", "vi": "Tôi thích đọc sách ở nhà.", "en": "I like to read books at home." }
+  },
+  {
+    "id": "L1-0092",
+    "vi": ["đúng", "chính xác"],
+    "viAliases": ["phải"],
+    "en": ["right; correct"],
+    "enSource": "cedict",
+    "example": { "zh": "你说得对。", "vi": "Bạn nói đúng.", "en": "You are right." }
+  },
+  {
+    "id": "L1-0093",
+    "vi": ["xin lỗi"],
+    "viAliases": ["tôi xin lỗi", "cho tôi xin lỗi"],
+    "en": ["I'm sorry; excuse me; I beg your pardon"],
+    "enSource": "cedict",
+    "example": { "zh": "对不起，我来晚了。", "vi": "Xin lỗi, tôi đến muộn rồi.", "en": "Sorry, I am late." }
+  },
+  {
+    "id": "L1-0094",
+    "vi": ["nhiều", "bao nhiêu"],
+    "viAliases": ["lắm"],
+    "en": ["many; much; more; a lot of", "how (to what extent)"],
+    "enSource": "cedict",
+    "example": { "zh": "今天人很多。", "vi": "Hôm nay rất đông người.", "en": "There are a lot of people today." }
+  },
+  {
+    "id": "L1-0095",
+    "vi": ["bao nhiêu", "mấy"],
+    "viAliases": ["bấy nhiêu"],
+    "en": ["how much?; how many?"],
+    "enSource": "cedict",
+    "example": { "zh": "这本书多少钱？", "vi": "Quyển sách này bao nhiêu tiền?", "en": "How much is this book?" }
+  },
+  {
+    "id": "L1-0096",
+    "vi": ["đói", "bỏ đói"],
+    "viAliases": ["đói bụng"],
+    "en": ["hungry", "to starve (sb)"],
+    "enSource": "cedict",
+    "example": { "zh": "我现在很饿。", "vi": "Bây giờ tôi rất đói.", "en": "I am very hungry now." }
+  },
+  {
+    "id": "L1-0097",
+    "vi": ["con trai"],
+    "viAliases": ["cậu con trai"],
+    "en": ["son"],
+    "enSource": "cedict",
+    "example": { "zh": "他的儿子今年八岁。", "vi": "Con trai anh ấy năm nay tám tuổi.", "en": "His son is eight years old this year." }
+  },
+  {
+    "id": "L1-0098",
+    "vi": ["hai", "số hai"],
+    "viAliases": ["2"],
+    "en": ["two", "2"],
+    "enSource": "cedict",
+    "example": { "zh": "我住在二楼。", "vi": "Tôi sống ở tầng hai.", "en": "I live on the second floor." }
+  },
+  {
+    "id": "L1-0099",
+    "vi": ["cơm", "bữa cơm"],
+    "viAliases": ["bữa ăn"],
+    "en": ["cooked rice", "meal"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈在做饭。", "vi": "Mẹ đang nấu cơm.", "en": "Mom is cooking a meal." }
+  },
+  {
+    "id": "L1-0100",
+    "vi": ["nhà hàng", "khách sạn"],
+    "viAliases": ["quán ăn", "tiệm ăn"],
+    "en": ["restaurant", "hotel"],
+    "enSource": "cedict",
+    "example": { "zh": "我们去饭店吃饭吧。", "vi": "Chúng ta đi nhà hàng ăn cơm nhé.", "en": "Let us go to the restaurant to eat." }
+  },
+  {
+    "id": "L1-0101",
+    "vi": ["phòng", "căn phòng"],
+    "viAliases": ["buồng"],
+    "en": ["room"],
+    "enSource": "cedict",
+    "example": { "zh": "这个房间不太大。", "vi": "Căn phòng này không lớn lắm.", "en": "This room is not very big." }
+  },
+  {
+    "id": "L1-0102",
+    "vi": ["nhà", "ngôi nhà"],
+    "viAliases": ["căn nhà", "căn hộ"],
+    "en": ["house", "building", "apartment"],
+    "enSource": "cedict",
+    "example": { "zh": "我们的房子很大。", "vi": "Ngôi nhà của chúng tôi rất rộng.", "en": "Our house is very big." }
+  },
+  {
+    "id": "L1-0103",
+    "vi": ["đặt", "để", "thả"],
+    "viAliases": ["bỏ vào", "buông"],
+    "en": ["to put", "to place", "to release", "to let go"],
+    "enSource": "cedict",
+    "example": { "zh": "请把书放在桌子上。", "vi": "Xin hãy để sách lên bàn.", "en": "Please put the book on the table." }
+  },
+  {
+    "id": "L1-0104",
+    "vi": ["nghỉ lễ", "được nghỉ"],
+    "viAliases": ["nghỉ phép", "nghỉ hè"],
+    "en": ["to have a holiday or vacation"],
+    "enSource": "cedict",
+    "example": { "zh": "明天我们放假。", "vi": "Ngày mai chúng tôi được nghỉ.", "en": "We have a holiday tomorrow." }
+  },
+  {
+    "id": "L1-0105",
+    "vi": ["tan học", "tan trường"],
+    "viAliases": ["được về sau giờ học"],
+    "en": ["to dismiss students at the end of the school day"],
+    "enSource": "cedict",
+    "example": { "zh": "我们下午五点放学。", "vi": "Chúng tôi tan học lúc năm giờ chiều.", "en": "We finish school at five in the afternoon." }
+  },
+  {
+    "id": "L1-0106",
+    "vi": ["bay"],
+    "viAliases": ["bay lượn"],
+    "en": ["to fly"],
+    "enSource": "cedict",
+    "example": { "zh": "鸟在天上飞。", "vi": "Chim bay trên trời.", "en": "Birds fly in the sky." }
+  },
+  {
+    "id": "L1-0107",
+    "vi": ["máy bay"],
+    "viAliases": ["phi cơ", "tàu bay"],
+    "en": ["airplane"],
+    "enSource": "cedict",
+    "example": { "zh": "我坐飞机去北京。", "vi": "Tôi đi máy bay đến Bắc Kinh.", "en": "I go to Beijing by plane." }
+  },
+  {
+    "id": "L1-0108",
+    "vi": ["rất", "vô cùng", "cực kỳ"],
+    "viAliases": ["hết sức", "phi thường"],
+    "en": ["very; really", "unusual; extraordinary"],
+    "enSource": "cedict",
+    "example": { "zh": "这里的菜非常好吃。", "vi": "Món ăn ở đây rất ngon.", "en": "The food here is very delicious." }
+  },
+  {
+    "id": "L1-0109",
+    "vi": ["phút", "điểm", "xu"],
+    "viAliases": ["phân"],
+    "en": ["minute (unit of time)", "a point (in sports or games)", "0.01 yuan (unit of money)"],
+    "enSource": "cedict",
+    "example": { "zh": "现在是八点十分。", "vi": "Bây giờ là tám giờ mười phút.", "en": "It is ten past eight now." }
+  },
+  {
+    "id": "L1-0110",
+    "vi": ["gió"],
+    "viAliases": ["ngọn gió"],
+    "en": ["wind"],
+    "enSource": "cedict",
+    "example": { "zh": "今天的风很大。", "vi": "Hôm nay gió rất to.", "en": "The wind is very strong today." }
+  },
+  {
+    "id": "L1-0111",
+    "vi": ["khô", "cạn"],
+    "viAliases": ["ráo", "khô ráo"],
+    "en": ["dry", "empty; hollow"],
+    "enSource": "cedict",
+    "example": { "zh": "我的衣服干了。", "vi": "Quần áo của tôi khô rồi.", "en": "My clothes are dry." }
+  },
+  {
+    "id": "L1-0112",
+    "vi": ["sạch", "sạch sẽ"],
+    "viAliases": ["gọn gàng", "tinh tươm"],
+    "en": ["clean", "neat"],
+    "enSource": "cedict",
+    "example": { "zh": "他把房间打扫得很干净。", "vi": "Anh ấy dọn căn phòng rất sạch sẽ.", "en": "He cleaned the room very neatly." }
+  },
+  {
+    "id": "L1-0113",
+    "vi": ["làm"],
+    "viAliases": ["làm việc", "thực hiện"],
+    "en": ["to do", "to work", "to manage"],
+    "enSource": "cedict",
+    "example": { "zh": "你想干这个工作吗？", "vi": "Bạn muốn làm công việc này không?", "en": "Do you want to do this job?" }
+  },
+  {
+    "id": "L1-0114",
+    "vi": ["làm gì"],
+    "viAliases": ["đang làm gì"],
+    "en": ["what are you doing?"],
+    "enSource": "cedict",
+    "example": { "zh": "你现在干什么呢？", "vi": "Bây giờ bạn đang làm gì vậy?", "en": "What are you doing now?" }
+  },
+  {
+    "id": "L1-0115",
+    "vi": ["cao", "to"],
+    "viAliases": ["lớn tiếng"],
+    "en": ["high", "tall", "loud"],
+    "enSource": "cedict",
+    "example": { "zh": "他比我高一点。", "vi": "Anh ấy cao hơn tôi một chút.", "en": "He is a little taller than me." }
+  },
+  {
+    "id": "L1-0116",
+    "vi": ["vui", "vui mừng", "vui vẻ"],
+    "viAliases": ["mừng", "phấn khởi"],
+    "en": ["happy", "glad", "in a cheerful mood"],
+    "enSource": "cedict",
+    "example": { "zh": "认识你我很高兴。", "vi": "Rất vui được quen biết bạn.", "en": "I am very happy to meet you." }
+  },
+  {
+    "id": "L1-0117",
+    "vi": ["nói cho biết", "bảo", "kể"],
+    "viAliases": ["cho biết", "báo cho biết"],
+    "en": ["to tell; to inform; to let know"],
+    "enSource": "cedict",
+    "example": { "zh": "请告诉我你的名字。", "vi": "Xin cho tôi biết tên của bạn.", "en": "Please tell me your name." }
+  },
+  {
+    "id": "L1-0118",
+    "vi": ["anh trai"],
+    "viAliases": ["anh", "anh ruột"],
+    "en": ["older brother", "elder brother"],
+    "enSource": "cedict",
+    "example": { "zh": "我哥哥在北京工作。", "vi": "Anh trai tôi làm việc ở Bắc Kinh.", "en": "My older brother works in Beijing." }
+  },
+  {
+    "id": "L1-0119",
+    "vi": ["bài hát"],
+    "viAliases": ["ca khúc", "bài ca"],
+    "en": ["song"],
+    "enSource": "cedict",
+    "example": { "zh": "她唱的歌很好听。", "vi": "Bài hát cô ấy hát rất hay.", "en": "The song she sings is very nice." }
+  },
+  {
+    "id": "L1-0120",
+    "vi": ["cái", "chiếc"],
+    "viAliases": ["lượng từ chung"],
+    "en": ["(classifier used before a noun that has no specific classifier)"],
+    "enSource": "cedict",
+    "example": { "zh": "我有三个苹果。", "vi": "Tôi có ba quả táo.", "en": "I have three apples." }
+  },
+  {
+    "id": "L1-0121",
+    "vi": ["cho", "đưa cho", "tặng"],
+    "viAliases": ["đưa", "trao"],
+    "en": ["to give", "for", "to"],
+    "enSource": "cedict",
+    "example": { "zh": "他给我一本书。", "vi": "Anh ấy đưa cho tôi một quyển sách.", "en": "He gave me a book." }
+  },
+  {
+    "id": "L1-0122",
+    "vi": ["với", "cùng", "đi theo"],
+    "viAliases": ["và", "theo"],
+    "en": ["with", "and (joining two nouns)", "to follow closely"],
+    "enSource": "cedict",
+    "example": { "zh": "我跟朋友一起看电影。", "vi": "Tôi cùng bạn đi xem phim.", "en": "I watch a movie with my friend." }
+  },
+  {
+    "id": "L1-0123",
+    "vi": ["công nhân"],
+    "viAliases": ["thợ", "người lao động"],
+    "en": ["worker"],
+    "enSource": "cedict",
+    "example": { "zh": "他是一名工人。", "vi": "Anh ấy là một công nhân.", "en": "He is a worker." }
+  },
+  {
+    "id": "L1-0124",
+    "vi": ["làm việc", "công việc"],
+    "viAliases": ["việc làm", "công tác"],
+    "en": ["to work", "job", "work"],
+    "enSource": "cedict",
+    "example": { "zh": "我爸爸的工作很忙。", "vi": "Công việc của bố tôi rất bận.", "en": "My father's job is very busy." }
+  },
+  {
+    "id": "L1-0125",
+    "vi": ["đóng", "tắt", "nhốt"],
+    "viAliases": ["khép", "giam"],
+    "en": ["to close; to shut; to turn off", "to confine; to lock (sb) up"],
+    "enSource": "cedict",
+    "example": { "zh": "出去的时候请关灯。", "vi": "Khi ra ngoài xin hãy tắt đèn.", "en": "Please turn off the light when you go out." }
+  },
+  {
+    "id": "L1-0126",
+    "vi": ["đóng lại", "tắt đi"],
+    "viAliases": ["khép lại"],
+    "en": ["to close (a door)", "to turn off"],
+    "enSource": "cedict",
+    "example": { "zh": "他把窗户关上了。", "vi": "Anh ấy đã đóng cửa sổ lại.", "en": "He closed the window." }
+  },
+  {
+    "id": "L1-0127",
+    "vi": ["đắt", "mắc"],
+    "viAliases": ["đắt đỏ", "đắt tiền"],
+    "en": ["expensive"],
+    "enSource": "cedict",
+    "example": { "zh": "这件衣服太贵了。", "vi": "Bộ quần áo này đắt quá.", "en": "These clothes are too expensive." }
+  },
+  {
+    "id": "L1-0128",
+    "vi": ["nước", "quốc gia"],
+    "viAliases": ["đất nước", "nhà nước"],
+    "en": ["country; nation; state"],
+    "enSource": "cedict",
+    "example": { "zh": "中国是一个大国。", "vi": "Trung Quốc là một nước lớn.", "en": "China is a big country." }
+  },
+  {
+    "id": "L1-0129",
+    "vi": ["quốc gia", "đất nước", "nhà nước"],
+    "viAliases": ["nước"],
+    "en": ["country; nation; state"],
+    "enSource": "cedict",
+    "example": { "zh": "你去过几个国家？", "vi": "Bạn đã đến mấy quốc gia rồi?", "en": "How many countries have you been to?" }
+  },
+  {
+    "id": "L1-0130",
+    "vi": ["nước ngoài", "ở nước ngoài"],
+    "viAliases": ["ngoại quốc", "hải ngoại"],
+    "en": ["abroad", "overseas", "foreign"],
+    "enSource": "cedict",
+    "example": { "zh": "我姐姐在国外学习。", "vi": "Chị tôi học ở nước ngoài.", "en": "My older sister studies abroad." }
+  },
+  {
+    "id": "L1-0131",
+    "vi": ["đi qua", "trải qua", "sống"],
+    "viAliases": ["băng qua", "vượt qua"],
+    "en": ["to cross", "to go over", "to pass (time)", "to celebrate (a holiday)"],
+    "enSource": "cedict",
+    "example": { "zh": "我们过马路吧。", "vi": "Chúng ta qua đường thôi.", "en": "Let us cross the road." }
+  },
+  {
+    "id": "L1-0132",
+    "vi": ["vẫn", "còn", "hơn nữa"],
+    "viAliases": ["vẫn còn", "cũng"],
+    "en": ["still", "yet", "in addition", "also"],
+    "enSource": "cedict",
+    "example": { "zh": "他还在教室里。", "vi": "Anh ấy vẫn còn trong phòng học.", "en": "He is still in the classroom." }
+  },
+  {
+    "id": "L1-0133",
+    "vi": ["hay là", "vẫn", "tốt hơn là"],
+    "viAliases": ["hay", "hoặc là"],
+    "en": ["or", "still (as before)", "had better"],
+    "enSource": "cedict",
+    "example": { "zh": "你喝茶还是喝咖啡？", "vi": "Bạn uống trà hay uống cà phê?", "en": "Do you drink tea or coffee?" }
+  },
+  {
+    "id": "L1-0134",
+    "vi": ["còn có", "ngoài ra"],
+    "viAliases": ["vẫn còn", "hơn nữa"],
+    "en": ["there is (or are) still", "in addition"],
+    "enSource": "cedict",
+    "example": { "zh": "桌子上还有一个苹果。", "vi": "Trên bàn vẫn còn một quả táo.", "en": "There is still an apple on the table." }
+  },
+  {
+    "id": "L1-0135",
+    "vi": ["đứa trẻ", "trẻ con", "con"],
+    "viAliases": ["trẻ em", "con cái"],
+    "en": ["child"],
+    "enSource": "cedict",
+    "example": { "zh": "这个孩子很可爱。", "vi": "Đứa trẻ này rất đáng yêu.", "en": "This child is very cute." }
+  }
+]

@@ -1,0 +1,746 @@
+[
+  {
+    "id": "L3-0259",
+    "simplified": "挂",
+    "traditional": "掛",
+    "pinyin": "guà",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to hang; to suspend (from a hook etc)",
+      "to hang up (the phone)",
+      "(of a line) to be dead",
+      "to be worried; to be concerned",
+      "(dialect) to make a phone call",
+      "to register (at a hospital); to make an appointment (with a doctor)",
+      "(slang) to kill; to die; to be finished; to fail (an exam)",
+      "classifier for sets or clusters of objects"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0260",
+    "simplified": "关系",
+    "traditional": "關係",
+    "pinyin": "guān xi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "relation",
+      "relationship",
+      "to concern",
+      "to affect",
+      "to have to do with",
+      "guanxi",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0261",
+    "simplified": "关注",
+    "traditional": "關注",
+    "pinyin": "guān zhù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to pay attention to; to follow sth closely; to follow (on social media)",
+      "concern; interest; attention"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0262",
+    "simplified": "观察",
+    "traditional": "觀察",
+    "pinyin": "guān chá",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to observe; to watch; to survey"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0263",
+    "simplified": "观看",
+    "traditional": "觀看",
+    "pinyin": "guān kàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to watch; to view"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0264",
+    "simplified": "观念",
+    "traditional": "觀念",
+    "pinyin": "guān niàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "notion",
+      "thought",
+      "concept",
+      "sense",
+      "views",
+      "ideology",
+      "general impressions"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0265",
+    "simplified": "观众",
+    "traditional": "觀眾",
+    "pinyin": "guān zhòng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "spectators; audience; visitors (to an exhibition etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0266",
+    "simplified": "管",
+    "pinyin": "guǎn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to take care (of)",
+      "to control",
+      "to manage",
+      "to be in charge of",
+      "to look after",
+      "to run",
+      "to care about",
+      "tube",
+      "pipe",
+      "woodwind",
+      "classifier for tube-shaped objects",
+      "particle similar to 把 in 管...叫 constructions",
+      "writing brush",
+      "(coll.) to",
+      "towards"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0267",
+    "simplified": "管理",
+    "pinyin": "guǎn lǐ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to supervise",
+      "to manage",
+      "to administer",
+      "management",
+      "administration",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0268",
+    "simplified": "光",
+    "pinyin": "guāng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv",
+      "N",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "light; ray (CL:道)",
+      "bright; shiny",
+      "only; merely",
+      "used up; finished",
+      "to leave (a part of the body) uncovered"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0269",
+    "simplified": "光明",
+    "pinyin": "guāng míng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "light",
+      "radiance",
+      "(fig.) bright (prospects etc)",
+      "openhearted"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0270",
+    "simplified": "广播",
+    "traditional": "廣播",
+    "pinyin": "guǎng bō",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "broadcast",
+      "CL:個/个",
+      "broadcasting",
+      "to broadcast",
+      "(formal) to propagate",
+      "to publicize"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0271",
+    "simplified": "广大",
+    "traditional": "廣大",
+    "pinyin": "guǎng dà",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "(of an area) vast or extensive",
+      "large-scale",
+      "widespread",
+      "(of people) numerous"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0272",
+    "simplified": "规定",
+    "traditional": "規定",
+    "pinyin": "guī dìng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to stipulate; to specify; to prescribe; to fix (a price); to set (a quota)",
+      "regulations; rules; provisions; stipulations"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0273",
+    "simplified": "规范",
+    "traditional": "規範",
+    "pinyin": "guī fàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "N",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "norm",
+      "standard",
+      "specification",
+      "regulation",
+      "rule",
+      "within the rules",
+      "to fix rules",
+      "to regulate",
+      "to specify"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0274",
+    "simplified": "国内",
+    "traditional": "國內",
+    "pinyin": "guó nèi",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "domestic",
+      "internal (to a country)",
+      "civil"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0275",
+    "simplified": "国庆",
+    "traditional": "國慶",
+    "pinyin": "guó qìng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "National Day"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0276",
+    "simplified": "果然",
+    "pinyin": "guǒ rán",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "really",
+      "sure enough",
+      "as expected",
+      "if indeed"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0277",
+    "simplified": "果汁",
+    "pinyin": "guǒ zhī",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "fruit juice"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0278",
+    "simplified": "过程",
+    "traditional": "過程",
+    "pinyin": "guò chéng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "course of events; process"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0279",
+    "simplified": "过去",
+    "traditional": "過去",
+    "pinyin": "guò qù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(in the) past; former; previous",
+      "to go over; to pass by"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0209",
+        "pinyin": "guò qù",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0280",
+    "simplified": "哈哈",
+    "pinyin": "hā hā",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Phonetic"
+    ],
+    "cedictDefinitions": [
+      "(onom.) laughing out loud"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0281",
+    "simplified": "海关",
+    "traditional": "海關",
+    "pinyin": "hǎi guān",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "customs (i.e. border crossing inspection)",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0282",
+    "simplified": "害怕",
+    "pinyin": "hài pà",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to be afraid; to be scared"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0283",
+    "simplified": "行",
+    "pinyin": "háng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "(bound form) row; line",
+      "(bound form) line of business; trade; profession",
+      "(bound form) commercial firm",
+      "(bound form) to rank (first, second etc) among one's siblings (by age)",
+      "(in data tables) row; (Tw) column",
+      "classifier for rows or lines"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0416",
+        "pinyin": "xíng",
+        "partOfSpeech": [
+          "V",
+          "Adj"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0284",
+    "simplified": "好好",
+    "pinyin": "hǎo hǎo",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "in perfectly good condition; perfectly all right",
+      "well; thoroughly; carefully; properly"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0285",
+    "simplified": "好奇",
+    "pinyin": "hào qí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "inquisitive",
+      "curious",
+      "inquisitiveness",
+      "curiosity"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0286",
+    "simplified": "合",
+    "pinyin": "hé",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to close",
+      "to join",
+      "to fit",
+      "to be equal to",
+      "whole",
+      "together",
+      "round (in battle)",
+      "conjunction (astronomy)",
+      "1st note of pentatonic scale",
+      "old variant of 盒"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0287",
+    "simplified": "合法",
+    "pinyin": "hé fǎ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "lawful",
+      "legitimate",
+      "legal"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0288",
+    "simplified": "合格",
+    "pinyin": "hé gé",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "to meet the standard required",
+      "qualified",
+      "eligible (voter etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0289",
+    "simplified": "合理",
+    "pinyin": "hé lǐ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "rational; reasonable; sensible; fair"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0290",
+    "simplified": "合作",
+    "pinyin": "hé zuò",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to cooperate; to collaborate; to work together"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0291",
+    "simplified": "和平",
+    "pinyin": "hé píng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "peace",
+      "peaceful"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0292",
+    "simplified": "红茶",
+    "traditional": "紅茶",
+    "pinyin": "hóng chá",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "black tea",
+      "CL:杯,壺/壶"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0293",
+    "simplified": "红酒",
+    "traditional": "紅酒",
+    "pinyin": "hóng jiǔ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "red wine"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0294",
+    "simplified": "后果",
+    "traditional": "後果",
+    "pinyin": "hòu guǒ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "consequences; aftermath"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0295",
+    "simplified": "后面",
+    "traditional": "後面",
+    "pinyin": "hòu mian",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the back; the rear; the last bit",
+      "behind; near the end; at the back",
+      "later; afterwards"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0296",
+    "simplified": "后年",
+    "traditional": "後年",
+    "pinyin": "hòu nián",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the year after next"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0297",
+    "simplified": "互联网",
+    "traditional": "互聯網",
+    "pinyin": "hù lián wǎng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "Internet"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0298",
+    "simplified": "互相",
+    "pinyin": "hù xiāng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "each other",
+      "mutually",
+      "mutual"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0299",
+    "simplified": "划船",
+    "pinyin": "huá chuán",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to row a boat",
+      "rowing; boating",
+      "small boat"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0300",
+    "simplified": "华人",
+    "traditional": "華人",
+    "pinyin": "huá rén",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "ethnic Chinese person or people"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0301",
+    "simplified": "化",
+    "pinyin": "huà",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Suffix"
+    ],
+    "cedictDefinitions": [
+      "to make into",
+      "to change into",
+      "-ization",
+      "to ... -ize",
+      "to transform",
+      "abbr. for 化學/化学",
+      "modernization",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0302",
+    "simplified": "话剧",
+    "traditional": "話劇",
+    "pinyin": "huà jù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "stage play",
+      "modern drama",
+      "CL:臺/台,部"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0303",
+    "simplified": "话题",
+    "traditional": "話題",
+    "pinyin": "huà tí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "subject (of a talk or conversation)",
+      "topic"
+    ],
+    "needsEnglish": false
+  }
+]

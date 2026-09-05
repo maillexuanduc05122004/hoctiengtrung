@@ -1,0 +1,745 @@
+[
+  {
+    "id": "L2-0356",
+    "simplified": "两",
+    "traditional": "兩",
+    "pinyin": "liǎng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "two",
+      "both",
+      "some",
+      "a few",
+      "tael, unit of weight equal to 50 grams (modern) or 1⁄16 of a catty 斤 (old)"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0215",
+        "pinyin": "liǎng",
+        "partOfSpeech": [
+          "Num"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0357",
+    "simplified": "亮",
+    "pinyin": "liàng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "bright; light",
+      "to shine; to flash",
+      "loud and clear",
+      "to show (one's passport etc); to make public (one's views etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0358",
+    "simplified": "辆",
+    "traditional": "輛",
+    "pinyin": "liàng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "classifier for vehicles"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0359",
+    "simplified": "零下",
+    "pinyin": "líng xià",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "below zero (esp. temperature)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0360",
+    "simplified": "留",
+    "pinyin": "liú",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to leave (a message etc)",
+      "to retain",
+      "to stay",
+      "to remain",
+      "to keep",
+      "to preserve"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0361",
+    "simplified": "留下",
+    "pinyin": "liú xià",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to leave behind",
+      "to stay behind",
+      "to remain",
+      "to keep",
+      "not to let (sb) go"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0362",
+    "simplified": "留学生",
+    "traditional": "留學生",
+    "pinyin": "liú xué shēng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "student studying abroad; returned student; foreign student; international student"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0363",
+    "simplified": "流",
+    "pinyin": "liú",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to flow",
+      "to disseminate",
+      "to circulate or spread",
+      "to move or drift",
+      "to degenerate",
+      "to banish or send into exile",
+      "stream of water or sth resembling one",
+      "class, rate or grade"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0364",
+    "simplified": "流利",
+    "pinyin": "liú lì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "fluent"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0365",
+    "simplified": "流行",
+    "pinyin": "liú xíng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "(of a contagious disease etc) to spread; to propagate",
+      "(of a style of clothing, song etc) popular; fashionable"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0366",
+    "simplified": "路边",
+    "traditional": "路邊",
+    "pinyin": "lù biān",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "curb; roadside; wayside"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0367",
+    "simplified": "旅客",
+    "pinyin": "lǚ kè",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "traveler; tourist"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0368",
+    "simplified": "旅行",
+    "pinyin": "lǚ xíng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to travel",
+      "journey; trip",
+      "CL:趟,次"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0369",
+    "simplified": "旅游",
+    "traditional": "旅遊",
+    "pinyin": "lǚ yóu",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "trip",
+      "journey",
+      "tourism",
+      "travel",
+      "tour",
+      "to travel"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0370",
+    "simplified": "绿",
+    "traditional": "綠",
+    "pinyin": "lǜ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "green",
+      "(slang) (derived from 綠帽子/绿帽子) to cheat on (one's spouse or boyfriend or girlfriend)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0371",
+    "simplified": "绿色",
+    "traditional": "綠色",
+    "pinyin": "lǜ sè",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "green"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0372",
+    "simplified": "卖",
+    "traditional": "賣",
+    "pinyin": "mài",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to sell",
+      "to betray",
+      "to spare no effort",
+      "to show off or flaunt"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0373",
+    "simplified": "满",
+    "traditional": "滿",
+    "pinyin": "mǎn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "to fill",
+      "full",
+      "filled",
+      "packed",
+      "fully",
+      "completely",
+      "quite",
+      "to reach the limit",
+      "to satisfy",
+      "satisfied",
+      "contented"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0374",
+    "simplified": "满意",
+    "traditional": "滿意",
+    "pinyin": "mǎn yì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "satisfied",
+      "pleased",
+      "to one's satisfaction"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0375",
+    "simplified": "猫",
+    "traditional": "貓",
+    "pinyin": "māo",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "cat (CL:隻/只)",
+      "(dialect) to hide oneself",
+      "(loanword) (coll.) modem"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0376",
+    "simplified": "米",
+    "pinyin": "mǐ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "uncooked rice",
+      "meter (unit of length)",
+      "(slang) Chinese yuan"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0487",
+        "pinyin": "mǐ",
+        "partOfSpeech": [
+          "N"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0377",
+    "simplified": "面",
+    "pinyin": "miàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "face",
+      "side",
+      "surface",
+      "aspect",
+      "top",
+      "classifier for objects with flat surfaces such as drums, mirrors, flags etc"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0378",
+        "pinyin": "miàn",
+        "partOfSpeech": [
+          "N"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0378",
+    "simplified": "面",
+    "traditional": "麵",
+    "pinyin": "miàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "flour",
+      "noodles",
+      "(of food) soft (not crunchy)",
+      "(slang) (of a person) ineffectual",
+      "spineless"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0377",
+        "pinyin": "miàn",
+        "partOfSpeech": [
+          "N",
+          "M"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0379",
+    "simplified": "面前",
+    "pinyin": "miàn qián",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "in front of",
+      "facing",
+      "(in the) presence (of)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0380",
+    "simplified": "名",
+    "pinyin": "míng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "name",
+      "noun (part of speech)",
+      "place (e.g. among winners)",
+      "famous",
+      "classifier for people"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0381",
+    "simplified": "名称",
+    "traditional": "名稱",
+    "pinyin": "míng chēng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "name (of a thing)",
+      "name (of an organization)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0382",
+    "simplified": "名单",
+    "traditional": "名單",
+    "pinyin": "míng dān",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "list of names"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0383",
+    "simplified": "明星",
+    "pinyin": "míng xīng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "star; celebrity"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0384",
+    "simplified": "目的",
+    "pinyin": "mù dì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "purpose; aim; goal; target; objective"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0385",
+    "simplified": "拿出",
+    "pinyin": "ná chū",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to take out",
+      "to put out",
+      "to provide",
+      "to put forward (a proposal)",
+      "to come up with (evidence)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0386",
+    "simplified": "拿到",
+    "pinyin": "ná dào",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to get",
+      "to obtain"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0387",
+    "simplified": "那",
+    "pinyin": "nà",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "(specifier) that; the; those (colloquial pr. )",
+      "(pronoun) that (referring to persons, things or situations)",
+      "then (in that case)"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0254",
+        "pinyin": "nà",
+        "partOfSpeech": [
+          "Pron"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0388",
+    "simplified": "那会儿",
+    "traditional": "那會兒",
+    "pinyin": "nà huìr",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "at that time (in the past or the future)",
+      "also pr."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0389",
+    "simplified": "那么",
+    "traditional": "那麼",
+    "pinyin": "nà me",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "like that; in that way; to that extent",
+      "(before a number) ... or so; about ...",
+      "then; in that case"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0390",
+    "simplified": "那时候",
+    "traditional": "那時候",
+    "pinyin": "nà shí hou",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "at that time",
+      "then",
+      "in those days"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0391",
+    "simplified": "那样",
+    "traditional": "那樣",
+    "pinyin": "nà yàng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "that kind",
+      "that sort"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0392",
+    "simplified": "南方",
+    "pinyin": "nán fāng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "south; southern direction",
+      "(in China) southern regions, often referring to areas south of the Yangtze River"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0393",
+    "simplified": "难过",
+    "traditional": "難過",
+    "pinyin": "nán guò",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "to feel sad",
+      "to feel unwell",
+      "(of life) to be difficult"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0394",
+    "simplified": "难看",
+    "traditional": "難看",
+    "pinyin": "nán kàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "ugly",
+      "unsightly"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0395",
+    "simplified": "难受",
+    "traditional": "難受",
+    "pinyin": "nán shòu",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "to feel unwell",
+      "to suffer pain",
+      "to be difficult to bear"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0396",
+    "simplified": "难题",
+    "traditional": "難題",
+    "pinyin": "nán tí",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "difficult problem"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0397",
+    "simplified": "难听",
+    "traditional": "難聽",
+    "pinyin": "nán tīng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "unpleasant to hear",
+      "coarse",
+      "vulgar",
+      "offensive",
+      "shameful"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0398",
+    "simplified": "能够",
+    "traditional": "能夠",
+    "pinyin": "néng gòu",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to be capable of",
+      "to be able to",
+      "can"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0399",
+    "simplified": "年级",
+    "traditional": "年級",
+    "pinyin": "nián jí",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "grade",
+      "year (in school, college etc)",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0400",
+    "simplified": "年轻",
+    "traditional": "年輕",
+    "pinyin": "nián qīng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "young"
+    ],
+    "needsEnglish": false
+  }
+]

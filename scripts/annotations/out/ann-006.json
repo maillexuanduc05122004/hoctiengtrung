@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L1-0226",
+    "vi": ["ngay lập tức", "lập tức"],
+    "viAliases": ["ngay", "liền", "tức thì"],
+    "en": ["at once", "right away", "immediately"],
+    "enSource": "cedict",
+    "example": { "zh": "我马上就来。", "vi": "Tôi đến ngay đây.", "en": "I will come right away." }
+  },
+  {
+    "id": "L1-0227",
+    "vi": ["trợ từ nghi vấn đặt cuối câu hỏi có hoặc không"],
+    "viAliases": [],
+    "en": ["(question particle for yes-no questions)"],
+    "enSource": "cedict",
+    "example": { "zh": "你是学生吗？", "vi": "Bạn là học sinh phải không?", "en": "Are you a student?" }
+  },
+  {
+    "id": "L1-0228",
+    "vi": ["mua"],
+    "viAliases": ["sắm", "mua sắm"],
+    "en": ["to buy", "to purchase"],
+    "enSource": "cedict",
+    "example": { "zh": "我想买一本书。", "vi": "Tôi muốn mua một quyển sách.", "en": "I want to buy a book." }
+  },
+  {
+    "id": "L1-0229",
+    "vi": ["chậm"],
+    "viAliases": ["chậm chạp", "chậm rãi", "từ từ"],
+    "en": ["slow"],
+    "enSource": "cedict",
+    "example": { "zh": "他走得很慢。", "vi": "Anh ấy đi rất chậm.", "en": "He walks very slowly." }
+  },
+  {
+    "id": "L1-0230",
+    "vi": ["bận", "bận rộn"],
+    "viAliases": ["bận bịu"],
+    "en": ["busy"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈今天很忙。", "vi": "Hôm nay mẹ rất bận.", "en": "Mom is very busy today." }
+  },
+  {
+    "id": "L1-0231",
+    "vi": ["hào", "đơn vị tiền bằng một phần mười tệ"],
+    "viAliases": ["giác", "mao"],
+    "en": ["classifier for Chinese fractional monetary unit, one-tenth of a yuan or 10 fen"],
+    "enSource": "cedict",
+    "example": { "zh": "这本书五毛钱。", "vi": "Quyển sách này năm hào.", "en": "This book costs five mao." }
+  },
+  {
+    "id": "L1-0232",
+    "vi": ["không", "chưa"],
+    "viAliases": ["chẳng", "chưa từng"],
+    "en": ["(negative prefix for verbs) have not; not"],
+    "enSource": "cedict",
+    "example": { "zh": "我今天没吃早饭。", "vi": "Hôm nay tôi chưa ăn sáng.", "en": "I did not eat breakfast today." }
+  },
+  {
+    "id": "L1-0233",
+    "vi": ["không sao", "không có gì"],
+    "viAliases": ["chẳng sao", "không sao đâu", "không hề gì"],
+    "en": ["it doesn't matter"],
+    "enSource": "cedict",
+    "example": { "zh": "没关系，我不生气。", "vi": "Không sao đâu, tôi không giận.", "en": "It doesn't matter, I am not angry." }
+  },
+  {
+    "id": "L1-0234",
+    "vi": ["không có gì", "chẳng có gì"],
+    "viAliases": ["không sao", "có gì đâu", "không có chi"],
+    "en": ["it doesn't matter; it's nothing; never mind"],
+    "enSource": "cedict",
+    "example": { "zh": "这没什么，你别担心。", "vi": "Chuyện này không có gì đâu, bạn đừng lo.", "en": "It is nothing, do not worry." }
+  },
+  {
+    "id": "L1-0235",
+    "vi": ["không sao", "không có việc gì"],
+    "viAliases": ["chẳng sao", "không sao đâu"],
+    "en": ["it's not important", "it's nothing", "never mind"],
+    "enSource": "cedict",
+    "example": { "zh": "没事儿，我可以帮你。", "vi": "Không sao đâu, tôi có thể giúp bạn.", "en": "Never mind, I can help you." }
+  },
+  {
+    "id": "L1-0236",
+    "vi": ["không có", "chưa"],
+    "viAliases": ["chẳng có", "chưa có"],
+    "en": ["to not have", "haven't", "doesn't exist"],
+    "enSource": "cedict",
+    "example": { "zh": "我没有弟弟。", "vi": "Tôi không có em trai.", "en": "I do not have a younger brother." }
+  },
+  {
+    "id": "L1-0237",
+    "vi": ["em gái"],
+    "viAliases": ["em gái ruột"],
+    "en": ["younger sister"],
+    "enSource": "cedict",
+    "example": { "zh": "我妹妹今年八岁。", "vi": "Em gái tôi năm nay tám tuổi.", "en": "My younger sister is eight years old this year." }
+  },
+  {
+    "id": "L1-0238",
+    "vi": ["cửa", "cổng"],
+    "viAliases": ["cánh cửa", "cửa ra vào"],
+    "en": ["gate; door; doorway; gateway", "classifier for courses, fields of study"],
+    "enSource": "cedict",
+    "example": { "zh": "请你把门关上。", "vi": "Bạn hãy đóng cửa lại nhé.", "en": "Please close the door." }
+  },
+  {
+    "id": "L1-0239",
+    "vi": ["cửa ra vào", "trước cửa"],
+    "viAliases": ["lối vào", "cổng ra vào"],
+    "en": ["doorway", "gate"],
+    "enSource": "cedict",
+    "example": { "zh": "他在门口等你。", "vi": "Anh ấy đang đợi bạn ở cửa.", "en": "He is waiting for you at the doorway." }
+  },
+  {
+    "id": "L1-0240",
+    "vi": ["vé vào cửa"],
+    "viAliases": ["vé", "vé tham quan"],
+    "en": ["ticket"],
+    "enSource": "cedict",
+    "example": { "zh": "这里的门票很便宜。", "vi": "Vé vào cửa ở đây rất rẻ.", "en": "The admission ticket here is very cheap." }
+  },
+  {
+    "id": "L1-0241",
+    "vi": ["hậu tố chỉ số nhiều cho đại từ và danh từ chỉ người"],
+    "viAliases": [],
+    "en": ["plural marker for pronouns, and nouns referring to individuals"],
+    "enSource": "cedict",
+    "example": { "zh": "朋友们都来我家了。", "vi": "Các bạn đều đến nhà tôi rồi.", "en": "My friends all came to my house." }
+  },
+  {
+    "id": "L1-0242",
+    "vi": ["cơm"],
+    "viAliases": ["cơm trắng", "cơm tẻ"],
+    "en": ["cooked rice"],
+    "enSource": "cedict",
+    "example": { "zh": "我很喜欢吃米饭。", "vi": "Tôi rất thích ăn cơm.", "en": "I really like eating rice." }
+  },
+  {
+    "id": "L1-0243",
+    "vi": ["bánh mì"],
+    "viAliases": ["bánh mỳ"],
+    "en": ["bread"],
+    "enSource": "cedict",
+    "example": { "zh": "早上我吃了面包。", "vi": "Buổi sáng tôi đã ăn bánh mì.", "en": "I ate bread in the morning." }
+  },
+  {
+    "id": "L1-0244",
+    "vi": ["mì sợi", "mì"],
+    "viAliases": ["sợi mì", "mì nước"],
+    "en": ["noodles"],
+    "enSource": "written",
+    "example": { "zh": "我们晚上吃面条儿。", "vi": "Buổi tối chúng tôi ăn mì.", "en": "We eat noodles in the evening." }
+  },
+  {
+    "id": "L1-0245",
+    "vi": ["tên"],
+    "viAliases": ["tên gọi", "họ tên"],
+    "en": ["name (of a person or thing)"],
+    "enSource": "cedict",
+    "example": { "zh": "你叫什么名字？", "vi": "Bạn tên là gì?", "en": "What is your name?" }
+  },
+  {
+    "id": "L1-0246",
+    "vi": ["hiểu", "rõ ràng"],
+    "viAliases": ["hiểu rõ", "sáng tỏ", "minh bạch"],
+    "en": ["to understand; to realize", "clear; obvious"],
+    "enSource": "cedict",
+    "example": { "zh": "老师的话我明白了。", "vi": "Lời thầy giáo nói tôi đã hiểu rồi.", "en": "I understand what the teacher said." }
+  },
+  {
+    "id": "L1-0247",
+    "vi": ["năm sau", "sang năm"],
+    "viAliases": ["năm tới"],
+    "en": ["next year"],
+    "enSource": "cedict",
+    "example": { "zh": "明年我要去中国。", "vi": "Năm sau tôi sẽ đi Trung Quốc.", "en": "Next year I am going to China." }
+  },
+  {
+    "id": "L1-0248",
+    "vi": ["ngày mai"],
+    "viAliases": ["mai", "bữa mai"],
+    "en": ["tomorrow"],
+    "enSource": "cedict",
+    "example": { "zh": "明天我们一起去玩。", "vi": "Ngày mai chúng ta cùng đi chơi.", "en": "Tomorrow we will go out together." }
+  },
+  {
+    "id": "L1-0249",
+    "vi": ["cầm", "lấy"],
+    "viAliases": ["nắm", "cầm lấy"],
+    "en": ["to hold", "to take", "to seize"],
+    "enSource": "cedict",
+    "example": { "zh": "他拿着一杯水。", "vi": "Anh ấy cầm một cốc nước.", "en": "He is holding a glass of water." }
+  },
+  {
+    "id": "L1-0250",
+    "vi": ["nào"],
+    "viAliases": ["cái nào", "gì"],
+    "en": ["which", "how"],
+    "enSource": "cedict",
+    "example": { "zh": "你是哪国人？", "vi": "Bạn là người nước nào?", "en": "Which country are you from?" }
+  },
+  {
+    "id": "L1-0251",
+    "vi": ["ở đâu", "nơi nào"],
+    "viAliases": ["đâu", "chỗ nào"],
+    "en": ["where?", "wherever"],
+    "enSource": "cedict",
+    "example": { "zh": "你住在哪里？", "vi": "Bạn sống ở đâu?", "en": "Where do you live?" }
+  },
+  {
+    "id": "L1-0252",
+    "vi": ["đâu", "chỗ nào"],
+    "viAliases": ["ở đâu", "nơi nào"],
+    "en": ["where?", "wherever; anywhere; somewhere"],
+    "enSource": "cedict",
+    "example": { "zh": "你要去哪儿？", "vi": "Bạn muốn đi đâu?", "en": "Where do you want to go?" }
+  },
+  {
+    "id": "L1-0253",
+    "vi": ["những cái nào", "những gì"],
+    "viAliases": ["cái nào", "những thứ nào", "những người nào"],
+    "en": ["which ones?", "what?"],
+    "enSource": "cedict",
+    "example": { "zh": "你买了哪些东西？", "vi": "Bạn đã mua những thứ nào?", "en": "Which things did you buy?" }
+  },
+  {
+    "id": "L1-0254",
+    "vi": ["kia", "đó"],
+    "viAliases": ["ấy", "cái đó", "cái kia"],
+    "en": ["that; the; those", "that (referring to persons, things or situations)"],
+    "enSource": "cedict",
+    "example": { "zh": "那本书是我的。", "vi": "Quyển sách kia là của tôi.", "en": "That book is mine." }
+  },
+  {
+    "id": "L1-0255",
+    "vi": ["bên kia", "đằng kia"],
+    "viAliases": ["phía bên kia", "chỗ kia"],
+    "en": ["over there", "yonder"],
+    "enSource": "cedict",
+    "example": { "zh": "我们去那边坐吧。", "vi": "Chúng ta sang bên kia ngồi đi.", "en": "Let us go sit over there." }
+  },
+  {
+    "id": "L1-0256",
+    "vi": ["ở đó", "chỗ đó"],
+    "viAliases": ["nơi đó", "đằng đó"],
+    "en": ["there; that place"],
+    "enSource": "cedict",
+    "example": { "zh": "那里有很多人。", "vi": "Ở đó có rất nhiều người.", "en": "There are a lot of people there." }
+  },
+  {
+    "id": "L1-0257",
+    "vi": ["đó", "đằng đó"],
+    "viAliases": ["ở đó", "chỗ đó"],
+    "en": ["there"],
+    "enSource": "cedict",
+    "example": { "zh": "我昨天去过那儿。", "vi": "Hôm qua tôi đã đến đó rồi.", "en": "I went there yesterday." }
+  },
+  {
+    "id": "L1-0258",
+    "vi": ["những cái đó", "những cái kia"],
+    "viAliases": ["mấy cái đó", "những thứ đó"],
+    "en": ["those"],
+    "enSource": "cedict",
+    "example": { "zh": "那些孩子很高兴。", "vi": "Những đứa trẻ đó rất vui.", "en": "Those children are very happy." }
+  },
+  {
+    "id": "L1-0259",
+    "vi": ["sữa"],
+    "viAliases": ["sữa tươi"],
+    "en": ["milk"],
+    "enSource": "cedict",
+    "example": { "zh": "我每天喝一杯奶。", "vi": "Mỗi ngày tôi uống một cốc sữa.", "en": "I drink a glass of milk every day." }
+  },
+  {
+    "id": "L1-0260",
+    "vi": ["bà nội"],
+    "viAliases": ["bà", "nội"],
+    "en": ["grandma (paternal grandmother)"],
+    "enSource": "cedict",
+    "example": { "zh": "我奶奶今年八十岁。", "vi": "Bà nội tôi năm nay tám mươi tuổi.", "en": "My grandma is eighty years old this year." }
+  },
+  {
+    "id": "L1-0261",
+    "vi": ["nam", "thuộc nam giới"],
+    "viAliases": ["phái nam", "giống đực"],
+    "en": ["male"],
+    "enSource": "cedict",
+    "example": { "zh": "他有一个男同学。", "vi": "Cậu ấy có một bạn học nam.", "en": "He has a male classmate." }
+  },
+  {
+    "id": "L1-0262",
+    "vi": ["bé trai", "cậu bé"],
+    "viAliases": ["con trai", "thằng bé"],
+    "en": ["boy"],
+    "enSource": "written",
+    "example": { "zh": "那个男孩儿很可爱。", "vi": "Cậu bé đó rất đáng yêu.", "en": "That boy is very cute." }
+  },
+  {
+    "id": "L1-0263",
+    "vi": ["bạn trai"],
+    "viAliases": ["người yêu nam"],
+    "en": ["boyfriend"],
+    "enSource": "cedict",
+    "example": { "zh": "她的男朋友是老师。", "vi": "Bạn trai của cô ấy là giáo viên.", "en": "Her boyfriend is a teacher." }
+  },
+  {
+    "id": "L1-0264",
+    "vi": ["đàn ông", "người đàn ông"],
+    "viAliases": ["nam giới", "người nam"],
+    "en": ["a man", "a male", "men"],
+    "enSource": "cedict",
+    "example": { "zh": "这个男人很高。", "vi": "Người đàn ông này rất cao.", "en": "This man is very tall." }
+  },
+  {
+    "id": "L1-0265",
+    "vi": ["nam sinh", "học sinh nam"],
+    "viAliases": ["sinh viên nam", "bạn nam"],
+    "en": ["male student", "schoolboy", "boy"],
+    "enSource": "cedict",
+    "example": { "zh": "我们班的男生很多。", "vi": "Lớp chúng tôi có rất nhiều nam sinh.", "en": "There are many boys in our class." }
+  },
+  {
+    "id": "L1-0266",
+    "vi": ["phía nam", "hướng nam"],
+    "viAliases": ["nam", "miền nam"],
+    "en": ["south"],
+    "enSource": "cedict",
+    "example": { "zh": "你往南走五分钟。", "vi": "Bạn đi về phía nam năm phút.", "en": "Walk south for five minutes." }
+  },
+  {
+    "id": "L1-0267",
+    "vi": ["phía nam", "mặt nam"],
+    "viAliases": ["bên phía nam", "phần phía nam"],
+    "en": ["south side", "southern part", "to the south of"],
+    "enSource": "cedict",
+    "example": { "zh": "学校在我家的南边。", "vi": "Trường học ở phía nam nhà tôi.", "en": "The school is on the south side of my house." }
+  },
+  {
+    "id": "L1-0268",
+    "vi": ["khó"],
+    "viAliases": ["khó khăn", "gian nan"],
+    "en": ["difficult"],
+    "enSource": "cedict",
+    "example": { "zh": "这个问题很难。", "vi": "Câu hỏi này rất khó.", "en": "This question is very difficult." }
+  },
+  {
+    "id": "L1-0269",
+    "vi": ["trợ từ cuối câu dùng để hỏi lại", "trợ từ chỉ trạng thái còn đang tiếp diễn"],
+    "viAliases": [],
+    "en": ["(sentence-final particle) used in questions to link back to prior discourse or context", "(sentence-final particle) indicating that a state or situation still holds"],
+    "enSource": "cedict",
+    "example": { "zh": "我很好，你呢？", "vi": "Tôi rất khỏe, còn bạn thì sao?", "en": "I am fine, and you?" }
+  },
+  {
+    "id": "L1-0270",
+    "vi": ["có thể", "biết"],
+    "viAliases": ["có khả năng", "làm được"],
+    "en": ["can", "to be able to", "might possibly"],
+    "enSource": "cedict",
+    "example": { "zh": "我能帮你做饭。", "vi": "Tôi có thể giúp bạn nấu cơm.", "en": "I can help you cook." }
+  }
+]

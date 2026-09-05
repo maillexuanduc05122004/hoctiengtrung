@@ -1,0 +1,750 @@
+[
+  {
+    "id": "L3-0034",
+    "simplified": "本来",
+    "traditional": "本來",
+    "pinyin": "běn lái",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "original",
+      "originally",
+      "at first",
+      "it goes without saying",
+      "of course"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0035",
+    "simplified": "本领",
+    "traditional": "本領",
+    "pinyin": "běn lǐng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "skill",
+      "ability",
+      "capability",
+      "CL:項/项,個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0036",
+    "simplified": "本事",
+    "pinyin": "běn shi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "ability",
+      "skill"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0037",
+    "simplified": "比较",
+    "traditional": "比較",
+    "pinyin": "bǐ jiào",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to compare",
+      "to contrast",
+      "comparatively",
+      "relatively",
+      "quite",
+      "comparison"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0038",
+    "simplified": "比例",
+    "pinyin": "bǐ lì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "proportion",
+      "scale"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0039",
+    "simplified": "比赛",
+    "traditional": "比賽",
+    "pinyin": "bǐ sài",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "competition (sports etc)",
+      "match",
+      "CL:場/场,次",
+      "to compete"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0040",
+    "simplified": "必然",
+    "pinyin": "bì rán",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "inevitable",
+      "certain",
+      "necessity"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0041",
+    "simplified": "必要",
+    "pinyin": "bì yào",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "necessary",
+      "essential",
+      "indispensable",
+      "required"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0042",
+    "simplified": "变化",
+    "traditional": "變化",
+    "pinyin": "biàn huà",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(intransitive) to change; to vary",
+      "change; variation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0043",
+    "simplified": "变为",
+    "traditional": "變為",
+    "pinyin": "biàn wéi",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to change into"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0044",
+    "simplified": "标题",
+    "traditional": "標題",
+    "pinyin": "biāo tí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "title",
+      "heading",
+      "headline",
+      "caption",
+      "subject"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0045",
+    "simplified": "标准",
+    "traditional": "標準",
+    "pinyin": "biāo zhǔn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "standard; norm; criterion",
+      "(adjective) standard",
+      "good; correct; conforming to a standard"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0046",
+    "simplified": "表达",
+    "traditional": "表達",
+    "pinyin": "biǎo dá",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to express; to convey"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0047",
+    "simplified": "表格",
+    "pinyin": "biǎo gé",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "form; table",
+      "CL:張/张,份"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0048",
+    "simplified": "表面",
+    "pinyin": "biǎo miàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "surface",
+      "face",
+      "outside",
+      "appearance"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0049",
+    "simplified": "表明",
+    "pinyin": "biǎo míng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to make clear",
+      "to make known",
+      "to state clearly",
+      "to indicate",
+      "known"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0050",
+    "simplified": "表现",
+    "traditional": "表現",
+    "pinyin": "biǎo xiàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to show",
+      "to show off",
+      "to display",
+      "to manifest",
+      "expression",
+      "manifestation",
+      "show",
+      "display",
+      "performance (at work etc)",
+      "behavior"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0051",
+    "simplified": "表演",
+    "pinyin": "biǎo yǎn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "play",
+      "show",
+      "performance",
+      "exhibition",
+      "to perform",
+      "to act",
+      "to demonstrate",
+      "CL:場/场"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0052",
+    "simplified": "并",
+    "traditional": "並",
+    "pinyin": "bìng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv",
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "and",
+      "furthermore",
+      "also",
+      "together with",
+      "(not) at all",
+      "simultaneously",
+      "to combine",
+      "to join",
+      "to merge"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0053",
+    "simplified": "并且",
+    "traditional": "並且",
+    "pinyin": "bìng qiě",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "and; besides; moreover; furthermore; in addition"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0054",
+    "simplified": "播出",
+    "pinyin": "bō chū",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to broadcast",
+      "to air (a TV program etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0055",
+    "simplified": "播放",
+    "pinyin": "bō fàng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to broadcast; to transmit (by radio or TV)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0056",
+    "simplified": "不必",
+    "pinyin": "bù bì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "need not",
+      "does not have to",
+      "not necessarily"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0057",
+    "simplified": "不断",
+    "traditional": "不斷",
+    "pinyin": "bù duàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "unceasing",
+      "uninterrupted",
+      "continuous",
+      "constant"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0058",
+    "simplified": "不论",
+    "traditional": "不論",
+    "pinyin": "bù lùn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "whatever",
+      "no matter what (who, how etc)",
+      "regardless of",
+      "not to discuss"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0059",
+    "simplified": "补",
+    "traditional": "補",
+    "pinyin": "bǔ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to repair",
+      "to patch",
+      "to mend",
+      "to make up for",
+      "to fill (a vacancy)",
+      "to supplement"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0060",
+    "simplified": "补充",
+    "traditional": "補充",
+    "pinyin": "bǔ chōng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to replenish",
+      "to supplement",
+      "to complement",
+      "additional",
+      "supplementary",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0061",
+    "simplified": "不安",
+    "pinyin": "bù ān",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "unpeaceful",
+      "unstable",
+      "uneasy",
+      "disturbed",
+      "restless",
+      "worried"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0062",
+    "simplified": "不得不",
+    "pinyin": "bù dé bù",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "have no choice or option but to",
+      "cannot but",
+      "have to",
+      "can't help it",
+      "can't avoid"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0063",
+    "simplified": "不光",
+    "pinyin": "bù guāng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv",
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "not the only one",
+      "not only"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0064",
+    "simplified": "不仅",
+    "traditional": "不僅",
+    "pinyin": "bù jǐn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "not just; not limited to",
+      "(as a correlative conjunction) not only (..., but also ...)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0065",
+    "simplified": "布",
+    "pinyin": "bù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "cloth",
+      "to declare",
+      "to announce",
+      "to spread",
+      "to make known"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0066",
+    "simplified": "步",
+    "pinyin": "bù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "a step",
+      "a pace",
+      "walk",
+      "march",
+      "stages in a process",
+      "situation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0067",
+    "simplified": "部",
+    "pinyin": "bù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "ministry",
+      "department",
+      "section",
+      "part",
+      "division",
+      "troops",
+      "board",
+      "classifier for works of literature, films, machines etc"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0068",
+    "simplified": "部门",
+    "traditional": "部門",
+    "pinyin": "bù mén",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "department",
+      "branch",
+      "section",
+      "division",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0069",
+    "simplified": "部长",
+    "traditional": "部長",
+    "pinyin": "bù zhǎng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "head of a (government etc) department",
+      "section chief",
+      "section head",
+      "secretary",
+      "minister",
+      "CL:個/个,位,名"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0070",
+    "simplified": "才能",
+    "pinyin": "cái néng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "talent",
+      "ability",
+      "capacity"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0071",
+    "simplified": "采取",
+    "traditional": "採取",
+    "pinyin": "cǎi qǔ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to adopt or carry out (measures, policies, course of action)",
+      "to take"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0072",
+    "simplified": "采用",
+    "traditional": "採用",
+    "pinyin": "cǎi yòng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to adopt",
+      "to employ",
+      "to use"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0073",
+    "simplified": "彩色",
+    "pinyin": "cǎi sè",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "color",
+      "multicolored"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0074",
+    "simplified": "曾经",
+    "traditional": "曾經",
+    "pinyin": "céng jīng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "once",
+      "already",
+      "former",
+      "previously",
+      "ever",
+      "(past tense marker used before verb or clause)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0075",
+    "simplified": "产生",
+    "traditional": "產生",
+    "pinyin": "chǎn shēng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to arise; to come into being; to come about",
+      "to give rise to; to bring into being; to bring about; to produce; to engender; to generate"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0076",
+    "simplified": "长城",
+    "traditional": "長城",
+    "pinyin": "cháng chéng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the Great Wall"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0077",
+    "simplified": "长处",
+    "traditional": "長處",
+    "pinyin": "cháng chù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "good aspects",
+      "strong points"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0078",
+    "simplified": "长期",
+    "traditional": "長期",
+    "pinyin": "cháng qī",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "long-term; for a protracted period"
+    ],
+    "needsEnglish": false
+  }
+]

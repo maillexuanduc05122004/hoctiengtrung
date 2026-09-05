@@ -1,0 +1,713 @@
+[
+  {
+    "id": "L3-0304",
+    "simplified": "欢乐",
+    "traditional": "歡樂",
+    "pinyin": "huān lè",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "gaiety",
+      "gladness",
+      "glee",
+      "merriment",
+      "pleasure",
+      "happy",
+      "joyous",
+      "gay"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0305",
+    "simplified": "环",
+    "traditional": "環",
+    "pinyin": "huán",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "ring",
+      "hoop",
+      "loop",
+      "(chain) link",
+      "classifier for scores in archery etc",
+      "to surround",
+      "to encircle",
+      "to hem in"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0306",
+    "simplified": "环保",
+    "traditional": "環保",
+    "pinyin": "huán bǎo",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "environmental protection",
+      "environmentally friendly",
+      "abbr. for 環境保護/环境保护"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0307",
+    "simplified": "环境",
+    "traditional": "環境",
+    "pinyin": "huán jìng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "environment",
+      "circumstances",
+      "surroundings",
+      "CL:個/个",
+      "ambient"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0308",
+    "simplified": "会议",
+    "traditional": "會議",
+    "pinyin": "huì yì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "meeting",
+      "conference",
+      "CL:場/场,屆/届"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0309",
+    "simplified": "会员",
+    "traditional": "會員",
+    "pinyin": "huì yuán",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "member"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0310",
+    "simplified": "活",
+    "pinyin": "huó",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to live",
+      "alive",
+      "living",
+      "work",
+      "workmanship"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0311",
+    "simplified": "火",
+    "pinyin": "huǒ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "fire",
+      "urgent",
+      "ammunition",
+      "fiery or flaming",
+      "internal heat (Chinese medicine)",
+      "hot (popular)",
+      "classifier for military units (old)",
+      "Kangxi radical 86"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0312",
+    "simplified": "机器",
+    "traditional": "機器",
+    "pinyin": "jī qì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "machine",
+      "CL:臺/台,部,個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0313",
+    "simplified": "积极",
+    "traditional": "積極",
+    "pinyin": "jī jí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "active",
+      "energetic",
+      "vigorous",
+      "positive (outlook)",
+      "proactive"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0314",
+    "simplified": "基本",
+    "pinyin": "jī běn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "basic",
+      "fundamental",
+      "main",
+      "elementary"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0315",
+    "simplified": "基本上",
+    "pinyin": "jī běn shang",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "basically",
+      "on the whole"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0316",
+    "simplified": "基础",
+    "traditional": "基礎",
+    "pinyin": "jī chǔ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "base; foundation; basis",
+      "basic; fundamental"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0317",
+    "simplified": "及时",
+    "traditional": "及時",
+    "pinyin": "jí shí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "timely; at the right time",
+      "promptly; without delay"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0318",
+    "simplified": "极了",
+    "traditional": "極了",
+    "pinyin": "jí le",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Suffix"
+    ],
+    "cedictDefinitions": [
+      "extremely",
+      "exceedingly"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0319",
+    "simplified": "集体",
+    "traditional": "集體",
+    "pinyin": "jí tǐ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "collective (decision)",
+      "joint (effort)",
+      "a group",
+      "a team",
+      "en masse",
+      "as a group"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0320",
+    "simplified": "集中",
+    "pinyin": "jí zhōng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "to concentrate",
+      "to centralize",
+      "to focus",
+      "centralized",
+      "concentrated",
+      "to put together"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0321",
+    "simplified": "计算",
+    "traditional": "計算",
+    "pinyin": "jì suàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to calculate; to compute",
+      "to consider; to think over",
+      "to plot; to scheme"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0322",
+    "simplified": "记录",
+    "traditional": "記錄",
+    "pinyin": "jì lù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to record",
+      "record (written account)",
+      "note-taker",
+      "record (in sports etc)",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0323",
+    "simplified": "记者",
+    "traditional": "記者",
+    "pinyin": "jì zhě",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "reporter; journalist",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0324",
+    "simplified": "纪录",
+    "traditional": "紀錄",
+    "pinyin": "jì lù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "variant of 記錄/记录 (but in Taiwan, not for the verb sense \"to record\")"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0325",
+    "simplified": "纪念",
+    "traditional": "紀念",
+    "pinyin": "jì niàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to commemorate; to honor the memory of",
+      "memento; keepsake; souvenir"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0326",
+    "simplified": "技术",
+    "traditional": "技術",
+    "pinyin": "jì shù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "technology; technique; skill",
+      "CL:門/门,種/种,項/项"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0327",
+    "simplified": "继续",
+    "traditional": "繼續",
+    "pinyin": "jì xù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to continue; to proceed with; to go on with"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0328",
+    "simplified": "加工",
+    "pinyin": "jiā gōng",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to process",
+      "processing",
+      "working (of machinery)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0329",
+    "simplified": "加快",
+    "pinyin": "jiā kuài",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to accelerate; to speed up; to hasten"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0330",
+    "simplified": "加强",
+    "traditional": "加強",
+    "pinyin": "jiā qiáng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to reinforce; to strengthen; to enhance"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0331",
+    "simplified": "家具",
+    "pinyin": "jiā jù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "furniture",
+      "CL:件,套"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0332",
+    "simplified": "家属",
+    "traditional": "家屬",
+    "pinyin": "jiā shǔ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "family member",
+      "(family) dependent"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0333",
+    "simplified": "家乡",
+    "traditional": "家鄉",
+    "pinyin": "jiā xiāng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "hometown",
+      "native place",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0334",
+    "simplified": "价格",
+    "traditional": "價格",
+    "pinyin": "jià gé",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "price"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0335",
+    "simplified": "价钱",
+    "traditional": "價錢",
+    "pinyin": "jià qian",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "price"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0336",
+    "simplified": "价值",
+    "traditional": "價值",
+    "pinyin": "jià zhí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "value; worth",
+      "(ethical, cultural etc) values"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0337",
+    "simplified": "架",
+    "pinyin": "jià",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "M",
+      "N",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to support",
+      "frame",
+      "rack",
+      "framework",
+      "classifier for planes, large vehicles, radios etc"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0338",
+    "simplified": "坚持",
+    "traditional": "堅持",
+    "pinyin": "jiān chí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to persevere with",
+      "to persist in",
+      "to insist on"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0339",
+    "simplified": "坚决",
+    "traditional": "堅決",
+    "pinyin": "jiān jué",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "firm; resolute; determined"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0340",
+    "simplified": "坚强",
+    "traditional": "堅強",
+    "pinyin": "jiān qiáng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "staunch",
+      "strong"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0341",
+    "simplified": "简单",
+    "traditional": "簡單",
+    "pinyin": "jiǎn dān",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "simple; not complicated"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0342",
+    "simplified": "简直",
+    "traditional": "簡直",
+    "pinyin": "jiǎn zhí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "simply; really"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0343",
+    "simplified": "建",
+    "pinyin": "jiàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to establish",
+      "to found",
+      "to set up",
+      "to build",
+      "to construct"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0344",
+    "simplified": "建成",
+    "pinyin": "jiàn chéng",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to establish",
+      "to build"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0345",
+    "simplified": "建立",
+    "pinyin": "jiàn lì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to establish",
+      "to set up",
+      "to found"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0346",
+    "simplified": "建设",
+    "traditional": "建設",
+    "pinyin": "jiàn shè",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to build; to construct; to establish; to develop; to institute"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0347",
+    "simplified": "建议",
+    "traditional": "建議",
+    "pinyin": "jiàn yì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to propose; to suggest; to recommend",
+      "proposal; suggestion; recommendation (CL:點/点)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0348",
+    "simplified": "将近",
+    "traditional": "將近",
+    "pinyin": "jiāng jìn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "almost",
+      "nearly",
+      "close to"
+    ],
+    "needsEnglish": false
+  }
+]

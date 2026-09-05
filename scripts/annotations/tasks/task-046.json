@@ -1,0 +1,707 @@
+[
+  {
+    "id": "L3-0754",
+    "simplified": "伟大",
+    "traditional": "偉大",
+    "pinyin": "wěi dà",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "huge; great; grand; worthy of the greatest admiration; important (contribution etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0755",
+    "simplified": "卫生",
+    "traditional": "衛生",
+    "pinyin": "wèi shēng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "hygienic; sanitary",
+      "hygiene; sanitation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0756",
+    "simplified": "卫生间",
+    "traditional": "衛生間",
+    "pinyin": "wèi shēng jiān",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "bathroom",
+      "toilet",
+      "WC",
+      "CL:間/间"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0757",
+    "simplified": "为了",
+    "traditional": "為了",
+    "pinyin": "wèi le",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Prep"
+    ],
+    "cedictDefinitions": [
+      "for; for the purpose of; in order to"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0758",
+    "simplified": "温暖",
+    "traditional": "溫暖",
+    "pinyin": "wēn nuǎn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "warm"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0759",
+    "simplified": "文化",
+    "pinyin": "wén huà",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "culture",
+      "civilization",
+      "cultural",
+      "CL:個/个,種/种"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0760",
+    "simplified": "文件",
+    "pinyin": "wén jiàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "document",
+      "file",
+      "CL:份"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0761",
+    "simplified": "文明",
+    "pinyin": "wén míng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "civilized",
+      "civilization",
+      "culture",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0762",
+    "simplified": "文学",
+    "traditional": "文學",
+    "pinyin": "wén xué",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "literature"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0763",
+    "simplified": "文章",
+    "pinyin": "wén zhāng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "article",
+      "essay",
+      "literary works",
+      "writings",
+      "hidden meaning",
+      "CL:篇,段,頁/页"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0764",
+    "simplified": "文字",
+    "pinyin": "wén zì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "character",
+      "script",
+      "writing",
+      "written language",
+      "writing style",
+      "phraseology",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0765",
+    "simplified": "握手",
+    "pinyin": "wò shǒu",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to shake hands"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0766",
+    "simplified": "屋子",
+    "pinyin": "wū zi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "house",
+      "room",
+      "CL:間/间"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0767",
+    "simplified": "武器",
+    "pinyin": "wǔ qì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "weapon",
+      "arms",
+      "CL:種/种"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0768",
+    "simplified": "武术",
+    "traditional": "武術",
+    "pinyin": "wǔ shù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "military skill or technique (in former times)",
+      "all kinds of martial art sports (some claiming spiritual development)",
+      "self-defense",
+      "tradition of choreographed fights from opera and film (recent usage)",
+      "also called kungfu 功夫",
+      "CL:種/种"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0769",
+    "simplified": "舞台",
+    "traditional": "舞臺",
+    "pinyin": "wǔ tái",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(lit. and fig.) stage; arena"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0770",
+    "simplified": "西部",
+    "pinyin": "xī bù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "western part"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0771",
+    "simplified": "希望",
+    "pinyin": "xī wàng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to hope",
+      "a hope; a wish"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0772",
+    "simplified": "系",
+    "pinyin": "xì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "system",
+      "department",
+      "faculty"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0773",
+    "simplified": "下来",
+    "traditional": "下來",
+    "pinyin": "xià lai",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to come down",
+      "(completed action marker)",
+      "(after verb of motion, indicates motion down and towards us, also fig.)",
+      "(indicates continuation from the past towards us)",
+      "to be harvested (of crops)",
+      "to be over (of a period of time)",
+      "to go among the masses (said of leaders)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0774",
+    "simplified": "下面",
+    "pinyin": "xià miàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "below",
+      "under",
+      "next",
+      "the following",
+      "also pr."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0775",
+    "simplified": "下去",
+    "pinyin": "xià qù",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to go down",
+      "to descend",
+      "to go on",
+      "to continue",
+      "(of a servant) to withdraw"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0776",
+    "simplified": "先进",
+    "traditional": "先進",
+    "pinyin": "xiān jìn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "sophisticated; advanced (technology etc)",
+      "meritorious; exemplary (deeds etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0777",
+    "simplified": "显得",
+    "traditional": "顯得",
+    "pinyin": "xiǎn de",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to seem",
+      "to look",
+      "to appear"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0778",
+    "simplified": "显然",
+    "traditional": "顯然",
+    "pinyin": "xiǎn rán",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "clearly; evidently; obviously"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0779",
+    "simplified": "显示",
+    "traditional": "顯示",
+    "pinyin": "xiǎn shì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to show",
+      "to illustrate",
+      "to display",
+      "to demonstrate"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0780",
+    "simplified": "现场",
+    "traditional": "現場",
+    "pinyin": "xiàn chǎng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the scene (of a crime, accident etc)",
+      "(on) the spot",
+      "(at) the site"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0781",
+    "simplified": "现代",
+    "traditional": "現代",
+    "pinyin": "xiàn dài",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "modern times",
+      "modern age",
+      "modern era"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0782",
+    "simplified": "现金",
+    "traditional": "現金",
+    "pinyin": "xiàn jīn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "cash"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0783",
+    "simplified": "现实",
+    "traditional": "現實",
+    "pinyin": "xiàn shí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "reality; actuality",
+      "real; actual",
+      "realistic; pragmatic; materialistic; self-interested"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0784",
+    "simplified": "现象",
+    "traditional": "現象",
+    "pinyin": "xiàn xiàng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "phenomenon",
+      "CL:個/个,種/种",
+      "appearance"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0785",
+    "simplified": "线",
+    "traditional": "線",
+    "pinyin": "xiàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "thread",
+      "string",
+      "wire",
+      "line",
+      "CL:條/条,股,根",
+      "(after a number) tier (unofficial ranking of a Chinese city)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0786",
+    "simplified": "相比",
+    "pinyin": "xiāng bǐ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to compare"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0787",
+    "simplified": "相当",
+    "traditional": "相當",
+    "pinyin": "xiāng dāng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "equivalent to",
+      "appropriate",
+      "considerably",
+      "to a certain extent",
+      "fairly",
+      "quite"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0788",
+    "simplified": "相关",
+    "traditional": "相關",
+    "pinyin": "xiāng guān",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "related",
+      "relevant",
+      "pertinent",
+      "to be interrelated",
+      "(statistics) correlation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0789",
+    "simplified": "相互",
+    "pinyin": "xiāng hù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "each other",
+      "mutual"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0790",
+    "simplified": "相似",
+    "pinyin": "xiāng sì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "similar; alike"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0791",
+    "simplified": "香",
+    "pinyin": "xiāng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "fragrant",
+      "sweet smelling",
+      "aromatic",
+      "savory or appetizing",
+      "(to eat) with relish",
+      "(of sleep) sound",
+      "perfume or spice",
+      "joss or incense stick",
+      "CL:根"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0792",
+    "simplified": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "banana",
+      "CL:根,把"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0793",
+    "simplified": "消费",
+    "traditional": "消費",
+    "pinyin": "xiāo fèi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to consume (goods and services, resources etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0794",
+    "simplified": "消失",
+    "pinyin": "xiāo shī",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to disappear; to fade away"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0795",
+    "simplified": "消息",
+    "pinyin": "xiāo xi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(piece of) news; information",
+      "message",
+      "CL:條/条"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0796",
+    "simplified": "效果",
+    "pinyin": "xiào guǒ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "result",
+      "effect",
+      "efficacy",
+      "(theater) sound or visual effects"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0797",
+    "simplified": "写作",
+    "traditional": "寫作",
+    "pinyin": "xiě zuò",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to write",
+      "to compose",
+      "writing",
+      "written works"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0798",
+    "simplified": "血",
+    "pinyin": "xuè",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "blood",
+      "colloquial pr.",
+      "CL:滴,片"
+    ],
+    "needsEnglish": false
+  }
+]

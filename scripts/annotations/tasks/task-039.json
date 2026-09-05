@@ -1,0 +1,742 @@
+[
+  {
+    "id": "L3-0439",
+    "simplified": "理发",
+    "traditional": "理髮",
+    "pinyin": "lǐ fà",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to get a haircut; to have one's hair done",
+      "to cut (sb's) hair; to give (sb) a haircut"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0440",
+    "simplified": "理解",
+    "pinyin": "lǐ jiě",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to comprehend; to understand"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0441",
+    "simplified": "理论",
+    "traditional": "理論",
+    "pinyin": "lǐ lùn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "theory",
+      "CL:個/个",
+      "to argue",
+      "to take notice of"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0442",
+    "simplified": "理由",
+    "pinyin": "lǐ yóu",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "reason",
+      "grounds",
+      "justification",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0443",
+    "simplified": "力",
+    "pinyin": "lì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "power",
+      "force",
+      "strength",
+      "ability",
+      "strenuously"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0444",
+    "simplified": "力量",
+    "pinyin": "lì liang",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "power; force; strength"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0445",
+    "simplified": "立刻",
+    "pinyin": "lì kè",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "immediately; at once; right away"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0446",
+    "simplified": "利用",
+    "pinyin": "lì yòng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to exploit",
+      "to make use of",
+      "to use",
+      "to take advantage of",
+      "to utilize"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0447",
+    "simplified": "连",
+    "traditional": "連",
+    "pinyin": "lián",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "to link",
+      "to join",
+      "to connect",
+      "continuously",
+      "in succession",
+      "including",
+      "(used with 也, 都 etc) even",
+      "company (military)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0448",
+    "simplified": "连忙",
+    "traditional": "連忙",
+    "pinyin": "lián máng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "promptly; at once"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0449",
+    "simplified": "连续",
+    "traditional": "連續",
+    "pinyin": "lián xù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "continuous",
+      "in a row",
+      "serial",
+      "consecutive"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0450",
+    "simplified": "连续剧",
+    "traditional": "連續劇",
+    "pinyin": "lián xù jù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "TV series"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0451",
+    "simplified": "联合",
+    "traditional": "聯合",
+    "pinyin": "lián hé",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to combine",
+      "to join",
+      "unite",
+      "alliance"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0452",
+    "simplified": "联合国",
+    "traditional": "聯合國",
+    "pinyin": "lián hé guó",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "United Nations"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0453",
+    "simplified": "联系",
+    "traditional": "聯繫",
+    "pinyin": "lián xì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "connection",
+      "contact",
+      "relation",
+      "to get in touch with",
+      "to integrate",
+      "to link",
+      "to touch"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0454",
+    "simplified": "凉水",
+    "traditional": "涼水",
+    "pinyin": "liáng shuǐ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "cool water",
+      "unboiled water"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0455",
+    "simplified": "了",
+    "pinyin": "liǎo",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to finish",
+      "(used with 得 or 不 after a verb to express (im)possibility, as in 忘不了 \"cannot forget\")",
+      "(literary) (usually followed by a negative such as 無/无 or 不) completely (not); entirely (not); (not) in the least",
+      "variant of 瞭/了"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0210",
+        "pinyin": "le",
+        "partOfSpeech": [
+          "Aux"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0456",
+    "simplified": "领",
+    "traditional": "領",
+    "pinyin": "lǐng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "neck",
+      "collar",
+      "to lead",
+      "to receive",
+      "classifier for clothes, mats, screens etc"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0457",
+    "simplified": "领导",
+    "traditional": "領導",
+    "pinyin": "lǐng dǎo",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "lead",
+      "leading",
+      "to lead",
+      "leadership",
+      "leader",
+      "CL:位,個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0458",
+    "simplified": "领先",
+    "traditional": "領先",
+    "pinyin": "lǐng xiān",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to lead",
+      "to be in front"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0459",
+    "simplified": "另外",
+    "pinyin": "lìng wài",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Pron",
+      "Adv",
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "additional",
+      "in addition",
+      "besides",
+      "separate",
+      "other",
+      "moreover",
+      "furthermore"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0460",
+    "simplified": "另一方面",
+    "pinyin": "lìng yī fāng miàn",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "on the other hand",
+      "another aspect"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0461",
+    "simplified": "留学",
+    "traditional": "留學",
+    "pinyin": "liú xué",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to study abroad"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0462",
+    "simplified": "龙",
+    "traditional": "龍",
+    "pinyin": "lóng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "Chinese dragon; loong",
+      "(fig.) emperor",
+      "dragon",
+      "(bound form) dinosaur"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0463",
+    "simplified": "录",
+    "traditional": "錄",
+    "pinyin": "lù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "diary",
+      "record",
+      "to hit",
+      "to copy"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0464",
+    "simplified": "录音",
+    "traditional": "錄音",
+    "pinyin": "lù yīn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to record sound",
+      "an audio recording (CL:段)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0465",
+    "simplified": "路线",
+    "traditional": "路線",
+    "pinyin": "lù xiàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "itinerary",
+      "route",
+      "political line (e.g. right revisionist road)",
+      "CL:條/条"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0466",
+    "simplified": "旅馆",
+    "traditional": "旅館",
+    "pinyin": "lǚ guǎn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "hotel",
+      "CL:家"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0467",
+    "simplified": "旅行社",
+    "pinyin": "lǚ xíng shè",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "travel agency"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0468",
+    "simplified": "绿茶",
+    "traditional": "綠茶",
+    "pinyin": "lǜ chá",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "green tea",
+      "(slang) (of a girl) seemingly innocent and charming but actually calculating and manipulative; a girl who has these qualities"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0469",
+    "simplified": "乱",
+    "traditional": "亂",
+    "pinyin": "luàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "in confusion or disorder",
+      "in a confused state of mind",
+      "disorder",
+      "upheaval",
+      "riot",
+      "illicit sexual relations",
+      "to throw into disorder",
+      "to mix up",
+      "indiscriminate",
+      "random",
+      "arbitrary"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0470",
+    "simplified": "落后",
+    "traditional": "落後",
+    "pinyin": "luò hòu",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to fall behind",
+      "to lag (in technology etc)",
+      "backward",
+      "to retrogress"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0471",
+    "simplified": "麻烦",
+    "traditional": "麻煩",
+    "pinyin": "má fan",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "trouble; inconvenience",
+      "inconvenient; troublesome; annoying",
+      "to bother sb; to put sb to trouble"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0472",
+    "simplified": "马",
+    "traditional": "馬",
+    "pinyin": "mǎ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "horse",
+      "CL:匹",
+      "horse or cavalry piece in Chinese chess",
+      "knight in Western chess"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0473",
+    "simplified": "满足",
+    "traditional": "滿足",
+    "pinyin": "mǎn zú",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to satisfy",
+      "to meet (the needs of)",
+      "satisfied",
+      "content"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0474",
+    "simplified": "慢慢",
+    "pinyin": "màn màn",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "slowly; gradually"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0475",
+    "simplified": "毛",
+    "pinyin": "máo",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "hair",
+      "feather",
+      "down",
+      "wool",
+      "mildew",
+      "mold",
+      "coarse or semifinished",
+      "young",
+      "raw",
+      "careless",
+      "unthinking",
+      "nervous",
+      "scared",
+      "(of currency) to devalue or depreciate",
+      "classifier for Chinese fractional monetary unit ( = 角 , = one-tenth of a yuan or 10 fen 分)"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0231",
+        "pinyin": "máo",
+        "partOfSpeech": [
+          "M"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0476",
+    "simplified": "毛病",
+    "pinyin": "máo bìng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "fault",
+      "defect",
+      "shortcomings",
+      "ailment",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0477",
+    "simplified": "没用",
+    "traditional": "沒用",
+    "pinyin": "méi yòng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "useless"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0478",
+    "simplified": "媒体",
+    "traditional": "媒體",
+    "pinyin": "méi tǐ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "media, esp. news media"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0479",
+    "simplified": "每",
+    "pinyin": "měi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Pron",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "each",
+      "every"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0480",
+    "simplified": "美",
+    "pinyin": "měi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "beautiful",
+      "very satisfactory; good",
+      "to beautify",
+      "to be pleased with oneself"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0481",
+    "simplified": "美好",
+    "pinyin": "měi hǎo",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "beautiful",
+      "fine"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0482",
+    "simplified": "美丽",
+    "traditional": "美麗",
+    "pinyin": "měi lì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "beautiful"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0483",
+    "simplified": "美食",
+    "pinyin": "měi shí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "culinary delicacy",
+      "fine food",
+      "gourmet food"
+    ],
+    "needsEnglish": false
+  }
+]

@@ -1,0 +1,756 @@
+[
+  {
+    "id": "L2-0446",
+    "simplified": "求",
+    "pinyin": "qiú",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to seek",
+      "to look for",
+      "to request",
+      "to demand",
+      "to beseech"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0447",
+    "simplified": "球场",
+    "traditional": "球場",
+    "pinyin": "qiú chǎng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "stadium",
+      "sports ground",
+      "court",
+      "pitch",
+      "field",
+      "golf course",
+      "CL:個/个,處/处"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0448",
+    "simplified": "球队",
+    "traditional": "球隊",
+    "pinyin": "qiú duì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "sports team (basketball, soccer, football etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0449",
+    "simplified": "球鞋",
+    "pinyin": "qiú xié",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "athletic shoes"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0450",
+    "simplified": "取",
+    "pinyin": "qǔ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to take",
+      "to get",
+      "to choose",
+      "to fetch"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0451",
+    "simplified": "取得",
+    "pinyin": "qǔ dé",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to acquire; to get; to obtain"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0452",
+    "simplified": "全",
+    "pinyin": "quán",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "all",
+      "whole",
+      "entire",
+      "every",
+      "complete"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0453",
+    "simplified": "全部",
+    "pinyin": "quán bù",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "whole; all"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0454",
+    "simplified": "全国",
+    "traditional": "全國",
+    "pinyin": "quán guó",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "whole nation",
+      "nationwide",
+      "countrywide",
+      "national"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0455",
+    "simplified": "全家",
+    "pinyin": "quán jiā",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "whole family"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0456",
+    "simplified": "全年",
+    "pinyin": "quán nián",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the whole year",
+      "all year long"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0457",
+    "simplified": "全身",
+    "pinyin": "quán shēn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the whole body",
+      "(typography) em"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0458",
+    "simplified": "全体",
+    "traditional": "全體",
+    "pinyin": "quán tǐ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "all",
+      "entire"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0459",
+    "simplified": "然后",
+    "traditional": "然後",
+    "pinyin": "rán hòu",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "then; after that; afterwards"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0460",
+    "simplified": "让",
+    "traditional": "讓",
+    "pinyin": "ràng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "Prep"
+    ],
+    "cedictDefinitions": [
+      "to yield",
+      "to permit",
+      "to let sb do sth",
+      "to have sb do sth",
+      "to make sb (feel sad etc)",
+      "by (indicates the agent in a passive clause, like 被)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0461",
+    "simplified": "热情",
+    "traditional": "熱情",
+    "pinyin": "rè qíng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "cordial",
+      "enthusiastic",
+      "passion",
+      "passionate",
+      "passionately"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0462",
+    "simplified": "人口",
+    "pinyin": "rén kǒu",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "population",
+      "people"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0463",
+    "simplified": "人们",
+    "traditional": "人們",
+    "pinyin": "rén men",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "people"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0464",
+    "simplified": "人数",
+    "traditional": "人數",
+    "pinyin": "rén shù",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "number of people"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0465",
+    "simplified": "认为",
+    "traditional": "認為",
+    "pinyin": "rèn wéi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to believe; to think; to consider; to feel"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0466",
+    "simplified": "日报",
+    "traditional": "日報",
+    "pinyin": "rì bào",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "daily newspaper"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0467",
+    "simplified": "日子",
+    "pinyin": "rì zi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "day",
+      "a (calendar) date",
+      "days of one's life"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0468",
+    "simplified": "如果",
+    "pinyin": "rú guǒ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "if; in case; in the event that"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0469",
+    "simplified": "入口",
+    "pinyin": "rù kǒu",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "entrance",
+      "to import"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0470",
+    "simplified": "商量",
+    "pinyin": "shāng liang",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to consult",
+      "to talk over",
+      "to discuss"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0471",
+    "simplified": "商人",
+    "pinyin": "shāng rén",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "merchant",
+      "businessman"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0472",
+    "simplified": "上周",
+    "pinyin": "shàng zhōu",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "last week"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0473",
+    "simplified": "少数",
+    "traditional": "少數",
+    "pinyin": "shǎo shù",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "small number",
+      "few",
+      "minority"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0474",
+    "simplified": "少年",
+    "pinyin": "shào nián",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "early youth",
+      "youngster",
+      "(literary) youth; young man"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0475",
+    "simplified": "身边",
+    "traditional": "身邊",
+    "pinyin": "shēn biān",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "at one's side",
+      "on hand"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0476",
+    "simplified": "什么样",
+    "traditional": "什麼樣",
+    "pinyin": "shén me yàng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "what kind?; what sort?"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0477",
+    "simplified": "生",
+    "pinyin": "shēng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to grow; to give birth; to produce; to be born",
+      "to arise; to occur",
+      "to light (a fire)",
+      "to live; to be alive",
+      "life",
+      "raw; uncooked; unprocessed",
+      "unfamiliar; strange",
+      "(bound form) student; person engaged in a field",
+      "(bound form) male role in traditional opera",
+      "(bound form) life; lifetime",
+      "(bound form) means of livelihood",
+      "(bound form) very; intensely (as in 生疼)",
+      "(bound form) in a forced manner (as in 生拉硬拽)"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0628",
+        "pinyin": "shēng",
+        "partOfSpeech": [
+          "Adj"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0478",
+    "simplified": "生词",
+    "traditional": "生詞",
+    "pinyin": "shēng cí",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "new word (in textbook)",
+      "word that is unfamiliar or not yet studied",
+      "CL:組/组,個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0479",
+    "simplified": "生活",
+    "pinyin": "shēng huó",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to live",
+      "life",
+      "livelihood"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0480",
+    "simplified": "声音",
+    "traditional": "聲音",
+    "pinyin": "shēng yīn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "sound; voice"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0481",
+    "simplified": "省",
+    "pinyin": "shěng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to save; to economize; to be frugal",
+      "to omit; to delete; to leave out",
+      "province",
+      "provincial capital",
+      "a ministry (of the Japanese government)"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0482",
+        "pinyin": "shěng",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0482",
+    "simplified": "省",
+    "pinyin": "shěng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to save; to economize; to be frugal",
+      "to omit; to delete; to leave out",
+      "province",
+      "provincial capital",
+      "a ministry (of the Japanese government)"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0481",
+        "pinyin": "shěng",
+        "partOfSpeech": [
+          "N"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0483",
+    "simplified": "十分",
+    "pinyin": "shí fēn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "very",
+      "completely",
+      "utterly",
+      "extremely",
+      "absolutely",
+      "hundred percent",
+      "to divide into ten equal parts"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0484",
+    "simplified": "实际",
+    "traditional": "實際",
+    "pinyin": "shí jì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "reality",
+      "practice",
+      "practical",
+      "realistic",
+      "real",
+      "actual"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0485",
+    "simplified": "实习",
+    "traditional": "實習",
+    "pinyin": "shí xí",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to practice",
+      "field work",
+      "to intern",
+      "internship"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0486",
+    "simplified": "实现",
+    "traditional": "實現",
+    "pinyin": "shí xiàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to achieve; to implement; to realize; to bring about"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0487",
+    "simplified": "实在",
+    "traditional": "實在",
+    "pinyin": "shí zài",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "really",
+      "actually",
+      "indeed",
+      "true",
+      "real",
+      "honest",
+      "dependable",
+      "(philosophy) reality"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0488",
+        "pinyin": "shí zài",
+        "partOfSpeech": [
+          "Adj"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0488",
+    "simplified": "实在",
+    "traditional": "實在",
+    "pinyin": "shí zài",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "really",
+      "actually",
+      "indeed",
+      "true",
+      "real",
+      "honest",
+      "dependable",
+      "(philosophy) reality"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0487",
+        "pinyin": "shí zài",
+        "partOfSpeech": [
+          "Adv"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0489",
+    "simplified": "食物",
+    "pinyin": "shí wù",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "food"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0490",
+    "simplified": "使用",
+    "pinyin": "shǐ yòng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to use",
+      "to employ",
+      "to apply",
+      "to make use of"
+    ],
+    "needsEnglish": false
+  }
+]

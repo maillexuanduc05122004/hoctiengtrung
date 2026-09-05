@@ -1,0 +1,722 @@
+[
+  {
+    "id": "L3-0124",
+    "simplified": "达到",
+    "traditional": "達到",
+    "pinyin": "dá dào",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to reach; to achieve; to attain"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0125",
+    "simplified": "打破",
+    "pinyin": "dǎ pò",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to break; to smash"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0126",
+    "simplified": "打听",
+    "traditional": "打聽",
+    "pinyin": "dǎ ting",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to ask about",
+      "to make some inquiries",
+      "to ask around"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0127",
+    "simplified": "大概",
+    "pinyin": "dà gài",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "roughly",
+      "probably",
+      "rough",
+      "approximate",
+      "about",
+      "general idea"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0128",
+    "simplified": "大使馆",
+    "traditional": "大使館",
+    "pinyin": "dà shǐ guǎn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "embassy",
+      "CL:座,個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0129",
+    "simplified": "大约",
+    "traditional": "大約",
+    "pinyin": "dà yuē",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "approximately",
+      "probably"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0130",
+    "simplified": "大夫",
+    "pinyin": "dài fu",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "doctor; physician"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0131",
+    "simplified": "代",
+    "pinyin": "dài",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to be a substitute for; to act on behalf of; to replace; to substitute",
+      "generation; dynasty; age; period; (historical) era; (geological) eon"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0132",
+    "simplified": "代表",
+    "pinyin": "dài biǎo",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "representative",
+      "delegate",
+      "CL:位,個/个,名",
+      "to represent",
+      "to stand for",
+      "on behalf of",
+      "in the name of"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0133",
+    "simplified": "代表团",
+    "traditional": "代表團",
+    "pinyin": "dài biǎo tuán",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "delegation",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0134",
+    "simplified": "带动",
+    "traditional": "帶動",
+    "pinyin": "dài dòng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to spur; to provide impetus; to drive"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0135",
+    "simplified": "带领",
+    "traditional": "帶領",
+    "pinyin": "dài lǐng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to guide",
+      "to lead"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0136",
+    "simplified": "单元",
+    "traditional": "單元",
+    "pinyin": "dān yuán",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "unit (forming an entity)",
+      "element",
+      "(in a residential building) entrance or staircase"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0137",
+    "simplified": "当初",
+    "traditional": "當初",
+    "pinyin": "dāng chū",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "at that time",
+      "originally"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0138",
+    "simplified": "当地",
+    "traditional": "當地",
+    "pinyin": "dāng dì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "local"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0139",
+    "simplified": "当然",
+    "traditional": "當然",
+    "pinyin": "dāng rán",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "only natural",
+      "as it should be",
+      "certainly",
+      "of course",
+      "without doubt"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0140",
+    "simplified": "当中",
+    "traditional": "當中",
+    "pinyin": "dāng zhōng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "among",
+      "in the middle",
+      "in the center"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0141",
+    "simplified": "刀",
+    "pinyin": "dāo",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "knife; blade; single-edged sword; cutlass (CL:把)",
+      "(slang) (loanword) dollar",
+      "classifier for sets of one hundred sheets (of paper)",
+      "classifier for knife cuts or stabs",
+      "(Internet slang) to bargain; to ask for a small discount (esp. on second-hand marketplaces)",
+      "(Internet slang) to knife (sb) (often used hyperbolically, as in 想刀他 \"I could kill him!\")"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0142",
+    "simplified": "导演",
+    "traditional": "導演",
+    "pinyin": "dǎo yǎn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to direct",
+      "director (film etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0143",
+    "simplified": "到达",
+    "traditional": "到達",
+    "pinyin": "dào dá",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to reach; to arrive"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0144",
+    "simplified": "到底",
+    "pinyin": "dào dǐ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "finally",
+      "in the end",
+      "when all is said and done",
+      "after all",
+      "to the end",
+      "to the last"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0145",
+    "simplified": "得分",
+    "pinyin": "dé fēn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to score a point (in a competition, test etc)",
+      "score; rating; grade"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0146",
+    "simplified": "等待",
+    "pinyin": "děng dài",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to wait; to wait for"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0147",
+    "simplified": "底下",
+    "pinyin": "dǐ xia",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the location below sth",
+      "afterwards"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0148",
+    "simplified": "地区",
+    "traditional": "地區",
+    "pinyin": "dì qū",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "region; area (informal or geographical term)",
+      "prefecture (in China's administrative system)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0149",
+    "simplified": "电视剧",
+    "traditional": "電視劇",
+    "pinyin": "diàn shì jù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "TV series",
+      "TV drama",
+      "CL:部"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0150",
+    "simplified": "电视台",
+    "traditional": "電視臺",
+    "pinyin": "diàn shì tái",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "variant of 電視台/电视台"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0151",
+    "simplified": "电台",
+    "traditional": "電臺",
+    "pinyin": "diàn tái",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "transmitter-receiver",
+      "broadcasting station",
+      "radio station",
+      "CL:個/个,家"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0152",
+    "simplified": "电子邮件",
+    "traditional": "電子郵件",
+    "pinyin": "diàn zǐ yóu jiàn",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "email",
+      "CL:封,份"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0153",
+    "simplified": "调",
+    "traditional": "調",
+    "pinyin": "diào",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to transfer",
+      "to move (troops or cadres)",
+      "to investigate",
+      "to enquire into",
+      "accent",
+      "view",
+      "argument",
+      "key (in music)",
+      "mode (music)",
+      "tune",
+      "tone",
+      "melody"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0708",
+        "pinyin": "tiáo",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0154",
+    "simplified": "调查",
+    "traditional": "調查",
+    "pinyin": "diào chá",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "investigation",
+      "inquiry",
+      "to investigate",
+      "to survey",
+      "survey",
+      "(opinion) poll",
+      "CL:項/项,個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0155",
+    "simplified": "订",
+    "traditional": "訂",
+    "pinyin": "dìng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to agree",
+      "to conclude",
+      "to draw up",
+      "to subscribe to (a newspaper etc)",
+      "to order"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0156",
+    "simplified": "定期",
+    "pinyin": "dìng qī",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "at set dates",
+      "at regular intervals",
+      "periodic",
+      "limited to a fixed period of time",
+      "fixed term"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0157",
+    "simplified": "东部",
+    "traditional": "東部",
+    "pinyin": "dōng bù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the east",
+      "eastern part"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0158",
+    "simplified": "动力",
+    "traditional": "動力",
+    "pinyin": "dòng lì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "motive power",
+      "(fig.) motivation; impetus"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0159",
+    "simplified": "动人",
+    "traditional": "動人",
+    "pinyin": "dòng rén",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "touching",
+      "moving"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0160",
+    "simplified": "读者",
+    "traditional": "讀者",
+    "pinyin": "dú zhě",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "reader"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0161",
+    "simplified": "短处",
+    "traditional": "短處",
+    "pinyin": "duǎn chù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "shortcoming",
+      "defect",
+      "fault",
+      "one's weak points"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0162",
+    "simplified": "短裤",
+    "traditional": "短褲",
+    "pinyin": "duǎn kù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "short pants",
+      "shorts"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0163",
+    "simplified": "短期",
+    "pinyin": "duǎn qī",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "short-term"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0164",
+    "simplified": "断",
+    "traditional": "斷",
+    "pinyin": "duàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to break",
+      "to snap",
+      "to cut off",
+      "to give up or abstain from sth",
+      "to judge",
+      "(usu. used in the negative) absolutely",
+      "definitely",
+      "decidedly"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0165",
+    "simplified": "队员",
+    "traditional": "隊員",
+    "pinyin": "duì yuán",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "team member"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0166",
+    "simplified": "对待",
+    "traditional": "對待",
+    "pinyin": "duì dài",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to treat",
+      "treatment"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0167",
+    "simplified": "对方",
+    "traditional": "對方",
+    "pinyin": "duì fāng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the other person; the other side; the other party"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0168",
+    "simplified": "对手",
+    "traditional": "對手",
+    "pinyin": "duì shǒu",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "opponent",
+      "rival",
+      "competitor",
+      "(well-matched) adversary",
+      "match"
+    ],
+    "needsEnglish": false
+  }
+]

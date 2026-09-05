@@ -1,0 +1,680 @@
+[
+  {
+    "id": "L3-0214",
+    "simplified": "概念",
+    "pinyin": "gài niàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "concept",
+      "idea",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0215",
+    "simplified": "赶",
+    "traditional": "趕",
+    "pinyin": "gǎn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to overtake; to catch up with",
+      "to hurry; to rush",
+      "to try to catch (the bus etc)",
+      "to drive (cattle etc) forward; to drive (sb) away",
+      "to avail oneself of (an opportunity)",
+      "until; by (a certain time)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0216",
+    "simplified": "赶到",
+    "traditional": "趕到",
+    "pinyin": "gǎn dào",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to hurry (to some place)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0217",
+    "simplified": "赶紧",
+    "traditional": "趕緊",
+    "pinyin": "gǎn jǐn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "hurriedly",
+      "without delay"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0218",
+    "simplified": "赶快",
+    "traditional": "趕快",
+    "pinyin": "gǎn kuài",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "quickly; at once"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0219",
+    "simplified": "敢",
+    "pinyin": "gǎn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to dare",
+      "daring",
+      "(polite) may I venture"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0220",
+    "simplified": "感冒",
+    "pinyin": "gǎn mào",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to catch cold",
+      "(common) cold",
+      "CL:場/场,次",
+      "(coll.) to be interested in (often used in the negative)",
+      "(Tw) to detest",
+      "can't stand"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0221",
+    "simplified": "感情",
+    "pinyin": "gǎn qíng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "emotion; sentiment",
+      "affection; feelings between two persons"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0222",
+    "simplified": "感受",
+    "pinyin": "gǎn shòu",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to sense",
+      "perception",
+      "to feel (through the senses)",
+      "to experience",
+      "a feeling",
+      "an impression",
+      "an experience"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0223",
+    "simplified": "干吗",
+    "traditional": "幹嗎",
+    "pinyin": "gàn má",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "variant of 幹嘛/干嘛"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0224",
+    "simplified": "高速",
+    "pinyin": "gāo sù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "high speed",
+      "expressway (abbr. for 高速公路)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0225",
+    "simplified": "高速公路",
+    "pinyin": "gāo sù gōng lù",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "expressway; highway; freeway"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0226",
+    "simplified": "告别",
+    "traditional": "告別",
+    "pinyin": "gào bié",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to leave; to part from",
+      "to bid farewell to; to say goodbye to"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0227",
+    "simplified": "歌迷",
+    "pinyin": "gē mí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "fan of a singer"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0228",
+    "simplified": "歌声",
+    "traditional": "歌聲",
+    "pinyin": "gē shēng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "singing voice",
+      "fig. original voice of a poet"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0229",
+    "simplified": "歌手",
+    "pinyin": "gē shǒu",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "singer"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0230",
+    "simplified": "个人",
+    "traditional": "個人",
+    "pinyin": "gè rén",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "an individual; oneself; (attributive) personal; one's own"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0231",
+    "simplified": "个性",
+    "traditional": "個性",
+    "pinyin": "gè xìng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "individuality",
+      "personality"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0232",
+    "simplified": "各",
+    "pinyin": "gè",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Pron",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "each",
+      "every"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0233",
+    "simplified": "各地",
+    "pinyin": "gè dì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "in all parts of (a country)",
+      "various regions"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0234",
+    "simplified": "各位",
+    "pinyin": "gè wèi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "everybody",
+      "all (guests, colleagues etc)",
+      "all of you"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0235",
+    "simplified": "各种",
+    "traditional": "各種",
+    "pinyin": "gè zhǒng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "every kind of; all kinds of; various"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0236",
+    "simplified": "各自",
+    "pinyin": "gè zì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "each",
+      "respective",
+      "apiece"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0237",
+    "simplified": "根本",
+    "pinyin": "gēn běn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv",
+      "Adj",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "fundamental",
+      "basic",
+      "root",
+      "simply",
+      "absolutely (not)",
+      "(not) at all",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0238",
+    "simplified": "更加",
+    "pinyin": "gèng jiā",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "more (than sth else)",
+      "even more"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0239",
+    "simplified": "工厂",
+    "traditional": "工廠",
+    "pinyin": "gōng chǎng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "factory",
+      "CL:家,座"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0240",
+    "simplified": "工程师",
+    "traditional": "工程師",
+    "pinyin": "gōng chéng shī",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "engineer"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0241",
+    "simplified": "工夫",
+    "pinyin": "gōng fu",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "period of time (may be months, or mere seconds)",
+      "spare time",
+      "skill",
+      "labor",
+      "effort"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0242",
+    "simplified": "工具",
+    "pinyin": "gōng jù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "tool",
+      "instrument",
+      "utensil",
+      "means (to achieve a goal etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0243",
+    "simplified": "工业",
+    "traditional": "工業",
+    "pinyin": "gōng yè",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "industry"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0244",
+    "simplified": "工资",
+    "traditional": "工資",
+    "pinyin": "gōng zī",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "wages; pay",
+      "CL:份"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0245",
+    "simplified": "公布",
+    "traditional": "公佈",
+    "pinyin": "gōng bù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "variant of 公布"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0246",
+    "simplified": "公共",
+    "pinyin": "gōng gòng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "public; common; communal"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0247",
+    "simplified": "公开",
+    "traditional": "公開",
+    "pinyin": "gōng kāi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "open; overt; public",
+      "to make public; to release"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0248",
+    "simplified": "公民",
+    "pinyin": "gōng mín",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "citizen"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0249",
+    "simplified": "公务员",
+    "traditional": "公務員",
+    "pinyin": "gōng wù yuán",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "civil servant; public servant"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0250",
+    "simplified": "功夫",
+    "pinyin": "gōng fu",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "skill",
+      "art",
+      "kung fu",
+      "labor",
+      "effort"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0251",
+    "simplified": "功课",
+    "traditional": "功課",
+    "pinyin": "gōng kè",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "homework",
+      "assignment",
+      "task",
+      "classwork",
+      "lesson",
+      "study",
+      "CL:門/门"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0252",
+    "simplified": "功能",
+    "pinyin": "gōng néng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "function; capability"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0253",
+    "simplified": "共同",
+    "pinyin": "gòng tóng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "common",
+      "joint",
+      "jointly",
+      "together",
+      "collaborative"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0254",
+    "simplified": "共有",
+    "pinyin": "gòng yǒu",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "in total there are ...",
+      "to own jointly"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0255",
+    "simplified": "姑娘",
+    "pinyin": "gū niang",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "girl",
+      "young woman",
+      "young lady",
+      "daughter",
+      "paternal aunt (old)",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0256",
+    "simplified": "古",
+    "pinyin": "gǔ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "ancient",
+      "old",
+      "paleo-"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0257",
+    "simplified": "古代",
+    "pinyin": "gǔ dài",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "ancient times"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0258",
+    "simplified": "故乡",
+    "traditional": "故鄉",
+    "pinyin": "gù xiāng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "home",
+      "homeland",
+      "native place",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  }
+]

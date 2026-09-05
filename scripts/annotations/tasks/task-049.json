@@ -1,0 +1,729 @@
+[
+  {
+    "id": "L3-0889",
+    "simplified": "整",
+    "pinyin": "zhěng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "(bound form) whole; complete; entire; (before a measure word) whole; (before or after number + measure word) exactly",
+      "(bound form) in good order; tidy; neat",
+      "(bound form) to put in order; to straighten",
+      "(bound form) to repair; to mend; to renovate",
+      "(coll.) to fix sb; to give sb a hard time; to mess with sb",
+      "(dialect) to tinker with; to do sth to"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0890",
+    "simplified": "整个",
+    "traditional": "整個",
+    "pinyin": "zhěng gè",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "whole",
+      "entire",
+      "total"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0891",
+    "simplified": "整理",
+    "pinyin": "zhěng lǐ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to arrange",
+      "to tidy up",
+      "to sort out",
+      "to straighten out",
+      "to list systematically",
+      "to collate (data, files)",
+      "to pack (luggage)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0892",
+    "simplified": "整齐",
+    "traditional": "整齊",
+    "pinyin": "zhěng qí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "orderly",
+      "neat",
+      "even",
+      "tidy"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0893",
+    "simplified": "整体",
+    "traditional": "整體",
+    "pinyin": "zhěng tǐ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "whole; entirety",
+      "overall; whole; general",
+      "on the whole; overall"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0894",
+    "simplified": "整天",
+    "pinyin": "zhěng tiān",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "all day long",
+      "whole day"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0895",
+    "simplified": "整整",
+    "pinyin": "zhěng zhěng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "whole",
+      "full"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0896",
+    "simplified": "正",
+    "pinyin": "zhèng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "straight",
+      "upright",
+      "proper",
+      "main",
+      "principal",
+      "to correct",
+      "to rectify",
+      "exactly",
+      "just (at that time)",
+      "right (in that place)",
+      "(math.) positive"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0472",
+        "pinyin": "zhèng",
+        "partOfSpeech": [
+          "Adv"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0897",
+    "simplified": "正式",
+    "pinyin": "zhèng shì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "formal; official"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0898",
+    "simplified": "证",
+    "traditional": "證",
+    "pinyin": "zhèng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "certificate",
+      "proof",
+      "to prove",
+      "to demonstrate",
+      "to confirm",
+      "variant of 症"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0899",
+    "simplified": "证件",
+    "traditional": "證件",
+    "pinyin": "zhèng jiàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "certificate; papers; credentials; document; ID"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0900",
+    "simplified": "证据",
+    "traditional": "證據",
+    "pinyin": "zhèng jù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "evidence",
+      "proof",
+      "testimony"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0901",
+    "simplified": "证明",
+    "traditional": "證明",
+    "pinyin": "zhèng míng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "proof",
+      "certificate",
+      "identification",
+      "testimonial",
+      "CL:個/个",
+      "to prove",
+      "to testify",
+      "to confirm the truth of"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0902",
+    "simplified": "支",
+    "pinyin": "zhī",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "to support",
+      "to sustain",
+      "to erect",
+      "to raise",
+      "branch",
+      "division",
+      "to draw money",
+      "classifier for rods such as pens and guns, for army divisions and for songs or compositions"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0903",
+    "simplified": "支持",
+    "pinyin": "zhī chí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to be in favor of",
+      "to support",
+      "to back",
+      "support",
+      "backing",
+      "to stand by",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0904",
+    "simplified": "支付",
+    "pinyin": "zhī fù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to pay (money)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0905",
+    "simplified": "只",
+    "traditional": "隻",
+    "pinyin": "zhī",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "classifier for birds and certain animals, one of a pair, some utensils, vessels etc"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0730",
+        "pinyin": "zhǐ",
+        "partOfSpeech": [
+          "Adv"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0906",
+    "simplified": "直",
+    "pinyin": "zhí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "V",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "straight",
+      "to straighten",
+      "fair and reasonable",
+      "frank",
+      "straightforward",
+      "(indicates continuing motion or action)",
+      "vertical",
+      "vertical downward stroke in Chinese characters"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0907",
+    "simplified": "直播",
+    "pinyin": "zhí bō",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "(TV, radio) to broadcast live",
+      "live broadcast",
+      "(Internet) to livestream",
+      "(agriculture) direct seeding"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0908",
+    "simplified": "直到",
+    "pinyin": "zhí dào",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "until"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0909",
+    "simplified": "值",
+    "pinyin": "zhí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "value",
+      "(to be) worth",
+      "to happen to",
+      "to be on duty"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0910",
+    "simplified": "值得",
+    "pinyin": "zhí de",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "worth the money",
+      "to merit; to deserve; to be worth (doing sth)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0911",
+    "simplified": "职工",
+    "traditional": "職工",
+    "pinyin": "zhí gōng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "employee; staff member; worker"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0912",
+    "simplified": "职业",
+    "traditional": "職業",
+    "pinyin": "zhí yè",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "occupation; profession; vocation",
+      "professional"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0913",
+    "simplified": "只好",
+    "pinyin": "zhǐ hǎo",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "to have no other option but to ...; to have to; to be forced to"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0914",
+    "simplified": "只是",
+    "pinyin": "zhǐ shì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv",
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "merely; only; just; nothing but",
+      "simply",
+      "but; however"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0915",
+    "simplified": "只有",
+    "pinyin": "zhǐ yǒu",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "only have ...; there is only ...",
+      "(used in combination with 才) it is only if ... (that one can ...) (as in 只有通過治療才能痊愈/只有通过治疗才能痊愈 \"the only way to cure it is with therapy\")",
+      "it is only (someone) who ... (as in 只有男性才有此需要 \"only men would have such a requirement\")",
+      "(used to express lack of alternatives) can only; have no choice but to (as in 只有屈服 \"the only thing you can do is give in\")"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0916",
+    "simplified": "指",
+    "pinyin": "zhǐ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "finger",
+      "to point at or to",
+      "to indicate or refer to",
+      "to depend on",
+      "to count on",
+      "(of hair) to stand on end"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0917",
+    "simplified": "指出",
+    "pinyin": "zhǐ chū",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to indicate",
+      "to point out"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0918",
+    "simplified": "指导",
+    "traditional": "指導",
+    "pinyin": "zhǐ dǎo",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to guide; to direct; to instruct",
+      "coach; trainer"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0919",
+    "simplified": "至今",
+    "pinyin": "zhì jīn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "so far",
+      "to this day",
+      "until now"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0920",
+    "simplified": "至少",
+    "pinyin": "zhì shǎo",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "at least",
+      "(to say the) least"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0921",
+    "simplified": "志愿",
+    "traditional": "志願",
+    "pinyin": "zhì yuàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "aspiration",
+      "ambition",
+      "to volunteer"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0922",
+    "simplified": "志愿者",
+    "traditional": "志願者",
+    "pinyin": "zhì yuàn zhě",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "volunteer"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0923",
+    "simplified": "制定",
+    "pinyin": "zhì dìng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to draw up; to formulate"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0924",
+    "simplified": "制度",
+    "pinyin": "zhì dù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "system (e.g. political, adminstrative etc)",
+      "institution",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0925",
+    "simplified": "制造",
+    "traditional": "製造",
+    "pinyin": "zhì zào",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to manufacture; to make"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0926",
+    "simplified": "制作",
+    "traditional": "製作",
+    "pinyin": "zhì zuò",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to make; to manufacture"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0927",
+    "simplified": "中部",
+    "pinyin": "zhōng bù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "middle part; central section; central region"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0928",
+    "simplified": "中华民族",
+    "traditional": "中華民族",
+    "pinyin": "zhōng huá mín zú",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "the Chinese nation",
+      "the Chinese people (collective reference to all the ethnic groups in China)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0929",
+    "simplified": "终于",
+    "traditional": "終於",
+    "pinyin": "zhōng yú",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "at last",
+      "in the end",
+      "finally",
+      "eventually"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0930",
+    "simplified": "钟",
+    "traditional": "鐘",
+    "pinyin": "zhōng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "a (large) bell (CL:架)",
+      "clock (CL:座)",
+      "amount of time; o'clock (CL:點/点,分,秒) (as in 三點鐘/三点钟 \"three o'clock\" or \"three hours\" or 五分鐘/五分钟 \"five minutes\" etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0931",
+    "simplified": "种",
+    "traditional": "種",
+    "pinyin": "zhǒng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "seed",
+      "species",
+      "kind",
+      "type",
+      "classifier for types, kinds, sorts"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0932",
+    "simplified": "种子",
+    "traditional": "種子",
+    "pinyin": "zhǒng zi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "seed",
+      "CL:顆/颗,粒"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0933",
+    "simplified": "重大",
+    "pinyin": "zhòng dà",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "great",
+      "important",
+      "major",
+      "significant"
+    ],
+    "needsEnglish": false
+  }
+]

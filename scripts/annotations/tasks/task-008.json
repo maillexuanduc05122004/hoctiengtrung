@@ -1,0 +1,684 @@
+[
+  {
+    "id": "L1-0316",
+    "simplified": "上班",
+    "pinyin": "shàng bān",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to go to work",
+      "to be on duty",
+      "to start work",
+      "to go to the office"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0317",
+    "simplified": "上边",
+    "traditional": "上邊",
+    "pinyin": "shàng bian",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the top",
+      "above",
+      "overhead",
+      "upwards",
+      "the top margin",
+      "above-mentioned",
+      "those higher up"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0318",
+    "simplified": "上车",
+    "traditional": "上車",
+    "pinyin": "shàng chē",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to get on or into (a bus, train, car etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0319",
+    "simplified": "上次",
+    "pinyin": "shàng cì",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "last time"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0320",
+    "simplified": "上课",
+    "traditional": "上課",
+    "pinyin": "shàng kè",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to go to class",
+      "to attend class",
+      "to go to teach a class"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0321",
+    "simplified": "上网",
+    "traditional": "上網",
+    "pinyin": "shàng wǎng",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to go online",
+      "to connect to the Internet",
+      "(of a document etc) to be uploaded to the Internet",
+      "(tennis, volleyball etc) to move in close to the net"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0322",
+    "simplified": "上午",
+    "pinyin": "shàng wǔ",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "morning"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0323",
+    "simplified": "上学",
+    "traditional": "上學",
+    "pinyin": "shàng xué",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to go to school",
+      "to attend school"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0324",
+    "simplified": "少",
+    "pinyin": "shǎo",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "few",
+      "less",
+      "to lack",
+      "to be missing",
+      "to stop (doing sth)",
+      "seldom"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0325",
+    "simplified": "谁",
+    "traditional": "誰",
+    "pinyin": "shéi",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pr"
+    ],
+    "cedictDefinitions": [
+      "who",
+      "also pr."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0326",
+    "simplified": "身上",
+    "pinyin": "shēn shang",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "on the body",
+      "at hand",
+      "among"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0327",
+    "simplified": "身体",
+    "traditional": "身體",
+    "pinyin": "shēn tǐ",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the body",
+      "one's health"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0328",
+    "simplified": "什么",
+    "traditional": "什麼",
+    "pinyin": "shén me",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "what?",
+      "something; anything"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0329",
+    "simplified": "生病",
+    "pinyin": "shēng bìng",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to fall ill"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0330",
+    "simplified": "生气",
+    "traditional": "生氣",
+    "pinyin": "shēng qì",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to get angry; to be furious",
+      "vitality; liveliness"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0331",
+    "simplified": "生日",
+    "pinyin": "shēng rì",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "birthday",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0332",
+    "simplified": "十",
+    "pinyin": "shí",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Num"
+    ],
+    "cedictDefinitions": [
+      "ten",
+      "10"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0333",
+    "simplified": "时候",
+    "traditional": "時候",
+    "pinyin": "shí hou",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "time",
+      "length of time",
+      "moment",
+      "period"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0334",
+    "simplified": "时间",
+    "traditional": "時間",
+    "pinyin": "shí jiān",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(concept of) time",
+      "(duration of) time",
+      "(point in) time"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0335",
+    "simplified": "事",
+    "pinyin": "shì",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "matter",
+      "thing",
+      "item",
+      "work",
+      "affair",
+      "CL:件,樁/桩,回"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0336",
+    "simplified": "试",
+    "traditional": "試",
+    "pinyin": "shì",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to test",
+      "to try",
+      "experiment",
+      "examination",
+      "test"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0337",
+    "simplified": "是",
+    "pinyin": "shì",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to be (followed by substantives only)",
+      "correct; right; true",
+      "(respectful acknowledgement of a command) very well",
+      "(adverb for emphatic assertion)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0338",
+    "simplified": "是不是",
+    "pinyin": "shì bu shì",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "is or is not (used to form yes-no questions)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0339",
+    "simplified": "手",
+    "pinyin": "shǒu",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "hand",
+      "(formal) to hold",
+      "person engaged in certain types of work",
+      "person skilled in certain types of work",
+      "personal(ly)",
+      "convenient",
+      "classifier for skill",
+      "CL:雙/双,隻/只"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0340",
+    "simplified": "手机",
+    "traditional": "手機",
+    "pinyin": "shǒu jī",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "cell phone; mobile phone",
+      "CL:部,臺/台"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0341",
+    "simplified": "书",
+    "traditional": "書",
+    "pinyin": "shū",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "book",
+      "letter",
+      "document",
+      "CL:本,冊/册,部",
+      "to write"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0342",
+    "simplified": "书包",
+    "traditional": "書包",
+    "pinyin": "shū bāo",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "schoolbag",
+      "satchel",
+      "bookbag",
+      "CL:個/个,隻/只"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0343",
+    "simplified": "书店",
+    "traditional": "書店",
+    "pinyin": "shū diàn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "bookstore",
+      "CL:家"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0344",
+    "simplified": "树",
+    "traditional": "樹",
+    "pinyin": "shù",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "tree",
+      "CL:棵",
+      "to cultivate",
+      "to set up"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0345",
+    "simplified": "水",
+    "pinyin": "shuǐ",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "water",
+      "(after a name) ... River",
+      "to swim (used mostly in 會水/会水 and 水性)",
+      "(coll.) lacking in substance; shoddy",
+      "(bound form) additional cost; extra income",
+      "classifier for washings of a garment"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0346",
+    "simplified": "水果",
+    "pinyin": "shuǐ guǒ",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "fruit"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0347",
+    "simplified": "睡",
+    "pinyin": "shuì",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to sleep",
+      "to lie down"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0348",
+    "simplified": "睡觉",
+    "traditional": "睡覺",
+    "pinyin": "shuì jiào",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to go to bed",
+      "to sleep"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0349",
+    "simplified": "说",
+    "traditional": "說",
+    "pinyin": "shuō",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to speak; to talk; to say",
+      "to explain; to comment",
+      "to scold; to tell off",
+      "(bound form) theory; doctrine"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0350",
+    "simplified": "说话",
+    "traditional": "說話",
+    "pinyin": "shuō huà",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to speak",
+      "to say",
+      "to talk",
+      "to gossip",
+      "to tell stories",
+      "talk",
+      "word"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0351",
+    "simplified": "四",
+    "pinyin": "sì",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Num"
+    ],
+    "cedictDefinitions": [
+      "four",
+      "4"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0352",
+    "simplified": "送",
+    "pinyin": "sòng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to send; to deliver; to transmit",
+      "to give (as a present)",
+      "to see (sb) off",
+      "to accompany; to go along with"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0353",
+    "simplified": "岁",
+    "traditional": "歲",
+    "pinyin": "suì",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "classifier for years (of age)",
+      "year",
+      "year (of crop harvests)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0354",
+    "simplified": "他",
+    "pinyin": "tā",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "(third-person singular) (since the early 20th century, usu. male) he; him; his",
+      "(bound form) other; another; some other (as in 他日 and 他人)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0355",
+    "simplified": "他们",
+    "traditional": "他們",
+    "pinyin": "tā men",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "they; them"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0356",
+    "simplified": "她",
+    "pinyin": "tā",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "she"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0357",
+    "simplified": "她们",
+    "traditional": "她們",
+    "pinyin": "tā men",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "they; them (females)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0358",
+    "simplified": "太",
+    "pinyin": "tài",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "highest",
+      "greatest",
+      "too (much)",
+      "very",
+      "extremely"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0359",
+    "simplified": "天",
+    "pinyin": "tiān",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "day",
+      "sky",
+      "heaven"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0360",
+    "simplified": "天气",
+    "traditional": "天氣",
+    "pinyin": "tiān qì",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "weather"
+    ],
+    "needsEnglish": false
+  }
+]

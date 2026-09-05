@@ -1,0 +1,729 @@
+[
+  {
+    "id": "L2-0401",
+    "simplified": "鸟",
+    "traditional": "鳥",
+    "pinyin": "niǎo",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "bird",
+      "CL:隻/只,群",
+      "\"bird\" radical in Chinese characters (Kangxi radical 196)",
+      "(dialect) to pay attention to",
+      "(intensifier) damned",
+      "goddamn"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0402",
+    "simplified": "弄",
+    "pinyin": "nòng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to do",
+      "to manage",
+      "to handle",
+      "to play with",
+      "to fool with",
+      "to mess with",
+      "to fix",
+      "to toy with"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0403",
+    "simplified": "努力",
+    "pinyin": "nǔ lì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "to make an effort; to try hard; to strive",
+      "hard-working; conscientious"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0404",
+    "simplified": "爬",
+    "pinyin": "pá",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to crawl",
+      "to climb",
+      "to get up or sit up"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0405",
+    "simplified": "爬山",
+    "pinyin": "pá shān",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to go for a hike (esp. in the hills or mountains)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0406",
+    "simplified": "怕",
+    "pinyin": "pà",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to be afraid",
+      "to fear",
+      "to dread",
+      "to be unable to endure",
+      "perhaps"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0521",
+        "pinyin": "pà",
+        "partOfSpeech": [
+          "Adv"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0407",
+    "simplified": "排",
+    "pinyin": "pái",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "to arrange in order; to line up",
+      "to exclude; to eliminate; to repel; to expel; to discharge",
+      "(literary) to push aside; to force open",
+      "to rehearse",
+      "row; line",
+      "platoon",
+      "(bound form) steak; chop",
+      "(bound form) raft",
+      "classifier for rows or lines (of people or things)"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0523",
+        "pinyin": "pái",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0408",
+    "simplified": "排队",
+    "traditional": "排隊",
+    "pinyin": "pái duì",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to line up"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0409",
+    "simplified": "排球",
+    "pinyin": "pái qiú",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "volleyball",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0410",
+    "simplified": "碰",
+    "pinyin": "pèng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to touch",
+      "to meet with",
+      "to bump"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0411",
+    "simplified": "碰到",
+    "pinyin": "pèng dào",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to come across",
+      "to run into",
+      "to meet",
+      "to hit"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0412",
+    "simplified": "碰见",
+    "traditional": "碰見",
+    "pinyin": "pèng jiàn",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to run into",
+      "to meet (unexpectedly)",
+      "to bump into"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0413",
+    "simplified": "篇",
+    "pinyin": "piān",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "sheet",
+      "piece of writing",
+      "bound set of bamboo slips used for record keeping (old)",
+      "classifier for written items: chapter, article"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0414",
+    "simplified": "便宜",
+    "pinyin": "pián yi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "cheap; inexpensive",
+      "a petty advantage",
+      "to let sb off lightly"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0415",
+    "simplified": "片",
+    "pinyin": "piàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "thin piece",
+      "flake",
+      "a slice",
+      "film",
+      "TV play",
+      "to slice",
+      "to carve thin",
+      "partial",
+      "incomplete",
+      "one-sided",
+      "classifier for slices, tablets, tract of land, area of water",
+      "classifier for CDs, movies, DVDs etc",
+      "used with numeral 一: classifier for scenario, scene, feeling, atmosphere, sound etc",
+      "Kangxi radical 91"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0416",
+    "simplified": "漂亮",
+    "pinyin": "piào liang",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "pretty; beautiful"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0417",
+    "simplified": "平",
+    "pinyin": "píng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "flat; level; smooth",
+      "to make even; to level",
+      "equal; on the same level",
+      "(bound form) fair; impartial",
+      "to tie; to draw",
+      "(bound form) average; ordinary",
+      "(bound form) calm; peaceful",
+      "(bound form) to quell; to suppress; to put down",
+      "(abbr. for 平聲/平声)",
+      "(coll.) square meter (abbr. for 平方米)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0418",
+    "simplified": "平安",
+    "pinyin": "píng ān",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "safe and sound",
+      "well",
+      "without mishap",
+      "quiet and safe",
+      "at peace"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0419",
+    "simplified": "平常",
+    "pinyin": "píng cháng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "ordinary",
+      "common",
+      "usually",
+      "ordinarily"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0420",
+    "simplified": "平等",
+    "pinyin": "píng děng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "equal",
+      "equality"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0421",
+    "simplified": "平时",
+    "traditional": "平時",
+    "pinyin": "píng shí",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "ordinarily",
+      "in normal times",
+      "in peacetime"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0422",
+    "simplified": "瓶",
+    "pinyin": "píng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "bottle",
+      "vase",
+      "pitcher",
+      "CL:個/个",
+      "classifier for wine and liquids"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0423",
+    "simplified": "瓶子",
+    "pinyin": "píng zi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "bottle",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0424",
+    "simplified": "普通",
+    "pinyin": "pǔ tōng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "common",
+      "ordinary",
+      "general",
+      "average"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0425",
+    "simplified": "普通话",
+    "traditional": "普通話",
+    "pinyin": "pǔ tōng huà",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "Putonghua; standard Mandarin"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0426",
+    "simplified": "其他",
+    "pinyin": "qí tā",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "other",
+      "(sth or sb) else",
+      "the rest"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0427",
+    "simplified": "其中",
+    "pinyin": "qí zhōng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "among",
+      "in",
+      "included among these"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0428",
+    "simplified": "骑",
+    "traditional": "騎",
+    "pinyin": "qí",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to sit astride",
+      "to ride (a horse, bike etc)",
+      "classifier for saddle horses"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0429",
+    "simplified": "骑车",
+    "traditional": "騎車",
+    "pinyin": "qí chē",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to ride a bike (motorbike or bicycle)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0430",
+    "simplified": "起飞",
+    "traditional": "起飛",
+    "pinyin": "qǐ fēi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "(of an aircraft or rocket) to take off; to lift off",
+      "(fig.) (of an enterprise etc) to start to develop rapidly"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0431",
+    "simplified": "气",
+    "traditional": "氣",
+    "pinyin": "qì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "gas; air",
+      "smell",
+      "weather",
+      "to make angry; to annoy; to get angry",
+      "vital energy; qi"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0432",
+    "simplified": "气温",
+    "traditional": "氣溫",
+    "pinyin": "qì wēn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "air temperature"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0433",
+    "simplified": "千",
+    "pinyin": "qiān",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Num"
+    ],
+    "cedictDefinitions": [
+      "thousand"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0434",
+    "simplified": "千克",
+    "pinyin": "qiān kè",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "kilogram"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0435",
+    "simplified": "前年",
+    "pinyin": "qián nián",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the year before last"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0436",
+    "simplified": "墙",
+    "traditional": "牆",
+    "pinyin": "qiáng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "wall (CL:面,堵)",
+      "(slang) to block (a website) (usu. in the passive: 被牆/被墙)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0437",
+    "simplified": "青年",
+    "pinyin": "qīng nián",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "youth",
+      "youthful years",
+      "young person",
+      "the young"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0438",
+    "simplified": "青少年",
+    "pinyin": "qīng shào nián",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "adolescent",
+      "youth",
+      "teenager"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0439",
+    "simplified": "轻",
+    "traditional": "輕",
+    "pinyin": "qīng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "light",
+      "easy",
+      "gentle",
+      "soft",
+      "reckless",
+      "unimportant",
+      "frivolous",
+      "small in number",
+      "unstressed",
+      "neutral",
+      "to disparage"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0440",
+    "simplified": "清楚",
+    "pinyin": "qīng chu",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "clear",
+      "distinct",
+      "to understand thoroughly",
+      "to be clear about"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0441",
+    "simplified": "晴",
+    "pinyin": "qíng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "clear",
+      "fine (weather)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0442",
+    "simplified": "晴天",
+    "pinyin": "qíng tiān",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "clear sky",
+      "sunny day"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0443",
+    "simplified": "请客",
+    "traditional": "請客",
+    "pinyin": "qǐng kè",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to give a dinner party",
+      "to entertain guests",
+      "to invite to dinner"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0444",
+    "simplified": "请求",
+    "traditional": "請求",
+    "pinyin": "qǐng qiú",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to request; to ask",
+      "request (CL:個/个)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0445",
+    "simplified": "秋天",
+    "pinyin": "qiū tiān",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "autumn",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  }
+]

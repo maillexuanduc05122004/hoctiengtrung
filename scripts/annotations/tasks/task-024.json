@@ -1,0 +1,773 @@
+[
+  {
+    "id": "L2-0536",
+    "simplified": "听讲",
+    "traditional": "聽講",
+    "pinyin": "tīng jiǎng",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to attend a lecture",
+      "to listen to a talk"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0537",
+    "simplified": "听说",
+    "traditional": "聽說",
+    "pinyin": "tīng shuō",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to hear (sth said)",
+      "one hears (that)",
+      "hearsay",
+      "listening and speaking"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0538",
+    "simplified": "停",
+    "pinyin": "tíng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to stop",
+      "to halt",
+      "to park (a car)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0539",
+    "simplified": "停车",
+    "traditional": "停車",
+    "pinyin": "tíng chē",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to pull up (stop one's vehicle)",
+      "to park",
+      "(of a machine) to stop working",
+      "to stall"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0540",
+    "simplified": "停车场",
+    "traditional": "停車場",
+    "pinyin": "tíng chē chǎng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "parking lot",
+      "car park"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0541",
+    "simplified": "挺",
+    "pinyin": "tǐng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "straight",
+      "erect",
+      "to stick out (a part of the body)",
+      "to (physically) straighten up",
+      "to support",
+      "to withstand",
+      "outstanding",
+      "(coll.) quite",
+      "very",
+      "classifier for machine guns"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0542",
+    "simplified": "挺好",
+    "pinyin": "tǐng hǎo",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "very good"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0543",
+    "simplified": "通",
+    "pinyin": "tōng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "to go through",
+      "to know well",
+      "(suffix) expert",
+      "to connect",
+      "to communicate",
+      "open",
+      "to clear",
+      "classifier for letters, telegrams, phone calls etc"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0544",
+    "simplified": "通过",
+    "traditional": "通過",
+    "pinyin": "tōng guò",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Prep",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to pass through; to get through",
+      "to adopt (a resolution); to pass (legislation)",
+      "to pass (a test)",
+      "by means of; through; via"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0545",
+    "simplified": "通知",
+    "pinyin": "tōng zhī",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to notify",
+      "to inform",
+      "notice",
+      "notification",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0546",
+    "simplified": "同时",
+    "traditional": "同時",
+    "pinyin": "tóng shí",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Conj",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "at the same time; simultaneously"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0547",
+    "simplified": "同事",
+    "pinyin": "tóng shì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "colleague; co-worker"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0548",
+    "simplified": "同样",
+    "traditional": "同樣",
+    "pinyin": "tóng yàng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj",
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "same; equal; similar",
+      "similarly; also; too"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0549",
+    "simplified": "头",
+    "traditional": "頭",
+    "pinyin": "tóu",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "head",
+      "hair style",
+      "the top",
+      "end",
+      "beginning or end",
+      "a stub",
+      "remnant",
+      "chief",
+      "boss",
+      "side",
+      "aspect",
+      "first",
+      "leading",
+      "classifier for pigs or livestock",
+      "CL:個/个"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0550",
+        "pinyin": "tou",
+        "partOfSpeech": [
+          "Suffix"
+        ]
+      },
+      {
+        "id": "L3-0724",
+        "pinyin": "tóu",
+        "partOfSpeech": [
+          "Adj"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0550",
+    "simplified": "头",
+    "traditional": "頭",
+    "pinyin": "tou",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Suffix"
+    ],
+    "cedictDefinitions": [
+      "suffix for nouns"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0549",
+        "pinyin": "tóu",
+        "partOfSpeech": [
+          "N",
+          "M"
+        ]
+      },
+      {
+        "id": "L3-0724",
+        "pinyin": "tóu",
+        "partOfSpeech": [
+          "Adj"
+        ]
+      }
+    ],
+    "affixExample": "里头",
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0551",
+    "simplified": "头发",
+    "traditional": "頭髮",
+    "pinyin": "tóu fa",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "hair (on the head)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0552",
+    "simplified": "图片",
+    "traditional": "圖片",
+    "pinyin": "tú piàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "picture; photograph",
+      "CL:張/张"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0553",
+    "simplified": "推",
+    "pinyin": "tuī",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to push",
+      "to cut",
+      "to refuse",
+      "to reject",
+      "to decline",
+      "to shirk (responsibility)",
+      "to put off",
+      "to delay",
+      "to push forward",
+      "to nominate",
+      "to elect",
+      "massage"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0554",
+    "simplified": "腿",
+    "pinyin": "tuǐ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "leg",
+      "CL:條/条"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0555",
+    "simplified": "外地",
+    "pinyin": "wài dì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "parts of the country other than where one is"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0556",
+    "simplified": "外卖",
+    "traditional": "外賣",
+    "pinyin": "wài mài",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "(of a restaurant) to provide a takeout or home delivery meal",
+      "takeout (business)",
+      "takeout (meal)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0557",
+    "simplified": "完",
+    "pinyin": "wán",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to finish",
+      "to be over",
+      "whole",
+      "complete",
+      "entire"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0558",
+    "simplified": "完成",
+    "pinyin": "wán chéng",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to complete; to accomplish"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0559",
+    "simplified": "完全",
+    "pinyin": "wán quán",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "complete; whole",
+      "totally; entirely"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0560",
+    "simplified": "晚安",
+    "pinyin": "wǎn ān",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "Good night!",
+      "Good evening!"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0561",
+    "simplified": "晚报",
+    "traditional": "晚報",
+    "pinyin": "wǎn bào",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "evening newspaper",
+      "(in a newspaper's name) Evening News"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0562",
+    "simplified": "晚餐",
+    "pinyin": "wǎn cān",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "evening meal; dinner",
+      "CL:份,頓/顿,次"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0563",
+    "simplified": "晚会",
+    "traditional": "晚會",
+    "pinyin": "wǎn huì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "evening party",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0564",
+    "simplified": "碗",
+    "pinyin": "wǎn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "bowl",
+      "cup",
+      "CL:隻/只,個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0565",
+    "simplified": "万",
+    "traditional": "萬",
+    "pinyin": "wàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Num"
+    ],
+    "cedictDefinitions": [
+      "ten thousand",
+      "a great number"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0566",
+    "simplified": "网",
+    "traditional": "網",
+    "pinyin": "wǎng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "net; web",
+      "network",
+      "to net; to catch with a net"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0567",
+    "simplified": "网球",
+    "traditional": "網球",
+    "pinyin": "wǎng qiú",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "tennis",
+      "tennis ball",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0568",
+    "simplified": "网站",
+    "traditional": "網站",
+    "pinyin": "wǎng zhàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "website"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0569",
+    "simplified": "往",
+    "pinyin": "wǎng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "Prep"
+    ],
+    "cedictDefinitions": [
+      "to go (in a direction)",
+      "to",
+      "towards",
+      "(of a train) bound for",
+      "past",
+      "previous"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0570",
+    "simplified": "为",
+    "traditional": "為",
+    "pinyin": "wèi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Prep"
+    ],
+    "cedictDefinitions": [
+      "because of",
+      "for",
+      "to"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0751",
+        "pinyin": "wéi",
+        "partOfSpeech": [
+          "V"
+        ]
+      },
+      {
+        "id": "L3-0752",
+        "pinyin": "wéi",
+        "partOfSpeech": [
+          "Prep"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0571",
+    "simplified": "为什么",
+    "traditional": "為什麼",
+    "pinyin": "wèi shén me",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "why?",
+      "for what reason?"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0572",
+    "simplified": "位",
+    "pinyin": "wèi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "position",
+      "location",
+      "place",
+      "seat",
+      "classifier for people (honorific)",
+      "classifier for binary bits (e.g. 十六位 16-bit or 2 bytes)",
+      "(physics) potential"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0573",
+    "simplified": "味道",
+    "pinyin": "wèi dao",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "flavor; taste",
+      "(fig.) feeling (of ...); sense (of ...); hint (of ...)",
+      "(fig.) interest; delight",
+      "(dialect) smell; odor"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0574",
+    "simplified": "喂",
+    "pinyin": "wèi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Intj"
+    ],
+    "cedictDefinitions": [
+      "hey",
+      "to feed (an animal, baby, invalid etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0575",
+    "simplified": "温度",
+    "traditional": "溫度",
+    "pinyin": "wēn dù",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "temperature",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0576",
+    "simplified": "闻",
+    "traditional": "聞",
+    "pinyin": "wén",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to hear",
+      "news",
+      "well-known",
+      "famous",
+      "reputation",
+      "fame",
+      "to smell",
+      "to sniff at"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0577",
+    "simplified": "问路",
+    "traditional": "問路",
+    "pinyin": "wèn lù",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to ask for directions",
+      "to ask the way (to some place)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0578",
+    "simplified": "问题",
+    "traditional": "問題",
+    "pinyin": "wèn tí",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "question",
+      "problem",
+      "issue",
+      "topic",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0579",
+    "simplified": "午餐",
+    "pinyin": "wǔ cān",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "lunch",
+      "luncheon",
+      "CL:份,頓/顿,次"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0580",
+    "simplified": "午睡",
+    "pinyin": "wǔ shuì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to take a nap in the afternoon"
+    ],
+    "needsEnglish": false
+  }
+]

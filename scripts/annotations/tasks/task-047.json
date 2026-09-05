@@ -1,0 +1,726 @@
+[
+  {
+    "id": "L3-0799",
+    "simplified": "心",
+    "pinyin": "xīn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "heart",
+      "mind",
+      "intention",
+      "center",
+      "core",
+      "CL:顆/颗,個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0800",
+    "simplified": "信",
+    "pinyin": "xìn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "letter",
+      "mail",
+      "CL:封",
+      "to trust",
+      "to believe",
+      "to profess faith in",
+      "truthful",
+      "confidence",
+      "trust",
+      "at will",
+      "at random"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0617",
+        "pinyin": "xìn",
+        "partOfSpeech": [
+          "N"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0801",
+    "simplified": "信封",
+    "pinyin": "xìn fēng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "envelope"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0802",
+    "simplified": "信任",
+    "pinyin": "xìn rèn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to trust",
+      "to have confidence in"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0803",
+    "simplified": "行李",
+    "pinyin": "xíng li",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "luggage",
+      "CL:件"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0804",
+    "simplified": "形成",
+    "pinyin": "xíng chéng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to form; to take shape"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0805",
+    "simplified": "形式",
+    "pinyin": "xíng shì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "outer appearance",
+      "form",
+      "shape",
+      "formality",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0806",
+    "simplified": "形象",
+    "pinyin": "xíng xiàng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "image",
+      "form",
+      "figure",
+      "CL:個/个",
+      "visualization",
+      "vivid"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0807",
+    "simplified": "形状",
+    "traditional": "形狀",
+    "pinyin": "xíng zhuàng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "form; shape"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0808",
+    "simplified": "幸福",
+    "pinyin": "xìng fú",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "happiness",
+      "happy",
+      "blessed"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0809",
+    "simplified": "幸运",
+    "traditional": "幸運",
+    "pinyin": "xìng yùn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "fortunate; lucky",
+      "good fortune; luck"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0810",
+    "simplified": "性",
+    "pinyin": "xìng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Suffix"
+    ],
+    "cedictDefinitions": [
+      "nature",
+      "character",
+      "property",
+      "quality",
+      "attribute",
+      "sexuality",
+      "sex",
+      "gender",
+      "suffix forming adjective from verb",
+      "suffix forming noun from adjective, corresponding to -ness or -ity",
+      "essence",
+      "CL:個/个"
+    ],
+    "affixExample": "积极性",
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0811",
+    "simplified": "性别",
+    "traditional": "性別",
+    "pinyin": "xìng bié",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "sex; gender"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0812",
+    "simplified": "性格",
+    "pinyin": "xìng gé",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "nature",
+      "disposition",
+      "temperament",
+      "character",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0813",
+    "simplified": "修",
+    "pinyin": "xiū",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to decorate",
+      "to embellish",
+      "to repair",
+      "to build",
+      "to write",
+      "to cultivate",
+      "to study",
+      "to take (a class)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0814",
+    "simplified": "修改",
+    "pinyin": "xiū gǎi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to amend",
+      "to alter",
+      "to modify"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0815",
+    "simplified": "需求",
+    "pinyin": "xū qiú",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "requirement",
+      "to require",
+      "(economics) demand"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0816",
+    "simplified": "需要",
+    "pinyin": "xū yào",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to need; to want; to demand; to require",
+      "needs"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0817",
+    "simplified": "宣布",
+    "pinyin": "xuān bù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to declare",
+      "to announce",
+      "to proclaim"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0818",
+    "simplified": "宣传",
+    "traditional": "宣傳",
+    "pinyin": "xuān chuán",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to disseminate",
+      "to give publicity to",
+      "propaganda",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0819",
+    "simplified": "选手",
+    "traditional": "選手",
+    "pinyin": "xuǎn shǒu",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "athlete",
+      "contestant"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0820",
+    "simplified": "学费",
+    "traditional": "學費",
+    "pinyin": "xué fèi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "tuition fee",
+      "tuition",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0821",
+    "simplified": "训练",
+    "traditional": "訓練",
+    "pinyin": "xùn liàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to train",
+      "to drill",
+      "training",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0822",
+    "simplified": "压",
+    "traditional": "壓",
+    "pinyin": "yā",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to press",
+      "to push down",
+      "to keep under (control)",
+      "pressure"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0823",
+    "simplified": "压力",
+    "traditional": "壓力",
+    "pinyin": "yā lì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "pressure"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0824",
+    "simplified": "烟",
+    "traditional": "煙",
+    "pinyin": "yān",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "cigarette or pipe tobacco",
+      "CL:根",
+      "smoke",
+      "mist",
+      "vapour",
+      "CL:縷/缕",
+      "tobacco plant",
+      "(of the eyes) to be irritated by smoke"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0825",
+    "simplified": "眼前",
+    "pinyin": "yǎn qián",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "before one's eyes",
+      "now",
+      "at present"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0826",
+    "simplified": "演",
+    "pinyin": "yǎn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to perform (a play etc); to stage (a show)",
+      "(bound form) to develop; to play out; to carry out (a task)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0827",
+    "simplified": "演唱",
+    "pinyin": "yǎn chàng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to sing (for an audience)",
+      "vocal performance"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0828",
+    "simplified": "演唱会",
+    "traditional": "演唱會",
+    "pinyin": "yǎn chàng huì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "vocal recital or concert"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0829",
+    "simplified": "演出",
+    "pinyin": "yǎn chū",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to act (in a play)",
+      "to perform",
+      "to put on (a performance)",
+      "performance",
+      "concert",
+      "show",
+      "CL:場/场,次"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0830",
+    "simplified": "演员",
+    "traditional": "演員",
+    "pinyin": "yǎn yuán",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "actor; actress; performer"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0831",
+    "simplified": "羊",
+    "pinyin": "yáng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "sheep; goat",
+      "CL:頭/头,隻/只"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0832",
+    "simplified": "阳光",
+    "traditional": "陽光",
+    "pinyin": "yáng guāng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "sunshine",
+      "(of personality) upbeat; energetic",
+      "transparent (open to public scrutiny)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0833",
+    "simplified": "要是",
+    "pinyin": "yào shi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "(coll.) if"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0834",
+    "simplified": "衣架",
+    "pinyin": "yī jià",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "clothes hanger",
+      "clothes rack"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0835",
+    "simplified": "一切",
+    "pinyin": "yī qiè",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "everything",
+      "every",
+      "all"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0836",
+    "simplified": "已",
+    "pinyin": "yǐ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "already",
+      "to stop",
+      "then",
+      "afterwards"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0837",
+    "simplified": "以来",
+    "traditional": "以來",
+    "pinyin": "yǐ lái",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "since (used after a specified time or event)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0838",
+    "simplified": "一方面",
+    "pinyin": "yī fāng miàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "on the one hand"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0839",
+    "simplified": "艺术",
+    "traditional": "藝術",
+    "pinyin": "yì shù",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "art"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0840",
+    "simplified": "意外",
+    "pinyin": "yì wài",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "unexpected",
+      "accident",
+      "mishap",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0841",
+    "simplified": "意义",
+    "traditional": "意義",
+    "pinyin": "yì yì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "sense",
+      "meaning",
+      "significance",
+      "importance",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0842",
+    "simplified": "因此",
+    "pinyin": "yīn cǐ",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "thus; consequently; as a result"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0843",
+    "simplified": "银",
+    "traditional": "銀",
+    "pinyin": "yín",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "silver",
+      "silver-colored",
+      "relating to money or currency"
+    ],
+    "needsEnglish": false
+  }
+]

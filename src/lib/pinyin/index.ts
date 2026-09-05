@@ -200,7 +200,7 @@ export function parsePinyin(raw: string): PinyinSyllable[] | null {
   const cleaned = raw
     .normalize('NFC')
     .toLowerCase()
-    .replace(/[^0-9a-z\u00fc:\u0100-\u01ff\u1e00-\u1eff\s]/g, ' ')
+    .replace(/[^0-9a-z:\u00c0-\u024f\u1e00-\u1eff\s]/g, ' ')
     .trim();
   if (cleaned === '') return [];
 

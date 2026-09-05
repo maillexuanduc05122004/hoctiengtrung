@@ -1,0 +1,718 @@
+[
+  {
+    "id": "L1-0271",
+    "simplified": "你",
+    "pinyin": "nǐ",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "you (informal, as opposed to courteous 您)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0272",
+    "simplified": "你们",
+    "traditional": "你們",
+    "pinyin": "nǐ men",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "you (plural)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0273",
+    "simplified": "年",
+    "pinyin": "nián",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "year",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0274",
+    "simplified": "您",
+    "pinyin": "nín",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "you (courteous, as opposed to informal 你)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0275",
+    "simplified": "牛奶",
+    "pinyin": "niú nǎi",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "cow's milk",
+      "CL:瓶,杯"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0276",
+    "simplified": "女",
+    "pinyin": "nǚ",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "female",
+      "woman",
+      "daughter"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0277",
+    "simplified": "女儿",
+    "traditional": "女兒",
+    "pinyin": "nǚ ér",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "daughter"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0278",
+    "simplified": "女孩儿",
+    "traditional": "女孩兒",
+    "pinyin": "nǚ háir",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "erhua form of 女孩"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0279",
+    "simplified": "女朋友",
+    "pinyin": "nǚ péng you",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "girlfriend"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0280",
+    "simplified": "女人",
+    "pinyin": "nǚ rén",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "woman"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0281",
+    "simplified": "女生",
+    "pinyin": "nǚ shēng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "schoolgirl",
+      "female student",
+      "girl"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0282",
+    "simplified": "旁边",
+    "traditional": "旁邊",
+    "pinyin": "páng biān",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "side; adjacent place"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0283",
+    "simplified": "跑",
+    "pinyin": "pǎo",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to run",
+      "to run away",
+      "to escape",
+      "to run around (on errands etc)",
+      "(of a gas or liquid) to leak or evaporate",
+      "(verb complement) away",
+      "off"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0284",
+    "simplified": "朋友",
+    "pinyin": "péng you",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "friend",
+      "CL:個/个,位"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0285",
+    "simplified": "票",
+    "pinyin": "piào",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "ticket",
+      "ballot",
+      "banknote",
+      "CL:張/张",
+      "person held for ransom",
+      "amateur performance of Chinese opera",
+      "classifier for groups, batches, business transactions"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0286",
+    "simplified": "七",
+    "pinyin": "qī",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Num"
+    ],
+    "cedictDefinitions": [
+      "seven",
+      "7"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0287",
+    "simplified": "起",
+    "pinyin": "qǐ",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to rise",
+      "to raise",
+      "to get up",
+      "to set out",
+      "to start",
+      "to appear",
+      "to launch",
+      "to initiate (action)",
+      "to draft",
+      "to establish",
+      "to get (from a depot or counter)",
+      "verb suffix, to start",
+      "starting from (a time, place, price etc)",
+      "classifier for occurrences or unpredictable events: case, instance",
+      "classifier for groups: batch, group"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0288",
+    "simplified": "起床",
+    "pinyin": "qǐ chuáng",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to get out of bed; to get up"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0289",
+    "simplified": "起来",
+    "traditional": "起來",
+    "pinyin": "qǐ lai",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to stand up; to get up",
+      "also pr.",
+      "(after a verb) indicating the beginning and continuation of an action or a state",
+      "indicating an upward movement (e.g. after 站)",
+      "indicating completion",
+      "(after a perception verb, e.g. 看) expressing preliminary judgment"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0290",
+    "simplified": "汽车",
+    "traditional": "汽車",
+    "pinyin": "qì chē",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "car",
+      "automobile",
+      "bus",
+      "CL:輛/辆"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0291",
+    "simplified": "前",
+    "pinyin": "qián",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "front",
+      "forward",
+      "ahead",
+      "first",
+      "top (followed by a number)",
+      "future",
+      "ago",
+      "before",
+      "BC (e.g. 前293年)",
+      "former",
+      "formerly"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0292",
+    "simplified": "前边",
+    "traditional": "前邊",
+    "pinyin": "qián bian",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "front",
+      "the front side",
+      "in front of"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0293",
+    "simplified": "前天",
+    "pinyin": "qián tiān",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the day before yesterday"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0294",
+    "simplified": "钱",
+    "traditional": "錢",
+    "pinyin": "qián",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "coin",
+      "money",
+      "CL:筆/笔",
+      "unit of weight, one tenth of a tael 兩/两"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0295",
+    "simplified": "钱包",
+    "traditional": "錢包",
+    "pinyin": "qián bāo",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "purse",
+      "wallet"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0296",
+    "simplified": "请",
+    "traditional": "請",
+    "pinyin": "qǐng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to ask",
+      "to invite",
+      "please (do sth)",
+      "to treat (to a meal etc)",
+      "to request"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0297",
+    "simplified": "请假",
+    "traditional": "請假",
+    "pinyin": "qǐng jià",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to request leave of absence"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0298",
+    "simplified": "请进",
+    "traditional": "請進",
+    "pinyin": "qǐng jìn",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "\"please come in\""
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0299",
+    "simplified": "请问",
+    "traditional": "請問",
+    "pinyin": "qǐng wèn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "Excuse me, may I ask...?"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0300",
+    "simplified": "请坐",
+    "traditional": "請坐",
+    "pinyin": "qǐng zuò",
+    "hskLevel": 1,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "please, have a seat"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0301",
+    "simplified": "球",
+    "pinyin": "qiú",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "ball",
+      "sphere",
+      "globe",
+      "CL:個/个",
+      "ball game",
+      "match",
+      "CL:場/场"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0302",
+    "simplified": "去",
+    "pinyin": "qù",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to go",
+      "to go to (a place)",
+      "(of a time etc) last",
+      "just passed",
+      "to send",
+      "to remove",
+      "to get rid of",
+      "to reduce",
+      "to be apart from in space or time",
+      "to die (euphemism)",
+      "to play (a part)",
+      "(when used either before or after a verb) to go in order to do sth",
+      "(after a verb of motion indicates movement away from the speaker)",
+      "(used after certain verbs to indicate detachment or separation)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0303",
+    "simplified": "去年",
+    "pinyin": "qù nián",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "last year"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0304",
+    "simplified": "热",
+    "traditional": "熱",
+    "pinyin": "rè",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to warm up",
+      "to heat up",
+      "hot (of weather)",
+      "heat",
+      "fervent"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0305",
+    "simplified": "人",
+    "pinyin": "rén",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "person; people",
+      "CL:個/个,位,名"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0306",
+    "simplified": "认识",
+    "traditional": "認識",
+    "pinyin": "rèn shi",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to know",
+      "to recognize",
+      "to be familiar with",
+      "to get acquainted with sb",
+      "knowledge",
+      "understanding",
+      "awareness",
+      "cognition"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0307",
+    "simplified": "认真",
+    "traditional": "認真",
+    "pinyin": "rèn zhēn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "conscientious",
+      "earnest",
+      "serious",
+      "to take seriously",
+      "to take to heart"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0308",
+    "simplified": "日",
+    "pinyin": "rì",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(bound form) sun",
+      "day",
+      "day of the month",
+      "(bound form) Japan (abbr. for 日本)",
+      "(vulgar) to fuck; to have sex with"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0309",
+    "simplified": "日期",
+    "pinyin": "rì qī",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "date"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0310",
+    "simplified": "肉",
+    "pinyin": "ròu",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "meat",
+      "flesh",
+      "pulp (of a fruit)",
+      "(coll.) (of a fruit) squashy",
+      "(of a person) flabby",
+      "irresolute",
+      "Kangxi radical 130"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0311",
+    "simplified": "三",
+    "pinyin": "sān",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "Num"
+    ],
+    "cedictDefinitions": [
+      "three",
+      "3"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0312",
+    "simplified": "山",
+    "pinyin": "shān",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "mountain; hill (CL:座)",
+      "(coll.) small bundle of straw for silkworms to spin cocoons on"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0313",
+    "simplified": "商场",
+    "traditional": "商場",
+    "pinyin": "shāng chǎng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "shopping mall",
+      "shopping center",
+      "department store",
+      "emporium",
+      "CL:家",
+      "the business world"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0314",
+    "simplified": "商店",
+    "pinyin": "shāng diàn",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "store; shop",
+      "CL:家"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L1-0315",
+    "simplified": "上",
+    "pinyin": "shàng",
+    "hskLevel": 1,
+    "partOfSpeech": [
+      "N",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "(bound form) up; upper; above; previous",
+      "first (of multiple parts)",
+      "to climb; to get onto; to go up",
+      "to attend (class or university)",
+      "(directional complement) up",
+      "(noun suffix) on; above"
+    ],
+    "needsEnglish": false
+  }
+]

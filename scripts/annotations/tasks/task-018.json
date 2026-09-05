@@ -1,0 +1,737 @@
+[
+  {
+    "id": "L2-0266",
+    "simplified": "健康",
+    "pinyin": "jiàn kāng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "health",
+      "healthy"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0267",
+    "simplified": "讲",
+    "traditional": "講",
+    "pinyin": "jiǎng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to speak",
+      "to explain",
+      "to negotiate",
+      "to emphasize",
+      "to be particular about",
+      "as far as sth is concerned",
+      "speech",
+      "lecture"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0268",
+    "simplified": "讲话",
+    "traditional": "講話",
+    "pinyin": "jiǎng huà",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "a speech",
+      "to speak",
+      "to talk",
+      "to address",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0269",
+    "simplified": "交",
+    "pinyin": "jiāo",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to hand over; to deliver; to pay (money); to turn over",
+      "to make friends",
+      "(of lines) to intersect",
+      "variant of 跤"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0270",
+    "simplified": "交给",
+    "traditional": "交給",
+    "pinyin": "jiāo gěi",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to give; to deliver; to hand over"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0271",
+    "simplified": "交朋友",
+    "pinyin": "jiāo péng you",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to make friends",
+      "(dialect) to start an affair with sb"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0272",
+    "simplified": "交通",
+    "pinyin": "jiāo tōng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to be connected",
+      "traffic",
+      "transportation",
+      "communications",
+      "liaison"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0273",
+    "simplified": "角",
+    "pinyin": "jiǎo",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "M",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "angle",
+      "corner",
+      "horn",
+      "horn-shaped",
+      "unit of money equal to 0.1 yuan, or 10 cents (a dime)",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0274",
+    "simplified": "角度",
+    "pinyin": "jiǎo dù",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "angle",
+      "(fig.) point of view"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0275",
+    "simplified": "饺子",
+    "traditional": "餃子",
+    "pinyin": "jiǎo zi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "dumpling",
+      "pot-sticker",
+      "CL:個/个,隻/只"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0276",
+    "simplified": "脚",
+    "traditional": "腳",
+    "pinyin": "jiǎo",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "foot",
+      "leg (of an animal or an object)",
+      "base (of an object)",
+      "CL:雙/双,隻/只",
+      "classifier for kicks"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0277",
+    "simplified": "叫作",
+    "pinyin": "jiào zuò",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to call",
+      "to be called"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0278",
+    "simplified": "教师",
+    "traditional": "教師",
+    "pinyin": "jiào shī",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "teacher",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0279",
+    "simplified": "教室",
+    "pinyin": "jiào shì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "classroom",
+      "CL:間/间"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0280",
+    "simplified": "教学",
+    "traditional": "教學",
+    "pinyin": "jiào xué",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "teaching; instruction",
+      "CL:次"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0281",
+    "simplified": "教育",
+    "pinyin": "jiào yù",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to educate",
+      "to teach",
+      "education"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0282",
+    "simplified": "接",
+    "pinyin": "jiē",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to receive",
+      "to answer (the phone)",
+      "to meet or welcome sb",
+      "to connect",
+      "to catch",
+      "to join",
+      "to extend",
+      "to take one's turn on duty",
+      "to take over for sb"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0283",
+    "simplified": "接到",
+    "pinyin": "jiē dào",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to receive (letter etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0284",
+    "simplified": "接受",
+    "pinyin": "jiē shòu",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to accept (a suggestion, punishment, bribe etc); to acquiesce"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0285",
+    "simplified": "接下来",
+    "traditional": "接下來",
+    "pinyin": "jiē xià lái",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to accept",
+      "to take",
+      "next",
+      "following"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0286",
+    "simplified": "接着",
+    "traditional": "接著",
+    "pinyin": "jiē zhe",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "to catch and hold on",
+      "to continue",
+      "to go on to do sth",
+      "to follow",
+      "to carry on",
+      "then",
+      "after that",
+      "subsequently",
+      "to proceed",
+      "to ensue",
+      "in turn",
+      "in one's turn"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0287",
+    "simplified": "街",
+    "pinyin": "jiē",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "street",
+      "CL:條/条"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0288",
+    "simplified": "节",
+    "traditional": "節",
+    "pinyin": "jié",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "joint; node",
+      "(bound form) section; segment",
+      "solar term (one of the 24 divisions of the year in the traditional Chinese calendar)",
+      "seasonal festival",
+      "(bound form) to economize; to save",
+      "(bound form) moral integrity; chastity",
+      "classifier for segments: lessons, train wagons, biblical verses etc",
+      "knot (nautical miles per hour)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0289",
+    "simplified": "节目",
+    "traditional": "節目",
+    "pinyin": "jié mù",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(TV or radio) program; show",
+      "item; act; segment; number (on the program of a concert, variety show or cultural event)",
+      "a planned activity (in one's schedule)",
+      "CL:場/场,項/项,臺/台,套,檔/档"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0290",
+    "simplified": "节日",
+    "traditional": "節日",
+    "pinyin": "jié rì",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "holiday",
+      "festival",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0291",
+    "simplified": "结果",
+    "traditional": "結果",
+    "pinyin": "jié guǒ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N",
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "outcome; result; consequence",
+      "in the end; as a result",
+      "to kill; to dispatch"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0292",
+    "simplified": "借",
+    "pinyin": "jiè",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to borrow",
+      "(used in combination with 給/给 or 出 etc) to lend",
+      "to make use of; to avail oneself of",
+      "(sometimes followed by 著/着) by; with"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0293",
+    "simplified": "斤",
+    "pinyin": "jīn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "catty",
+      "(PRC) weight equal to 500 g",
+      "(Tw) weight equal to 600 g",
+      "(HK, Malaysia, Singapore) slightly over 604 g"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0294",
+    "simplified": "今后",
+    "traditional": "今後",
+    "pinyin": "jīn hòu",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "hereafter",
+      "henceforth",
+      "in the future",
+      "from now on"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0295",
+    "simplified": "进入",
+    "traditional": "進入",
+    "pinyin": "jìn rù",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to enter",
+      "to join",
+      "to go into"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0296",
+    "simplified": "进行",
+    "traditional": "進行",
+    "pinyin": "jìn xíng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "(of a process etc) to proceed; to be in progress; to be underway",
+      "(of people) to carry out; to conduct (an investigation or discussion etc)",
+      "(of an army etc) to be on the march; to advance"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0297",
+    "simplified": "近",
+    "pinyin": "jìn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "near",
+      "close to",
+      "approximately"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0298",
+    "simplified": "经常",
+    "traditional": "經常",
+    "pinyin": "jīng cháng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "frequently; constantly; regularly; often",
+      "day-to-day; everyday; daily"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0299",
+    "simplified": "经过",
+    "traditional": "經過",
+    "pinyin": "jīng guò",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to pass",
+      "to go through",
+      "process",
+      "course",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0300",
+    "simplified": "经理",
+    "traditional": "經理",
+    "pinyin": "jīng lǐ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "manager",
+      "director",
+      "CL:個/个,位,名"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0301",
+    "simplified": "酒",
+    "pinyin": "jiǔ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "wine (esp. rice wine)",
+      "liquor",
+      "spirits",
+      "alcoholic beverage",
+      "CL:杯,瓶,罐,桶,缸"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0302",
+    "simplified": "酒店",
+    "pinyin": "jiǔ diàn",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "wine shop",
+      "pub (public house)",
+      "hotel",
+      "restaurant",
+      "(Tw) hostess club"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0303",
+    "simplified": "就要",
+    "pinyin": "jiù yào",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "will",
+      "shall",
+      "to be going to"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0304",
+    "simplified": "举",
+    "traditional": "舉",
+    "pinyin": "jǔ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to lift",
+      "to hold up",
+      "to cite",
+      "to enumerate",
+      "to act",
+      "to raise",
+      "to choose",
+      "to elect",
+      "act",
+      "move",
+      "deed"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0305",
+    "simplified": "举手",
+    "traditional": "舉手",
+    "pinyin": "jǔ shǒu",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to raise a hand",
+      "to put up one's hand (as signal)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0306",
+    "simplified": "举行",
+    "traditional": "舉行",
+    "pinyin": "jǔ xíng",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to hold (a meeting, ceremony etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0307",
+    "simplified": "句",
+    "pinyin": "jù",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "sentence",
+      "clause",
+      "phrase",
+      "classifier for phrases or lines of verse"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0308",
+    "simplified": "句子",
+    "pinyin": "jù zi",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "sentence",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0309",
+    "simplified": "卡",
+    "pinyin": "kǎ",
+    "hskLevel": 2,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to stop",
+      "to block",
+      "(computing) (coll.) slow",
+      "(loanword) card",
+      "CL:張/张,片",
+      "truck (from \"car\")",
+      "calorie (abbr. for 卡路里)",
+      "cassette"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L2-0310",
+    "simplified": "开机",
+    "traditional": "開機",
+    "pinyin": "kāi jī",
+    "hskLevel": 2,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to start an engine",
+      "to boot up (a computer)",
+      "to press Ctrl-Alt-Delete",
+      "to begin shooting a film or TV show"
+    ],
+    "needsEnglish": false
+  }
+]

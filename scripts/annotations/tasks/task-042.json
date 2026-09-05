@@ -1,0 +1,718 @@
+[
+  {
+    "id": "L3-0574",
+    "simplified": "全场",
+    "traditional": "全場",
+    "pinyin": "quán chǎng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "everyone present",
+      "the whole audience",
+      "across-the-board",
+      "unanimously",
+      "whole duration (of a competition or match)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0575",
+    "simplified": "全面",
+    "pinyin": "quán miàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "all-around",
+      "comprehensive",
+      "total",
+      "overall"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0576",
+    "simplified": "全球",
+    "pinyin": "quán qiú",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the whole world",
+      "worldwide; global"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0577",
+    "simplified": "缺",
+    "pinyin": "quē",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "deficiency",
+      "lack",
+      "scarce",
+      "vacant post",
+      "to run short of"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0578",
+    "simplified": "缺点",
+    "traditional": "缺點",
+    "pinyin": "quē diǎn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "weak point",
+      "fault",
+      "shortcoming",
+      "disadvantage",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0579",
+    "simplified": "缺少",
+    "pinyin": "quē shǎo",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "lack",
+      "shortage of",
+      "shortfall",
+      "to be short (of)",
+      "to lack"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0580",
+    "simplified": "确保",
+    "traditional": "確保",
+    "pinyin": "què bǎo",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to ensure; to guarantee"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0581",
+    "simplified": "确定",
+    "traditional": "確定",
+    "pinyin": "què dìng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "definite",
+      "certain",
+      "fixed",
+      "to fix (on sth)",
+      "to determine",
+      "to be sure",
+      "to ensure",
+      "to make certain",
+      "to ascertain",
+      "to clinch",
+      "to recognize",
+      "to confirm",
+      "OK (on computer dialog box)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0582",
+    "simplified": "确实",
+    "traditional": "確實",
+    "pinyin": "què shí",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "indeed",
+      "really",
+      "reliable",
+      "real",
+      "true"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0583",
+    "simplified": "裙子",
+    "pinyin": "qún zi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "skirt",
+      "CL:條/条"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0584",
+    "simplified": "群",
+    "pinyin": "qún",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "group",
+      "crowd",
+      "flock, herd, pack etc"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0585",
+    "simplified": "热爱",
+    "traditional": "熱愛",
+    "pinyin": "rè ài",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to love ardently",
+      "to adore"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0586",
+    "simplified": "热烈",
+    "traditional": "熱烈",
+    "pinyin": "rè liè",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "enthusiastic",
+      "ardent",
+      "warm"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0587",
+    "simplified": "人才",
+    "pinyin": "rén cái",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "talent",
+      "talented person",
+      "looks",
+      "attractive looks"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0588",
+    "simplified": "人工",
+    "pinyin": "rén gōng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "artificial",
+      "manpower",
+      "manual work"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0589",
+    "simplified": "人类",
+    "traditional": "人類",
+    "pinyin": "rén lèi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "humanity",
+      "human race",
+      "mankind"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0590",
+    "simplified": "人民",
+    "pinyin": "rén mín",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the people"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0591",
+    "simplified": "人民币",
+    "traditional": "人民幣",
+    "pinyin": "rén mín bì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "Renminbi, the official currency of the PRC (currency codes: RMB or CNY)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0592",
+    "simplified": "人群",
+    "pinyin": "rén qún",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "crowd"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0593",
+    "simplified": "人生",
+    "pinyin": "rén shēng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "life (one's time on earth)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0594",
+    "simplified": "人员",
+    "traditional": "人員",
+    "pinyin": "rén yuán",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "staff",
+      "crew",
+      "personnel",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0595",
+    "simplified": "认出",
+    "traditional": "認出",
+    "pinyin": "rèn chū",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "recognition",
+      "to recognize"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0596",
+    "simplified": "认得",
+    "traditional": "認得",
+    "pinyin": "rèn de",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to recognize",
+      "to remember sth (or sb) on seeing it",
+      "to know"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0597",
+    "simplified": "认可",
+    "traditional": "認可",
+    "pinyin": "rèn kě",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to approve",
+      "approval",
+      "acknowledgment",
+      "OK"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0598",
+    "simplified": "任",
+    "pinyin": "rèn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to assign",
+      "to appoint",
+      "to take up a post",
+      "office",
+      "responsibility",
+      "to let",
+      "to allow",
+      "to give free rein to",
+      "no matter (how, what etc)",
+      "classifier for terms served in office, or for spouses, girlfriends etc (as in 前任男友)"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0599",
+        "pinyin": "rèn",
+        "partOfSpeech": [
+          "Conj"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0599",
+    "simplified": "任",
+    "pinyin": "rèn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "to assign",
+      "to appoint",
+      "to take up a post",
+      "office",
+      "responsibility",
+      "to let",
+      "to allow",
+      "to give free rein to",
+      "no matter (how, what etc)",
+      "classifier for terms served in office, or for spouses, girlfriends etc (as in 前任男友)"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0598",
+        "pinyin": "rèn",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0600",
+    "simplified": "任何",
+    "pinyin": "rèn hé",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "any; whatever; whichever"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0601",
+    "simplified": "任务",
+    "traditional": "任務",
+    "pinyin": "rèn wu",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "mission; assignment; task; duty; role",
+      "CL:項/项"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0602",
+    "simplified": "仍",
+    "pinyin": "réng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "still; yet",
+      "to remain",
+      "(literary) frequently; often"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0603",
+    "simplified": "仍然",
+    "pinyin": "réng rán",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "still; as before; yet"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0604",
+    "simplified": "日常",
+    "pinyin": "rì cháng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "day-to-day; daily; everyday"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0605",
+    "simplified": "容易",
+    "pinyin": "róng yì",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "easy; straightforward",
+      "likely; liable to; apt to"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0606",
+    "simplified": "如何",
+    "pinyin": "rú hé",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "how",
+      "what way",
+      "what"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0607",
+    "simplified": "散步",
+    "pinyin": "sàn bù",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to take a walk; to go for a walk"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0608",
+    "simplified": "沙发",
+    "traditional": "沙發",
+    "pinyin": "shā fā",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(loanword) sofa (CL:條/条,張/张)",
+      "(Internet slang) first reply to a forum post"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0609",
+    "simplified": "沙子",
+    "pinyin": "shā zi",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "sand",
+      "grit",
+      "CL:粒,把"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0610",
+    "simplified": "伤",
+    "traditional": "傷",
+    "pinyin": "shāng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to injure",
+      "injury",
+      "wound"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0611",
+    "simplified": "伤心",
+    "traditional": "傷心",
+    "pinyin": "shāng xīn",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to grieve",
+      "to be broken-hearted",
+      "to feel deeply hurt"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0612",
+    "simplified": "商品",
+    "pinyin": "shāng pǐn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "commodity; goods; merchandise",
+      "CL:件"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0613",
+    "simplified": "商业",
+    "traditional": "商業",
+    "pinyin": "shāng yè",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "business",
+      "trade",
+      "commerce"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0614",
+    "simplified": "上来",
+    "traditional": "上來",
+    "pinyin": "shàng lái",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to come up",
+      "to approach",
+      "(verb complement indicating success)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0615",
+    "simplified": "上面",
+    "pinyin": "shàng miàn",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "on top of",
+      "above-mentioned",
+      "also pr."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0616",
+    "simplified": "上去",
+    "pinyin": "shàng qù",
+    "hskLevel": 3,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to go up"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0617",
+    "simplified": "上升",
+    "pinyin": "shàng shēng",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to rise",
+      "to go up",
+      "to ascend"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L3-0618",
+    "simplified": "上衣",
+    "pinyin": "shàng yī",
+    "hskLevel": 3,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "jacket",
+      "upper outer garment",
+      "CL:件"
+    ],
+    "needsEnglish": false
+  }
+]
