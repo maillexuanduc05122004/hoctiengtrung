@@ -106,7 +106,7 @@
   {
     "id": "L1-0464",
     "vi": ["này", "cái này", "đây"],
-    "viAliases": ["cái đây"],
+    "viAliases": ["này đây"],
     "en": ["this; these", "this; the (followed by a noun)"],
     "enSource": "cedict",
     "example": { "zh": "这是我的老师。", "vi": "Đây là thầy giáo của tôi.", "en": "This is my teacher." }
@@ -145,8 +145,8 @@
   },
   {
     "id": "L1-0469",
-    "vi": ["trợ từ chỉ hành động đang diễn ra hoặc trạng thái kéo dài"],
-    "viAliases": [],
+    "vi": ["đang", "trợ từ tiếp diễn"],
+    "viAliases": ["trợ từ chỉ trạng thái đang diễn ra"],
     "en": ["aspect particle indicating action in progress or ongoing state"],
     "enSource": "cedict",
     "example": { "zh": "他坐着看电视。", "vi": "Anh ấy ngồi xem tivi.", "en": "He is sitting and watching TV." }
@@ -261,12 +261,12 @@
     "viAliases": ["nặng nề", "hệ trọng"],
     "en": ["heavy", "serious"],
     "enSource": "cedict",
-    "example": { "zh": "这个箱子太重了。", "vi": "Cái hộp này nặng quá.", "en": "This box is too heavy." }
+    "example": { "zh": "这个箱子太重了。", "vi": "Cái thùng này nặng quá.", "en": "This box is too heavy." }
   },
   {
     "id": "L1-0484",
     "vi": ["quan trọng"],
-    "viAliases": ["hệ trọng", "trọng yếu", "chủ yếu"],
+    "viAliases": ["hệ trọng", "trọng yếu"],
     "en": ["important; significant; major"],
     "enSource": "cedict",
     "example": { "zh": "这件事很重要。", "vi": "Việc này rất quan trọng.", "en": "This matter is very important." }
@@ -274,7 +274,7 @@
   {
     "id": "L1-0485",
     "vi": ["ở", "sống", "cư trú"],
-    "viAliases": ["sinh sống", "ở trọ"],
+    "viAliases": ["sinh sống", "cư ngụ"],
     "en": ["to live; to reside; to stay"],
     "enSource": "cedict",
     "example": { "zh": "我住在北京。", "vi": "Tôi sống ở Bắc Kinh.", "en": "I live in Beijing." }
@@ -322,7 +322,7 @@
   {
     "id": "L1-0491",
     "vi": ["đi bộ", "đi đường"],
-    "viAliases": ["cuốc bộ", "đi chân"],
+    "viAliases": ["cuốc bộ"],
     "en": ["to walk; to go on foot"],
     "enSource": "cedict",
     "example": { "zh": "我每天走路去学校。", "vi": "Mỗi ngày tôi đi bộ đến trường.", "en": "I walk to school every day." }
@@ -330,7 +330,7 @@
   {
     "id": "L1-0492",
     "vi": ["nhất"],
-    "viAliases": ["hơn cả", "nhất là"],
+    "viAliases": ["hơn cả"],
     "en": ["to the highest degree; (the) most ...; -est"],
     "enSource": "cedict",
     "example": { "zh": "我最喜欢吃苹果。", "vi": "Tôi thích ăn táo nhất.", "en": "I like eating apples the most." }

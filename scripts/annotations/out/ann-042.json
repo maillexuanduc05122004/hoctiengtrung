@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L3-0574",
+    "vi": ["cả hội trường", "toàn bộ người có mặt"],
+    "viAliases": ["cả khán phòng", "toàn sân"],
+    "en": ["everyone present", "the whole audience"],
+    "enSource": "cedict",
+    "example": { "zh": "全场的人都站了起来。", "vi": "Mọi người trong cả hội trường đều đứng dậy.", "en": "Everyone present stood up." }
+  },
+  {
+    "id": "L3-0575",
+    "vi": ["toàn diện"],
+    "viAliases": ["bao quát", "toàn bộ"],
+    "en": ["all-around", "comprehensive", "overall"],
+    "enSource": "cedict",
+    "example": { "zh": "他对这个问题的了解很全面。", "vi": "Hiểu biết của anh ấy về vấn đề này rất toàn diện.", "en": "His understanding of this problem is very comprehensive." }
+  },
+  {
+    "id": "L3-0576",
+    "vi": ["toàn cầu", "cả thế giới"],
+    "viAliases": ["khắp thế giới"],
+    "en": ["the whole world", "worldwide; global"],
+    "enSource": "cedict",
+    "example": { "zh": "这个牌子在全球都很有名。", "vi": "Thương hiệu này rất nổi tiếng trên toàn cầu.", "en": "This brand is famous all over the world." }
+  },
+  {
+    "id": "L3-0577",
+    "vi": ["thiếu", "khuyết"],
+    "viAliases": ["thiếu hụt", "hụt"],
+    "en": ["to run short of", "lack"],
+    "enSource": "cedict",
+    "example": { "zh": "我们家里缺一些水果。", "vi": "Nhà chúng tôi thiếu một ít hoa quả.", "en": "We are short of some fruit at home." }
+  },
+  {
+    "id": "L3-0578",
+    "vi": ["khuyết điểm", "nhược điểm"],
+    "viAliases": ["điểm yếu", "thiếu sót"],
+    "en": ["weak point", "fault", "shortcoming", "disadvantage"],
+    "enSource": "cedict",
+    "example": { "zh": "每个人都有自己的缺点。", "vi": "Ai cũng có khuyết điểm của mình.", "en": "Everyone has their own shortcomings." }
+  },
+  {
+    "id": "L3-0579",
+    "vi": ["thiếu", "thiếu hụt"],
+    "viAliases": ["không đủ", "khuyết thiếu"],
+    "en": ["to lack", "to be short (of)", "shortage of"],
+    "enSource": "cedict",
+    "example": { "zh": "这个城市缺少干净的水。", "vi": "Thành phố này thiếu nước sạch.", "en": "This city lacks clean water." }
+  },
+  {
+    "id": "L3-0580",
+    "vi": ["đảm bảo", "bảo đảm"],
+    "viAliases": ["đảm bảo chắc chắn"],
+    "en": ["to ensure; to guarantee"],
+    "enSource": "cedict",
+    "example": { "zh": "我们要确保大家的安全。", "vi": "Chúng ta phải đảm bảo an toàn cho mọi người.", "en": "We must ensure everyone's safety." }
+  },
+  {
+    "id": "L3-0581",
+    "vi": ["xác định", "chắc chắn"],
+    "viAliases": ["khẳng định", "xác nhận"],
+    "en": ["definite", "certain", "to determine", "to confirm"],
+    "enSource": "cedict",
+    "example": { "zh": "我们还没确定出发时间。", "vi": "Chúng tôi vẫn chưa xác định thời gian xuất phát.", "en": "We haven't determined the departure time yet." }
+  },
+  {
+    "id": "L3-0582",
+    "vi": ["quả thực", "thật sự", "xác thực"],
+    "viAliases": ["quả thật", "thực sự", "đúng là"],
+    "en": ["indeed", "really", "true", "reliable"],
+    "enSource": "cedict",
+    "example": { "zh": "这件事确实不太容易。", "vi": "Việc này quả thực không dễ lắm.", "en": "This matter really is not very easy." }
+  },
+  {
+    "id": "L3-0583",
+    "vi": ["váy", "chân váy"],
+    "viAliases": ["váy đầm"],
+    "en": ["skirt"],
+    "enSource": "cedict",
+    "example": { "zh": "妹妹买了一条红裙子。", "vi": "Em gái đã mua một chiếc váy đỏ.", "en": "My younger sister bought a red skirt." }
+  },
+  {
+    "id": "L3-0584",
+    "vi": ["đàn", "nhóm", "tốp"],
+    "viAliases": ["bầy", "đám"],
+    "en": ["group", "crowd", "flock, herd, pack etc"],
+    "enSource": "cedict",
+    "example": { "zh": "天上飞过一群小鸟。", "vi": "Một đàn chim nhỏ bay qua trên trời.", "en": "A flock of little birds flew across the sky." }
+  },
+  {
+    "id": "L3-0585",
+    "vi": ["yêu tha thiết", "say mê"],
+    "viAliases": ["yêu thích", "hết lòng yêu"],
+    "en": ["to love ardently", "to adore"],
+    "enSource": "cedict",
+    "example": { "zh": "他非常热爱自己的工作。", "vi": "Anh ấy vô cùng yêu công việc của mình.", "en": "He loves his own work very much." }
+  },
+  {
+    "id": "L3-0586",
+    "vi": ["nhiệt liệt", "sôi nổi"],
+    "viAliases": ["nồng nhiệt", "hăng hái"],
+    "en": ["enthusiastic", "ardent", "warm"],
+    "enSource": "cedict",
+    "example": { "zh": "大家热烈地欢迎新同学。", "vi": "Mọi người nhiệt liệt chào đón bạn học mới.", "en": "Everyone warmly welcomed the new classmate." }
+  },
+  {
+    "id": "L3-0587",
+    "vi": ["nhân tài", "người tài"],
+    "viAliases": ["người có tài", "nhân lực giỏi"],
+    "en": ["talent", "talented person"],
+    "enSource": "cedict",
+    "example": { "zh": "这家公司需要更多人才。", "vi": "Công ty này cần thêm nhiều nhân tài.", "en": "This company needs more talented people." }
+  },
+  {
+    "id": "L3-0588",
+    "vi": ["nhân tạo", "nhân công"],
+    "viAliases": ["làm bằng tay", "sức người"],
+    "en": ["artificial", "manpower", "manual work"],
+    "enSource": "cedict",
+    "example": { "zh": "公园里有一个人工湖。", "vi": "Trong công viên có một hồ nhân tạo.", "en": "There is an artificial lake in the park." }
+  },
+  {
+    "id": "L3-0589",
+    "vi": ["loài người", "nhân loại"],
+    "viAliases": ["con người"],
+    "en": ["humanity", "human race", "mankind"],
+    "enSource": "cedict",
+    "example": { "zh": "人类需要保护地球。", "vi": "Loài người cần bảo vệ trái đất.", "en": "Humankind needs to protect the earth." }
+  },
+  {
+    "id": "L3-0590",
+    "vi": ["nhân dân", "người dân"],
+    "viAliases": ["dân chúng", "dân"],
+    "en": ["the people"],
+    "enSource": "cedict",
+    "example": { "zh": "这个国家的人民很热情。", "vi": "Người dân nước này rất nhiệt tình.", "en": "The people of this country are very warm." }
+  },
+  {
+    "id": "L3-0591",
+    "vi": ["nhân dân tệ", "đồng nhân dân tệ"],
+    "viAliases": ["RMB", "tiền Trung Quốc"],
+    "en": ["Renminbi, the official currency of the PRC"],
+    "enSource": "cedict",
+    "example": { "zh": "这本书要多少人民币？", "vi": "Quyển sách này bao nhiêu nhân dân tệ?", "en": "How many renminbi does this book cost?" }
+  },
+  {
+    "id": "L3-0592",
+    "vi": ["đám đông", "đám người"],
+    "viAliases": ["đoàn người", "đám đông người"],
+    "en": ["crowd"],
+    "enSource": "cedict",
+    "example": { "zh": "他慢慢走进了人群里。", "vi": "Anh ấy chậm rãi đi vào trong đám đông.", "en": "He slowly walked into the crowd." }
+  },
+  {
+    "id": "L3-0593",
+    "vi": ["đời người", "cuộc đời"],
+    "viAliases": ["nhân sinh", "cuộc sống con người"],
+    "en": ["life (one's time on earth)"],
+    "enSource": "cedict",
+    "example": { "zh": "人生中有很多美好的事。", "vi": "Trong đời người có rất nhiều điều tốt đẹp.", "en": "There are many wonderful things in life." }
+  },
+  {
+    "id": "L3-0594",
+    "vi": ["nhân viên", "nhân sự"],
+    "viAliases": ["đội ngũ nhân viên", "cán bộ nhân viên"],
+    "en": ["staff", "crew", "personnel"],
+    "enSource": "cedict",
+    "example": { "zh": "医院的工作人员都很忙。", "vi": "Nhân viên của bệnh viện đều rất bận.", "en": "The hospital staff are all very busy." }
+  },
+  {
+    "id": "L3-0595",
+    "vi": ["nhận ra"],
+    "viAliases": ["nhận biết ra", "nhìn ra"],
+    "en": ["to recognize"],
+    "enSource": "cedict",
+    "example": { "zh": "我一下子就认出了他。", "vi": "Tôi lập tức nhận ra anh ấy.", "en": "I recognized him right away." }
+  },
+  {
+    "id": "L3-0596",
+    "vi": ["nhận ra", "quen biết"],
+    "viAliases": ["biết mặt", "nhớ mặt"],
+    "en": ["to recognize", "to remember sth on seeing it", "to know"],
+    "enSource": "cedict",
+    "example": { "zh": "你还认得这个地方吗？", "vi": "Bạn còn nhận ra nơi này không?", "en": "Do you still recognize this place?" }
+  },
+  {
+    "id": "L3-0597",
+    "vi": ["công nhận", "chấp nhận", "tán thành"],
+    "viAliases": ["thừa nhận", "đồng ý"],
+    "en": ["to approve", "approval"],
+    "enSource": "cedict",
+    "example": { "zh": "老师认可了我的想法。", "vi": "Thầy giáo đã công nhận ý tưởng của tôi.", "en": "The teacher approved my idea." }
+  },
+  {
+    "id": "L3-0598",
+    "vi": ["đảm nhiệm", "giữ chức", "bổ nhiệm"],
+    "viAliases": ["nhậm chức", "đảm nhận"],
+    "en": ["to appoint", "to take up a post", "to assign"],
+    "enSource": "cedict",
+    "example": { "zh": "他任这个学校的校长。", "vi": "Ông ấy giữ chức hiệu trưởng của trường này.", "en": "He serves as the principal of this school." }
+  },
+  {
+    "id": "L3-0599",
+    "vi": ["bất kể", "dù cho"],
+    "viAliases": ["mặc cho", "cho dù", "bất luận"],
+    "en": ["no matter (how, what etc)"],
+    "enSource": "cedict",
+    "example": { "zh": "任你怎么说他都不听。", "vi": "Bất kể bạn nói thế nào anh ấy cũng không nghe.", "en": "No matter what you say, he will not listen." }
+  },
+  {
+    "id": "L3-0600",
+    "vi": ["bất kỳ", "bất cứ"],
+    "viAliases": ["bất kì", "bất luận cái nào"],
+    "en": ["any; whatever; whichever"],
+    "enSource": "cedict",
+    "example": { "zh": "任何人都可以来参加。", "vi": "Bất kỳ ai cũng có thể đến tham gia.", "en": "Anyone can come and take part." }
+  },
+  {
+    "id": "L3-0601",
+    "vi": ["nhiệm vụ", "công việc được giao"],
+    "viAliases": ["việc được giao", "sứ mệnh"],
+    "en": ["task", "assignment", "mission", "duty"],
+    "enSource": "cedict",
+    "example": { "zh": "老师给了我们一个任务。", "vi": "Thầy giáo đã giao cho chúng tôi một nhiệm vụ.", "en": "The teacher gave us a task." }
+  },
+  {
+    "id": "L3-0602",
+    "vi": ["vẫn", "vẫn còn"],
+    "viAliases": ["còn", "vẫn cứ"],
+    "en": ["still; yet"],
+    "enSource": "cedict",
+    "example": { "zh": "他仍在教室里学习。", "vi": "Anh ấy vẫn đang học trong phòng học.", "en": "He is still studying in the classroom." }
+  },
+  {
+    "id": "L3-0603",
+    "vi": ["vẫn", "vẫn như cũ"],
+    "viAliases": ["vẫn còn", "y như cũ", "vẫn cứ"],
+    "en": ["still; as before; yet"],
+    "enSource": "cedict",
+    "example": { "zh": "外面仍然下着大雨。", "vi": "Bên ngoài vẫn đang mưa to.", "en": "It is still raining heavily outside." }
+  },
+  {
+    "id": "L3-0604",
+    "vi": ["thường ngày", "hằng ngày"],
+    "viAliases": ["hàng ngày", "thường nhật"],
+    "en": ["day-to-day; daily; everyday"],
+    "enSource": "cedict",
+    "example": { "zh": "这是我的日常生活。", "vi": "Đây là cuộc sống thường ngày của tôi.", "en": "This is my daily life." }
+  },
+  {
+    "id": "L3-0605",
+    "vi": ["dễ", "dễ dàng"],
+    "viAliases": ["dễ làm", "không khó"],
+    "en": ["easy; straightforward", "likely; liable to; apt to"],
+    "enSource": "cedict",
+    "example": { "zh": "这个问题很容易回答。", "vi": "Câu hỏi này rất dễ trả lời.", "en": "This question is very easy to answer." }
+  },
+  {
+    "id": "L3-0606",
+    "vi": ["như thế nào", "làm sao"],
+    "viAliases": ["thế nào", "ra sao", "làm thế nào"],
+    "en": ["how", "what way"],
+    "enSource": "cedict",
+    "example": { "zh": "我不知道如何回答你。", "vi": "Tôi không biết trả lời bạn như thế nào.", "en": "I do not know how to answer you." }
+  },
+  {
+    "id": "L3-0607",
+    "vi": ["đi dạo", "tản bộ"],
+    "viAliases": ["dạo bộ", "đi bộ dạo mát"],
+    "en": ["to take a walk; to go for a walk"],
+    "enSource": "cedict",
+    "example": { "zh": "晚饭后我们去公园散步。", "vi": "Sau bữa tối chúng tôi đi dạo ở công viên.", "en": "After dinner we go for a walk in the park." }
+  },
+  {
+    "id": "L3-0608",
+    "vi": ["ghế sofa", "sofa"],
+    "viAliases": ["đi văng", "ghế nệm dài"],
+    "en": ["sofa"],
+    "enSource": "cedict",
+    "example": { "zh": "爸爸坐在沙发上看报纸。", "vi": "Bố ngồi trên ghế sofa đọc báo.", "en": "Dad sits on the sofa reading the newspaper." }
+  },
+  {
+    "id": "L3-0609",
+    "vi": ["cát", "hạt cát"],
+    "viAliases": ["sạn"],
+    "en": ["sand", "grit"],
+    "enSource": "cedict",
+    "example": { "zh": "孩子们在海边玩沙子。", "vi": "Bọn trẻ chơi cát ở bờ biển.", "en": "The children are playing with sand at the seaside." }
+  },
+  {
+    "id": "L3-0610",
+    "vi": ["bị thương", "vết thương"],
+    "viAliases": ["thương tích", "làm bị thương"],
+    "en": ["to injure", "injury", "wound"],
+    "enSource": "cedict",
+    "example": { "zh": "他的手受伤了很疼。", "vi": "Tay anh ấy bị thương rất đau.", "en": "His hand is injured and hurts a lot." }
+  },
+  {
+    "id": "L3-0611",
+    "vi": ["đau lòng", "buồn bã"],
+    "viAliases": ["thương tâm", "đau buồn"],
+    "en": ["to grieve", "to be broken-hearted", "to feel deeply hurt"],
+    "enSource": "cedict",
+    "example": { "zh": "听到这个消息她很伤心。", "vi": "Nghe tin này cô ấy rất đau lòng.", "en": "She was very sad to hear this news." }
+  },
+  {
+    "id": "L3-0612",
+    "vi": ["hàng hóa", "sản phẩm"],
+    "viAliases": ["mặt hàng", "món hàng"],
+    "en": ["commodity", "goods", "merchandise"],
+    "enSource": "cedict",
+    "example": { "zh": "这家商店的商品很便宜。", "vi": "Hàng hóa của cửa hàng này rất rẻ.", "en": "The goods in this shop are very cheap." }
+  },
+  {
+    "id": "L3-0613",
+    "vi": ["thương mại", "kinh doanh"],
+    "viAliases": ["thương nghiệp", "buôn bán"],
+    "en": ["business", "trade", "commerce"],
+    "enSource": "cedict",
+    "example": { "zh": "这条街是商业中心。", "vi": "Con phố này là trung tâm thương mại.", "en": "This street is the commercial center." }
+  },
+  {
+    "id": "L3-0614",
+    "vi": ["lên đây", "đi lên"],
+    "viAliases": ["leo lên đây", "trèo lên đây"],
+    "en": ["to come up", "to approach"],
+    "enSource": "cedict",
+    "example": { "zh": "你快上来看看这里。", "vi": "Bạn mau lên đây xem thử chỗ này.", "en": "Come up quickly and take a look here." }
+  },
+  {
+    "id": "L3-0615",
+    "vi": ["phía trên", "bên trên"],
+    "viAliases": ["ở trên", "mặt trên"],
+    "en": ["on top of", "above-mentioned"],
+    "enSource": "cedict",
+    "example": { "zh": "桌子上面有一杯水。", "vi": "Trên mặt bàn có một cốc nước.", "en": "There is a glass of water on top of the table." }
+  },
+  {
+    "id": "L3-0616",
+    "vi": ["đi lên", "lên trên đó"],
+    "viAliases": ["leo lên", "trèo lên"],
+    "en": ["to go up"],
+    "enSource": "cedict",
+    "example": { "zh": "我们坐电梯上去吧。", "vi": "Chúng ta đi thang máy lên trên nhé.", "en": "Let us take the elevator up." }
+  },
+  {
+    "id": "L3-0617",
+    "vi": ["tăng lên", "dâng lên"],
+    "viAliases": ["lên cao", "gia tăng"],
+    "en": ["to rise", "to go up", "to ascend"],
+    "enSource": "cedict",
+    "example": { "zh": "今年的气温上升了很多。", "vi": "Nhiệt độ năm nay đã tăng lên rất nhiều.", "en": "The temperature has risen a lot this year." }
+  },
+  {
+    "id": "L3-0618",
+    "vi": ["áo khoác ngoài", "áo ngoài"],
+    "viAliases": ["áo khoác", "áo mặc ngoài"],
+    "en": ["jacket", "upper outer garment"],
+    "enSource": "cedict",
+    "example": { "zh": "这件上衣是新买的。", "vi": "Chiếc áo khoác này mới mua.", "en": "This jacket was newly bought." }
+  }
+]

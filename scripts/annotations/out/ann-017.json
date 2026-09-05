@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L2-0221",
+    "vi": ["phù hợp", "thích hợp", "vừa"],
+    "viAliases": ["hợp", "vừa vặn"],
+    "en": ["suitable", "fitting", "appropriate"],
+    "enSource": "cedict",
+    "example": { "zh": "这件衣服很合适。", "vi": "Chiếc áo này rất vừa.", "en": "This piece of clothing fits very well." }
+  },
+  {
+    "id": "L2-0222",
+    "vi": ["sông"],
+    "viAliases": ["con sông", "dòng sông"],
+    "en": ["river"],
+    "enSource": "cedict",
+    "example": { "zh": "河里有很多鱼。", "vi": "Dưới sông có rất nhiều cá.", "en": "There are a lot of fish in the river." }
+  },
+  {
+    "id": "L2-0223",
+    "vi": ["đen", "tối"],
+    "viAliases": ["màu đen", "đen sì"],
+    "en": ["black", "dark"],
+    "enSource": "cedict",
+    "example": { "zh": "他的头发很黑。", "vi": "Tóc của anh ấy rất đen.", "en": "His hair is very black." }
+  },
+  {
+    "id": "L2-0224",
+    "vi": ["bảng đen"],
+    "viAliases": ["bảng", "cái bảng"],
+    "en": ["blackboard"],
+    "enSource": "cedict",
+    "example": { "zh": "老师在黑板上写字。", "vi": "Cô giáo viết chữ trên bảng đen.", "en": "The teacher writes on the blackboard." }
+  },
+  {
+    "id": "L2-0225",
+    "vi": ["màu đen"],
+    "viAliases": ["đen", "sắc đen"],
+    "en": ["black"],
+    "enSource": "cedict",
+    "example": { "zh": "我喜欢黑色的鞋子。", "vi": "Tôi thích đôi giày màu đen.", "en": "I like black shoes." }
+  },
+  {
+    "id": "L2-0226",
+    "vi": ["đỏ"],
+    "viAliases": ["màu đỏ", "đỏ tươi"],
+    "en": ["red"],
+    "enSource": "cedict",
+    "example": { "zh": "我买了一个红苹果。", "vi": "Tôi đã mua một quả táo đỏ.", "en": "I bought a red apple." }
+  },
+  {
+    "id": "L2-0227",
+    "vi": ["màu đỏ"],
+    "viAliases": ["đỏ", "sắc đỏ"],
+    "en": ["red (color)"],
+    "enSource": "cedict",
+    "example": { "zh": "她喜欢红色的花。", "vi": "Cô ấy thích những bông hoa màu đỏ.", "en": "She likes red flowers." }
+  },
+  {
+    "id": "L2-0228",
+    "vi": ["sau đó", "về sau"],
+    "viAliases": ["sau này", "rồi sau đó"],
+    "en": ["afterwards", "later"],
+    "enSource": "cedict",
+    "example": { "zh": "后来他去了北京。", "vi": "Sau đó anh ấy đã đi Bắc Kinh.", "en": "Afterwards he went to Beijing." }
+  },
+  {
+    "id": "L2-0229",
+    "vi": ["bỗng nhiên", "đột nhiên"],
+    "viAliases": ["chợt", "bất chợt", "thình lình"],
+    "en": ["suddenly", "all of a sudden"],
+    "enSource": "cedict",
+    "example": { "zh": "天忽然下雨了。", "vi": "Trời bỗng nhiên đổ mưa.", "en": "It suddenly started to rain." }
+  },
+  {
+    "id": "L2-0230",
+    "vi": ["hồ"],
+    "viAliases": ["hồ nước", "cái hồ"],
+    "en": ["lake"],
+    "enSource": "cedict",
+    "example": { "zh": "这个湖很大很漂亮。", "vi": "Cái hồ này vừa to vừa đẹp.", "en": "This lake is big and beautiful." }
+  },
+  {
+    "id": "L2-0231",
+    "vi": ["hộ chiếu"],
+    "viAliases": [],
+    "en": ["passport"],
+    "enSource": "cedict",
+    "example": { "zh": "我的护照在包里。", "vi": "Hộ chiếu của tôi ở trong túi.", "en": "My passport is in the bag." }
+  },
+  {
+    "id": "L2-0232",
+    "vi": ["tiêu", "tốn"],
+    "viAliases": ["chi", "tiêu tốn", "bỏ ra"],
+    "en": ["to spend (money, time)"],
+    "enSource": "cedict",
+    "example": { "zh": "我花了很多钱。", "vi": "Tôi đã tiêu rất nhiều tiền.", "en": "I spent a lot of money." }
+  },
+  {
+    "id": "L2-0233",
+    "vi": ["vườn hoa", "khu vườn"],
+    "viAliases": ["vườn"],
+    "en": ["garden", "yard with decorative plants"],
+    "enSource": "cedict",
+    "example": { "zh": "我家有一个小花园。", "vi": "Nhà tôi có một khu vườn nhỏ.", "en": "My home has a small garden." }
+  },
+  {
+    "id": "L2-0234",
+    "vi": ["vẽ"],
+    "viAliases": ["vẽ tranh", "họa"],
+    "en": ["to draw", "to paint"],
+    "enSource": "cedict",
+    "example": { "zh": "妹妹在画一只小狗。", "vi": "Em gái đang vẽ một con chó nhỏ.", "en": "My little sister is drawing a puppy." }
+  },
+  {
+    "id": "L2-0235",
+    "vi": ["họa sĩ"],
+    "viAliases": ["người vẽ tranh", "nhà hội họa"],
+    "en": ["painter"],
+    "enSource": "cedict",
+    "example": { "zh": "他是一位有名的画家。", "vi": "Ông ấy là một họa sĩ nổi tiếng.", "en": "He is a famous painter." }
+  },
+  {
+    "id": "L2-0236",
+    "vi": ["bức tranh", "tranh"],
+    "viAliases": ["hình vẽ", "bức vẽ"],
+    "en": ["picture", "drawing", "painting"],
+    "enSource": "cedict",
+    "example": { "zh": "这张画儿很漂亮。", "vi": "Bức tranh này rất đẹp.", "en": "This picture is very beautiful." }
+  },
+  {
+    "id": "L2-0237",
+    "vi": ["tác hại", "mặt hại"],
+    "viAliases": ["điều bất lợi", "cái hại", "điểm xấu"],
+    "en": ["harm", "troubles"],
+    "enSource": "cedict",
+    "example": { "zh": "这样做有很多坏处。", "vi": "Làm như vậy có rất nhiều tác hại.", "en": "Doing it this way has many drawbacks." }
+  },
+  {
+    "id": "L2-0238",
+    "vi": ["người xấu", "kẻ xấu"],
+    "viAliases": ["kẻ ác", "người ác"],
+    "en": ["bad person", "villain"],
+    "enSource": "cedict",
+    "example": { "zh": "我们不要相信坏人。", "vi": "Chúng ta đừng tin người xấu.", "en": "We should not trust bad people." }
+  },
+  {
+    "id": "L2-0239",
+    "vi": ["chào đón", "hoan nghênh"],
+    "viAliases": ["chào mừng", "đón chào"],
+    "en": ["to welcome"],
+    "enSource": "cedict",
+    "example": { "zh": "欢迎你来我家玩。", "vi": "Chào mừng bạn đến nhà tôi chơi.", "en": "Welcome to my home." }
+  },
+  {
+    "id": "L2-0240",
+    "vi": ["đổi", "thay"],
+    "viAliases": ["đổi lấy", "hoán đổi", "thay thế"],
+    "en": ["to exchange", "to change (clothes etc)", "to switch"],
+    "enSource": "cedict",
+    "example": { "zh": "我想换一件大的。", "vi": "Tôi muốn đổi một chiếc to hơn.", "en": "I want to exchange it for a bigger one." }
+  },
+  {
+    "id": "L2-0241",
+    "vi": ["vàng"],
+    "viAliases": ["màu vàng", "vàng ươm"],
+    "en": ["yellow"],
+    "enSource": "cedict",
+    "example": { "zh": "这些花是黄的。", "vi": "Những bông hoa này màu vàng.", "en": "These flowers are yellow." }
+  },
+  {
+    "id": "L2-0242",
+    "vi": ["màu vàng"],
+    "viAliases": ["vàng", "sắc vàng"],
+    "en": ["yellow"],
+    "enSource": "cedict",
+    "example": { "zh": "他有一辆黄色的车。", "vi": "Anh ấy có một chiếc xe màu vàng.", "en": "He has a yellow car." }
+  },
+  {
+    "id": "L2-0243",
+    "vi": ["lần", "lượt"],
+    "viAliases": ["bận"],
+    "en": ["classifier for occurrences or times"],
+    "enSource": "cedict",
+    "example": { "zh": "我去过两回北京。", "vi": "Tôi đã đến Bắc Kinh hai lần.", "en": "I have been to Beijing twice." }
+  },
+  {
+    "id": "L2-0244",
+    "vi": ["về nước"],
+    "viAliases": ["trở về nước", "hồi hương", "quay về nước"],
+    "en": ["to return to one's home country"],
+    "enSource": "cedict",
+    "example": { "zh": "他下个月回国。", "vi": "Tháng sau anh ấy về nước.", "en": "He is returning to his home country next month." }
+  },
+  {
+    "id": "L2-0245",
+    "vi": ["cuộc họp", "hội"],
+    "viAliases": ["buổi họp", "hội nghị", "cuộc gặp mặt"],
+    "en": ["meeting", "gathering", "association"],
+    "enSource": "cedict",
+    "example": { "zh": "今天下午有一个会。", "vi": "Chiều nay có một cuộc họp.", "en": "There is a meeting this afternoon." }
+  },
+  {
+    "id": "L2-0246",
+    "vi": ["hoạt động", "sự kiện"],
+    "viAliases": ["vận động", "chương trình"],
+    "en": ["to exercise; to move about", "activity; event"],
+    "enSource": "cedict",
+    "example": { "zh": "学校今天有活动。", "vi": "Hôm nay trường có hoạt động.", "en": "The school has an activity today." }
+  },
+  {
+    "id": "L2-0247",
+    "vi": ["hoặc", "hay"],
+    "viAliases": ["hoặc là", "hay là"],
+    "en": ["or"],
+    "enSource": "cedict",
+    "example": { "zh": "你可以喝茶或咖啡。", "vi": "Bạn có thể uống trà hoặc cà phê.", "en": "You can drink tea or coffee." }
+  },
+  {
+    "id": "L2-0248",
+    "vi": ["hoặc", "hoặc là"],
+    "viAliases": ["hay", "hay là"],
+    "en": ["or"],
+    "enSource": "cedict",
+    "example": { "zh": "我们明天或者后天去。", "vi": "Chúng ta đi vào ngày mai hoặc ngày kia.", "en": "We will go tomorrow or the day after tomorrow." }
+  },
+  {
+    "id": "L2-0249",
+    "vi": ["cơ hội", "dịp"],
+    "viAliases": ["thời cơ"],
+    "en": ["opportunity", "chance", "occasion"],
+    "enSource": "cedict",
+    "example": { "zh": "这是一个好机会。", "vi": "Đây là một cơ hội tốt.", "en": "This is a good opportunity." }
+  },
+  {
+    "id": "L2-0250",
+    "vi": ["gà"],
+    "viAliases": ["con gà"],
+    "en": ["chicken", "fowl"],
+    "enSource": "cedict",
+    "example": { "zh": "我家养了十只鸡。", "vi": "Nhà tôi nuôi mười con gà.", "en": "My family raises ten chickens." }
+  },
+  {
+    "id": "L2-0251",
+    "vi": ["cấp", "bậc"],
+    "viAliases": ["hạng", "thứ bậc", "lớp"],
+    "en": ["level", "grade", "rank"],
+    "enSource": "cedict",
+    "example": { "zh": "他今年上三年级。", "vi": "Năm nay em ấy học lớp ba.", "en": "He is in the third grade this year." }
+  },
+  {
+    "id": "L2-0252",
+    "vi": ["gấp", "vội", "sốt ruột"],
+    "viAliases": ["khẩn cấp", "nóng ruột", "vội vàng"],
+    "en": ["urgent", "pressing", "hurried", "worried"],
+    "enSource": "cedict",
+    "example": { "zh": "我有急事要走了。", "vi": "Tôi có việc gấp nên phải đi rồi.", "en": "I have something urgent, so I have to go." }
+  },
+  {
+    "id": "L2-0253",
+    "vi": ["kế hoạch", "lên kế hoạch"],
+    "viAliases": ["dự định", "hoạch định", "lập kế hoạch"],
+    "en": ["plan", "project", "to plan"],
+    "enSource": "cedict",
+    "example": { "zh": "我们的旅行计划很好。", "vi": "Kế hoạch du lịch của chúng tôi rất tốt.", "en": "Our travel plan is very good." }
+  },
+  {
+    "id": "L2-0254",
+    "vi": ["máy tính", "máy vi tính"],
+    "viAliases": ["máy điện toán", "máy tính điện tử"],
+    "en": ["computer"],
+    "enSource": "cedict",
+    "example": { "zh": "他用计算机做作业。", "vi": "Anh ấy dùng máy tính để làm bài tập.", "en": "He uses a computer to do his homework." }
+  },
+  {
+    "id": "L2-0255",
+    "vi": ["thêm", "cộng"],
+    "viAliases": ["thêm vào", "cộng thêm", "tăng thêm"],
+    "en": ["to add", "(math.) plus", "to increase; to augment"],
+    "enSource": "cedict",
+    "example": { "zh": "请给我加一点水。", "vi": "Xin thêm cho tôi một chút nước.", "en": "Please add a little water for me." }
+  },
+  {
+    "id": "L2-0256",
+    "vi": ["cố lên", "đổ xăng"],
+    "viAliases": ["cổ vũ", "cố gắng lên", "tiếp xăng"],
+    "en": ["to make an extra effort; to cheer sb on", "to top up with gas; to refuel"],
+    "enSource": "cedict",
+    "example": { "zh": "大家一起为他加油。", "vi": "Mọi người cùng cổ vũ cho anh ấy.", "en": "Everyone cheers him on together." }
+  },
+  {
+    "id": "L2-0257",
+    "vi": ["hậu tố chỉ nhà chuyên môn", "nhà"],
+    "viAliases": ["gia", "sĩ"],
+    "en": ["noun suffix for a specialist in some activity, corresponding to English -ist, -er, -ary or -ian"],
+    "enSource": "cedict",
+    "example": { "zh": "我的爸爸是科学家。", "vi": "Bố tôi là nhà khoa học.", "en": "My father is a scientist." }
+  },
+  {
+    "id": "L2-0258",
+    "vi": ["gia đình"],
+    "viAliases": ["hộ gia đình", "mái ấm"],
+    "en": ["family", "household"],
+    "enSource": "cedict",
+    "example": { "zh": "他的家庭有五口人。", "vi": "Gia đình anh ấy có năm người.", "en": "His family has five people." }
+  },
+  {
+    "id": "L2-0259",
+    "vi": ["phụ huynh", "người giám hộ", "chủ hộ"],
+    "viAliases": ["cha mẹ học sinh", "chủ gia đình"],
+    "en": ["parent or guardian of a child", "head of a household"],
+    "enSource": "cedict",
+    "example": { "zh": "明天家长来学校开会。", "vi": "Ngày mai phụ huynh đến trường họp.", "en": "Tomorrow the parents will come to school for a meeting." }
+  },
+  {
+    "id": "L2-0260",
+    "vi": ["giả", "không thật"],
+    "viAliases": ["giả mạo", "rởm"],
+    "en": ["fake", "false", "artificial"],
+    "enSource": "cedict",
+    "example": { "zh": "这个包是假的。", "vi": "Cái túi này là hàng giả.", "en": "This bag is fake." }
+  },
+  {
+    "id": "L2-0261",
+    "vi": ["kỳ nghỉ"],
+    "viAliases": ["kì nghỉ", "ngày nghỉ", "dịp nghỉ"],
+    "en": ["vacation"],
+    "enSource": "cedict",
+    "example": { "zh": "假期我要去旅游。", "vi": "Vào kỳ nghỉ tôi sẽ đi du lịch.", "en": "I am going traveling during the vacation." }
+  },
+  {
+    "id": "L2-0262",
+    "vi": ["kiểm tra", "sự kiểm tra"],
+    "viAliases": ["khám", "rà soát"],
+    "en": ["to examine", "to inspect", "inspection"],
+    "enSource": "cedict",
+    "example": { "zh": "医生给他检查身体。", "vi": "Bác sĩ kiểm tra sức khỏe cho anh ấy.", "en": "The doctor gives him a physical checkup." }
+  },
+  {
+    "id": "L2-0263",
+    "vi": ["gặp", "gặp được"],
+    "viAliases": ["gặp gỡ", "nhìn thấy", "trông thấy"],
+    "en": ["to see"],
+    "enSource": "cedict",
+    "example": { "zh": "我昨天见到了老师。", "vi": "Hôm qua tôi đã gặp thầy giáo.", "en": "I saw the teacher yesterday." }
+  },
+  {
+    "id": "L2-0264",
+    "vi": ["từng gặp", "đã gặp qua"],
+    "viAliases": ["đã từng gặp", "gặp qua rồi"],
+    "en": ["to have met before", "to have seen before"],
+    "enSource": "written",
+    "example": { "zh": "我见过他一次。", "vi": "Tôi đã từng gặp anh ấy một lần.", "en": "I have met him once." }
+  },
+  {
+    "id": "L2-0265",
+    "vi": ["lượng từ chỉ quần áo, sự việc", "chiếc"],
+    "viAliases": ["cái", "việc"],
+    "en": ["classifier for events, things, clothes etc", "item"],
+    "enSource": "cedict",
+    "example": { "zh": "我买了一件新衣服。", "vi": "Tôi đã mua một chiếc áo mới.", "en": "I bought a new piece of clothing." }
+  }
+]

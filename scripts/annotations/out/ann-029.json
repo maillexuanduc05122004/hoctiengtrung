@@ -1,0 +1,542 @@
+[
+  {
+    "id": "L2-0761",
+    "vi": ["tổ trưởng", "nhóm trưởng"],
+    "viAliases": ["trưởng nhóm", "trưởng tổ"],
+    "en": ["group leader"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他是我们的组长。",
+      "vi": "Anh ấy là tổ trưởng của chúng tôi.",
+      "en": "He is our group leader."
+    }
+  },
+  {
+    "id": "L2-0762",
+    "vi": ["miệng", "mồm"],
+    "viAliases": ["cái miệng"],
+    "en": ["mouth", "beak", "spout (of teapot etc)"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他的嘴很小。",
+      "vi": "Miệng anh ấy rất nhỏ.",
+      "en": "His mouth is very small."
+    }
+  },
+  {
+    "id": "L2-0763",
+    "vi": ["gần đây", "dạo này"],
+    "viAliases": ["dạo gần đây", "thời gian gần đây"],
+    "en": ["recently", "soon"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "最近我的工作很忙。",
+      "vi": "Dạo gần đây công việc của tôi rất bận.",
+      "en": "My work has been very busy recently."
+    }
+  },
+  {
+    "id": "L2-0764",
+    "vi": ["nhà văn"],
+    "viAliases": ["văn sĩ"],
+    "en": ["author"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我想当一名作家。",
+      "vi": "Tôi muốn trở thành một nhà văn.",
+      "en": "I want to become an author."
+    }
+  },
+  {
+    "id": "L2-0765",
+    "vi": ["bài văn", "bài tập làm văn"],
+    "viAliases": ["bài luận", "bài viết văn"],
+    "en": ["composition (student essay)"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "老师让我们写作文。",
+      "vi": "Cô giáo bảo chúng tôi viết bài văn.",
+      "en": "The teacher asked us to write a composition."
+    }
+  },
+  {
+    "id": "L2-0766",
+    "vi": ["bài tập về nhà", "bài tập"],
+    "viAliases": ["bài tập ở nhà", "bài vở"],
+    "en": ["school assignment", "homework"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我在写今天的作业。",
+      "vi": "Tôi đang làm bài tập của hôm nay.",
+      "en": "I am doing today's homework."
+    }
+  },
+  {
+    "id": "L2-0767",
+    "vi": ["tác dụng", "vai trò"],
+    "viAliases": ["hiệu quả", "công dụng"],
+    "en": ["action; function; activity", "impact; result; effect"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这种药的作用很大。",
+      "vi": "Loại thuốc này có tác dụng rất lớn.",
+      "en": "This kind of medicine has a strong effect."
+    }
+  },
+  {
+    "id": "L2-0768",
+    "vi": ["lượng từ chỉ tòa nhà, ngọn núi, cây cầu"],
+    "viAliases": ["tòa", "ngọn", "cây"],
+    "en": ["classifier for large immovable objects such as buildings, mountains, bridges etc"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "那座山很高。",
+      "vi": "Ngọn núi kia rất cao.",
+      "en": "That mountain is very high."
+    }
+  },
+  {
+    "id": "L2-0769",
+    "vi": ["chỗ ngồi", "ghế ngồi"],
+    "viAliases": ["vị trí ngồi"],
+    "en": ["seat"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这个座位有人吗？",
+      "vi": "Chỗ ngồi này có ai ngồi chưa?",
+      "en": "Is this seat taken?"
+    }
+  },
+  {
+    "id": "L2-0770",
+    "vi": ["làm được", "đạt được"],
+    "viAliases": ["thực hiện được", "hoàn thành được"],
+    "en": ["to accomplish", "to achieve"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "你一定能做到。",
+      "vi": "Bạn nhất định làm được.",
+      "en": "You can definitely do it."
+    }
+  },
+  {
+    "id": "L2-0771",
+    "vi": ["cách làm", "cách thức"],
+    "viAliases": ["phương pháp làm", "cách chế biến"],
+    "en": ["way of handling sth", "method for making", "practice"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这个菜的做法很简单。",
+      "vi": "Cách làm món ăn này rất đơn giản.",
+      "en": "The way to make this dish is very simple."
+    }
+  },
+  {
+    "id": "L2-0772",
+    "vi": ["nấu cơm", "nấu ăn"],
+    "viAliases": ["nấu nướng", "làm cơm"],
+    "en": ["to prepare a meal", "to cook"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "妈妈正在厨房做饭。",
+      "vi": "Mẹ đang nấu cơm trong bếp.",
+      "en": "Mom is cooking in the kitchen."
+    }
+  },
+  {
+    "id": "L3-0001",
+    "vi": ["lòng yêu thương", "tấm lòng nhân ái"],
+    "viAliases": ["lòng nhân ái", "tình thương"],
+    "en": ["compassion", "kindness", "care for others"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他是一个很有爱心的人。",
+      "vi": "Anh ấy là một người rất giàu lòng yêu thương.",
+      "en": "He is a very compassionate person."
+    }
+  },
+  {
+    "id": "L3-0002",
+    "vi": ["sắp xếp", "bố trí", "sự sắp xếp"],
+    "viAliases": ["thu xếp", "lên kế hoạch"],
+    "en": ["to arrange", "to plan", "arrangements"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我们安排一下明天的工作。",
+      "vi": "Chúng ta sắp xếp một chút công việc ngày mai nhé.",
+      "en": "Let's arrange tomorrow's work."
+    }
+  },
+  {
+    "id": "L3-0003",
+    "vi": ["lắp đặt", "cài đặt"],
+    "viAliases": ["lắp ráp", "cài"],
+    "en": ["to install", "to erect", "to mount"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他帮我安装了空调。",
+      "vi": "Anh ấy giúp tôi lắp đặt máy điều hòa.",
+      "en": "He installed the air conditioner for me."
+    }
+  },
+  {
+    "id": "L3-0004",
+    "vi": ["ấn", "bấm", "theo"],
+    "viAliases": ["nhấn", "dựa theo"],
+    "en": ["to press", "to push", "according to"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "请按这个红色的按钮。",
+      "vi": "Xin hãy bấm cái nút màu đỏ này.",
+      "en": "Please press this red button."
+    }
+  },
+  {
+    "id": "L3-0005",
+    "vi": ["theo", "dựa theo", "chiếu theo"],
+    "viAliases": ["căn cứ vào", "theo như"],
+    "en": ["according to; in accordance with; on the basis of"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "请按照老师说的做。",
+      "vi": "Hãy làm theo lời thầy giáo nói.",
+      "en": "Please do it according to what the teacher said."
+    }
+  },
+  {
+    "id": "L3-0006",
+    "vi": ["giới từ đưa tân ngữ lên trước động từ"],
+    "viAliases": ["đem", "lấy"],
+    "en": ["(used to put the object before the verb: 把 + {noun} + {verb})"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "请把门关上。",
+      "vi": "Xin hãy đóng cửa lại.",
+      "en": "Please close the door."
+    }
+  },
+  {
+    "id": "L3-0007",
+    "vi": ["lượng từ chỉ vật có tay cầm như dao, ghế, ô"],
+    "viAliases": ["cái", "chiếc"],
+    "en": ["classifier for things with handles", "classifier: handful, bundle, bunch"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我买了一把新雨伞。",
+      "vi": "Tôi đã mua một cái ô mới.",
+      "en": "I bought a new umbrella."
+    }
+  },
+  {
+    "id": "L3-0008",
+    "vi": ["nắm bắt", "nắm chắc", "sự chắc chắn"],
+    "viAliases": ["nắm lấy", "nắm vững"],
+    "en": ["to grasp", "to seize", "assurance", "certainty"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我们要把握好这次机会。",
+      "vi": "Chúng ta phải nắm bắt tốt cơ hội lần này.",
+      "en": "We must seize this opportunity well."
+    }
+  },
+  {
+    "id": "L3-0009",
+    "vi": ["uổng công", "vô ích", "miễn phí"],
+    "viAliases": ["phí công", "không công"],
+    "en": ["in vain", "free of charge"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我白等了一个小时。",
+      "vi": "Tôi đã đợi uổng công một tiếng đồng hồ.",
+      "en": "I waited for an hour in vain."
+    }
+  },
+  {
+    "id": "L3-0010",
+    "vi": ["cải thảo", "rau cải trắng"],
+    "viAliases": ["bắp cải thảo", "cải bắc thảo"],
+    "en": ["Chinese cabbage, esp. napa cabbage"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "妈妈买了两棵白菜。",
+      "vi": "Mẹ đã mua hai cây cải thảo.",
+      "en": "Mom bought two Chinese cabbages."
+    }
+  },
+  {
+    "id": "L3-0011",
+    "vi": ["lớp học", "lớp"],
+    "viAliases": ["tập thể lớp", "khối lớp"],
+    "en": ["class (group of students)", "grade (in school)"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我们班级有三十个学生。",
+      "vi": "Lớp chúng tôi có ba mươi học sinh.",
+      "en": "Our class has thirty students."
+    }
+  },
+  {
+    "id": "L3-0012",
+    "vi": ["khiêng", "dời", "chuyển"],
+    "viAliases": ["bê", "dọn"],
+    "en": ["to move (sth relatively heavy or bulky)", "to shift", "to move (i.e. relocate oneself)"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "请你帮我搬这张桌子。",
+      "vi": "Bạn giúp tôi khiêng cái bàn này nhé.",
+      "en": "Please help me move this table."
+    }
+  },
+  {
+    "id": "L3-0013",
+    "vi": ["chuyển nhà", "dọn nhà"],
+    "viAliases": ["dọn đi", "chuyển chỗ ở"],
+    "en": ["to move house; to relocate"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他们下个月要搬家。",
+      "vi": "Tháng sau họ sẽ chuyển nhà.",
+      "en": "They are moving house next month."
+    }
+  },
+  {
+    "id": "L3-0014",
+    "vi": ["tấm ván", "bảng", "tấm"],
+    "viAliases": ["miếng ván", "tấm gỗ"],
+    "en": ["board", "plank", "plate"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这块板是木头做的。",
+      "vi": "Tấm ván này làm bằng gỗ.",
+      "en": "This board is made of wood."
+    }
+  },
+  {
+    "id": "L3-0015",
+    "vi": ["làm thủ tục", "xử lý", "giải quyết"],
+    "viAliases": ["tiến hành", "lo liệu"],
+    "en": ["to handle; to transact; to conduct"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "请到这里办理手续。",
+      "vi": "Xin hãy đến đây làm thủ tục.",
+      "en": "Please come here to handle the formalities."
+    }
+  },
+  {
+    "id": "L3-0016",
+    "vi": ["bảo vệ", "giữ gìn", "bảo đảm"],
+    "viAliases": ["che chở", "đảm bảo"],
+    "en": ["to defend; to protect; to keep", "to guarantee; to ensure"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "请你保重身体。",
+      "vi": "Bạn hãy giữ gìn sức khỏe nhé.",
+      "en": "Please take good care of your health."
+    }
+  },
+  {
+    "id": "L3-0017",
+    "vi": ["bảo vệ", "nhân viên an ninh"],
+    "viAliases": ["nhân viên bảo vệ", "an ninh"],
+    "en": ["security guard", "public security"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "门口有一个保安。",
+      "vi": "Ở cổng có một bảo vệ.",
+      "en": "There is a security guard at the gate."
+    }
+  },
+  {
+    "id": "L3-0018",
+    "vi": ["giữ", "duy trì", "giữ gìn"],
+    "viAliases": ["giữ vững", "giữ lấy"],
+    "en": ["to keep", "to maintain", "to preserve"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "请大家保持安静。",
+      "vi": "Mong mọi người giữ yên lặng.",
+      "en": "Everyone please keep quiet."
+    }
+  },
+  {
+    "id": "L3-0019",
+    "vi": ["bảo quản", "lưu giữ", "lưu lại"],
+    "viAliases": ["cất giữ", "giữ lại", "lưu"],
+    "en": ["to conserve; to preserve; to keep; to store", "(computing) to save (a file etc)"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这些老照片要好好保存。",
+      "vi": "Những bức ảnh cũ này phải bảo quản cho tốt.",
+      "en": "These old photos should be preserved carefully."
+    }
+  },
+  {
+    "id": "L3-0020",
+    "vi": ["bảo vệ", "che chở"],
+    "viAliases": ["bảo hộ", "giữ gìn"],
+    "en": ["to protect", "to defend", "to safeguard"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我们要保护环境。",
+      "vi": "Chúng ta phải bảo vệ môi trường.",
+      "en": "We must protect the environment."
+    }
+  },
+  {
+    "id": "L3-0021",
+    "vi": ["giữ lại", "bảo lưu"],
+    "viAliases": ["để lại", "giữ nguyên"],
+    "en": ["to keep", "to retain", "to put aside for later"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这个位子给你保留着。",
+      "vi": "Chỗ ngồi này vẫn được giữ lại cho bạn.",
+      "en": "This seat is being kept for you."
+    }
+  },
+  {
+    "id": "L3-0022",
+    "vi": ["bảo hiểm", "an toàn", "chắc chắn"],
+    "viAliases": ["chắc ăn"],
+    "en": ["insurance", "safe", "secure"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我买了一份健康保险。",
+      "vi": "Tôi đã mua một gói bảo hiểm sức khỏe.",
+      "en": "I bought a health insurance policy."
+    }
+  },
+  {
+    "id": "L3-0023",
+    "vi": ["bảo đảm", "cam đoan", "sự bảo đảm"],
+    "viAliases": ["đảm bảo", "cam kết"],
+    "en": ["to guarantee", "to ensure", "guarantee"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我保证明天不迟到。",
+      "vi": "Tôi bảo đảm ngày mai sẽ không đến muộn.",
+      "en": "I guarantee that I won't be late tomorrow."
+    }
+  },
+  {
+    "id": "L3-0024",
+    "vi": ["báo", "tờ báo"],
+    "viAliases": ["báo chí"],
+    "en": ["newspaper", "periodical; journal", "bulletin"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "爸爸每天早上看报。",
+      "vi": "Bố đọc báo vào mỗi buổi sáng.",
+      "en": "Dad reads the newspaper every morning."
+    }
+  },
+  {
+    "id": "L3-0025",
+    "vi": ["trình diện", "làm thủ tục nhập học"],
+    "viAliases": ["báo danh", "đăng ký có mặt"],
+    "en": ["to report for duty", "to check in", "to register"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "新学生明天来学校报到。",
+      "vi": "Học sinh mới ngày mai đến trường làm thủ tục nhập học.",
+      "en": "New students come to the school to register tomorrow."
+    }
+  },
+  {
+    "id": "L3-0026",
+    "vi": ["đưa tin", "bài đưa tin"],
+    "viAliases": ["tường thuật", "bản tin"],
+    "en": ["to report (news)", "report"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "报纸报道了这件事。",
+      "vi": "Báo chí đã đưa tin về việc này.",
+      "en": "The newspaper reported this matter."
+    }
+  },
+  {
+    "id": "L3-0027",
+    "vi": ["báo cáo", "bản báo cáo"],
+    "viAliases": ["trình báo", "bài báo cáo"],
+    "en": ["to report", "to inform", "report"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他给老板写了一个报告。",
+      "vi": "Anh ấy viết một bản báo cáo cho sếp.",
+      "en": "He wrote a report for his boss."
+    }
+  },
+  {
+    "id": "L3-0028",
+    "vi": ["cõng", "vác trên lưng"],
+    "viAliases": ["địu", "gánh vác"],
+    "en": ["to carry on one's back", "to bear; to shoulder (a burden, blame etc)"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他背着孩子回家。",
+      "vi": "Anh ấy cõng con về nhà.",
+      "en": "He carried the child home on his back."
+    }
+  },
+  {
+    "id": "L3-0029",
+    "vi": ["miền bắc", "phía bắc"],
+    "viAliases": ["vùng phía bắc", "khu vực phía bắc"],
+    "en": ["northern part"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "中国北部的冬天很冷。",
+      "vi": "Mùa đông ở miền bắc Trung Quốc rất lạnh.",
+      "en": "Winter in the northern part of China is very cold."
+    }
+  },
+  {
+    "id": "L3-0030",
+    "vi": ["lưng", "mặt sau"],
+    "viAliases": ["cái lưng", "mặt lưng"],
+    "en": ["the back of a body or object"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我的背有点儿疼。",
+      "vi": "Lưng tôi hơi đau.",
+      "en": "My back hurts a little."
+    }
+  },
+  {
+    "id": "L3-0031",
+    "vi": ["phía sau", "đằng sau", "sau lưng"],
+    "viAliases": ["mặt sau", "ở phía sau"],
+    "en": ["behind", "at the back", "behind sb's back"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "房子背后有一棵大树。",
+      "vi": "Phía sau ngôi nhà có một cây to.",
+      "en": "There is a big tree behind the house."
+    }
+  },
+  {
+    "id": "L3-0032",
+    "vi": ["bị (giới từ chỉ câu bị động)", "được (giới từ chỉ câu bị động)"],
+    "viAliases": ["bị", "được"],
+    "en": ["used to indicate passive voice"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我的自行车被人借走了。",
+      "vi": "Xe đạp của tôi bị người khác mượn đi mất rồi.",
+      "en": "My bicycle was borrowed by someone."
+    }
+  },
+  {
+    "id": "L3-0033",
+    "vi": ["chăn", "cái chăn"],
+    "viAliases": ["mền", "chăn bông"],
+    "en": ["blanket; quilt"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这床被子很暖和。",
+      "vi": "Cái chăn này rất ấm.",
+      "en": "This quilt is very warm."
+    }
+  }
+]

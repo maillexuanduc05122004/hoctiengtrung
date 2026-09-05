@@ -55,9 +55,13 @@ export default defineConfig({
     target: 'es2022',
     rollupOptions: {
       output: {
-        manualChunks: {
-          vendor: ['react', 'react-dom', 'react-router'],
-          storage: ['dexie'],
+        // Vite 8 dùng Rolldown nên tách gói qua `advancedChunks`,
+        // không còn `manualChunks` như thời Rollup.
+        advancedChunks: {
+          groups: [
+            { name: 'vendor', test: /[\\/]node_modules[\\/](react|react-dom|scheduler|react-router)[\\/]/ },
+            { name: 'storage', test: /[\\/]node_modules[\\/]dexie[\\/]/ },
+          ],
         },
       },
     },

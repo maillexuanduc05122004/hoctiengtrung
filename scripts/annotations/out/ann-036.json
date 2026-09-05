@@ -1,0 +1,542 @@
+[
+  {
+    "id": "L3-0304",
+    "vi": ["vui vẻ", "hân hoan"],
+    "viAliases": ["vui sướng", "hoan hỉ"],
+    "en": ["happy", "joyous", "merry"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "孩子们在公园里唱欢乐的歌。",
+      "vi": "Bọn trẻ hát những bài hát vui vẻ trong công viên.",
+      "en": "The children are singing joyous songs in the park."
+    }
+  },
+  {
+    "id": "L3-0305",
+    "vi": ["vòng", "khoen"],
+    "viAliases": ["chiếc vòng", "cái vòng"],
+    "en": ["ring", "hoop", "loop"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "她的手上有一个金环。",
+      "vi": "Trên tay cô ấy có một chiếc vòng vàng.",
+      "en": "There is a gold ring on her hand."
+    }
+  },
+  {
+    "id": "L3-0306",
+    "vi": ["bảo vệ môi trường", "thân thiện với môi trường"],
+    "viAliases": ["bảo vệ môi sinh"],
+    "en": ["environmental protection", "environmentally friendly"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我们要多用环保的东西。",
+      "vi": "Chúng ta nên dùng nhiều đồ thân thiện với môi trường.",
+      "en": "We should use more environmentally friendly things."
+    }
+  },
+  {
+    "id": "L3-0307",
+    "vi": ["môi trường", "hoàn cảnh"],
+    "viAliases": ["môi trường sống", "khung cảnh xung quanh"],
+    "en": ["environment", "circumstances", "surroundings"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这里的环境很安静。",
+      "vi": "Môi trường ở đây rất yên tĩnh.",
+      "en": "The environment here is very quiet."
+    }
+  },
+  {
+    "id": "L3-0308",
+    "vi": ["cuộc họp", "hội nghị"],
+    "viAliases": ["buổi họp", "phiên họp"],
+    "en": ["meeting", "conference"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "明天上午有一个重要的会议。",
+      "vi": "Sáng mai có một cuộc họp quan trọng.",
+      "en": "There is an important meeting tomorrow morning."
+    }
+  },
+  {
+    "id": "L3-0309",
+    "vi": ["hội viên", "thành viên"],
+    "viAliases": [],
+    "en": ["member"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我是这家商店的会员。",
+      "vi": "Tôi là hội viên của cửa hàng này.",
+      "en": "I am a member of this store."
+    }
+  },
+  {
+    "id": "L3-0310",
+    "vi": ["sống", "còn sống"],
+    "viAliases": ["sinh sống"],
+    "en": ["to live", "alive", "living"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这条鱼还活着。",
+      "vi": "Con cá này vẫn còn sống.",
+      "en": "This fish is still alive."
+    }
+  },
+  {
+    "id": "L3-0311",
+    "vi": ["lửa"],
+    "viAliases": ["ngọn lửa"],
+    "en": ["fire"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "厨房里的火太大了。",
+      "vi": "Lửa trong bếp lớn quá.",
+      "en": "The fire in the kitchen is too big."
+    }
+  },
+  {
+    "id": "L3-0312",
+    "vi": ["máy", "máy móc"],
+    "viAliases": ["cỗ máy"],
+    "en": ["machine"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这台机器坏了。",
+      "vi": "Cái máy này hỏng rồi.",
+      "en": "This machine is broken."
+    }
+  },
+  {
+    "id": "L3-0313",
+    "vi": ["tích cực", "hăng hái"],
+    "viAliases": ["chủ động", "nhiệt tình"],
+    "en": ["active", "energetic", "positive", "proactive"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他学习很积极。",
+      "vi": "Cậu ấy học rất tích cực.",
+      "en": "He studies very actively."
+    }
+  },
+  {
+    "id": "L3-0314",
+    "vi": ["cơ bản", "căn bản"],
+    "viAliases": ["cốt lõi", "chủ yếu"],
+    "en": ["basic", "fundamental", "main", "elementary"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这是最基本的问题。",
+      "vi": "Đây là vấn đề cơ bản nhất.",
+      "en": "This is the most basic question."
+    }
+  },
+  {
+    "id": "L3-0315",
+    "vi": ["về cơ bản", "đại thể"],
+    "viAliases": ["nói chung", "nhìn chung"],
+    "en": ["basically", "on the whole"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我基本上同意你的看法。",
+      "vi": "Về cơ bản tôi đồng ý với cách nghĩ của bạn.",
+      "en": "I basically agree with your view."
+    }
+  },
+  {
+    "id": "L3-0316",
+    "vi": ["nền tảng", "cơ sở"],
+    "viAliases": ["nền móng"],
+    "en": ["base", "foundation", "basis"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他的汉语基础很好。",
+      "vi": "Nền tảng tiếng Trung của cậu ấy rất tốt.",
+      "en": "His foundation in Chinese is very good."
+    }
+  },
+  {
+    "id": "L3-0317",
+    "vi": ["kịp thời", "đúng lúc"],
+    "viAliases": ["kịp lúc", "không chậm trễ"],
+    "en": ["timely", "at the right time", "promptly"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他的帮助非常及时。",
+      "vi": "Sự giúp đỡ của anh ấy rất kịp thời.",
+      "en": "His help was very timely."
+    }
+  },
+  {
+    "id": "L3-0318",
+    "vi": ["cực kỳ", "vô cùng"],
+    "viAliases": ["hết sức"],
+    "en": ["extremely", "exceedingly"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "今天的天气好极了。",
+      "vi": "Thời tiết hôm nay đẹp cực kỳ.",
+      "en": "The weather today is extremely nice."
+    }
+  },
+  {
+    "id": "L3-0319",
+    "vi": ["tập thể", "nhóm"],
+    "viAliases": ["đội"],
+    "en": ["a group", "a team", "collective"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我们班是一个团结的集体。",
+      "vi": "Lớp chúng tôi là một tập thể đoàn kết.",
+      "en": "Our class is a united group."
+    }
+  },
+  {
+    "id": "L3-0320",
+    "vi": ["tập trung"],
+    "viAliases": ["dồn lại", "gom lại"],
+    "en": ["to concentrate", "to focus", "to centralize", "concentrated"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "上课时要集中注意力。",
+      "vi": "Khi lên lớp phải tập trung chú ý.",
+      "en": "You must concentrate your attention during class."
+    }
+  },
+  {
+    "id": "L3-0321",
+    "vi": ["tính toán", "tính"],
+    "viAliases": ["tính ra", "làm phép tính"],
+    "en": ["to calculate", "to compute"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "老师让我们计算这道题。",
+      "vi": "Thầy giáo bảo chúng tôi tính bài toán này.",
+      "en": "The teacher asked us to calculate this problem."
+    }
+  },
+  {
+    "id": "L3-0322",
+    "vi": ["ghi chép", "ghi lại", "biên bản"],
+    "viAliases": ["ghi", "bản ghi"],
+    "en": ["to record", "record (written account)"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他把老师说的话记录下来。",
+      "vi": "Cậu ấy ghi lại những lời thầy giáo nói.",
+      "en": "He wrote down what the teacher said."
+    }
+  },
+  {
+    "id": "L3-0323",
+    "vi": ["phóng viên", "nhà báo"],
+    "viAliases": ["ký giả"],
+    "en": ["reporter", "journalist"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "那位记者问了很多问题。",
+      "vi": "Vị phóng viên đó đã hỏi rất nhiều câu hỏi.",
+      "en": "That reporter asked a lot of questions."
+    }
+  },
+  {
+    "id": "L3-0324",
+    "vi": ["kỷ lục"],
+    "viAliases": ["thành tích kỷ lục"],
+    "en": ["record (in sports etc)", "record"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他打破了学校的纪录。",
+      "vi": "Anh ấy đã phá kỷ lục của trường.",
+      "en": "He broke the school record."
+    }
+  },
+  {
+    "id": "L3-0325",
+    "vi": ["kỷ niệm", "tưởng nhớ", "vật kỷ niệm"],
+    "viAliases": ["tưởng niệm", "đồ lưu niệm"],
+    "en": ["to commemorate", "souvenir", "keepsake"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这张照片是我们的纪念。",
+      "vi": "Tấm ảnh này là kỷ niệm của chúng tôi.",
+      "en": "This photo is our keepsake."
+    }
+  },
+  {
+    "id": "L3-0326",
+    "vi": ["kỹ thuật", "công nghệ", "tay nghề"],
+    "viAliases": ["kĩ thuật"],
+    "en": ["technology", "technique", "skill"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他的开车技术很好。",
+      "vi": "Kỹ thuật lái xe của anh ấy rất tốt.",
+      "en": "His driving skill is very good."
+    }
+  },
+  {
+    "id": "L3-0327",
+    "vi": ["tiếp tục"],
+    "viAliases": ["làm tiếp", "tiếp diễn"],
+    "en": ["to continue", "to proceed with", "to go on with"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "休息一下我们再继续工作。",
+      "vi": "Nghỉ một chút rồi chúng ta tiếp tục làm việc.",
+      "en": "Let us rest a bit and then continue working."
+    }
+  },
+  {
+    "id": "L3-0328",
+    "vi": ["gia công", "chế biến"],
+    "viAliases": ["xử lý nguyên liệu"],
+    "en": ["to process", "processing"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这家工厂加工水果。",
+      "vi": "Nhà máy này chế biến hoa quả.",
+      "en": "This factory processes fruit."
+    }
+  },
+  {
+    "id": "L3-0329",
+    "vi": ["tăng tốc", "đẩy nhanh"],
+    "viAliases": ["làm nhanh hơn"],
+    "en": ["to accelerate", "to speed up", "to hasten"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他加快了走路的速度。",
+      "vi": "Anh ấy đã tăng tốc độ đi bộ.",
+      "en": "He sped up his walking pace."
+    }
+  },
+  {
+    "id": "L3-0330",
+    "vi": ["tăng cường", "củng cố"],
+    "viAliases": ["đẩy mạnh", "làm mạnh thêm"],
+    "en": ["to reinforce", "to strengthen", "to enhance"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我们要加强身体锻炼。",
+      "vi": "Chúng ta phải tăng cường rèn luyện thân thể.",
+      "en": "We should strengthen our physical exercise."
+    }
+  },
+  {
+    "id": "L3-0331",
+    "vi": ["đồ đạc", "nội thất"],
+    "viAliases": ["đồ gỗ", "đồ dùng trong nhà"],
+    "en": ["furniture"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这些家具是新买的。",
+      "vi": "Những món đồ đạc này là mới mua.",
+      "en": "This furniture was newly bought."
+    }
+  },
+  {
+    "id": "L3-0332",
+    "vi": ["người nhà", "thân nhân"],
+    "viAliases": ["người thân trong gia đình", "gia quyến"],
+    "en": ["family member", "family dependent"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "医院里有很多病人的家属。",
+      "vi": "Trong bệnh viện có rất nhiều người nhà của bệnh nhân.",
+      "en": "There are many patients' family members in the hospital."
+    }
+  },
+  {
+    "id": "L3-0333",
+    "vi": ["quê hương", "quê nhà"],
+    "viAliases": ["quê", "cố hương"],
+    "en": ["hometown", "native place"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我很想念我的家乡。",
+      "vi": "Tôi rất nhớ quê hương của mình.",
+      "en": "I miss my hometown very much."
+    }
+  },
+  {
+    "id": "L3-0334",
+    "vi": ["giá cả", "mức giá"],
+    "viAliases": ["giá"],
+    "en": ["price"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这件衣服的价格不高。",
+      "vi": "Giá của chiếc áo này không cao.",
+      "en": "The price of this piece of clothing is not high."
+    }
+  },
+  {
+    "id": "L3-0335",
+    "vi": ["giá tiền", "giá"],
+    "viAliases": ["giá cả"],
+    "en": ["price"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我们先问问价钱吧。",
+      "vi": "Chúng ta hỏi giá tiền trước đi.",
+      "en": "Let us ask the price first."
+    }
+  },
+  {
+    "id": "L3-0336",
+    "vi": ["giá trị"],
+    "viAliases": ["trị giá"],
+    "en": ["value", "worth"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这本书很有价值。",
+      "vi": "Quyển sách này rất có giá trị.",
+      "en": "This book is very valuable."
+    }
+  },
+  {
+    "id": "L3-0337",
+    "vi": ["chiếc (lượng từ cho máy bay, máy móc)", "giá đỡ", "kệ", "bắc"],
+    "viAliases": ["khung", "cái giá", "dựng"],
+    "en": ["frame", "rack", "classifier for planes, large vehicles, radios etc"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "天上飞过一架飞机。",
+      "vi": "Trên trời có một chiếc máy bay bay qua.",
+      "en": "A plane flew across the sky."
+    }
+  },
+  {
+    "id": "L3-0338",
+    "vi": ["kiên trì", "giữ vững"],
+    "viAliases": ["bền bỉ", "khăng khăng"],
+    "en": ["to persevere with", "to persist in", "to insist on"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他坚持每天跑步。",
+      "vi": "Anh ấy kiên trì chạy bộ mỗi ngày.",
+      "en": "He persists in running every day."
+    }
+  },
+  {
+    "id": "L3-0339",
+    "vi": ["kiên quyết", "dứt khoát"],
+    "viAliases": ["quyết liệt", "cương quyết"],
+    "en": ["firm", "resolute", "determined"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他坚决不同意这个办法。",
+      "vi": "Anh ấy kiên quyết không đồng ý với cách làm này.",
+      "en": "He firmly disagrees with this method."
+    }
+  },
+  {
+    "id": "L3-0340",
+    "vi": ["kiên cường", "vững vàng"],
+    "viAliases": ["mạnh mẽ", "cứng cỏi"],
+    "en": ["staunch", "strong"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "她是一个坚强的女孩。",
+      "vi": "Cô ấy là một cô gái kiên cường.",
+      "en": "She is a strong girl."
+    }
+  },
+  {
+    "id": "L3-0341",
+    "vi": ["đơn giản"],
+    "viAliases": ["giản đơn", "không phức tạp"],
+    "en": ["simple", "not complicated"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这个问题很简单。",
+      "vi": "Câu hỏi này rất đơn giản.",
+      "en": "This question is very simple."
+    }
+  },
+  {
+    "id": "L3-0342",
+    "vi": ["đơn giản là", "quả thực"],
+    "viAliases": ["thật là", "đúng là"],
+    "en": ["simply", "really"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这里简直太漂亮了。",
+      "vi": "Ở đây quả thực là quá đẹp.",
+      "en": "This place is simply too beautiful."
+    }
+  },
+  {
+    "id": "L3-0343",
+    "vi": ["xây", "dựng"],
+    "viAliases": ["xây dựng", "lập nên"],
+    "en": ["to build", "to construct", "to establish"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "学校要建一个新图书馆。",
+      "vi": "Trường học sắp xây một thư viện mới.",
+      "en": "The school is going to build a new library."
+    }
+  },
+  {
+    "id": "L3-0344",
+    "vi": ["xây xong", "hoàn thành xây dựng"],
+    "viAliases": ["xây dựng xong", "hoàn công"],
+    "en": ["to build", "to establish"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这座桥去年就建成了。",
+      "vi": "Cây cầu này năm ngoái đã xây xong rồi.",
+      "en": "This bridge was completed last year."
+    }
+  },
+  {
+    "id": "L3-0345",
+    "vi": ["thiết lập", "thành lập"],
+    "viAliases": ["gây dựng", "lập ra"],
+    "en": ["to establish", "to set up", "to found"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我们和他们建立了关系。",
+      "vi": "Chúng tôi đã thiết lập quan hệ với họ.",
+      "en": "We have established a relationship with them."
+    }
+  },
+  {
+    "id": "L3-0346",
+    "vi": ["xây dựng", "kiến thiết"],
+    "viAliases": ["dựng xây", "công cuộc xây dựng"],
+    "en": ["to build", "to construct", "to develop"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "大家一起建设自己的家乡。",
+      "vi": "Mọi người cùng nhau xây dựng quê hương mình.",
+      "en": "Everyone builds their own hometown together."
+    }
+  },
+  {
+    "id": "L3-0347",
+    "vi": ["đề nghị", "kiến nghị", "gợi ý"],
+    "viAliases": ["khuyên", "đề xuất"],
+    "en": ["to propose", "to suggest", "suggestion", "recommendation"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我建议你早点休息。",
+      "vi": "Tôi đề nghị bạn nghỉ ngơi sớm một chút.",
+      "en": "I suggest that you rest a bit earlier."
+    }
+  },
+  {
+    "id": "L3-0348",
+    "vi": ["gần", "xấp xỉ"],
+    "viAliases": ["gần bằng"],
+    "en": ["almost", "nearly", "close to"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他学汉语将近三年了。",
+      "vi": "Anh ấy học tiếng Trung gần ba năm rồi.",
+      "en": "He has been studying Chinese for nearly three years."
+    }
+  }
+]

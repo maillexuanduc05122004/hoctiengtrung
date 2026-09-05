@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L3-0484",
+    "vi": ["mỹ thuật", "nghệ thuật tạo hình"],
+    "viAliases": ["môn mỹ thuật", "hội họa"],
+    "en": ["art", "fine arts", "painting"],
+    "enSource": "cedict",
+    "example": { "zh": "我妹妹很喜欢美术课。", "vi": "Em gái tôi rất thích tiết mỹ thuật.", "en": "My younger sister really likes art class." }
+  },
+  {
+    "id": "L3-0485",
+    "vi": ["đô la Mỹ"],
+    "viAliases": ["đô Mỹ", "USD"],
+    "en": ["American dollar; US dollar"],
+    "enSource": "cedict",
+    "example": { "zh": "这本书要二十美元。", "vi": "Quyển sách này giá hai mươi đô la Mỹ.", "en": "This book costs twenty US dollars." }
+  },
+  {
+    "id": "L3-0486",
+    "vi": ["say mê", "mê"],
+    "viAliases": ["mê mẩn", "đam mê"],
+    "en": ["crazy about"],
+    "enSource": "cedict",
+    "example": { "zh": "我弟弟很迷中国音乐。", "vi": "Em trai tôi rất mê nhạc Trung Quốc.", "en": "My younger brother is crazy about Chinese music." }
+  },
+  {
+    "id": "L3-0487",
+    "vi": ["gạo"],
+    "viAliases": ["gạo sống"],
+    "en": ["uncooked rice"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈今天买了很多米。", "vi": "Hôm nay mẹ mua rất nhiều gạo.", "en": "Mom bought a lot of rice today." }
+  },
+  {
+    "id": "L3-0488",
+    "vi": ["đối mặt", "đối diện"],
+    "viAliases": ["đương đầu", "đối đầu"],
+    "en": ["to face; to confront"],
+    "enSource": "cedict",
+    "example": { "zh": "我们要面对这个问题。", "vi": "Chúng ta phải đối mặt với vấn đề này.", "en": "We have to face this problem." }
+  },
+  {
+    "id": "L3-0489",
+    "vi": ["diện tích"],
+    "viAliases": ["diện tích bề mặt"],
+    "en": ["area", "surface area"],
+    "enSource": "cedict",
+    "example": { "zh": "这个房间的面积不大。", "vi": "Diện tích của căn phòng này không lớn.", "en": "The area of this room is not big." }
+  },
+  {
+    "id": "L3-0490",
+    "vi": ["dân gian", "trong dân chúng"],
+    "viAliases": ["phi chính phủ"],
+    "en": ["among the people", "folk", "non-governmental"],
+    "enSource": "cedict",
+    "example": { "zh": "这是一个有名的民间故事。", "vi": "Đây là một câu chuyện dân gian nổi tiếng.", "en": "This is a famous folk story." }
+  },
+  {
+    "id": "L3-0491",
+    "vi": ["dân tộc"],
+    "viAliases": ["tộc người", "sắc tộc"],
+    "en": ["nationality; ethnic group"],
+    "enSource": "cedict",
+    "example": { "zh": "中国有五十六个民族。", "vi": "Trung Quốc có năm mươi sáu dân tộc.", "en": "China has fifty-six ethnic groups." }
+  },
+  {
+    "id": "L3-0492",
+    "vi": ["rõ ràng", "làm rõ"],
+    "viAliases": ["dứt khoát", "xác định rõ"],
+    "en": ["clear-cut; definite; explicit", "to clarify; to specify; to make definite"],
+    "enSource": "cedict",
+    "example": { "zh": "老师的要求很明确。", "vi": "Yêu cầu của thầy giáo rất rõ ràng.", "en": "The teacher's requirements are very clear." }
+  },
+  {
+    "id": "L3-0493",
+    "vi": ["rõ rệt", "rõ ràng"],
+    "viAliases": ["dễ thấy", "hiển nhiên"],
+    "en": ["clear", "distinct", "obvious"],
+    "enSource": "cedict",
+    "example": { "zh": "他这个学期的进步很明显。", "vi": "Sự tiến bộ của cậu ấy học kỳ này rất rõ rệt.", "en": "His progress this semester is very obvious." }
+  },
+  {
+    "id": "L3-0494",
+    "vi": ["số phận", "vận mệnh"],
+    "viAliases": ["định mệnh", "số mệnh"],
+    "en": ["fate; destiny"],
+    "enSource": "cedict",
+    "example": { "zh": "我相信命运在自己手里。", "vi": "Tôi tin rằng số phận nằm trong tay mình.", "en": "I believe that destiny is in one's own hands." }
+  },
+  {
+    "id": "L3-0495",
+    "vi": ["nào đó"],
+    "viAliases": ["nào đấy"],
+    "en": ["some", "a certain", "such-and-such"],
+    "enSource": "cedict",
+    "example": { "zh": "某天他突然给我打了电话。", "vi": "Một ngày nọ anh ấy bỗng nhiên gọi điện cho tôi.", "en": "One day he suddenly called me." }
+  },
+  {
+    "id": "L3-0496",
+    "vi": ["mẹ", "người mẹ"],
+    "viAliases": ["má", "mẫu thân"],
+    "en": ["mother"],
+    "enSource": "cedict",
+    "example": { "zh": "我的母亲是一名老师。", "vi": "Mẹ tôi là một giáo viên.", "en": "My mother is a teacher." }
+  },
+  {
+    "id": "L3-0497",
+    "vi": ["gỗ", "khúc gỗ"],
+    "viAliases": ["cây gỗ", "thanh gỗ"],
+    "en": ["wood; log"],
+    "enSource": "cedict",
+    "example": { "zh": "这张桌子是木头做的。", "vi": "Cái bàn này làm bằng gỗ.", "en": "This table is made of wood." }
+  },
+  {
+    "id": "L3-0498",
+    "vi": ["mục tiêu", "mục đích"],
+    "viAliases": ["đích"],
+    "en": ["target", "goal", "objective"],
+    "enSource": "cedict",
+    "example": { "zh": "我今年的目标是学好汉语。", "vi": "Mục tiêu năm nay của tôi là học tốt tiếng Hán.", "en": "My goal this year is to learn Chinese well." }
+  },
+  {
+    "id": "L3-0499",
+    "vi": ["hiện nay", "hiện tại"],
+    "viAliases": ["trước mắt", "bây giờ"],
+    "en": ["at the present time", "currently"],
+    "enSource": "cedict",
+    "example": { "zh": "目前我住在北京。", "vi": "Hiện nay tôi sống ở Bắc Kinh.", "en": "I currently live in Beijing." }
+  },
+  {
+    "id": "L3-0500",
+    "vi": ["trà sữa"],
+    "viAliases": ["nước trà sữa"],
+    "en": ["milk tea"],
+    "enSource": "cedict",
+    "example": { "zh": "我每天都想喝奶茶。", "vi": "Ngày nào tôi cũng muốn uống trà sữa.", "en": "I want to drink milk tea every day." }
+  },
+  {
+    "id": "L3-0501",
+    "vi": ["đàn ông", "nam giới"],
+    "viAliases": ["người đàn ông", "nam"],
+    "en": ["a man; a male"],
+    "enSource": "cedict",
+    "example": { "zh": "那位男子是我的老师。", "vi": "Người đàn ông kia là thầy giáo của tôi.", "en": "That man is my teacher." }
+  },
+  {
+    "id": "L3-0502",
+    "vi": ["miền nam", "phía nam"],
+    "viAliases": ["phần phía nam", "vùng phía nam"],
+    "en": ["southern part"],
+    "enSource": "cedict",
+    "example": { "zh": "他家在中国的南部。", "vi": "Nhà anh ấy ở miền nam Trung Quốc.", "en": "His home is in the southern part of China." }
+  },
+  {
+    "id": "L3-0503",
+    "vi": ["chẳng lẽ", "lẽ nào"],
+    "viAliases": ["không lẽ", "chẳng nhẽ"],
+    "en": ["don't tell me ...", "could it be that...?"],
+    "enSource": "cedict",
+    "example": { "zh": "难道你不知道这件事吗？", "vi": "Chẳng lẽ bạn không biết chuyện này sao?", "en": "Don't tell me you don't know about this?" }
+  },
+  {
+    "id": "L3-0504",
+    "vi": ["độ khó"],
+    "viAliases": ["mức độ khó"],
+    "en": ["degree of difficulty"],
+    "enSource": "cedict",
+    "example": { "zh": "这次考试的难度不大。", "vi": "Độ khó của kỳ thi lần này không lớn.", "en": "The difficulty of this exam is not high." }
+  },
+  {
+    "id": "L3-0505",
+    "vi": ["bên trong", "trong"],
+    "viAliases": ["phía trong"],
+    "en": ["inside", "inner", "within", "interior"],
+    "enSource": "cedict",
+    "example": { "zh": "请在一个星期内还书。", "vi": "Xin hãy trả sách trong vòng một tuần.", "en": "Please return the book within a week." }
+  },
+  {
+    "id": "L3-0506",
+    "vi": ["nội dung"],
+    "viAliases": ["chi tiết"],
+    "en": ["content; substance; details"],
+    "enSource": "cedict",
+    "example": { "zh": "这本书的内容很有意思。", "vi": "Nội dung của quyển sách này rất thú vị.", "en": "The content of this book is very interesting." }
+  },
+  {
+    "id": "L3-0507",
+    "vi": ["nội tâm", "trong lòng"],
+    "viAliases": ["tận đáy lòng", "trong thâm tâm"],
+    "en": ["heart; innermost being"],
+    "enSource": "cedict",
+    "example": { "zh": "他内心非常高兴。", "vi": "Trong lòng anh ấy vô cùng vui sướng.", "en": "In his heart he was extremely happy." }
+  },
+  {
+    "id": "L3-0508",
+    "vi": ["có thể... không", "được không"],
+    "viAliases": ["có được không", "có thể hay không"],
+    "en": ["can or cannot", "could you ...?"],
+    "enSource": "written",
+    "example": { "zh": "你能不能帮我一下？", "vi": "Bạn có thể giúp tôi một chút được không?", "en": "Could you help me for a moment?" }
+  },
+  {
+    "id": "L3-0509",
+    "vi": ["năng lực", "khả năng"],
+    "viAliases": ["trình độ"],
+    "en": ["capability", "ability"],
+    "enSource": "cedict",
+    "example": { "zh": "他的工作能力很强。", "vi": "Năng lực làm việc của anh ấy rất mạnh.", "en": "His working ability is very strong." }
+  },
+  {
+    "id": "L3-0510",
+    "vi": ["đầu năm"],
+    "viAliases": ["những ngày đầu năm"],
+    "en": ["beginning of the year"],
+    "enSource": "cedict",
+    "example": { "zh": "今年年初我去了上海。", "vi": "Đầu năm nay tôi đã đi Thượng Hải.", "en": "At the beginning of this year I went to Shanghai." }
+  },
+  {
+    "id": "L3-0511",
+    "vi": ["thời đại", "thập niên"],
+    "viAliases": ["niên đại", "thời kỳ"],
+    "en": ["a decade of a century", "age", "era", "period"],
+    "enSource": "cedict",
+    "example": { "zh": "这是八十年代的老歌。", "vi": "Đây là bài hát cũ của thập niên tám mươi.", "en": "This is an old song from the eighties." }
+  },
+  {
+    "id": "L3-0512",
+    "vi": ["cuối năm"],
+    "viAliases": ["dịp cuối năm"],
+    "en": ["the end of the year", "year-end"],
+    "enSource": "cedict",
+    "example": { "zh": "年底我要回家看父母。", "vi": "Cuối năm tôi sẽ về nhà thăm bố mẹ.", "en": "At the end of the year I will go home to visit my parents." }
+  },
+  {
+    "id": "L3-0513",
+    "vi": ["tuổi", "tuổi tác"],
+    "viAliases": ["số tuổi"],
+    "en": ["age"],
+    "enSource": "cedict",
+    "example": { "zh": "我爷爷的年纪很大了。", "vi": "Ông tôi tuổi đã rất cao.", "en": "My grandfather is quite old now." }
+  },
+  {
+    "id": "L3-0514",
+    "vi": ["đọc", "học", "nhớ"],
+    "viAliases": ["đọc to", "đọc thành tiếng"],
+    "en": ["to read aloud", "to study (a subject)", "to miss (sb)"],
+    "enSource": "cedict",
+    "example": { "zh": "请你念一下这个句子。", "vi": "Bạn hãy đọc câu này một chút.", "en": "Please read this sentence aloud." }
+  },
+  {
+    "id": "L3-0515",
+    "vi": ["con bò", "bò"],
+    "viAliases": ["bò đực", "bò cái"],
+    "en": ["ox", "cow", "bull"],
+    "enSource": "cedict",
+    "example": { "zh": "山上有很多牛和羊。", "vi": "Trên núi có rất nhiều bò và dê.", "en": "There are many cows and sheep on the mountain." }
+  },
+  {
+    "id": "L3-0516",
+    "vi": ["nông thôn"],
+    "viAliases": ["vùng quê", "làng quê"],
+    "en": ["rural area", "village"],
+    "enSource": "cedict",
+    "example": { "zh": "他小时候住在农村。", "vi": "Hồi nhỏ anh ấy sống ở nông thôn.", "en": "He lived in the countryside when he was little." }
+  },
+  {
+    "id": "L3-0517",
+    "vi": ["nông dân"],
+    "viAliases": ["người làm ruộng", "bác nông dân"],
+    "en": ["peasant; farmer"],
+    "enSource": "cedict",
+    "example": { "zh": "我爸爸是一个农民。", "vi": "Bố tôi là một nông dân.", "en": "My father is a farmer." }
+  },
+  {
+    "id": "L3-0518",
+    "vi": ["nông nghiệp"],
+    "viAliases": ["ngành nông nghiệp", "nghề nông"],
+    "en": ["agriculture", "farming"],
+    "enSource": "cedict",
+    "example": { "zh": "我们国家的农业很重要。", "vi": "Nông nghiệp của nước chúng tôi rất quan trọng.", "en": "Agriculture is very important in our country." }
+  },
+  {
+    "id": "L3-0519",
+    "vi": ["phụ nữ", "người con gái"],
+    "viAliases": ["nữ giới", "người phụ nữ"],
+    "en": ["woman", "female"],
+    "enSource": "cedict",
+    "example": { "zh": "那个女子是他的姐姐。", "vi": "Người phụ nữ kia là chị gái của anh ấy.", "en": "That woman is his older sister." }
+  },
+  {
+    "id": "L3-0520",
+    "vi": ["ấm áp", "ấm"],
+    "viAliases": [],
+    "en": ["warm", "nice and warm"],
+    "enSource": "cedict",
+    "example": { "zh": "今天天气很暖和。", "vi": "Hôm nay thời tiết rất ấm áp.", "en": "The weather is very warm today." }
+  },
+  {
+    "id": "L3-0521",
+    "vi": ["e rằng", "chắc là", "có lẽ"],
+    "viAliases": ["e là", "sợ rằng"],
+    "en": ["perhaps"],
+    "enSource": "cedict",
+    "example": { "zh": "他怕是不会来了。", "vi": "Chắc là anh ấy sẽ không đến nữa.", "en": "He probably will not come anymore." }
+  },
+  {
+    "id": "L3-0522",
+    "vi": ["vỗ", "chụp", "quay"],
+    "viAliases": ["đập nhẹ", "vỗ nhẹ"],
+    "en": ["to pat", "to clap", "to take (a photo)", "to shoot (a film)"],
+    "enSource": "cedict",
+    "example": { "zh": "我们一起拍张照片吧。", "vi": "Chúng ta cùng chụp một tấm ảnh nhé.", "en": "Let us take a photo together." }
+  },
+  {
+    "id": "L3-0523",
+    "vi": ["sắp xếp", "xếp hàng"],
+    "viAliases": ["xếp theo thứ tự", "xếp"],
+    "en": ["to arrange in order; to line up", "to rehearse"],
+    "enSource": "cedict",
+    "example": { "zh": "老师让我们排好队。", "vi": "Thầy giáo bảo chúng tôi xếp hàng cho ngay ngắn.", "en": "The teacher told us to line up properly." }
+  },
+  {
+    "id": "L3-0524",
+    "vi": ["xếp hạng", "thứ hạng"],
+    "viAliases": ["xếp thứ hạng", "xếp thứ"],
+    "en": ["to rank", "ranking"],
+    "enSource": "cedict",
+    "example": { "zh": "他这次考试排名第一。", "vi": "Kỳ thi lần này cậu ấy xếp hạng nhất.", "en": "He ranked first in this exam." }
+  },
+  {
+    "id": "L3-0525",
+    "vi": ["nhãn hiệu", "biển hiệu"],
+    "viAliases": ["thương hiệu", "tấm biển"],
+    "en": ["sign", "trademark", "brand"],
+    "enSource": "cedict",
+    "example": { "zh": "这个牌子的衣服很贵。", "vi": "Quần áo của nhãn hiệu này rất đắt.", "en": "Clothes of this brand are very expensive." }
+  },
+  {
+    "id": "L3-0526",
+    "vi": ["cử đi", "phái đi", "phe phái"],
+    "viAliases": ["điều đi", "trường phái"],
+    "en": ["to send; to dispatch; to appoint (sb)", "clique; school; group; faction"],
+    "enSource": "cedict",
+    "example": { "zh": "公司派他去北京工作。", "vi": "Công ty cử anh ấy đi Bắc Kinh làm việc.", "en": "The company sent him to Beijing to work." }
+  },
+  {
+    "id": "L3-0527",
+    "vi": ["phán đoán", "nhận định"],
+    "viAliases": ["đánh giá", "xét đoán"],
+    "en": ["to judge; to determine; judgment"],
+    "enSource": "cedict",
+    "example": { "zh": "我们很难判断谁对谁错。", "vi": "Chúng tôi rất khó phán đoán ai đúng ai sai.", "en": "It is hard for us to judge who is right and who is wrong." }
+  },
+  {
+    "id": "L3-0528",
+    "vi": ["béo", "mập"],
+    "viAliases": ["mập mạp", "béo tròn"],
+    "en": ["fat", "plump"],
+    "enSource": "cedict",
+    "example": { "zh": "他最近有点儿胖了。", "vi": "Dạo này anh ấy hơi béo lên rồi.", "en": "He has gotten a bit fat recently." }
+  }
+]

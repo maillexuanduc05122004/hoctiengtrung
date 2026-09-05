@@ -1,0 +1,542 @@
+[
+  {
+    "id": "L2-0446",
+    "vi": ["cầu xin", "tìm kiếm", "yêu cầu"],
+    "viAliases": ["xin", "mưu cầu", "cầu"],
+    "en": ["to seek", "to look for", "to request", "to beseech"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他求老师帮他一次。",
+      "vi": "Anh ấy cầu xin thầy giáo giúp mình một lần.",
+      "en": "He begged the teacher to help him once."
+    }
+  },
+  {
+    "id": "L2-0447",
+    "vi": ["sân bóng", "sân vận động"],
+    "viAliases": ["sân đấu", "sân thi đấu"],
+    "en": ["stadium", "sports ground", "court", "field"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "学校的球场很大。",
+      "vi": "Sân bóng của trường rất rộng.",
+      "en": "The school's sports ground is very big."
+    }
+  },
+  {
+    "id": "L2-0448",
+    "vi": ["đội bóng"],
+    "viAliases": ["đội banh"],
+    "en": ["sports team"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我很喜欢这个球队。",
+      "vi": "Tôi rất thích đội bóng này.",
+      "en": "I like this team very much."
+    }
+  },
+  {
+    "id": "L2-0449",
+    "vi": ["giày thể thao"],
+    "viAliases": ["giày ba ta"],
+    "en": ["athletic shoes"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他买了一双新球鞋。",
+      "vi": "Anh ấy đã mua một đôi giày thể thao mới.",
+      "en": "He bought a new pair of athletic shoes."
+    }
+  },
+  {
+    "id": "L2-0450",
+    "vi": ["lấy", "rút", "chọn lấy"],
+    "viAliases": ["cầm lấy", "lĩnh"],
+    "en": ["to take", "to get", "to fetch", "to choose"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我去银行取钱。",
+      "vi": "Tôi đi ngân hàng rút tiền.",
+      "en": "I am going to the bank to withdraw money."
+    }
+  },
+  {
+    "id": "L2-0451",
+    "vi": ["đạt được", "giành được"],
+    "viAliases": ["thu được", "có được"],
+    "en": ["to acquire", "to get", "to obtain"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他取得了很好的成绩。",
+      "vi": "Anh ấy đã đạt được thành tích rất tốt.",
+      "en": "He achieved very good results."
+    }
+  },
+  {
+    "id": "L2-0452",
+    "vi": ["toàn bộ", "tất cả", "hoàn toàn"],
+    "viAliases": ["cả", "trọn vẹn"],
+    "en": ["all", "whole", "entire", "complete"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "全班同学都来了。",
+      "vi": "Học sinh cả lớp đều đã đến.",
+      "en": "The whole class has arrived."
+    }
+  },
+  {
+    "id": "L2-0453",
+    "vi": ["toàn bộ", "tất cả"],
+    "viAliases": ["hết thảy", "trọn bộ"],
+    "en": ["whole", "all"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这些书我全部看完了。",
+      "vi": "Những quyển sách này tôi đã đọc xong toàn bộ.",
+      "en": "I have finished reading all of these books."
+    }
+  },
+  {
+    "id": "L2-0454",
+    "vi": ["cả nước", "toàn quốc"],
+    "viAliases": ["khắp cả nước", "toàn đất nước"],
+    "en": ["whole nation", "nationwide", "national"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "全国的学生都放假了。",
+      "vi": "Học sinh cả nước đều đã được nghỉ.",
+      "en": "Students nationwide are on holiday."
+    }
+  },
+  {
+    "id": "L2-0455",
+    "vi": ["cả nhà", "cả gia đình"],
+    "viAliases": ["toàn gia đình", "cả nhà mình"],
+    "en": ["whole family"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我们全家去北京旅行。",
+      "vi": "Cả nhà chúng tôi đi Bắc Kinh du lịch.",
+      "en": "Our whole family is traveling to Beijing."
+    }
+  },
+  {
+    "id": "L2-0456",
+    "vi": ["cả năm", "suốt năm"],
+    "viAliases": ["trọn năm", "quanh năm"],
+    "en": ["the whole year", "all year long"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这里全年都很暖和。",
+      "vi": "Ở đây cả năm đều rất ấm áp.",
+      "en": "It is warm here all year long."
+    }
+  },
+  {
+    "id": "L2-0457",
+    "vi": ["toàn thân", "khắp người"],
+    "viAliases": ["cả người", "toàn bộ cơ thể"],
+    "en": ["the whole body"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他全身都是水。",
+      "vi": "Toàn thân anh ấy đều ướt nước.",
+      "en": "His whole body is soaked with water."
+    }
+  },
+  {
+    "id": "L2-0458",
+    "vi": ["toàn thể", "tất cả mọi người"],
+    "viAliases": ["toàn bộ mọi người"],
+    "en": ["all", "entire"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "全体老师都在开会。",
+      "vi": "Toàn thể giáo viên đều đang họp.",
+      "en": "All the teachers are in a meeting."
+    }
+  },
+  {
+    "id": "L2-0459",
+    "vi": ["sau đó", "rồi thì"],
+    "viAliases": ["tiếp đó", "rồi", "sau đấy"],
+    "en": ["then", "after that", "afterwards"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我先吃饭然后写作业。",
+      "vi": "Tôi ăn cơm trước, sau đó làm bài tập.",
+      "en": "I eat first and then do my homework."
+    }
+  },
+  {
+    "id": "L2-0460",
+    "vi": ["cho phép", "khiến", "nhường"],
+    "viAliases": ["bảo", "để cho", "để"],
+    "en": ["to let sb do sth", "to permit", "to yield", "to make sb"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "妈妈让我早点回家。",
+      "vi": "Mẹ bảo tôi về nhà sớm một chút.",
+      "en": "Mom told me to come home a bit earlier."
+    }
+  },
+  {
+    "id": "L2-0461",
+    "vi": ["nhiệt tình", "nồng nhiệt", "lòng nhiệt tình"],
+    "viAliases": ["nhiệt thành", "hăng hái", "sự nhiệt tình"],
+    "en": ["cordial", "enthusiastic", "passion", "passionate"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这里的人很热情。",
+      "vi": "Người ở đây rất nhiệt tình.",
+      "en": "The people here are very warm and enthusiastic."
+    }
+  },
+  {
+    "id": "L2-0462",
+    "vi": ["dân số"],
+    "viAliases": ["số dân", "nhân khẩu"],
+    "en": ["population"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "中国的人口很多。",
+      "vi": "Dân số Trung Quốc rất đông.",
+      "en": "China's population is very large."
+    }
+  },
+  {
+    "id": "L2-0463",
+    "vi": ["mọi người", "người ta"],
+    "viAliases": [],
+    "en": ["people"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "人们都喜欢好天气。",
+      "vi": "Mọi người đều thích thời tiết đẹp.",
+      "en": "People all like good weather."
+    }
+  },
+  {
+    "id": "L2-0464",
+    "vi": ["số người", "số lượng người"],
+    "viAliases": ["nhân số"],
+    "en": ["number of people"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "今天来的人数不多。",
+      "vi": "Số người đến hôm nay không nhiều.",
+      "en": "The number of people who came today is not large."
+    }
+  },
+  {
+    "id": "L2-0465",
+    "vi": ["cho rằng", "nghĩ rằng"],
+    "viAliases": ["thấy rằng", "coi là", "cho là"],
+    "en": ["to believe", "to think", "to consider"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我认为这个办法很好。",
+      "vi": "Tôi cho rằng cách này rất hay.",
+      "en": "I think this method is very good."
+    }
+  },
+  {
+    "id": "L2-0466",
+    "vi": ["nhật báo", "báo hằng ngày"],
+    "viAliases": ["báo ngày"],
+    "en": ["daily newspaper"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "爸爸每天看日报。",
+      "vi": "Bố ngày nào cũng đọc nhật báo.",
+      "en": "Dad reads the daily newspaper every day."
+    }
+  },
+  {
+    "id": "L2-0467",
+    "vi": ["ngày tháng", "cuộc sống", "ngày"],
+    "viAliases": ["đời sống", "tháng ngày"],
+    "en": ["day", "a date", "days of one's life"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "现在的日子越来越好。",
+      "vi": "Cuộc sống bây giờ ngày càng tốt lên.",
+      "en": "Life is getting better and better now."
+    }
+  },
+  {
+    "id": "L2-0468",
+    "vi": ["nếu như", "nếu"],
+    "viAliases": ["giả sử", "nếu mà", "trong trường hợp"],
+    "en": ["if", "in case", "in the event that"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "如果下雨我就不去。",
+      "vi": "Nếu trời mưa thì tôi sẽ không đi.",
+      "en": "If it rains, I will not go."
+    }
+  },
+  {
+    "id": "L2-0469",
+    "vi": ["lối vào", "cửa vào"],
+    "viAliases": ["cổng vào", "chỗ vào"],
+    "en": ["entrance"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "商店的入口在这边。",
+      "vi": "Lối vào cửa hàng ở phía này.",
+      "en": "The entrance to the shop is over here."
+    }
+  },
+  {
+    "id": "L2-0470",
+    "vi": ["bàn bạc", "thương lượng"],
+    "viAliases": ["thảo luận", "trao đổi", "bàn"],
+    "en": ["to consult", "to talk over", "to discuss"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这件事我们再商量一下。",
+      "vi": "Việc này chúng ta bàn bạc thêm một chút.",
+      "en": "Let us discuss this matter a bit more."
+    }
+  },
+  {
+    "id": "L2-0471",
+    "vi": ["thương nhân", "người kinh doanh"],
+    "viAliases": ["doanh nhân", "lái buôn", "thương gia"],
+    "en": ["merchant", "businessman"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他是一个很好的商人。",
+      "vi": "Ông ấy là một thương nhân rất giỏi.",
+      "en": "He is a very good businessman."
+    }
+  },
+  {
+    "id": "L2-0472",
+    "vi": ["tuần trước"],
+    "viAliases": ["tuần rồi", "tuần vừa qua", "tuần vừa rồi"],
+    "en": ["last week"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "上周我去看电影了。",
+      "vi": "Tuần trước tôi đã đi xem phim.",
+      "en": "Last week I went to see a movie."
+    }
+  },
+  {
+    "id": "L2-0473",
+    "vi": ["thiểu số", "số ít"],
+    "viAliases": ["một số ít", "phần ít"],
+    "en": ["small number", "few", "minority"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "只有少数人不同意。",
+      "vi": "Chỉ có số ít người không đồng ý.",
+      "en": "Only a small number of people disagree."
+    }
+  },
+  {
+    "id": "L2-0474",
+    "vi": ["thiếu niên", "thanh thiếu niên"],
+    "viAliases": ["tuổi thiếu niên", "cậu thiếu niên"],
+    "en": ["early youth", "youngster", "young man"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他还是一个少年。",
+      "vi": "Cậu ấy vẫn còn là một thiếu niên.",
+      "en": "He is still a youngster."
+    }
+  },
+  {
+    "id": "L2-0475",
+    "vi": ["bên cạnh", "bên mình"],
+    "viAliases": ["bên người", "kề bên", "xung quanh mình"],
+    "en": ["at one's side", "on hand"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我身边有很多好朋友。",
+      "vi": "Bên cạnh tôi có rất nhiều bạn tốt.",
+      "en": "I have many good friends around me."
+    }
+  },
+  {
+    "id": "L2-0476",
+    "vi": ["như thế nào", "kiểu gì", "loại nào"],
+    "viAliases": ["thế nào", "ra sao", "kiểu nào"],
+    "en": ["what kind?", "what sort?"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "你想买什么样的衣服？",
+      "vi": "Bạn muốn mua loại quần áo như thế nào?",
+      "en": "What kind of clothes do you want to buy?"
+    }
+  },
+  {
+    "id": "L2-0477",
+    "vi": ["sinh", "đẻ", "mọc"],
+    "viAliases": ["sinh ra", "sinh đẻ", "nảy sinh"],
+    "en": ["to give birth", "to be born", "to grow", "to produce"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "她生了一个女儿。",
+      "vi": "Cô ấy đã sinh một bé gái.",
+      "en": "She gave birth to a daughter."
+    }
+  },
+  {
+    "id": "L2-0478",
+    "vi": ["từ mới"],
+    "viAliases": ["từ vựng mới"],
+    "en": ["new word", "word that is unfamiliar or not yet studied"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这课的生词不太多。",
+      "vi": "Từ mới của bài này không nhiều lắm.",
+      "en": "There are not too many new words in this lesson."
+    }
+  },
+  {
+    "id": "L2-0479",
+    "vi": ["cuộc sống", "sinh sống", "sinh hoạt"],
+    "viAliases": ["đời sống", "sống"],
+    "en": ["to live", "life", "livelihood"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我在这个城市生活了三年。",
+      "vi": "Tôi đã sống ở thành phố này ba năm.",
+      "en": "I have lived in this city for three years."
+    }
+  },
+  {
+    "id": "L2-0480",
+    "vi": ["âm thanh", "giọng nói", "tiếng"],
+    "viAliases": ["tiếng động", "giọng"],
+    "en": ["sound", "voice"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他的声音很好听。",
+      "vi": "Giọng của anh ấy rất hay.",
+      "en": "His voice is very pleasant."
+    }
+  },
+  {
+    "id": "L2-0481",
+    "vi": ["tỉnh", "thủ phủ tỉnh"],
+    "viAliases": ["tỉnh thành"],
+    "en": ["province", "provincial capital"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他住在南边的一个省。",
+      "vi": "Anh ấy sống ở một tỉnh phía nam.",
+      "en": "He lives in a province in the south."
+    }
+  },
+  {
+    "id": "L2-0482",
+    "vi": ["tiết kiệm", "bỏ bớt", "lược bỏ"],
+    "viAliases": ["dành dụm", "tiết giảm", "giảm bớt"],
+    "en": ["to save", "to economize", "to omit", "to leave out"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "坐公共汽车能省很多钱。",
+      "vi": "Đi xe buýt có thể tiết kiệm rất nhiều tiền.",
+      "en": "Taking the bus can save a lot of money."
+    }
+  },
+  {
+    "id": "L2-0483",
+    "vi": ["vô cùng", "hết sức", "rất"],
+    "viAliases": ["cực kỳ", "thập phần", "hoàn toàn"],
+    "en": ["very", "extremely", "utterly", "completely"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我十分喜欢这本书。",
+      "vi": "Tôi vô cùng thích quyển sách này.",
+      "en": "I like this book very much."
+    }
+  },
+  {
+    "id": "L2-0484",
+    "vi": ["thực tế", "thực tiễn"],
+    "viAliases": ["thực tại", "sát thực tế", "thiết thực"],
+    "en": ["reality", "practical", "real", "actual"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这个想法不太实际。",
+      "vi": "Ý tưởng này không thực tế lắm.",
+      "en": "This idea is not very practical."
+    }
+  },
+  {
+    "id": "L2-0485",
+    "vi": ["thực tập", "kỳ thực tập"],
+    "viAliases": ["đi thực tập", "tập sự"],
+    "en": ["to practice", "to intern", "internship", "field work"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他在医院实习了两个月。",
+      "vi": "Anh ấy đã thực tập ở bệnh viện hai tháng.",
+      "en": "He interned at the hospital for two months."
+    }
+  },
+  {
+    "id": "L2-0486",
+    "vi": ["thực hiện", "biến thành hiện thực"],
+    "viAliases": ["hiện thực hóa", "đạt được"],
+    "en": ["to achieve", "to implement", "to realize", "to bring about"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他实现了自己的梦想。",
+      "vi": "Anh ấy đã thực hiện được ước mơ của mình.",
+      "en": "He realized his own dream."
+    }
+  },
+  {
+    "id": "L2-0487",
+    "vi": ["thật sự", "quả thực"],
+    "viAliases": ["thực sự", "quả thật", "đúng là"],
+    "en": ["really", "actually", "indeed"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "今天实在太热了。",
+      "vi": "Hôm nay quả thực nóng quá.",
+      "en": "It is really too hot today."
+    }
+  },
+  {
+    "id": "L2-0488",
+    "vi": ["thật thà", "chân thật", "đáng tin cậy"],
+    "viAliases": ["thành thật", "chắc thật"],
+    "en": ["true", "real", "honest", "dependable"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他是个很实在的人。",
+      "vi": "Anh ấy là một người rất thật thà.",
+      "en": "He is a very honest and down-to-earth person."
+    }
+  },
+  {
+    "id": "L2-0489",
+    "vi": ["thức ăn", "thực phẩm"],
+    "viAliases": ["đồ ăn"],
+    "en": ["food"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这些食物都很新鲜。",
+      "vi": "Những thực phẩm này đều rất tươi.",
+      "en": "All of this food is very fresh."
+    }
+  },
+  {
+    "id": "L2-0490",
+    "vi": ["sử dụng", "dùng"],
+    "viAliases": ["xài", "vận dụng"],
+    "en": ["to use", "to employ", "to apply", "to make use of"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这台电脑很容易使用。",
+      "vi": "Chiếc máy tính này rất dễ sử dụng.",
+      "en": "This computer is very easy to use."
+    }
+  }
+]

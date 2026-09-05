@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L3-0619",
+    "vi": ["thiết bị", "trang thiết bị"],
+    "viAliases": ["cơ sở vật chất"],
+    "en": ["equipment", "facilities", "installations"],
+    "enSource": "cedict",
+    "example": { "zh": "学校买了很多新设备。", "vi": "Trường học đã mua rất nhiều thiết bị mới.", "en": "The school bought a lot of new equipment." }
+  },
+  {
+    "id": "L3-0620",
+    "vi": ["thiết kế", "bản thiết kế"],
+    "viAliases": ["thiết kế ra"],
+    "en": ["to design", "to plan", "design", "plan"],
+    "enSource": "cedict",
+    "example": { "zh": "他设计了一个新房子。", "vi": "Anh ấy đã thiết kế một ngôi nhà mới.", "en": "He designed a new house." }
+  },
+  {
+    "id": "L3-0621",
+    "vi": ["thành lập", "thiết lập"],
+    "viAliases": ["lập nên", "dựng nên"],
+    "en": ["to set up", "to establish"],
+    "enSource": "cedict",
+    "example": { "zh": "这里设立了一所新学校。", "vi": "Ở đây đã thành lập một trường học mới.", "en": "A new school was established here." }
+  },
+  {
+    "id": "L3-0622",
+    "vi": ["xã hội"],
+    "viAliases": [],
+    "en": ["society"],
+    "enSource": "cedict",
+    "example": { "zh": "这个问题和社会有关系。", "vi": "Vấn đề này có liên quan đến xã hội.", "en": "This problem is related to society." }
+  },
+  {
+    "id": "L3-0623",
+    "vi": ["chứng minh thư", "thẻ căn cước"],
+    "viAliases": ["chứng minh nhân dân", "căn cước công dân", "cmnd"],
+    "en": ["identity card", "ID"],
+    "enSource": "cedict",
+    "example": { "zh": "请把你的身份证给我看看。", "vi": "Xin đưa chứng minh thư của bạn cho tôi xem.", "en": "Please show me your ID card." }
+  },
+  {
+    "id": "L3-0624",
+    "vi": ["sâu"],
+    "viAliases": ["sâu thẳm"],
+    "en": ["deep"],
+    "enSource": "cedict",
+    "example": { "zh": "这条河的水很深。", "vi": "Nước con sông này rất sâu.", "en": "The water in this river is very deep." }
+  },
+  {
+    "id": "L3-0625",
+    "vi": ["sâu sắc"],
+    "viAliases": ["thấm thía", "sâu xa"],
+    "en": ["profound", "deep", "deep-going"],
+    "enSource": "cedict",
+    "example": { "zh": "这个故事给我的印象很深刻。", "vi": "Câu chuyện này để lại cho tôi ấn tượng rất sâu sắc.", "en": "This story left a deep impression on me." }
+  },
+  {
+    "id": "L3-0626",
+    "vi": ["đi sâu vào", "sâu sát"],
+    "viAliases": ["thâm nhập", "tìm hiểu sâu"],
+    "en": ["to penetrate deeply", "thorough"],
+    "enSource": "cedict",
+    "example": { "zh": "我们要深入了解这个问题。", "vi": "Chúng ta cần tìm hiểu sâu về vấn đề này.", "en": "We need to understand this problem in depth." }
+  },
+  {
+    "id": "L3-0627",
+    "vi": ["lên", "tăng lên", "thăng chức"],
+    "viAliases": ["dâng lên", "nâng lên"],
+    "en": ["to ascend", "to rise", "to promote", "to elevate"],
+    "enSource": "cedict",
+    "example": { "zh": "太阳从东边升起来了。", "vi": "Mặt trời đã mọc lên từ phía đông.", "en": "The sun has risen from the east." }
+  },
+  {
+    "id": "L3-0628",
+    "vi": ["sống", "chưa nấu chín", "lạ"],
+    "viAliases": ["tươi sống", "xa lạ", "không quen"],
+    "en": ["raw", "uncooked", "unfamiliar", "strange"],
+    "enSource": "cedict",
+    "example": { "zh": "这个鸡蛋还是生的。", "vi": "Quả trứng này vẫn còn sống.", "en": "This egg is still raw." }
+  },
+  {
+    "id": "L3-0629",
+    "vi": ["sản xuất"],
+    "viAliases": ["chế tạo", "làm ra"],
+    "en": ["to produce", "to manufacture"],
+    "enSource": "cedict",
+    "example": { "zh": "这个工厂生产汽车。", "vi": "Nhà máy này sản xuất ô tô.", "en": "This factory produces cars." }
+  },
+  {
+    "id": "L3-0630",
+    "vi": ["sinh tồn", "tồn tại"],
+    "viAliases": ["sống sót", "sống còn"],
+    "en": ["to exist", "to survive"],
+    "enSource": "cedict",
+    "example": { "zh": "人没有水就不能生存。", "vi": "Con người không có nước thì không thể sinh tồn.", "en": "People cannot survive without water." }
+  },
+  {
+    "id": "L3-0631",
+    "vi": ["sinh động"],
+    "viAliases": ["sống động"],
+    "en": ["vivid", "lively"],
+    "enSource": "cedict",
+    "example": { "zh": "老师讲的故事很生动。", "vi": "Câu chuyện thầy giáo kể rất sinh động.", "en": "The story the teacher told was very vivid." }
+  },
+  {
+    "id": "L3-0632",
+    "vi": ["sinh mệnh", "sự sống", "tính mạng"],
+    "viAliases": ["mạng sống"],
+    "en": ["life", "living being"],
+    "enSource": "cedict",
+    "example": { "zh": "医生救了他的生命。", "vi": "Bác sĩ đã cứu mạng sống của anh ấy.", "en": "The doctor saved his life." }
+  },
+  {
+    "id": "L3-0633",
+    "vi": ["việc buôn bán", "kinh doanh"],
+    "viAliases": ["làm ăn", "buôn bán"],
+    "en": ["business"],
+    "enSource": "cedict",
+    "example": { "zh": "他家的生意很好。", "vi": "Việc buôn bán của nhà anh ấy rất tốt.", "en": "His family business is very good." }
+  },
+  {
+    "id": "L3-0634",
+    "vi": ["sinh trưởng", "lớn lên"],
+    "viAliases": ["mọc lên", "trưởng thành"],
+    "en": ["to grow", "to grow up", "to be brought up"],
+    "enSource": "cedict",
+    "example": { "zh": "这些树生长得很快。", "vi": "Những cái cây này lớn rất nhanh.", "en": "These trees grow very fast." }
+  },
+  {
+    "id": "L3-0635",
+    "vi": ["tuyên bố", "bản tuyên bố"],
+    "viAliases": ["công bố", "tuyên cáo"],
+    "en": ["to state", "to declare", "statement", "declaration"],
+    "enSource": "cedict",
+    "example": { "zh": "他在会上声明了自己的想法。", "vi": "Anh ấy đã tuyên bố ý kiến của mình trong cuộc họp.", "en": "He stated his own view at the meeting." }
+  },
+  {
+    "id": "L3-0636",
+    "vi": ["thắng", "hơn"],
+    "viAliases": ["chiến thắng", "đánh bại"],
+    "en": ["to beat", "to defeat", "to surpass", "to get the better of"],
+    "enSource": "cedict",
+    "example": { "zh": "我们班胜了他们班。", "vi": "Lớp chúng tôi đã thắng lớp họ.", "en": "Our class beat their class." }
+  },
+  {
+    "id": "L3-0637",
+    "vi": ["thắng lợi", "chiến thắng"],
+    "viAliases": ["giành chiến thắng"],
+    "en": ["victory"],
+    "enSource": "cedict",
+    "example": { "zh": "这次比赛我们胜利了。", "vi": "Trận đấu lần này chúng tôi đã thắng lợi.", "en": "We won this match." }
+  },
+  {
+    "id": "L3-0638",
+    "vi": ["mất", "mất đi"],
+    "viAliases": ["đánh mất", "để mất"],
+    "en": ["to lose"],
+    "enSource": "cedict",
+    "example": { "zh": "他失去了工作的机会。", "vi": "Anh ấy đã mất cơ hội làm việc.", "en": "He lost the chance to work." }
+  },
+  {
+    "id": "L3-0639",
+    "vi": ["hòn đá", "đá"],
+    "viAliases": ["cục đá", "viên đá", "tảng đá"],
+    "en": ["stone"],
+    "enSource": "cedict",
+    "example": { "zh": "路上有一块大石头。", "vi": "Trên đường có một hòn đá lớn.", "en": "There is a big stone on the road." }
+  },
+  {
+    "id": "L3-0640",
+    "vi": ["dầu mỏ", "dầu lửa"],
+    "viAliases": ["dầu thô"],
+    "en": ["oil", "petroleum"],
+    "enSource": "cedict",
+    "example": { "zh": "这个国家有很多石油。", "vi": "Nước này có rất nhiều dầu mỏ.", "en": "This country has a lot of oil." }
+  },
+  {
+    "id": "L3-0641",
+    "vi": ["giờ", "lúc", "thời"],
+    "viAliases": ["khi", "thời điểm"],
+    "en": ["o'clock", "time", "hour", "when"],
+    "enSource": "cedict",
+    "example": { "zh": "我们上午八时开会。", "vi": "Chúng tôi họp lúc tám giờ sáng.", "en": "We have a meeting at eight o'clock in the morning." }
+  },
+  {
+    "id": "L3-0642",
+    "vi": ["thời đại", "thời kỳ"],
+    "viAliases": ["kỷ nguyên"],
+    "en": ["age", "era", "epoch", "period"],
+    "enSource": "cedict",
+    "example": { "zh": "我们生活在一个新时代。", "vi": "Chúng ta sống trong một thời đại mới.", "en": "We live in a new era." }
+  },
+  {
+    "id": "L3-0643",
+    "vi": ["thời khắc", "luôn luôn"],
+    "viAliases": ["khoảnh khắc", "lúc nào cũng"],
+    "en": ["moment", "juncture", "constantly", "always"],
+    "enSource": "cedict",
+    "example": { "zh": "那是我最高兴的时刻。", "vi": "Đó là thời khắc tôi vui nhất.", "en": "That was my happiest moment." }
+  },
+  {
+    "id": "L3-0644",
+    "vi": ["trên thực tế", "thực ra"],
+    "viAliases": ["thật ra", "thực tế là"],
+    "en": ["in fact", "in reality", "as a matter of fact", "in practice"],
+    "enSource": "cedict",
+    "example": { "zh": "实际上这件事很简单。", "vi": "Trên thực tế việc này rất đơn giản.", "en": "In fact this matter is very simple." }
+  },
+  {
+    "id": "L3-0645",
+    "vi": ["thực lực", "sức mạnh"],
+    "viAliases": ["năng lực thật sự"],
+    "en": ["strength"],
+    "enSource": "cedict",
+    "example": { "zh": "我们队的实力很强。", "vi": "Thực lực của đội chúng tôi rất mạnh.", "en": "Our team is very strong." }
+  },
+  {
+    "id": "L3-0646",
+    "vi": ["thực hiện", "thi hành", "áp dụng"],
+    "viAliases": ["tiến hành", "triển khai"],
+    "en": ["to implement", "to carry out", "to put into practice"],
+    "enSource": "cedict",
+    "example": { "zh": "学校开始实行新的规定。", "vi": "Trường học bắt đầu thực hiện quy định mới.", "en": "The school began to implement the new rules." }
+  },
+  {
+    "id": "L3-0647",
+    "vi": ["thí nghiệm", "làm thí nghiệm"],
+    "viAliases": ["thực nghiệm"],
+    "en": ["experiment", "test", "to experiment"],
+    "enSource": "cedict",
+    "example": { "zh": "学生们在做科学实验。", "vi": "Các học sinh đang làm thí nghiệm khoa học.", "en": "The students are doing a science experiment." }
+  },
+  {
+    "id": "L3-0648",
+    "vi": ["phòng thí nghiệm"],
+    "viAliases": ["phòng lab"],
+    "en": ["laboratory"],
+    "enSource": "cedict",
+    "example": { "zh": "老师带我们去实验室。", "vi": "Thầy giáo dẫn chúng tôi đến phòng thí nghiệm.", "en": "The teacher took us to the laboratory." }
+  },
+  {
+    "id": "L3-0649",
+    "vi": ["thực phẩm", "đồ ăn"],
+    "viAliases": ["thức ăn"],
+    "en": ["foodstuff", "food", "provisions"],
+    "enSource": "cedict",
+    "example": { "zh": "商店里的食品很新鲜。", "vi": "Thực phẩm trong cửa hàng rất tươi.", "en": "The food in the store is very fresh." }
+  },
+  {
+    "id": "L3-0650",
+    "vi": ["làm cho", "khiến cho", "sử dụng"],
+    "viAliases": ["khiến", "làm"],
+    "en": ["to make", "to cause", "to enable", "to use"],
+    "enSource": "cedict",
+    "example": { "zh": "这个消息使大家很高兴。", "vi": "Tin này khiến mọi người rất vui.", "en": "This news made everyone very happy." }
+  },
+  {
+    "id": "L3-0651",
+    "vi": ["từ đầu đến cuối", "luôn luôn"],
+    "viAliases": ["trước sau như một", "vẫn luôn"],
+    "en": ["from beginning to end", "all along"],
+    "enSource": "cedict",
+    "example": { "zh": "他始终没有回答我。", "vi": "Anh ấy từ đầu đến cuối vẫn không trả lời tôi.", "en": "He never answered me all along." }
+  },
+  {
+    "id": "L3-0652",
+    "vi": ["thế kỷ"],
+    "viAliases": [],
+    "en": ["century"],
+    "enSource": "cedict",
+    "example": { "zh": "这座桥有一个世纪了。", "vi": "Cây cầu này đã có một thế kỷ rồi.", "en": "This bridge is a century old." }
+  },
+  {
+    "id": "L3-0653",
+    "vi": ["thế giới"],
+    "viAliases": [],
+    "en": ["world"],
+    "enSource": "cedict",
+    "example": { "zh": "我想去世界各地旅游。", "vi": "Tôi muốn đi du lịch khắp thế giới.", "en": "I want to travel all over the world." }
+  },
+  {
+    "id": "L3-0654",
+    "vi": ["World Cup", "cúp bóng đá thế giới"],
+    "viAliases": ["giải vô địch bóng đá thế giới", "cúp thế giới"],
+    "en": ["World Cup"],
+    "enSource": "cedict",
+    "example": { "zh": "今年的世界杯真精彩。", "vi": "World Cup năm nay thật hấp dẫn.", "en": "This year's World Cup is really wonderful." }
+  },
+  {
+    "id": "L3-0655",
+    "vi": ["chợ", "thị trường"],
+    "viAliases": ["khu chợ"],
+    "en": ["marketplace", "market", "bazaar"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈去市场买菜了。", "vi": "Mẹ đã đi chợ mua rau.", "en": "Mom went to the market to buy vegetables." }
+  },
+  {
+    "id": "L3-0656",
+    "vi": ["tai nạn", "sự cố"],
+    "viAliases": ["vụ tai nạn"],
+    "en": ["accident"],
+    "enSource": "cedict",
+    "example": { "zh": "路上发生了一起交通事故。", "vi": "Trên đường đã xảy ra một vụ tai nạn giao thông.", "en": "A traffic accident happened on the road." }
+  },
+  {
+    "id": "L3-0657",
+    "vi": ["sự kiện", "vụ việc"],
+    "viAliases": ["biến cố"],
+    "en": ["incident", "event"],
+    "enSource": "cedict",
+    "example": { "zh": "这个事件让很多人关心。", "vi": "Sự kiện này khiến nhiều người quan tâm.", "en": "This event made many people concerned." }
+  },
+  {
+    "id": "L3-0658",
+    "vi": ["sự thật"],
+    "viAliases": ["sự thực"],
+    "en": ["fact"],
+    "enSource": "cedict",
+    "example": { "zh": "你说的不是事实。", "vi": "Điều bạn nói không phải là sự thật.", "en": "What you said is not a fact." }
+  },
+  {
+    "id": "L3-0659",
+    "vi": ["thật ra", "trên thực tế"],
+    "viAliases": ["thực ra", "kỳ thực"],
+    "en": ["in fact", "in reality", "actually", "as a matter of fact"],
+    "enSource": "cedict",
+    "example": { "zh": "事实上他早就知道了。", "vi": "Thật ra anh ấy đã biết từ lâu rồi.", "en": "In fact he already knew long ago." }
+  },
+  {
+    "id": "L3-0660",
+    "vi": ["sự nghiệp"],
+    "viAliases": ["công cuộc"],
+    "en": ["undertaking", "cause", "career", "occupation"],
+    "enSource": "cedict",
+    "example": { "zh": "他的事业越来越成功。", "vi": "Sự nghiệp của anh ấy ngày càng thành công.", "en": "His career is more and more successful." }
+  },
+  {
+    "id": "L3-0661",
+    "vi": ["đề thi", "câu hỏi thi"],
+    "viAliases": ["đề kiểm tra", "đề bài thi"],
+    "en": ["exam question", "test topic"],
+    "enSource": "cedict",
+    "example": { "zh": "今天的试题不太难。", "vi": "Đề thi hôm nay không khó lắm.", "en": "Today's exam questions are not too difficult." }
+  },
+  {
+    "id": "L3-0662",
+    "vi": ["thử nghiệm", "làm thử"],
+    "viAliases": ["thử", "chạy thử"],
+    "en": ["to experiment", "test"],
+    "enSource": "cedict",
+    "example": { "zh": "他们在试验一种新方法。", "vi": "Họ đang thử nghiệm một phương pháp mới.", "en": "They are experimenting with a new method." }
+  },
+  {
+    "id": "L3-0663",
+    "vi": ["thích hợp", "phù hợp"],
+    "viAliases": ["hợp với", "vừa với"],
+    "en": ["to fit", "to suit"],
+    "enSource": "cedict",
+    "example": { "zh": "这件衣服很适合你。", "vi": "Bộ quần áo này rất hợp với bạn.", "en": "This piece of clothing suits you very well." }
+  }
+]

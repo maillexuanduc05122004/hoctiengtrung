@@ -1,13 +1,35 @@
 <!doctype html>
-<html lang="en">
+<html lang="vi">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Mỗi Ngày 中文 — Học từ vựng HSK 1-3</title>
+    <meta
+      name="description"
+      content="Học từ vựng HSK 3.0 cấp 1 đến cấp 3 theo từng buổi khoảng 10 từ. Lật thẻ, gõ đáp án, nghe chép và luyện nói. Dùng được khi ngoại tuyến."
+    />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>untitled1</title>
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+    <meta name="theme-color" content="#f6f1e7" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1b1916" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      // Đặt chủ đề trước khi React dựng cây để tránh nháy màu khi tải trang.
+      (function () {
+        try {
+          var saved = localStorage.getItem('moingay.theme');
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var theme = saved === 'light' || saved === 'dark' ? saved : prefersDark ? 'dark' : 'light';
+          document.documentElement.setAttribute('data-theme', theme);
+        } catch (error) {
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <noscript>Ứng dụng cần bật JavaScript để chạy.</noscript>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L3-0529",
+    "vi": ["chạy bộ", "chạy"],
+    "viAliases": ["chạy thể dục"],
+    "en": ["to run", "to jog"],
+    "enSource": "cedict",
+    "example": { "zh": "我每天早上去公园跑步。", "vi": "Mỗi sáng tôi đều đi công viên chạy bộ.", "en": "I go running in the park every morning." }
+  },
+  {
+    "id": "L3-0530",
+    "vi": ["phối", "hợp với", "pha chế"],
+    "viAliases": ["ghép", "kết hợp"],
+    "en": ["to match", "to mix", "to allocate"],
+    "enSource": "cedict",
+    "example": { "zh": "这件衣服配这条裤子很好看。", "vi": "Chiếc áo này phối với chiếc quần này rất đẹp.", "en": "This shirt matches these trousers very nicely." }
+  },
+  {
+    "id": "L3-0531",
+    "vi": ["phối hợp", "hợp tác"],
+    "viAliases": ["kết hợp", "cùng phối hợp"],
+    "en": ["to coordinate with", "to act in concert with", "to cooperate"],
+    "enSource": "cedict",
+    "example": { "zh": "我们要好好配合完成工作。", "vi": "Chúng ta phải phối hợp thật tốt để hoàn thành công việc.", "en": "We must cooperate well to finish the work." }
+  },
+  {
+    "id": "L3-0532",
+    "vi": ["phê bình", "chỉ trích"],
+    "viAliases": ["phê phán"],
+    "en": ["to criticize"],
+    "enSource": "cedict",
+    "example": { "zh": "老师批评了那个学生。", "vi": "Thầy giáo đã phê bình bạn học sinh đó.", "en": "The teacher criticized that student." }
+  },
+  {
+    "id": "L3-0533",
+    "vi": ["phê duyệt", "phê chuẩn"],
+    "viAliases": ["duyệt", "chấp thuận"],
+    "en": ["to approve", "to ratify"],
+    "enSource": "cedict",
+    "example": { "zh": "经理批准了我的请假。", "vi": "Giám đốc đã phê duyệt đơn xin nghỉ của tôi.", "en": "The manager approved my leave request." }
+  },
+  {
+    "id": "L3-0534",
+    "vi": ["da", "vỏ"],
+    "viAliases": ["da thuộc", "lớp vỏ"],
+    "en": ["skin; peel; rind; outer layer", "leather; hide; fur"],
+    "enSource": "cedict",
+    "example": { "zh": "这个苹果的皮很薄。", "vi": "Vỏ của quả táo này rất mỏng.", "en": "The skin of this apple is very thin." }
+  },
+  {
+    "id": "L3-0535",
+    "vi": ["cặp da", "túi xách da"],
+    "viAliases": ["cặp", "túi da"],
+    "en": ["handbag", "briefcase"],
+    "enSource": "cedict",
+    "example": { "zh": "他的皮包放在桌子上。", "vi": "Cặp da của anh ấy để trên bàn.", "en": "His briefcase is on the table." }
+  },
+  {
+    "id": "L3-0536",
+    "vi": ["bia"],
+    "viAliases": [],
+    "en": ["beer"],
+    "enSource": "cedict",
+    "example": { "zh": "爸爸喜欢喝一杯啤酒。", "vi": "Bố thích uống một cốc bia.", "en": "Dad likes to drink a glass of beer." }
+  },
+  {
+    "id": "L3-0537",
+    "vi": ["giá vé"],
+    "viAliases": ["tiền vé"],
+    "en": ["ticket price; fare; admission fee"],
+    "enSource": "cedict",
+    "example": { "zh": "这里的电影票价不高。", "vi": "Giá vé xem phim ở đây không cao.", "en": "The movie ticket price here is not high." }
+  },
+  {
+    "id": "L3-0538",
+    "vi": ["đánh giá", "nhận xét"],
+    "viAliases": ["nhận định", "sự đánh giá"],
+    "en": ["to evaluate", "to assess"],
+    "enSource": "cedict",
+    "example": { "zh": "大家对这本书评价很高。", "vi": "Mọi người đánh giá cuốn sách này rất cao.", "en": "Everyone rates this book very highly." }
+  },
+  {
+    "id": "L3-0539",
+    "vi": ["quả táo", "táo"],
+    "viAliases": ["trái táo"],
+    "en": ["apple"],
+    "enSource": "cedict",
+    "example": { "zh": "我每天吃一个苹果。", "vi": "Mỗi ngày tôi ăn một quả táo.", "en": "I eat an apple every day." }
+  },
+  {
+    "id": "L3-0540",
+    "vi": ["rách", "vỡ", "phá vỡ"],
+    "viAliases": ["hỏng", "cũ nát"],
+    "en": ["broken", "damaged", "worn out", "to break, split or cleave"],
+    "enSource": "cedict",
+    "example": { "zh": "我的鞋子破了一个洞。", "vi": "Giày của tôi bị rách một lỗ.", "en": "My shoe has worn a hole in it." }
+  },
+  {
+    "id": "L3-0541",
+    "vi": ["phá hoại", "phá hủy"],
+    "viAliases": ["tàn phá", "làm hỏng"],
+    "en": ["to wreck", "to destroy", "to break"],
+    "enSource": "cedict",
+    "example": { "zh": "我们不能破坏环境。", "vi": "Chúng ta không được phá hoại môi trường.", "en": "We must not destroy the environment." }
+  },
+  {
+    "id": "L3-0542",
+    "vi": ["phổ biến", "rộng khắp"],
+    "viAliases": ["rộng rãi", "phổ quát"],
+    "en": ["universal", "general", "widespread", "common"],
+    "enSource": "cedict",
+    "example": { "zh": "用手机付钱现在很普遍。", "vi": "Trả tiền bằng điện thoại bây giờ rất phổ biến.", "en": "Paying by mobile phone is very common now." }
+  },
+  {
+    "id": "L3-0543",
+    "vi": ["phổ cập", "lan rộng"],
+    "viAliases": ["phổ biến rộng rãi", "thịnh hành"],
+    "en": ["to spread extensively", "widespread", "popular"],
+    "enSource": "cedict",
+    "example": { "zh": "电脑在学校已经很普及了。", "vi": "Máy tính đã rất phổ cập trong trường học.", "en": "Computers have already become widespread in schools." }
+  },
+  {
+    "id": "L3-0544",
+    "vi": ["kỳ", "số"],
+    "viAliases": ["khóa"],
+    "en": ["classifier for issues of a periodical, courses of study"],
+    "enSource": "cedict",
+    "example": { "zh": "我买了这个月的第一期杂志。", "vi": "Tôi đã mua số đầu tiên của tạp chí tháng này.", "en": "I bought the first issue of this month's magazine." }
+  },
+  {
+    "id": "L3-0545",
+    "vi": ["đều", "ngay ngắn", "đầy đủ"],
+    "viAliases": ["đồng đều", "chỉnh tề"],
+    "en": ["neat", "even", "all together", "to even sth out"],
+    "enSource": "cedict",
+    "example": { "zh": "同学们都到齐了。", "vi": "Các bạn cùng lớp đã đến đông đủ.", "en": "The classmates have all arrived." }
+  },
+  {
+    "id": "L3-0546",
+    "vi": ["thứ đến", "tiếp theo"],
+    "viAliases": ["thứ hai là", "sau đó là"],
+    "en": ["next", "secondly"],
+    "enSource": "cedict",
+    "example": { "zh": "学习最重要，其次是运动。", "vi": "Học tập là quan trọng nhất, tiếp theo là thể thao.", "en": "Studying is the most important, and next comes exercise." }
+  },
+  {
+    "id": "L3-0547",
+    "vi": ["thật ra", "thực ra"],
+    "viAliases": ["kỳ thực", "thật sự thì"],
+    "en": ["actually; in fact; really"],
+    "enSource": "cedict",
+    "example": { "zh": "他看起来很老，其实很年轻。", "vi": "Anh ấy trông rất già, thật ra rất trẻ.", "en": "He looks old, but he is actually very young." }
+  },
+  {
+    "id": "L3-0548",
+    "vi": ["kỳ lạ", "lạ lùng"],
+    "viAliases": ["lạ", "kỳ quặc"],
+    "en": ["strange", "odd"],
+    "enSource": "cedict",
+    "example": { "zh": "今天的天气很奇怪。", "vi": "Thời tiết hôm nay rất kỳ lạ.", "en": "The weather today is very strange." }
+  },
+  {
+    "id": "L3-0549",
+    "vi": ["khí hậu"],
+    "viAliases": [],
+    "en": ["climate"],
+    "enSource": "cedict",
+    "example": { "zh": "这里的气候很舒服。", "vi": "Khí hậu ở đây rất dễ chịu.", "en": "The climate here is very pleasant." }
+  },
+  {
+    "id": "L3-0550",
+    "vi": ["nhất định phải", "nhất thiết"],
+    "viAliases": ["chắc chắn phải"],
+    "en": ["one must by all means"],
+    "enSource": "cedict",
+    "example": { "zh": "你千万别忘了带钱包。", "vi": "Bạn nhất định đừng quên mang theo ví.", "en": "Be sure not to forget to bring your wallet." }
+  },
+  {
+    "id": "L3-0551",
+    "vi": ["trước sau", "khoảng chừng"],
+    "viAliases": ["phía trước phía sau", "quãng"],
+    "en": ["around", "from beginning to end", "front and rear"],
+    "enSource": "cedict",
+    "example": { "zh": "学校前后都有花园。", "vi": "Phía trước và phía sau trường đều có vườn hoa.", "en": "There are gardens both in front of and behind the school." }
+  },
+  {
+    "id": "L3-0552",
+    "vi": ["tiến lên", "tiến về phía trước"],
+    "viAliases": ["tiến bước", "đi tới"],
+    "en": ["to go forward", "to advance"],
+    "enSource": "cedict",
+    "example": { "zh": "我们要不断向前进。", "vi": "Chúng ta phải không ngừng tiến lên.", "en": "We must keep moving forward." }
+  },
+  {
+    "id": "L3-0553",
+    "vi": ["phía trước", "đằng trước"],
+    "viAliases": ["mặt trước", "trước mặt"],
+    "en": ["ahead", "in front", "preceding"],
+    "enSource": "cedict",
+    "example": { "zh": "学校前面有一家书店。", "vi": "Phía trước trường học có một hiệu sách.", "en": "There is a bookshop in front of the school." }
+  },
+  {
+    "id": "L3-0554",
+    "vi": ["đi đến", "lên đường đến"],
+    "viAliases": ["tới", "đi tới"],
+    "en": ["to leave for; to proceed towards; to go to"],
+    "enSource": "cedict",
+    "example": { "zh": "他明天前往北京开会。", "vi": "Ngày mai anh ấy đi Bắc Kinh họp.", "en": "He is going to Beijing for a meeting tomorrow." }
+  },
+  {
+    "id": "L3-0555",
+    "vi": ["mạnh", "giỏi"],
+    "viAliases": ["mạnh mẽ", "khỏe"],
+    "en": ["strong", "powerful", "better"],
+    "enSource": "cedict",
+    "example": { "zh": "他的身体比我强。", "vi": "Sức khỏe của anh ấy tốt hơn tôi.", "en": "He is physically stronger than me." }
+  },
+  {
+    "id": "L3-0556",
+    "vi": ["hùng mạnh", "lớn mạnh"],
+    "viAliases": ["mạnh mẽ", "hùng cường"],
+    "en": ["big and strong; formidable; powerful"],
+    "enSource": "cedict",
+    "example": { "zh": "这个国家越来越强大。", "vi": "Đất nước này ngày càng hùng mạnh.", "en": "This country is becoming more and more powerful." }
+  },
+  {
+    "id": "L3-0557",
+    "vi": ["nhấn mạnh"],
+    "viAliases": [],
+    "en": ["to emphasize", "to stress"],
+    "enSource": "cedict",
+    "example": { "zh": "老师强调了这个语法。", "vi": "Thầy giáo đã nhấn mạnh ngữ pháp này.", "en": "The teacher emphasized this grammar point." }
+  },
+  {
+    "id": "L3-0558",
+    "vi": ["mãnh liệt", "gay gắt"],
+    "viAliases": ["dữ dội", "mạnh mẽ"],
+    "en": ["strong; intense"],
+    "enSource": "cedict",
+    "example": { "zh": "今天的阳光很强烈。", "vi": "Ánh nắng hôm nay rất gay gắt.", "en": "The sunlight today is very intense." }
+  },
+  {
+    "id": "L3-0559",
+    "vi": ["cầu"],
+    "viAliases": ["cây cầu"],
+    "en": ["bridge"],
+    "enSource": "cedict",
+    "example": { "zh": "河上有一座新桥。", "vi": "Trên sông có một cây cầu mới.", "en": "There is a new bridge over the river." }
+  },
+  {
+    "id": "L3-0560",
+    "vi": ["trùng hợp", "khéo léo"],
+    "viAliases": ["vừa khéo", "thật khéo"],
+    "en": ["coincidentally", "opportunely", "skillful"],
+    "enSource": "cedict",
+    "example": { "zh": "真巧，我们又见面了。", "vi": "Thật trùng hợp, chúng ta lại gặp nhau rồi.", "en": "What a coincidence, we have met again." }
+  },
+  {
+    "id": "L3-0561",
+    "vi": ["ruột thịt", "thân thiết"],
+    "viAliases": ["ruột", "gần gũi"],
+    "en": ["one's own (flesh and blood)", "close", "intimate"],
+    "enSource": "cedict",
+    "example": { "zh": "他是我的亲哥哥。", "vi": "Anh ấy là anh ruột của tôi.", "en": "He is my own elder brother." }
+  },
+  {
+    "id": "L3-0562",
+    "vi": ["ân cần", "niềm nở"],
+    "viAliases": ["thân mật", "thân thiện"],
+    "en": ["amiable", "cordial", "close and dear"],
+    "enSource": "cedict",
+    "example": { "zh": "这位老师说话很亲切。", "vi": "Cô giáo này nói chuyện rất ân cần.", "en": "This teacher speaks very warmly." }
+  },
+  {
+    "id": "L3-0563",
+    "vi": ["người thân"],
+    "viAliases": ["người nhà", "thân nhân"],
+    "en": ["one's close relatives"],
+    "enSource": "cedict",
+    "example": { "zh": "过年时我和亲人一起吃饭。", "vi": "Ngày Tết tôi ăn cơm cùng người thân.", "en": "During the New Year I eat with my relatives." }
+  },
+  {
+    "id": "L3-0564",
+    "vi": ["đích thân", "tự mình"],
+    "viAliases": ["chính mình", "tự thân"],
+    "en": ["personally", "in person", "oneself"],
+    "enSource": "cedict",
+    "example": { "zh": "校长亲自来看我们。", "vi": "Hiệu trưởng đích thân đến thăm chúng tôi.", "en": "The principal came to see us in person." }
+  },
+  {
+    "id": "L3-0565",
+    "vi": ["tình cảm", "cảm xúc"],
+    "viAliases": ["cảm tình"],
+    "en": ["feeling", "emotion"],
+    "enSource": "cedict",
+    "example": { "zh": "这首歌的情感很深。", "vi": "Tình cảm trong bài hát này rất sâu.", "en": "The emotion in this song is very deep." }
+  },
+  {
+    "id": "L3-0566",
+    "vi": ["tình hình", "tình huống"],
+    "viAliases": ["tình trạng", "hoàn cảnh"],
+    "en": ["circumstances; state of affairs; situation"],
+    "enSource": "cedict",
+    "example": { "zh": "请你说说这里的情况。", "vi": "Bạn hãy nói về tình hình ở đây.", "en": "Please tell me about the situation here." }
+  },
+  {
+    "id": "L3-0567",
+    "vi": ["thỉnh giáo", "hỏi ý kiến"],
+    "viAliases": ["xin chỉ giáo", "xin thỉnh giáo"],
+    "en": ["to ask for guidance", "to consult"],
+    "enSource": "cedict",
+    "example": { "zh": "我想向老师请教一个问题。", "vi": "Tôi muốn thỉnh giáo thầy giáo một vấn đề.", "en": "I would like to consult the teacher about a question." }
+  },
+  {
+    "id": "L3-0568",
+    "vi": ["chúc mừng", "ăn mừng"],
+    "viAliases": ["mừng"],
+    "en": ["to celebrate"],
+    "enSource": "cedict",
+    "example": { "zh": "我们一起庆祝她的生日。", "vi": "Chúng tôi cùng nhau mừng sinh nhật của cô ấy.", "en": "We celebrate her birthday together." }
+  },
+  {
+    "id": "L3-0569",
+    "vi": ["người hâm mộ bóng đá", "cổ động viên"],
+    "viAliases": ["fan bóng đá", "người mê bóng"],
+    "en": ["fan (ball sports)"],
+    "enSource": "cedict",
+    "example": { "zh": "很多球迷来看这场比赛。", "vi": "Rất nhiều người hâm mộ đến xem trận đấu này.", "en": "Many fans came to watch this match." }
+  },
+  {
+    "id": "L3-0570",
+    "vi": ["khu", "quận", "khu vực"],
+    "viAliases": ["vùng", "địa khu"],
+    "en": ["area", "region", "district"],
+    "enSource": "cedict",
+    "example": { "zh": "我家在城市的东区。", "vi": "Nhà tôi ở khu phía đông thành phố.", "en": "My home is in the eastern district of the city." }
+  },
+  {
+    "id": "L3-0571",
+    "vi": ["sự khác biệt", "phân biệt"],
+    "viAliases": ["điểm khác nhau", "sự khác nhau"],
+    "en": ["difference", "to distinguish", "to make a distinction"],
+    "enSource": "cedict",
+    "example": { "zh": "这两个词的区别很小。", "vi": "Sự khác biệt giữa hai từ này rất nhỏ.", "en": "The difference between these two words is very small." }
+  },
+  {
+    "id": "L3-0572",
+    "vi": ["hủy bỏ", "hủy"],
+    "viAliases": ["bãi bỏ", "xóa bỏ"],
+    "en": ["to cancel; to call off; to revoke; to rescind"],
+    "enSource": "cedict",
+    "example": { "zh": "因为下雨，比赛取消了。", "vi": "Vì trời mưa nên trận đấu đã bị hủy.", "en": "The match was canceled because of the rain." }
+  },
+  {
+    "id": "L3-0573",
+    "vi": ["qua đời", "mất"],
+    "viAliases": ["từ trần", "tạ thế"],
+    "en": ["to pass away", "to die"],
+    "enSource": "cedict",
+    "example": { "zh": "他的爷爷去年去世了。", "vi": "Ông nội của anh ấy đã qua đời năm ngoái.", "en": "His grandfather passed away last year." }
+  }
+]

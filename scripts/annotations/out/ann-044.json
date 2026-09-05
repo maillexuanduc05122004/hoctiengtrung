@@ -1,0 +1,542 @@
+[
+  {
+    "id": "L3-0664",
+    "vi": ["thích nghi", "thích ứng"],
+    "viAliases": ["quen với", "làm quen với"],
+    "en": ["to adapt", "to fit", "to suit"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他很快就适应了新的生活。",
+      "vi": "Anh ấy nhanh chóng thích nghi với cuộc sống mới.",
+      "en": "He quickly adapted to his new life."
+    }
+  },
+  {
+    "id": "L3-0665",
+    "vi": ["thích hợp", "áp dụng được", "dùng được"],
+    "viAliases": ["phù hợp"],
+    "en": ["to be applicable"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这个办法适用于所有学生。",
+      "vi": "Cách này áp dụng được cho tất cả học sinh.",
+      "en": "This method is applicable to all students."
+    }
+  },
+  {
+    "id": "L3-0666",
+    "vi": ["phòng", "buồng"],
+    "viAliases": ["căn phòng"],
+    "en": ["room"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我们的教室很干净。",
+      "vi": "Phòng học của chúng tôi rất sạch sẽ.",
+      "en": "Our classroom is very clean."
+    }
+  },
+  {
+    "id": "L3-0667",
+    "vi": ["thu phí", "tính phí"],
+    "viAliases": ["thu tiền", "lấy phí"],
+    "en": ["to charge a fee"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这个博物馆不收费。",
+      "vi": "Bảo tàng này không thu phí.",
+      "en": "This museum does not charge a fee."
+    }
+  },
+  {
+    "id": "L3-0668",
+    "vi": ["xem (chương trình truyền hình)", "theo dõi"],
+    "viAliases": ["đón xem", "xem tivi"],
+    "en": ["to watch (a TV program)"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "很多人喜欢收看这个节目。",
+      "vi": "Rất nhiều người thích xem chương trình này.",
+      "en": "Many people like to watch this program."
+    }
+  },
+  {
+    "id": "L3-0669",
+    "vi": ["nghe (đài phát thanh)", "đón nghe"],
+    "viAliases": ["nghe đài", "nghe radio"],
+    "en": ["to listen to (a radio broadcast)"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "爷爷每天早上收听新闻。",
+      "vi": "Ông nội mỗi sáng đều nghe tin tức.",
+      "en": "Grandpa listens to the news every morning."
+    }
+  },
+  {
+    "id": "L3-0670",
+    "vi": ["máy radio", "đài phát thanh (máy)"],
+    "viAliases": ["cái đài", "máy thu thanh"],
+    "en": ["radio"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这台收音机是爸爸买的。",
+      "vi": "Cái radio này là bố mua.",
+      "en": "This radio was bought by my dad."
+    }
+  },
+  {
+    "id": "L3-0671",
+    "vi": ["thủ tục"],
+    "viAliases": ["giấy tờ thủ tục"],
+    "en": ["procedure", "formalities"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "办这个手续需要多长时间？",
+      "vi": "Làm thủ tục này cần bao lâu?",
+      "en": "How long does it take to complete this procedure?"
+    }
+  },
+  {
+    "id": "L3-0672",
+    "vi": ["ngón tay"],
+    "viAliases": ["ngón"],
+    "en": ["finger"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我的手指有点儿疼。",
+      "vi": "Ngón tay của tôi hơi đau.",
+      "en": "My finger hurts a little."
+    }
+  },
+  {
+    "id": "L3-0673",
+    "vi": ["thủ đô"],
+    "viAliases": ["kinh đô"],
+    "en": ["capital (city)"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "北京是中国的首都。",
+      "vi": "Bắc Kinh là thủ đô của Trung Quốc.",
+      "en": "Beijing is the capital of China."
+    }
+  },
+  {
+    "id": "L3-0674",
+    "vi": ["trước tiên", "đầu tiên", "trước hết"],
+    "viAliases": ["thoạt tiên"],
+    "en": ["first of all; in the first place"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "首先我要感谢我的老师。",
+      "vi": "Trước tiên tôi muốn cảm ơn thầy cô của mình.",
+      "en": "First of all, I want to thank my teachers."
+    }
+  },
+  {
+    "id": "L3-0675",
+    "vi": ["chịu", "nhận", "hứng chịu"],
+    "viAliases": ["chịu đựng", "tiếp nhận"],
+    "en": ["to receive", "to accept", "to suffer", "to bear"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这个电影很受年轻人欢迎。",
+      "vi": "Bộ phim này rất được giới trẻ yêu thích.",
+      "en": "This movie is very popular with young people."
+    }
+  },
+  {
+    "id": "L3-0676",
+    "vi": ["bị thương"],
+    "viAliases": ["bị chấn thương", "mang thương tích"],
+    "en": ["to sustain injuries", "wounded", "harmed"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他踢足球的时候受伤了。",
+      "vi": "Anh ấy bị thương khi đá bóng.",
+      "en": "He got injured while playing soccer."
+    }
+  },
+  {
+    "id": "L3-0677",
+    "vi": ["giá sách", "kệ sách"],
+    "viAliases": ["tủ sách"],
+    "en": ["bookshelf"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "书架上放着很多新书。",
+      "vi": "Trên giá sách để rất nhiều sách mới.",
+      "en": "There are many new books on the bookshelf."
+    }
+  },
+  {
+    "id": "L3-0678",
+    "vi": ["thua", "thua cuộc"],
+    "viAliases": ["thất bại", "thua trận"],
+    "en": ["to lose; to be beaten"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我们队昨天输了比赛。",
+      "vi": "Đội chúng tôi hôm qua đã thua trận đấu.",
+      "en": "Our team lost the match yesterday."
+    }
+  },
+  {
+    "id": "L3-0679",
+    "vi": ["nhập", "nhập vào"],
+    "viAliases": ["gõ vào", "nhập liệu"],
+    "en": ["to input", "to import"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "请在这里输入你的名字。",
+      "vi": "Xin hãy nhập tên của bạn vào đây.",
+      "en": "Please enter your name here."
+    }
+  },
+  {
+    "id": "L3-0680",
+    "vi": ["người quen"],
+    "viAliases": ["chỗ quen biết", "người quen biết"],
+    "en": ["acquaintance"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我在这个城市有很多熟人。",
+      "vi": "Tôi có rất nhiều người quen ở thành phố này.",
+      "en": "I have many acquaintances in this city."
+    }
+  },
+  {
+    "id": "L3-0681",
+    "vi": ["thuộc về", "cầm tinh (con giáp)"],
+    "viAliases": ["thuộc", "tuổi (con giáp)"],
+    "en": ["to belong to", "be born in the year of (one of the 12 animals)"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我属马，他属羊。",
+      "vi": "Tôi tuổi Ngọ, còn anh ấy tuổi Mùi.",
+      "en": "I was born in the year of the horse, and he in the year of the goat."
+    }
+  },
+  {
+    "id": "L3-0682",
+    "vi": ["thuộc về"],
+    "viAliases": ["thuộc", "nằm trong"],
+    "en": ["to belong to; to fall under (a category)"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这本书属于图书馆。",
+      "vi": "Quyển sách này thuộc về thư viện.",
+      "en": "This book belongs to the library."
+    }
+  },
+  {
+    "id": "L3-0683",
+    "vi": ["bó (lượng từ cho hoa, củi)", "chùm (lượng từ cho tia sáng)"],
+    "viAliases": [],
+    "en": ["bunch", "bundle", "classifier for bunches, bundles, beams of light etc"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他送给妈妈一束花。",
+      "vi": "Anh ấy tặng mẹ một bó hoa.",
+      "en": "He gave his mother a bunch of flowers."
+    }
+  },
+  {
+    "id": "L3-0684",
+    "vi": ["số lượng"],
+    "viAliases": ["lượng"],
+    "en": ["amount; quantity"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "今年学生的数量比去年多。",
+      "vi": "Số lượng học sinh năm nay nhiều hơn năm ngoái.",
+      "en": "The number of students this year is greater than last year."
+    }
+  },
+  {
+    "id": "L3-0685",
+    "vi": ["đôi (lượng từ)", "kép, đôi", "chẵn"],
+    "viAliases": ["cặp"],
+    "en": ["pair", "double", "even (number)"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我买了一双新鞋。",
+      "vi": "Tôi đã mua một đôi giày mới.",
+      "en": "I bought a pair of new shoes."
+    }
+  },
+  {
+    "id": "L3-0686",
+    "vi": ["hai bên", "đôi bên"],
+    "viAliases": ["cả hai bên", "hai phía"],
+    "en": ["both sides", "both parties involved", "bilateral"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "双方都同意这个办法。",
+      "vi": "Hai bên đều đồng ý với cách làm này.",
+      "en": "Both sides agree to this approach."
+    }
+  },
+  {
+    "id": "L3-0687",
+    "vi": ["tư tưởng", "suy nghĩ"],
+    "viAliases": ["ý nghĩ", "tư duy"],
+    "en": ["thought", "thinking", "idea", "ideology"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他的思想比较开放。",
+      "vi": "Tư tưởng của anh ấy khá cởi mở.",
+      "en": "His thinking is fairly open-minded."
+    }
+  },
+  {
+    "id": "L3-0688",
+    "vi": ["chết", "cứng nhắc, không linh hoạt"],
+    "viAliases": ["qua đời", "mất"],
+    "en": ["to die", "inflexible", "rigid"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这条鱼已经死了。",
+      "vi": "Con cá này đã chết rồi.",
+      "en": "This fish is already dead."
+    }
+  },
+  {
+    "id": "L3-0689",
+    "vi": ["tốc độ"],
+    "viAliases": ["vận tốc"],
+    "en": ["speed; rate; velocity"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这辆车的速度非常快。",
+      "vi": "Tốc độ của chiếc xe này rất nhanh.",
+      "en": "The speed of this car is very fast."
+    }
+  },
+  {
+    "id": "L3-0690",
+    "vi": ["theo", "đi theo", "tùy theo"],
+    "viAliases": ["đi cùng"],
+    "en": ["to follow", "to comply with"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "孩子随妈妈一起去了商店。",
+      "vi": "Đứa trẻ đi theo mẹ đến cửa hàng.",
+      "en": "The child went to the store together with his mother."
+    }
+  },
+  {
+    "id": "L3-0691",
+    "vi": ["nơi, chỗ", "ngôi (lượng từ cho trường học, bệnh viện, nhà)"],
+    "viAliases": ["địa điểm"],
+    "en": ["place", "classifier for houses, small buildings, institutions etc"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这个城市有三所大学。",
+      "vi": "Thành phố này có ba trường đại học.",
+      "en": "This city has three universities."
+    }
+  },
+  {
+    "id": "L3-0692",
+    "vi": ["sở trưởng", "viện trưởng", "trưởng cơ quan"],
+    "viAliases": ["trưởng sở", "giám đốc viện"],
+    "en": ["director; head of an institute, office or station"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他是我们研究所的所长。",
+      "vi": "Ông ấy là viện trưởng viện nghiên cứu của chúng tôi.",
+      "en": "He is the director of our research institute."
+    }
+  },
+  {
+    "id": "L3-0693",
+    "vi": ["đài (phát thanh, truyền hình)", "bục, sân khấu", "cái (lượng từ cho máy móc, xe)"],
+    "viAliases": ["trạm phát sóng"],
+    "en": ["platform", "stage", "station", "classifier for vehicles or machines"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我家有两台电脑。",
+      "vi": "Nhà tôi có hai cái máy tính.",
+      "en": "My family has two computers."
+    }
+  },
+  {
+    "id": "L3-0694",
+    "vi": ["nói chuyện", "bàn", "trò chuyện"],
+    "viAliases": ["chuyện trò", "bàn bạc"],
+    "en": ["to speak", "to talk", "to converse", "to discuss"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我想跟你谈一件事。",
+      "vi": "Tôi muốn nói với bạn một chuyện.",
+      "en": "I want to talk with you about something."
+    }
+  },
+  {
+    "id": "L3-0695",
+    "vi": ["nói chuyện", "trò chuyện", "cuộc nói chuyện"],
+    "viAliases": ["chuyện trò", "đàm thoại"],
+    "en": ["to talk (with sb)", "to have a conversation", "conversation"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "昨天校长跟他谈话了。",
+      "vi": "Hôm qua hiệu trưởng đã nói chuyện với cậu ấy.",
+      "en": "Yesterday the principal had a talk with him."
+    }
+  },
+  {
+    "id": "L3-0696",
+    "vi": ["đàm phán", "thương lượng", "cuộc đàm phán"],
+    "viAliases": ["thương thảo", "điều đình"],
+    "en": ["to negotiate", "negotiation", "talks"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "两家公司正在谈判。",
+      "vi": "Hai công ty đang đàm phán.",
+      "en": "The two companies are negotiating."
+    }
+  },
+  {
+    "id": "L3-0697",
+    "vi": ["canh", "súp"],
+    "viAliases": ["nước dùng"],
+    "en": ["soup"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "妈妈做的鸡汤很好喝。",
+      "vi": "Canh gà mẹ nấu rất ngon.",
+      "en": "The chicken soup my mom makes is delicious."
+    }
+  },
+  {
+    "id": "L3-0698",
+    "vi": ["đường", "kẹo"],
+    "viAliases": ["đường cát", "đường ăn"],
+    "en": ["sugar", "sweets", "candy"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这杯咖啡里没有放糖。",
+      "vi": "Cốc cà phê này không cho đường.",
+      "en": "There is no sugar in this cup of coffee."
+    }
+  },
+  {
+    "id": "L3-0699",
+    "vi": ["nét đặc sắc", "đặc điểm riêng"],
+    "viAliases": ["đặc trưng", "đặc thù"],
+    "en": ["a characteristic; a distinctive feature or quality"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这家饭馆的特色菜很有名。",
+      "vi": "Món đặc sản của quán ăn này rất nổi tiếng.",
+      "en": "The specialty dish of this restaurant is very famous."
+    }
+  },
+  {
+    "id": "L3-0700",
+    "vi": ["dời lên sớm hơn", "làm trước thời hạn", "trước thời hạn"],
+    "viAliases": ["sớm hơn dự kiến"],
+    "en": ["to shift to an earlier date", "to do sth ahead of time", "in advance"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "会议提前到明天上午了。",
+      "vi": "Cuộc họp đã dời lên sáng mai.",
+      "en": "The meeting has been moved up to tomorrow morning."
+    }
+  },
+  {
+    "id": "L3-0701",
+    "vi": ["đặt câu hỏi", "nêu câu hỏi"],
+    "viAliases": ["hỏi bài", "chất vấn"],
+    "en": ["to question; to quiz"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "老师提问的时候我很紧张。",
+      "vi": "Lúc thầy giáo đặt câu hỏi tôi rất căng thẳng.",
+      "en": "I get nervous when the teacher asks questions."
+    }
+  },
+  {
+    "id": "L3-0702",
+    "vi": ["đề bài", "tiêu đề", "đầu đề"],
+    "viAliases": ["nhan đề", "đề mục"],
+    "en": ["subject; title; topic", "exercise or exam question"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "今天的作文题目很有意思。",
+      "vi": "Đề bài văn hôm nay rất thú vị.",
+      "en": "Today's essay topic is very interesting."
+    }
+  },
+  {
+    "id": "L3-0703",
+    "vi": ["cảm nhận", "thấu hiểu", "điều cảm nhận được"],
+    "viAliases": ["lĩnh hội", "hiểu được"],
+    "en": ["to know from experience", "to realize", "understanding", "experience"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我体会到了父母的辛苦。",
+      "vi": "Tôi đã cảm nhận được sự vất vả của bố mẹ.",
+      "en": "I have come to understand how hard my parents work."
+    }
+  },
+  {
+    "id": "L3-0704",
+    "vi": ["thể hiện", "phản ánh"],
+    "viAliases": ["biểu hiện", "bộc lộ"],
+    "en": ["to embody", "to reflect"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这幅画体现了他的想法。",
+      "vi": "Bức tranh này thể hiện suy nghĩ của anh ấy.",
+      "en": "This painting reflects his ideas."
+    }
+  },
+  {
+    "id": "L3-0705",
+    "vi": ["trải nghiệm"],
+    "viAliases": ["thể nghiệm", "nếm trải"],
+    "en": ["to experience for oneself"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我想体验一下农村的生活。",
+      "vi": "Tôi muốn trải nghiệm thử cuộc sống ở nông thôn.",
+      "en": "I want to experience rural life for myself."
+    }
+  },
+  {
+    "id": "L3-0706",
+    "vi": ["bầu trời"],
+    "viAliases": ["trời"],
+    "en": ["sky"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "今天的天空又蓝又干净。",
+      "vi": "Bầu trời hôm nay vừa xanh vừa trong.",
+      "en": "The sky today is blue and clear."
+    }
+  },
+  {
+    "id": "L3-0707",
+    "vi": ["ngọt"],
+    "viAliases": ["ngọt ngào"],
+    "en": ["sweet", "pleasant; endearing; lovely"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这个西瓜真甜。",
+      "vi": "Quả dưa hấu này thật ngọt.",
+      "en": "This watermelon is really sweet."
+    }
+  },
+  {
+    "id": "L3-0708",
+    "vi": ["điều chỉnh", "pha, trộn"],
+    "viAliases": ["chỉnh", "điều tiết"],
+    "en": ["to adjust", "to regulate", "to blend", "to harmonize"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "请把电视的声音调小一点。",
+      "vi": "Xin hãy chỉnh nhỏ tiếng tivi một chút.",
+      "en": "Please turn the TV volume down a bit."
+    }
+  }
+]

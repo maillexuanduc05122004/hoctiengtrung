@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L3-0124",
+    "vi": ["đạt tới", "đạt được"],
+    "viAliases": ["đạt đến", "chạm tới"],
+    "en": ["to reach", "to achieve", "to attain"],
+    "enSource": "cedict",
+    "example": { "zh": "他达到了自己的目标。", "vi": "Anh ấy đã đạt được mục tiêu của mình.", "en": "He reached his own goal." }
+  },
+  {
+    "id": "L3-0125",
+    "vi": ["đập vỡ", "phá vỡ"],
+    "viAliases": ["làm vỡ", "đập bể"],
+    "en": ["to break", "to smash"],
+    "enSource": "cedict",
+    "example": { "zh": "弟弟打破了一个杯子。", "vi": "Em trai đã làm vỡ một cái cốc.", "en": "My younger brother broke a cup." }
+  },
+  {
+    "id": "L3-0126",
+    "vi": ["hỏi thăm", "dò hỏi"],
+    "viAliases": ["thăm dò", "hỏi dò"],
+    "en": ["to ask about", "to make some inquiries", "to ask around"],
+    "enSource": "cedict",
+    "example": { "zh": "我去打听一下他的消息。", "vi": "Tôi đi hỏi thăm tin tức của anh ấy một chút.", "en": "I will go and ask around for news about him." }
+  },
+  {
+    "id": "L3-0127",
+    "vi": ["khoảng chừng", "đại khái", "sơ lược"],
+    "viAliases": ["chắc là", "áng chừng"],
+    "en": ["roughly", "probably", "approximate", "general idea"],
+    "enSource": "cedict",
+    "example": { "zh": "他大概八点到学校。", "vi": "Anh ấy khoảng tám giờ đến trường.", "en": "He gets to school at about eight." }
+  },
+  {
+    "id": "L3-0128",
+    "vi": ["đại sứ quán"],
+    "viAliases": ["sứ quán"],
+    "en": ["embassy"],
+    "enSource": "cedict",
+    "example": { "zh": "中国大使馆在这条街上。", "vi": "Đại sứ quán Trung Quốc nằm trên con phố này.", "en": "The Chinese embassy is on this street." }
+  },
+  {
+    "id": "L3-0129",
+    "vi": ["khoảng", "chừng"],
+    "viAliases": ["độ chừng", "xấp xỉ"],
+    "en": ["approximately", "probably"],
+    "enSource": "cedict",
+    "example": { "zh": "这里大约有五十个人。", "vi": "Ở đây có khoảng năm mươi người.", "en": "There are approximately fifty people here." }
+  },
+  {
+    "id": "L3-0130",
+    "vi": ["bác sĩ", "thầy thuốc"],
+    "viAliases": ["đại phu"],
+    "en": ["doctor", "physician"],
+    "enSource": "cedict",
+    "example": { "zh": "大夫说我要多喝水。", "vi": "Bác sĩ nói tôi phải uống nhiều nước.", "en": "The doctor said I should drink more water." }
+  },
+  {
+    "id": "L3-0131",
+    "vi": ["thay thế", "đời", "thế hệ"],
+    "viAliases": ["thay mặt", "triều đại"],
+    "en": ["to be a substitute for", "to act on behalf of", "generation", "dynasty"],
+    "enSource": "cedict",
+    "example": { "zh": "今天我代他去开会。", "vi": "Hôm nay tôi thay anh ấy đi họp.", "en": "Today I am going to the meeting in his place." }
+  },
+  {
+    "id": "L3-0132",
+    "vi": ["đại biểu", "đại diện", "thay mặt"],
+    "viAliases": ["người đại diện", "tiêu biểu cho"],
+    "en": ["representative", "delegate", "to represent", "on behalf of"],
+    "enSource": "cedict",
+    "example": { "zh": "他是我们班的代表。", "vi": "Anh ấy là đại biểu của lớp chúng tôi.", "en": "He is the representative of our class." }
+  },
+  {
+    "id": "L3-0133",
+    "vi": ["đoàn đại biểu"],
+    "viAliases": ["phái đoàn", "đoàn đại diện"],
+    "en": ["delegation"],
+    "enSource": "cedict",
+    "example": { "zh": "中国代表团明天到北京。", "vi": "Đoàn đại biểu Trung Quốc ngày mai đến Bắc Kinh.", "en": "The Chinese delegation arrives in Beijing tomorrow." }
+  },
+  {
+    "id": "L3-0134",
+    "vi": ["thúc đẩy", "kéo theo"],
+    "viAliases": ["tạo động lực", "đẩy mạnh"],
+    "en": ["to spur", "to provide impetus", "to drive"],
+    "enSource": "cedict",
+    "example": { "zh": "旅游带动了这里的经济。", "vi": "Du lịch đã thúc đẩy kinh tế nơi này.", "en": "Tourism has driven the economy here." }
+  },
+  {
+    "id": "L3-0135",
+    "vi": ["dẫn dắt", "dẫn đầu"],
+    "viAliases": ["lãnh đạo", "chỉ huy"],
+    "en": ["to guide", "to lead"],
+    "enSource": "cedict",
+    "example": { "zh": "老师带领我们参观博物馆。", "vi": "Thầy giáo dẫn chúng tôi đi tham quan bảo tàng.", "en": "The teacher led us on a visit to the museum." }
+  },
+  {
+    "id": "L3-0136",
+    "vi": ["đơn vị", "đơn nguyên"],
+    "viAliases": ["chương", "phần"],
+    "en": ["unit (forming an entity)", "element", "entrance or staircase in a residential building"],
+    "enSource": "cedict",
+    "example": { "zh": "这个单元一共有十课。", "vi": "Đơn vị bài học này tổng cộng có mười bài.", "en": "This unit has ten lessons in all." }
+  },
+  {
+    "id": "L3-0137",
+    "vi": ["lúc đầu", "hồi đó", "ban đầu"],
+    "viAliases": ["thuở ban đầu", "khi ấy"],
+    "en": ["at that time", "originally"],
+    "enSource": "cedict",
+    "example": { "zh": "当初我不会说汉语。", "vi": "Hồi đó tôi không biết nói tiếng Trung.", "en": "Back then I could not speak Chinese." }
+  },
+  {
+    "id": "L3-0138",
+    "vi": ["địa phương", "sở tại"],
+    "viAliases": ["bản địa"],
+    "en": ["local"],
+    "enSource": "cedict",
+    "example": { "zh": "我很喜欢当地的菜。", "vi": "Tôi rất thích món ăn địa phương.", "en": "I really like the local food." }
+  },
+  {
+    "id": "L3-0139",
+    "vi": ["đương nhiên", "tất nhiên"],
+    "viAliases": ["dĩ nhiên", "hiển nhiên"],
+    "en": ["only natural", "as it should be", "of course", "certainly"],
+    "enSource": "cedict",
+    "example": { "zh": "我当然愿意帮助你。", "vi": "Tôi đương nhiên sẵn lòng giúp bạn.", "en": "Of course I am willing to help you." }
+  },
+  {
+    "id": "L3-0140",
+    "vi": ["ở giữa", "trong số"],
+    "viAliases": ["chính giữa", "ở trong số"],
+    "en": ["among", "in the middle", "in the center"],
+    "enSource": "cedict",
+    "example": { "zh": "他站在我们当中唱歌。", "vi": "Anh ấy đứng giữa chúng tôi hát.", "en": "He stood in the middle of us and sang." }
+  },
+  {
+    "id": "L3-0141",
+    "vi": ["dao", "con dao"],
+    "viAliases": ["lưỡi dao"],
+    "en": ["knife", "blade"],
+    "enSource": "cedict",
+    "example": { "zh": "请给我一把刀切水果。", "vi": "Làm ơn đưa tôi một con dao để cắt hoa quả.", "en": "Please give me a knife to cut the fruit." }
+  },
+  {
+    "id": "L3-0142",
+    "vi": ["đạo diễn"],
+    "viAliases": ["dàn dựng"],
+    "en": ["to direct", "director (film etc)"],
+    "enSource": "cedict",
+    "example": { "zh": "这部电影的导演很有名。", "vi": "Đạo diễn của bộ phim này rất nổi tiếng.", "en": "The director of this film is very famous." }
+  },
+  {
+    "id": "L3-0143",
+    "vi": ["đến", "tới", "đến nơi"],
+    "viAliases": ["tới nơi", "đặt chân đến"],
+    "en": ["to reach", "to arrive"],
+    "enSource": "cedict",
+    "example": { "zh": "我们下午三点到达北京。", "vi": "Ba giờ chiều chúng tôi đến Bắc Kinh.", "en": "We arrive in Beijing at three in the afternoon." }
+  },
+  {
+    "id": "L3-0144",
+    "vi": ["rốt cuộc", "cuối cùng"],
+    "viAliases": ["rốt cục", "sau cùng"],
+    "en": ["finally", "in the end", "after all"],
+    "enSource": "cedict",
+    "example": { "zh": "你到底想吃什么？", "vi": "Rốt cuộc bạn muốn ăn gì?", "en": "What on earth do you want to eat?" }
+  },
+  {
+    "id": "L3-0145",
+    "vi": ["ghi điểm", "điểm số"],
+    "viAliases": ["được điểm", "số điểm"],
+    "en": ["to score a point", "score", "rating"],
+    "enSource": "cedict",
+    "example": { "zh": "他在比赛中得分最多。", "vi": "Anh ấy ghi được nhiều điểm nhất trong trận đấu.", "en": "He scored the most points in the match." }
+  },
+  {
+    "id": "L3-0146",
+    "vi": ["chờ đợi", "đợi", "chờ"],
+    "viAliases": ["trông chờ", "đợi chờ"],
+    "en": ["to wait", "to wait for"],
+    "enSource": "cedict",
+    "example": { "zh": "大家在门口等待老师。", "vi": "Mọi người đợi thầy giáo ở cửa.", "en": "Everyone is waiting for the teacher at the door." }
+  },
+  {
+    "id": "L3-0147",
+    "vi": ["bên dưới", "phía dưới"],
+    "viAliases": ["ở dưới", "dưới"],
+    "en": ["the location below sth"],
+    "enSource": "cedict",
+    "example": { "zh": "猫在桌子底下睡觉。", "vi": "Con mèo ngủ ở dưới gầm bàn.", "en": "The cat is sleeping under the table." }
+  },
+  {
+    "id": "L3-0148",
+    "vi": ["khu vực", "vùng"],
+    "viAliases": ["địa khu", "miền"],
+    "en": ["region", "area"],
+    "enSource": "cedict",
+    "example": { "zh": "这个地区的天气很热。", "vi": "Thời tiết của khu vực này rất nóng.", "en": "The weather in this region is very hot." }
+  },
+  {
+    "id": "L3-0149",
+    "vi": ["phim truyền hình"],
+    "viAliases": ["phim bộ", "phim truyền hình dài tập"],
+    "en": ["TV series", "TV drama"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈最爱看这部电视剧。", "vi": "Mẹ thích xem bộ phim truyền hình này nhất.", "en": "Mom loves watching this TV series the most." }
+  },
+  {
+    "id": "L3-0150",
+    "vi": ["đài truyền hình"],
+    "viAliases": ["đài TV"],
+    "en": ["television station", "TV station"],
+    "enSource": "cedict",
+    "example": { "zh": "他在电视台工作了十年。", "vi": "Anh ấy đã làm việc ở đài truyền hình mười năm.", "en": "He has worked at the TV station for ten years." }
+  },
+  {
+    "id": "L3-0151",
+    "vi": ["đài phát thanh"],
+    "viAliases": ["đài radio", "đài phát sóng"],
+    "en": ["radio station", "broadcasting station"],
+    "enSource": "cedict",
+    "example": { "zh": "爷爷每天早上听电台。", "vi": "Ông nội mỗi sáng đều nghe đài phát thanh.", "en": "Grandpa listens to the radio station every morning." }
+  },
+  {
+    "id": "L3-0152",
+    "vi": ["thư điện tử", "email"],
+    "viAliases": ["điện thư", "thư email"],
+    "en": ["email"],
+    "enSource": "cedict",
+    "example": { "zh": "我给老师发了一封电子邮件。", "vi": "Tôi đã gửi cho thầy giáo một bức thư điện tử.", "en": "I sent an email to the teacher." }
+  },
+  {
+    "id": "L3-0153",
+    "vi": ["điều động", "điều chuyển"],
+    "viAliases": ["thuyên chuyển", "chuyển công tác"],
+    "en": ["to transfer", "to move (troops or cadres)"],
+    "enSource": "cedict",
+    "example": { "zh": "公司把他调到了上海。", "vi": "Công ty đã điều anh ấy đến Thượng Hải.", "en": "The company transferred him to Shanghai." }
+  },
+  {
+    "id": "L3-0154",
+    "vi": ["điều tra", "khảo sát"],
+    "viAliases": ["thăm dò", "cuộc điều tra"],
+    "en": ["to investigate", "to survey", "investigation", "survey"],
+    "enSource": "cedict",
+    "example": { "zh": "警察正在调查这件事。", "vi": "Cảnh sát đang điều tra việc này.", "en": "The police are investigating this matter." }
+  },
+  {
+    "id": "L3-0155",
+    "vi": ["đặt trước", "đặt mua", "ký kết"],
+    "viAliases": ["đặt chỗ", "đặt hàng"],
+    "en": ["to order", "to subscribe to (a newspaper etc)", "to conclude", "to draw up"],
+    "enSource": "cedict",
+    "example": { "zh": "我订了两张火车票。", "vi": "Tôi đã đặt hai vé tàu hỏa.", "en": "I ordered two train tickets." }
+  },
+  {
+    "id": "L3-0156",
+    "vi": ["định kỳ", "theo định kỳ"],
+    "viAliases": ["thường kỳ", "có kỳ hạn"],
+    "en": ["at set dates", "at regular intervals", "periodic", "fixed term"],
+    "enSource": "cedict",
+    "example": { "zh": "我们班定期开一次会。", "vi": "Lớp chúng tôi định kỳ họp một lần.", "en": "Our class holds a meeting at regular intervals." }
+  },
+  {
+    "id": "L3-0157",
+    "vi": ["miền đông", "phía đông"],
+    "viAliases": ["vùng phía đông", "khu vực miền đông"],
+    "en": ["the east", "eastern part"],
+    "enSource": "cedict",
+    "example": { "zh": "中国东部有很多大城市。", "vi": "Miền đông Trung Quốc có rất nhiều thành phố lớn.", "en": "There are many big cities in the east of China." }
+  },
+  {
+    "id": "L3-0158",
+    "vi": ["động lực"],
+    "viAliases": ["lực đẩy", "sức thúc đẩy"],
+    "en": ["motive power", "motivation", "impetus"],
+    "enSource": "cedict",
+    "example": { "zh": "学习汉语的动力是兴趣。", "vi": "Động lực học tiếng Trung là sự hứng thú.", "en": "The motivation for learning Chinese is interest." }
+  },
+  {
+    "id": "L3-0159",
+    "vi": ["cảm động", "xúc động"],
+    "viAliases": ["lay động lòng người", "rung động"],
+    "en": ["touching", "moving"],
+    "enSource": "cedict",
+    "example": { "zh": "这个故事非常动人。", "vi": "Câu chuyện này vô cùng cảm động.", "en": "This story is extremely moving." }
+  },
+  {
+    "id": "L3-0160",
+    "vi": ["độc giả", "bạn đọc", "người đọc"],
+    "viAliases": [],
+    "en": ["reader"],
+    "enSource": "cedict",
+    "example": { "zh": "这本书有很多读者。", "vi": "Cuốn sách này có rất nhiều độc giả.", "en": "This book has many readers." }
+  },
+  {
+    "id": "L3-0161",
+    "vi": ["khuyết điểm", "nhược điểm", "điểm yếu"],
+    "viAliases": ["sở đoản", "chỗ yếu"],
+    "en": ["shortcoming", "defect", "fault", "weak points"],
+    "enSource": "cedict",
+    "example": { "zh": "每个人都有自己的短处。", "vi": "Ai cũng có nhược điểm của riêng mình.", "en": "Everyone has their own shortcomings." }
+  },
+  {
+    "id": "L3-0162",
+    "vi": ["quần đùi", "quần soóc"],
+    "viAliases": ["quần ngắn", "quần short"],
+    "en": ["short pants", "shorts"],
+    "enSource": "cedict",
+    "example": { "zh": "夏天他常穿短裤出门。", "vi": "Mùa hè anh ấy thường mặc quần đùi ra ngoài.", "en": "In summer he often wears shorts when going out." }
+  },
+  {
+    "id": "L3-0163",
+    "vi": ["ngắn hạn", "thời gian ngắn"],
+    "viAliases": ["đoản kỳ"],
+    "en": ["short-term"],
+    "enSource": "cedict",
+    "example": { "zh": "他参加了一个短期班。", "vi": "Anh ấy đã tham gia một lớp học ngắn hạn.", "en": "He joined a short-term class." }
+  },
+  {
+    "id": "L3-0164",
+    "vi": ["đứt", "gãy", "cắt đứt"],
+    "viAliases": ["làm gãy", "bẻ gãy"],
+    "en": ["to break", "to snap", "to cut off"],
+    "enSource": "cedict",
+    "example": { "zh": "他的铅笔断成了两半。", "vi": "Cây bút chì của cậu ấy gãy làm đôi.", "en": "His pencil snapped in two." }
+  },
+  {
+    "id": "L3-0165",
+    "vi": ["đội viên", "thành viên đội"],
+    "viAliases": ["thành viên trong đội"],
+    "en": ["team member"],
+    "enSource": "cedict",
+    "example": { "zh": "我们队的队员都很努力。", "vi": "Các đội viên đội chúng tôi đều rất cố gắng.", "en": "The members of our team all work very hard." }
+  },
+  {
+    "id": "L3-0166",
+    "vi": ["đối xử", "đối đãi"],
+    "viAliases": ["cư xử", "đối xử với"],
+    "en": ["to treat"],
+    "enSource": "cedict",
+    "example": { "zh": "我们要好好对待朋友。", "vi": "Chúng ta phải đối xử tốt với bạn bè.", "en": "We should treat our friends well." }
+  },
+  {
+    "id": "L3-0167",
+    "vi": ["đối phương", "bên kia"],
+    "viAliases": ["phía bên kia", "người kia"],
+    "en": ["the other person", "the other side", "the other party"],
+    "enSource": "cedict",
+    "example": { "zh": "打电话时对方没接。", "vi": "Lúc gọi điện thoại thì đối phương không nghe máy.", "en": "When I called, the other party did not pick up." }
+  },
+  {
+    "id": "L3-0168",
+    "vi": ["đối thủ"],
+    "viAliases": ["địch thủ", "người cạnh tranh"],
+    "en": ["opponent", "rival", "competitor"],
+    "enSource": "cedict",
+    "example": { "zh": "这次比赛的对手很强。", "vi": "Đối thủ của trận đấu lần này rất mạnh.", "en": "The opponent in this match is very strong." }
+  }
+]

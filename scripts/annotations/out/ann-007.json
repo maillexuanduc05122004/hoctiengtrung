@@ -2,7 +2,7 @@
   {
     "id": "L1-0271",
     "vi": ["bạn"],
-    "viAliases": ["cậu", "mày", "anh"],
+    "viAliases": ["cậu", "anh"],
     "en": ["you (informal, as opposed to courteous 您)"],
     "enSource": "cedict",
     "example": { "zh": "你是我的好朋友。", "vi": "Bạn là bạn tốt của tôi.", "en": "You are my good friend." }
@@ -10,7 +10,7 @@
   {
     "id": "L1-0272",
     "vi": ["các bạn"],
-    "viAliases": ["các cậu", "chúng mày", "các anh"],
+    "viAliases": ["các cậu", "các anh"],
     "en": ["you (plural)"],
     "enSource": "cedict",
     "example": { "zh": "你们都是学生吗？", "vi": "Các bạn đều là học sinh phải không?", "en": "Are you all students?" }
@@ -42,7 +42,7 @@
   {
     "id": "L1-0276",
     "vi": ["nữ"],
-    "viAliases": ["giống cái", "phái nữ"],
+    "viAliases": ["phái nữ", "nữ giới"],
     "en": ["female"],
     "enSource": "cedict",
     "example": { "zh": "我有一个女同学。", "vi": "Tôi có một bạn học nữ.", "en": "I have a female classmate." }
@@ -58,7 +58,7 @@
   {
     "id": "L1-0278",
     "vi": ["bé gái", "cô bé"],
-    "viAliases": ["con gái", "thiếu nữ"],
+    "viAliases": ["cô gái", "con gái nhỏ"],
     "en": ["girl"],
     "enSource": "cedict",
     "example": { "zh": "那个女孩儿是我妹妹。", "vi": "Cô bé đó là em gái tôi.", "en": "That girl is my younger sister." }
@@ -89,8 +89,8 @@
   },
   {
     "id": "L1-0282",
-    "vi": ["bên cạnh", "phía cạnh"],
-    "viAliases": ["kế bên", "cạnh"],
+    "vi": ["bên cạnh", "cạnh"],
+    "viAliases": ["kế bên", "sát bên"],
     "en": ["side; adjacent place"],
     "enSource": "cedict",
     "example": { "zh": "我家旁边有一个公园。", "vi": "Bên cạnh nhà tôi có một công viên.", "en": "There is a park next to my house." }
@@ -98,7 +98,7 @@
   {
     "id": "L1-0283",
     "vi": ["chạy"],
-    "viAliases": ["chạy bộ", "chạy trốn"],
+    "viAliases": ["chạy trốn", "bỏ chạy"],
     "en": ["to run", "to run away"],
     "enSource": "cedict",
     "example": { "zh": "他跑得很快。", "vi": "Anh ấy chạy rất nhanh.", "en": "He runs very fast." }
@@ -129,8 +129,8 @@
   },
   {
     "id": "L1-0287",
-    "vi": ["dậy", "đứng lên"],
-    "viAliases": ["trỗi dậy", "nhổm dậy"],
+    "vi": ["dậy", "bắt đầu"],
+    "viAliases": ["nổi lên", "trỗi dậy"],
     "en": ["to rise", "to get up", "to start"],
     "enSource": "cedict",
     "example": { "zh": "对不起，我今天起晚了。", "vi": "Xin lỗi, hôm nay tôi dậy muộn.", "en": "Sorry, I got up late today." }
@@ -138,7 +138,7 @@
   {
     "id": "L1-0288",
     "vi": ["thức dậy", "ngủ dậy"],
-    "viAliases": ["dậy", "trở dậy"],
+    "viAliases": ["ra khỏi giường", "dậy khỏi giường"],
     "en": ["to get out of bed; to get up"],
     "enSource": "cedict",
     "example": { "zh": "我每天七点起床。", "vi": "Mỗi ngày tôi thức dậy lúc bảy giờ.", "en": "I get up at seven o'clock every day." }
@@ -146,7 +146,7 @@
   {
     "id": "L1-0289",
     "vi": ["đứng dậy", "trở dậy"],
-    "viAliases": ["đứng lên", "ngồi dậy"],
+    "viAliases": ["đứng lên", "vùng dậy"],
     "en": ["to stand up; to get up", "(after a verb) indicating the beginning and continuation of an action or a state"],
     "enSource": "cedict",
     "example": { "zh": "他站起来回答问题。", "vi": "Anh ấy đứng dậy trả lời câu hỏi.", "en": "He stood up to answer the question." }
@@ -161,8 +161,8 @@
   },
   {
     "id": "L1-0291",
-    "vi": ["phía trước", "trước"],
-    "viAliases": ["đằng trước", "trước đây"],
+    "vi": ["trước", "trước đây"],
+    "viAliases": ["trước kia", "hồi trước"],
     "en": ["front", "ahead", "before", "ago"],
     "enSource": "cedict",
     "example": { "zh": "三年前我来到北京。", "vi": "Ba năm trước tôi đến Bắc Kinh.", "en": "Three years ago I came to Beijing." }
@@ -202,7 +202,7 @@
   {
     "id": "L1-0296",
     "vi": ["mời", "xin", "nhờ"],
-    "viAliases": ["xin mời", "thỉnh"],
+    "viAliases": ["xin mời", "vui lòng"],
     "en": ["to ask", "to invite", "please (do sth)", "to request"],
     "enSource": "cedict",
     "example": { "zh": "请给我一杯水。", "vi": "Xin cho tôi một cốc nước.", "en": "Please give me a glass of water." }
@@ -218,7 +218,7 @@
   {
     "id": "L1-0298",
     "vi": ["mời vào"],
-    "viAliases": ["xin mời vào", "mời anh vào"],
+    "viAliases": ["xin mời vào"],
     "en": ["please come in"],
     "enSource": "cedict",
     "example": { "zh": "请进，外面很冷。", "vi": "Mời vào, bên ngoài rất lạnh.", "en": "Please come in, it is very cold outside." }
@@ -234,7 +234,7 @@
   {
     "id": "L1-0300",
     "vi": ["mời ngồi"],
-    "viAliases": ["xin mời ngồi", "mời anh ngồi"],
+    "viAliases": ["xin mời ngồi"],
     "en": ["please, have a seat"],
     "enSource": "cedict",
     "example": { "zh": "老师，请坐这里。", "vi": "Thưa thầy, mời thầy ngồi ở đây.", "en": "Teacher, please sit here." }
@@ -250,7 +250,7 @@
   {
     "id": "L1-0302",
     "vi": ["đi", "đi đến"],
-    "viAliases": ["tới", "đến"],
+    "viAliases": ["đi tới", "đi sang"],
     "en": ["to go", "to go to (a place)"],
     "enSource": "cedict",
     "example": { "zh": "我想去图书馆看书。", "vi": "Tôi muốn đến thư viện đọc sách.", "en": "I want to go to the library to read." }
@@ -274,16 +274,16 @@
   {
     "id": "L1-0305",
     "vi": ["người"],
-    "viAliases": ["con người", "nhân"],
+    "viAliases": ["con người"],
     "en": ["person; people"],
     "enSource": "cedict",
     "example": { "zh": "教室里有很多人。", "vi": "Trong phòng học có rất nhiều người.", "en": "There are many people in the classroom." }
   },
   {
     "id": "L1-0306",
-    "vi": ["quen biết", "biết", "nhận ra"],
+    "vi": ["quen biết", "biết", "nhận ra", "nhận thức"],
     "viAliases": ["làm quen", "nhận biết"],
-    "en": ["to know", "to recognize", "to be familiar with", "to get acquainted with sb"],
+    "en": ["to know", "to recognize", "to be familiar with", "to get acquainted with sb", "knowledge; understanding"],
     "enSource": "cedict",
     "example": { "zh": "很高兴认识你。", "vi": "Rất vui được làm quen với bạn.", "en": "Nice to meet you." }
   },
@@ -298,14 +298,14 @@
   {
     "id": "L1-0308",
     "vi": ["ngày", "mặt trời"],
-    "viAliases": ["nhật", "ban ngày"],
+    "viAliases": ["ban ngày"],
     "en": ["sun", "day", "day of the month"],
     "enSource": "cedict",
     "example": { "zh": "今天是九月一日。", "vi": "Hôm nay là ngày mùng một tháng chín.", "en": "Today is the first of September." }
   },
   {
     "id": "L1-0309",
-    "vi": ["ngày tháng", "ngày"],
+    "vi": ["ngày tháng"],
     "viAliases": ["ngày tháng năm"],
     "en": ["date"],
     "enSource": "cedict",
@@ -346,7 +346,7 @@
   {
     "id": "L1-0314",
     "vi": ["cửa hàng", "tiệm"],
-    "viAliases": ["cửa tiệm", "hiệu"],
+    "viAliases": ["cửa tiệm", "cửa hiệu"],
     "en": ["store; shop"],
     "enSource": "cedict",
     "example": { "zh": "这家商店九点关门。", "vi": "Cửa hàng này chín giờ đóng cửa.", "en": "This shop closes at nine o'clock." }

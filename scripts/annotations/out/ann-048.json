@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L3-0844",
+    "vi": ["huy chương bạc"],
+    "viAliases": ["huy chương hạng nhì"],
+    "en": ["silver medal"],
+    "enSource": "cedict",
+    "example": { "zh": "他得了一块银牌。", "vi": "Anh ấy đã giành được một tấm huy chương bạc.", "en": "He won a silver medal." }
+  },
+  {
+    "id": "L3-0845",
+    "vi": ["ấn tượng"],
+    "viAliases": ["cảm tưởng"],
+    "en": ["impression"],
+    "enSource": "cedict",
+    "example": { "zh": "他给我的印象很好。", "vi": "Anh ấy để lại cho tôi ấn tượng rất tốt.", "en": "He made a very good impression on me." }
+  },
+  {
+    "id": "L3-0846",
+    "vi": ["nên", "phải"],
+    "viAliases": ["cần phải"],
+    "en": ["should; ought to"],
+    "enSource": "cedict",
+    "example": { "zh": "我们应当帮助老人。", "vi": "Chúng ta nên giúp đỡ người già.", "en": "We ought to help the elderly." }
+  },
+  {
+    "id": "L3-0847",
+    "vi": ["đón", "nghênh đón"],
+    "viAliases": ["đón tiếp", "ra đón"],
+    "en": ["to welcome; to greet"],
+    "enSource": "cedict",
+    "example": { "zh": "我去机场迎接朋友。", "vi": "Tôi ra sân bay đón bạn.", "en": "I am going to the airport to meet my friend." }
+  },
+  {
+    "id": "L3-0848",
+    "vi": ["dinh dưỡng", "chất dinh dưỡng"],
+    "viAliases": ["dưỡng chất"],
+    "en": ["nutrition", "nourishment"],
+    "enSource": "cedict",
+    "example": { "zh": "这些水果很有营养。", "vi": "Những loại trái cây này rất giàu dinh dưỡng.", "en": "These fruits are very nutritious." }
+  },
+  {
+    "id": "L3-0849",
+    "vi": ["thắng", "giành thắng lợi"],
+    "viAliases": ["chiến thắng", "thắng cuộc"],
+    "en": ["to win", "to beat"],
+    "enSource": "cedict",
+    "example": { "zh": "我们班赢了这场比赛。", "vi": "Lớp chúng tôi đã thắng trận đấu này.", "en": "Our class won this match." }
+  },
+  {
+    "id": "L3-0850",
+    "vi": ["điện ảnh và truyền hình"],
+    "viAliases": ["phim ảnh và truyền hình"],
+    "en": ["movies and television"],
+    "enSource": "cedict",
+    "example": { "zh": "他喜欢看影视节目。", "vi": "Anh ấy thích xem các chương trình điện ảnh và truyền hình.", "en": "He likes watching film and TV programs." }
+  },
+  {
+    "id": "L3-0851",
+    "vi": ["ứng dụng", "áp dụng"],
+    "viAliases": ["vận dụng"],
+    "en": ["to put to use; to apply"],
+    "enSource": "cedict",
+    "example": { "zh": "这个方法可以应用在工作上。", "vi": "Phương pháp này có thể áp dụng vào công việc.", "en": "This method can be applied to work." }
+  },
+  {
+    "id": "L3-0852",
+    "vi": ["ưu điểm", "điểm mạnh"],
+    "viAliases": ["mặt tốt", "sở trường"],
+    "en": ["merit", "strong point", "advantage"],
+    "enSource": "cedict",
+    "example": { "zh": "每个人都有自己的优点。", "vi": "Mỗi người đều có ưu điểm của riêng mình.", "en": "Everyone has their own strong points." }
+  },
+  {
+    "id": "L3-0853",
+    "vi": ["ưu thế", "lợi thế"],
+    "viAliases": ["thế mạnh"],
+    "en": ["superiority", "dominance", "advantage"],
+    "enSource": "cedict",
+    "example": { "zh": "我们队的优势很明显。", "vi": "Ưu thế của đội chúng tôi rất rõ ràng.", "en": "Our team's advantage is very obvious." }
+  },
+  {
+    "id": "L3-0854",
+    "vi": ["do", "từ", "qua"],
+    "viAliases": ["bởi"],
+    "en": ["by; via; through", "from"],
+    "enSource": "cedict",
+    "example": { "zh": "这件事由我来做。", "vi": "Việc này do tôi làm.", "en": "This matter will be handled by me." }
+  },
+  {
+    "id": "L3-0855",
+    "vi": ["bởi vì", "vì"],
+    "viAliases": ["do", "tại vì", "vì rằng"],
+    "en": ["due to", "owing to", "because"],
+    "enSource": "cedict",
+    "example": { "zh": "由于下雨，我们没去公园。", "vi": "Do trời mưa nên chúng tôi đã không đi công viên.", "en": "Because of the rain, we did not go to the park." }
+  },
+  {
+    "id": "L3-0856",
+    "vi": ["thư từ", "thư điện tử"],
+    "viAliases": ["bưu phẩm", "email"],
+    "en": ["mail", "post", "email"],
+    "enSource": "cedict",
+    "example": { "zh": "我给老师发了一封邮件。", "vi": "Tôi đã gửi cho thầy giáo một bức thư điện tử.", "en": "I sent an email to the teacher." }
+  },
+  {
+    "id": "L3-0857",
+    "vi": ["tem thư"],
+    "viAliases": ["con tem", "tem bưu chính"],
+    "en": ["postage stamp"],
+    "enSource": "cedict",
+    "example": { "zh": "我买了几张漂亮的邮票。", "vi": "Tôi đã mua mấy con tem rất đẹp.", "en": "I bought several pretty stamps." }
+  },
+  {
+    "id": "L3-0858",
+    "vi": ["hộp thư", "hòm thư điện tử"],
+    "viAliases": ["thùng thư", "hòm thư"],
+    "en": ["mailbox", "email inbox"],
+    "enSource": "cedict",
+    "example": { "zh": "请把地址发到我的邮箱。", "vi": "Xin hãy gửi địa chỉ vào hộp thư của tôi.", "en": "Please send the address to my email inbox." }
+  },
+  {
+    "id": "L3-0859",
+    "vi": ["bơi"],
+    "viAliases": ["lội"],
+    "en": ["to swim"],
+    "enSource": "cedict",
+    "example": { "zh": "他在河里游了很久。", "vi": "Anh ấy đã bơi rất lâu ở dưới sông.", "en": "He swam in the river for a long time." }
+  },
+  {
+    "id": "L3-0860",
+    "vi": ["trò chơi"],
+    "viAliases": ["game"],
+    "en": ["game"],
+    "enSource": "cedict",
+    "example": { "zh": "弟弟很喜欢玩这个游戏。", "vi": "Em trai rất thích chơi trò chơi này.", "en": "My younger brother loves playing this game." }
+  },
+  {
+    "id": "L3-0861",
+    "vi": ["bơi lội"],
+    "viAliases": ["bơi", "môn bơi", "đi bơi"],
+    "en": ["to swim", "swimming"],
+    "enSource": "cedict",
+    "example": { "zh": "夏天我常常去游泳。", "vi": "Mùa hè tôi thường đi bơi.", "en": "In summer I often go swimming." }
+  },
+  {
+    "id": "L3-0862",
+    "vi": ["có thừa", "thiếu gì"],
+    "viAliases": ["có nhiều lắm", "không thiếu"],
+    "en": ["have plenty of", "there's no lack of"],
+    "enSource": "cedict",
+    "example": { "zh": "我们有的是时间，别着急。", "vi": "Chúng ta thừa thời gian mà, đừng vội.", "en": "We have plenty of time, do not worry." }
+  },
+  {
+    "id": "L3-0863",
+    "vi": ["có lợi"],
+    "viAliases": ["thuận lợi", "có ích"],
+    "en": ["advantageous; favorable"],
+    "enSource": "cedict",
+    "example": { "zh": "运动对身体很有利。", "vi": "Vận động rất có lợi cho sức khỏe.", "en": "Exercise is very good for the body." }
+  },
+  {
+    "id": "L3-0864",
+    "vi": ["có hiệu quả", "có hiệu lực"],
+    "viAliases": ["hữu hiệu", "còn giá trị"],
+    "en": ["effective", "valid", "in effect"],
+    "enSource": "cedict",
+    "example": { "zh": "这个办法很有效。", "vi": "Cách này rất hiệu quả.", "en": "This method is very effective." }
+  },
+  {
+    "id": "L3-0865",
+    "vi": ["dự báo"],
+    "viAliases": ["báo trước"],
+    "en": ["forecast"],
+    "enSource": "cedict",
+    "example": { "zh": "天气预报说明天下雨。", "vi": "Dự báo thời tiết nói ngày mai trời mưa.", "en": "The weather forecast says it will rain tomorrow." }
+  },
+  {
+    "id": "L3-0866",
+    "vi": ["phòng ngừa", "đề phòng"],
+    "viAliases": ["phòng tránh", "ngăn ngừa"],
+    "en": ["to prevent", "to guard against"],
+    "enSource": "cedict",
+    "example": { "zh": "多运动可以预防生病。", "vi": "Vận động nhiều có thể phòng ngừa bệnh tật.", "en": "Exercising a lot can prevent illness." }
+  },
+  {
+    "id": "L3-0867",
+    "vi": ["dự tính", "ước tính"],
+    "viAliases": ["dự kiến", "ước chừng"],
+    "en": ["to forecast", "to predict", "to estimate"],
+    "enSource": "cedict",
+    "example": { "zh": "我们预计明天到北京。", "vi": "Chúng tôi dự tính ngày mai đến Bắc Kinh.", "en": "We expect to arrive in Beijing tomorrow." }
+  },
+  {
+    "id": "L3-0868",
+    "vi": ["chuẩn bị bài trước", "xem bài trước"],
+    "viAliases": ["chuẩn bị bài mới"],
+    "en": ["to prepare a lesson"],
+    "enSource": "cedict",
+    "example": { "zh": "上课前我会预习课文。", "vi": "Trước giờ học tôi sẽ xem trước bài khóa.", "en": "Before class I preview the text." }
+  },
+  {
+    "id": "L3-0869",
+    "vi": ["viên (hậu tố chỉ người)", "thành viên"],
+    "viAliases": [],
+    "en": ["person engaged in a certain field of activity", "member"],
+    "enSource": "cedict",
+    "example": { "zh": "那个服务员很热情。", "vi": "Người phục vụ đó rất nhiệt tình.", "en": "That waiter is very warm and friendly." }
+  },
+  {
+    "id": "L3-0870",
+    "vi": ["nhân viên"],
+    "viAliases": ["công nhân viên", "người lao động"],
+    "en": ["staff; personnel; employee"],
+    "enSource": "cedict",
+    "example": { "zh": "这家公司有很多员工。", "vi": "Công ty này có rất nhiều nhân viên.", "en": "This company has a lot of employees." }
+  },
+  {
+    "id": "L3-0871",
+    "vi": ["nguyện vọng", "mong ước"],
+    "viAliases": ["ước nguyện", "ước mong"],
+    "en": ["desire", "wish"],
+    "enSource": "cedict",
+    "example": { "zh": "我的愿望是当医生。", "vi": "Nguyện vọng của tôi là làm bác sĩ.", "en": "My wish is to become a doctor." }
+  },
+  {
+    "id": "L3-0872",
+    "vi": ["hẹn", "mời"],
+    "viAliases": ["hẹn gặp", "rủ"],
+    "en": ["to make an appointment", "to invite"],
+    "enSource": "cedict",
+    "example": { "zh": "我约了朋友一起吃饭。", "vi": "Tôi đã hẹn bạn cùng đi ăn cơm.", "en": "I arranged to have a meal with a friend." }
+  },
+  {
+    "id": "L3-0873",
+    "vi": ["ban nhạc"],
+    "viAliases": ["dàn nhạc", "nhóm nhạc"],
+    "en": ["band", "pop group"],
+    "enSource": "cedict",
+    "example": { "zh": "他们的乐队很有名。", "vi": "Ban nhạc của họ rất nổi tiếng.", "en": "Their band is very famous." }
+  },
+  {
+    "id": "L3-0874",
+    "vi": ["vận chuyển", "vận tải"],
+    "viAliases": ["chuyên chở", "chở"],
+    "en": ["to transport", "to carry"],
+    "enSource": "cedict",
+    "example": { "zh": "这些水果用火车运输。", "vi": "Những loại trái cây này được vận chuyển bằng tàu hỏa.", "en": "These fruits are transported by train." }
+  },
+  {
+    "id": "L3-0875",
+    "vi": ["tạp chí"],
+    "viAliases": ["tập san"],
+    "en": ["magazine"],
+    "enSource": "cedict",
+    "example": { "zh": "我在书店买了一本杂志。", "vi": "Tôi đã mua một cuốn tạp chí ở hiệu sách.", "en": "I bought a magazine at the bookstore." }
+  },
+  {
+    "id": "L3-0876",
+    "vi": ["đã sớm", "từ lâu đã"],
+    "viAliases": ["sớm đã", "từ lâu"],
+    "en": ["for a long time; long since"],
+    "enSource": "cedict",
+    "example": { "zh": "他早已把这件事忘了。", "vi": "Anh ấy đã quên chuyện này từ lâu rồi.", "en": "He forgot about this long ago." }
+  },
+  {
+    "id": "L3-0877",
+    "vi": ["chế tạo", "xây", "làm"],
+    "viAliases": ["sản xuất", "dựng"],
+    "en": ["to make", "to build", "to manufacture"],
+    "enSource": "cedict",
+    "example": { "zh": "工人们正在造一座桥。", "vi": "Các công nhân đang xây một cây cầu.", "en": "The workers are building a bridge." }
+  },
+  {
+    "id": "L3-0878",
+    "vi": ["gây ra", "tạo thành"],
+    "viAliases": ["dẫn đến", "làm cho"],
+    "en": ["to bring about; to create; to cause"],
+    "enSource": "cedict",
+    "example": { "zh": "大雨造成了很多问题。", "vi": "Trận mưa lớn đã gây ra rất nhiều vấn đề.", "en": "The heavy rain caused a lot of problems." }
+  },
+  {
+    "id": "L3-0879",
+    "vi": ["trách nhiệm"],
+    "viAliases": ["bổn phận", "nghĩa vụ"],
+    "en": ["responsibility; duty; liability"],
+    "enSource": "cedict",
+    "example": { "zh": "照顾孩子是父母的责任。", "vi": "Chăm sóc con cái là trách nhiệm của cha mẹ.", "en": "Taking care of children is the duty of parents." }
+  },
+  {
+    "id": "L3-0880",
+    "vi": ["tăng", "tăng thêm"],
+    "viAliases": ["thêm vào", "bổ sung"],
+    "en": ["to raise; to increase"],
+    "enSource": "cedict",
+    "example": { "zh": "学校增加了新的课程。", "vi": "Nhà trường đã tăng thêm môn học mới.", "en": "The school has added new courses." }
+  },
+  {
+    "id": "L3-0881",
+    "vi": ["tăng trưởng", "tăng lên"],
+    "viAliases": ["gia tăng"],
+    "en": ["to grow; to increase"],
+    "enSource": "cedict",
+    "example": { "zh": "这几年城市人口增长很快。", "vi": "Mấy năm nay dân số thành phố tăng rất nhanh.", "en": "In recent years the city population has grown quickly." }
+  },
+  {
+    "id": "L3-0882",
+    "vi": ["mở ra", "triển khai"],
+    "viAliases": ["giở ra", "trải ra"],
+    "en": ["to unfold; to spread out; to open up", "to launch; to carry out"],
+    "enSource": "cedict",
+    "example": { "zh": "他把地图展开放在桌上。", "vi": "Anh ấy mở tấm bản đồ ra rồi đặt lên bàn.", "en": "He spread the map out and put it on the table." }
+  },
+  {
+    "id": "L3-0883",
+    "vi": ["tờ", "tấm", "mở"],
+    "viAliases": ["giương", "căng ra"],
+    "en": ["classifier for flat objects, sheet", "to open up"],
+    "enSource": "cedict",
+    "example": { "zh": "桌子上有三张照片。", "vi": "Trên bàn có ba tấm ảnh.", "en": "There are three photos on the table." }
+  },
+  {
+    "id": "L3-0884",
+    "vi": ["chụp", "chiếu", "theo"],
+    "viAliases": ["rọi", "soi"],
+    "en": ["to take (a photo)", "to shine", "according to"],
+    "enSource": "cedict",
+    "example": { "zh": "我们在公园照了很多照片。", "vi": "Chúng tôi đã chụp rất nhiều ảnh ở công viên.", "en": "We took a lot of photos in the park." }
+  },
+  {
+    "id": "L3-0885",
+    "vi": ["người (làm việc gì đó)", "giả"],
+    "viAliases": [],
+    "en": ["one who (is) ...", "-er", "-ist"],
+    "enSource": "cedict",
+    "example": { "zh": "他是一名志愿者。", "vi": "Anh ấy là một tình nguyện viên.", "en": "He is a volunteer." }
+  },
+  {
+    "id": "L3-0886",
+    "vi": ["chân thực", "có thật"],
+    "viAliases": ["thật", "chân thật"],
+    "en": ["true; real"],
+    "enSource": "cedict",
+    "example": { "zh": "这个故事是真实的。", "vi": "Câu chuyện này là có thật.", "en": "This story is true." }
+  },
+  {
+    "id": "L3-0887",
+    "vi": ["tranh", "giành", "tranh cãi"],
+    "viAliases": ["tranh giành", "tranh luận"],
+    "en": ["to strive for", "to vie for", "to argue or debate"],
+    "enSource": "cedict",
+    "example": { "zh": "大家都在争第一名。", "vi": "Mọi người đều đang tranh vị trí thứ nhất.", "en": "Everyone is competing for first place." }
+  },
+  {
+    "id": "L3-0888",
+    "vi": ["giành lấy", "phấn đấu giành"],
+    "viAliases": ["tranh thủ", "cố giành"],
+    "en": ["to fight for", "to strive for", "to win over"],
+    "enSource": "cedict",
+    "example": { "zh": "我要争取考上大学。", "vi": "Tôi phải phấn đấu để thi đỗ đại học.", "en": "I want to strive to get into university." }
+  }
+]

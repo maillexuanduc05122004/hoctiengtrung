@@ -33,8 +33,8 @@
   },
   {
     "id": "L1-0005",
-    "vi": ["trợ từ ngữ khí chỉ đề nghị hoặc phỏng đoán"],
-    "viAliases": ["nhé", "đi", "chứ"],
+    "vi": ["nhé", "đi", "thôi"],
+    "viAliases": ["chứ", "nhá"],
     "en": ["(modal particle indicating suggestion or surmise)", "...right?", "...OK?"],
     "enSource": "cedict",
     "example": { "zh": "我们一起去吧。", "vi": "Chúng ta cùng đi nhé.", "en": "Let us go together." }
@@ -50,7 +50,7 @@
   {
     "id": "L1-0007",
     "vi": ["ban ngày"],
-    "viAliases": ["lúc ban ngày", "ban ngày ban mặt"],
+    "viAliases": ["lúc ban ngày", "ngày"],
     "en": ["daytime", "during the day", "day"],
     "enSource": "cedict",
     "example": { "zh": "白天我在学校学习。", "vi": "Ban ngày tôi học ở trường.", "en": "During the day I study at school." }
@@ -202,7 +202,7 @@
   {
     "id": "L1-0026",
     "vi": ["cái khác", "khác"],
-    "viAliases": ["thứ khác", "cái nào khác"],
+    "viAliases": ["thứ khác"],
     "en": ["else", "other"],
     "enSource": "cedict",
     "example": { "zh": "我想看别的电影。", "vi": "Tôi muốn xem bộ phim khác.", "en": "I want to watch a different movie." }
@@ -258,7 +258,7 @@
   {
     "id": "L1-0033",
     "vi": ["không cần", "khỏi cần"],
-    "viAliases": ["chẳng cần", "không cần thiết"],
+    "viAliases": ["chẳng cần", "khỏi phải"],
     "en": ["need not"],
     "enSource": "cedict",
     "example": { "zh": "你不用等我了。", "vi": "Bạn không cần đợi tôi nữa.", "en": "You do not need to wait for me anymore." }

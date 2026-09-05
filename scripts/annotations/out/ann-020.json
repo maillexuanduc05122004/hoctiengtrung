@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L2-0356",
+    "vi": ["lạng (đơn vị trọng lượng 50 gam)"],
+    "viAliases": ["lượng"],
+    "en": ["tael, unit of weight equal to 50 grams (modern)"],
+    "enSource": "cedict",
+    "example": { "zh": "这些米有五两重。", "vi": "Chỗ gạo này nặng năm lạng.", "en": "This rice weighs five taels." }
+  },
+  {
+    "id": "L2-0357",
+    "vi": ["sáng", "tỏa sáng"],
+    "viAliases": ["sáng sủa", "phát sáng"],
+    "en": ["bright; light", "to shine; to flash"],
+    "enSource": "cedict",
+    "example": { "zh": "今天的月亮很亮。", "vi": "Mặt trăng hôm nay rất sáng.", "en": "The moon is very bright tonight." }
+  },
+  {
+    "id": "L2-0358",
+    "vi": ["chiếc (lượng từ chỉ xe cộ)"],
+    "viAliases": ["cỗ"],
+    "en": ["classifier for vehicles"],
+    "enSource": "cedict",
+    "example": { "zh": "他买了一辆新车。", "vi": "Anh ấy mua một chiếc xe mới.", "en": "He bought a new car." }
+  },
+  {
+    "id": "L2-0359",
+    "vi": ["dưới không độ", "âm độ"],
+    "viAliases": ["dưới 0 độ"],
+    "en": ["below zero (esp. temperature)"],
+    "enSource": "cedict",
+    "example": { "zh": "今天外面零下三度。", "vi": "Hôm nay bên ngoài âm ba độ.", "en": "It is three degrees below zero outside today." }
+  },
+  {
+    "id": "L2-0360",
+    "vi": ["để lại", "giữ lại", "ở lại"],
+    "viAliases": ["lưu lại"],
+    "en": ["to leave (a message etc)", "to keep", "to stay"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈给我留了饭。", "vi": "Mẹ để phần cơm lại cho tôi.", "en": "Mom left some food for me." }
+  },
+  {
+    "id": "L2-0361",
+    "vi": ["để lại", "ở lại"],
+    "viAliases": ["lưu lại", "giữ lại"],
+    "en": ["to leave behind", "to stay behind", "to keep"],
+    "enSource": "cedict",
+    "example": { "zh": "他留下了自己的电话号码。", "vi": "Anh ấy để lại số điện thoại của mình.", "en": "He left his own phone number." }
+  },
+  {
+    "id": "L2-0362",
+    "vi": ["du học sinh"],
+    "viAliases": ["lưu học sinh", "sinh viên du học"],
+    "en": ["student studying abroad", "foreign student", "international student"],
+    "enSource": "cedict",
+    "example": { "zh": "我们学校有很多留学生。", "vi": "Trường chúng tôi có rất nhiều du học sinh.", "en": "Our school has many international students." }
+  },
+  {
+    "id": "L2-0363",
+    "vi": ["chảy"],
+    "viAliases": ["tuôn"],
+    "en": ["to flow"],
+    "enSource": "cedict",
+    "example": { "zh": "他的眼泪流下来了。", "vi": "Nước mắt anh ấy chảy xuống.", "en": "His tears flowed down." }
+  },
+  {
+    "id": "L2-0364",
+    "vi": ["lưu loát", "trôi chảy"],
+    "viAliases": ["thành thạo"],
+    "en": ["fluent"],
+    "enSource": "cedict",
+    "example": { "zh": "他的中文说得很流利。", "vi": "Anh ấy nói tiếng Trung rất lưu loát.", "en": "He speaks Chinese very fluently." }
+  },
+  {
+    "id": "L2-0365",
+    "vi": ["thịnh hành", "phổ biến", "lan truyền"],
+    "viAliases": ["thời thượng", "được ưa chuộng"],
+    "en": ["popular; fashionable", "to spread; to propagate"],
+    "enSource": "cedict",
+    "example": { "zh": "这首歌今年很流行。", "vi": "Bài hát này năm nay rất thịnh hành.", "en": "This song is very popular this year." }
+  },
+  {
+    "id": "L2-0366",
+    "vi": ["lề đường", "bên đường"],
+    "viAliases": ["ven đường", "vệ đường"],
+    "en": ["roadside", "wayside", "curb"],
+    "enSource": "cedict",
+    "example": { "zh": "路边有很多小商店。", "vi": "Bên đường có rất nhiều cửa hàng nhỏ.", "en": "There are many small shops along the roadside." }
+  },
+  {
+    "id": "L2-0367",
+    "vi": ["hành khách", "khách du lịch"],
+    "viAliases": ["lữ khách", "du khách"],
+    "en": ["traveler", "tourist"],
+    "enSource": "cedict",
+    "example": { "zh": "车站里有很多旅客。", "vi": "Trong nhà ga có rất nhiều hành khách.", "en": "There are many travelers in the station." }
+  },
+  {
+    "id": "L2-0368",
+    "vi": ["du lịch", "lữ hành"],
+    "viAliases": ["đi du lịch"],
+    "en": ["to travel", "journey; trip"],
+    "enSource": "cedict",
+    "example": { "zh": "我想坐火车去旅行。", "vi": "Tôi muốn đi du lịch bằng tàu hỏa.", "en": "I want to travel by train." }
+  },
+  {
+    "id": "L2-0369",
+    "vi": ["du lịch", "tham quan"],
+    "viAliases": ["đi du lịch", "du ngoạn"],
+    "en": ["to travel", "tour", "tourism"],
+    "enSource": "cedict",
+    "example": { "zh": "暑假我们去北京旅游。", "vi": "Nghỉ hè chúng tôi đi du lịch Bắc Kinh.", "en": "We are traveling to Beijing during the summer holiday." }
+  },
+  {
+    "id": "L2-0370",
+    "vi": ["xanh lá", "xanh lục"],
+    "viAliases": ["xanh lá cây"],
+    "en": ["green"],
+    "enSource": "cedict",
+    "example": { "zh": "山上的树很绿。", "vi": "Cây trên núi rất xanh.", "en": "The trees on the mountain are very green." }
+  },
+  {
+    "id": "L2-0371",
+    "vi": ["màu xanh lá"],
+    "viAliases": ["màu xanh lục", "màu lục", "màu xanh lá cây"],
+    "en": ["green"],
+    "enSource": "cedict",
+    "example": { "zh": "我最喜欢绿色。", "vi": "Tôi thích màu xanh lá nhất.", "en": "I like green the most." }
+  },
+  {
+    "id": "L2-0372",
+    "vi": ["bán"],
+    "viAliases": ["bán ra"],
+    "en": ["to sell"],
+    "enSource": "cedict",
+    "example": { "zh": "这家商店卖水果。", "vi": "Cửa hàng này bán trái cây.", "en": "This shop sells fruit." }
+  },
+  {
+    "id": "L2-0373",
+    "vi": ["đầy"],
+    "viAliases": ["đầy ắp", "tràn đầy"],
+    "en": ["full", "filled", "packed"],
+    "enSource": "cedict",
+    "example": { "zh": "杯子里的水满了。", "vi": "Nước trong cốc đã đầy.", "en": "The cup is full of water." }
+  },
+  {
+    "id": "L2-0374",
+    "vi": ["hài lòng", "vừa ý"],
+    "viAliases": ["ưng ý", "thỏa mãn"],
+    "en": ["satisfied", "pleased", "to one's satisfaction"],
+    "enSource": "cedict",
+    "example": { "zh": "老师对我的作业很满意。", "vi": "Cô giáo rất hài lòng với bài tập của tôi.", "en": "The teacher is very satisfied with my homework." }
+  },
+  {
+    "id": "L2-0375",
+    "vi": ["mèo"],
+    "viAliases": ["con mèo"],
+    "en": ["cat"],
+    "enSource": "cedict",
+    "example": { "zh": "我家的猫很可爱。", "vi": "Con mèo nhà tôi rất dễ thương.", "en": "My cat is very cute." }
+  },
+  {
+    "id": "L2-0376",
+    "vi": ["mét"],
+    "viAliases": ["m"],
+    "en": ["meter (unit of length)"],
+    "enSource": "cedict",
+    "example": { "zh": "这条路有一百米长。", "vi": "Con đường này dài một trăm mét.", "en": "This road is one hundred meters long." }
+  },
+  {
+    "id": "L2-0377",
+    "vi": ["mặt", "phía", "bề mặt"],
+    "viAliases": ["mặt phẳng", "bên"],
+    "en": ["face", "side", "surface", "classifier for objects with flat surfaces such as drums, mirrors, flags etc"],
+    "enSource": "cedict",
+    "example": { "zh": "学校前面有一个公园。", "vi": "Phía trước trường học có một công viên.", "en": "There is a park in front of the school." }
+  },
+  {
+    "id": "L2-0378",
+    "vi": ["mì", "bột mì"],
+    "viAliases": ["mỳ", "sợi mì"],
+    "en": ["noodles", "flour"],
+    "enSource": "cedict",
+    "example": { "zh": "我中午吃了一碗面。", "vi": "Buổi trưa tôi ăn một bát mì.", "en": "I ate a bowl of noodles at noon." }
+  },
+  {
+    "id": "L2-0379",
+    "vi": ["trước mặt", "phía trước"],
+    "viAliases": ["trước mắt", "đằng trước"],
+    "en": ["in front of", "facing"],
+    "enSource": "cedict",
+    "example": { "zh": "他站在我面前笑了。", "vi": "Anh ấy đứng trước mặt tôi và cười.", "en": "He stood in front of me and smiled." }
+  },
+  {
+    "id": "L2-0380",
+    "vi": ["tên", "thứ hạng", "người (lượng từ chỉ người)"],
+    "viAliases": ["danh", "vị"],
+    "en": ["name", "place (e.g. among winners)", "classifier for people"],
+    "enSource": "cedict",
+    "example": { "zh": "我们班有三十名学生。", "vi": "Lớp chúng tôi có ba mươi học sinh.", "en": "Our class has thirty students." }
+  },
+  {
+    "id": "L2-0381",
+    "vi": ["tên gọi", "danh xưng"],
+    "viAliases": ["tên"],
+    "en": ["name (of a thing)", "name (of an organization)"],
+    "enSource": "cedict",
+    "example": { "zh": "这本书的名称很有意思。", "vi": "Tên của quyển sách này rất thú vị.", "en": "The name of this book is very interesting." }
+  },
+  {
+    "id": "L2-0382",
+    "vi": ["danh sách"],
+    "viAliases": ["bản danh sách", "danh sách tên"],
+    "en": ["list of names"],
+    "enSource": "cedict",
+    "example": { "zh": "我的名字在名单上。", "vi": "Tên tôi ở trên danh sách.", "en": "My name is on the list." }
+  },
+  {
+    "id": "L2-0383",
+    "vi": ["ngôi sao", "minh tinh"],
+    "viAliases": ["sao", "người nổi tiếng"],
+    "en": ["star", "celebrity"],
+    "enSource": "cedict",
+    "example": { "zh": "她是一位有名的明星。", "vi": "Cô ấy là một ngôi sao nổi tiếng.", "en": "She is a famous star." }
+  },
+  {
+    "id": "L2-0384",
+    "vi": ["mục đích", "mục tiêu"],
+    "viAliases": ["đích"],
+    "en": ["purpose; aim; goal; target; objective"],
+    "enSource": "cedict",
+    "example": { "zh": "学习汉语的目的是什么？", "vi": "Mục đích học tiếng Trung là gì?", "en": "What is the purpose of studying Chinese?" }
+  },
+  {
+    "id": "L2-0385",
+    "vi": ["lấy ra", "đưa ra"],
+    "viAliases": ["rút ra", "móc ra"],
+    "en": ["to take out", "to put out", "to provide"],
+    "enSource": "cedict",
+    "example": { "zh": "他从包里拿出一本书。", "vi": "Anh ấy lấy một quyển sách ra từ trong túi.", "en": "He took a book out of his bag." }
+  },
+  {
+    "id": "L2-0386",
+    "vi": ["lấy được", "nhận được"],
+    "viAliases": ["giành được", "đạt được"],
+    "en": ["to get", "to obtain"],
+    "enSource": "cedict",
+    "example": { "zh": "我今天拿到了新手机。", "vi": "Hôm nay tôi đã nhận được điện thoại mới.", "en": "I got my new phone today." }
+  },
+  {
+    "id": "L2-0387",
+    "vi": ["vậy thì", "thế thì"],
+    "viAliases": ["nếu vậy", "vậy"],
+    "en": ["then (in that case)"],
+    "enSource": "cedict",
+    "example": { "zh": "你累了，那就休息吧。", "vi": "Bạn mệt rồi, vậy thì nghỉ một chút đi.", "en": "You are tired, then take a rest." }
+  },
+  {
+    "id": "L2-0388",
+    "vi": ["lúc đó", "khi đó"],
+    "viAliases": ["hồi đó", "dạo đó"],
+    "en": ["at that time (in the past or the future)"],
+    "enSource": "cedict",
+    "example": { "zh": "那会儿我还是个孩子。", "vi": "Lúc đó tôi vẫn còn là một đứa trẻ.", "en": "At that time I was still a child." }
+  },
+  {
+    "id": "L2-0389",
+    "vi": ["như thế", "đến thế"],
+    "viAliases": ["như vậy", "đến vậy"],
+    "en": ["like that; in that way; to that extent"],
+    "enSource": "cedict",
+    "example": { "zh": "今天没有昨天那么冷。", "vi": "Hôm nay không lạnh như hôm qua.", "en": "Today is not as cold as yesterday." }
+  },
+  {
+    "id": "L2-0390",
+    "vi": ["lúc đó", "khi ấy"],
+    "viAliases": ["hồi ấy", "thời gian đó"],
+    "en": ["at that time", "then", "in those days"],
+    "enSource": "cedict",
+    "example": { "zh": "那时候我们还不认识。", "vi": "Lúc đó chúng tôi còn chưa quen nhau.", "en": "At that time we did not know each other yet." }
+  },
+  {
+    "id": "L2-0391",
+    "vi": ["như vậy", "kiểu đó"],
+    "viAliases": ["như thế", "loại đó"],
+    "en": ["that kind", "that sort"],
+    "enSource": "cedict",
+    "example": { "zh": "我不想像他那样做。", "vi": "Tôi không muốn làm như anh ấy vậy.", "en": "I do not want to do it the way he does." }
+  },
+  {
+    "id": "L2-0392",
+    "vi": ["phương Nam", "miền Nam"],
+    "viAliases": ["phía Nam", "hướng nam"],
+    "en": ["south; southern direction"],
+    "enSource": "cedict",
+    "example": { "zh": "南方的冬天不太冷。", "vi": "Mùa đông ở miền Nam không lạnh lắm.", "en": "Winters in the south are not very cold." }
+  },
+  {
+    "id": "L2-0393",
+    "vi": ["buồn", "đau lòng"],
+    "viAliases": ["buồn bã", "khó chịu trong người"],
+    "en": ["to feel sad", "to feel unwell"],
+    "enSource": "cedict",
+    "example": { "zh": "听到这个消息我很难过。", "vi": "Nghe tin này tôi rất buồn.", "en": "I felt very sad when I heard this news." }
+  },
+  {
+    "id": "L2-0394",
+    "vi": ["xấu", "khó coi"],
+    "viAliases": ["xấu xí", "chướng mắt"],
+    "en": ["ugly", "unsightly"],
+    "enSource": "cedict",
+    "example": { "zh": "这件衣服的颜色很难看。", "vi": "Màu của bộ quần áo này rất xấu.", "en": "The color of this piece of clothing is very ugly." }
+  },
+  {
+    "id": "L2-0395",
+    "vi": ["khó chịu", "mệt trong người"],
+    "viAliases": ["không thoải mái", "khổ sở"],
+    "en": ["to feel unwell", "to suffer pain", "to be difficult to bear"],
+    "enSource": "cedict",
+    "example": { "zh": "我今天身体很难受。", "vi": "Hôm nay người tôi rất khó chịu.", "en": "I feel very unwell today." }
+  },
+  {
+    "id": "L2-0396",
+    "vi": ["bài khó", "vấn đề khó"],
+    "viAliases": ["câu hỏi khó", "bài toán khó"],
+    "en": ["difficult problem"],
+    "enSource": "cedict",
+    "example": { "zh": "这个难题我做不出来。", "vi": "Bài khó này tôi không làm ra được.", "en": "I cannot solve this difficult problem." }
+  },
+  {
+    "id": "L2-0397",
+    "vi": ["khó nghe", "chói tai"],
+    "viAliases": ["chướng tai", "thô tục"],
+    "en": ["unpleasant to hear", "coarse", "vulgar"],
+    "enSource": "cedict",
+    "example": { "zh": "他唱的歌真难听。", "vi": "Bài hát anh ấy hát thật khó nghe.", "en": "The song he sings is really unpleasant to hear." }
+  },
+  {
+    "id": "L2-0398",
+    "vi": ["có thể", "có khả năng"],
+    "viAliases": ["đủ sức"],
+    "en": ["to be able to", "to be capable of", "can"],
+    "enSource": "cedict",
+    "example": { "zh": "我能够自己完成这件事。", "vi": "Tôi có thể tự mình hoàn thành việc này.", "en": "I am able to finish this by myself." }
+  },
+  {
+    "id": "L2-0399",
+    "vi": ["khối lớp", "lớp"],
+    "viAliases": ["năm học"],
+    "en": ["grade", "year (in school, college etc)"],
+    "enSource": "cedict",
+    "example": { "zh": "我弟弟上三年级。", "vi": "Em trai tôi học lớp ba.", "en": "My younger brother is in the third grade." }
+  },
+  {
+    "id": "L2-0400",
+    "vi": ["trẻ", "trẻ tuổi"],
+    "viAliases": ["trẻ trung", "ít tuổi"],
+    "en": ["young"],
+    "enSource": "cedict",
+    "example": { "zh": "我妈妈看起来很年轻。", "vi": "Mẹ tôi trông rất trẻ.", "en": "My mother looks very young." }
+  }
+]

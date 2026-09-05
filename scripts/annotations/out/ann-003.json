@@ -34,7 +34,7 @@
   {
     "id": "L1-0095",
     "vi": ["bao nhiêu", "mấy"],
-    "viAliases": ["bấy nhiêu"],
+    "viAliases": [],
     "en": ["how much?; how many?"],
     "enSource": "cedict",
     "example": { "zh": "这本书多少钱？", "vi": "Quyển sách này bao nhiêu tiền?", "en": "How much is this book?" }
@@ -114,7 +114,7 @@
   {
     "id": "L1-0105",
     "vi": ["tan học", "tan trường"],
-    "viAliases": ["được về sau giờ học"],
+    "viAliases": [],
     "en": ["to dismiss students at the end of the school day"],
     "enSource": "cedict",
     "example": { "zh": "我们下午五点放学。", "vi": "Chúng tôi tan học lúc năm giờ chiều.", "en": "We finish school at five in the afternoon." }
@@ -138,8 +138,8 @@
   {
     "id": "L1-0108",
     "vi": ["rất", "vô cùng", "cực kỳ"],
-    "viAliases": ["hết sức", "phi thường"],
-    "en": ["very; really", "unusual; extraordinary"],
+    "viAliases": ["hết sức"],
+    "en": ["very; really"],
     "enSource": "cedict",
     "example": { "zh": "这里的菜非常好吃。", "vi": "Món ăn ở đây rất ngon.", "en": "The food here is very delicious." }
   },
@@ -193,9 +193,9 @@
   },
   {
     "id": "L1-0115",
-    "vi": ["cao", "to"],
-    "viAliases": ["lớn tiếng"],
-    "en": ["high", "tall", "loud"],
+    "vi": ["cao"],
+    "viAliases": ["cao lớn"],
+    "en": ["high", "tall"],
     "enSource": "cedict",
     "example": { "zh": "他比我高一点。", "vi": "Anh ấy cao hơn tôi một chút.", "en": "He is a little taller than me." }
   },
@@ -209,7 +209,7 @@
   },
   {
     "id": "L1-0117",
-    "vi": ["nói cho biết", "bảo", "kể"],
+    "vi": ["nói cho biết", "bảo"],
     "viAliases": ["cho biết", "báo cho biết"],
     "en": ["to tell; to inform; to let know"],
     "enSource": "cedict",
@@ -234,14 +234,14 @@
   {
     "id": "L1-0120",
     "vi": ["cái", "chiếc"],
-    "viAliases": ["lượng từ chung"],
+    "viAliases": [],
     "en": ["(classifier used before a noun that has no specific classifier)"],
     "enSource": "cedict",
     "example": { "zh": "我有三个苹果。", "vi": "Tôi có ba quả táo.", "en": "I have three apples." }
   },
   {
     "id": "L1-0121",
-    "vi": ["cho", "đưa cho", "tặng"],
+    "vi": ["cho", "đưa cho"],
     "viAliases": ["đưa", "trao"],
     "en": ["to give", "for", "to"],
     "enSource": "cedict",

@@ -1,0 +1,542 @@
+[
+  {
+    "id": "L2-0581",
+    "vi": ["tây bắc", "phía tây bắc"],
+    "viAliases": ["hướng tây bắc"],
+    "en": ["northwest"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我家在城市的西北。",
+      "vi": "Nhà tôi ở phía tây bắc thành phố.",
+      "en": "My home is in the northwest of the city."
+    }
+  },
+  {
+    "id": "L2-0582",
+    "vi": ["món ăn phương Tây", "đồ ăn Tây"],
+    "viAliases": ["món Âu", "đồ Âu", "cơm Tây"],
+    "en": ["Western-style food"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "今天晚上我们去吃西餐吧。",
+      "vi": "Tối nay chúng ta đi ăn món Tây nhé.",
+      "en": "Let us go eat Western food tonight."
+    }
+  },
+  {
+    "id": "L2-0583",
+    "vi": ["phương Tây"],
+    "viAliases": ["các nước phương Tây"],
+    "en": ["the West", "the Occident", "Western countries"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我很喜欢西方的音乐。",
+      "vi": "Tôi rất thích âm nhạc phương Tây.",
+      "en": "I really like Western music."
+    }
+  },
+  {
+    "id": "L2-0584",
+    "vi": ["tây nam", "phía tây nam"],
+    "viAliases": ["hướng tây nam"],
+    "en": ["southwest"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "学校在我家的西南边。",
+      "vi": "Trường học ở phía tây nam nhà tôi.",
+      "en": "The school is to the southwest of my home."
+    }
+  },
+  {
+    "id": "L2-0585",
+    "vi": ["tây y", "bác sĩ tây y"],
+    "viAliases": ["y học phương Tây"],
+    "en": ["Western medicine", "a doctor trained in Western medicine"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "妈妈生病了，她更相信西医。",
+      "vi": "Mẹ bị ốm, mẹ tin vào tây y hơn.",
+      "en": "My mom is sick, and she trusts Western medicine more."
+    }
+  },
+  {
+    "id": "L2-0586",
+    "vi": ["thói quen", "quen với"],
+    "viAliases": ["tập quán", "quen thuộc với"],
+    "en": ["habit", "custom", "usual practice", "to be used to"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我已经习惯了这里的生活。",
+      "vi": "Tôi đã quen với cuộc sống ở đây rồi.",
+      "en": "I have already gotten used to life here."
+    }
+  },
+  {
+    "id": "L2-0587",
+    "vi": ["máy giặt"],
+    "viAliases": ["cái máy giặt"],
+    "en": ["washing machine", "washer"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我家的洗衣机坏了。",
+      "vi": "Máy giặt nhà tôi hỏng rồi.",
+      "en": "The washing machine at my house is broken."
+    }
+  },
+  {
+    "id": "L2-0588",
+    "vi": ["tắm"],
+    "viAliases": ["tắm rửa", "đi tắm", "tắm gội"],
+    "en": ["to bathe", "to take a shower"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我每天晚上都洗澡。",
+      "vi": "Tối nào tôi cũng tắm.",
+      "en": "I take a shower every evening."
+    }
+  },
+  {
+    "id": "L2-0589",
+    "vi": ["lần", "cái"],
+    "viAliases": ["nhát", "phát", "chút"],
+    "en": ["measure word to show the frequency of an action"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "你等一下，我马上就来。",
+      "vi": "Bạn đợi một chút, tôi đến ngay đây.",
+      "en": "Wait a moment, I will come right away."
+    }
+  },
+  {
+    "id": "L2-0590",
+    "vi": ["tuyết rơi", "có tuyết"],
+    "viAliases": ["đổ tuyết", "trời đổ tuyết"],
+    "en": ["to snow"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "冬天这里常常下雪。",
+      "vi": "Mùa đông ở đây thường có tuyết rơi.",
+      "en": "It often snows here in winter."
+    }
+  },
+  {
+    "id": "L2-0591",
+    "vi": ["tuần sau", "tuần tới"],
+    "viAliases": ["tuần kế tiếp"],
+    "en": ["next week"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "下周我要去北京出差。",
+      "vi": "Tuần sau tôi phải đi Bắc Kinh công tác.",
+      "en": "Next week I have to go to Beijing on a business trip."
+    }
+  },
+  {
+    "id": "L2-0592",
+    "vi": ["mùa hè"],
+    "viAliases": ["mùa hạ", "hè"],
+    "en": ["summer"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "夏天的天气非常热。",
+      "vi": "Thời tiết mùa hè rất nóng.",
+      "en": "The weather in summer is extremely hot."
+    }
+  },
+  {
+    "id": "L2-0593",
+    "vi": ["giống nhau", "như nhau"],
+    "viAliases": ["tương đồng", "giống hệt nhau"],
+    "en": ["identical", "same"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他们两个人的名字相同。",
+      "vi": "Tên của hai người họ giống nhau.",
+      "en": "The names of those two people are the same."
+    }
+  },
+  {
+    "id": "L2-0594",
+    "vi": ["tin", "tin tưởng"],
+    "viAliases": ["tin cậy", "tin vào"],
+    "en": ["to believe", "to be convinced", "to accept as true"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我相信你一定能做好。",
+      "vi": "Tôi tin bạn nhất định làm tốt được.",
+      "en": "I believe you can definitely do it well."
+    }
+  },
+  {
+    "id": "L2-0595",
+    "vi": ["vang", "to"],
+    "viAliases": ["vang dội", "kêu to", "inh tai"],
+    "en": ["loud"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "外面的声音很响。",
+      "vi": "Tiếng động bên ngoài rất to.",
+      "en": "The noise outside is very loud."
+    }
+  },
+  {
+    "id": "L2-0596",
+    "vi": ["nghĩ đến", "nghĩ ra"],
+    "viAliases": ["nghĩ tới", "ngờ tới"],
+    "en": ["to think of", "to call to mind", "to anticipate"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我没想到他今天会来。",
+      "vi": "Tôi không ngờ hôm nay anh ấy lại đến.",
+      "en": "I did not expect that he would come today."
+    }
+  },
+  {
+    "id": "L2-0597",
+    "vi": ["cách nghĩ", "ý kiến", "suy nghĩ"],
+    "viAliases": ["quan điểm", "ý tưởng"],
+    "en": ["way of thinking", "opinion", "notion"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "你的这个想法很好。",
+      "vi": "Ý tưởng này của bạn rất hay.",
+      "en": "This idea of yours is very good."
+    }
+  },
+  {
+    "id": "L2-0598",
+    "vi": ["nhớ ra", "nhớ lại"],
+    "viAliases": ["chợt nhớ", "sực nhớ"],
+    "en": ["to recall", "to think of", "to call to mind"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "看到这张照片我想起了他。",
+      "vi": "Nhìn thấy tấm ảnh này tôi lại nhớ đến anh ấy.",
+      "en": "Seeing this photo, I thought of him."
+    }
+  },
+  {
+    "id": "L2-0599",
+    "vi": ["về phía", "hướng về"],
+    "viAliases": ["quay về phía", "hướng tới"],
+    "en": ["towards", "to face", "to turn towards"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他向我走过来了。",
+      "vi": "Anh ấy đi về phía tôi.",
+      "en": "He walked over towards me."
+    }
+  },
+  {
+    "id": "L2-0600",
+    "vi": ["máy ảnh"],
+    "viAliases": ["máy chụp ảnh", "máy chụp hình"],
+    "en": ["camera"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这个相机是我新买的。",
+      "vi": "Cái máy ảnh này là tôi mới mua.",
+      "en": "This camera is one I just bought."
+    }
+  },
+  {
+    "id": "L2-0601",
+    "vi": ["giống", "giống như"],
+    "viAliases": ["trông giống", "tựa như"],
+    "en": ["to resemble", "to be like", "to look as if"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他长得很像他爸爸。",
+      "vi": "Cậu ấy trông rất giống bố cậu ấy.",
+      "en": "He looks a lot like his father."
+    }
+  },
+  {
+    "id": "L2-0602",
+    "vi": ["tiểu"],
+    "viAliases": ["tiểu (đặt trước họ để gọi thân mật)"],
+    "en": ["young"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "小王是我的好朋友。",
+      "vi": "Tiểu Vương là bạn tốt của tôi.",
+      "en": "Xiao Wang is my good friend."
+    }
+  },
+  {
+    "id": "L2-0603",
+    "vi": ["nói nhỏ", "khẽ", "nhỏ tiếng"],
+    "viAliases": ["hạ giọng", "thì thầm"],
+    "en": ["in a low voice", "in whispers"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "请大家小声说话。",
+      "vi": "Xin mọi người nói nhỏ một chút.",
+      "en": "Please everyone speak in a low voice."
+    }
+  },
+  {
+    "id": "L2-0604",
+    "vi": ["hồi nhỏ", "lúc còn bé"],
+    "viAliases": ["thời thơ ấu", "khi còn nhỏ", "hồi bé"],
+    "en": ["in one's childhood"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我小时候很喜欢画画。",
+      "vi": "Hồi nhỏ tôi rất thích vẽ tranh.",
+      "en": "When I was little, I loved drawing."
+    }
+  },
+  {
+    "id": "L2-0605",
+    "vi": ["tiểu thuyết"],
+    "viAliases": ["truyện", "truyện dài"],
+    "en": ["novel", "fiction"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他去年写了一本小说。",
+      "vi": "Năm ngoái anh ấy viết một cuốn tiểu thuyết.",
+      "en": "He wrote a novel last year."
+    }
+  },
+  {
+    "id": "L2-0606",
+    "vi": ["cẩn thận", "chú ý"],
+    "viAliases": ["coi chừng", "thận trọng"],
+    "en": ["to be careful", "to take care"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "过马路的时候要小心。",
+      "vi": "Khi qua đường phải cẩn thận.",
+      "en": "You must be careful when crossing the road."
+    }
+  },
+  {
+    "id": "L2-0607",
+    "vi": ["nhóm", "tổ"],
+    "viAliases": ["nhóm nhỏ", "tổ nhóm"],
+    "en": ["group"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我们小组一共有五个人。",
+      "vi": "Nhóm chúng tôi có tất cả năm người.",
+      "en": "Our group has five people in total."
+    }
+  },
+  {
+    "id": "L2-0608",
+    "vi": ["khuôn viên trường", "sân trường"],
+    "viAliases": ["khuôn viên nhà trường", "sân trường học"],
+    "en": ["campus"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我们学校的校园很漂亮。",
+      "vi": "Khuôn viên trường chúng tôi rất đẹp.",
+      "en": "Our school campus is very beautiful."
+    }
+  },
+  {
+    "id": "L2-0609",
+    "vi": ["hiệu trưởng"],
+    "viAliases": ["thầy hiệu trưởng", "cô hiệu trưởng"],
+    "en": ["headmaster", "president"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "校长今天来我们班了。",
+      "vi": "Hôm nay hiệu trưởng đến lớp chúng tôi.",
+      "en": "The headmaster came to our class today."
+    }
+  },
+  {
+    "id": "L2-0610",
+    "vi": ["chê cười", "cười nhạo"],
+    "viAliases": ["chế giễu", "giễu cợt", "nhạo báng"],
+    "en": ["to laugh at", "to mock"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "你别笑话我，我是第一次做。",
+      "vi": "Bạn đừng cười tôi, tôi làm lần đầu mà.",
+      "en": "Do not laugh at me, this is my first time doing it."
+    }
+  },
+  {
+    "id": "L2-0611",
+    "vi": ["chuyện cười", "truyện cười"],
+    "viAliases": ["chuyện hài", "câu chuyện cười"],
+    "en": ["joke", "jest"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他给我们讲了一个笑话儿。",
+      "vi": "Anh ấy kể cho chúng tôi một chuyện cười.",
+      "en": "He told us a joke."
+    }
+  },
+  {
+    "id": "L2-0612",
+    "vi": ["giày"],
+    "viAliases": ["đôi giày", "giày dép"],
+    "en": ["shoe"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这双鞋很好看也很便宜。",
+      "vi": "Đôi giày này vừa đẹp vừa rẻ.",
+      "en": "This pair of shoes is nice and cheap."
+    }
+  },
+  {
+    "id": "L2-0613",
+    "vi": ["trong lòng", "trong tâm trí"],
+    "viAliases": ["trong bụng", "tận đáy lòng"],
+    "en": ["heart", "mind"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "听到这个消息我心里很高兴。",
+      "vi": "Nghe tin này trong lòng tôi rất vui.",
+      "en": "Hearing this news, I felt very happy inside."
+    }
+  },
+  {
+    "id": "L2-0614",
+    "vi": ["tâm trạng", "tâm tình"],
+    "viAliases": ["tinh thần"],
+    "en": ["mood", "frame of mind"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "今天他的心情特别好。",
+      "vi": "Hôm nay tâm trạng anh ấy đặc biệt tốt.",
+      "en": "His mood is especially good today."
+    }
+  },
+  {
+    "id": "L2-0615",
+    "vi": ["trong lòng", "trong tim"],
+    "viAliases": ["trong tâm", "trong suy nghĩ"],
+    "en": ["in one's thoughts", "in one's heart"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "妈妈在我心中最重要。",
+      "vi": "Trong lòng tôi, mẹ là quan trọng nhất.",
+      "en": "In my heart, my mother is the most important."
+    }
+  },
+  {
+    "id": "L2-0616",
+    "vi": ["tin tức", "bản tin"],
+    "viAliases": ["thời sự", "tin thời sự"],
+    "en": ["news"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "爸爸每天晚上都看新闻。",
+      "vi": "Tối nào bố cũng xem tin tức.",
+      "en": "My dad watches the news every evening."
+    }
+  },
+  {
+    "id": "L2-0617",
+    "vi": ["thư", "lá thư"],
+    "viAliases": ["bức thư", "thư từ"],
+    "en": ["letter", "mail"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我给妈妈写了一封信。",
+      "vi": "Tôi viết cho mẹ một lá thư.",
+      "en": "I wrote a letter to my mother."
+    }
+  },
+  {
+    "id": "L2-0618",
+    "vi": ["tín hiệu", "sóng"],
+    "viAliases": ["sóng tín hiệu"],
+    "en": ["signal"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这里的手机信号不太好。",
+      "vi": "Sóng điện thoại ở đây không tốt lắm.",
+      "en": "The phone signal here is not very good."
+    }
+  },
+  {
+    "id": "L2-0619",
+    "vi": ["thông tin", "tin nhắn"],
+    "viAliases": ["thông điệp"],
+    "en": ["information", "news", "message"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我刚才给你发了一条信息。",
+      "vi": "Vừa nãy tôi gửi cho bạn một tin nhắn.",
+      "en": "I just sent you a message."
+    }
+  },
+  {
+    "id": "L2-0620",
+    "vi": ["lòng tin", "sự tự tin"],
+    "viAliases": ["niềm tin", "tự tin"],
+    "en": ["confidence", "faith"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我对自己很有信心。",
+      "vi": "Tôi rất có lòng tin vào bản thân.",
+      "en": "I have a lot of confidence in myself."
+    }
+  },
+  {
+    "id": "L2-0621",
+    "vi": ["thẻ tín dụng"],
+    "viAliases": [],
+    "en": ["credit card"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我用信用卡买了这件衣服。",
+      "vi": "Tôi dùng thẻ tín dụng mua chiếc áo này.",
+      "en": "I bought this piece of clothing with a credit card."
+    }
+  },
+  {
+    "id": "L2-0622",
+    "vi": ["ngôi sao", "sao"],
+    "viAliases": ["vì sao", "sao trời"],
+    "en": ["a star", "the stars in the sky"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "今天晚上的星星真多。",
+      "vi": "Tối nay sao trên trời nhiều thật.",
+      "en": "There are so many stars tonight."
+    }
+  },
+  {
+    "id": "L2-0623",
+    "vi": ["hành động", "đi lại"],
+    "viAliases": ["hoạt động", "cử động"],
+    "en": ["action", "to move about"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这位老人行动有点儿慢。",
+      "vi": "Cụ già này đi lại hơi chậm.",
+      "en": "This elderly person moves about a bit slowly."
+    }
+  },
+  {
+    "id": "L2-0624",
+    "vi": ["người đi bộ", "người qua đường"],
+    "viAliases": ["khách bộ hành", "người đi đường"],
+    "en": ["pedestrian", "passer-by", "traveler on foot"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "早上马路上的行人很多。",
+      "vi": "Buổi sáng trên đường có rất nhiều người đi bộ.",
+      "en": "In the morning there are many pedestrians on the road."
+    }
+  },
+  {
+    "id": "L2-0625",
+    "vi": ["hành vi", "cách cư xử"],
+    "viAliases": ["cư xử", "ứng xử"],
+    "en": ["action", "conduct", "behavior"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这样的行为很不礼貌。",
+      "vi": "Hành vi như vậy rất không lịch sự.",
+      "en": "Such behavior is very impolite."
+    }
+  }
+]

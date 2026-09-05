@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Dữ liệu nguồn tải về, không commit (xem scripts/lib/sources.ts)
+scripts/.cache/
+
+# Kết quả build và kiểm thử
+dev-dist
+coverage

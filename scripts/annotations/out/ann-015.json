@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L2-0131",
+    "vi": ["phương đông", "hướng đông"],
+    "viAliases": ["phía đông", "đằng đông"],
+    "en": ["east"],
+    "enSource": "cedict",
+    "example": { "zh": "太阳从东方出来。", "vi": "Mặt trời mọc từ phương đông.", "en": "The sun rises in the east." }
+  },
+  {
+    "id": "L2-0132",
+    "vi": ["đông nam", "hướng đông nam"],
+    "viAliases": ["phía đông nam"],
+    "en": ["southeast"],
+    "enSource": "cedict",
+    "example": { "zh": "我家在城市的东南。", "vi": "Nhà tôi ở phía đông nam thành phố.", "en": "My home is in the southeast of the city." }
+  },
+  {
+    "id": "L2-0133",
+    "vi": ["mùa đông"],
+    "viAliases": ["đông"],
+    "en": ["winter"],
+    "enSource": "cedict",
+    "example": { "zh": "北京的冬天很冷。", "vi": "Mùa đông ở Bắc Kinh rất lạnh.", "en": "Winter in Beijing is very cold." }
+  },
+  {
+    "id": "L2-0134",
+    "vi": ["hiểu"],
+    "viAliases": ["hiểu được", "nắm được"],
+    "en": ["to understand", "to comprehend"],
+    "enSource": "cedict",
+    "example": { "zh": "老师说的话我都懂。", "vi": "Những lời thầy giáo nói tôi đều hiểu.", "en": "I understand everything the teacher says." }
+  },
+  {
+    "id": "L2-0135",
+    "vi": ["hiểu", "hiểu rõ"],
+    "viAliases": ["biết", "am hiểu"],
+    "en": ["to understand", "to know how to"],
+    "enSource": "cedict",
+    "example": { "zh": "他懂得关心别人。", "vi": "Anh ấy biết quan tâm người khác.", "en": "He knows how to care about others." }
+  },
+  {
+    "id": "L2-0136",
+    "vi": ["động vật", "con vật"],
+    "viAliases": ["thú vật"],
+    "en": ["animal"],
+    "enSource": "cedict",
+    "example": { "zh": "我最喜欢的动物是狗。", "vi": "Động vật tôi thích nhất là chó.", "en": "My favorite animal is the dog." }
+  },
+  {
+    "id": "L2-0137",
+    "vi": ["sở thú", "vườn bách thú"],
+    "viAliases": ["vườn thú"],
+    "en": ["zoo"],
+    "enSource": "cedict",
+    "example": { "zh": "星期天我们去动物园吧。", "vi": "Chủ nhật chúng ta đi sở thú nhé.", "en": "Let us go to the zoo on Sunday." }
+  },
+  {
+    "id": "L2-0138",
+    "vi": ["cách đọc", "âm đọc"],
+    "viAliases": ["phát âm"],
+    "en": ["pronunciation"],
+    "enSource": "cedict",
+    "example": { "zh": "这个字的读音很难。", "vi": "Cách đọc của chữ này rất khó.", "en": "The pronunciation of this character is difficult." }
+  },
+  {
+    "id": "L2-0139",
+    "vi": ["độ", "mức độ"],
+    "viAliases": [],
+    "en": ["degree (angles, temperature etc)", "extent", "classifier for events and occurrences"],
+    "enSource": "cedict",
+    "example": { "zh": "今天的温度是三十度。", "vi": "Nhiệt độ hôm nay là ba mươi độ.", "en": "The temperature today is thirty degrees." }
+  },
+  {
+    "id": "L2-0140",
+    "vi": ["ngắn"],
+    "viAliases": ["ngắn ngủi"],
+    "en": ["short", "brief"],
+    "enSource": "cedict",
+    "example": { "zh": "这条裤子有点儿短。", "vi": "Cái quần này hơi ngắn.", "en": "These pants are a bit short." }
+  },
+  {
+    "id": "L2-0141",
+    "vi": ["tin nhắn"],
+    "viAliases": ["tin nhắn điện thoại"],
+    "en": ["text message", "SMS"],
+    "enSource": "cedict",
+    "example": { "zh": "我给妈妈发了一条短信。", "vi": "Tôi đã gửi cho mẹ một tin nhắn.", "en": "I sent my mom a text message." }
+  },
+  {
+    "id": "L2-0142",
+    "vi": ["đoạn", "quãng"],
+    "viAliases": ["khúc"],
+    "en": ["paragraph", "section", "classifier for stories, periods of time, lengths of thread etc"],
+    "enSource": "cedict",
+    "example": { "zh": "请你读一下这段话。", "vi": "Mời bạn đọc đoạn này một chút.", "en": "Please read this passage." }
+  },
+  {
+    "id": "L2-0143",
+    "vi": ["đội", "đội ngũ"],
+    "viAliases": ["nhóm"],
+    "en": ["team", "group", "squadron"],
+    "enSource": "cedict",
+    "example": { "zh": "我们队今天赢了比赛。", "vi": "Đội chúng tôi hôm nay đã thắng trận đấu.", "en": "Our team won the match today." }
+  },
+  {
+    "id": "L2-0144",
+    "vi": ["đội trưởng"],
+    "viAliases": ["trưởng đội"],
+    "en": ["captain", "team leader"],
+    "enSource": "cedict",
+    "example": { "zh": "他是我们班的队长。", "vi": "Cậu ấy là đội trưởng của lớp chúng tôi.", "en": "He is the captain of our class team." }
+  },
+  {
+    "id": "L2-0145",
+    "vi": ["đối với", "hướng về", "đối xử"],
+    "viAliases": ["với", "nhằm vào"],
+    "en": ["towards; at; for", "concerning; regarding", "to treat (sb a certain way)", "to face"],
+    "enSource": "cedict",
+    "example": { "zh": "老师对学生都很好。", "vi": "Thầy giáo đối với học sinh đều rất tốt.", "en": "The teacher is very kind to the students." }
+  },
+  {
+    "id": "L2-0146",
+    "vi": ["đối thoại", "cuộc đối thoại"],
+    "viAliases": ["hội thoại", "nói chuyện"],
+    "en": ["to talk (with sb)", "dialogue; conversation"],
+    "enSource": "cedict",
+    "example": { "zh": "我们来练习这个对话。", "vi": "Chúng ta cùng luyện tập đoạn đối thoại này.", "en": "Let us practice this dialogue." }
+  },
+  {
+    "id": "L2-0147",
+    "vi": ["đối diện", "phía đối diện"],
+    "viAliases": ["trước mặt"],
+    "en": ["opposite; across (the street etc)", "directly in front of one; up ahead"],
+    "enSource": "cedict",
+    "example": { "zh": "银行在学校的对面。", "vi": "Ngân hàng ở đối diện trường học.", "en": "The bank is across from the school." }
+  },
+  {
+    "id": "L2-0148",
+    "vi": ["thêm", "nhiều hơn", "biết bao"],
+    "viAliases": ["thêm nữa"],
+    "en": ["more (in quantity or degree)", "how (to what extent)"],
+    "enSource": "cedict",
+    "example": { "zh": "你应该多喝水。", "vi": "Bạn nên uống nước nhiều hơn.", "en": "You should drink more water." }
+  },
+  {
+    "id": "L2-0149",
+    "vi": ["bao lâu"],
+    "viAliases": ["bao nhiêu lâu"],
+    "en": ["(of time) how long?"],
+    "enSource": "cedict",
+    "example": { "zh": "你学汉语学了多久？", "vi": "Bạn học tiếng Trung được bao lâu rồi?", "en": "How long have you been studying Chinese?" }
+  },
+  {
+    "id": "L2-0150",
+    "vi": ["biết bao", "thật là"],
+    "viAliases": ["biết mấy", "làm sao"],
+    "en": ["how (wonderful etc)", "what (a great idea etc)", "to what extent"],
+    "enSource": "cedict",
+    "example": { "zh": "这里的风景多么美啊！", "vi": "Phong cảnh ở đây đẹp biết bao!", "en": "How beautiful the scenery here is!" }
+  },
+  {
+    "id": "L2-0151",
+    "vi": ["đa số", "phần lớn"],
+    "viAliases": ["số đông"],
+    "en": ["majority; most"],
+    "enSource": "cedict",
+    "example": { "zh": "多数同学都喜欢运动。", "vi": "Đa số các bạn học sinh đều thích thể thao.", "en": "Most of the students like sports." }
+  },
+  {
+    "id": "L2-0152",
+    "vi": ["nhiều mây"],
+    "viAliases": ["trời nhiều mây"],
+    "en": ["cloudy"],
+    "enSource": "cedict",
+    "example": { "zh": "今天天气多云，不太热。", "vi": "Hôm nay trời nhiều mây, không nóng lắm.", "en": "It is cloudy today and not too hot." }
+  },
+  {
+    "id": "L2-0153",
+    "vi": ["hơn nữa", "mà còn", "vả lại"],
+    "viAliases": ["ngoài ra", "thêm vào đó"],
+    "en": ["(not only ...) but also", "moreover; in addition; furthermore"],
+    "enSource": "cedict",
+    "example": { "zh": "这个房间大而且干净。", "vi": "Căn phòng này rộng mà lại sạch sẽ.", "en": "This room is big and clean." }
+  },
+  {
+    "id": "L2-0154",
+    "vi": ["gửi", "phát"],
+    "viAliases": ["gửi đi", "phát ra"],
+    "en": ["to send out", "to issue"],
+    "enSource": "cedict",
+    "example": { "zh": "我马上给你发消息。", "vi": "Tôi sẽ gửi tin cho bạn ngay.", "en": "I will send you a message right away." }
+  },
+  {
+    "id": "L2-0155",
+    "vi": ["phát hiện", "nhận ra", "sự phát hiện"],
+    "viAliases": ["tìm ra", "nhận thấy"],
+    "en": ["to notice; to become aware of", "to discover; to find", "a discovery"],
+    "enSource": "cedict",
+    "example": { "zh": "我发现他今天不高兴。", "vi": "Tôi phát hiện hôm nay anh ấy không vui.", "en": "I noticed that he is unhappy today." }
+  },
+  {
+    "id": "L2-0156",
+    "vi": ["quán ăn", "nhà hàng"],
+    "viAliases": ["tiệm ăn", "quán cơm"],
+    "en": ["restaurant"],
+    "enSource": "cedict",
+    "example": { "zh": "学校旁边有一家饭馆。", "vi": "Bên cạnh trường có một quán ăn.", "en": "There is a restaurant next to the school." }
+  },
+  {
+    "id": "L2-0157",
+    "vi": ["tiện lợi", "thuận tiện"],
+    "viAliases": ["tiện"],
+    "en": ["convenient; suitable"],
+    "enSource": "cedict",
+    "example": { "zh": "坐地铁去机场很方便。", "vi": "Đi tàu điện ngầm ra sân bay rất tiện.", "en": "Taking the subway to the airport is very convenient." }
+  },
+  {
+    "id": "L2-0158",
+    "vi": ["mì ăn liền", "mì gói"],
+    "viAliases": ["mì tôm"],
+    "en": ["instant noodles"],
+    "enSource": "cedict",
+    "example": { "zh": "我晚上吃了一碗方便面。", "vi": "Buổi tối tôi đã ăn một bát mì ăn liền.", "en": "I ate a bowl of instant noodles in the evening." }
+  },
+  {
+    "id": "L2-0159",
+    "vi": ["phương pháp", "cách thức"],
+    "viAliases": ["cách", "biện pháp"],
+    "en": ["method; way; technique; procedure"],
+    "enSource": "cedict",
+    "example": { "zh": "这个学习方法非常好。", "vi": "Phương pháp học này rất tốt.", "en": "This study method is very good." }
+  },
+  {
+    "id": "L2-0160",
+    "vi": ["phương diện", "mặt", "khía cạnh"],
+    "viAliases": ["lĩnh vực"],
+    "en": ["respect", "aspect", "field", "side"],
+    "enSource": "cedict",
+    "example": { "zh": "他在这方面做得很好。", "vi": "Anh ấy làm rất tốt về mặt này.", "en": "He does very well in this respect." }
+  },
+  {
+    "id": "L2-0161",
+    "vi": ["phương hướng", "hướng"],
+    "viAliases": ["hướng đi"],
+    "en": ["direction; orientation"],
+    "enSource": "cedict",
+    "example": { "zh": "我们走错方向了。", "vi": "Chúng ta đã đi sai hướng rồi.", "en": "We went in the wrong direction." }
+  },
+  {
+    "id": "L2-0162",
+    "vi": ["đặt xuống", "buông xuống", "gác lại"],
+    "viAliases": ["bỏ xuống", "để xuống"],
+    "en": ["to lay down; to put down", "to let go of; to relinquish; to set aside"],
+    "enSource": "cedict",
+    "example": { "zh": "他把手机放下了。", "vi": "Anh ấy đã đặt điện thoại xuống.", "en": "He put down his phone." }
+  },
+  {
+    "id": "L2-0163",
+    "vi": ["yên tâm", "an tâm"],
+    "viAliases": ["yên lòng"],
+    "en": ["to feel relieved", "to feel reassured", "to be at ease"],
+    "enSource": "cedict",
+    "example": { "zh": "你放心，我一定会来。", "vi": "Bạn yên tâm, tôi nhất định sẽ đến.", "en": "Rest assured, I will certainly come." }
+  },
+  {
+    "id": "L2-0164",
+    "vi": ["chia", "phân chia", "tách ra"],
+    "viAliases": ["chia ra", "phân"],
+    "en": ["to divide; to separate", "to distribute; to allocate"],
+    "enSource": "cedict",
+    "example": { "zh": "老师把我们分成四组。", "vi": "Thầy giáo chia chúng tôi thành bốn nhóm.", "en": "The teacher divided us into four groups." }
+  },
+  {
+    "id": "L2-0165",
+    "vi": ["tách ra", "rời nhau", "chia tay"],
+    "viAliases": ["tách rời", "chia ra"],
+    "en": ["to separate", "to part"],
+    "enSource": "cedict",
+    "example": { "zh": "请你们两个人分开坐。", "vi": "Mời hai bạn ngồi tách ra.", "en": "Please, you two sit separately." }
+  },
+  {
+    "id": "L2-0166",
+    "vi": ["điểm số", "phân số"],
+    "viAliases": ["điểm"],
+    "en": ["(exam) grade", "score", "fraction"],
+    "enSource": "cedict",
+    "example": { "zh": "这次考试他的分数很高。", "vi": "Điểm số của cậu ấy trong kỳ thi lần này rất cao.", "en": "His score on this exam was very high." }
+  },
+  {
+    "id": "L2-0167",
+    "vi": ["phút"],
+    "viAliases": [],
+    "en": ["minute"],
+    "enSource": "cedict",
+    "example": { "zh": "我等了他二十分钟。", "vi": "Tôi đã đợi anh ấy hai mươi phút.", "en": "I waited twenty minutes for him." }
+  },
+  {
+    "id": "L2-0168",
+    "vi": ["phần", "suất", "bản"],
+    "viAliases": ["tờ"],
+    "en": ["classifier for gifts, newspaper, magazine, papers, reports, contracts etc"],
+    "enSource": "cedict",
+    "example": { "zh": "我想要一份米饭。", "vi": "Tôi muốn một phần cơm.", "en": "I would like a portion of rice." }
+  },
+  {
+    "id": "L2-0169",
+    "vi": ["lá", "bức"],
+    "viAliases": ["phong"],
+    "en": ["classifier for sealed objects, esp. letters"],
+    "enSource": "cedict",
+    "example": { "zh": "他给妈妈写了一封信。", "vi": "Anh ấy đã viết cho mẹ một lá thư.", "en": "He wrote a letter to his mother." }
+  },
+  {
+    "id": "L2-0170",
+    "vi": ["phục vụ"],
+    "viAliases": ["phụng sự"],
+    "en": ["to serve", "service"],
+    "enSource": "cedict",
+    "example": { "zh": "他为大家服务了很多年。", "vi": "Anh ấy đã phục vụ mọi người nhiều năm.", "en": "He has served everyone for many years." }
+  },
+  {
+    "id": "L2-0171",
+    "vi": ["ôn tập", "ôn lại"],
+    "viAliases": ["ôn bài", "ôn"],
+    "en": ["to review (a lesson etc)", "to revise"],
+    "enSource": "cedict",
+    "example": { "zh": "明天要考试，我得复习。", "vi": "Ngày mai phải thi, tôi cần ôn tập.", "en": "There is an exam tomorrow, so I have to review." }
+  },
+  {
+    "id": "L2-0172",
+    "vi": ["nên", "phải", "đến lượt"],
+    "viAliases": ["cần phải"],
+    "en": ["should", "ought to", "to be sb's turn to do sth"],
+    "enSource": "cedict",
+    "example": { "zh": "时间不早了，我们该走了。", "vi": "Không còn sớm nữa, chúng ta nên đi thôi.", "en": "It is getting late, we should go." }
+  },
+  {
+    "id": "L2-0173",
+    "vi": ["sửa", "đổi", "sửa đổi"],
+    "viAliases": ["chỉnh sửa", "sửa lại"],
+    "en": ["to change", "to alter", "to correct"],
+    "enSource": "cedict",
+    "example": { "zh": "老师帮我改了作业。", "vi": "Thầy giáo giúp tôi sửa bài tập.", "en": "The teacher corrected my homework for me." }
+  },
+  {
+    "id": "L2-0174",
+    "vi": ["thay đổi", "biến đổi", "sự thay đổi"],
+    "viAliases": ["đổi thay"],
+    "en": ["to change", "to alter", "to transform"],
+    "enSource": "cedict",
+    "example": { "zh": "这件事改变了他的生活。", "vi": "Chuyện này đã thay đổi cuộc sống của anh ấy.", "en": "This matter changed his life." }
+  },
+  {
+    "id": "L2-0175",
+    "vi": ["cạn ly", "nâng ly chúc mừng"],
+    "viAliases": ["cạn chén", "cụng ly"],
+    "en": ["to drink a toast", "Cheers!", "Bottoms up!"],
+    "enSource": "cedict",
+    "example": { "zh": "祝你生日快乐，干杯！", "vi": "Chúc bạn sinh nhật vui vẻ, cạn ly!", "en": "Happy birthday to you, cheers!" }
+  }
+]

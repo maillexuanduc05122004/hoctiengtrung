@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L3-0394",
+    "vi": ["cho dù", "dù có"],
+    "viAliases": ["dù cho", "ngay cả khi"],
+    "en": ["even; even if"],
+    "enSource": "cedict",
+    "example": { "zh": "就是下雨我也要去。", "vi": "Cho dù trời mưa tôi cũng vẫn đi.", "en": "Even if it rains, I will still go." }
+  },
+  {
+    "id": "L3-0395",
+    "vi": ["có việc làm", "việc làm"],
+    "viAliases": ["kiếm được việc làm", "tìm được việc làm"],
+    "en": ["to get a job", "employment"],
+    "enSource": "cedict",
+    "example": { "zh": "现在大学生就业不容易。", "vi": "Bây giờ sinh viên đại học có việc làm không dễ.", "en": "Nowadays it is not easy for university students to get a job." }
+  },
+  {
+    "id": "L3-0396",
+    "vi": ["tổ chức", "tiến hành"],
+    "viAliases": ["đứng ra tổ chức"],
+    "en": ["to conduct; to hold (an event)"],
+    "enSource": "cedict",
+    "example": { "zh": "学校下个月举办运动会。", "vi": "Trường sẽ tổ chức đại hội thể thao vào tháng sau.", "en": "The school will hold a sports meet next month." }
+  },
+  {
+    "id": "L3-0397",
+    "vi": ["cụ thể", "chi tiết"],
+    "viAliases": ["rõ ràng cụ thể"],
+    "en": ["concrete; specific; detailed"],
+    "enSource": "cedict",
+    "example": { "zh": "请你说得具体一点。", "vi": "Bạn hãy nói cụ thể một chút.", "en": "Please be a bit more specific." }
+  },
+  {
+    "id": "L3-0398",
+    "vi": ["có", "mang"],
+    "viAliases": ["sở hữu"],
+    "en": ["to have; to possess"],
+    "enSource": "cedict",
+    "example": { "zh": "他具有很多工作经验。", "vi": "Anh ấy có rất nhiều kinh nghiệm làm việc.", "en": "He has a lot of work experience." }
+  },
+  {
+    "id": "L3-0399",
+    "vi": ["nhà hát", "rạp hát"],
+    "viAliases": ["rạp kịch"],
+    "en": ["theater"],
+    "enSource": "cedict",
+    "example": { "zh": "这个剧场里有很多人。", "vi": "Trong nhà hát này có rất nhiều người.", "en": "There are many people in this theater." }
+  },
+  {
+    "id": "L3-0400",
+    "vi": ["nghe nói", "nghe đồn"],
+    "viAliases": ["nghe bảo", "người ta nói"],
+    "en": ["it is said that; reportedly"],
+    "enSource": "cedict",
+    "example": { "zh": "据说明天会下雪。", "vi": "Nghe nói ngày mai sẽ có tuyết.", "en": "It is said that it will snow tomorrow." }
+  },
+  {
+    "id": "L3-0401",
+    "vi": ["quyết định", "sự quyết định"],
+    "viAliases": ["đưa ra quyết định"],
+    "en": ["to decide; to determine; to make up one's mind", "decision"],
+    "enSource": "cedict",
+    "example": { "zh": "我决定明天去北京。", "vi": "Tôi quyết định ngày mai đi Bắc Kinh.", "en": "I decided to go to Beijing tomorrow." }
+  },
+  {
+    "id": "L3-0402",
+    "vi": ["trận chung kết", "thi chung kết"],
+    "viAliases": ["vòng chung kết", "đấu chung kết"],
+    "en": ["finals (of a competition)"],
+    "enSource": "cedict",
+    "example": { "zh": "明天有足球决赛。", "vi": "Ngày mai có trận chung kết bóng đá.", "en": "There is a soccer final tomorrow." }
+  },
+  {
+    "id": "L3-0403",
+    "vi": ["quyết tâm", "sự quyết tâm"],
+    "viAliases": ["hạ quyết tâm", "nhất quyết"],
+    "en": ["determination", "resolution", "to make up one's mind"],
+    "enSource": "cedict",
+    "example": { "zh": "他下决心每天早起。", "vi": "Anh ấy quyết tâm mỗi ngày dậy sớm.", "en": "He is determined to get up early every day." }
+  },
+  {
+    "id": "L3-0404",
+    "vi": ["tuyệt đối", "hoàn toàn"],
+    "viAliases": ["chắc chắn là"],
+    "en": ["absolute; unconditional"],
+    "enSource": "cedict",
+    "example": { "zh": "我绝对相信你。", "vi": "Tôi tuyệt đối tin bạn.", "en": "I absolutely believe you." }
+  },
+  {
+    "id": "L3-0405",
+    "vi": ["cà phê"],
+    "viAliases": ["cà-phê", "cafe"],
+    "en": ["coffee"],
+    "enSource": "cedict",
+    "example": { "zh": "我早上喜欢喝咖啡。", "vi": "Buổi sáng tôi thích uống cà phê.", "en": "I like drinking coffee in the morning." }
+  },
+  {
+    "id": "L3-0406",
+    "vi": ["phát triển", "khai thác"],
+    "viAliases": ["khai phá", "mở mang"],
+    "en": ["to develop", "to exploit (a resource)"],
+    "enSource": "cedict",
+    "example": { "zh": "这家公司开发了新软件。", "vi": "Công ty này đã phát triển phần mềm mới.", "en": "This company developed new software." }
+  },
+  {
+    "id": "L3-0407",
+    "vi": ["mở cửa", "nở hoa"],
+    "viAliases": ["mở cửa đón khách"],
+    "en": ["to open", "to be open (to the public)", "to bloom"],
+    "enSource": "cedict",
+    "example": { "zh": "公园每天早上六点开放。", "vi": "Công viên mở cửa lúc sáu giờ sáng mỗi ngày.", "en": "The park opens at six every morning." }
+  },
+  {
+    "id": "L3-0408",
+    "vi": ["bắt đầu", "sự bắt đầu"],
+    "viAliases": ["khởi đầu", "mở đầu"],
+    "en": ["to begin; to start", "beginning; start"],
+    "enSource": "cedict",
+    "example": { "zh": "电影八点开始。", "vi": "Bộ phim bắt đầu lúc tám giờ.", "en": "The movie starts at eight o'clock." }
+  },
+  {
+    "id": "L3-0409",
+    "vi": ["khai trương", "mở cửa hàng"],
+    "viAliases": ["mở tiệm", "bắt đầu kinh doanh"],
+    "en": ["to open a business", "open (for business)"],
+    "enSource": "cedict",
+    "example": { "zh": "新饭店下周一开业。", "vi": "Nhà hàng mới khai trương vào thứ hai tuần sau.", "en": "The new restaurant opens for business next Monday." }
+  },
+  {
+    "id": "L3-0410",
+    "vi": ["triển khai", "tiến hành"],
+    "viAliases": ["phát động", "mở ra"],
+    "en": ["to launch", "to develop", "to unfold"],
+    "enSource": "cedict",
+    "example": { "zh": "学校开展了一次活动。", "vi": "Nhà trường đã triển khai một hoạt động.", "en": "The school launched an activity." }
+  },
+  {
+    "id": "L3-0411",
+    "vi": ["trông có vẻ", "xem ra"],
+    "viAliases": ["nhìn có vẻ", "có vẻ như"],
+    "en": ["seemingly; apparently; looks as if"],
+    "enSource": "cedict",
+    "example": { "zh": "他看起来很高兴。", "vi": "Anh ấy trông có vẻ rất vui.", "en": "He looks very happy." }
+  },
+  {
+    "id": "L3-0412",
+    "vi": ["nhìn có vẻ", "trông như"],
+    "viAliases": ["trông có vẻ", "xem chừng"],
+    "en": ["it would appear", "it seems (that)"],
+    "enSource": "cedict",
+    "example": { "zh": "这个菜看上去很好吃。", "vi": "Món ăn này nhìn có vẻ rất ngon.", "en": "This dish looks very tasty." }
+  },
+  {
+    "id": "L3-0413",
+    "vi": ["thử thách", "khảo nghiệm"],
+    "viAliases": ["đặt ra thử thách"],
+    "en": ["to test", "to put to the test"],
+    "enSource": "cedict",
+    "example": { "zh": "这次比赛考验大家的能力。", "vi": "Cuộc thi lần này thử thách năng lực của mọi người.", "en": "This competition tests everyone's ability." }
+  },
+  {
+    "id": "L3-0414",
+    "vi": ["khoa học kỹ thuật", "công nghệ"],
+    "viAliases": ["khoa học công nghệ", "khoa học kĩ thuật"],
+    "en": ["science and technology"],
+    "enSource": "cedict",
+    "example": { "zh": "科技让生活更方便。", "vi": "Khoa học kỹ thuật khiến cuộc sống thuận tiện hơn.", "en": "Technology makes life more convenient." }
+  },
+  {
+    "id": "L3-0415",
+    "vi": ["đáng tin cậy", "tin cậy được"],
+    "viAliases": ["tin cậy", "đáng tin"],
+    "en": ["reliable"],
+    "enSource": "cedict",
+    "example": { "zh": "这个消息很可靠。", "vi": "Tin này rất đáng tin cậy.", "en": "This news is very reliable." }
+  },
+  {
+    "id": "L3-0416",
+    "vi": ["nước cô ca", "cô ca"],
+    "viAliases": ["coca", "cola", "coca cola"],
+    "en": ["cola"],
+    "enSource": "cedict",
+    "example": { "zh": "我想喝一杯可乐。", "vi": "Tôi muốn uống một ly cô ca.", "en": "I want to drink a glass of cola." }
+  },
+  {
+    "id": "L3-0417",
+    "vi": ["khắc phục", "vượt qua"],
+    "viAliases": ["chịu đựng"],
+    "en": ["to overcome (hardships etc)", "to conquer"],
+    "enSource": "cedict",
+    "example": { "zh": "他克服了很多问题。", "vi": "Anh ấy đã khắc phục rất nhiều vấn đề.", "en": "He overcame many problems." }
+  },
+  {
+    "id": "L3-0418",
+    "vi": ["khách quan"],
+    "viAliases": ["mang tính khách quan"],
+    "en": ["objective", "impartial"],
+    "enSource": "cedict",
+    "example": { "zh": "我们要客观地看问题。", "vi": "Chúng ta phải nhìn nhận vấn đề một cách khách quan.", "en": "We should look at problems objectively." }
+  },
+  {
+    "id": "L3-0419",
+    "vi": ["khóa học", "chương trình học"],
+    "viAliases": ["môn học"],
+    "en": ["course; academic program"],
+    "enSource": "cedict",
+    "example": { "zh": "这门课程很有意思。", "vi": "Khóa học này rất thú vị.", "en": "This course is very interesting." }
+  },
+  {
+    "id": "L3-0420",
+    "vi": ["trống", "rỗng", "uổng công"],
+    "viAliases": ["trống không", "vô ích"],
+    "en": ["empty", "in vain"],
+    "enSource": "cedict",
+    "example": { "zh": "这个房间是空的。", "vi": "Căn phòng này trống.", "en": "This room is empty." }
+  },
+  {
+    "id": "L3-0421",
+    "vi": ["máy điều hòa", "điều hòa không khí"],
+    "viAliases": ["máy lạnh", "điều hoà"],
+    "en": ["air conditioning", "air conditioner"],
+    "enSource": "cedict",
+    "example": { "zh": "房间里的空调坏了。", "vi": "Máy điều hòa trong phòng bị hỏng rồi.", "en": "The air conditioner in the room is broken." }
+  },
+  {
+    "id": "L3-0422",
+    "vi": ["e rằng", "sợ rằng", "có lẽ"],
+    "viAliases": ["e là", "chỉ e"],
+    "en": ["I'm afraid that...", "perhaps", "maybe"],
+    "enSource": "cedict",
+    "example": { "zh": "恐怕他今天不来了。", "vi": "E rằng hôm nay anh ấy không đến nữa.", "en": "I am afraid he will not come today." }
+  },
+  {
+    "id": "L3-0423",
+    "vi": ["thời gian rảnh", "lúc rảnh"],
+    "viAliases": ["thì giờ rảnh", "rảnh rỗi"],
+    "en": ["spare time", "free time"],
+    "enSource": "cedict",
+    "example": { "zh": "你明天有空儿吗？", "vi": "Ngày mai bạn có rảnh không?", "en": "Do you have free time tomorrow?" }
+  },
+  {
+    "id": "L3-0424",
+    "vi": ["quần"],
+    "viAliases": ["cái quần", "quần dài"],
+    "en": ["trousers; pants"],
+    "enSource": "cedict",
+    "example": { "zh": "这条裤子有点长。", "vi": "Cái quần này hơi dài.", "en": "These trousers are a bit long." }
+  },
+  {
+    "id": "L3-0425",
+    "vi": ["nhanh chóng", "tốc độ cao"],
+    "viAliases": ["mau lẹ", "nhanh"],
+    "en": ["fast; high-speed; rapid"],
+    "enSource": "cedict",
+    "example": { "zh": "城市在快速发展。", "vi": "Thành phố đang phát triển nhanh chóng.", "en": "The city is developing rapidly." }
+  },
+  {
+    "id": "L3-0426",
+    "vi": ["buồn ngủ", "vây khốn"],
+    "viAliases": ["mắc kẹt", "bị vây"],
+    "en": ["to trap", "to surround", "stranded"],
+    "enSource": "cedict",
+    "example": { "zh": "我太困了，想去睡觉。", "vi": "Tôi buồn ngủ quá, muốn đi ngủ.", "en": "I am so sleepy, I want to go to bed." }
+  },
+  {
+    "id": "L3-0427",
+    "vi": ["khó khăn", "sự khó khăn"],
+    "viAliases": ["gian nan", "vất vả"],
+    "en": ["difficult", "challenging", "difficult situation"],
+    "enSource": "cedict",
+    "example": { "zh": "学习中文有一些困难。", "vi": "Học tiếng Trung có một vài khó khăn.", "en": "There are some difficulties in studying Chinese." }
+  },
+  {
+    "id": "L3-0428",
+    "vi": ["lãng phí", "phung phí"],
+    "viAliases": ["phí phạm", "hoang phí"],
+    "en": ["to waste", "to squander"],
+    "enSource": "cedict",
+    "example": { "zh": "不要浪费时间和钱。", "vi": "Đừng lãng phí thời gian và tiền bạc.", "en": "Do not waste time and money." }
+  },
+  {
+    "id": "L3-0429",
+    "vi": ["dân thường", "người dân"],
+    "viAliases": ["dân chúng", "bách tính"],
+    "en": ["ordinary people"],
+    "enSource": "cedict",
+    "example": { "zh": "老百姓的生活越来越好。", "vi": "Cuộc sống của người dân ngày càng tốt hơn.", "en": "Ordinary people's lives are getting better and better." }
+  },
+  {
+    "id": "L3-0430",
+    "vi": ["ông chủ", "sếp"],
+    "viAliases": ["bà chủ", "chủ tiệm"],
+    "en": ["boss; proprietor"],
+    "enSource": "cedict",
+    "example": { "zh": "我们老板对人很好。", "vi": "Ông chủ của chúng tôi đối xử với mọi người rất tốt.", "en": "Our boss treats people very well." }
+  },
+  {
+    "id": "L3-0431",
+    "vi": ["bà cụ", "cụ bà"],
+    "viAliases": ["bà lão"],
+    "en": ["elderly lady (respectful)"],
+    "enSource": "cedict",
+    "example": { "zh": "这位老太太很热情。", "vi": "Bà cụ này rất nhiệt tình.", "en": "This elderly lady is very warm-hearted." }
+  },
+  {
+    "id": "L3-0432",
+    "vi": ["ông lão", "ông cụ"],
+    "viAliases": ["cụ ông", "ông già"],
+    "en": ["old man", "old fellow"],
+    "enSource": "cedict",
+    "example": { "zh": "那个老头儿在公园里散步。", "vi": "Ông lão kia đang đi dạo trong công viên.", "en": "That old man is taking a walk in the park." }
+  },
+  {
+    "id": "L3-0433",
+    "vi": ["cười", "vui thích"],
+    "viAliases": ["bật cười", "vui vẻ"],
+    "en": ["to laugh", "happy", "cheerful"],
+    "enSource": "cedict",
+    "example": { "zh": "听到这个消息他乐了。", "vi": "Nghe tin này anh ấy bật cười.", "en": "Hearing this news, he laughed with delight." }
+  },
+  {
+    "id": "L3-0434",
+    "vi": ["lạc quan"],
+    "viAliases": ["yêu đời"],
+    "en": ["optimistic; hopeful"],
+    "enSource": "cedict",
+    "example": { "zh": "他对未来很乐观。", "vi": "Anh ấy rất lạc quan về tương lai.", "en": "He is very optimistic about the future." }
+  },
+  {
+    "id": "L3-0435",
+    "vi": ["loại", "chủng loại"],
+    "viAliases": ["kiểu", "hạng"],
+    "en": ["kind; type; class; category", "(classifier) kind; type"],
+    "enSource": "cedict",
+    "example": { "zh": "这类书我很喜欢看。", "vi": "Loại sách này tôi rất thích đọc.", "en": "I really like reading this kind of book." }
+  },
+  {
+    "id": "L3-0436",
+    "vi": ["tương tự", "giống như"],
+    "viAliases": ["na ná", "giống nhau"],
+    "en": ["similar; analogous"],
+    "enSource": "cedict",
+    "example": { "zh": "这两个问题很类似。", "vi": "Hai vấn đề này rất tương tự nhau.", "en": "These two problems are very similar." }
+  },
+  {
+    "id": "L3-0437",
+    "vi": ["ly hôn", "ly dị"],
+    "viAliases": ["li hôn", "li dị"],
+    "en": ["to divorce"],
+    "enSource": "cedict",
+    "example": { "zh": "他们去年离婚了。", "vi": "Họ đã ly hôn vào năm ngoái.", "en": "They got divorced last year." }
+  },
+  {
+    "id": "L3-0438",
+    "vi": ["bên trong", "phía trong"],
+    "viAliases": ["ở trong", "trong"],
+    "en": ["inside", "interior"],
+    "enSource": "cedict",
+    "example": { "zh": "教室里面有很多学生。", "vi": "Bên trong lớp học có rất nhiều học sinh.", "en": "There are many students inside the classroom." }
+  }
+]

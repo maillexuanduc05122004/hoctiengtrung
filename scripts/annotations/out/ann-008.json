@@ -34,7 +34,7 @@
   {
     "id": "L1-0320",
     "vi": ["lên lớp", "vào học"],
-    "viAliases": ["đi học", "bắt đầu giờ học"],
+    "viAliases": ["vào lớp", "bắt đầu giờ học"],
     "en": ["to go to class", "to attend class", "to go to teach a class"],
     "enSource": "cedict",
     "example": { "zh": "我们八点开始上课。", "vi": "Chúng tôi bắt đầu vào học lúc tám giờ.", "en": "We start class at eight." }
@@ -147,7 +147,7 @@
     "id": "L1-0334",
     "vi": ["thời gian"],
     "viAliases": ["thì giờ", "giờ giấc"],
-    "en": ["time", "(duration of) time"],
+    "en": ["time", "duration of time"],
     "enSource": "cedict",
     "example": { "zh": "我今天没有时间。", "vi": "Hôm nay tôi không có thời gian.", "en": "I have no time today." }
   },
@@ -226,7 +226,7 @@
   {
     "id": "L1-0344",
     "vi": ["cây"],
-    "viAliases": ["cây cối", "thân cây"],
+    "viAliases": ["cây cối"],
     "en": ["tree"],
     "enSource": "cedict",
     "example": { "zh": "门前有两棵大树。", "vi": "Trước cửa có hai cây to.", "en": "There are two big trees in front of the door." }
@@ -346,7 +346,7 @@
   {
     "id": "L1-0359",
     "vi": ["ngày", "trời", "bầu trời"],
-    "viAliases": ["hôm", "ban ngày"],
+    "viAliases": ["hôm"],
     "en": ["day", "sky", "heaven"],
     "enSource": "cedict",
     "example": { "zh": "我在北京住了三天。", "vi": "Tôi đã ở Bắc Kinh ba ngày.", "en": "I stayed in Beijing for three days." }

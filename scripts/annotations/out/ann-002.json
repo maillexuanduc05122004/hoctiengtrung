@@ -2,7 +2,7 @@
   {
     "id": "L1-0046",
     "vi": ["ăn"],
-    "viAliases": ["xơi", "ăn uống"],
+    "viAliases": ["xơi"],
     "en": ["to eat", "to consume"],
     "enSource": "cedict",
     "example": { "zh": "我喜欢吃中国菜。", "vi": "Tôi thích ăn món ăn Trung Quốc.", "en": "I like to eat Chinese food." }
@@ -10,7 +10,7 @@
   {
     "id": "L1-0047",
     "vi": ["ăn cơm", "dùng bữa"],
-    "viAliases": ["ăn uống", "ăn bữa"],
+    "viAliases": ["ăn uống"],
     "en": ["to have a meal", "to eat"],
     "enSource": "cedict",
     "example": { "zh": "我们一起去吃饭吧。", "vi": "Chúng ta cùng đi ăn cơm nhé.", "en": "Let us go have a meal together." }
@@ -33,7 +33,7 @@
   },
   {
     "id": "L1-0050",
-    "vi": ["đi ra", "ra ngoài"],
+    "vi": ["ra ngoài", "đi ra"],
     "viAliases": ["ra", "đi ra ngoài"],
     "en": ["to go out"],
     "enSource": "cedict",
@@ -82,7 +82,7 @@
   {
     "id": "L1-0056",
     "vi": ["đánh", "đập"],
-    "viAliases": ["đấm", "đánh đập"],
+    "viAliases": ["đấm"],
     "en": ["to hit; to strike", "to fight"],
     "enSource": "cedict",
     "example": { "zh": "你不可以打小狗。", "vi": "Bạn không được đánh chú chó nhỏ.", "en": "You must not hit the puppy." }
@@ -130,7 +130,7 @@
   {
     "id": "L1-0062",
     "vi": ["đại học", "trường đại học"],
-    "viAliases": ["bậc đại học"],
+    "viAliases": [],
     "en": ["university; college"],
     "enSource": "cedict",
     "example": { "zh": "我姐姐在北京上大学。", "vi": "Chị gái tôi học đại học ở Bắc Kinh.", "en": "My older sister goes to university in Beijing." }
@@ -161,15 +161,15 @@
   },
   {
     "id": "L1-0066",
-    "vi": ["trợ từ nối trạng ngữ với động từ"],
+    "vi": ["một cách", "trợ từ trạng ngữ"],
     "viAliases": [],
-    "en": ["-ly", "structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct"],
+    "en": ["-ly", "structural particle before a verb or adjective"],
     "enSource": "cedict",
     "example": { "zh": "他高兴地笑了。", "vi": "Anh ấy vui vẻ cười lên.", "en": "He smiled happily." }
   },
   {
     "id": "L1-0067",
-    "vi": ["trợ từ sở hữu", "trợ từ nối định ngữ với danh từ"],
+    "vi": ["của", "trợ từ định ngữ"],
     "viAliases": [],
     "en": ["of (possessive particle)", "(used after an attribute when it modifies a noun)"],
     "enSource": "cedict",
@@ -226,14 +226,14 @@
   {
     "id": "L1-0074",
     "vi": ["em trai"],
-    "viAliases": ["cậu em trai", "thằng em trai"],
+    "viAliases": ["cậu em trai"],
     "en": ["younger brother"],
     "enSource": "cedict",
     "example": { "zh": "我弟弟今年十岁。", "vi": "Em trai tôi năm nay mười tuổi.", "en": "My younger brother is ten years old this year." }
   },
   {
     "id": "L1-0075",
-    "vi": ["tiền tố chỉ số thứ tự"],
+    "vi": ["thứ"],
     "viAliases": [],
     "en": ["(prefix indicating ordinal number)"],
     "enSource": "cedict",
@@ -258,7 +258,7 @@
   {
     "id": "L1-0078",
     "vi": ["điện thoại", "cuộc gọi"],
-    "viAliases": ["số điện thoại", "máy điện thoại"],
+    "viAliases": ["máy điện thoại"],
     "en": ["telephone", "phone call", "phone number"],
     "enSource": "cedict",
     "example": { "zh": "你的电话号码是多少？", "vi": "Số điện thoại của bạn là bao nhiêu?", "en": "What is your phone number?" }
@@ -281,8 +281,8 @@
   },
   {
     "id": "L1-0081",
-    "vi": ["cái ti vi", "máy thu hình"],
-    "viAliases": ["chiếc tivi", "máy truyền hình"],
+    "vi": ["ti vi", "máy thu hình"],
+    "viAliases": ["cái ti vi", "chiếc tivi", "máy truyền hình"],
     "en": ["television set"],
     "enSource": "cedict",
     "example": { "zh": "我家的电视机很大。", "vi": "Chiếc ti vi nhà tôi rất to.", "en": "The television set at my home is very big." }
@@ -309,7 +309,7 @@
     "viAliases": ["hướng đông", "phương đông"],
     "en": ["east"],
     "enSource": "cedict",
-    "example": { "zh": "我家在学校的东面。", "vi": "Nhà tôi ở phía đông của trường.", "en": "My home is on the east side of the school." }
+    "example": { "zh": "我们向东走了很远。", "vi": "Chúng tôi đã đi về phía đông rất xa.", "en": "We walked a long way to the east." }
   },
   {
     "id": "L1-0085",

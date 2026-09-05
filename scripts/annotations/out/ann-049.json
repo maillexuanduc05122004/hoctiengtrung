@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L3-0889",
+    "vi": ["nguyên, trọn", "chẵn, đúng", "chỉnh đốn, sửa sang"],
+    "viAliases": ["trọn vẹn", "nguyên vẹn"],
+    "en": ["whole; complete; entire", "in good order; tidy; neat", "to put in order; to straighten"],
+    "enSource": "cedict",
+    "example": { "zh": "现在是九点整。", "vi": "Bây giờ là chín giờ đúng.", "en": "It is exactly nine o'clock now." }
+  },
+  {
+    "id": "L3-0890",
+    "vi": ["toàn bộ", "cả", "nguyên cả"],
+    "viAliases": ["toàn thể"],
+    "en": ["whole", "entire", "total"],
+    "enSource": "cedict",
+    "example": { "zh": "整个教室都很干净。", "vi": "Cả phòng học đều rất sạch sẽ.", "en": "The whole classroom is very clean." }
+  },
+  {
+    "id": "L3-0891",
+    "vi": ["sắp xếp", "dọn dẹp", "chỉnh lý"],
+    "viAliases": ["thu dọn", "sắp đặt"],
+    "en": ["to arrange", "to tidy up", "to sort out", "to pack (luggage)"],
+    "enSource": "cedict",
+    "example": { "zh": "我每天整理自己的房间。", "vi": "Ngày nào tôi cũng dọn dẹp phòng của mình.", "en": "I tidy up my own room every day." }
+  },
+  {
+    "id": "L3-0892",
+    "vi": ["ngăn nắp", "gọn gàng", "chỉnh tề"],
+    "viAliases": ["trật tự", "đều đặn"],
+    "en": ["orderly", "neat", "even", "tidy"],
+    "enSource": "cedict",
+    "example": { "zh": "他的书放得很整齐。", "vi": "Sách của anh ấy được xếp rất ngăn nắp.", "en": "His books are arranged very neatly." }
+  },
+  {
+    "id": "L3-0893",
+    "vi": ["chỉnh thể", "tổng thể", "toàn thể"],
+    "viAliases": ["toàn cục", "tổng quát"],
+    "en": ["whole; entirety", "overall; whole; general"],
+    "enSource": "cedict",
+    "example": { "zh": "这个班的整体成绩很好。", "vi": "Thành tích tổng thể của lớp này rất tốt.", "en": "The overall results of this class are very good." }
+  },
+  {
+    "id": "L3-0894",
+    "vi": ["cả ngày", "suốt ngày"],
+    "viAliases": ["trọn ngày", "nguyên ngày"],
+    "en": ["all day long", "whole day"],
+    "enSource": "cedict",
+    "example": { "zh": "昨天下了整天的雨。", "vi": "Hôm qua mưa cả ngày.", "en": "It rained all day long yesterday." }
+  },
+  {
+    "id": "L3-0895",
+    "vi": ["tròn, chẵn", "đúng, trọn"],
+    "viAliases": ["trọn vẹn", "đầy đủ"],
+    "en": ["whole", "full"],
+    "enSource": "cedict",
+    "example": { "zh": "我等了整整两个小时。", "vi": "Tôi đã đợi tròn hai tiếng đồng hồ.", "en": "I waited a full two hours." }
+  },
+  {
+    "id": "L3-0896",
+    "vi": ["thẳng, ngay ngắn", "chính, chủ yếu", "đúng"],
+    "viAliases": ["ngay thẳng", "chính diện"],
+    "en": ["straight", "upright", "proper", "main"],
+    "enSource": "cedict",
+    "example": { "zh": "这张照片没有放正。", "vi": "Tấm ảnh này đặt chưa ngay ngắn.", "en": "This photo is not placed straight." }
+  },
+  {
+    "id": "L3-0897",
+    "vi": ["chính thức", "trang trọng"],
+    "viAliases": ["chính quy", "nghiêm túc"],
+    "en": ["formal; official"],
+    "enSource": "cedict",
+    "example": { "zh": "明天有一个正式的会议。", "vi": "Ngày mai có một cuộc họp chính thức.", "en": "There is a formal meeting tomorrow." }
+  },
+  {
+    "id": "L3-0898",
+    "vi": ["giấy chứng nhận", "chứng chỉ", "thẻ"],
+    "viAliases": ["thẻ chứng nhận"],
+    "en": ["certificate", "proof"],
+    "enSource": "cedict",
+    "example": { "zh": "请给我看你的学生证。", "vi": "Cho tôi xem thẻ học sinh của bạn.", "en": "Please show me your student ID." }
+  },
+  {
+    "id": "L3-0899",
+    "vi": ["giấy tờ tùy thân", "giấy chứng nhận"],
+    "viAliases": ["giấy tờ"],
+    "en": ["certificate; papers; credentials; document; ID"],
+    "enSource": "cedict",
+    "example": { "zh": "出门要带好自己的证件。", "vi": "Ra ngoài phải mang theo giấy tờ tùy thân của mình.", "en": "Take your ID documents with you when you go out." }
+  },
+  {
+    "id": "L3-0900",
+    "vi": ["chứng cứ", "bằng chứng"],
+    "viAliases": ["chứng cớ", "tang chứng"],
+    "en": ["evidence", "proof", "testimony"],
+    "enSource": "cedict",
+    "example": { "zh": "他说的话没有证据。", "vi": "Lời anh ấy nói không có bằng chứng.", "en": "What he said has no evidence." }
+  },
+  {
+    "id": "L3-0901",
+    "vi": ["chứng minh", "giấy chứng nhận"],
+    "viAliases": ["chứng thực", "chứng nhận"],
+    "en": ["to prove", "to testify", "proof", "certificate"],
+    "enSource": "cedict",
+    "example": { "zh": "这件事证明他是对的。", "vi": "Chuyện này chứng minh anh ấy đúng.", "en": "This matter proves that he was right." }
+  },
+  {
+    "id": "L3-0902",
+    "vi": ["cây (lượng từ cho bút, súng)", "bài (lượng từ cho bài hát)"],
+    "viAliases": ["chiếc", "cây"],
+    "en": ["classifier for rods such as pens and guns, for army divisions and for songs or compositions"],
+    "enSource": "cedict",
+    "example": { "zh": "我买了两支铅笔。", "vi": "Tôi đã mua hai cây bút chì.", "en": "I bought two pencils." }
+  },
+  {
+    "id": "L3-0903",
+    "vi": ["ủng hộ", "hỗ trợ"],
+    "viAliases": ["tán thành", "hậu thuẫn"],
+    "en": ["to support", "to back", "to be in favor of", "to stand by"],
+    "enSource": "cedict",
+    "example": { "zh": "家人一直支持我的决定。", "vi": "Người nhà luôn ủng hộ quyết định của tôi.", "en": "My family has always supported my decision." }
+  },
+  {
+    "id": "L3-0904",
+    "vi": ["chi trả", "thanh toán"],
+    "viAliases": ["trả tiền", "chi tiền"],
+    "en": ["to pay (money)"],
+    "enSource": "cedict",
+    "example": { "zh": "你可以用手机支付。", "vi": "Bạn có thể thanh toán bằng điện thoại.", "en": "You can pay with your phone." }
+  },
+  {
+    "id": "L3-0905",
+    "vi": ["con (lượng từ cho động vật)", "chiếc (lượng từ cho vật thành đôi)"],
+    "viAliases": ["con", "chiếc"],
+    "en": ["classifier for birds and certain animals, one of a pair, some utensils, vessels etc"],
+    "enSource": "cedict",
+    "example": { "zh": "我家有两只小猫。", "vi": "Nhà tôi có hai con mèo con.", "en": "My family has two kittens." }
+  },
+  {
+    "id": "L3-0906",
+    "vi": ["thẳng", "thẳng thắn", "cứ, liên tục"],
+    "viAliases": ["ngay thẳng", "thẳng tuột"],
+    "en": ["straight", "to straighten", "frank; straightforward", "(indicates continuing motion or action)"],
+    "enSource": "cedict",
+    "example": { "zh": "这条路又长又直。", "vi": "Con đường này vừa dài vừa thẳng.", "en": "This road is both long and straight." }
+  },
+  {
+    "id": "L3-0907",
+    "vi": ["phát trực tiếp", "livestream"],
+    "viAliases": ["truyền hình trực tiếp", "phát sóng trực tiếp"],
+    "en": ["to broadcast live", "live broadcast", "to livestream"],
+    "enSource": "cedict",
+    "example": { "zh": "今天晚上有比赛直播。", "vi": "Tối nay có phát trực tiếp trận đấu.", "en": "There is a live broadcast of the match tonight." }
+  },
+  {
+    "id": "L3-0908",
+    "vi": ["cho đến", "mãi đến"],
+    "viAliases": ["đến tận", "cho tới"],
+    "en": ["until"],
+    "enSource": "cedict",
+    "example": { "zh": "我昨天直到十点才回家。", "vi": "Hôm qua mãi đến mười giờ tôi mới về nhà.", "en": "Yesterday I did not go home until ten o'clock." }
+  },
+  {
+    "id": "L3-0909",
+    "vi": ["đáng giá", "trị giá"],
+    "viAliases": ["có giá trị", "đáng"],
+    "en": ["(to be) worth", "value"],
+    "enSource": "cedict",
+    "example": { "zh": "这个手机值三千块钱。", "vi": "Chiếc điện thoại này trị giá ba nghìn tệ.", "en": "This phone is worth three thousand yuan." }
+  },
+  {
+    "id": "L3-0910",
+    "vi": ["đáng", "xứng đáng"],
+    "viAliases": ["bõ công", "đáng giá"],
+    "en": ["to merit; to deserve; to be worth (doing sth)", "worth the money"],
+    "enSource": "cedict",
+    "example": { "zh": "这本书很值得一看。", "vi": "Cuốn sách này rất đáng đọc.", "en": "This book is well worth reading." }
+  },
+  {
+    "id": "L3-0911",
+    "vi": ["công nhân viên", "nhân viên"],
+    "viAliases": ["cán bộ công nhân viên", "người lao động"],
+    "en": ["employee; staff member; worker"],
+    "enSource": "cedict",
+    "example": { "zh": "公司的职工都很努力。", "vi": "Nhân viên của công ty đều rất chăm chỉ.", "en": "The company's employees are all very hardworking." }
+  },
+  {
+    "id": "L3-0912",
+    "vi": ["nghề nghiệp", "nghề"],
+    "viAliases": ["ngành nghề"],
+    "en": ["occupation; profession; vocation"],
+    "enSource": "cedict",
+    "example": { "zh": "你父亲的职业是什么？", "vi": "Nghề nghiệp của bố bạn là gì?", "en": "What is your father's occupation?" }
+  },
+  {
+    "id": "L3-0913",
+    "vi": ["đành phải", "chỉ còn cách"],
+    "viAliases": ["buộc phải", "đành"],
+    "en": ["to have to", "to be forced to"],
+    "enSource": "cedict",
+    "example": { "zh": "下雨了，我们只好回家。", "vi": "Trời mưa rồi, chúng tôi đành phải về nhà.", "en": "It started raining, so we had to go home." }
+  },
+  {
+    "id": "L3-0914",
+    "vi": ["chỉ là", "chẳng qua", "nhưng, có điều"],
+    "viAliases": ["chỉ có điều", "chỉ"],
+    "en": ["merely; only; just", "simply", "but; however"],
+    "enSource": "cedict",
+    "example": { "zh": "我只是想问一个问题。", "vi": "Tôi chỉ muốn hỏi một câu thôi.", "en": "I just want to ask a question." }
+  },
+  {
+    "id": "L3-0915",
+    "vi": ["chỉ có", "chỉ khi"],
+    "viAliases": ["duy chỉ có", "chỉ khi nào"],
+    "en": ["only have ...; there is only ...", "it is only if ... (that one can ...)"],
+    "enSource": "cedict",
+    "example": { "zh": "只有努力才能学好汉语。", "vi": "Chỉ khi chăm chỉ mới học giỏi tiếng Trung được.", "en": "Only by working hard can you learn Chinese well." }
+  },
+  {
+    "id": "L3-0916",
+    "vi": ["chỉ, trỏ", "ám chỉ"],
+    "viAliases": ["chỉ vào", "trỏ vào"],
+    "en": ["to point at or to", "to indicate or refer to"],
+    "enSource": "cedict",
+    "example": { "zh": "老师指着黑板上的字。", "vi": "Cô giáo chỉ vào chữ trên bảng đen.", "en": "The teacher pointed at the words on the blackboard." }
+  },
+  {
+    "id": "L3-0917",
+    "vi": ["chỉ ra", "nêu ra"],
+    "viAliases": ["vạch ra", "chỉ rõ"],
+    "en": ["to indicate", "to point out"],
+    "enSource": "cedict",
+    "example": { "zh": "老师指出了我的错误。", "vi": "Thầy giáo đã chỉ ra lỗi sai của tôi.", "en": "The teacher pointed out my mistake." }
+  },
+  {
+    "id": "L3-0918",
+    "vi": ["hướng dẫn", "chỉ đạo"],
+    "viAliases": ["chỉ dẫn", "dìu dắt"],
+    "en": ["to guide; to direct; to instruct"],
+    "enSource": "cedict",
+    "example": { "zh": "老师指导我们做作业。", "vi": "Thầy giáo hướng dẫn chúng tôi làm bài tập.", "en": "The teacher guides us in doing our homework." }
+  },
+  {
+    "id": "L3-0919",
+    "vi": ["đến nay", "cho đến nay"],
+    "viAliases": ["tới giờ", "đến giờ"],
+    "en": ["so far", "to this day", "until now"],
+    "enSource": "cedict",
+    "example": { "zh": "他至今还没有回来。", "vi": "Đến nay anh ấy vẫn chưa quay về.", "en": "He has not come back so far." }
+  },
+  {
+    "id": "L3-0920",
+    "vi": ["ít nhất", "tối thiểu"],
+    "viAliases": ["chí ít", "ít ra"],
+    "en": ["at least"],
+    "enSource": "cedict",
+    "example": { "zh": "每天至少要喝八杯水。", "vi": "Mỗi ngày ít nhất phải uống tám cốc nước.", "en": "You should drink at least eight glasses of water a day." }
+  },
+  {
+    "id": "L3-0921",
+    "vi": ["nguyện vọng", "chí nguyện"],
+    "viAliases": ["ước nguyện", "hoài bão"],
+    "en": ["aspiration", "ambition"],
+    "enSource": "cedict",
+    "example": { "zh": "他的志愿是当一名医生。", "vi": "Nguyện vọng của cậu ấy là làm một bác sĩ.", "en": "His aspiration is to become a doctor." }
+  },
+  {
+    "id": "L3-0922",
+    "vi": ["tình nguyện viên"],
+    "viAliases": ["người tình nguyện", "người tự nguyện"],
+    "en": ["volunteer"],
+    "enSource": "cedict",
+    "example": { "zh": "姐姐是一名志愿者。", "vi": "Chị gái tôi là một tình nguyện viên.", "en": "My older sister is a volunteer." }
+  },
+  {
+    "id": "L3-0923",
+    "vi": ["đặt ra", "vạch ra", "soạn thảo"],
+    "viAliases": ["lập ra", "xây dựng"],
+    "en": ["to draw up; to formulate"],
+    "enSource": "cedict",
+    "example": { "zh": "我们制定了一个学习计划。", "vi": "Chúng tôi đã vạch ra một kế hoạch học tập.", "en": "We drew up a study plan." }
+  },
+  {
+    "id": "L3-0924",
+    "vi": ["chế độ", "thể chế"],
+    "viAliases": ["quy chế"],
+    "en": ["system", "institution"],
+    "enSource": "cedict",
+    "example": { "zh": "学校有自己的管理制度。", "vi": "Nhà trường có chế độ quản lý của riêng mình.", "en": "The school has its own management system." }
+  },
+  {
+    "id": "L3-0925",
+    "vi": ["chế tạo", "sản xuất"],
+    "viAliases": ["làm ra", "chế"],
+    "en": ["to manufacture; to make"],
+    "enSource": "cedict",
+    "example": { "zh": "这些机器是中国制造的。", "vi": "Những chiếc máy này do Trung Quốc chế tạo.", "en": "These machines are made in China." }
+  },
+  {
+    "id": "L3-0926",
+    "vi": ["chế tác", "làm ra", "sản xuất"],
+    "viAliases": ["chế tạo", "làm"],
+    "en": ["to make; to manufacture"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈教我制作生日蛋糕。", "vi": "Mẹ dạy tôi làm bánh sinh nhật.", "en": "Mom taught me how to make a birthday cake." }
+  },
+  {
+    "id": "L3-0927",
+    "vi": ["miền trung", "phần giữa"],
+    "viAliases": ["vùng giữa", "khu vực trung tâm"],
+    "en": ["middle part; central section; central region"],
+    "enSource": "cedict",
+    "example": { "zh": "他家在中国的中部。", "vi": "Nhà anh ấy ở miền trung Trung Quốc.", "en": "His home is in the central part of China." }
+  },
+  {
+    "id": "L3-0928",
+    "vi": ["dân tộc Trung Hoa"],
+    "viAliases": ["dân tộc Trung Quốc", "người Trung Hoa"],
+    "en": ["the Chinese nation", "the Chinese people"],
+    "enSource": "cedict",
+    "example": { "zh": "中华民族有很长的历史。", "vi": "Dân tộc Trung Hoa có lịch sử rất dài.", "en": "The Chinese nation has a very long history." }
+  },
+  {
+    "id": "L3-0929",
+    "vi": ["cuối cùng", "rốt cuộc"],
+    "viAliases": ["sau cùng", "rốt cục"],
+    "en": ["at last", "in the end", "finally", "eventually"],
+    "enSource": "cedict",
+    "example": { "zh": "我终于找到我的手机了。", "vi": "Cuối cùng tôi cũng tìm thấy điện thoại của mình.", "en": "I finally found my phone." }
+  },
+  {
+    "id": "L3-0930",
+    "vi": ["đồng hồ", "chuông"],
+    "viAliases": ["đồng hồ treo tường", "cái chuông"],
+    "en": ["clock", "a (large) bell", "amount of time; o'clock"],
+    "enSource": "cedict",
+    "example": { "zh": "墙上的钟坏了。", "vi": "Chiếc đồng hồ trên tường hỏng rồi.", "en": "The clock on the wall is broken." }
+  },
+  {
+    "id": "L3-0931",
+    "vi": ["loại", "thứ", "kiểu"],
+    "viAliases": ["dạng", "chủng loại"],
+    "en": ["kind", "type", "classifier for types, kinds, sorts"],
+    "enSource": "cedict",
+    "example": { "zh": "商店里有很多种水果。", "vi": "Trong cửa hàng có rất nhiều loại trái cây.", "en": "There are many kinds of fruit in the shop." }
+  },
+  {
+    "id": "L3-0932",
+    "vi": ["hạt giống"],
+    "viAliases": ["hột giống", "giống"],
+    "en": ["seed"],
+    "enSource": "cedict",
+    "example": { "zh": "他把种子种在花园里。", "vi": "Anh ấy gieo hạt giống trong vườn hoa.", "en": "He planted the seeds in the garden." }
+  },
+  {
+    "id": "L3-0933",
+    "vi": ["trọng đại", "to lớn", "quan trọng"],
+    "viAliases": ["lớn lao", "hệ trọng"],
+    "en": ["great", "important", "major", "significant"],
+    "enSource": "cedict",
+    "example": { "zh": "这是一个重大的决定。", "vi": "Đây là một quyết định trọng đại.", "en": "This is a major decision." }
+  }
+]

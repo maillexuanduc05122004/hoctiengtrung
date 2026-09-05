@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L2-0716",
+    "vi": ["lớn lên", "trưởng thành"],
+    "viAliases": ["khôn lớn"],
+    "en": ["to grow up"],
+    "enSource": "cedict",
+    "example": { "zh": "我在北京长大。", "vi": "Tôi lớn lên ở Bắc Kinh.", "en": "I grew up in Beijing." }
+  },
+  {
+    "id": "L2-0717",
+    "vi": ["tìm ra", "tìm thấy"],
+    "viAliases": ["tìm được"],
+    "en": ["to find", "to search out"],
+    "enSource": "cedict",
+    "example": { "zh": "我找出了那本书。", "vi": "Tôi đã tìm ra quyển sách đó.", "en": "I found that book." }
+  },
+  {
+    "id": "L2-0718",
+    "vi": ["chăm sóc", "trông nom"],
+    "viAliases": ["săn sóc", "chăm nom"],
+    "en": ["to take care of", "to look after", "to attend to"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈在家照顾孩子。", "vi": "Mẹ ở nhà chăm sóc con.", "en": "Mom takes care of the children at home." }
+  },
+  {
+    "id": "L2-0719",
+    "vi": ["bức ảnh", "tấm hình"],
+    "viAliases": ["ảnh", "hình"],
+    "en": ["photograph"],
+    "enSource": "cedict",
+    "example": { "zh": "这张照片很好看。", "vi": "Bức ảnh này rất đẹp.", "en": "This photo looks very nice." }
+  },
+  {
+    "id": "L2-0720",
+    "vi": ["chụp ảnh"],
+    "viAliases": ["chụp hình"],
+    "en": ["to take a photograph"],
+    "enSource": "cedict",
+    "example": { "zh": "我们在公园照相。", "vi": "Chúng tôi chụp ảnh ở công viên.", "en": "We take photos in the park." }
+  },
+  {
+    "id": "L2-0721",
+    "vi": ["thế này", "đến thế"],
+    "viAliases": ["đến vậy", "như thế này"],
+    "en": ["so much", "this much", "this way", "like this"],
+    "enSource": "cedict",
+    "example": { "zh": "今天怎么这么冷？", "vi": "Hôm nay sao lạnh thế này?", "en": "Why is it so cold today?" }
+  },
+  {
+    "id": "L2-0722",
+    "vi": ["lúc này", "lúc đó"],
+    "viAliases": ["khi đó", "lúc bấy giờ"],
+    "en": ["at this time", "at this moment"],
+    "enSource": "cedict",
+    "example": { "zh": "这时候他还没回家。", "vi": "Lúc này anh ấy vẫn chưa về nhà.", "en": "At this moment he still hasn't come home." }
+  },
+  {
+    "id": "L2-0723",
+    "vi": ["như vậy", "như thế này"],
+    "viAliases": ["như thế", "kiểu này"],
+    "en": ["this way; like this; so", "this kind of; such"],
+    "enSource": "cedict",
+    "example": { "zh": "你不能这样做。", "vi": "Bạn không thể làm như vậy.", "en": "You can't do it this way." }
+  },
+  {
+    "id": "L2-0724",
+    "vi": ["thật sự", "đích thực"],
+    "viAliases": ["thực sự", "chân chính"],
+    "en": ["genuine; real; true"],
+    "enSource": "cedict",
+    "example": { "zh": "他是我真正的朋友。", "vi": "Anh ấy là người bạn thật sự của tôi.", "en": "He is my true friend." }
+  },
+  {
+    "id": "L2-0725",
+    "vi": ["bình thường"],
+    "viAliases": ["thông thường"],
+    "en": ["normal; regular"],
+    "enSource": "cedict",
+    "example": { "zh": "今天的天气很正常。", "vi": "Thời tiết hôm nay rất bình thường.", "en": "Today's weather is quite normal." }
+  },
+  {
+    "id": "L2-0726",
+    "vi": ["vừa hay", "vừa vặn", "vừa đúng lúc"],
+    "viAliases": ["đúng lúc", "vừa khéo"],
+    "en": ["just (in time)", "just right", "it just so happens that"],
+    "enSource": "cedict",
+    "example": { "zh": "我来的时候他正好在。", "vi": "Lúc tôi đến thì anh ấy vừa hay có ở đó.", "en": "When I came, he happened to be there." }
+  },
+  {
+    "id": "L2-0727",
+    "vi": ["đúng", "đúng đắn"],
+    "viAliases": ["chính xác"],
+    "en": ["correct; sound; right; proper"],
+    "enSource": "cedict",
+    "example": { "zh": "你的答案是正确的。", "vi": "Đáp án của bạn là đúng.", "en": "Your answer is correct." }
+  },
+  {
+    "id": "L2-0728",
+    "vi": ["chính là", "đúng là"],
+    "viAliases": ["chính thị"],
+    "en": ["is precisely"],
+    "enSource": "cedict",
+    "example": { "zh": "他正是我的老师。", "vi": "Anh ấy chính là thầy giáo của tôi.", "en": "He is precisely my teacher." }
+  },
+  {
+    "id": "L2-0729",
+    "vi": ["trực tiếp", "thẳng"],
+    "viAliases": ["thẳng thắn"],
+    "en": ["direct", "immediate", "straightforward"],
+    "enSource": "cedict",
+    "example": { "zh": "你可以直接问他。", "vi": "Bạn có thể hỏi trực tiếp anh ấy.", "en": "You can ask him directly." }
+  },
+  {
+    "id": "L2-0730",
+    "vi": ["chỉ", "chỉ có"],
+    "viAliases": ["chỉ mỗi", "duy chỉ"],
+    "en": ["only; merely; just"],
+    "enSource": "cedict",
+    "example": { "zh": "我只有一个哥哥。", "vi": "Tôi chỉ có một người anh trai.", "en": "I only have one older brother." }
+  },
+  {
+    "id": "L2-0731",
+    "vi": ["chỉ có thể", "đành phải"],
+    "viAliases": ["buộc phải", "chỉ đành"],
+    "en": ["can only", "to have no other choice"],
+    "enSource": "cedict",
+    "example": { "zh": "下雨了，我们只能在家。", "vi": "Trời mưa rồi, chúng tôi chỉ có thể ở nhà.", "en": "It is raining, so we can only stay at home." }
+  },
+  {
+    "id": "L2-0732",
+    "vi": ["chỉ cần", "miễn là"],
+    "viAliases": ["hễ", "chỉ cần là"],
+    "en": ["so long as; provided; if"],
+    "enSource": "cedict",
+    "example": { "zh": "只要你努力就会成功。", "vi": "Chỉ cần bạn cố gắng thì sẽ thành công.", "en": "As long as you work hard, you will succeed." }
+  },
+  {
+    "id": "L2-0733",
+    "vi": ["giấy"],
+    "viAliases": ["tờ giấy"],
+    "en": ["paper"],
+    "enSource": "cedict",
+    "example": { "zh": "请给我一张纸。", "vi": "Làm ơn đưa cho tôi một tờ giấy.", "en": "Please give me a piece of paper." }
+  },
+  {
+    "id": "L2-0734",
+    "vi": ["món ăn Trung Quốc", "cơm Trung Quốc"],
+    "viAliases": ["đồ ăn Trung Quốc", "món Trung"],
+    "en": ["Chinese meal; Chinese food"],
+    "enSource": "cedict",
+    "example": { "zh": "我很喜欢吃中餐。", "vi": "Tôi rất thích ăn món ăn Trung Quốc.", "en": "I really like eating Chinese food." }
+  },
+  {
+    "id": "L2-0735",
+    "vi": ["trung cấp"],
+    "viAliases": ["bậc trung cấp", "trình độ trung cấp"],
+    "en": ["middle level"],
+    "enSource": "cedict",
+    "example": { "zh": "他在学中级汉语。", "vi": "Anh ấy đang học tiếng Trung trung cấp.", "en": "He is studying intermediate Chinese." }
+  },
+  {
+    "id": "L2-0736",
+    "vi": ["tuổi trung niên", "trung niên"],
+    "viAliases": ["độ tuổi trung niên"],
+    "en": ["middle age"],
+    "enSource": "cedict",
+    "example": { "zh": "他是一个中年人。", "vi": "Ông ấy là một người trung niên.", "en": "He is a middle-aged man." }
+  },
+  {
+    "id": "L2-0737",
+    "vi": ["trường tiểu học và trung học", "trường phổ thông"],
+    "viAliases": ["bậc tiểu học và trung học"],
+    "en": ["middle and elementary school"],
+    "enSource": "cedict",
+    "example": { "zh": "这里有很多中小学。", "vi": "Ở đây có rất nhiều trường tiểu học và trung học.", "en": "There are many primary and secondary schools here." }
+  },
+  {
+    "id": "L2-0738",
+    "vi": ["trung tâm", "tâm điểm"],
+    "viAliases": ["chính giữa", "khu trung tâm"],
+    "en": ["center; heart; core"],
+    "enSource": "cedict",
+    "example": { "zh": "商店在城市中心。", "vi": "Cửa hàng ở trung tâm thành phố.", "en": "The shop is in the city center." }
+  },
+  {
+    "id": "L2-0739",
+    "vi": ["Đông y", "thầy thuốc Đông y"],
+    "viAliases": ["y học cổ truyền Trung Quốc", "bác sĩ Đông y"],
+    "en": ["traditional Chinese medical science", "a doctor trained in Chinese medicine"],
+    "enSource": "cedict",
+    "example": { "zh": "他去看中医了。", "vi": "Anh ấy đi khám Đông y rồi.", "en": "He went to see a Chinese medicine doctor." }
+  },
+  {
+    "id": "L2-0740",
+    "vi": ["trọng điểm", "điểm chính"],
+    "viAliases": ["trọng tâm", "điểm mấu chốt"],
+    "en": ["important point; main point; focus", "to focus on; to put the emphasis on"],
+    "enSource": "cedict",
+    "example": { "zh": "这是今天的重点。", "vi": "Đây là trọng điểm của hôm nay.", "en": "This is today's main point." }
+  },
+  {
+    "id": "L2-0741",
+    "vi": ["coi trọng", "xem trọng"],
+    "viAliases": ["chú trọng", "đề cao"],
+    "en": ["to attach importance to; to value"],
+    "enSource": "cedict",
+    "example": { "zh": "老师很重视学生的问题。", "vi": "Thầy giáo rất coi trọng câu hỏi của học sinh.", "en": "The teacher attaches great importance to students' questions." }
+  },
+  {
+    "id": "L2-0742",
+    "vi": ["tuần"],
+    "viAliases": ["tuần lễ"],
+    "en": ["week", "weekly"],
+    "enSource": "cedict",
+    "example": { "zh": "我一周去两次。", "vi": "Tôi đi hai lần một tuần.", "en": "I go twice a week." }
+  },
+  {
+    "id": "L2-0743",
+    "vi": ["cuối tuần"],
+    "viAliases": ["ngày cuối tuần"],
+    "en": ["weekend"],
+    "enSource": "cedict",
+    "example": { "zh": "周末我要去看电影。", "vi": "Cuối tuần tôi sẽ đi xem phim.", "en": "This weekend I am going to see a movie." }
+  },
+  {
+    "id": "L2-0744",
+    "vi": ["kỷ niệm tròn năm", "năm tròn"],
+    "viAliases": ["chu niên", "dịp kỷ niệm"],
+    "en": ["anniversary", "annual"],
+    "enSource": "cedict",
+    "example": { "zh": "今年是学校十周年。", "vi": "Năm nay là kỷ niệm tròn mười năm của trường.", "en": "This year is the school's tenth anniversary." }
+  },
+  {
+    "id": "L2-0745",
+    "vi": ["chủ nhân", "chủ nhà"],
+    "viAliases": ["người chủ", "ông chủ"],
+    "en": ["owner", "host", "master"],
+    "enSource": "cedict",
+    "example": { "zh": "这只猫的主人是谁？", "vi": "Chủ nhân của con mèo này là ai?", "en": "Who is the owner of this cat?" }
+  },
+  {
+    "id": "L2-0746",
+    "vi": ["chủ yếu", "chính"],
+    "viAliases": ["chính yếu", "chủ chốt"],
+    "en": ["main; principal; major; primary"],
+    "enSource": "cedict",
+    "example": { "zh": "这是我们主要的问题。", "vi": "Đây là vấn đề chủ yếu của chúng tôi.", "en": "This is our main problem." }
+  },
+  {
+    "id": "L2-0747",
+    "vi": ["nhà ở", "chỗ ở"],
+    "viAliases": ["nhà cửa"],
+    "en": ["housing"],
+    "enSource": "cedict",
+    "example": { "zh": "这里的住房很贵。", "vi": "Nhà ở chỗ này rất đắt.", "en": "Housing here is very expensive." }
+  },
+  {
+    "id": "L2-0748",
+    "vi": ["nằm viện", "nhập viện"],
+    "viAliases": ["vào viện", "ở lại bệnh viện"],
+    "en": ["to stay in hospital; to be hospitalized"],
+    "enSource": "cedict",
+    "example": { "zh": "爷爷住院三天了。", "vi": "Ông nội đã nằm viện ba ngày rồi.", "en": "Grandpa has been in the hospital for three days." }
+  },
+  {
+    "id": "L2-0749",
+    "vi": ["lắp", "đựng", "giả vờ"],
+    "viAliases": ["cài đặt", "đóng gói", "giả bộ"],
+    "en": ["to install", "to load", "to pack", "to pretend"],
+    "enSource": "cedict",
+    "example": { "zh": "我把书装进包里。", "vi": "Tôi cho sách vào trong túi.", "en": "I packed the books into the bag." }
+  },
+  {
+    "id": "L2-0750",
+    "vi": ["chính xác", "chuẩn xác"],
+    "viAliases": ["chuẩn", "đúng chuẩn"],
+    "en": ["accurate; exact; precise"],
+    "enSource": "cedict",
+    "example": { "zh": "他的回答很准确。", "vi": "Câu trả lời của anh ấy rất chính xác.", "en": "His answer is very accurate." }
+  },
+  {
+    "id": "L2-0751",
+    "vi": ["tự mình", "bản thân"],
+    "viAliases": ["chính mình", "của mình"],
+    "en": ["oneself", "one's own"],
+    "enSource": "cedict",
+    "example": { "zh": "这件事你自己做。", "vi": "Việc này bạn tự mình làm.", "en": "You do this yourself." }
+  },
+  {
+    "id": "L2-0752",
+    "vi": ["xe đạp"],
+    "viAliases": ["chiếc xe đạp"],
+    "en": ["bicycle; bike"],
+    "enSource": "cedict",
+    "example": { "zh": "我骑自行车去学校。", "vi": "Tôi đi xe đạp đến trường.", "en": "I ride a bicycle to school." }
+  },
+  {
+    "id": "L2-0753",
+    "vi": ["tự do", "sự tự do"],
+    "viAliases": ["quyền tự do"],
+    "en": ["freedom; liberty", "free; unrestricted"],
+    "enSource": "cedict",
+    "example": { "zh": "我们都想要自由。", "vi": "Chúng tôi đều muốn tự do.", "en": "We all want freedom." }
+  },
+  {
+    "id": "L2-0754",
+    "vi": ["từ điển chữ Hán", "từ điển"],
+    "viAliases": ["tự điển", "quyển từ điển"],
+    "en": ["Chinese character dictionary", "dictionary"],
+    "enSource": "cedict",
+    "example": { "zh": "我买了一本字典。", "vi": "Tôi đã mua một quyển từ điển.", "en": "I bought a dictionary." }
+  },
+  {
+    "id": "L2-0755",
+    "vi": ["đi qua", "đi ngang qua"],
+    "viAliases": ["băng qua", "bước qua"],
+    "en": ["to walk past", "to pass by"],
+    "enSource": "cedict",
+    "example": { "zh": "我每天走过这条路。", "vi": "Ngày nào tôi cũng đi qua con đường này.", "en": "I walk past this road every day." }
+  },
+  {
+    "id": "L2-0756",
+    "vi": ["bước vào", "đi vào"],
+    "viAliases": ["tiến vào"],
+    "en": ["to enter; to step into"],
+    "enSource": "cedict",
+    "example": { "zh": "老师走进教室了。", "vi": "Thầy giáo đã bước vào lớp học.", "en": "The teacher walked into the classroom." }
+  },
+  {
+    "id": "L2-0757",
+    "vi": ["đi chỗ khác", "tránh ra"],
+    "viAliases": ["rời đi", "dẹp ra"],
+    "en": ["to leave; to walk away", "to move aside"],
+    "enSource": "cedict",
+    "example": { "zh": "请你走开一点。", "vi": "Bạn tránh ra một chút nhé.", "en": "Please move aside a little." }
+  },
+  {
+    "id": "L2-0758",
+    "vi": ["thuê", "cho thuê"],
+    "viAliases": ["mướn", "cho mướn"],
+    "en": ["to rent", "to hire", "to rent out"],
+    "enSource": "cedict",
+    "example": { "zh": "我们租了一辆车。", "vi": "Chúng tôi đã thuê một chiếc xe.", "en": "We rented a car." }
+  },
+  {
+    "id": "L2-0759",
+    "vi": ["nhóm", "tổ", "lập nhóm"],
+    "viAliases": ["đội", "chia nhóm"],
+    "en": ["group", "team", "to form", "to organize"],
+    "enSource": "cedict",
+    "example": { "zh": "我们班分成四个组。", "vi": "Lớp chúng tôi chia thành bốn nhóm.", "en": "Our class is divided into four groups." }
+  },
+  {
+    "id": "L2-0760",
+    "vi": ["tạo thành", "hợp thành"],
+    "viAliases": ["cấu thành", "lập thành"],
+    "en": ["to form", "to make up", "to constitute"],
+    "enSource": "cedict",
+    "example": { "zh": "这个队由五个人组成。", "vi": "Đội này do năm người tạo thành.", "en": "This team is made up of five people." }
+  }
+]

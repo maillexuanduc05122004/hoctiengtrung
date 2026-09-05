@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L2-0041",
+    "vi": ["khác nhau", "không giống nhau"],
+    "viAliases": ["khác", "khác biệt"],
+    "en": ["different", "distinct", "not the same"],
+    "enSource": "cedict",
+    "example": { "zh": "我们的爱好不同。", "vi": "Sở thích của chúng tôi khác nhau.", "en": "Our hobbies are different." }
+  },
+  {
+    "id": "L2-0042",
+    "vi": ["không được", "không ổn"],
+    "viAliases": ["không xong", "chẳng được"],
+    "en": ["won't do", "be out of the question", "be no good"],
+    "enSource": "cedict",
+    "example": { "zh": "这样做不行。", "vi": "Làm như vậy không được.", "en": "Doing it this way won't do." }
+  },
+  {
+    "id": "L2-0043",
+    "vi": ["không nhất định", "chưa chắc"],
+    "viAliases": ["chưa chắc đã", "không hẳn"],
+    "en": ["not necessarily", "maybe"],
+    "enSource": "cedict",
+    "example": { "zh": "他明天不一定来。", "vi": "Ngày mai anh ấy chưa chắc đã đến.", "en": "He won't necessarily come tomorrow." }
+  },
+  {
+    "id": "L2-0044",
+    "vi": ["chẳng mấy chốc", "một lát sau"],
+    "viAliases": ["chốc lát sau", "không lâu sau"],
+    "en": ["in a moment", "after a short while", "before long"],
+    "enSource": "written",
+    "example": { "zh": "不一会儿他就回来了。", "vi": "Chẳng mấy chốc anh ấy đã quay về.", "en": "Before long he came back." }
+  },
+  {
+    "id": "L2-0045",
+    "vi": ["phần", "bộ phận"],
+    "viAliases": ["một phần"],
+    "en": ["part; portion; piece"],
+    "enSource": "cedict",
+    "example": { "zh": "这部分工作很重要。", "vi": "Phần công việc này rất quan trọng.", "en": "This part of the work is very important." }
+  },
+  {
+    "id": "L2-0046",
+    "vi": ["mới", "vừa mới"],
+    "viAliases": ["thì mới", "mới vừa"],
+    "en": ["then and only then", "just now", "(before an expression of quantity) only"],
+    "enSource": "cedict",
+    "example": { "zh": "他八点才到家。", "vi": "Tám giờ anh ấy mới về đến nhà.", "en": "He only got home at eight." }
+  },
+  {
+    "id": "L2-0047",
+    "vi": ["thực đơn"],
+    "viAliases": ["menu", "tờ thực đơn"],
+    "en": ["menu"],
+    "enSource": "cedict",
+    "example": { "zh": "请给我看看菜单。", "vi": "Xin cho tôi xem thực đơn.", "en": "Please let me have a look at the menu." }
+  },
+  {
+    "id": "L2-0048",
+    "vi": ["tham quan"],
+    "viAliases": ["thăm quan", "đi thăm"],
+    "en": ["to visit (a place, e.g. museum or factory)", "to tour", "to look around"],
+    "enSource": "cedict",
+    "example": { "zh": "我们明天去参观学校。", "vi": "Ngày mai chúng tôi đi tham quan trường học.", "en": "Tomorrow we are going to visit the school." }
+  },
+  {
+    "id": "L2-0049",
+    "vi": ["tham gia", "tham dự"],
+    "viAliases": ["dự", "gia nhập"],
+    "en": ["to participate", "to take part", "to join"],
+    "enSource": "cedict",
+    "example": { "zh": "我想参加这个活动。", "vi": "Tôi muốn tham gia hoạt động này.", "en": "I want to take part in this activity." }
+  },
+  {
+    "id": "L2-0050",
+    "vi": ["cỏ"],
+    "viAliases": [],
+    "en": ["grass", "straw"],
+    "enSource": "cedict",
+    "example": { "zh": "公园里的草很绿。", "vi": "Cỏ trong công viên rất xanh.", "en": "The grass in the park is very green." }
+  },
+  {
+    "id": "L2-0051",
+    "vi": ["bãi cỏ", "thảm cỏ"],
+    "viAliases": ["sân cỏ", "đồng cỏ"],
+    "en": ["lawn", "meadow", "turf"],
+    "enSource": "cedict",
+    "example": { "zh": "孩子们在草地上玩。", "vi": "Bọn trẻ chơi trên bãi cỏ.", "en": "The children are playing on the lawn." }
+  },
+  {
+    "id": "L2-0052",
+    "vi": ["tầng", "lớp"],
+    "viAliases": [],
+    "en": ["classifier for layers", "layer; stratum", "floor (of a building); story"],
+    "enSource": "cedict",
+    "example": { "zh": "我家住在三层。", "vi": "Nhà tôi ở tầng ba.", "en": "My home is on the third floor." }
+  },
+  {
+    "id": "L2-0053",
+    "vi": ["tra", "kiểm tra"],
+    "viAliases": ["tra cứu", "điều tra"],
+    "en": ["to check", "to investigate", "to examine", "to look up"],
+    "enSource": "cedict",
+    "example": { "zh": "我要查一个新词。", "vi": "Tôi muốn tra một từ mới.", "en": "I want to look up a new word." }
+  },
+  {
+    "id": "L2-0054",
+    "vi": ["gần như", "xấp xỉ", "gần giống nhau"],
+    "viAliases": ["suýt soát", "gần bằng"],
+    "en": ["almost", "nearly", "more or less", "about the same"],
+    "enSource": "cedict",
+    "example": { "zh": "他们两个人差不多高。", "vi": "Hai người họ cao gần như nhau.", "en": "The two of them are about the same height." }
+  },
+  {
+    "id": "L2-0055",
+    "vi": ["dài"],
+    "viAliases": [],
+    "en": ["long"],
+    "enSource": "cedict",
+    "example": { "zh": "他的头发很长。", "vi": "Tóc của anh ấy rất dài.", "en": "His hair is very long." }
+  },
+  {
+    "id": "L2-0056",
+    "vi": ["thường gặp", "phổ biến"],
+    "viAliases": ["hay gặp", "thường thấy"],
+    "en": ["commonly seen", "common"],
+    "enSource": "cedict",
+    "example": { "zh": "这是很常见的问题。", "vi": "Đây là vấn đề rất thường gặp.", "en": "This is a very common problem." }
+  },
+  {
+    "id": "L2-0057",
+    "vi": ["thường dùng", "hay dùng"],
+    "viAliases": ["thông dụng", "dùng nhiều"],
+    "en": ["in common usage"],
+    "enSource": "cedict",
+    "example": { "zh": "这句话在中国很常用。", "vi": "Câu này ở Trung Quốc rất thường dùng.", "en": "This sentence is in common usage in China." }
+  },
+  {
+    "id": "L2-0058",
+    "vi": ["trận", "buổi"],
+    "viAliases": ["cuộc", "cơn"],
+    "en": ["classifier for sporting or recreational activities", "classifier for number of exams"],
+    "enSource": "cedict",
+    "example": { "zh": "昨天我们看了一场比赛。", "vi": "Hôm qua chúng tôi đã xem một trận đấu.", "en": "Yesterday we watched a match." }
+  },
+  {
+    "id": "L2-0059",
+    "vi": ["vượt quá", "vượt"],
+    "viAliases": ["vượt qua", "vượt hơn"],
+    "en": ["to surpass", "to exceed", "to outstrip"],
+    "enSource": "cedict",
+    "example": { "zh": "他的成绩超过了我。", "vi": "Thành tích của anh ấy đã vượt qua tôi.", "en": "His grades have surpassed mine." }
+  },
+  {
+    "id": "L2-0060",
+    "vi": ["siêu thị"],
+    "viAliases": [],
+    "en": ["supermarket"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈去超市买东西。", "vi": "Mẹ đi siêu thị mua đồ.", "en": "Mom is going to the supermarket to buy things." }
+  },
+  {
+    "id": "L2-0061",
+    "vi": ["xe cộ", "phương tiện giao thông"],
+    "viAliases": ["xe"],
+    "en": ["vehicle"],
+    "enSource": "cedict",
+    "example": { "zh": "路上的车辆很多。", "vi": "Trên đường có rất nhiều xe cộ.", "en": "There are a lot of vehicles on the road." }
+  },
+  {
+    "id": "L2-0062",
+    "vi": ["gọi là", "cân"],
+    "viAliases": ["gọi", "xưng"],
+    "en": ["to name", "to state", "to weigh"],
+    "enSource": "cedict",
+    "example": { "zh": "大家都称他老师。", "vi": "Mọi người đều gọi anh ấy là thầy giáo.", "en": "Everybody calls him teacher." }
+  },
+  {
+    "id": "L2-0063",
+    "vi": ["thành", "trở thành"],
+    "viAliases": ["biến thành"],
+    "en": ["to become", "to turn into", "to succeed", "to accomplish"],
+    "enSource": "cedict",
+    "example": { "zh": "他成了一名医生。", "vi": "Anh ấy đã trở thành một bác sĩ.", "en": "He became a doctor." }
+  },
+  {
+    "id": "L2-0064",
+    "vi": ["thành tích", "điểm số", "kết quả"],
+    "viAliases": ["kết quả học tập"],
+    "en": ["achievement", "performance records", "grades"],
+    "enSource": "cedict",
+    "example": { "zh": "我这次考试成绩很好。", "vi": "Thành tích thi lần này của tôi rất tốt.", "en": "My grades on this exam are very good." }
+  },
+  {
+    "id": "L2-0065",
+    "vi": ["trở thành"],
+    "viAliases": ["trở nên", "thành"],
+    "en": ["to become; to turn into"],
+    "enSource": "cedict",
+    "example": { "zh": "她想成为一名老师。", "vi": "Cô ấy muốn trở thành một giáo viên.", "en": "She wants to become a teacher." }
+  },
+  {
+    "id": "L2-0066",
+    "vi": ["lặp lại", "nhắc lại"],
+    "viAliases": ["trùng lặp", "lặp"],
+    "en": ["to repeat", "to duplicate"],
+    "enSource": "cedict",
+    "example": { "zh": "请你重复一下这句话。", "vi": "Xin bạn nhắc lại câu này một chút.", "en": "Please repeat this sentence." }
+  },
+  {
+    "id": "L2-0067",
+    "vi": ["lại", "lại từ đầu"],
+    "viAliases": ["làm lại từ đầu", "một lần nữa"],
+    "en": ["again; once more; re-"],
+    "enSource": "cedict",
+    "example": { "zh": "我们重新开始吧。", "vi": "Chúng ta bắt đầu lại từ đầu nhé.", "en": "Let us start over again." }
+  },
+  {
+    "id": "L2-0068",
+    "vi": ["xuất phát", "lên đường"],
+    "viAliases": ["khởi hành", "ra đi"],
+    "en": ["to set off", "to start (on a journey)"],
+    "enSource": "cedict",
+    "example": { "zh": "我们明天早上出发。", "vi": "Sáng mai chúng tôi xuất phát.", "en": "We set off tomorrow morning." }
+  },
+  {
+    "id": "L2-0069",
+    "vi": ["ra nước ngoài", "đi nước ngoài"],
+    "viAliases": ["xuất ngoại"],
+    "en": ["to go abroad; to leave the country"],
+    "enSource": "cedict",
+    "example": { "zh": "他想出国学习。", "vi": "Anh ấy muốn ra nước ngoài học.", "en": "He wants to go abroad to study." }
+  },
+  {
+    "id": "L2-0070",
+    "vi": ["lối ra", "cửa ra"],
+    "viAliases": ["chỗ ra"],
+    "en": ["an exit"],
+    "enSource": "cedict",
+    "example": { "zh": "商店的出口在那边。", "vi": "Lối ra của cửa hàng ở đằng kia.", "en": "The exit of the shop is over there." }
+  },
+  {
+    "id": "L2-0071",
+    "vi": ["ra ngoài", "ra khỏi nhà"],
+    "viAliases": ["đi ra ngoài", "rời khỏi nhà"],
+    "en": ["to go out", "to leave home"],
+    "enSource": "cedict",
+    "example": { "zh": "爸爸每天七点出门。", "vi": "Bố ra khỏi nhà lúc bảy giờ mỗi ngày.", "en": "Dad leaves home at seven every day." }
+  },
+  {
+    "id": "L2-0072",
+    "vi": ["sinh ra", "chào đời"],
+    "viAliases": ["ra đời", "được sinh ra"],
+    "en": ["to be born"],
+    "enSource": "cedict",
+    "example": { "zh": "他出生在一个小城市。", "vi": "Anh ấy sinh ra ở một thành phố nhỏ.", "en": "He was born in a small city." }
+  },
+  {
+    "id": "L2-0073",
+    "vi": ["xuất hiện", "hiện ra"],
+    "viAliases": ["hiện lên", "nảy sinh"],
+    "en": ["to appear", "to emerge", "to show up"],
+    "enSource": "cedict",
+    "example": { "zh": "他突然出现在门口。", "vi": "Anh ấy bỗng nhiên xuất hiện ở cửa.", "en": "He suddenly appeared at the door." }
+  },
+  {
+    "id": "L2-0074",
+    "vi": ["xuất viện", "ra viện"],
+    "viAliases": ["rời bệnh viện"],
+    "en": ["to leave hospital", "to be discharged from hospital"],
+    "enSource": "cedict",
+    "example": { "zh": "奶奶下星期可以出院。", "vi": "Tuần sau bà có thể xuất viện.", "en": "Grandma can leave the hospital next week." }
+  },
+  {
+    "id": "L2-0075",
+    "vi": ["cho thuê"],
+    "viAliases": ["cho mướn"],
+    "en": ["to rent"],
+    "enSource": "cedict",
+    "example": { "zh": "这个房子出租吗？", "vi": "Căn nhà này có cho thuê không?", "en": "Is this house for rent?" }
+  },
+  {
+    "id": "L2-0076",
+    "vi": ["xe taxi"],
+    "viAliases": ["taxi", "xe tắc xi"],
+    "en": ["taxi"],
+    "enSource": "cedict",
+    "example": { "zh": "我们坐出租车去机场。", "vi": "Chúng tôi đi taxi đến sân bay.", "en": "We are taking a taxi to the airport." }
+  },
+  {
+    "id": "L2-0077",
+    "vi": ["thuyền", "tàu thủy"],
+    "viAliases": ["tàu", "con thuyền"],
+    "en": ["boat", "ship", "vessel"],
+    "enSource": "cedict",
+    "example": { "zh": "河上有一条小船。", "vi": "Trên sông có một chiếc thuyền nhỏ.", "en": "There is a small boat on the river." }
+  },
+  {
+    "id": "L2-0078",
+    "vi": ["thổi"],
+    "viAliases": [],
+    "en": ["to blow", "to play a wind instrument"],
+    "enSource": "cedict",
+    "example": { "zh": "今天的风吹得很大。", "vi": "Hôm nay gió thổi rất mạnh.", "en": "The wind is blowing hard today." }
+  },
+  {
+    "id": "L2-0079",
+    "vi": ["Tết Nguyên Đán", "Tết"],
+    "viAliases": ["tết cổ truyền Trung Quốc", "lễ hội mùa xuân"],
+    "en": ["Spring Festival (Chinese New Year)"],
+    "enSource": "cedict",
+    "example": { "zh": "春节我要回家看父母。", "vi": "Tết Nguyên Đán tôi phải về nhà thăm bố mẹ.", "en": "At Spring Festival I will go home to see my parents." }
+  },
+  {
+    "id": "L2-0080",
+    "vi": ["mùa xuân"],
+    "viAliases": ["xuân"],
+    "en": ["spring (season)"],
+    "enSource": "cedict",
+    "example": { "zh": "春天的花很漂亮。", "vi": "Hoa mùa xuân rất đẹp.", "en": "The flowers in spring are very beautiful." }
+  },
+  {
+    "id": "L2-0081",
+    "vi": ["từ", "từ ngữ"],
+    "viAliases": [],
+    "en": ["word", "statement; speech; lyrics"],
+    "enSource": "cedict",
+    "example": { "zh": "这个词我不认识。", "vi": "Từ này tôi không biết.", "en": "I do not know this word." }
+  },
+  {
+    "id": "L2-0082",
+    "vi": ["từ điển"],
+    "viAliases": ["cuốn từ điển", "quyển từ điển"],
+    "en": ["dictionary"],
+    "enSource": "cedict",
+    "example": { "zh": "我买了一本新词典。", "vi": "Tôi đã mua một quyển từ điển mới.", "en": "I bought a new dictionary." }
+  },
+  {
+    "id": "L2-0083",
+    "vi": ["từ ngữ", "từ vựng"],
+    "viAliases": ["cụm từ"],
+    "en": ["word", "term", "expression"],
+    "enSource": "cedict",
+    "example": { "zh": "老师让我们记这些词语。", "vi": "Cô giáo bảo chúng tôi nhớ những từ ngữ này.", "en": "The teacher asks us to memorize these words." }
+  },
+  {
+    "id": "L2-0084",
+    "vi": ["từ nhỏ", "từ bé"],
+    "viAliases": ["từ thuở nhỏ", "ngay từ nhỏ"],
+    "en": ["from childhood; from a young age"],
+    "enSource": "cedict",
+    "example": { "zh": "我从小就喜欢音乐。", "vi": "Tôi từ nhỏ đã thích âm nhạc.", "en": "I have loved music since childhood." }
+  },
+  {
+    "id": "L2-0085",
+    "vi": ["đồng ý", "nhận lời", "đáp lại"],
+    "viAliases": ["hứa", "ưng thuận", "trả lời"],
+    "en": ["to agree; to accept; to promise", "to answer; to respond"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈答应带我去玩。", "vi": "Mẹ đồng ý dẫn tôi đi chơi.", "en": "Mom agreed to take me out to play." }
+  }
+]

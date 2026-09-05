@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L1-0496",
+    "vi": ["trái", "bên trái"],
+    "viAliases": ["phía trái", "bên tay trái"],
+    "en": ["left"],
+    "enSource": "cedict",
+    "example": { "zh": "我用左手写字。", "vi": "Tôi viết chữ bằng tay trái.", "en": "I write with my left hand." }
+  },
+  {
+    "id": "L1-0497",
+    "vi": ["bên trái", "phía bên trái"],
+    "viAliases": ["phía trái", "bên tay trái"],
+    "en": ["left", "the left side"],
+    "enSource": "cedict",
+    "example": { "zh": "书店在银行的左边。", "vi": "Hiệu sách ở bên trái ngân hàng.", "en": "The bookshop is on the left side of the bank." }
+  },
+  {
+    "id": "L1-0498",
+    "vi": ["ngồi", "đi (xe, tàu, máy bay)"],
+    "viAliases": ["đi xe", "ngồi xe"],
+    "en": ["to sit", "to take a seat", "to take (a bus, airplane etc)"],
+    "enSource": "cedict",
+    "example": { "zh": "我们坐飞机去北京。", "vi": "Chúng tôi đi Bắc Kinh bằng máy bay.", "en": "We are going to Beijing by plane." }
+  },
+  {
+    "id": "L1-0499",
+    "vi": ["ngồi xuống"],
+    "viAliases": ["an tọa"],
+    "en": ["to sit down"],
+    "enSource": "cedict",
+    "example": { "zh": "请你坐下休息一会儿。", "vi": "Mời bạn ngồi xuống nghỉ một lát.", "en": "Please sit down and rest for a while." }
+  },
+  {
+    "id": "L1-0500",
+    "vi": ["làm", "chế tạo"],
+    "viAliases": ["thực hiện", "tạo ra"],
+    "en": ["to make; to produce", "to do; to engage in", "to write; to compose"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈在家里做饭。", "vi": "Mẹ nấu cơm ở nhà.", "en": "Mom is cooking at home." }
+  },
+  {
+    "id": "L2-0001",
+    "vi": ["trợ từ ngữ khí cuối câu", "à", "đấy"],
+    "viAliases": ["a", "nhé"],
+    "en": ["modal particle ending sentence, showing affirmation, approval, or consent"],
+    "enSource": "cedict",
+    "example": { "zh": "这个菜真好吃啊！", "vi": "Món này ngon thật đấy!", "en": "This dish is really delicious!" }
+  },
+  {
+    "id": "L2-0002",
+    "vi": ["tình yêu", "tình yêu nam nữ"],
+    "viAliases": ["tình yêu đôi lứa", "tình ái", "chuyện tình cảm"],
+    "en": ["romance; love (romantic)"],
+    "enSource": "cedict",
+    "example": { "zh": "这是一个爱情故事。", "vi": "Đây là một câu chuyện tình yêu.", "en": "This is a love story." }
+  },
+  {
+    "id": "L2-0003",
+    "vi": ["vợ hoặc chồng", "bạn đời"],
+    "viAliases": ["vợ", "chồng", "người bạn đời"],
+    "en": ["spouse (PRC)", "lover (non-PRC)"],
+    "enSource": "cedict",
+    "example": { "zh": "他的爱人是老师。", "vi": "Vợ anh ấy là giáo viên.", "en": "His wife is a teacher." }
+  },
+  {
+    "id": "L2-0004",
+    "vi": ["yên tĩnh", "im lặng"],
+    "viAliases": ["tĩnh lặng", "yên lặng", "trật tự"],
+    "en": ["quiet", "peaceful", "calm"],
+    "enSource": "cedict",
+    "example": { "zh": "图书馆里很安静。", "vi": "Trong thư viện rất yên tĩnh.", "en": "It is very quiet in the library." }
+  },
+  {
+    "id": "L2-0005",
+    "vi": ["an toàn", "sự an toàn"],
+    "viAliases": ["an ninh"],
+    "en": ["safe; secure", "safety; security"],
+    "enSource": "cedict",
+    "example": { "zh": "晚上一个人回家不安全。", "vi": "Buổi tối về nhà một mình thì không an toàn.", "en": "Going home alone at night is not safe." }
+  },
+  {
+    "id": "L2-0006",
+    "vi": ["màu trắng"],
+    "viAliases": ["trắng", "sắc trắng"],
+    "en": ["white"],
+    "enSource": "cedict",
+    "example": { "zh": "我喜欢白色的衣服。", "vi": "Tôi thích quần áo màu trắng.", "en": "I like white clothes." }
+  },
+  {
+    "id": "L2-0007",
+    "vi": ["lớp trưởng", "tiểu đội trưởng"],
+    "viAliases": ["trưởng lớp", "đội trưởng", "tổ trưởng"],
+    "en": ["class monitor", "squad leader", "team leader"],
+    "enSource": "cedict",
+    "example": { "zh": "他是我们班的班长。", "vi": "Cậu ấy là lớp trưởng lớp chúng tôi.", "en": "He is the class monitor of our class." }
+  },
+  {
+    "id": "L2-0008",
+    "vi": ["làm", "xử lý", "tổ chức"],
+    "viAliases": ["lo liệu", "giải quyết", "thu xếp"],
+    "en": ["to take care of (a matter); to deal with (a task, procedure etc); to organize (an event)", "to establish; to set up; to manage; to run (an enterprise)"],
+    "enSource": "cedict",
+    "example": { "zh": "我要去银行办一件事。", "vi": "Tôi phải đến ngân hàng làm một việc.", "en": "I have to go to the bank to take care of something." }
+  },
+  {
+    "id": "L2-0009",
+    "vi": ["cách", "biện pháp"],
+    "viAliases": ["phương pháp", "cách làm", "giải pháp"],
+    "en": ["way of handling sth; means; measure; (practical) solution to a problem"],
+    "enSource": "cedict",
+    "example": { "zh": "你有什么好办法吗？", "vi": "Bạn có cách nào hay không?", "en": "Do you have a good solution?" }
+  },
+  {
+    "id": "L2-0010",
+    "vi": ["văn phòng", "phòng làm việc"],
+    "viAliases": ["phòng hành chính"],
+    "en": ["office; business premises"],
+    "enSource": "cedict",
+    "example": { "zh": "老师在办公室里工作。", "vi": "Thầy giáo làm việc trong văn phòng.", "en": "The teacher is working in the office." }
+  },
+  {
+    "id": "L2-0011",
+    "vi": ["nửa đêm"],
+    "viAliases": ["giữa đêm", "đêm khuya", "khuya"],
+    "en": ["midnight", "in the middle of the night"],
+    "enSource": "cedict",
+    "example": { "zh": "他半夜还在看书。", "vi": "Nửa đêm anh ấy vẫn còn đọc sách.", "en": "He was still reading at midnight." }
+  },
+  {
+    "id": "L2-0012",
+    "vi": ["giúp đỡ", "giúp"],
+    "viAliases": ["hỗ trợ", "giúp sức", "trợ giúp"],
+    "en": ["to help; to assist"],
+    "enSource": "cedict",
+    "example": { "zh": "谢谢你帮助我学习汉语。", "vi": "Cảm ơn bạn đã giúp mình học tiếng Trung.", "en": "Thank you for helping me study Chinese." }
+  },
+  {
+    "id": "L2-0013",
+    "vi": ["no", "no bụng"],
+    "viAliases": ["đã no", "no nê"],
+    "en": ["to eat till full", "satisfied"],
+    "enSource": "cedict",
+    "example": { "zh": "我吃饱了，不想吃了。", "vi": "Tôi ăn no rồi, không muốn ăn nữa.", "en": "I am full, I do not want to eat any more." }
+  },
+  {
+    "id": "L2-0014",
+    "vi": ["đăng ký", "ghi danh"],
+    "viAliases": ["đăng kí", "ghi tên"],
+    "en": ["to sign up", "to register", "to enroll"],
+    "enSource": "cedict",
+    "example": { "zh": "我想报名参加汉语考试。", "vi": "Tôi muốn đăng ký tham gia kỳ thi tiếng Trung.", "en": "I want to sign up for the Chinese exam." }
+  },
+  {
+    "id": "L2-0015",
+    "vi": ["báo", "tờ báo"],
+    "viAliases": ["nhật báo", "báo giấy"],
+    "en": ["newspaper"],
+    "enSource": "cedict",
+    "example": { "zh": "爷爷每天早上看报纸。", "vi": "Ông nội đọc báo mỗi buổi sáng.", "en": "Grandpa reads the newspaper every morning." }
+  },
+  {
+    "id": "L2-0016",
+    "vi": ["phương Bắc", "miền Bắc"],
+    "viAliases": ["phía bắc", "hướng bắc", "phương bắc"],
+    "en": ["north", "the northern part a country"],
+    "enSource": "cedict",
+    "example": { "zh": "中国北方的冬天很冷。", "vi": "Mùa đông ở miền Bắc Trung Quốc rất lạnh.", "en": "Winter in the north of China is very cold." }
+  },
+  {
+    "id": "L2-0017",
+    "vi": ["học thuộc lòng", "đọc thuộc lòng"],
+    "viAliases": ["thuộc lòng", "học thuộc", "đọc thuộc"],
+    "en": ["to learn by heart", "to recite from memory"],
+    "enSource": "cedict",
+    "example": { "zh": "我要背这篇课文。", "vi": "Tôi phải học thuộc bài khóa này.", "en": "I have to learn this text by heart." }
+  },
+  {
+    "id": "L2-0018",
+    "vi": ["ví dụ như", "chẳng hạn như"],
+    "viAliases": ["ví dụ", "chẳng hạn", "như là"],
+    "en": ["for example; for instance; such as"],
+    "enSource": "cedict",
+    "example": { "zh": "我喜欢很多运动，比如游泳。", "vi": "Tôi thích nhiều môn thể thao, ví dụ như bơi lội.", "en": "I like many sports, for example swimming." }
+  },
+  {
+    "id": "L2-0019",
+    "vi": ["ví dụ như là", "chẳng hạn như"],
+    "viAliases": ["ví dụ", "chẳng hạn", "nói ví dụ"],
+    "en": ["for example"],
+    "enSource": "cedict",
+    "example": { "zh": "他会做很多菜，比如说饺子。", "vi": "Anh ấy biết nấu nhiều món, ví dụ như sủi cảo.", "en": "He can cook many dishes, for example dumplings." }
+  },
+  {
+    "id": "L2-0020",
+    "vi": ["bút", "cây bút", "khoản (tiền)"],
+    "viAliases": ["cây viết"],
+    "en": ["writing brush; writing implement (pen, pencil etc)", "(classifier) sum of money; financial transaction; piece of business"],
+    "enSource": "cedict",
+    "example": { "zh": "他送给我一支笔。", "vi": "Anh ấy tặng tôi một cây bút.", "en": "He gave me a pen." }
+  },
+  {
+    "id": "L2-0021",
+    "vi": ["ghi chép", "bài ghi chép"],
+    "viAliases": ["bút ký", "ghi chú"],
+    "en": ["notes"],
+    "enSource": "cedict",
+    "example": { "zh": "他的笔记写得很清楚。", "vi": "Ghi chép của cậu ấy viết rất rõ ràng.", "en": "His notes are written very clearly." }
+  },
+  {
+    "id": "L2-0022",
+    "vi": ["sổ ghi chép", "máy tính xách tay"],
+    "viAliases": ["sổ tay", "vở ghi", "laptop"],
+    "en": ["notebook (stationery)", "(computing) laptop; notebook"],
+    "enSource": "cedict",
+    "example": { "zh": "我买了一个新笔记本。", "vi": "Tôi đã mua một quyển sổ ghi chép mới.", "en": "I bought a new notebook." }
+  },
+  {
+    "id": "L2-0023",
+    "vi": ["phải", "nhất định phải"],
+    "viAliases": ["bắt buộc phải", "cần phải", "buộc phải"],
+    "en": ["must", "to have to"],
+    "enSource": "cedict",
+    "example": { "zh": "学生必须按时上课。", "vi": "Học sinh phải lên lớp đúng giờ.", "en": "Students must attend class on time." }
+  },
+  {
+    "id": "L2-0024",
+    "vi": ["bên", "phía"],
+    "viAliases": ["cạnh", "mép", "rìa"],
+    "en": ["side", "edge", "border"],
+    "enSource": "cedict",
+    "example": { "zh": "他站在路边等我。", "vi": "Anh ấy đứng bên đường đợi tôi.", "en": "He stood at the side of the road waiting for me." }
+  },
+  {
+    "id": "L2-0025",
+    "vi": ["thay đổi", "biến đổi"],
+    "viAliases": ["đổi", "biến hóa", "chuyển biến"],
+    "en": ["to change", "to become different", "to transform"],
+    "enSource": "cedict",
+    "example": { "zh": "这几年这个城市变了很多。", "vi": "Mấy năm nay thành phố này thay đổi rất nhiều.", "en": "This city has changed a lot in the past few years." }
+  },
+  {
+    "id": "L2-0026",
+    "vi": ["biến thành", "trở thành"],
+    "viAliases": ["hóa thành", "chuyển thành", "thành"],
+    "en": ["to change into", "to turn into", "to become"],
+    "enSource": "cedict",
+    "example": { "zh": "他后来变成了一个好学生。", "vi": "Về sau cậu ấy trở thành một học sinh giỏi.", "en": "He later became a good student." }
+  },
+  {
+    "id": "L2-0027",
+    "vi": ["lần", "lượt"],
+    "viAliases": ["bận"],
+    "en": ["classifier for actions: one time"],
+    "enSource": "cedict",
+    "example": { "zh": "这本书我看了两遍。", "vi": "Quyển sách này tôi đã đọc hai lần.", "en": "I have read this book twice." }
+  },
+  {
+    "id": "L2-0028",
+    "vi": ["đồng hồ đeo tay", "bảng biểu", "biểu mẫu"],
+    "viAliases": ["đồng hồ", "bảng"],
+    "en": ["watch (timepiece)", "a table (listing information)", "a form", "meter; gauge"],
+    "enSource": "cedict",
+    "example": { "zh": "这块表很漂亮。", "vi": "Chiếc đồng hồ này rất đẹp.", "en": "This watch is very beautiful." }
+  },
+  {
+    "id": "L2-0029",
+    "vi": ["bày tỏ", "biểu thị", "thể hiện"],
+    "viAliases": ["biểu đạt", "tỏ ý", "bộc lộ"],
+    "en": ["(of sb) to express; to state; to show", "expression; manifestation"],
+    "enSource": "cedict",
+    "example": { "zh": "他表示很喜欢这个礼物。", "vi": "Anh ấy bày tỏ rằng rất thích món quà này.", "en": "He expressed that he liked this gift very much." }
+  },
+  {
+    "id": "L2-0030",
+    "vi": ["khá tốt", "không tệ", "đúng"],
+    "viAliases": ["không tồi", "được lắm", "chính xác"],
+    "en": ["not bad", "pretty good", "correct"],
+    "enSource": "cedict",
+    "example": { "zh": "这家饭馆的菜不错。", "vi": "Món ăn của quán này khá ngon.", "en": "The food at this restaurant is pretty good." }
+  },
+  {
+    "id": "L2-0031",
+    "vi": ["không những", "không chỉ"],
+    "viAliases": ["chẳng những", "không riêng gì"],
+    "en": ["not only (... but also ...)"],
+    "enSource": "cedict",
+    "example": { "zh": "他不但会说汉语，还会说英语。", "vi": "Anh ấy không những biết nói tiếng Trung mà còn biết nói tiếng Anh.", "en": "He can not only speak Chinese but also English." }
+  },
+  {
+    "id": "L2-0032",
+    "vi": ["không đủ", "chưa đủ"],
+    "viAliases": ["thiếu", "không đầy đủ"],
+    "en": ["not enough", "insufficient", "inadequate"],
+    "enSource": "cedict",
+    "example": { "zh": "我的钱不够买这个手机。", "vi": "Tiền của tôi không đủ để mua chiếc điện thoại này.", "en": "My money is not enough to buy this phone." }
+  },
+  {
+    "id": "L2-0033",
+    "vi": ["nhưng", "nhưng mà", "chỉ có điều"],
+    "viAliases": ["có điều", "song", "thế nhưng"],
+    "en": ["but", "however"],
+    "enSource": "cedict",
+    "example": { "zh": "这件衣服很好看，不过太贵了。", "vi": "Bộ quần áo này rất đẹp, nhưng đắt quá.", "en": "This piece of clothing looks nice, but it is too expensive." }
+  },
+  {
+    "id": "L2-0034",
+    "vi": ["không lắm", "không mấy"],
+    "viAliases": ["không quá", "chẳng mấy", "không được lắm"],
+    "en": ["not very", "not too"],
+    "enSource": "written",
+    "example": { "zh": "今天天气不太好。", "vi": "Hôm nay thời tiết không tốt lắm.", "en": "The weather is not very good today." }
+  },
+  {
+    "id": "L2-0035",
+    "vi": ["đừng", "không được"],
+    "viAliases": ["chớ", "không nên", "đừng có"],
+    "en": ["don't!; must not"],
+    "enSource": "cedict",
+    "example": { "zh": "上课的时候不要说话。", "vi": "Trong giờ học đừng nói chuyện.", "en": "Do not talk during class." }
+  },
+  {
+    "id": "L2-0036",
+    "vi": ["ngại", "ngượng", "xin lỗi"],
+    "viAliases": ["ngại quá", "ngại ngùng", "xấu hổ"],
+    "en": ["to feel embarrassed", "to be sorry (for inconveniencing sb)"],
+    "enSource": "cedict",
+    "example": { "zh": "不好意思，我来晚了。", "vi": "Ngại quá, tôi đến muộn rồi.", "en": "Sorry, I am late." }
+  },
+  {
+    "id": "L2-0037",
+    "vi": ["không lâu", "chẳng bao lâu"],
+    "viAliases": ["ít lâu sau", "chẳng mấy chốc", "không lâu sau"],
+    "en": ["not long (after)", "soon", "before too long"],
+    "enSource": "cedict",
+    "example": { "zh": "他来中国不久就找到了工作。", "vi": "Anh ấy đến Trung Quốc không lâu thì tìm được việc làm.", "en": "Not long after coming to China he found a job." }
+  },
+  {
+    "id": "L2-0038",
+    "vi": ["không hài lòng", "bất mãn"],
+    "viAliases": ["bất bình", "không vừa lòng", "không thỏa mãn"],
+    "en": ["dissatisfied; discontented; resentful"],
+    "enSource": "cedict",
+    "example": { "zh": "他对这个结果很不满。", "vi": "Anh ấy rất không hài lòng với kết quả này.", "en": "He is very dissatisfied with this result." }
+  },
+  {
+    "id": "L2-0039",
+    "vi": ["không bằng", "chẳng bằng"],
+    "viAliases": ["kém hơn", "thua", "không sánh bằng"],
+    "en": ["not equal to; not as good as; inferior to", "it would be better to"],
+    "enSource": "cedict",
+    "example": { "zh": "我的汉语不如他好。", "vi": "Tiếng Trung của tôi không giỏi bằng anh ấy.", "en": "My Chinese is not as good as his." }
+  },
+  {
+    "id": "L2-0040",
+    "vi": ["khá nhiều", "không ít"],
+    "viAliases": ["nhiều", "kha khá", "không hề ít"],
+    "en": ["many; quite a few; a good number of"],
+    "enSource": "cedict",
+    "example": { "zh": "今天来了不少客人。", "vi": "Hôm nay có khá nhiều khách đến.", "en": "Quite a few guests came today." }
+  }
+]

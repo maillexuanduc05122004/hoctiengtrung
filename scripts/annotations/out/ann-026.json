@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L2-0626",
+    "vi": ["họ", "mang họ"],
+    "viAliases": [],
+    "en": ["family name; surname", "to be surnamed"],
+    "enSource": "cedict",
+    "example": { "zh": "我姓王，你呢？", "vi": "Tôi họ Vương, còn bạn thì sao?", "en": "My surname is Wang, and yours?" }
+  },
+  {
+    "id": "L2-0627",
+    "vi": ["họ tên", "họ và tên"],
+    "viAliases": ["tên đầy đủ"],
+    "en": ["surname and given name; full name"],
+    "enSource": "cedict",
+    "example": { "zh": "请写下你的姓名。", "vi": "Xin hãy viết họ tên của bạn.", "en": "Please write down your full name." }
+  },
+  {
+    "id": "L2-0628",
+    "vi": ["nghỉ phép", "đi nghỉ"],
+    "viAliases": ["xin nghỉ phép"],
+    "en": ["to go on vacation; to have a holiday; to take leave"],
+    "enSource": "cedict",
+    "example": { "zh": "他下个月要休假。", "vi": "Tháng sau anh ấy sẽ nghỉ phép.", "en": "He is going to take leave next month." }
+  },
+  {
+    "id": "L2-0629",
+    "vi": ["nhiều", "rất nhiều"],
+    "viAliases": ["nhiều lắm"],
+    "en": ["many", "a lot of", "much"],
+    "enSource": "cedict",
+    "example": { "zh": "公园里有许多人。", "vi": "Trong công viên có rất nhiều người.", "en": "There are many people in the park." }
+  },
+  {
+    "id": "L2-0630",
+    "vi": ["chọn", "lựa chọn", "bầu"],
+    "viAliases": ["lựa", "tuyển"],
+    "en": ["to choose", "to pick", "to select", "to elect"],
+    "enSource": "cedict",
+    "example": { "zh": "你选哪个颜色？", "vi": "Bạn chọn màu nào?", "en": "Which color do you choose?" }
+  },
+  {
+    "id": "L2-0631",
+    "vi": ["học kỳ"],
+    "viAliases": ["kỳ học", "học kì"],
+    "en": ["term", "semester"],
+    "enSource": "cedict",
+    "example": { "zh": "这个学期我很忙。", "vi": "Học kỳ này tôi rất bận.", "en": "I am very busy this semester." }
+  },
+  {
+    "id": "L2-0632",
+    "vi": ["tuyết"],
+    "viAliases": [],
+    "en": ["snow"],
+    "enSource": "cedict",
+    "example": { "zh": "昨天下了很大的雪。", "vi": "Hôm qua tuyết rơi rất to.", "en": "It snowed heavily yesterday." }
+  },
+  {
+    "id": "L2-0633",
+    "vi": ["màu", "màu sắc"],
+    "viAliases": ["sắc màu"],
+    "en": ["color"],
+    "enSource": "cedict",
+    "example": { "zh": "我喜欢这件衣服的颜色。", "vi": "Tôi thích màu của chiếc áo này.", "en": "I like the color of this piece of clothing." }
+  },
+  {
+    "id": "L2-0634",
+    "vi": ["mắt", "cái nhìn", "lượng từ chỉ giếng, hang"],
+    "viAliases": ["con mắt"],
+    "en": ["eye", "a look; a glance", "classifier for wells, cave-dwellings etc"],
+    "enSource": "cedict",
+    "example": { "zh": "我看了他一眼。", "vi": "Tôi liếc nhìn anh ấy một cái.", "en": "I glanced at him." }
+  },
+  {
+    "id": "L2-0635",
+    "vi": ["mắt", "đôi mắt"],
+    "viAliases": ["con mắt"],
+    "en": ["eye"],
+    "enSource": "cedict",
+    "example": { "zh": "妹妹的眼睛很漂亮。", "vi": "Đôi mắt của em gái rất đẹp.", "en": "My younger sister has very pretty eyes." }
+  },
+  {
+    "id": "L2-0636",
+    "vi": ["nuôi", "nuôi dưỡng"],
+    "viAliases": ["nuôi nấng", "chăn nuôi"],
+    "en": ["to raise (animals)", "to bring up (children)", "to keep (pets)", "to support"],
+    "enSource": "cedict",
+    "example": { "zh": "我家养了一只狗。", "vi": "Nhà tôi nuôi một con chó.", "en": "My family keeps a dog." }
+  },
+  {
+    "id": "L2-0637",
+    "vi": ["dáng vẻ", "vẻ ngoài", "kiểu dáng"],
+    "viAliases": ["bộ dạng", "hình dáng"],
+    "en": ["appearance", "manner", "pattern", "model"],
+    "enSource": "cedict",
+    "example": { "zh": "他今天的样子很奇怪。", "vi": "Dáng vẻ của anh ấy hôm nay rất kỳ lạ.", "en": "He looks very strange today." }
+  },
+  {
+    "id": "L2-0638",
+    "vi": ["yêu cầu", "đòi hỏi"],
+    "viAliases": ["đưa ra yêu cầu"],
+    "en": ["to request", "to require", "requirement", "to demand"],
+    "enSource": "cedict",
+    "example": { "zh": "老师对我们的要求很高。", "vi": "Yêu cầu của thầy giáo đối với chúng tôi rất cao.", "en": "The teacher has very high requirements for us." }
+  },
+  {
+    "id": "L2-0639",
+    "vi": ["thuốc"],
+    "viAliases": ["dược phẩm"],
+    "en": ["medicine", "drug"],
+    "enSource": "cedict",
+    "example": { "zh": "我每天都吃药。", "vi": "Ngày nào tôi cũng uống thuốc.", "en": "I take medicine every day." }
+  },
+  {
+    "id": "L2-0640",
+    "vi": ["hiệu thuốc", "nhà thuốc"],
+    "viAliases": ["tiệm thuốc", "quầy thuốc"],
+    "en": ["pharmacy; drugstore"],
+    "enSource": "cedict",
+    "example": { "zh": "前面有一家药店。", "vi": "Phía trước có một hiệu thuốc.", "en": "There is a pharmacy up ahead." }
+  },
+  {
+    "id": "L2-0641",
+    "vi": ["viên thuốc", "thuốc viên"],
+    "viAliases": ["viên nén"],
+    "en": ["a (medicine) pill or tablet"],
+    "enSource": "cedict",
+    "example": { "zh": "医生给了我一些药片。", "vi": "Bác sĩ đã cho tôi một ít viên thuốc.", "en": "The doctor gave me some tablets." }
+  },
+  {
+    "id": "L2-0642",
+    "vi": ["thuốc nước", "thuốc dạng lỏng"],
+    "viAliases": ["dung dịch thuốc"],
+    "en": ["medicine in liquid form", "bottled medicine", "lotion"],
+    "enSource": "cedict",
+    "example": { "zh": "这瓶药水一天喝两次。", "vi": "Chai thuốc nước này uống hai lần một ngày.", "en": "Drink this bottle of liquid medicine twice a day." }
+  },
+  {
+    "id": "L2-0643",
+    "vi": ["có lẽ", "có thể"],
+    "viAliases": ["biết đâu", "chắc là"],
+    "en": ["perhaps; maybe"],
+    "enSource": "cedict",
+    "example": { "zh": "他也许明天来。", "vi": "Có lẽ ngày mai anh ấy sẽ đến.", "en": "Maybe he will come tomorrow." }
+  },
+  {
+    "id": "L2-0644",
+    "vi": ["đêm", "ban đêm"],
+    "viAliases": ["đêm hôm"],
+    "en": ["night"],
+    "enSource": "cedict",
+    "example": { "zh": "夏天的夜很短。", "vi": "Đêm mùa hè rất ngắn.", "en": "Summer nights are short." }
+  },
+  {
+    "id": "L2-0645",
+    "vi": ["ban đêm", "trong đêm"],
+    "viAliases": ["buổi đêm", "về đêm"],
+    "en": ["during the night", "at night", "nighttime"],
+    "enSource": "cedict",
+    "example": { "zh": "昨天夜里我没睡好。", "vi": "Đêm qua tôi ngủ không ngon.", "en": "I did not sleep well last night." }
+  },
+  {
+    "id": "L2-0646",
+    "vi": ["một phần", "một bộ phận"],
+    "viAliases": [],
+    "en": ["portion", "part of", "subset"],
+    "enSource": "cedict",
+    "example": { "zh": "这些钱只是一部分。", "vi": "Số tiền này chỉ là một phần.", "en": "This money is only a part of it." }
+  },
+  {
+    "id": "L2-0647",
+    "vi": ["nhất định", "chắc chắn", "cố định"],
+    "viAliases": ["thế nào cũng", "kiểu gì cũng"],
+    "en": ["surely; certainly; definitely", "fixed; settled"],
+    "enSource": "cedict",
+    "example": { "zh": "明天你一定要来。", "vi": "Ngày mai bạn nhất định phải đến.", "en": "You must definitely come tomorrow." }
+  },
+  {
+    "id": "L2-0648",
+    "vi": ["tổng cộng", "tất cả"],
+    "viAliases": ["cộng lại", "tổng số"],
+    "en": ["in total; altogether"],
+    "enSource": "cedict",
+    "example": { "zh": "我们一共买了五本书。", "vi": "Chúng tôi tổng cộng đã mua năm quyển sách.", "en": "We bought five books in total." }
+  },
+  {
+    "id": "L2-0649",
+    "vi": ["lát nữa", "một lát sau"],
+    "viAliases": ["chốc nữa", "tí nữa"],
+    "en": ["in a moment"],
+    "enSource": "cedict",
+    "example": { "zh": "我一会儿就回来。", "vi": "Lát nữa tôi sẽ quay lại ngay.", "en": "I will be back in a moment." }
+  },
+  {
+    "id": "L2-0650",
+    "vi": ["thượng lộ bình an", "đi đường bình an"],
+    "viAliases": ["lên đường bình an"],
+    "en": ["to have a pleasant journey", "Bon voyage!"],
+    "enSource": "cedict",
+    "example": { "zh": "祝你一路平安！", "vi": "Chúc bạn thượng lộ bình an!", "en": "Wish you a safe journey!" }
+  },
+  {
+    "id": "L2-0651",
+    "vi": ["thuận buồm xuôi gió", "đi đường thuận lợi"],
+    "viAliases": ["thượng lộ bình an"],
+    "en": ["to have a pleasant journey (idiom)"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈祝我一路顺风。", "vi": "Mẹ chúc tôi đi đường thuận buồm xuôi gió.", "en": "Mom wished me a pleasant journey." }
+  },
+  {
+    "id": "L2-0652",
+    "vi": ["đã", "đã rồi"],
+    "viAliases": ["rồi"],
+    "en": ["already"],
+    "enSource": "cedict",
+    "example": { "zh": "我已经吃过饭了。", "vi": "Tôi đã ăn cơm rồi.", "en": "I have already eaten." }
+  },
+  {
+    "id": "L2-0653",
+    "vi": ["sau này", "về sau", "sau khi"],
+    "viAliases": ["sau đó", "mai sau"],
+    "en": ["after", "later", "afterwards", "in the future"],
+    "enSource": "cedict",
+    "example": { "zh": "下课以后我们去打球。", "vi": "Sau giờ học chúng tôi đi chơi bóng.", "en": "After class we go play ball." }
+  },
+  {
+    "id": "L2-0654",
+    "vi": ["trước đây", "trước kia", "trước khi"],
+    "viAliases": ["ngày trước", "hồi trước"],
+    "en": ["before", "formerly", "previous", "ago"],
+    "enSource": "cedict",
+    "example": { "zh": "以前我不会说汉语。", "vi": "Trước đây tôi không biết nói tiếng Trung.", "en": "I could not speak Chinese before." }
+  },
+  {
+    "id": "L2-0655",
+    "vi": ["trở lên", "nêu trên"],
+    "viAliases": ["trên đây"],
+    "en": ["that level or higher; that amount or more", "the above-mentioned"],
+    "enSource": "cedict",
+    "example": { "zh": "五岁以上的孩子都可以。", "vi": "Trẻ em từ năm tuổi trở lên đều được.", "en": "Children aged five and above are all allowed." }
+  },
+  {
+    "id": "L2-0656",
+    "vi": ["ngoài ra", "bên ngoài"],
+    "viAliases": ["trừ ra", "phía ngoài"],
+    "en": ["apart from", "other than", "except for", "outside of"],
+    "enSource": "cedict",
+    "example": { "zh": "除了他以外，我们都去。", "vi": "Ngoài anh ấy ra, chúng tôi đều đi.", "en": "Except for him, we are all going." }
+  },
+  {
+    "id": "L2-0657",
+    "vi": ["cứ tưởng", "tưởng rằng"],
+    "viAliases": ["ngỡ", "tưởng"],
+    "en": ["to think; to believe (often with the implication that the belief is mistaken)"],
+    "enSource": "cedict",
+    "example": { "zh": "我以为他今天不来。", "vi": "Tôi cứ tưởng hôm nay anh ấy không đến.", "en": "I thought he was not coming today." }
+  },
+  {
+    "id": "L2-0658",
+    "vi": ["trở xuống", "dưới đây"],
+    "viAliases": ["sau đây"],
+    "en": ["that level or lower", "that amount or less", "the following"],
+    "enSource": "cedict",
+    "example": { "zh": "十岁以下的孩子不用买票。", "vi": "Trẻ em dưới mười tuổi không cần mua vé.", "en": "Children under ten do not need to buy a ticket." }
+  },
+  {
+    "id": "L2-0659",
+    "vi": ["ghế", "cái ghế"],
+    "viAliases": ["ghế ngồi"],
+    "en": ["chair"],
+    "enSource": "cedict",
+    "example": { "zh": "房间里有两把椅子。", "vi": "Trong phòng có hai cái ghế.", "en": "There are two chairs in the room." }
+  },
+  {
+    "id": "L2-0660",
+    "vi": ["bình thường", "thông thường"],
+    "viAliases": ["thường thường", "xoàng"],
+    "en": ["ordinary", "common", "general", "so-so"],
+    "enSource": "cedict",
+    "example": { "zh": "这个饭馆的菜很一般。", "vi": "Món ăn của nhà hàng này rất bình thường.", "en": "The food at this restaurant is just so-so." }
+  },
+  {
+    "id": "L2-0661",
+    "vi": ["một chút xíu", "một tí"],
+    "viAliases": ["một chút", "tí tẹo"],
+    "en": ["a little bit"],
+    "enSource": "cedict",
+    "example": { "zh": "我只喝了一点点酒。", "vi": "Tôi chỉ uống một chút xíu rượu.", "en": "I only drank a tiny bit of wine." }
+  },
+  {
+    "id": "L2-0662",
+    "vi": ["cả đời", "một đời"],
+    "viAliases": ["suốt đời", "cả cuộc đời"],
+    "en": ["all one's life; throughout one's life"],
+    "enSource": "cedict",
+    "example": { "zh": "他一生都在教书。", "vi": "Cả đời ông ấy đều dạy học.", "en": "He taught all his life." }
+  },
+  {
+    "id": "L2-0663",
+    "vi": ["luôn luôn", "suốt", "thẳng"],
+    "viAliases": ["cứ", "vẫn"],
+    "en": ["continuously; always; all the way through", "straight (in a straight line)"],
+    "enSource": "cedict",
+    "example": { "zh": "他一直在等你。", "vi": "Anh ấy vẫn luôn đợi bạn.", "en": "He has been waiting for you all along." }
+  },
+  {
+    "id": "L2-0664",
+    "vi": ["trăm triệu", "ức"],
+    "viAliases": ["một trăm triệu"],
+    "en": ["100 million"],
+    "enSource": "cedict",
+    "example": { "zh": "中国有十四亿人。", "vi": "Trung Quốc có một tỷ bốn trăm triệu người.", "en": "China has 1.4 billion people." }
+  },
+  {
+    "id": "L2-0665",
+    "vi": ["ý kiến", "góp ý"],
+    "viAliases": ["quan điểm", "nhận xét"],
+    "en": ["idea", "opinion", "suggestion", "objection"],
+    "enSource": "cedict",
+    "example": { "zh": "大家有什么意见吗？", "vi": "Mọi người có ý kiến gì không?", "en": "Does anyone have any opinions?" }
+  },
+  {
+    "id": "L2-0666",
+    "vi": ["ý nghĩa", "ý", "sự thú vị"],
+    "viAliases": ["nghĩa"],
+    "en": ["meaning", "idea", "interest", "fun"],
+    "enSource": "cedict",
+    "example": { "zh": "这个词是什么意思？", "vi": "Từ này có nghĩa là gì?", "en": "What does this word mean?" }
+  },
+  {
+    "id": "L2-0667",
+    "vi": ["bởi vì", "vì"],
+    "viAliases": ["do", "tại vì"],
+    "en": ["because; owing to; on account of"],
+    "enSource": "cedict",
+    "example": { "zh": "因为下雨，我没去公园。", "vi": "Vì trời mưa nên tôi không đi công viên.", "en": "Because it rained, I did not go to the park." }
+  },
+  {
+    "id": "L2-0668",
+    "vi": ["âm u", "u ám"],
+    "viAliases": ["nhiều mây", "râm"],
+    "en": ["overcast (weather)", "cloudy", "shady"],
+    "enSource": "cedict",
+    "example": { "zh": "今天天气很阴。", "vi": "Hôm nay trời rất âm u.", "en": "The weather is very overcast today." }
+  },
+  {
+    "id": "L2-0669",
+    "vi": ["ngày âm u", "trời râm"],
+    "viAliases": ["ngày nhiều mây", "trời u ám"],
+    "en": ["cloudy day; overcast sky"],
+    "enSource": "cedict",
+    "example": { "zh": "阴天的时候我不想出门。", "vi": "Những ngày trời âm u tôi không muốn ra ngoài.", "en": "On cloudy days I do not want to go out." }
+  },
+  {
+    "id": "L2-0670",
+    "vi": ["âm tiết"],
+    "viAliases": [],
+    "en": ["syllable"],
+    "enSource": "cedict",
+    "example": { "zh": "这个词有两个音节。", "vi": "Từ này có hai âm tiết.", "en": "This word has two syllables." }
+  }
+]

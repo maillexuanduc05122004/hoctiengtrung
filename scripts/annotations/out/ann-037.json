@@ -1,0 +1,542 @@
+[
+  {
+    "id": "L3-0349",
+    "vi": ["tương lai"],
+    "viAliases": ["mai sau", "sau này", "ngày sau"],
+    "en": ["future", "the future", "in the future"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我将来想当医生。",
+      "vi": "Tương lai tôi muốn làm bác sĩ.",
+      "en": "In the future I want to be a doctor."
+    }
+  },
+  {
+    "id": "L3-0350",
+    "vi": ["nộp phí", "đóng tiền"],
+    "viAliases": ["trả phí", "đóng phí", "nộp tiền"],
+    "en": ["to pay a fee"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我明天去学校交费。",
+      "vi": "Ngày mai tôi đến trường nộp phí.",
+      "en": "Tomorrow I will go to school to pay the fee."
+    }
+  },
+  {
+    "id": "L3-0351",
+    "vi": ["cảnh sát giao thông"],
+    "viAliases": ["công an giao thông"],
+    "en": ["traffic police"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "交警在马路上工作。",
+      "vi": "Cảnh sát giao thông làm việc trên đường.",
+      "en": "The traffic police work on the road."
+    }
+  },
+  {
+    "id": "L3-0352",
+    "vi": ["giao lưu", "trao đổi"],
+    "viAliases": ["giao tiếp", "trao đổi qua lại"],
+    "en": ["to exchange", "exchange", "communication", "interaction"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我们常常用汉语交流。",
+      "vi": "Chúng tôi thường giao lưu bằng tiếng Trung.",
+      "en": "We often communicate in Chinese."
+    }
+  },
+  {
+    "id": "L3-0353",
+    "vi": ["kết giao", "qua lại", "hẹn hò"],
+    "viAliases": ["giao du", "quen nhau"],
+    "en": ["to associate (with)", "to have contact (with)", "to date"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他们交往了两年。",
+      "vi": "Họ đã hẹn hò với nhau hai năm.",
+      "en": "They have been dating for two years."
+    }
+  },
+  {
+    "id": "L3-0354",
+    "vi": ["giao dịch"],
+    "viAliases": ["thương vụ", "vụ mua bán"],
+    "en": ["transaction; deal"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这次交易很成功。",
+      "vi": "Giao dịch lần này rất thành công.",
+      "en": "This transaction was very successful."
+    }
+  },
+  {
+    "id": "L3-0355",
+    "vi": ["bị", "bởi"],
+    "viAliases": ["do"],
+    "en": ["by (indicates agent in the passive mood)"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我的书叫弟弟拿走了。",
+      "vi": "Sách của tôi bị em trai lấy đi mất rồi.",
+      "en": "My book was taken away by my younger brother."
+    }
+  },
+  {
+    "id": "L3-0356",
+    "vi": ["tương đối", "khá"],
+    "viAliases": ["khá là"],
+    "en": ["relatively; comparatively; rather"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "今天的作业较难。",
+      "vi": "Bài tập hôm nay tương đối khó.",
+      "en": "Today's homework is relatively hard."
+    }
+  },
+  {
+    "id": "L3-0357",
+    "vi": ["giáo trình", "tài liệu giảng dạy"],
+    "viAliases": ["tài liệu dạy học", "sách giáo trình"],
+    "en": ["teaching material"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这本教材很有用。",
+      "vi": "Cuốn giáo trình này rất hữu ích.",
+      "en": "This textbook is very useful."
+    }
+  },
+  {
+    "id": "L3-0358",
+    "vi": ["huấn luyện viên"],
+    "viAliases": ["người huấn luyện", "thầy dạy thể thao"],
+    "en": ["instructor; sports coach; trainer"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我们的足球教练很年轻。",
+      "vi": "Huấn luyện viên bóng đá của chúng tôi rất trẻ.",
+      "en": "Our football coach is very young."
+    }
+  },
+  {
+    "id": "L3-0359",
+    "vi": ["chắc chắn", "khỏe mạnh"],
+    "viAliases": ["bền", "cứng cáp", "vạm vỡ"],
+    "en": ["sturdy", "strong", "durable", "rugged"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这张桌子很结实。",
+      "vi": "Cái bàn này rất chắc chắn.",
+      "en": "This table is very sturdy."
+    }
+  },
+  {
+    "id": "L3-0360",
+    "vi": ["tiếp đón", "đón tiếp"],
+    "viAliases": ["tiếp khách", "tiếp đãi"],
+    "en": ["to receive; to entertain; to host"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "她热情地接待客人。",
+      "vi": "Cô ấy nhiệt tình tiếp đón khách.",
+      "en": "She receives the guests warmly."
+    }
+  },
+  {
+    "id": "L3-0361",
+    "vi": ["tiếp cận", "đến gần"],
+    "viAliases": ["lại gần", "xích lại gần"],
+    "en": ["to approach; to get close to"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "考试的日子接近了。",
+      "vi": "Ngày thi đã đến gần rồi.",
+      "en": "The day of the exam is getting close."
+    }
+  },
+  {
+    "id": "L3-0362",
+    "vi": ["tiết kiệm"],
+    "viAliases": ["tằn tiện", "dành dụm"],
+    "en": ["to economize", "to conserve (resources)"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我们要节约用水。",
+      "vi": "Chúng ta phải tiết kiệm nước.",
+      "en": "We should economize on water."
+    }
+  },
+  {
+    "id": "L3-0363",
+    "vi": ["kết hợp", "gắn kết"],
+    "viAliases": ["liên kết", "phối hợp"],
+    "en": ["to combine", "to link", "to integrate"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "学习要和练习结合起来。",
+      "vi": "Học phải kết hợp với luyện tập.",
+      "en": "Studying should be combined with practice."
+    }
+  },
+  {
+    "id": "L3-0364",
+    "vi": ["kết hôn", "cưới"],
+    "viAliases": ["lấy vợ", "lấy chồng", "thành hôn", "lấy nhau"],
+    "en": ["to marry; to get married"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他们下个月结婚。",
+      "vi": "Tháng sau họ kết hôn.",
+      "en": "They will get married next month."
+    }
+  },
+  {
+    "id": "L3-0365",
+    "vi": ["kết thúc", "chấm dứt"],
+    "viAliases": ["xong", "hết"],
+    "en": ["to end; to finish; to conclude"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "会议已经结束了。",
+      "vi": "Cuộc họp đã kết thúc rồi.",
+      "en": "The meeting has already ended."
+    }
+  },
+  {
+    "id": "L3-0366",
+    "vi": ["giải quyết"],
+    "viAliases": ["xử lý", "tháo gỡ"],
+    "en": ["to solve; to resolve; to settle (a problem)"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这个问题很快就解决了。",
+      "vi": "Vấn đề này đã được giải quyết rất nhanh.",
+      "en": "This problem was solved very quickly."
+    }
+  },
+  {
+    "id": "L3-0367",
+    "vi": ["cởi ra", "mở ra", "tháo ra"],
+    "viAliases": ["gỡ ra", "giải được"],
+    "en": ["to untie", "to undo", "to solve (a mystery)"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "天气很热，他解开了衣服。",
+      "vi": "Trời rất nóng, anh ấy cởi cúc áo ra.",
+      "en": "It was very hot, so he unbuttoned his shirt."
+    }
+  },
+  {
+    "id": "L3-0368",
+    "vi": ["vàng", "tiền bạc"],
+    "viAliases": ["kim loại vàng"],
+    "en": ["gold", "money"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他有一块金表。",
+      "vi": "Anh ấy có một chiếc đồng hồ vàng.",
+      "en": "He has a gold watch."
+    }
+  },
+  {
+    "id": "L3-0369",
+    "vi": ["huy chương vàng"],
+    "viAliases": ["huy chương vô địch"],
+    "en": ["gold medal"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他在比赛中得了金牌。",
+      "vi": "Anh ấy giành được huy chương vàng trong cuộc thi.",
+      "en": "He won a gold medal in the competition."
+    }
+  },
+  {
+    "id": "L3-0370",
+    "vi": ["chỉ", "chỉ có"],
+    "viAliases": ["mỗi", "vỏn vẹn"],
+    "en": ["only", "merely", "barely"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这本书仅十块钱。",
+      "vi": "Quyển sách này chỉ mười tệ.",
+      "en": "This book costs only ten yuan."
+    }
+  },
+  {
+    "id": "L3-0371",
+    "vi": ["chỉ", "chỉ có"],
+    "viAliases": ["vẻn vẹn", "chẳng qua", "duy chỉ"],
+    "en": ["only (this and nothing more)", "merely", "barely"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他仅仅用了三天就学会了。",
+      "vi": "Anh ấy chỉ dùng ba ngày là học xong.",
+      "en": "He learned it in merely three days."
+    }
+  },
+  {
+    "id": "L3-0372",
+    "vi": ["cố gắng hết sức", "hết mức có thể"],
+    "viAliases": ["hết sức có thể", "cố hết sức", "tối đa"],
+    "en": ["as much as possible", "to the greatest extent"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "你尽量早点来。",
+      "vi": "Bạn cố gắng đến sớm một chút.",
+      "en": "Come as early as you possibly can."
+    }
+  },
+  {
+    "id": "L3-0373",
+    "vi": ["chặt", "chật"],
+    "viAliases": ["khít", "căng", "sát"],
+    "en": ["tight", "tense", "urgent", "strict"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这双鞋有点紧。",
+      "vi": "Đôi giày này hơi chật.",
+      "en": "These shoes are a bit tight."
+    }
+  },
+  {
+    "id": "L3-0374",
+    "vi": ["khẩn cấp", "gấp"],
+    "viAliases": ["cấp bách", "khẩn trương"],
+    "en": ["urgent", "emergency"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这是一件紧急的事。",
+      "vi": "Đây là một việc khẩn cấp.",
+      "en": "This is an urgent matter."
+    }
+  },
+  {
+    "id": "L3-0375",
+    "vi": ["căng thẳng", "hồi hộp"],
+    "viAliases": ["lo lắng", "bồn chồn"],
+    "en": ["nervous", "keyed up", "tense"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "考试前我很紧张。",
+      "vi": "Trước kỳ thi tôi rất hồi hộp.",
+      "en": "I am very nervous before the exam."
+    }
+  },
+  {
+    "id": "L3-0376",
+    "vi": ["tiến bộ"],
+    "viAliases": ["tiến lên", "khá lên"],
+    "en": ["to improve; to progress", "progress; improvement"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "你的汉语进步很快。",
+      "vi": "Tiếng Trung của bạn tiến bộ rất nhanh.",
+      "en": "Your Chinese is improving very fast."
+    }
+  },
+  {
+    "id": "L3-0377",
+    "vi": ["thêm một bước", "hơn nữa"],
+    "viAliases": ["sâu hơn", "tiến thêm một bước", "thêm nữa"],
+    "en": ["to go a step further", "further"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我们要进一步了解这个问题。",
+      "vi": "Chúng ta cần tìm hiểu sâu hơn về vấn đề này.",
+      "en": "We need to understand this problem further."
+    }
+  },
+  {
+    "id": "L3-0378",
+    "vi": ["tiến triển"],
+    "viAliases": ["có tiến triển", "tiến hành thuận lợi"],
+    "en": ["to make headway; to make progress"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我们的工作进展得很顺利。",
+      "vi": "Công việc của chúng tôi tiến triển rất thuận lợi.",
+      "en": "Our work is making very smooth progress."
+    }
+  },
+  {
+    "id": "L3-0379",
+    "vi": ["thời gian gần đây", "thời gian sắp tới"],
+    "viAliases": ["gần đây", "sắp tới", "nay mai"],
+    "en": ["in the near future", "recent", "near in time"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "近期他打算去中国旅游。",
+      "vi": "Thời gian tới anh ấy định đi du lịch Trung Quốc.",
+      "en": "In the near future he plans to travel to China."
+    }
+  },
+  {
+    "id": "L3-0380",
+    "vi": ["Kinh kịch"],
+    "viAliases": ["kịch Bắc Kinh", "hí kịch Bắc Kinh"],
+    "en": ["Beijing opera"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "爷爷喜欢听京剧。",
+      "vi": "Ông nội thích nghe Kinh kịch.",
+      "en": "Grandpa likes listening to Beijing opera."
+    }
+  },
+  {
+    "id": "L3-0381",
+    "vi": ["kinh tế"],
+    "viAliases": ["nền kinh tế", "thuộc về kinh tế"],
+    "en": ["economy", "economic"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这个国家的经济发展很快。",
+      "vi": "Kinh tế của nước này phát triển rất nhanh.",
+      "en": "This country's economy is developing very fast."
+    }
+  },
+  {
+    "id": "L3-0382",
+    "vi": ["trải qua", "trải nghiệm"],
+    "viAliases": ["kinh qua", "từng trải qua"],
+    "en": ["to experience; to go through", "experience"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他经历过很多困难。",
+      "vi": "Anh ấy đã trải qua rất nhiều khó khăn.",
+      "en": "He has gone through many difficulties."
+    }
+  },
+  {
+    "id": "L3-0383",
+    "vi": ["kinh nghiệm"],
+    "viAliases": ["vốn kinh nghiệm", "sự từng trải"],
+    "en": ["experience"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他有很多工作经验。",
+      "vi": "Anh ấy có rất nhiều kinh nghiệm làm việc.",
+      "en": "He has a lot of work experience."
+    }
+  },
+  {
+    "id": "L3-0384",
+    "vi": ["kinh doanh", "điều hành"],
+    "viAliases": ["buôn bán", "quản lý kinh doanh"],
+    "en": ["to engage in (business etc); to run; to operate"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他经营着一家小饭店。",
+      "vi": "Anh ấy đang kinh doanh một quán ăn nhỏ.",
+      "en": "He runs a small restaurant."
+    }
+  },
+  {
+    "id": "L3-0385",
+    "vi": ["đặc sắc", "xuất sắc", "hay"],
+    "viAliases": ["tuyệt vời", "hấp dẫn"],
+    "en": ["wonderful", "marvelous", "brilliant"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "昨天的比赛很精彩。",
+      "vi": "Trận đấu hôm qua rất đặc sắc.",
+      "en": "Yesterday's match was wonderful."
+    }
+  },
+  {
+    "id": "L3-0386",
+    "vi": ["tinh thần", "ý chí"],
+    "viAliases": ["tâm trí", "thần thái"],
+    "en": ["spirit", "mind", "essence"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我们要学习他的精神。",
+      "vi": "Chúng ta phải học tập tinh thần của anh ấy.",
+      "en": "We should learn from his spirit."
+    }
+  },
+  {
+    "id": "L3-0387",
+    "vi": ["hăng hái", "khỏe khoắn", "phấn chấn"],
+    "viAliases": ["tỉnh táo", "sung sức", "tươi tỉnh"],
+    "en": ["vigor; vitality", "spirited", "good-looking"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他今天看起来很精神。",
+      "vi": "Hôm nay anh ấy trông rất khỏe khoắn.",
+      "en": "He looks very spirited today."
+    }
+  },
+  {
+    "id": "L3-0388",
+    "vi": ["phong cảnh", "cảnh sắc"],
+    "viAliases": ["cảnh vật", "cảnh đẹp"],
+    "en": ["scenery; landscape; view"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这里的景色真美。",
+      "vi": "Phong cảnh ở đây thật đẹp.",
+      "en": "The scenery here is really beautiful."
+    }
+  },
+  {
+    "id": "L3-0389",
+    "vi": ["cảnh sát"],
+    "viAliases": ["công an", "cảnh sát viên"],
+    "en": ["police; police officer"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "警察帮我找到了钱包。",
+      "vi": "Cảnh sát giúp tôi tìm được ví tiền.",
+      "en": "The police helped me find my wallet."
+    }
+  },
+  {
+    "id": "L3-0390",
+    "vi": ["yên tĩnh", "tĩnh lặng"],
+    "viAliases": ["im lặng", "lặng", "tĩnh"],
+    "en": ["quiet", "still", "calm"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "晚上的公园很静。",
+      "vi": "Công viên buổi tối rất yên tĩnh.",
+      "en": "The park is very quiet at night."
+    }
+  },
+  {
+    "id": "L3-0391",
+    "vi": ["lâu"],
+    "viAliases": ["lâu dài", "dài lâu"],
+    "en": ["(of a period of time) long"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我们很久没见面了。",
+      "vi": "Chúng ta đã lâu không gặp nhau rồi.",
+      "en": "We haven't seen each other for a long time."
+    }
+  },
+  {
+    "id": "L3-0392",
+    "vi": ["cũ"],
+    "viAliases": ["cũ kỹ", "xưa"],
+    "en": ["old", "former", "worn (with age)"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这件衣服有点旧了。",
+      "vi": "Cái áo này hơi cũ rồi.",
+      "en": "This piece of clothing is a bit old."
+    }
+  },
+  {
+    "id": "L3-0393",
+    "vi": ["cứu"],
+    "viAliases": ["cứu giúp", "giải cứu", "cứu vớt"],
+    "en": ["to save", "to rescue", "to assist"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "医生救了那个孩子。",
+      "vi": "Bác sĩ đã cứu đứa bé đó.",
+      "en": "The doctor saved that child."
+    }
+  }
+]

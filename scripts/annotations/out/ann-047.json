@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L3-0799",
+    "vi": ["tim", "lòng", "tâm trí"],
+    "viAliases": ["trái tim", "con tim"],
+    "en": ["heart", "mind", "center", "core"],
+    "enSource": "cedict",
+    "example": { "zh": "他的心跳得很快。", "vi": "Tim anh ấy đập rất nhanh.", "en": "His heart is beating very fast." }
+  },
+  {
+    "id": "L3-0800",
+    "vi": ["tin", "tin tưởng"],
+    "viAliases": ["tin cậy", "tin vào"],
+    "en": ["to trust", "to believe", "to profess faith in"],
+    "enSource": "cedict",
+    "example": { "zh": "我信你说的话。", "vi": "Tôi tin lời bạn nói.", "en": "I believe what you said." }
+  },
+  {
+    "id": "L3-0801",
+    "vi": ["phong bì"],
+    "viAliases": ["bao thư", "phong bì thư"],
+    "en": ["envelope"],
+    "enSource": "cedict",
+    "example": { "zh": "请把信封放在桌子上。", "vi": "Hãy để phong bì lên bàn.", "en": "Please put the envelope on the table." }
+  },
+  {
+    "id": "L3-0802",
+    "vi": ["tin tưởng", "tín nhiệm"],
+    "viAliases": ["tin cậy", "đặt niềm tin"],
+    "en": ["to trust", "to have confidence in"],
+    "enSource": "cedict",
+    "example": { "zh": "老师很信任这个学生。", "vi": "Giáo viên rất tin tưởng học sinh này.", "en": "The teacher trusts this student very much." }
+  },
+  {
+    "id": "L3-0803",
+    "vi": ["hành lý"],
+    "viAliases": ["hành lí"],
+    "en": ["luggage"],
+    "enSource": "cedict",
+    "example": { "zh": "我的行李很重。", "vi": "Hành lý của tôi rất nặng.", "en": "My luggage is very heavy." }
+  },
+  {
+    "id": "L3-0804",
+    "vi": ["hình thành", "tạo thành"],
+    "viAliases": ["hình thành nên", "tạo nên"],
+    "en": ["to form", "to take shape"],
+    "enSource": "cedict",
+    "example": { "zh": "他已经形成了好习惯。", "vi": "Anh ấy đã hình thành thói quen tốt.", "en": "He has already formed good habits." }
+  },
+  {
+    "id": "L3-0805",
+    "vi": ["hình thức"],
+    "viAliases": ["hình thái"],
+    "en": ["form", "outer appearance", "formality"],
+    "enSource": "cedict",
+    "example": { "zh": "这种学习形式很有意思。", "vi": "Hình thức học tập này rất thú vị.", "en": "This form of learning is very interesting." }
+  },
+  {
+    "id": "L3-0806",
+    "vi": ["hình tượng", "hình ảnh", "sinh động"],
+    "viAliases": ["hình ảnh bên ngoài", "sống động"],
+    "en": ["image", "figure", "vivid"],
+    "enSource": "cedict",
+    "example": { "zh": "他在大家心里的形象很好。", "vi": "Hình ảnh của anh ấy trong lòng mọi người rất tốt.", "en": "His image in everyone's mind is very good." }
+  },
+  {
+    "id": "L3-0807",
+    "vi": ["hình dạng", "hình dáng"],
+    "viAliases": ["hình thù", "dáng hình"],
+    "en": ["form", "shape"],
+    "enSource": "cedict",
+    "example": { "zh": "这块石头的形状很奇怪。", "vi": "Hình dạng của hòn đá này rất kỳ lạ.", "en": "The shape of this stone is very strange." }
+  },
+  {
+    "id": "L3-0808",
+    "vi": ["hạnh phúc"],
+    "viAliases": ["sung sướng", "niềm hạnh phúc"],
+    "en": ["happy", "happiness", "blessed"],
+    "enSource": "cedict",
+    "example": { "zh": "我们一家人生活得很幸福。", "vi": "Cả nhà chúng tôi sống rất hạnh phúc.", "en": "Our whole family lives very happily." }
+  },
+  {
+    "id": "L3-0809",
+    "vi": ["may mắn"],
+    "viAliases": ["hên"],
+    "en": ["fortunate", "lucky"],
+    "enSource": "cedict",
+    "example": { "zh": "今天我很幸运。", "vi": "Hôm nay tôi rất may mắn.", "en": "I am very lucky today." }
+  },
+  {
+    "id": "L3-0810",
+    "vi": ["hậu tố tạo danh từ chỉ tính chất", "tính"],
+    "viAliases": ["tính chất", "hậu tố chỉ tính chất"],
+    "en": ["suffix forming noun from adjective, corresponding to -ness or -ity", "nature", "quality"],
+    "enSource": "cedict",
+    "example": { "zh": "老师提高了学生的积极性。", "vi": "Giáo viên đã nâng cao tính tích cực của học sinh.", "en": "The teacher raised the enthusiasm of the students." }
+  },
+  {
+    "id": "L3-0811",
+    "vi": ["giới tính"],
+    "viAliases": ["giống"],
+    "en": ["sex", "gender"],
+    "enSource": "cedict",
+    "example": { "zh": "请在这里写上你的性别。", "vi": "Hãy viết giới tính của bạn vào đây.", "en": "Please write your gender here." }
+  },
+  {
+    "id": "L3-0812",
+    "vi": ["tính cách", "tính tình"],
+    "viAliases": ["cá tính", "tính nết"],
+    "en": ["nature", "disposition", "temperament", "character"],
+    "enSource": "cedict",
+    "example": { "zh": "我姐姐的性格很好。", "vi": "Tính cách của chị tôi rất tốt.", "en": "My older sister has a very good personality." }
+  },
+  {
+    "id": "L3-0813",
+    "vi": ["sửa", "sửa chữa"],
+    "viAliases": ["chữa", "sửa sang"],
+    "en": ["to repair"],
+    "enSource": "cedict",
+    "example": { "zh": "爸爸在修我的自行车。", "vi": "Bố đang sửa xe đạp của tôi.", "en": "Dad is repairing my bicycle." }
+  },
+  {
+    "id": "L3-0814",
+    "vi": ["sửa đổi", "chỉnh sửa"],
+    "viAliases": ["sửa lại", "sửa"],
+    "en": ["to amend", "to alter", "to modify"],
+    "enSource": "cedict",
+    "example": { "zh": "老师让我修改这篇文章。", "vi": "Giáo viên bảo tôi sửa lại bài viết này.", "en": "The teacher asked me to revise this article." }
+  },
+  {
+    "id": "L3-0815",
+    "vi": ["nhu cầu"],
+    "viAliases": ["đòi hỏi"],
+    "en": ["requirement", "demand"],
+    "enSource": "cedict",
+    "example": { "zh": "大家对手机的需求很大。", "vi": "Nhu cầu về điện thoại của mọi người rất lớn.", "en": "The demand for mobile phones is very high." }
+  },
+  {
+    "id": "L3-0816",
+    "vi": ["cần", "cần phải", "nhu cầu"],
+    "viAliases": ["cần đến", "cần có"],
+    "en": ["to need", "to want", "to require", "needs"],
+    "enSource": "cedict",
+    "example": { "zh": "我需要一杯热水。", "vi": "Tôi cần một cốc nước nóng.", "en": "I need a cup of hot water." }
+  },
+  {
+    "id": "L3-0817",
+    "vi": ["tuyên bố", "công bố"],
+    "viAliases": ["thông báo", "loan báo"],
+    "en": ["to declare", "to announce", "to proclaim"],
+    "enSource": "cedict",
+    "example": { "zh": "老师宣布明天不上课。", "vi": "Giáo viên tuyên bố ngày mai không học.", "en": "The teacher announced that there is no class tomorrow." }
+  },
+  {
+    "id": "L3-0818",
+    "vi": ["tuyên truyền", "quảng bá"],
+    "viAliases": ["truyền bá", "phổ biến rộng rãi"],
+    "en": ["to disseminate", "to give publicity to", "propaganda"],
+    "enSource": "cedict",
+    "example": { "zh": "他们在学校宣传新活动。", "vi": "Họ đang quảng bá hoạt động mới ở trường.", "en": "They are publicizing the new event at school." }
+  },
+  {
+    "id": "L3-0819",
+    "vi": ["tuyển thủ", "thí sinh"],
+    "viAliases": ["vận động viên", "người dự thi"],
+    "en": ["athlete", "contestant"],
+    "enSource": "cedict",
+    "example": { "zh": "这个选手跑得最快。", "vi": "Tuyển thủ này chạy nhanh nhất.", "en": "This athlete runs the fastest." }
+  },
+  {
+    "id": "L3-0820",
+    "vi": ["học phí"],
+    "viAliases": ["tiền học", "tiền học phí"],
+    "en": ["tuition fee", "tuition"],
+    "enSource": "cedict",
+    "example": { "zh": "这个学校的学费不高。", "vi": "Học phí của trường này không cao.", "en": "The tuition at this school is not high." }
+  },
+  {
+    "id": "L3-0821",
+    "vi": ["huấn luyện", "rèn luyện", "sự huấn luyện"],
+    "viAliases": ["đào tạo", "tập luyện"],
+    "en": ["to train", "to drill", "training"],
+    "enSource": "cedict",
+    "example": { "zh": "他每天训练两个小时。", "vi": "Anh ấy huấn luyện hai tiếng mỗi ngày.", "en": "He trains for two hours every day." }
+  },
+  {
+    "id": "L3-0822",
+    "vi": ["ép", "đè", "nén"],
+    "viAliases": ["đè xuống", "ấn"],
+    "en": ["to press", "to push down"],
+    "enSource": "cedict",
+    "example": { "zh": "他用手压着那张纸。", "vi": "Anh ấy dùng tay đè tờ giấy đó.", "en": "He is pressing that piece of paper with his hand." }
+  },
+  {
+    "id": "L3-0823",
+    "vi": ["áp lực"],
+    "viAliases": ["sức ép", "áp suất"],
+    "en": ["pressure"],
+    "enSource": "cedict",
+    "example": { "zh": "工作的压力有点大。", "vi": "Áp lực công việc hơi lớn.", "en": "The pressure from work is a bit high." }
+  },
+  {
+    "id": "L3-0824",
+    "vi": ["thuốc lá", "khói"],
+    "viAliases": ["điếu thuốc", "khói thuốc"],
+    "en": ["cigarette or pipe tobacco", "smoke"],
+    "enSource": "cedict",
+    "example": { "zh": "这里不能抽烟。", "vi": "Ở đây không được hút thuốc.", "en": "You cannot smoke here." }
+  },
+  {
+    "id": "L3-0825",
+    "vi": ["trước mắt", "hiện tại"],
+    "viAliases": ["ngay trước mắt", "lúc này"],
+    "en": ["before one's eyes", "now", "at present"],
+    "enSource": "cedict",
+    "example": { "zh": "眼前的风景真美。", "vi": "Phong cảnh trước mắt thật đẹp.", "en": "The scenery before my eyes is really beautiful." }
+  },
+  {
+    "id": "L3-0826",
+    "vi": ["diễn", "biểu diễn", "đóng vai"],
+    "viAliases": ["trình diễn", "đóng"],
+    "en": ["to perform", "to stage (a show)"],
+    "enSource": "cedict",
+    "example": { "zh": "他在电影里演一个老师。", "vi": "Anh ấy đóng vai một giáo viên trong phim.", "en": "He plays a teacher in the movie." }
+  },
+  {
+    "id": "L3-0827",
+    "vi": ["hát biểu diễn", "trình bày bài hát"],
+    "viAliases": ["hát", "ca hát biểu diễn"],
+    "en": ["to sing (for an audience)", "vocal performance"],
+    "enSource": "cedict",
+    "example": { "zh": "她为大家演唱了一首歌。", "vi": "Cô ấy đã hát một bài cho mọi người nghe.", "en": "She sang a song for everyone." }
+  },
+  {
+    "id": "L3-0828",
+    "vi": ["buổi biểu diễn ca nhạc", "đêm nhạc"],
+    "viAliases": ["concert", "liveshow ca nhạc"],
+    "en": ["vocal recital or concert"],
+    "enSource": "cedict",
+    "example": { "zh": "昨天我去看了一场演唱会。", "vi": "Hôm qua tôi đã đi xem một buổi biểu diễn ca nhạc.", "en": "Yesterday I went to a concert." }
+  },
+  {
+    "id": "L3-0829",
+    "vi": ["biểu diễn", "buổi biểu diễn"],
+    "viAliases": ["trình diễn", "diễn"],
+    "en": ["to perform", "to put on (a performance)", "performance", "show"],
+    "enSource": "cedict",
+    "example": { "zh": "今天晚上有一场演出。", "vi": "Tối nay có một buổi biểu diễn.", "en": "There is a performance tonight." }
+  },
+  {
+    "id": "L3-0830",
+    "vi": ["diễn viên"],
+    "viAliases": ["nghệ sĩ biểu diễn", "người biểu diễn"],
+    "en": ["actor", "actress", "performer"],
+    "enSource": "cedict",
+    "example": { "zh": "我最喜欢的演员是他。", "vi": "Diễn viên tôi thích nhất là anh ấy.", "en": "My favorite actor is him." }
+  },
+  {
+    "id": "L3-0831",
+    "vi": ["cừu", "dê"],
+    "viAliases": ["con cừu", "con dê"],
+    "en": ["sheep", "goat"],
+    "enSource": "cedict",
+    "example": { "zh": "山上有很多羊。", "vi": "Trên núi có rất nhiều cừu.", "en": "There are many sheep on the mountain." }
+  },
+  {
+    "id": "L3-0832",
+    "vi": ["ánh nắng", "ánh nắng mặt trời"],
+    "viAliases": ["nắng", "ánh sáng mặt trời"],
+    "en": ["sunshine"],
+    "enSource": "cedict",
+    "example": { "zh": "今天的阳光很好。", "vi": "Ánh nắng hôm nay rất đẹp.", "en": "The sunshine is nice today." }
+  },
+  {
+    "id": "L3-0833",
+    "vi": ["nếu", "nếu như"],
+    "viAliases": ["nếu mà", "giả sử"],
+    "en": ["if"],
+    "enSource": "cedict",
+    "example": { "zh": "要是下雨我们就不去了。", "vi": "Nếu trời mưa thì chúng ta không đi nữa.", "en": "If it rains, we will not go." }
+  },
+  {
+    "id": "L3-0834",
+    "vi": ["móc áo", "mắc áo"],
+    "viAliases": ["giá treo quần áo", "cây treo đồ"],
+    "en": ["clothes hanger", "clothes rack"],
+    "enSource": "cedict",
+    "example": { "zh": "把衣服挂在衣架上。", "vi": "Treo quần áo lên móc áo.", "en": "Hang the clothes on the hanger." }
+  },
+  {
+    "id": "L3-0835",
+    "vi": ["tất cả", "mọi thứ"],
+    "viAliases": ["hết thảy", "toàn bộ"],
+    "en": ["everything", "every", "all"],
+    "enSource": "cedict",
+    "example": { "zh": "这里的一切都很好。", "vi": "Mọi thứ ở đây đều rất tốt.", "en": "Everything here is very good." }
+  },
+  {
+    "id": "L3-0836",
+    "vi": ["đã"],
+    "viAliases": ["rồi"],
+    "en": ["already"],
+    "enSource": "cedict",
+    "example": { "zh": "他已回到家里了。", "vi": "Anh ấy đã về đến nhà rồi.", "en": "He has already returned home." }
+  },
+  {
+    "id": "L3-0837",
+    "vi": ["kể từ khi", "từ đó đến nay"],
+    "viAliases": ["từ khi", "đến nay"],
+    "en": ["since (used after a specified time or event)"],
+    "enSource": "cedict",
+    "example": { "zh": "去年以来他一直在学中文。", "vi": "Từ năm ngoái đến nay anh ấy vẫn luôn học tiếng Trung.", "en": "Since last year he has been studying Chinese." }
+  },
+  {
+    "id": "L3-0838",
+    "vi": ["một mặt", "một phương diện"],
+    "viAliases": ["về một mặt", "một đằng"],
+    "en": ["on the one hand"],
+    "enSource": "cedict",
+    "example": { "zh": "一方面他想去，一方面又太忙。", "vi": "Một mặt anh ấy muốn đi, một mặt lại quá bận.", "en": "On the one hand he wants to go, on the other hand he is too busy." }
+  },
+  {
+    "id": "L3-0839",
+    "vi": ["nghệ thuật"],
+    "viAliases": [],
+    "en": ["art"],
+    "enSource": "cedict",
+    "example": { "zh": "他对艺术很感兴趣。", "vi": "Anh ấy rất hứng thú với nghệ thuật.", "en": "He is very interested in art." }
+  },
+  {
+    "id": "L3-0840",
+    "vi": ["bất ngờ", "ngoài ý muốn", "tai nạn"],
+    "viAliases": ["ngoài dự đoán", "sự cố bất ngờ"],
+    "en": ["unexpected", "accident", "mishap"],
+    "enSource": "cedict",
+    "example": { "zh": "这个结果让大家很意外。", "vi": "Kết quả này khiến mọi người rất bất ngờ.", "en": "This result surprised everyone." }
+  },
+  {
+    "id": "L3-0841",
+    "vi": ["ý nghĩa"],
+    "viAliases": ["nghĩa", "tầm quan trọng"],
+    "en": ["meaning", "significance", "sense", "importance"],
+    "enSource": "cedict",
+    "example": { "zh": "这件事很有意义。", "vi": "Việc này rất có ý nghĩa.", "en": "This matter is very meaningful." }
+  },
+  {
+    "id": "L3-0842",
+    "vi": ["vì vậy", "do đó", "vì thế"],
+    "viAliases": ["cho nên", "bởi vậy"],
+    "en": ["thus", "consequently", "as a result"],
+    "enSource": "cedict",
+    "example": { "zh": "他生病了，因此没来上课。", "vi": "Anh ấy bị ốm, vì vậy không đến lớp.", "en": "He was sick, so he did not come to class." }
+  },
+  {
+    "id": "L3-0843",
+    "vi": ["bạc", "màu bạc"],
+    "viAliases": ["kim loại bạc", "trắng bạc"],
+    "en": ["silver", "silver-colored"],
+    "enSource": "cedict",
+    "example": { "zh": "这个杯子是银做的。", "vi": "Cái cốc này làm bằng bạc.", "en": "This cup is made of silver." }
+  }
+]

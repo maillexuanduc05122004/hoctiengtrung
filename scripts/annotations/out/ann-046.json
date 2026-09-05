@@ -1,0 +1,542 @@
+[
+  {
+    "id": "L3-0754",
+    "vi": ["vĩ đại", "lớn lao"],
+    "viAliases": ["to lớn"],
+    "en": ["great; grand", "worthy of the greatest admiration"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他是一位伟大的老师。",
+      "vi": "Ông ấy là một người thầy vĩ đại.",
+      "en": "He is a great teacher."
+    }
+  },
+  {
+    "id": "L3-0755",
+    "vi": ["vệ sinh", "sạch sẽ"],
+    "viAliases": ["hợp vệ sinh"],
+    "en": ["hygienic; sanitary", "hygiene; sanitation"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这家饭馆很卫生。",
+      "vi": "Nhà hàng này rất sạch sẽ.",
+      "en": "This restaurant is very hygienic."
+    }
+  },
+  {
+    "id": "L3-0756",
+    "vi": ["nhà vệ sinh", "phòng vệ sinh"],
+    "viAliases": ["toilet", "nhà tắm"],
+    "en": ["bathroom", "toilet", "WC"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "请问卫生间在哪里？",
+      "vi": "Xin hỏi nhà vệ sinh ở đâu?",
+      "en": "Excuse me, where is the bathroom?"
+    }
+  },
+  {
+    "id": "L3-0757",
+    "vi": ["để", "vì", "nhằm"],
+    "viAliases": ["để mà", "vì mục đích"],
+    "en": ["for; for the purpose of; in order to"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "为了考试我每天学习。",
+      "vi": "Vì kỳ thi nên ngày nào tôi cũng học.",
+      "en": "I study every day for the exam."
+    }
+  },
+  {
+    "id": "L3-0758",
+    "vi": ["ấm áp", "sưởi ấm"],
+    "viAliases": ["ấm", "làm ấm"],
+    "en": ["warm"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "春天的阳光很温暖。",
+      "vi": "Ánh nắng mùa xuân rất ấm áp.",
+      "en": "The spring sunshine is very warm."
+    }
+  },
+  {
+    "id": "L3-0759",
+    "vi": ["văn hóa"],
+    "viAliases": ["nền văn hóa", "văn hoá"],
+    "en": ["culture", "civilization"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我对中国文化很感兴趣。",
+      "vi": "Tôi rất hứng thú với văn hóa Trung Quốc.",
+      "en": "I am very interested in Chinese culture."
+    }
+  },
+  {
+    "id": "L3-0760",
+    "vi": ["tài liệu", "văn kiện", "tệp tin"],
+    "viAliases": ["hồ sơ", "văn bản"],
+    "en": ["document", "file"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "请把这个文件发给我。",
+      "vi": "Xin hãy gửi tài liệu này cho tôi.",
+      "en": "Please send me this document."
+    }
+  },
+  {
+    "id": "L3-0761",
+    "vi": ["văn minh", "nền văn minh"],
+    "viAliases": ["có văn hóa", "lịch sự"],
+    "en": ["civilization", "civilized"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "中国有很长的文明历史。",
+      "vi": "Trung Quốc có lịch sử văn minh rất lâu đời.",
+      "en": "China has a very long history of civilization."
+    }
+  },
+  {
+    "id": "L3-0762",
+    "vi": ["văn học"],
+    "viAliases": ["nền văn học"],
+    "en": ["literature"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "她很喜欢中国文学。",
+      "vi": "Cô ấy rất thích văn học Trung Quốc.",
+      "en": "She likes Chinese literature very much."
+    }
+  },
+  {
+    "id": "L3-0763",
+    "vi": ["bài văn", "bài viết"],
+    "viAliases": ["bài báo", "áng văn"],
+    "en": ["article", "essay", "writings"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这篇文章写得很好。",
+      "vi": "Bài viết này viết rất hay.",
+      "en": "This article is very well written."
+    }
+  },
+  {
+    "id": "L3-0764",
+    "vi": ["chữ viết", "văn tự"],
+    "viAliases": ["chữ", "con chữ"],
+    "en": ["character", "script", "written language"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "汉语的文字很难写。",
+      "vi": "Chữ viết tiếng Hán rất khó viết.",
+      "en": "Chinese characters are hard to write."
+    }
+  },
+  {
+    "id": "L3-0765",
+    "vi": ["bắt tay"],
+    "viAliases": [],
+    "en": ["to shake hands"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他们见面时握手了。",
+      "vi": "Khi gặp nhau họ đã bắt tay.",
+      "en": "They shook hands when they met."
+    }
+  },
+  {
+    "id": "L3-0766",
+    "vi": ["căn phòng", "gian nhà"],
+    "viAliases": ["phòng", "buồng"],
+    "en": ["house", "room"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这间屋子又大又干净。",
+      "vi": "Căn phòng này vừa rộng vừa sạch.",
+      "en": "This room is both big and clean."
+    }
+  },
+  {
+    "id": "L3-0767",
+    "vi": ["vũ khí"],
+    "viAliases": ["khí giới"],
+    "en": ["weapon", "arms"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "那个国家有很多武器。",
+      "vi": "Nước đó có rất nhiều vũ khí.",
+      "en": "That country has a lot of weapons."
+    }
+  },
+  {
+    "id": "L3-0768",
+    "vi": ["võ thuật"],
+    "viAliases": ["võ", "công phu"],
+    "en": ["all kinds of martial art sports", "self-defense"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他每天早上练武术。",
+      "vi": "Anh ấy tập võ thuật mỗi sáng.",
+      "en": "He practices martial arts every morning."
+    }
+  },
+  {
+    "id": "L3-0769",
+    "vi": ["sân khấu"],
+    "viAliases": ["sàn diễn"],
+    "en": ["stage; arena"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "她站在舞台上唱歌。",
+      "vi": "Cô ấy đứng trên sân khấu hát.",
+      "en": "She is singing on the stage."
+    }
+  },
+  {
+    "id": "L3-0770",
+    "vi": ["miền tây", "phía tây"],
+    "viAliases": ["khu vực phía tây"],
+    "en": ["western part"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "中国西部有很多山。",
+      "vi": "Miền tây Trung Quốc có rất nhiều núi.",
+      "en": "There are many mountains in western China."
+    }
+  },
+  {
+    "id": "L3-0771",
+    "vi": ["hy vọng", "mong"],
+    "viAliases": ["hi vọng", "mong muốn", "niềm hy vọng"],
+    "en": ["to hope", "a hope; a wish"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我希望明天天气好。",
+      "vi": "Tôi hy vọng ngày mai thời tiết đẹp.",
+      "en": "I hope the weather is good tomorrow."
+    }
+  },
+  {
+    "id": "L3-0772",
+    "vi": ["khoa", "hệ"],
+    "viAliases": ["bộ môn", "ngành"],
+    "en": ["department", "faculty", "system"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他是中文系的学生。",
+      "vi": "Anh ấy là sinh viên khoa tiếng Trung.",
+      "en": "He is a student in the Chinese department."
+    }
+  },
+  {
+    "id": "L3-0773",
+    "vi": ["xuống", "đi xuống"],
+    "viAliases": ["bước xuống", "trèo xuống"],
+    "en": ["to come down"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "请你下来帮我一下。",
+      "vi": "Bạn xuống giúp tôi một chút nhé.",
+      "en": "Please come down and help me for a moment."
+    }
+  },
+  {
+    "id": "L3-0774",
+    "vi": ["phía dưới", "bên dưới", "tiếp theo"],
+    "viAliases": ["ở dưới", "dưới đây"],
+    "en": ["below", "under", "the following"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "书在桌子下面。",
+      "vi": "Quyển sách ở dưới bàn.",
+      "en": "The book is under the table."
+    }
+  },
+  {
+    "id": "L3-0775",
+    "vi": ["đi xuống", "tiếp tục"],
+    "viAliases": ["xuống dưới", "làm tiếp"],
+    "en": ["to go down", "to descend", "to continue"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我们从这里走下去吧。",
+      "vi": "Chúng ta đi xuống từ đây nhé.",
+      "en": "Let's walk down from here."
+    }
+  },
+  {
+    "id": "L3-0776",
+    "vi": ["tiên tiến", "tiến bộ"],
+    "viAliases": ["ưu tú", "gương mẫu"],
+    "en": ["sophisticated; advanced", "meritorious; exemplary"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这家工厂的技术很先进。",
+      "vi": "Kỹ thuật của nhà máy này rất tiên tiến.",
+      "en": "This factory's technology is very advanced."
+    }
+  },
+  {
+    "id": "L3-0777",
+    "vi": ["trông có vẻ", "tỏ ra"],
+    "viAliases": ["có vẻ", "trông"],
+    "en": ["to seem", "to look", "to appear"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "今天他显得特别高兴。",
+      "vi": "Hôm nay anh ấy trông đặc biệt vui.",
+      "en": "Today he seems especially happy."
+    }
+  },
+  {
+    "id": "L3-0778",
+    "vi": ["rõ ràng", "hiển nhiên"],
+    "viAliases": ["rõ ràng là", "hiển nhiên là"],
+    "en": ["clearly; evidently; obviously"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他显然不知道这件事。",
+      "vi": "Rõ ràng là anh ấy không biết chuyện này.",
+      "en": "He obviously doesn't know about this."
+    }
+  },
+  {
+    "id": "L3-0779",
+    "vi": ["hiển thị", "cho thấy"],
+    "viAliases": ["thể hiện", "hiện ra"],
+    "en": ["to show", "to display", "to demonstrate"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "电脑上显示了一张地图。",
+      "vi": "Trên máy tính hiển thị một tấm bản đồ.",
+      "en": "A map is displayed on the computer."
+    }
+  },
+  {
+    "id": "L3-0780",
+    "vi": ["hiện trường", "tại chỗ"],
+    "viAliases": ["nơi xảy ra sự việc"],
+    "en": ["the scene", "(at) the site"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "警察很快到了现场。",
+      "vi": "Cảnh sát nhanh chóng đến hiện trường.",
+      "en": "The police quickly arrived at the scene."
+    }
+  },
+  {
+    "id": "L3-0781",
+    "vi": ["hiện đại", "thời hiện đại"],
+    "viAliases": ["thời nay", "ngày nay"],
+    "en": ["modern times", "modern age", "modern era"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "现代生活越来越方便。",
+      "vi": "Cuộc sống hiện đại ngày càng tiện lợi.",
+      "en": "Modern life is more and more convenient."
+    }
+  },
+  {
+    "id": "L3-0782",
+    "vi": ["tiền mặt"],
+    "viAliases": ["tiền tươi"],
+    "en": ["cash"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我身上没有现金了。",
+      "vi": "Trên người tôi không còn tiền mặt.",
+      "en": "I don't have any cash on me."
+    }
+  },
+  {
+    "id": "L3-0783",
+    "vi": ["hiện thực", "thực tế"],
+    "viAliases": ["thực tại"],
+    "en": ["reality; actuality", "real; actual"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这个想法离现实很远。",
+      "vi": "Ý tưởng này rất xa rời thực tế.",
+      "en": "This idea is far from reality."
+    }
+  },
+  {
+    "id": "L3-0784",
+    "vi": ["hiện tượng"],
+    "viAliases": [],
+    "en": ["phenomenon", "appearance"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这是一种常见的现象。",
+      "vi": "Đây là một hiện tượng thường gặp.",
+      "en": "This is a common phenomenon."
+    }
+  },
+  {
+    "id": "L3-0785",
+    "vi": ["sợi dây", "đường kẻ", "tuyến"],
+    "viAliases": ["dây", "chỉ", "đường"],
+    "en": ["thread", "string", "wire", "line"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "请在纸上画一条线。",
+      "vi": "Hãy vẽ một đường trên giấy.",
+      "en": "Please draw a line on the paper."
+    }
+  },
+  {
+    "id": "L3-0786",
+    "vi": ["so sánh", "so với"],
+    "viAliases": ["đối chiếu", "đem so"],
+    "en": ["to compare"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "和去年相比今年更热。",
+      "vi": "So với năm ngoái, năm nay nóng hơn.",
+      "en": "Compared with last year, this year is hotter."
+    }
+  },
+  {
+    "id": "L3-0787",
+    "vi": ["khá", "tương đương"],
+    "viAliases": ["tương đối", "ngang với"],
+    "en": ["equivalent to", "considerably", "fairly", "quite"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这道题相当难。",
+      "vi": "Câu hỏi này khá khó.",
+      "en": "This question is quite difficult."
+    }
+  },
+  {
+    "id": "L3-0788",
+    "vi": ["liên quan", "có liên quan"],
+    "viAliases": ["tương quan", "liên quan đến nhau"],
+    "en": ["related", "relevant", "to be interrelated"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这个问题和天气相关。",
+      "vi": "Vấn đề này có liên quan đến thời tiết.",
+      "en": "This question is related to the weather."
+    }
+  },
+  {
+    "id": "L3-0789",
+    "vi": ["lẫn nhau", "qua lại"],
+    "viAliases": ["với nhau", "tương hỗ"],
+    "en": ["each other", "mutual"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "同学们应该相互帮助。",
+      "vi": "Các bạn học nên giúp đỡ lẫn nhau.",
+      "en": "Classmates should help each other."
+    }
+  },
+  {
+    "id": "L3-0790",
+    "vi": ["giống nhau", "tương tự"],
+    "viAliases": ["na ná", "giống"],
+    "en": ["similar; alike"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这两张照片很相似。",
+      "vi": "Hai tấm ảnh này rất giống nhau.",
+      "en": "These two photos are very similar."
+    }
+  },
+  {
+    "id": "L3-0791",
+    "vi": ["thơm", "ngon miệng"],
+    "viAliases": ["thơm ngon", "thơm phức"],
+    "en": ["fragrant", "sweet smelling", "savory or appetizing"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "妈妈做的菜很香。",
+      "vi": "Món ăn mẹ nấu rất thơm.",
+      "en": "The food my mother cooks smells wonderful."
+    }
+  },
+  {
+    "id": "L3-0792",
+    "vi": ["quả chuối", "chuối"],
+    "viAliases": ["trái chuối"],
+    "en": ["banana"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我早上吃了两根香蕉。",
+      "vi": "Sáng nay tôi đã ăn hai quả chuối.",
+      "en": "I ate two bananas this morning."
+    }
+  },
+  {
+    "id": "L3-0793",
+    "vi": ["tiêu dùng", "tiêu thụ"],
+    "viAliases": ["chi tiêu"],
+    "en": ["to consume"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "年轻人喜欢在网上消费。",
+      "vi": "Người trẻ thích tiêu dùng trên mạng.",
+      "en": "Young people like to spend money online."
+    }
+  },
+  {
+    "id": "L3-0794",
+    "vi": ["biến mất", "mất đi"],
+    "viAliases": ["tan biến", "mất hút"],
+    "en": ["to disappear; to fade away"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "那只小猫忽然消失了。",
+      "vi": "Con mèo nhỏ đó bỗng nhiên biến mất.",
+      "en": "That kitten suddenly disappeared."
+    }
+  },
+  {
+    "id": "L3-0795",
+    "vi": ["tin tức", "tin"],
+    "viAliases": ["thông tin", "tin nhắn"],
+    "en": ["news; information", "message"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我听到了一个好消息。",
+      "vi": "Tôi nghe được một tin tốt.",
+      "en": "I heard a piece of good news."
+    }
+  },
+  {
+    "id": "L3-0796",
+    "vi": ["hiệu quả", "kết quả"],
+    "viAliases": ["tác dụng", "công hiệu"],
+    "en": ["result", "effect", "efficacy"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这个办法的效果很好。",
+      "vi": "Hiệu quả của cách làm này rất tốt.",
+      "en": "The effect of this method is very good."
+    }
+  },
+  {
+    "id": "L3-0797",
+    "vi": ["viết văn", "sáng tác"],
+    "viAliases": ["viết lách", "viết"],
+    "en": ["to write", "to compose"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他从小就喜欢写作。",
+      "vi": "Anh ấy thích viết văn từ nhỏ.",
+      "en": "He has loved writing since he was little."
+    }
+  },
+  {
+    "id": "L3-0798",
+    "vi": ["máu"],
+    "viAliases": ["huyết"],
+    "en": ["blood"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他的手上有一点血。",
+      "vi": "Trên tay anh ấy có một chút máu.",
+      "en": "There is a little blood on his hand."
+    }
+  }
+]

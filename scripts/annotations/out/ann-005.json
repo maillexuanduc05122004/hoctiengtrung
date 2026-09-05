@@ -6,9 +6,9 @@
     "en": ["today"],
     "enSource": "cedict",
     "example": {
-      "zh": "今天天气很好。",
-      "vi": "Hôm nay thời tiết rất đẹp.",
-      "en": "The weather is very nice today."
+      "zh": "今天我很忙。",
+      "vi": "Hôm nay tôi rất bận.",
+      "en": "I am very busy today."
     }
   },
   {
@@ -25,8 +25,8 @@
   },
   {
     "id": "L1-0183",
-    "vi": ["vào đây", "đi vào"],
-    "viAliases": ["bước vào đây", "vào trong này"],
+    "vi": ["vào đây", "vào trong này"],
+    "viAliases": ["bước vào đây", "đi vào"],
     "en": ["to come in"],
     "enSource": "cedict",
     "example": {
@@ -62,7 +62,7 @@
   {
     "id": "L1-0186",
     "vi": ["liền", "ngay", "thì"],
-    "viAliases": ["là ngay", "ngay lập tức"],
+    "viAliases": ["ngay lập tức"],
     "en": ["in that case; then", "as soon as; immediately after", "only; as little as"],
     "enSource": "cedict",
     "example": {
@@ -146,7 +146,7 @@
   {
     "id": "L1-0193",
     "vi": ["khám bệnh", "đi khám"],
-    "viAliases": ["đi bác sĩ", "chữa bệnh"],
+    "viAliases": ["đi bác sĩ"],
     "en": ["to visit a doctor", "to see a patient"],
     "enSource": "cedict",
     "example": {
@@ -242,7 +242,7 @@
   {
     "id": "L1-0201",
     "vi": ["bài khóa", "bài đọc"],
-    "viAliases": ["bài văn"],
+    "viAliases": [],
     "en": ["text"],
     "enSource": "cedict",
     "example": {
@@ -253,14 +253,14 @@
   },
   {
     "id": "L1-0202",
-    "vi": ["miệng", "lượng từ chỉ số người trong nhà"],
+    "vi": ["miệng", "lượng từ chỉ người trong gia đình"],
     "viAliases": ["mồm"],
     "en": ["mouth", "classifier for things with mouths", "classifier for bites or mouthfuls"],
     "enSource": "cedict",
     "example": {
-      "zh": "我家有五口人。",
-      "vi": "Nhà tôi có năm người.",
-      "en": "There are five people in my family."
+      "zh": "我们家有四口人。",
+      "vi": "Nhà chúng tôi có bốn người.",
+      "en": "There are four people in our family."
     }
   },
   {
@@ -290,7 +290,7 @@
   {
     "id": "L1-0205",
     "vi": ["đến", "tới"],
-    "viAliases": ["lại đây", "đi đến"],
+    "viAliases": ["lại đây", "đến đây"],
     "en": ["to come"],
     "enSource": "cedict",
     "example": {
@@ -301,8 +301,8 @@
   },
   {
     "id": "L1-0206",
-    "vi": ["đến nơi", "đi đến"],
-    "viAliases": ["tới nơi", "đặt chân đến"],
+    "vi": ["đến nơi", "tới nơi"],
+    "viAliases": ["đến", "đặt chân đến"],
     "en": ["to arrive; to come"],
     "enSource": "cedict",
     "example": {
@@ -410,7 +410,7 @@
   {
     "id": "L1-0215",
     "vi": ["hai"],
-    "viAliases": ["2", "số hai", "đôi"],
+    "viAliases": ["2", "số hai"],
     "en": ["two", "both"],
     "enSource": "cedict",
     "example": {
@@ -486,9 +486,9 @@
     "en": ["road", "route", "journey", "line (bus etc)"],
     "enSource": "cedict",
     "example": {
-      "zh": "这条路很长。",
-      "vi": "Con đường này rất dài.",
-      "en": "This road is very long."
+      "zh": "我们走这条路吧。",
+      "vi": "Chúng ta đi con đường này đi.",
+      "en": "Let us take this road."
     }
   },
   {
@@ -534,9 +534,9 @@
     "en": ["street", "road"],
     "enSource": "cedict",
     "example": {
-      "zh": "过马路的时候要小心。",
-      "vi": "Khi qua đường phải cẩn thận.",
-      "en": "Be careful when crossing the street."
+      "zh": "马路上有很多汽车。",
+      "vi": "Trên đường cái có rất nhiều ô tô.",
+      "en": "There are many cars on the road."
     }
   }
 ]

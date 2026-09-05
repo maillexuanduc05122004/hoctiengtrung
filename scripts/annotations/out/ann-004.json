@@ -18,7 +18,7 @@
   {
     "id": "L1-0138",
     "vi": ["tốt", "hay"],
-    "viAliases": ["ổn", "khá"],
+    "viAliases": ["ổn"],
     "en": ["good", "appropriate; proper"],
     "enSource": "cedict",
     "example": { "zh": "今天天气很好。", "vi": "Hôm nay thời tiết rất tốt.", "en": "The weather is very good today." }
@@ -52,7 +52,7 @@
     "vi": ["vui", "thú vị"],
     "viAliases": ["hay ho", "vui vẻ"],
     "en": ["fun; amusing"],
-    "enSource": "written",
+    "enSource": "cedict",
     "example": { "zh": "这个地方很好玩儿。", "vi": "Nơi này rất thú vị.", "en": "This place is a lot of fun." }
   },
   {
@@ -77,12 +77,12 @@
     "viAliases": ["cùng", "cùng với"],
     "en": ["and; together with; with"],
     "enSource": "cedict",
-    "example": { "zh": "我和朋友一起去学校。", "vi": "Tôi cùng bạn đi đến trường.", "en": "My friend and I go to school together." }
+    "example": { "zh": "我和朋友一起去学校。", "vi": "Tôi và bạn bè cùng đi đến trường.", "en": "My friend and I go to school together." }
   },
   {
     "id": "L1-0146",
     "vi": ["rất"],
-    "viAliases": ["lắm", "khá"],
+    "viAliases": ["lắm"],
     "en": ["very; quite"],
     "enSource": "cedict",
     "example": { "zh": "他今天很高兴。", "vi": "Hôm nay anh ấy rất vui.", "en": "He is very happy today." }
@@ -193,8 +193,8 @@
   },
   {
     "id": "L1-0160",
-    "vi": ["biết làm", "sẽ"],
-    "viAliases": ["biết", "có thể"],
+    "vi": ["biết", "sẽ"],
+    "viAliases": ["biết làm", "có thể"],
     "en": ["can; to have the skill; to know how to", "to be likely to; to be sure to"],
     "enSource": "cedict",
     "example": { "zh": "我妹妹会唱歌。", "vi": "Em gái tôi biết hát.", "en": "My younger sister can sing." }
@@ -274,7 +274,7 @@
   {
     "id": "L1-0170",
     "vi": ["trong nhà", "ở nhà"],
-    "viAliases": ["nhà", "gia đình"],
+    "viAliases": ["nhà", "ở trong nhà"],
     "en": ["home"],
     "enSource": "cedict",
     "example": { "zh": "家里没有牛奶了。", "vi": "Trong nhà hết sữa rồi.", "en": "There is no milk left at home." }
@@ -290,7 +290,7 @@
   {
     "id": "L1-0172",
     "vi": ["gian (lượng từ chỉ phòng)", "căn"],
-    "viAliases": ["phòng"],
+    "viAliases": ["gian"],
     "en": ["classifier for rooms"],
     "enSource": "cedict",
     "example": { "zh": "这里有两间教室。", "vi": "Ở đây có hai phòng học.", "en": "There are two classrooms here." }
@@ -330,7 +330,7 @@
   {
     "id": "L1-0177",
     "vi": ["tòa nhà giảng dạy", "khu nhà học"],
-    "viAliases": ["giảng đường", "tòa nhà dạy học"],
+    "viAliases": ["tòa nhà dạy học", "tòa nhà học tập"],
     "en": ["school building; academic building"],
     "enSource": "cedict",
     "example": { "zh": "我们的教室在教学楼三层。", "vi": "Lớp học của chúng tôi ở tầng ba tòa nhà giảng dạy.", "en": "Our classroom is on the third floor of the academic building." }

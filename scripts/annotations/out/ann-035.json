@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L3-0259",
+    "vi": ["treo", "cúp máy"],
+    "viAliases": ["mắc", "treo lên"],
+    "en": ["to hang; to suspend", "to hang up (the phone)"],
+    "enSource": "cedict",
+    "example": { "zh": "请把衣服挂在这里。", "vi": "Hãy treo quần áo ở đây.", "en": "Please hang the clothes here." }
+  },
+  {
+    "id": "L3-0260",
+    "vi": ["quan hệ", "mối quan hệ", "liên quan đến"],
+    "viAliases": ["liên hệ", "quan hệ với"],
+    "en": ["relation", "relationship", "to concern", "to have to do with"],
+    "enSource": "cedict",
+    "example": { "zh": "他们的关系很好。", "vi": "Quan hệ của họ rất tốt.", "en": "Their relationship is very good." }
+  },
+  {
+    "id": "L3-0261",
+    "vi": ["quan tâm", "theo dõi"],
+    "viAliases": ["chú ý đến", "để ý đến"],
+    "en": ["to pay attention to; to follow sth closely; to follow (on social media)"],
+    "enSource": "cedict",
+    "example": { "zh": "很多人都关注这个消息。", "vi": "Rất nhiều người quan tâm đến tin này.", "en": "Many people are following this news." }
+  },
+  {
+    "id": "L3-0262",
+    "vi": ["quan sát", "theo dõi"],
+    "viAliases": ["xem xét"],
+    "en": ["to observe; to watch; to survey"],
+    "enSource": "cedict",
+    "example": { "zh": "我喜欢观察天上的云。", "vi": "Tôi thích quan sát những đám mây trên trời.", "en": "I like watching the clouds in the sky." }
+  },
+  {
+    "id": "L3-0263",
+    "vi": ["xem", "coi"],
+    "viAliases": ["theo dõi"],
+    "en": ["to watch", "to view"],
+    "enSource": "cedict",
+    "example": { "zh": "我们一起观看足球比赛。", "vi": "Chúng tôi cùng nhau xem trận bóng đá.", "en": "We watch the football match together." }
+  },
+  {
+    "id": "L3-0264",
+    "vi": ["quan niệm", "quan điểm"],
+    "viAliases": ["ý niệm", "cách nghĩ"],
+    "en": ["notion", "concept", "views", "sense"],
+    "enSource": "cedict",
+    "example": { "zh": "他的观念和我不同。", "vi": "Quan niệm của anh ấy khác với tôi.", "en": "His views are different from mine." }
+  },
+  {
+    "id": "L3-0265",
+    "vi": ["khán giả"],
+    "viAliases": ["người xem"],
+    "en": ["spectators; audience"],
+    "enSource": "cedict",
+    "example": { "zh": "今天的观众非常多。", "vi": "Khán giả hôm nay rất đông.", "en": "There is a very large audience today." }
+  },
+  {
+    "id": "L3-0266",
+    "vi": ["quản", "lo, để ý đến"],
+    "viAliases": ["trông coi", "cai quản", "quản lý"],
+    "en": ["to take care (of)", "to manage", "to be in charge of", "to care about"],
+    "enSource": "cedict",
+    "example": { "zh": "这些事情我来管。", "vi": "Những việc này để tôi quản.", "en": "I will take care of these matters." }
+  },
+  {
+    "id": "L3-0267",
+    "vi": ["quản lý"],
+    "viAliases": ["cai quản", "điều hành", "quản trị"],
+    "en": ["to manage", "to supervise", "to administer"],
+    "enSource": "cedict",
+    "example": { "zh": "他管理这家公司很多年了。", "vi": "Anh ấy đã quản lý công ty này nhiều năm rồi.", "en": "He has managed this company for many years." }
+  },
+  {
+    "id": "L3-0268",
+    "vi": ["ánh sáng", "chỉ, chỉ có", "sáng"],
+    "viAliases": ["tia sáng", "chỉ mỗi"],
+    "en": ["light; ray", "bright; shiny", "only; merely"],
+    "enSource": "cedict",
+    "example": { "zh": "房间里的光不太亮。", "vi": "Ánh sáng trong phòng không sáng lắm.", "en": "The light in the room is not very bright." }
+  },
+  {
+    "id": "L3-0269",
+    "vi": ["tươi sáng", "sáng sủa", "ánh sáng"],
+    "viAliases": ["xán lạn", "rạng rỡ"],
+    "en": ["light", "radiance", "bright (prospects etc)"],
+    "enSource": "cedict",
+    "example": { "zh": "我相信明天会更光明。", "vi": "Tôi tin ngày mai sẽ tươi sáng hơn.", "en": "I believe tomorrow will be brighter." }
+  },
+  {
+    "id": "L3-0270",
+    "vi": ["phát thanh", "phát sóng", "buổi phát thanh"],
+    "viAliases": ["truyền thanh"],
+    "en": ["to broadcast", "broadcast", "broadcasting"],
+    "enSource": "cedict",
+    "example": { "zh": "我每天听广播学英语。", "vi": "Mỗi ngày tôi nghe phát thanh để học tiếng Anh.", "en": "I listen to the radio broadcast every day to learn English." }
+  },
+  {
+    "id": "L3-0271",
+    "vi": ["rộng lớn", "đông đảo"],
+    "viAliases": ["bao la", "mênh mông", "rộng khắp"],
+    "en": ["vast or extensive", "large-scale", "widespread", "numerous"],
+    "enSource": "cedict",
+    "example": { "zh": "广大学生都很喜欢这位老师。", "vi": "Đông đảo học sinh đều rất thích thầy giáo này.", "en": "The broad body of students all like this teacher very much." }
+  },
+  {
+    "id": "L3-0272",
+    "vi": ["quy định", "đặt ra quy định"],
+    "viAliases": ["qui định", "điều lệ"],
+    "en": ["to stipulate; to specify; to prescribe", "regulations; rules; provisions; stipulations"],
+    "enSource": "cedict",
+    "example": { "zh": "学校规定不能迟到。", "vi": "Nhà trường quy định không được đến muộn.", "en": "The school stipulates that you cannot be late." }
+  },
+  {
+    "id": "L3-0273",
+    "vi": ["chuẩn mực", "quy phạm", "chuẩn hóa"],
+    "viAliases": ["quy chuẩn", "đúng chuẩn"],
+    "en": ["norm", "standard", "to regulate", "to specify"],
+    "enSource": "cedict",
+    "example": { "zh": "他写的汉字很规范。", "vi": "Chữ Hán anh ấy viết rất chuẩn mực.", "en": "The Chinese characters he writes are very standard." }
+  },
+  {
+    "id": "L3-0274",
+    "vi": ["trong nước", "nội địa"],
+    "viAliases": ["quốc nội", "ở trong nước"],
+    "en": ["domestic", "internal (to a country)"],
+    "enSource": "cedict",
+    "example": { "zh": "他喜欢在国内旅行。", "vi": "Anh ấy thích đi du lịch trong nước.", "en": "He likes to travel domestically." }
+  },
+  {
+    "id": "L3-0275",
+    "vi": ["Quốc khánh"],
+    "viAliases": ["ngày Quốc khánh", "lễ Quốc khánh"],
+    "en": ["National Day"],
+    "enSource": "cedict",
+    "example": { "zh": "国庆的时候我要回家。", "vi": "Vào dịp Quốc khánh tôi sẽ về nhà.", "en": "I will go home during National Day." }
+  },
+  {
+    "id": "L3-0276",
+    "vi": ["quả nhiên", "quả đúng là"],
+    "viAliases": ["quả thật", "y như rằng", "đúng như dự đoán"],
+    "en": ["really", "sure enough", "as expected"],
+    "enSource": "cedict",
+    "example": { "zh": "这本书果然很有意思。", "vi": "Quyển sách này quả nhiên rất thú vị.", "en": "This book is indeed very interesting." }
+  },
+  {
+    "id": "L3-0277",
+    "vi": ["nước ép trái cây", "nước hoa quả"],
+    "viAliases": ["nước ép", "nước trái cây"],
+    "en": ["fruit juice"],
+    "enSource": "cedict",
+    "example": { "zh": "我想喝一杯果汁。", "vi": "Tôi muốn uống một ly nước ép trái cây.", "en": "I want to drink a glass of fruit juice." }
+  },
+  {
+    "id": "L3-0278",
+    "vi": ["quá trình", "tiến trình"],
+    "viAliases": ["diễn biến"],
+    "en": ["course of events; process"],
+    "enSource": "cedict",
+    "example": { "zh": "找工作的过程不容易。", "vi": "Quá trình tìm việc không dễ dàng.", "en": "The process of finding a job is not easy." }
+  },
+  {
+    "id": "L3-0279",
+    "vi": ["quá khứ", "trước đây"],
+    "viAliases": ["ngày xưa", "thời trước", "dĩ vãng"],
+    "en": ["(in the) past; former; previous"],
+    "enSource": "cedict",
+    "example": { "zh": "过去的事情别再想了。", "vi": "Chuyện quá khứ đừng nghĩ nữa.", "en": "Do not think about past matters anymore." }
+  },
+  {
+    "id": "L3-0280",
+    "vi": ["ha ha", "tiếng cười ha ha"],
+    "viAliases": ["haha", "hà hà"],
+    "en": ["laughing out loud"],
+    "enSource": "cedict",
+    "example": { "zh": "哈哈，今天真高兴！", "vi": "Ha ha, hôm nay thật vui!", "en": "Haha, today is really enjoyable!" }
+  },
+  {
+    "id": "L3-0281",
+    "vi": ["hải quan"],
+    "viAliases": ["cửa khẩu hải quan", "trạm hải quan"],
+    "en": ["customs (i.e. border crossing inspection)"],
+    "enSource": "cedict",
+    "example": { "zh": "我们在海关等了半个小时。", "vi": "Chúng tôi đợi ở hải quan nửa tiếng.", "en": "We waited at customs for half an hour." }
+  },
+  {
+    "id": "L3-0282",
+    "vi": ["sợ", "sợ hãi"],
+    "viAliases": ["lo sợ", "e sợ", "sợ sệt"],
+    "en": ["to be afraid; to be scared"],
+    "enSource": "cedict",
+    "example": { "zh": "妹妹害怕一个人在家。", "vi": "Em gái sợ ở nhà một mình.", "en": "My younger sister is afraid of being home alone." }
+  },
+  {
+    "id": "L3-0283",
+    "vi": ["hàng", "dòng"],
+    "viAliases": ["dòng chữ", "hàng chữ"],
+    "en": ["row; line", "classifier for rows or lines"],
+    "enSource": "cedict",
+    "example": { "zh": "请你读第一行的字。", "vi": "Bạn hãy đọc chữ ở dòng đầu tiên.", "en": "Please read the characters in the first line." }
+  },
+  {
+    "id": "L3-0284",
+    "vi": ["cho tốt, cho kỹ", "tử tế, đàng hoàng", "nguyên vẹn"],
+    "viAliases": ["hẳn hoi", "cẩn thận", "đến nơi đến chốn"],
+    "en": ["well; thoroughly; carefully; properly", "in perfectly good condition; perfectly all right"],
+    "enSource": "cedict",
+    "example": { "zh": "你要好好学习汉语。", "vi": "Bạn phải học tiếng Trung cho tốt.", "en": "You should study Chinese properly." }
+  },
+  {
+    "id": "L3-0285",
+    "vi": ["tò mò", "hiếu kỳ"],
+    "viAliases": ["hiếu kì", "tò mò muốn biết"],
+    "en": ["curious", "inquisitive", "curiosity"],
+    "enSource": "cedict",
+    "example": { "zh": "孩子们对这个问题很好奇。", "vi": "Bọn trẻ rất tò mò về vấn đề này.", "en": "The children are very curious about this question." }
+  },
+  {
+    "id": "L3-0286",
+    "vi": ["hợp lại", "khép, đóng lại"],
+    "viAliases": ["gộp", "ghép lại", "gấp lại"],
+    "en": ["to close", "to join", "to fit", "to be equal to"],
+    "enSource": "cedict",
+    "example": { "zh": "请合上你的书本。", "vi": "Hãy gấp sách của bạn lại.", "en": "Please close your book." }
+  },
+  {
+    "id": "L3-0287",
+    "vi": ["hợp pháp"],
+    "viAliases": ["đúng luật", "đúng pháp luật"],
+    "en": ["lawful", "legitimate", "legal"],
+    "enSource": "cedict",
+    "example": { "zh": "这样做是合法的。", "vi": "Làm như vậy là hợp pháp.", "en": "Doing it this way is legal." }
+  },
+  {
+    "id": "L3-0288",
+    "vi": ["đạt yêu cầu", "đủ tiêu chuẩn"],
+    "viAliases": ["đạt chuẩn", "đạt", "hợp cách"],
+    "en": ["to meet the standard required", "qualified", "eligible"],
+    "enSource": "cedict",
+    "example": { "zh": "他的考试成绩合格了。", "vi": "Điểm thi của anh ấy đã đạt yêu cầu.", "en": "His exam results met the standard." }
+  },
+  {
+    "id": "L3-0289",
+    "vi": ["hợp lý"],
+    "viAliases": ["hợp lí", "có lý", "thỏa đáng"],
+    "en": ["rational; reasonable; sensible; fair"],
+    "enSource": "cedict",
+    "example": { "zh": "这个价格很合理。", "vi": "Giá này rất hợp lý.", "en": "This price is very reasonable." }
+  },
+  {
+    "id": "L3-0290",
+    "vi": ["hợp tác"],
+    "viAliases": ["cộng tác", "phối hợp"],
+    "en": ["to cooperate; to collaborate; to work together"],
+    "enSource": "cedict",
+    "example": { "zh": "我们两家公司要合作。", "vi": "Hai công ty chúng tôi sẽ hợp tác.", "en": "Our two companies are going to cooperate." }
+  },
+  {
+    "id": "L3-0291",
+    "vi": ["hòa bình"],
+    "viAliases": ["hoà bình", "nền hòa bình"],
+    "en": ["peace"],
+    "enSource": "cedict",
+    "example": { "zh": "大家都希望世界和平。", "vi": "Mọi người đều mong thế giới hòa bình.", "en": "Everyone hopes for world peace." }
+  },
+  {
+    "id": "L3-0292",
+    "vi": ["hồng trà", "trà đen"],
+    "viAliases": ["chè đen"],
+    "en": ["black tea"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈喜欢喝红茶。", "vi": "Mẹ thích uống hồng trà.", "en": "My mother likes to drink black tea." }
+  },
+  {
+    "id": "L3-0293",
+    "vi": ["rượu vang đỏ", "vang đỏ"],
+    "viAliases": ["rượu vang", "rượu nho đỏ"],
+    "en": ["red wine"],
+    "enSource": "cedict",
+    "example": { "zh": "晚饭时他喝了一杯红酒。", "vi": "Bữa tối anh ấy uống một ly rượu vang đỏ.", "en": "He drank a glass of red wine at dinner." }
+  },
+  {
+    "id": "L3-0294",
+    "vi": ["hậu quả"],
+    "viAliases": ["hệ quả"],
+    "en": ["consequences; aftermath"],
+    "enSource": "cedict",
+    "example": { "zh": "你要想清楚后果。", "vi": "Bạn phải nghĩ kỹ về hậu quả.", "en": "You need to think clearly about the consequences." }
+  },
+  {
+    "id": "L3-0295",
+    "vi": ["phía sau", "đằng sau", "phần sau"],
+    "viAliases": ["mặt sau", "sau này"],
+    "en": ["the back; the rear", "behind; at the back", "later; afterwards"],
+    "enSource": "cedict",
+    "example": { "zh": "我家后面有一个公园。", "vi": "Phía sau nhà tôi có một công viên.", "en": "There is a park behind my house." }
+  },
+  {
+    "id": "L3-0296",
+    "vi": ["năm sau nữa", "hai năm nữa"],
+    "viAliases": ["năm tới nữa", "sang năm nữa"],
+    "en": ["the year after next"],
+    "enSource": "cedict",
+    "example": { "zh": "后年我想去中国留学。", "vi": "Năm sau nữa tôi muốn đi Trung Quốc du học.", "en": "The year after next I want to study in China." }
+  },
+  {
+    "id": "L3-0297",
+    "vi": ["Internet", "mạng Internet"],
+    "viAliases": ["in-tơ-nét", "mạng toàn cầu"],
+    "en": ["Internet"],
+    "enSource": "cedict",
+    "example": { "zh": "现在很多人用互联网买东西。", "vi": "Bây giờ rất nhiều người dùng Internet để mua đồ.", "en": "Now many people use the Internet to buy things." }
+  },
+  {
+    "id": "L3-0298",
+    "vi": ["lẫn nhau", "qua lại"],
+    "viAliases": ["với nhau", "tương hỗ"],
+    "en": ["each other", "mutually"],
+    "enSource": "cedict",
+    "example": { "zh": "同学们互相帮助。", "vi": "Các bạn học giúp đỡ lẫn nhau.", "en": "Classmates help each other." }
+  },
+  {
+    "id": "L3-0299",
+    "vi": ["chèo thuyền", "chèo đò"],
+    "viAliases": ["bơi thuyền"],
+    "en": ["to row a boat", "rowing; boating"],
+    "enSource": "cedict",
+    "example": { "zh": "周末我们去公园划船。", "vi": "Cuối tuần chúng tôi đi công viên chèo thuyền.", "en": "On the weekend we go boating in the park." }
+  },
+  {
+    "id": "L3-0300",
+    "vi": ["người Hoa", "người gốc Hoa"],
+    "viAliases": ["người Trung Hoa", "người gốc Trung Quốc"],
+    "en": ["ethnic Chinese person or people"],
+    "enSource": "cedict",
+    "example": { "zh": "这个城市有很多华人。", "vi": "Thành phố này có rất nhiều người Hoa.", "en": "This city has many ethnic Chinese people." }
+  },
+  {
+    "id": "L3-0301",
+    "vi": ["-hóa", "biến thành, hóa thành"],
+    "viAliases": ["hóa", "-hoá"],
+    "en": ["-ization", "to ... -ize", "to change into", "to transform"],
+    "enSource": "cedict",
+    "example": { "zh": "我们的城市现代化了。", "vi": "Thành phố của chúng tôi đã hiện đại hóa.", "en": "Our city has become modernized." }
+  },
+  {
+    "id": "L3-0302",
+    "vi": ["kịch nói"],
+    "viAliases": ["vở kịch nói"],
+    "en": ["stage play", "modern drama"],
+    "enSource": "cedict",
+    "example": { "zh": "昨天晚上我们去看话剧了。", "vi": "Tối qua chúng tôi đi xem kịch nói.", "en": "Last night we went to see a stage play." }
+  },
+  {
+    "id": "L3-0303",
+    "vi": ["chủ đề", "đề tài"],
+    "viAliases": ["chủ đề nói chuyện", "đề tài trò chuyện"],
+    "en": ["topic", "subject (of a talk or conversation)"],
+    "enSource": "cedict",
+    "example": { "zh": "我们换一个话题吧。", "vi": "Chúng ta đổi chủ đề khác đi.", "en": "Let us change to another topic." }
+  }
+]

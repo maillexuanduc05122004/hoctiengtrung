@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L2-0086",
+    "vi": ["làm thêm", "làm công", "đi làm thuê"],
+    "viAliases": ["làm thuê", "đi làm thêm"],
+    "en": ["to work a temporary or casual job", "(of students) to have a job outside of class time, or during vacation"],
+    "enSource": "cedict",
+    "example": { "zh": "我周末在饭馆打工。", "vi": "Cuối tuần tôi làm thêm ở nhà hàng.", "en": "I work a casual job at a restaurant on weekends." }
+  },
+  {
+    "id": "L2-0087",
+    "vi": ["dự định", "định", "kế hoạch"],
+    "viAliases": ["dự tính", "ý định"],
+    "en": ["to plan", "to intend", "plan", "intention"],
+    "enSource": "cedict",
+    "example": { "zh": "你打算去哪儿旅游？", "vi": "Bạn dự định đi du lịch ở đâu?", "en": "Where do you plan to travel?" }
+  },
+  {
+    "id": "L2-0088",
+    "vi": ["in", "in ra"],
+    "viAliases": ["in ấn"],
+    "en": ["to print out (with a printer)"],
+    "enSource": "cedict",
+    "example": { "zh": "请帮我打印这些照片。", "vi": "Làm ơn in giúp tôi những tấm ảnh này.", "en": "Please help me print these photos." }
+  },
+  {
+    "id": "L2-0089",
+    "vi": ["phần lớn", "đa số"],
+    "viAliases": ["hầu hết", "phần nhiều"],
+    "en": ["the greater part; the majority; most"],
+    "enSource": "cedict",
+    "example": { "zh": "大部分学生都喜欢运动。", "vi": "Phần lớn học sinh đều thích thể thao.", "en": "Most students like sports." }
+  },
+  {
+    "id": "L2-0090",
+    "vi": ["rất nhiều", "đáng kể"],
+    "viAliases": ["nhiều", "một cách đáng kể"],
+    "en": ["greatly", "enormously"],
+    "enSource": "cedict",
+    "example": { "zh": "这件事大大改变了他。", "vi": "Việc này đã thay đổi anh ấy rất nhiều.", "en": "This matter changed him greatly." }
+  },
+  {
+    "id": "L2-0091",
+    "vi": ["đa số", "phần lớn"],
+    "viAliases": ["đại đa số", "số đông"],
+    "en": ["(great) majority"],
+    "enSource": "cedict",
+    "example": { "zh": "大多数人喜欢吃水果。", "vi": "Đa số mọi người thích ăn hoa quả.", "en": "The majority of people like eating fruit." }
+  },
+  {
+    "id": "L2-0092",
+    "vi": ["biển", "biển cả"],
+    "viAliases": ["đại dương", "biển khơi"],
+    "en": ["sea", "ocean"],
+    "enSource": "cedict",
+    "example": { "zh": "我第一次看见大海。", "vi": "Đây là lần đầu tiên tôi nhìn thấy biển.", "en": "This is the first time I have seen the sea." }
+  },
+  {
+    "id": "L2-0093",
+    "vi": ["mọi người", "tất cả mọi người"],
+    "viAliases": ["tất cả"],
+    "en": ["everyone"],
+    "enSource": "cedict",
+    "example": { "zh": "大家一起去公园玩吧。", "vi": "Mọi người cùng đi công viên chơi nhé.", "en": "Let us all go to the park together." }
+  },
+  {
+    "id": "L2-0094",
+    "vi": ["số lượng lớn", "rất nhiều"],
+    "viAliases": ["nhiều", "lượng lớn"],
+    "en": ["great amount", "large quantity", "numerous"],
+    "enSource": "cedict",
+    "example": { "zh": "他每天喝大量的水。", "vi": "Anh ấy mỗi ngày uống rất nhiều nước.", "en": "He drinks a large amount of water every day." }
+  },
+  {
+    "id": "L2-0095",
+    "vi": ["cổng lớn", "cổng chính"],
+    "viAliases": ["cửa lớn", "cổng"],
+    "en": ["entrance", "gate", "door"],
+    "enSource": "cedict",
+    "example": { "zh": "学校的大门开着。", "vi": "Cổng lớn của trường đang mở.", "en": "The school gate is open." }
+  },
+  {
+    "id": "L2-0096",
+    "vi": ["người lớn"],
+    "viAliases": ["người trưởng thành"],
+    "en": ["adult", "grownup"],
+    "enSource": "cedict",
+    "example": { "zh": "这个电影是给大人看的。", "vi": "Bộ phim này là dành cho người lớn xem.", "en": "This movie is for adults to watch." }
+  },
+  {
+    "id": "L2-0097",
+    "vi": ["to tiếng", "lớn tiếng"],
+    "viAliases": ["giọng to"],
+    "en": ["loud voice", "in a loud voice", "loudly"],
+    "enSource": "cedict",
+    "example": { "zh": "老师大声地读课文。", "vi": "Thầy giáo đọc to bài khóa.", "en": "The teacher reads the text in a loud voice." }
+  },
+  {
+    "id": "L2-0098",
+    "vi": ["kích thước", "cỡ"],
+    "viAliases": ["kích cỡ", "độ lớn"],
+    "en": ["size", "large and small"],
+    "enSource": "cedict",
+    "example": { "zh": "这两件衣服大小一样。", "vi": "Hai bộ quần áo này có kích thước giống nhau.", "en": "These two pieces of clothing are the same size." }
+  },
+  {
+    "id": "L2-0099",
+    "vi": ["áo khoác dài", "áo măng tô"],
+    "viAliases": ["áo khoác", "áo bành tô"],
+    "en": ["overcoat", "topcoat", "cloak"],
+    "enSource": "cedict",
+    "example": { "zh": "天冷了，你穿上大衣吧。", "vi": "Trời lạnh rồi, bạn mặc áo khoác dài vào đi.", "en": "It is cold now, put on your overcoat." }
+  },
+  {
+    "id": "L2-0100",
+    "vi": ["thiên nhiên", "tự nhiên"],
+    "viAliases": ["giới tự nhiên"],
+    "en": ["nature (the natural world)"],
+    "enSource": "cedict",
+    "example": { "zh": "我们都很喜欢大自然。", "vi": "Chúng tôi đều rất thích thiên nhiên.", "en": "We all like nature very much." }
+  },
+  {
+    "id": "L2-0101",
+    "vi": ["mang", "đem theo", "dẫn"],
+    "viAliases": ["mang theo", "đưa", "dắt"],
+    "en": ["to carry", "to take along", "to bring", "to lead"],
+    "enSource": "cedict",
+    "example": { "zh": "出门要带手机和钱。", "vi": "Ra ngoài phải mang theo điện thoại và tiền.", "en": "When you go out you must take your phone and money." }
+  },
+  {
+    "id": "L2-0102",
+    "vi": ["mang đến", "đem lại"],
+    "viAliases": ["mang lại", "đem đến"],
+    "en": ["to bring", "to bring about; to produce"],
+    "enSource": "cedict",
+    "example": { "zh": "他给我带来了一本书。", "vi": "Anh ấy mang đến cho tôi một quyển sách.", "en": "He brought me a book." }
+  },
+  {
+    "id": "L2-0103",
+    "vi": ["đơn vị", "cơ quan"],
+    "viAliases": ["nơi làm việc", "cơ quan công tác"],
+    "en": ["unit (of measure)", "unit (group of people as a whole)", "work unit (place of employment)"],
+    "enSource": "cedict",
+    "example": { "zh": "我的单位离家很近。", "vi": "Cơ quan của tôi cách nhà rất gần.", "en": "My work unit is very close to my home." }
+  },
+  {
+    "id": "L2-0104",
+    "vi": ["nhưng", "song"],
+    "viAliases": ["nhưng mà", "thế nhưng"],
+    "en": ["but; yet; however; still"],
+    "enSource": "cedict",
+    "example": { "zh": "我想去但没有时间。", "vi": "Tôi muốn đi nhưng không có thời gian.", "en": "I want to go but I do not have time." }
+  },
+  {
+    "id": "L2-0105",
+    "vi": ["nhưng", "nhưng mà"],
+    "viAliases": ["thế nhưng", "song"],
+    "en": ["but; however"],
+    "enSource": "cedict",
+    "example": { "zh": "这个菜很辣，但是很好吃。", "vi": "Món này rất cay, nhưng rất ngon.", "en": "This dish is very spicy, but it tastes great." }
+  },
+  {
+    "id": "L2-0106",
+    "vi": ["trứng"],
+    "viAliases": ["quả trứng"],
+    "en": ["egg"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈早上给我煮了两个蛋。", "vi": "Buổi sáng mẹ luộc cho tôi hai quả trứng.", "en": "In the morning my mother boiled two eggs for me." }
+  },
+  {
+    "id": "L2-0107",
+    "vi": ["làm", "đảm nhiệm", "vào lúc"],
+    "viAliases": ["trở thành", "khi"],
+    "en": ["to be", "to act as", "when", "just at (a time or place)"],
+    "enSource": "cedict",
+    "example": { "zh": "他长大以后想当老师。", "vi": "Sau khi lớn lên anh ấy muốn làm giáo viên.", "en": "He wants to be a teacher when he grows up." }
+  },
+  {
+    "id": "L2-0108",
+    "vi": ["lúc đó", "khi ấy"],
+    "viAliases": ["lúc ấy", "hồi đó"],
+    "en": ["then; at that time"],
+    "enSource": "cedict",
+    "example": { "zh": "当时我还是个学生。", "vi": "Lúc đó tôi vẫn còn là học sinh.", "en": "At that time I was still a student." }
+  },
+  {
+    "id": "L2-0109",
+    "vi": ["đổ", "ngã", "sụp đổ"],
+    "viAliases": ["sập", "ngã xuống"],
+    "en": ["to fall; to collapse; to lie horizontally", "to fail; to go bankrupt"],
+    "enSource": "cedict",
+    "example": { "zh": "风太大，树倒了。", "vi": "Gió quá to, cây đổ rồi.", "en": "The wind was too strong and the tree fell down." }
+  },
+  {
+    "id": "L2-0110",
+    "vi": ["khắp nơi", "mọi nơi"],
+    "viAliases": ["khắp mọi nơi", "đâu đâu"],
+    "en": ["everywhere"],
+    "enSource": "cedict",
+    "example": { "zh": "春天到处都是花。", "vi": "Mùa xuân khắp nơi đều là hoa.", "en": "In spring there are flowers everywhere." }
+  },
+  {
+    "id": "L2-0111",
+    "vi": ["rót", "đổ ra", "lộn ngược"],
+    "viAliases": ["đổ ra ngoài", "dốc ngược"],
+    "en": ["to pour out", "to tip out; to dump", "inverted; upside down; reversed"],
+    "enSource": "cedict",
+    "example": { "zh": "请给我倒一杯水。", "vi": "Làm ơn rót cho tôi một cốc nước.", "en": "Please pour me a glass of water." }
+  },
+  {
+    "id": "L2-0112",
+    "vi": ["lượng từ chỉ vật dài như sông, vết nứt", "lượng từ chỉ món ăn, câu hỏi, cửa"],
+    "viAliases": ["lượng từ chỉ món ăn", "lượng từ chỉ câu hỏi"],
+    "en": ["classifier for long thin things (rivers, cracks, shadows etc), barriers (walls, doors etc), questions (in an exam etc), commands, courses in a meal, steps in a process"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈今天做了三道菜。", "vi": "Hôm nay mẹ đã nấu ba món ăn.", "en": "My mother cooked three dishes today." }
+  },
+  {
+    "id": "L2-0113",
+    "vi": ["lý lẽ", "đạo lý", "lẽ phải"],
+    "viAliases": ["lí lẽ", "đạo lí"],
+    "en": ["reason", "sense", "principle", "justification"],
+    "enSource": "cedict",
+    "example": { "zh": "你说的话很有道理。", "vi": "Điều bạn nói rất có lý.", "en": "What you said makes a lot of sense." }
+  },
+  {
+    "id": "L2-0114",
+    "vi": ["con đường", "đường sá"],
+    "viAliases": ["đường", "đường đi"],
+    "en": ["road", "path", "way"],
+    "enSource": "cedict",
+    "example": { "zh": "这条道路又宽又长。", "vi": "Con đường này vừa rộng vừa dài.", "en": "This road is both wide and long." }
+  },
+  {
+    "id": "L2-0115",
+    "vi": ["được", "đạt được"],
+    "viAliases": ["nhận được", "giành được", "thu được"],
+    "en": ["to obtain", "to get", "to gain"],
+    "enSource": "cedict",
+    "example": { "zh": "他在比赛中得了第一名。", "vi": "Anh ấy giành được hạng nhất trong cuộc thi.", "en": "He got first place in the competition." }
+  },
+  {
+    "id": "L2-0116",
+    "vi": ["rút ra", "đi đến"],
+    "viAliases": ["thu được", "đưa ra"],
+    "en": ["to obtain (a result); to arrive at (a conclusion)"],
+    "enSource": "cedict",
+    "example": { "zh": "他很快得出了答案。", "vi": "Anh ấy nhanh chóng rút ra được đáp án.", "en": "He quickly arrived at the answer." }
+  },
+  {
+    "id": "L2-0117",
+    "vi": ["trợ từ đứng cuối mệnh đề điều kiện, nếu"],
+    "viAliases": ["nếu", "nếu như", "nếu mà"],
+    "en": ["if (coming after a conditional clause)"],
+    "enSource": "cedict",
+    "example": { "zh": "明天下雨的话，我就不去了。", "vi": "Nếu ngày mai trời mưa thì tôi sẽ không đi.", "en": "If it rains tomorrow, I will not go." }
+  },
+  {
+    "id": "L2-0118",
+    "vi": ["trợ từ kết cấu nối động từ với bổ ngữ mức độ"],
+    "viAliases": ["trợ từ chỉ mức độ"],
+    "en": ["structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc"],
+    "enSource": "cedict",
+    "example": { "zh": "他汉语说得非常好。", "vi": "Anh ấy nói tiếng Trung rất giỏi.", "en": "He speaks Chinese extremely well." }
+  },
+  {
+    "id": "L2-0119",
+    "vi": ["đèn"],
+    "viAliases": ["bóng đèn", "cây đèn"],
+    "en": ["lamp", "light", "lantern"],
+    "enSource": "cedict",
+    "example": { "zh": "天黑了，请开灯。", "vi": "Trời tối rồi, làm ơn bật đèn.", "en": "It is dark now, please turn on the light." }
+  },
+  {
+    "id": "L2-0120",
+    "vi": ["vân vân", "hạng", "bậc"],
+    "viAliases": ["v.v.", "thứ hạng"],
+    "en": ["and so on; etc.; et al.", "class; rank; grade", "(used to end an enumeration)"],
+    "enSource": "cedict",
+    "example": { "zh": "我喜欢苹果、香蕉等水果。", "vi": "Tôi thích các loại hoa quả như táo, chuối, vân vân.", "en": "I like fruits such as apples, bananas and so on." }
+  },
+  {
+    "id": "L2-0121",
+    "vi": ["đợi đến khi", "chờ đến lúc"],
+    "viAliases": ["đến khi", "chờ đến khi"],
+    "en": ["to wait until", "by the time when"],
+    "enSource": "cedict",
+    "example": { "zh": "等到下课，我们再说吧。", "vi": "Đợi đến khi tan học chúng ta nói tiếp nhé.", "en": "Let us talk about it when class is over." }
+  },
+  {
+    "id": "L2-0122",
+    "vi": ["bằng", "tương đương với"],
+    "viAliases": ["ngang với", "chẳng khác nào"],
+    "en": ["to equal", "to be tantamount to"],
+    "enSource": "cedict",
+    "example": { "zh": "二加三等于五。", "vi": "Hai cộng ba bằng năm.", "en": "Two plus three equals five." }
+  },
+  {
+    "id": "L2-0123",
+    "vi": ["thấp", "cúi"],
+    "viAliases": ["hạ thấp", "cúi xuống"],
+    "en": ["low", "to lower (one's head)"],
+    "enSource": "cedict",
+    "example": { "zh": "今天的气温很低。", "vi": "Nhiệt độ hôm nay rất thấp.", "en": "The temperature is very low today." }
+  },
+  {
+    "id": "L2-0124",
+    "vi": ["Trái Đất", "địa cầu"],
+    "viAliases": ["trái đất", "quả đất"],
+    "en": ["the earth"],
+    "enSource": "cedict",
+    "example": { "zh": "我们要保护地球。", "vi": "Chúng ta phải bảo vệ Trái Đất.", "en": "We must protect the earth." }
+  },
+  {
+    "id": "L2-0125",
+    "vi": ["tàu điện ngầm"],
+    "viAliases": ["xe điện ngầm", "metro"],
+    "en": ["underground railway; subway", "subway train"],
+    "enSource": "cedict",
+    "example": { "zh": "我每天坐地铁上班。", "vi": "Hằng ngày tôi đi làm bằng tàu điện ngầm.", "en": "I take the subway to work every day." }
+  },
+  {
+    "id": "L2-0126",
+    "vi": ["ga tàu điện ngầm", "bến tàu điện ngầm"],
+    "viAliases": ["trạm tàu điện ngầm", "ga metro"],
+    "en": ["subway station"],
+    "enSource": "cedict",
+    "example": { "zh": "地铁站就在前面。", "vi": "Ga tàu điện ngầm ở ngay phía trước.", "en": "The subway station is right ahead." }
+  },
+  {
+    "id": "L2-0127",
+    "vi": ["gật đầu"],
+    "viAliases": ["gật"],
+    "en": ["to nod"],
+    "enSource": "cedict",
+    "example": { "zh": "他听完以后点头了。", "vi": "Nghe xong anh ấy gật đầu.", "en": "After listening he nodded." }
+  },
+  {
+    "id": "L2-0128",
+    "vi": ["cửa hàng", "tiệm", "quán"],
+    "viAliases": ["hiệu", "cửa tiệm"],
+    "en": ["shop; store", "inn; old-style hotel"],
+    "enSource": "cedict",
+    "example": { "zh": "这家店的东西很便宜。", "vi": "Đồ ở cửa hàng này rất rẻ.", "en": "The things in this shop are very cheap." }
+  },
+  {
+    "id": "L2-0129",
+    "vi": ["rơi", "rớt", "mất"],
+    "viAliases": ["rơi xuống", "đánh rơi", "làm mất"],
+    "en": ["to fall", "to drop", "to lose", "to go missing"],
+    "enSource": "cedict",
+    "example": { "zh": "我的手机掉在地上了。", "vi": "Điện thoại của tôi rơi xuống đất rồi.", "en": "My phone fell on the ground." }
+  },
+  {
+    "id": "L2-0130",
+    "vi": ["đông bắc", "vùng Đông Bắc"],
+    "viAliases": ["hướng đông bắc", "phía đông bắc"],
+    "en": ["northeast"],
+    "enSource": "cedict",
+    "example": { "zh": "他家在城市的东北边。", "vi": "Nhà anh ấy ở phía đông bắc thành phố.", "en": "His home is in the northeast of the city." }
+  }
+]

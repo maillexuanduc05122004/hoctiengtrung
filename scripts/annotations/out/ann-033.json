@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L3-0169",
+    "vi": ["đối tượng", "người yêu"],
+    "viAliases": ["mục tiêu", "bạn trai", "bạn gái"],
+    "en": ["target; object", "partner; boyfriend; girlfriend"],
+    "enSource": "cedict",
+    "example": { "zh": "他找到了自己的对象。", "vi": "Anh ấy đã tìm được người yêu của mình.", "en": "He has found his partner." }
+  },
+  {
+    "id": "L3-0170",
+    "vi": ["bữa", "lượng từ chỉ bữa ăn"],
+    "viAliases": ["trận", "lần"],
+    "en": ["classifier for meals, beatings, scoldings etc: time, bout, spell, meal"],
+    "enSource": "cedict",
+    "example": { "zh": "我每天吃三顿饭。", "vi": "Mỗi ngày tôi ăn ba bữa cơm.", "en": "I eat three meals every day." }
+  },
+  {
+    "id": "L3-0171",
+    "vi": ["công bố", "đăng bài", "phát biểu"],
+    "viAliases": ["đăng tải", "phát hành"],
+    "en": ["to issue", "to publish"],
+    "enSource": "cedict",
+    "example": { "zh": "他在报纸上发表了文章。", "vi": "Anh ấy đã đăng bài viết trên báo.", "en": "He published an article in the newspaper." }
+  },
+  {
+    "id": "L3-0172",
+    "vi": ["phát ra", "gửi đi"],
+    "viAliases": ["truyền đi", "phát đi"],
+    "en": ["to send out; to dispatch", "to produce (a sound); to let out (a laugh)"],
+    "enSource": "cedict",
+    "example": { "zh": "电脑发出了奇怪的声音。", "vi": "Máy tính phát ra tiếng động kỳ lạ.", "en": "The computer made a strange sound." }
+  },
+  {
+    "id": "L3-0173",
+    "vi": ["phát triển", "phồn thịnh"],
+    "viAliases": ["thịnh vượng", "phát đạt"],
+    "en": ["well-developed; flourishing"],
+    "enSource": "cedict",
+    "example": { "zh": "这个城市的经济很发达。", "vi": "Kinh tế của thành phố này rất phát triển.", "en": "This city's economy is very developed." }
+  },
+  {
+    "id": "L3-0174",
+    "vi": ["khởi động", "phát động"],
+    "viAliases": ["nổ máy", "huy động"],
+    "en": ["to start", "to launch", "to mobilize"],
+    "enSource": "cedict",
+    "example": { "zh": "司机发动了汽车。", "vi": "Tài xế đã khởi động xe ô tô.", "en": "The driver started the car." }
+  },
+  {
+    "id": "L3-0175",
+    "vi": ["phát minh", "sáng chế"],
+    "viAliases": ["phát minh ra", "sáng chế ra"],
+    "en": ["to invent", "an invention"],
+    "enSource": "cedict",
+    "example": { "zh": "是谁发明了电话？", "vi": "Ai đã phát minh ra điện thoại?", "en": "Who invented the telephone?" }
+  },
+  {
+    "id": "L3-0176",
+    "vi": ["xảy ra", "phát sinh"],
+    "viAliases": ["diễn ra", "nổ ra"],
+    "en": ["to happen; to occur; to take place; to break out"],
+    "enSource": "cedict",
+    "example": { "zh": "昨天这里发生了一件事。", "vi": "Hôm qua ở đây đã xảy ra một chuyện.", "en": "Something happened here yesterday." }
+  },
+  {
+    "id": "L3-0177",
+    "vi": ["gửi", "phát đi"],
+    "viAliases": ["gửi đi", "truyền đi"],
+    "en": ["to transmit", "to dispatch"],
+    "enSource": "cedict",
+    "example": { "zh": "请把邮件发送给我。", "vi": "Xin hãy gửi email cho tôi.", "en": "Please send the email to me." }
+  },
+  {
+    "id": "L3-0178",
+    "vi": ["phát biểu", "lời phát biểu"],
+    "viAliases": ["phát biểu ý kiến", "bài phát biểu"],
+    "en": ["to make a speech", "statement", "utterance"],
+    "enSource": "cedict",
+    "example": { "zh": "会上他第一个发言。", "vi": "Trong cuộc họp anh ấy là người phát biểu đầu tiên.", "en": "He spoke first at the meeting." }
+  },
+  {
+    "id": "L3-0179",
+    "vi": ["phát triển", "sự phát triển"],
+    "viAliases": ["tăng trưởng", "mở rộng"],
+    "en": ["to develop", "to grow", "development", "growth"],
+    "enSource": "cedict",
+    "example": { "zh": "我们的公司发展得很快。", "vi": "Công ty của chúng tôi phát triển rất nhanh.", "en": "Our company is developing very fast." }
+  },
+  {
+    "id": "L3-0180",
+    "vi": ["phản đối"],
+    "viAliases": ["chống lại", "không tán thành"],
+    "en": ["to oppose; to be against; to object to"],
+    "enSource": "cedict",
+    "example": { "zh": "大家都反对这个办法。", "vi": "Mọi người đều phản đối cách làm này.", "en": "Everyone opposes this method." }
+  },
+  {
+    "id": "L3-0181",
+    "vi": ["lặp đi lặp lại", "nhiều lần"],
+    "viAliases": ["lặp lại nhiều lần", "hết lần này đến lần khác"],
+    "en": ["repeatedly", "over and over"],
+    "enSource": "cedict",
+    "example": { "zh": "老师反复讲了这个问题。", "vi": "Thầy giáo đã giảng đi giảng lại vấn đề này.", "en": "The teacher explained this problem repeatedly." }
+  },
+  {
+    "id": "L3-0182",
+    "vi": ["phản ứng", "sự phản ứng"],
+    "viAliases": ["đáp lại", "phản hồi"],
+    "en": ["to react", "to respond", "reaction", "response"],
+    "enSource": "cedict",
+    "example": { "zh": "他的反应很快。", "vi": "Phản ứng của anh ấy rất nhanh.", "en": "His reaction is very quick." }
+  },
+  {
+    "id": "L3-0183",
+    "vi": ["dù sao thì", "đằng nào cũng"],
+    "viAliases": ["dù thế nào", "đằng nào"],
+    "en": ["anyway", "in any case"],
+    "enSource": "cedict",
+    "example": { "zh": "反正时间还早，我们慢慢走。", "vi": "Dù sao thì trời cũng còn sớm, chúng ta đi từ từ thôi.", "en": "Anyway it is still early, so let us walk slowly." }
+  },
+  {
+    "id": "L3-0184",
+    "vi": ["phạm vi"],
+    "viAliases": ["giới hạn", "khuôn khổ"],
+    "en": ["range", "scope", "limit", "extent"],
+    "enSource": "cedict",
+    "example": { "zh": "这个问题不在我的工作范围内。", "vi": "Vấn đề này không nằm trong phạm vi công việc của tôi.", "en": "This issue is not within the scope of my work." }
+  },
+  {
+    "id": "L3-0185",
+    "vi": ["cách thức", "phương thức"],
+    "viAliases": ["cách", "lối"],
+    "en": ["way; method; manner; mode; pattern"],
+    "enSource": "cedict",
+    "example": { "zh": "我喜欢这种生活方式。", "vi": "Tôi thích lối sống này.", "en": "I like this way of life." }
+  },
+  {
+    "id": "L3-0186",
+    "vi": ["phòng", "đề phòng", "ngăn ngừa"],
+    "viAliases": ["phòng ngừa", "phòng tránh"],
+    "en": ["to guard against", "to prevent", "to defend"],
+    "enSource": "cedict",
+    "example": { "zh": "出门要注意防火。", "vi": "Ra khỏi nhà phải chú ý phòng cháy.", "en": "When you go out you must be careful about fire prevention." }
+  },
+  {
+    "id": "L3-0187",
+    "vi": ["ngăn chặn", "phòng ngừa"],
+    "viAliases": ["đề phòng", "ngăn ngừa"],
+    "en": ["to prevent", "to guard against", "to take precautions"],
+    "enSource": "cedict",
+    "example": { "zh": "我们要防止这样的事情再发生。", "vi": "Chúng ta phải ngăn chặn chuyện như vậy xảy ra lần nữa.", "en": "We must prevent such a thing from happening again." }
+  },
+  {
+    "id": "L3-0188",
+    "vi": ["chủ nhà"],
+    "viAliases": ["người cho thuê nhà", "chủ trọ"],
+    "en": ["landlord"],
+    "enSource": "cedict",
+    "example": { "zh": "我的房东是一位老人。", "vi": "Chủ nhà của tôi là một người già.", "en": "My landlord is an elderly person." }
+  },
+  {
+    "id": "L3-0189",
+    "vi": ["nhà cửa", "nhà ở"],
+    "viAliases": ["nhà", "tòa nhà"],
+    "en": ["house", "building"],
+    "enSource": "cedict",
+    "example": { "zh": "这里的房屋又新又漂亮。", "vi": "Nhà cửa ở đây vừa mới vừa đẹp.", "en": "The houses here are new and beautiful." }
+  },
+  {
+    "id": "L3-0190",
+    "vi": ["tiền thuê nhà"],
+    "viAliases": ["tiền nhà", "tiền trọ", "tiền thuê phòng"],
+    "en": ["rent for a room or house"],
+    "enSource": "cedict",
+    "example": { "zh": "这个月的房租已经交了。", "vi": "Tiền thuê nhà tháng này đã đóng rồi.", "en": "The rent for this month has already been paid." }
+  },
+  {
+    "id": "L3-0191",
+    "vi": ["thăm", "viếng thăm", "truy cập"],
+    "viAliases": ["ghé thăm", "đến thăm"],
+    "en": ["to visit; to call on (a person or place)", "(computing) to visit (a website); to access"],
+    "enSource": "cedict",
+    "example": { "zh": "上个月他访问了北京。", "vi": "Tháng trước anh ấy đã đến thăm Bắc Kinh.", "en": "Last month he visited Beijing." }
+  },
+  {
+    "id": "L3-0192",
+    "vi": ["đặt vào", "để lên"],
+    "viAliases": ["bỏ vào", "đặt lên", "để vào"],
+    "en": ["to put onto", "to place into"],
+    "enSource": "written",
+    "example": { "zh": "请把书放到桌子上。", "vi": "Xin hãy đặt sách lên bàn.", "en": "Please put the book on the table." }
+  },
+  {
+    "id": "L3-0193",
+    "vi": ["bay"],
+    "viAliases": ["bay lượn"],
+    "en": ["to fly", "flying", "flight"],
+    "enSource": "cedict",
+    "example": { "zh": "飞机在天上飞行。", "vi": "Máy bay đang bay trên trời.", "en": "The plane is flying in the sky." }
+  },
+  {
+    "id": "L3-0194",
+    "vi": ["tốn", "tiêu tốn", "phí"],
+    "viAliases": ["chi phí", "lệ phí"],
+    "en": ["to cost", "to spend", "fee", "expenses"],
+    "enSource": "cedict",
+    "example": { "zh": "这件事很费时间。", "vi": "Việc này rất tốn thời gian.", "en": "This matter takes a lot of time." }
+  },
+  {
+    "id": "L3-0195",
+    "vi": ["chi phí", "phí tổn"],
+    "viAliases": ["tiền phí", "khoản chi"],
+    "en": ["cost", "expenditure", "expense"],
+    "enSource": "cedict",
+    "example": { "zh": "这次旅行的费用不高。", "vi": "Chi phí của chuyến du lịch lần này không cao.", "en": "The cost of this trip is not high." }
+  },
+  {
+    "id": "L3-0196",
+    "vi": ["chia tay", "phân biệt", "lần lượt"],
+    "viAliases": ["xa nhau", "riêng biệt", "tách ra"],
+    "en": ["to part; to leave each other", "to distinguish; to tell apart", "separately; individually; respectively"],
+    "enSource": "cedict",
+    "example": { "zh": "我们分别了三年。", "vi": "Chúng tôi đã xa nhau ba năm.", "en": "We have been apart for three years." }
+  },
+  {
+    "id": "L3-0197",
+    "vi": ["phân phối", "phân công"],
+    "viAliases": ["phân chia", "cấp phát"],
+    "en": ["to distribute", "to assign", "to allocate"],
+    "enSource": "cedict",
+    "example": { "zh": "老师给我们分配了工作。", "vi": "Thầy giáo đã phân công công việc cho chúng tôi.", "en": "The teacher assigned us work." }
+  },
+  {
+    "id": "L3-0198",
+    "vi": ["chia nhóm", "phân nhóm"],
+    "viAliases": ["chia tổ", "chia đội"],
+    "en": ["to divide into groups", "subgroup"],
+    "enSource": "cedict",
+    "example": { "zh": "我们先分组再开始。", "vi": "Chúng ta chia nhóm trước rồi mới bắt đầu.", "en": "Let us divide into groups first and then start." }
+  },
+  {
+    "id": "L3-0199",
+    "vi": ["phong phú", "dồi dào"],
+    "viAliases": ["đa dạng", "dư dả"],
+    "en": ["rich", "plentiful", "abundant"],
+    "enSource": "cedict",
+    "example": { "zh": "他的经验很丰富。", "vi": "Kinh nghiệm của anh ấy rất phong phú.", "en": "He has very rich experience." }
+  },
+  {
+    "id": "L3-0200",
+    "vi": ["rủi ro", "nguy cơ"],
+    "viAliases": ["hiểm họa", "nguy hiểm"],
+    "en": ["risk; hazard"],
+    "enSource": "cedict",
+    "example": { "zh": "做这件事有一点风险。", "vi": "Làm việc này có một chút rủi ro.", "en": "There is a little risk in doing this." }
+  },
+  {
+    "id": "L3-0201",
+    "vi": ["phủ định", "bác bỏ"],
+    "viAliases": ["phản bác", "không công nhận"],
+    "en": ["to negate", "to deny", "negative", "negation"],
+    "enSource": "cedict",
+    "example": { "zh": "他否定了我的看法。", "vi": "Anh ấy đã bác bỏ cách nhìn của tôi.", "en": "He rejected my view." }
+  },
+  {
+    "id": "L3-0202",
+    "vi": ["phủ nhận", "chối"],
+    "viAliases": ["chối bỏ", "không thừa nhận"],
+    "en": ["to deny", "to declare to be untrue"],
+    "enSource": "cedict",
+    "example": { "zh": "他否认自己做错了。", "vi": "Anh ấy phủ nhận việc mình làm sai.", "en": "He denies that he did anything wrong." }
+  },
+  {
+    "id": "L3-0203",
+    "vi": ["trang phục", "quần áo"],
+    "viAliases": ["y phục", "đồ mặc"],
+    "en": ["dress", "clothing", "costume", "clothes"],
+    "enSource": "cedict",
+    "example": { "zh": "商店里的服装很便宜。", "vi": "Trang phục trong cửa hàng rất rẻ.", "en": "The clothes in the shop are very cheap." }
+  },
+  {
+    "id": "L3-0204",
+    "vi": ["phúc", "hạnh phúc", "may mắn"],
+    "viAliases": ["phước", "phúc khí"],
+    "en": ["good fortune", "happiness", "luck"],
+    "enSource": "cedict",
+    "example": { "zh": "过年时大家都写福字。", "vi": "Khi Tết đến mọi người đều viết chữ Phúc.", "en": "At New Year everyone writes the character for good fortune." }
+  },
+  {
+    "id": "L3-0205",
+    "vi": ["bố mẹ", "cha mẹ"],
+    "viAliases": ["ba má", "phụ huynh"],
+    "en": ["father and mother; parents"],
+    "enSource": "cedict",
+    "example": { "zh": "我的父母都是老师。", "vi": "Bố mẹ tôi đều là giáo viên.", "en": "Both of my parents are teachers." }
+  },
+  {
+    "id": "L3-0206",
+    "vi": ["bố", "cha"],
+    "viAliases": ["ba", "thân phụ", "phụ thân"],
+    "en": ["father"],
+    "enSource": "cedict",
+    "example": { "zh": "他的父亲是医生。", "vi": "Bố của anh ấy là bác sĩ.", "en": "His father is a doctor." }
+  },
+  {
+    "id": "L3-0207",
+    "vi": ["trả", "thanh toán"],
+    "viAliases": ["chi trả", "nộp"],
+    "en": ["to pay", "to hand over to"],
+    "enSource": "cedict",
+    "example": { "zh": "今天我来付钱吧。", "vi": "Hôm nay để tôi trả tiền nhé.", "en": "Let me pay today." }
+  },
+  {
+    "id": "L3-0208",
+    "vi": ["chịu trách nhiệm", "phụ trách"],
+    "viAliases": ["đảm nhận", "có trách nhiệm"],
+    "en": ["to be responsible for; to be in charge of", "conscientious"],
+    "enSource": "cedict",
+    "example": { "zh": "这件事由我负责。", "vi": "Việc này do tôi phụ trách.", "en": "I am in charge of this matter." }
+  },
+  {
+    "id": "L3-0209",
+    "vi": ["photocopy", "sao chụp"],
+    "viAliases": ["phô tô", "in sao"],
+    "en": ["to photocopy", "to duplicate a document"],
+    "enSource": "cedict",
+    "example": { "zh": "请帮我复印这些文件。", "vi": "Xin giúp tôi photocopy những tài liệu này.", "en": "Please help me photocopy these documents." }
+  },
+  {
+    "id": "L3-0210",
+    "vi": ["phức tạp"],
+    "viAliases": ["rắc rối"],
+    "en": ["complicated; complex"],
+    "enSource": "cedict",
+    "example": { "zh": "这个问题太复杂了。", "vi": "Vấn đề này quá phức tạp.", "en": "This problem is too complicated." }
+  },
+  {
+    "id": "L3-0211",
+    "vi": ["giàu", "giàu có"],
+    "viAliases": ["sung túc", "khá giả"],
+    "en": ["rich", "wealthy", "abundant"],
+    "enSource": "cedict",
+    "example": { "zh": "这个国家很富。", "vi": "Đất nước này rất giàu.", "en": "This country is very rich." }
+  },
+  {
+    "id": "L3-0212",
+    "vi": ["cải tiến", "cải thiện"],
+    "viAliases": ["làm tốt hơn", "hoàn thiện"],
+    "en": ["to improve; to make better", "improvement"],
+    "enSource": "cedict",
+    "example": { "zh": "我们要改进工作方法。", "vi": "Chúng ta cần cải tiến phương pháp làm việc.", "en": "We need to improve our working methods." }
+  },
+  {
+    "id": "L3-0213",
+    "vi": ["cải tạo", "cải biến"],
+    "viAliases": ["tu sửa", "biến đổi"],
+    "en": ["to transform", "to reform", "to remodel"],
+    "enSource": "cedict",
+    "example": { "zh": "他们把老房子改造成了饭馆。", "vi": "Họ đã cải tạo ngôi nhà cũ thành quán ăn.", "en": "They transformed the old house into a restaurant." }
+  }
+]

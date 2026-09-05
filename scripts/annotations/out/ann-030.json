@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L3-0034",
+    "vi": ["vốn dĩ", "ban đầu", "vốn là"],
+    "viAliases": ["lúc đầu", "nguyên"],
+    "en": ["original", "originally", "at first"],
+    "enSource": "cedict",
+    "example": { "zh": "我本来想去，可是太累了。", "vi": "Ban đầu tôi định đi, nhưng mà mệt quá.", "en": "I originally wanted to go, but I was too tired." }
+  },
+  {
+    "id": "L3-0035",
+    "vi": ["bản lĩnh", "tài nghệ", "năng lực"],
+    "viAliases": ["tài cán", "tài năng"],
+    "en": ["skill", "ability", "capability"],
+    "enSource": "cedict",
+    "example": { "zh": "他很有本领。", "vi": "Anh ấy rất có bản lĩnh.", "en": "He is very capable." }
+  },
+  {
+    "id": "L3-0036",
+    "vi": ["bản lĩnh", "tài", "khả năng"],
+    "viAliases": ["tài cán", "năng lực"],
+    "en": ["ability", "skill"],
+    "enSource": "cedict",
+    "example": { "zh": "你真有本事！", "vi": "Bạn giỏi thật đấy!", "en": "You are really capable!" }
+  },
+  {
+    "id": "L3-0037",
+    "vi": ["khá", "tương đối", "so sánh"],
+    "viAliases": ["đối chiếu", "khá là"],
+    "en": ["comparatively", "relatively", "quite", "to compare"],
+    "enSource": "cedict",
+    "example": { "zh": "这个问题比较难。", "vi": "Câu hỏi này khá khó.", "en": "This question is relatively difficult." }
+  },
+  {
+    "id": "L3-0038",
+    "vi": ["tỉ lệ"],
+    "viAliases": ["tỷ lệ", "phần trăm"],
+    "en": ["proportion", "scale"],
+    "enSource": "cedict",
+    "example": { "zh": "我们班女生的比例很高。", "vi": "Tỉ lệ nữ sinh lớp tôi rất cao.", "en": "The proportion of girls in our class is very high." }
+  },
+  {
+    "id": "L3-0039",
+    "vi": ["thi đấu", "cuộc thi", "trận đấu"],
+    "viAliases": ["thi", "trận thi đấu"],
+    "en": ["competition", "match", "to compete"],
+    "enSource": "cedict",
+    "example": { "zh": "明天我们有一场足球比赛。", "vi": "Ngày mai chúng tôi có một trận bóng đá.", "en": "Tomorrow we have a football match." }
+  },
+  {
+    "id": "L3-0040",
+    "vi": ["tất nhiên", "tất yếu"],
+    "viAliases": ["không thể tránh khỏi", "nhất định"],
+    "en": ["inevitable", "certain"],
+    "enSource": "cedict",
+    "example": { "zh": "努力学习必然会有好结果。", "vi": "Chăm chỉ học tập tất nhiên sẽ có kết quả tốt.", "en": "Studying hard will inevitably bring good results." }
+  },
+  {
+    "id": "L3-0041",
+    "vi": ["cần thiết", "sự cần thiết"],
+    "viAliases": ["thiết yếu", "không thể thiếu"],
+    "en": ["necessary", "essential", "required"],
+    "enSource": "cedict",
+    "example": { "zh": "没有必要买这么多东西。", "vi": "Không cần thiết phải mua nhiều đồ như vậy.", "en": "There is no need to buy so many things." }
+  },
+  {
+    "id": "L3-0042",
+    "vi": ["thay đổi", "biến hóa", "sự thay đổi"],
+    "viAliases": ["biến đổi", "biến chuyển"],
+    "en": ["to change; to vary", "change; variation"],
+    "enSource": "cedict",
+    "example": { "zh": "这几年家乡变化很大。", "vi": "Mấy năm nay quê tôi thay đổi rất nhiều.", "en": "My hometown has changed a lot these past few years." }
+  },
+  {
+    "id": "L3-0043",
+    "vi": ["biến thành", "trở thành"],
+    "viAliases": ["chuyển thành", "hóa thành"],
+    "en": ["to change into"],
+    "enSource": "cedict",
+    "example": { "zh": "他的梦想终于变为现实。", "vi": "Ước mơ của anh ấy cuối cùng đã trở thành hiện thực.", "en": "His dream finally became reality." }
+  },
+  {
+    "id": "L3-0044",
+    "vi": ["tiêu đề", "đầu đề"],
+    "viAliases": ["nhan đề", "tựa đề"],
+    "en": ["title", "heading", "headline"],
+    "enSource": "cedict",
+    "example": { "zh": "这篇文章的标题很有意思。", "vi": "Tiêu đề của bài viết này rất thú vị.", "en": "The title of this article is very interesting." }
+  },
+  {
+    "id": "L3-0045",
+    "vi": ["tiêu chuẩn", "chuẩn"],
+    "viAliases": ["chuẩn mực", "quy chuẩn"],
+    "en": ["standard; norm; criterion", "conforming to a standard; correct"],
+    "enSource": "cedict",
+    "example": { "zh": "他的普通话很标准。", "vi": "Tiếng phổ thông của anh ấy rất chuẩn.", "en": "His Mandarin is very standard." }
+  },
+  {
+    "id": "L3-0046",
+    "vi": ["biểu đạt", "diễn đạt", "bày tỏ"],
+    "viAliases": ["diễn tả", "truyền đạt"],
+    "en": ["to express; to convey"],
+    "enSource": "cedict",
+    "example": { "zh": "我不知道怎么表达我的想法。", "vi": "Tôi không biết diễn đạt suy nghĩ của mình thế nào.", "en": "I do not know how to express my thoughts." }
+  },
+  {
+    "id": "L3-0047",
+    "vi": ["bảng biểu", "biểu mẫu"],
+    "viAliases": ["mẫu đơn", "bảng"],
+    "en": ["form", "table"],
+    "enSource": "cedict",
+    "example": { "zh": "请填一下这张表格。", "vi": "Xin hãy điền vào tờ biểu mẫu này.", "en": "Please fill out this form." }
+  },
+  {
+    "id": "L3-0048",
+    "vi": ["bề mặt", "bề ngoài"],
+    "viAliases": ["mặt ngoài", "vẻ ngoài"],
+    "en": ["surface", "outside", "appearance"],
+    "enSource": "cedict",
+    "example": { "zh": "桌子的表面很干净。", "vi": "Bề mặt cái bàn rất sạch.", "en": "The surface of the table is very clean." }
+  },
+  {
+    "id": "L3-0049",
+    "vi": ["chứng tỏ", "cho thấy", "tỏ rõ"],
+    "viAliases": ["nói rõ", "thể hiện rõ"],
+    "en": ["to make clear", "to state clearly", "to indicate"],
+    "enSource": "cedict",
+    "example": { "zh": "这件事表明他很努力。", "vi": "Chuyện này cho thấy anh ấy rất cố gắng.", "en": "This shows that he works very hard." }
+  },
+  {
+    "id": "L3-0050",
+    "vi": ["thể hiện", "biểu hiện", "sự thể hiện"],
+    "viAliases": ["bộc lộ", "biểu lộ"],
+    "en": ["to show", "to display", "expression", "performance"],
+    "enSource": "cedict",
+    "example": { "zh": "他在学校的表现很好。", "vi": "Biểu hiện của cậu ấy ở trường rất tốt.", "en": "His performance at school is very good." }
+  },
+  {
+    "id": "L3-0051",
+    "vi": ["biểu diễn", "diễn", "buổi biểu diễn"],
+    "viAliases": ["trình diễn", "màn biểu diễn"],
+    "en": ["to perform", "to act", "performance", "show"],
+    "enSource": "cedict",
+    "example": { "zh": "孩子们在台上表演节目。", "vi": "Bọn trẻ biểu diễn tiết mục trên sân khấu.", "en": "The children are performing a show on stage." }
+  },
+  {
+    "id": "L3-0052",
+    "vi": ["hoàn toàn không", "và", "đồng thời"],
+    "viAliases": ["hề", "cùng với"],
+    "en": ["and", "furthermore", "(not) at all", "simultaneously"],
+    "enSource": "cedict",
+    "example": { "zh": "这件事并不难。", "vi": "Chuyện này hoàn toàn không khó.", "en": "This matter is not difficult at all." }
+  },
+  {
+    "id": "L3-0053",
+    "vi": ["hơn nữa", "và", "đồng thời"],
+    "viAliases": ["ngoài ra", "vả lại"],
+    "en": ["and; besides; moreover; furthermore; in addition"],
+    "enSource": "cedict",
+    "example": { "zh": "他会说汉语并且说得很好。", "vi": "Anh ấy biết nói tiếng Trung và còn nói rất hay.", "en": "He can speak Chinese and moreover he speaks it well." }
+  },
+  {
+    "id": "L3-0054",
+    "vi": ["phát sóng", "phát"],
+    "viAliases": ["lên sóng", "phát đi"],
+    "en": ["to broadcast", "to air"],
+    "enSource": "cedict",
+    "example": { "zh": "这个节目每天晚上播出。", "vi": "Chương trình này phát sóng vào mỗi tối.", "en": "This program is broadcast every evening." }
+  },
+  {
+    "id": "L3-0055",
+    "vi": ["phát", "mở"],
+    "viAliases": ["bật", "chiếu"],
+    "en": ["to broadcast; to transmit"],
+    "enSource": "cedict",
+    "example": { "zh": "老师在教室里播放音乐。", "vi": "Cô giáo mở nhạc trong lớp học.", "en": "The teacher is playing music in the classroom." }
+  },
+  {
+    "id": "L3-0056",
+    "vi": ["không cần", "không cần phải"],
+    "viAliases": ["chẳng cần", "khỏi cần"],
+    "en": ["need not", "does not have to"],
+    "enSource": "cedict",
+    "example": { "zh": "你不必担心这件事。", "vi": "Bạn không cần lo lắng chuyện này.", "en": "You need not worry about this." }
+  },
+  {
+    "id": "L3-0057",
+    "vi": ["không ngừng", "liên tục"],
+    "viAliases": ["liên tiếp", "không dứt"],
+    "en": ["unceasing", "uninterrupted", "continuous", "constant"],
+    "enSource": "cedict",
+    "example": { "zh": "他的汉语水平不断提高。", "vi": "Trình độ tiếng Trung của anh ấy không ngừng nâng cao.", "en": "His Chinese level improves continuously." }
+  },
+  {
+    "id": "L3-0058",
+    "vi": ["bất kể", "cho dù", "bất luận"],
+    "viAliases": ["dù cho", "không kể"],
+    "en": ["whatever", "no matter what", "regardless of"],
+    "enSource": "cedict",
+    "example": { "zh": "不论天气怎么样，我都去。", "vi": "Bất kể thời tiết thế nào tôi cũng đi.", "en": "No matter what the weather is like, I will go." }
+  },
+  {
+    "id": "L3-0059",
+    "vi": ["vá", "bù", "bổ sung"],
+    "viAliases": ["đắp vào", "bù đắp"],
+    "en": ["to repair", "to patch", "to mend", "to make up for"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈给我补衣服。", "vi": "Mẹ vá quần áo cho tôi.", "en": "Mom mends clothes for me." }
+  },
+  {
+    "id": "L3-0060",
+    "vi": ["bổ sung", "sự bổ sung"],
+    "viAliases": ["thêm vào", "bù thêm"],
+    "en": ["to replenish", "to supplement", "supplementary"],
+    "enSource": "cedict",
+    "example": { "zh": "老师又补充了几句话。", "vi": "Cô giáo lại bổ sung thêm mấy câu.", "en": "The teacher added a few more words." }
+  },
+  {
+    "id": "L3-0061",
+    "vi": ["bất an", "lo lắng", "không yên"],
+    "viAliases": ["bồn chồn", "áy náy"],
+    "en": ["uneasy", "disturbed", "restless", "worried"],
+    "enSource": "cedict",
+    "example": { "zh": "听到这个消息我很不安。", "vi": "Nghe tin này tôi rất bất an.", "en": "I felt very uneasy when I heard this news." }
+  },
+  {
+    "id": "L3-0062",
+    "vi": ["đành phải", "buộc phải", "không thể không"],
+    "viAliases": ["bắt buộc phải", "đành"],
+    "en": ["have no choice but to", "have to", "cannot but"],
+    "enSource": "cedict",
+    "example": { "zh": "下雨了我们不得不回家。", "vi": "Trời mưa rồi, chúng tôi đành phải về nhà.", "en": "It rained, so we had to go home." }
+  },
+  {
+    "id": "L3-0063",
+    "vi": ["không chỉ", "chẳng những"],
+    "viAliases": ["không những", "đâu chỉ"],
+    "en": ["not only", "not the only one"],
+    "enSource": "cedict",
+    "example": { "zh": "不光小明去，我也想去。", "vi": "Không chỉ Tiểu Minh đi, tôi cũng muốn đi.", "en": "Not only is Xiao Ming going, I want to go too." }
+  },
+  {
+    "id": "L3-0064",
+    "vi": ["không chỉ", "không những"],
+    "viAliases": ["chẳng những", "đâu chỉ"],
+    "en": ["not just; not limited to", "not only"],
+    "enSource": "cedict",
+    "example": { "zh": "他不仅会画画还会唱歌。", "vi": "Anh ấy không chỉ biết vẽ mà còn biết hát.", "en": "He can not only draw but also sing." }
+  },
+  {
+    "id": "L3-0065",
+    "vi": ["vải"],
+    "viAliases": ["vải vóc", "tấm vải"],
+    "en": ["cloth"],
+    "enSource": "cedict",
+    "example": { "zh": "这块布很好看。", "vi": "Tấm vải này rất đẹp.", "en": "This piece of cloth is very pretty." }
+  },
+  {
+    "id": "L3-0066",
+    "vi": ["bước", "bước đi"],
+    "viAliases": ["bước chân"],
+    "en": ["a step", "a pace", "stages in a process"],
+    "enSource": "cedict",
+    "example": { "zh": "他往前走了几步。", "vi": "Anh ấy bước tới mấy bước.", "en": "He took a few steps forward." }
+  },
+  {
+    "id": "L3-0067",
+    "vi": ["bộ", "ngành", "phần"],
+    "viAliases": ["ban", "bộ phận"],
+    "en": ["ministry", "department", "part", "classifier for works of literature, films, machines etc"],
+    "enSource": "cedict",
+    "example": { "zh": "这部电影很有意思。", "vi": "Bộ phim này rất thú vị.", "en": "This movie is very interesting." }
+  },
+  {
+    "id": "L3-0068",
+    "vi": ["bộ phận", "phòng ban"],
+    "viAliases": ["ban ngành", "đơn vị"],
+    "en": ["department", "branch", "section", "division"],
+    "enSource": "cedict",
+    "example": { "zh": "他在哪个部门工作？", "vi": "Anh ấy làm việc ở bộ phận nào?", "en": "Which department does he work in?" }
+  },
+  {
+    "id": "L3-0069",
+    "vi": ["bộ trưởng", "trưởng phòng"],
+    "viAliases": ["trưởng ban", "chủ nhiệm"],
+    "en": ["head of a department", "section chief", "minister"],
+    "enSource": "cedict",
+    "example": { "zh": "这位部长很忙。", "vi": "Vị bộ trưởng này rất bận.", "en": "This minister is very busy." }
+  },
+  {
+    "id": "L3-0070",
+    "vi": ["tài năng", "năng lực"],
+    "viAliases": ["tài cán", "khả năng"],
+    "en": ["talent", "ability", "capacity"],
+    "enSource": "cedict",
+    "example": { "zh": "她在音乐上很有才能。", "vi": "Cô ấy rất có tài năng về âm nhạc.", "en": "She has great talent in music." }
+  },
+  {
+    "id": "L3-0071",
+    "vi": ["áp dụng", "thi hành"],
+    "viAliases": ["thực hiện", "tiến hành"],
+    "en": ["to adopt or carry out", "to take"],
+    "enSource": "cedict",
+    "example": { "zh": "学校采取了新的办法。", "vi": "Nhà trường đã áp dụng cách làm mới.", "en": "The school has adopted a new method." }
+  },
+  {
+    "id": "L3-0072",
+    "vi": ["sử dụng", "áp dụng", "dùng"],
+    "viAliases": ["ứng dụng", "chọn dùng"],
+    "en": ["to adopt", "to employ", "to use"],
+    "enSource": "cedict",
+    "example": { "zh": "我们采用了他的意见。", "vi": "Chúng tôi đã sử dụng ý kiến của anh ấy.", "en": "We adopted his suggestion." }
+  },
+  {
+    "id": "L3-0073",
+    "vi": ["màu sắc", "màu"],
+    "viAliases": ["có màu", "nhiều màu"],
+    "en": ["color", "multicolored"],
+    "enSource": "cedict",
+    "example": { "zh": "我买了一支彩色铅笔。", "vi": "Tôi đã mua một cây bút chì màu.", "en": "I bought a colored pencil." }
+  },
+  {
+    "id": "L3-0074",
+    "vi": ["từng", "đã từng"],
+    "viAliases": ["có lần", "trước đây"],
+    "en": ["once", "previously", "ever"],
+    "enSource": "cedict",
+    "example": { "zh": "我曾经去过北京。", "vi": "Tôi từng đến Bắc Kinh.", "en": "I have been to Beijing before." }
+  },
+  {
+    "id": "L3-0075",
+    "vi": ["sản sinh", "nảy sinh", "tạo ra"],
+    "viAliases": ["phát sinh", "sinh ra"],
+    "en": ["to arise; to come into being", "to produce; to generate"],
+    "enSource": "cedict",
+    "example": { "zh": "这件事让我产生了兴趣。", "vi": "Chuyện này khiến tôi nảy sinh hứng thú.", "en": "This matter made me develop an interest." }
+  },
+  {
+    "id": "L3-0076",
+    "vi": ["Vạn Lý Trường Thành", "Trường Thành"],
+    "viAliases": ["Vạn lý trường thành"],
+    "en": ["the Great Wall"],
+    "enSource": "cedict",
+    "example": { "zh": "我们明天去看长城。", "vi": "Ngày mai chúng tôi đi thăm Vạn Lý Trường Thành.", "en": "We are going to see the Great Wall tomorrow." }
+  },
+  {
+    "id": "L3-0077",
+    "vi": ["ưu điểm", "sở trường", "mặt mạnh"],
+    "viAliases": ["điểm mạnh", "thế mạnh"],
+    "en": ["good aspects", "strong points"],
+    "enSource": "cedict",
+    "example": { "zh": "每个人都有自己的长处。", "vi": "Mỗi người đều có ưu điểm của riêng mình.", "en": "Everyone has their own strong points." }
+  },
+  {
+    "id": "L3-0078",
+    "vi": ["thời gian dài", "lâu dài", "dài hạn"],
+    "viAliases": ["dài ngày", "trường kỳ"],
+    "en": ["long-term; for a protracted period"],
+    "enSource": "cedict",
+    "example": { "zh": "他长期在国外工作。", "vi": "Anh ấy làm việc ở nước ngoài trong thời gian dài.", "en": "He has worked abroad for a long time." }
+  }
+]

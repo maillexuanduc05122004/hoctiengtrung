@@ -1,0 +1,542 @@
+[
+  {
+    "id": "L2-0491",
+    "vi": ["chợ", "thành phố"],
+    "viAliases": ["đô thị"],
+    "en": ["market", "city", "municipality (administrative unit)"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我们市有一个大医院。",
+      "vi": "Thành phố chúng tôi có một bệnh viện lớn.",
+      "en": "Our city has a big hospital."
+    }
+  },
+  {
+    "id": "L2-0492",
+    "vi": ["thị trưởng"],
+    "viAliases": ["chủ tịch thành phố"],
+    "en": ["mayor"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我们的市长很年轻。",
+      "vi": "Thị trưởng của chúng tôi rất trẻ.",
+      "en": "Our mayor is very young."
+    }
+  },
+  {
+    "id": "L2-0493",
+    "vi": ["việc", "chuyện"],
+    "viAliases": ["sự việc", "sự tình"],
+    "en": ["affair", "matter", "thing", "business"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我有一件事情要告诉你。",
+      "vi": "Tôi có một chuyện muốn nói với bạn.",
+      "en": "I have something to tell you."
+    }
+  },
+  {
+    "id": "L2-0494",
+    "vi": ["nhận", "thu"],
+    "viAliases": ["thu nhận", "cất"],
+    "en": ["to receive", "to accept", "to collect", "to put away"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "老师收了我们的作业。",
+      "vi": "Thầy giáo đã thu bài tập của chúng tôi.",
+      "en": "The teacher collected our homework."
+    }
+  },
+  {
+    "id": "L2-0495",
+    "vi": ["nhận được"],
+    "viAliases": ["thu được"],
+    "en": ["to receive"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我收到了你的信。",
+      "vi": "Tôi đã nhận được thư của bạn.",
+      "en": "I received your letter."
+    }
+  },
+  {
+    "id": "L2-0496",
+    "vi": ["thu nhập", "thu vào"],
+    "viAliases": ["tiền thu được"],
+    "en": ["income", "revenue", "to take in"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他的收入不太高。",
+      "vi": "Thu nhập của anh ấy không cao lắm.",
+      "en": "His income is not very high."
+    }
+  },
+  {
+    "id": "L2-0497",
+    "vi": ["đồng hồ đeo tay"],
+    "viAliases": ["đồng hồ tay", "đồng hồ"],
+    "en": ["wristwatch"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这块手表是爸爸给我的。",
+      "vi": "Chiếc đồng hồ đeo tay này là bố cho tôi.",
+      "en": "This wristwatch was given to me by my father."
+    }
+  },
+  {
+    "id": "L2-0498",
+    "vi": ["nhận được", "chịu", "bị"],
+    "viAliases": ["được nhận"],
+    "en": ["to receive (praise, an education, punishment etc)"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我受到了很多帮助。",
+      "vi": "Tôi đã nhận được rất nhiều sự giúp đỡ.",
+      "en": "I received a lot of help."
+    }
+  },
+  {
+    "id": "L2-0499",
+    "vi": ["thoải mái", "dễ chịu"],
+    "viAliases": ["khoan khoái"],
+    "en": ["comfortable", "feeling well"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "今天我有点不舒服。",
+      "vi": "Hôm nay tôi hơi khó chịu trong người.",
+      "en": "I feel a little unwell today."
+    }
+  },
+  {
+    "id": "L2-0500",
+    "vi": ["chín", "quen thuộc", "thành thạo"],
+    "viAliases": ["quen", "thuần thục"],
+    "en": ["ripe; mature", "thoroughly cooked; done", "familiar; acquainted", "experienced; skilled"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这些苹果还没熟。",
+      "vi": "Những quả táo này còn chưa chín.",
+      "en": "These apples are not ripe yet."
+    }
+  },
+  {
+    "id": "L2-0501",
+    "vi": ["đếm"],
+    "viAliases": ["đếm số", "liệt kê"],
+    "en": ["to count", "to enumerate; to list"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他在数桌子上的书。",
+      "vi": "Anh ấy đang đếm sách trên bàn.",
+      "en": "He is counting the books on the table."
+    }
+  },
+  {
+    "id": "L2-0502",
+    "vi": ["chữ số", "con số"],
+    "viAliases": ["số"],
+    "en": ["numeral", "digit", "number", "figure"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这个数字太大了。",
+      "vi": "Con số này lớn quá.",
+      "en": "This number is too big."
+    }
+  },
+  {
+    "id": "L2-0503",
+    "vi": ["trình độ", "mức độ"],
+    "viAliases": ["mức", "tiêu chuẩn"],
+    "en": ["a standard; a level (of ability, development etc)"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他的汉语水平很高。",
+      "vi": "Trình độ tiếng Trung của anh ấy rất cao.",
+      "en": "His Chinese level is very high."
+    }
+  },
+  {
+    "id": "L2-0504",
+    "vi": ["thuận lợi", "suôn sẻ"],
+    "viAliases": ["trôi chảy", "xuôi chèo mát mái"],
+    "en": ["smoothly; without a hitch"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这次考试很顺利。",
+      "vi": "Kỳ thi lần này rất thuận lợi.",
+      "en": "This exam went very smoothly."
+    }
+  },
+  {
+    "id": "L2-0505",
+    "vi": ["giải thích", "thuyết minh", "bản hướng dẫn"],
+    "viAliases": ["nói rõ", "chỉ dẫn"],
+    "en": ["to explain", "to illustrate", "explanation", "directions"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "请你说明一下原因。",
+      "vi": "Bạn hãy giải thích một chút về nguyên nhân.",
+      "en": "Please explain the reason."
+    }
+  },
+  {
+    "id": "L2-0506",
+    "vi": ["tài xế", "lái xe"],
+    "viAliases": ["người lái xe", "bác tài"],
+    "en": ["chauffeur; driver"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "那位司机开车很小心。",
+      "vi": "Bác tài xế đó lái xe rất cẩn thận.",
+      "en": "That driver drives very carefully."
+    }
+  },
+  {
+    "id": "L2-0507",
+    "vi": ["đưa đến", "giao đến"],
+    "viAliases": ["mang đến", "chuyển đến"],
+    "en": ["to deliver to", "to send to"],
+    "enSource": "written",
+    "example": {
+      "zh": "他把礼物送到我家。",
+      "vi": "Anh ấy mang quà đến tận nhà tôi.",
+      "en": "He delivered the gift to my house."
+    }
+  },
+  {
+    "id": "L2-0508",
+    "vi": ["tặng cho", "gửi cho"],
+    "viAliases": ["tặng", "biếu"],
+    "en": ["to give as a present", "to send"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我送给他一本书。",
+      "vi": "Tôi tặng cho anh ấy một quyển sách.",
+      "en": "I gave him a book as a present."
+    }
+  },
+  {
+    "id": "L2-0509",
+    "vi": ["tính", "tính toán", "coi như"],
+    "viAliases": ["kể như", "tính ra"],
+    "en": ["to calculate; to figure out", "to count; to be valid; to carry weight", "to regard as; to consider"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "你算一下一共多少钱。",
+      "vi": "Bạn tính xem tất cả bao nhiêu tiền.",
+      "en": "Please calculate how much it is in total."
+    }
+  },
+  {
+    "id": "L2-0510",
+    "vi": ["tuy", "mặc dù"],
+    "viAliases": ["dù", "tuy rằng", "dẫu rằng"],
+    "en": ["although; even though"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "虽然很累，但是他很开心。",
+      "vi": "Tuy rất mệt nhưng anh ấy rất vui.",
+      "en": "Although he is tired, he is very happy."
+    }
+  },
+  {
+    "id": "L2-0511",
+    "vi": ["tùy ý", "tùy tiện"],
+    "viAliases": ["thế nào cũng được", "qua loa"],
+    "en": ["as one wishes", "as one pleases", "casual", "negligent"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "你随便坐，不要客气。",
+      "vi": "Bạn cứ ngồi tùy ý, đừng khách sáo.",
+      "en": "Sit wherever you like, please make yourself at home."
+    }
+  },
+  {
+    "id": "L2-0512",
+    "vi": ["bất cứ lúc nào", "bất kỳ lúc nào"],
+    "viAliases": ["lúc nào cũng được", "mọi lúc"],
+    "en": ["at any time; at all times", "whenever necessary"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "有问题可以随时问我。",
+      "vi": "Có vấn đề gì thì có thể hỏi tôi bất cứ lúc nào.",
+      "en": "If you have questions, you can ask me at any time."
+    }
+  },
+  {
+    "id": "L2-0513",
+    "vi": ["cho nên", "vì vậy"],
+    "viAliases": ["nên", "vì thế", "do đó"],
+    "en": ["therefore", "as a result", "so"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他生病了，所以没来上课。",
+      "vi": "Anh ấy bị ốm nên không đến lớp.",
+      "en": "He was sick, so he did not come to class."
+    }
+  },
+  {
+    "id": "L2-0514",
+    "vi": ["tất cả", "toàn bộ"],
+    "viAliases": ["mọi", "hết thảy"],
+    "en": ["all"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "所有的学生都到了。",
+      "vi": "Tất cả học sinh đều đã đến.",
+      "en": "All the students have arrived."
+    }
+  },
+  {
+    "id": "L2-0515",
+    "vi": ["nó"],
+    "viAliases": [],
+    "en": ["it"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这是我的猫，它很可爱。",
+      "vi": "Đây là con mèo của tôi, nó rất dễ thương.",
+      "en": "This is my cat, it is very cute."
+    }
+  },
+  {
+    "id": "L2-0516",
+    "vi": ["chúng", "chúng nó"],
+    "viAliases": ["bọn chúng"],
+    "en": ["they; them"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我的书在这里，它们都很新。",
+      "vi": "Sách của tôi ở đây, chúng đều rất mới.",
+      "en": "My books are here, they are all new."
+    }
+  },
+  {
+    "id": "L2-0517",
+    "vi": ["vợ", "phu nhân"],
+    "viAliases": ["bà xã", "bà"],
+    "en": ["Mrs.", "Madam", "wife", "married woman"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "王先生的太太是老师。",
+      "vi": "Vợ của ông Vương là giáo viên.",
+      "en": "Mr. Wang's wife is a teacher."
+    }
+  },
+  {
+    "id": "L2-0518",
+    "vi": ["mặt trời"],
+    "viAliases": ["ánh nắng", "nắng"],
+    "en": ["sun", "sunlight; sunshine"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "今天的太阳很大。",
+      "vi": "Hôm nay nắng rất to.",
+      "en": "The sun is very strong today."
+    }
+  },
+  {
+    "id": "L2-0519",
+    "vi": ["thái độ"],
+    "viAliases": ["cách cư xử", "cách đối xử"],
+    "en": ["attitude", "manner", "bearing", "approach"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他的学习态度很好。",
+      "vi": "Thái độ học tập của anh ấy rất tốt.",
+      "en": "His attitude towards study is very good."
+    }
+  },
+  {
+    "id": "L2-0520",
+    "vi": ["thảo luận", "bàn bạc"],
+    "viAliases": ["bàn luận", "trao đổi"],
+    "en": ["to discuss; to talk over"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我们一起讨论这个问题。",
+      "vi": "Chúng ta cùng thảo luận vấn đề này.",
+      "en": "Let us discuss this problem together."
+    }
+  },
+  {
+    "id": "L2-0521",
+    "vi": ["bộ", "căn"],
+    "viAliases": [],
+    "en": ["classifier for sets, collections"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他买了一套新衣服。",
+      "vi": "Anh ấy mua một bộ quần áo mới.",
+      "en": "He bought a new set of clothes."
+    }
+  },
+  {
+    "id": "L2-0522",
+    "vi": ["đặc biệt", "rất"],
+    "viAliases": ["hết sức", "khác thường"],
+    "en": ["unusual; special", "very; especially; particularly"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "今天的天气特别好。",
+      "vi": "Thời tiết hôm nay đặc biệt đẹp.",
+      "en": "The weather today is especially nice."
+    }
+  },
+  {
+    "id": "L2-0523",
+    "vi": ["đặc điểm"],
+    "viAliases": ["đặc trưng", "nét riêng"],
+    "en": ["characteristic; trait; feature"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "每个城市都有自己的特点。",
+      "vi": "Mỗi thành phố đều có đặc điểm riêng của mình.",
+      "en": "Every city has its own characteristics."
+    }
+  },
+  {
+    "id": "L2-0524",
+    "vi": ["đau", "yêu thương"],
+    "viAliases": ["nhức", "thương", "cưng chiều"],
+    "en": ["(it) hurts; sore", "to love dearly"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我今天头很疼。",
+      "vi": "Hôm nay tôi rất đau đầu.",
+      "en": "My head hurts a lot today."
+    }
+  },
+  {
+    "id": "L2-0525",
+    "vi": ["xách", "nêu ra", "nhắc đến"],
+    "viAliases": ["nâng lên", "đề cập"],
+    "en": ["to carry (hanging down from the hand)", "to lift", "to put forward", "to mention"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他手里提着一个包。",
+      "vi": "Trong tay anh ấy xách một cái túi.",
+      "en": "He is carrying a bag in his hand."
+    }
+  },
+  {
+    "id": "L2-0526",
+    "vi": ["đưa ra", "nêu ra", "đề xuất"],
+    "viAliases": ["đề nghị", "nêu lên"],
+    "en": ["to raise (an issue)", "to propose", "to put forward", "to suggest"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他提出了一个好办法。",
+      "vi": "Anh ấy đã đưa ra một cách hay.",
+      "en": "He put forward a good idea."
+    }
+  },
+  {
+    "id": "L2-0527",
+    "vi": ["nhắc đến", "đề cập đến"],
+    "viAliases": ["nói đến", "nhắc tới"],
+    "en": ["to mention", "to raise (a subject)", "to refer to"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "老师上课时提到了这件事。",
+      "vi": "Lúc lên lớp thầy giáo đã nhắc đến chuyện này.",
+      "en": "The teacher mentioned this matter during class."
+    }
+  },
+  {
+    "id": "L2-0528",
+    "vi": ["nâng cao", "cải thiện"],
+    "viAliases": ["nâng lên", "tăng lên"],
+    "en": ["to raise", "to increase", "to improve"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我想提高我的汉语水平。",
+      "vi": "Tôi muốn nâng cao trình độ tiếng Trung của mình.",
+      "en": "I want to improve my Chinese level."
+    }
+  },
+  {
+    "id": "L2-0529",
+    "vi": ["đề bài", "câu hỏi", "đề mục"],
+    "viAliases": ["đề", "bài tập"],
+    "en": ["topic", "exam question", "subject", "problem for discussion"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这道题我不会做。",
+      "vi": "Câu này tôi không biết làm.",
+      "en": "I do not know how to do this question."
+    }
+  },
+  {
+    "id": "L2-0530",
+    "vi": ["thể dục", "thể thao"],
+    "viAliases": ["giáo dục thể chất"],
+    "en": ["sports", "physical education"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我最喜欢上体育课。",
+      "vi": "Tôi thích nhất là học tiết thể dục.",
+      "en": "I like PE class the most."
+    }
+  },
+  {
+    "id": "L2-0531",
+    "vi": ["sân vận động"],
+    "viAliases": ["sân thể thao"],
+    "en": ["stadium"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "学校的体育场很大。",
+      "vi": "Sân vận động của trường rất lớn.",
+      "en": "The school stadium is very big."
+    }
+  },
+  {
+    "id": "L2-0532",
+    "vi": ["nhà thi đấu", "cung thể thao"],
+    "viAliases": ["nhà tập thể thao", "phòng tập thể dục"],
+    "en": ["gym", "gymnasium"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我们在体育馆打球。",
+      "vi": "Chúng tôi chơi bóng trong nhà thi đấu.",
+      "en": "We play ball in the gym."
+    }
+  },
+  {
+    "id": "L2-0533",
+    "vi": ["trên trời", "bầu trời"],
+    "viAliases": ["trên bầu trời"],
+    "en": ["the sky; the heavens"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "你看，天上有很多云。",
+      "vi": "Bạn xem, trên trời có rất nhiều mây.",
+      "en": "Look, there are a lot of clouds in the sky."
+    }
+  },
+  {
+    "id": "L2-0534",
+    "vi": ["con", "sợi", "chiếc"],
+    "viAliases": ["điều"],
+    "en": ["classifier for long thin things (ribbon, river, road, trousers etc)", "item", "article"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我买了一条新裤子。",
+      "vi": "Tôi mua một chiếc quần mới.",
+      "en": "I bought a new pair of trousers."
+    }
+  },
+  {
+    "id": "L2-0535",
+    "vi": ["điều kiện"],
+    "viAliases": ["hoàn cảnh", "yêu cầu"],
+    "en": ["condition; circumstance; term; factor", "requirement; prerequisite; qualification"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这里的学习条件很好。",
+      "vi": "Điều kiện học tập ở đây rất tốt.",
+      "en": "The study conditions here are very good."
+    }
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "datasetVersion": "1.0.0",
+  "importedAt": "2026-09-05T11:50:07.050Z",
+  "standard": "HSK 3.0 — Chuẩn quốc tế về trình độ tiếng Trung, công bố năm 2021",
+  "totalWords": 2245,
+  "levels": [
+    {
+      "level": 1,
+      "words": 500,
+      "lessons": 50,
+      "file": "hsk-1.json"
+    },
+    {
+      "level": 2,
+      "words": 772,
+      "lessons": 77,
+      "file": "hsk-2.json"
+    },
+    {
+      "level": 3,
+      "words": 973,
+      "lessons": 97,
+      "file": "hsk-3.json"
+    }
+  ],
+  "sources": [
+    {
+      "name": "ivankra/hsk30",
+      "url": "https://github.com/ivankra/hsk30",
+      "license": "MIT",
+      "version": "4ff9e3915ce87baaecd7ebe263085573a4ea3192",
+      "usedFor": "Danh sách từ, chữ phồn thể, pinyin chính thức, từ loại, cấp độ HSK"
+    },
+    {
+      "name": "CC-CEDICT (MDBG)",
+      "url": "https://www.mdbg.net/chinese/dictionary?page=cc-cedict",
+      "license": "CC BY-SA 4.0",
+      "version": "1.124985 — 2026-09-05T07:18:24Z",
+      "usedFor": "Nghĩa tiếng Anh, pinyin tách âm tiết, cách đọc của từng chữ"
+    },
+    {
+      "name": "pinyin-pro",
+      "url": "https://github.com/zh-lx/pinyin-pro",
+      "license": "MIT",
+      "version": "3.29.3",
+      "usedFor": "Sinh pinyin cho câu ví dụ theo ngữ cảnh (chỉ chạy lúc nhập dữ liệu)"
+    }
+  ],
+  "machineTranslated": 2245,
+  "reviewedTranslations": 0,
+  "notes": [
+    "Nghĩa tiếng Việt và câu ví dụ là bản dịch máy, chưa qua kiểm duyệt của người bản ngữ.",
+    "Nghĩa tiếng Anh lấy từ CC-CEDICT và được chọn lại theo từ loại của từng mục từ.",
+    "Đây là danh sách HSK 3.0 công bố năm 2021, không phải danh sách của năm 2026.",
+    "Câu ví dụ có 7 chỗ pinyin không khớp cách đọc CC-CEDICT ghi nhận, phần lớn là chữ đa âm."
+  ]
+}

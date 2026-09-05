@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L3-0439",
+    "vi": ["cắt tóc", "làm tóc"],
+    "viAliases": ["hớt tóc", "đi cắt tóc"],
+    "en": ["to get a haircut; to have one's hair done", "to cut (sb's) hair"],
+    "enSource": "cedict",
+    "example": { "zh": "我今天下午去理发。", "vi": "Chiều nay tôi đi cắt tóc.", "en": "I'm going to get a haircut this afternoon." }
+  },
+  {
+    "id": "L3-0440",
+    "vi": ["hiểu", "thấu hiểu"],
+    "viAliases": ["hiểu được", "lĩnh hội"],
+    "en": ["to comprehend; to understand"],
+    "enSource": "cedict",
+    "example": { "zh": "我不太理解他的意思。", "vi": "Tôi không hiểu lắm ý của anh ấy.", "en": "I don't quite understand what he means." }
+  },
+  {
+    "id": "L3-0441",
+    "vi": ["lý thuyết", "lý luận"],
+    "viAliases": ["học thuyết", "lí thuyết"],
+    "en": ["theory"],
+    "enSource": "cedict",
+    "example": { "zh": "这个理论有点难懂。", "vi": "Lý thuyết này hơi khó hiểu.", "en": "This theory is a bit hard to understand." }
+  },
+  {
+    "id": "L3-0442",
+    "vi": ["lý do", "nguyên cớ"],
+    "viAliases": ["lí do", "cớ"],
+    "en": ["reason", "grounds", "justification"],
+    "enSource": "cedict",
+    "example": { "zh": "你迟到的理由是什么？", "vi": "Lý do bạn đến muộn là gì?", "en": "What is your reason for being late?" }
+  },
+  {
+    "id": "L3-0443",
+    "vi": ["sức", "lực", "sức mạnh"],
+    "viAliases": ["sức lực", "năng lực"],
+    "en": ["power", "force", "strength", "ability"],
+    "enSource": "cedict",
+    "example": { "zh": "我们要用力推这个门。", "vi": "Chúng ta phải dùng sức đẩy cánh cửa này.", "en": "We need to push this door hard." }
+  },
+  {
+    "id": "L3-0444",
+    "vi": ["sức mạnh", "sức lực"],
+    "viAliases": ["lực lượng", "sức"],
+    "en": ["power; force; strength"],
+    "enSource": "cedict",
+    "example": { "zh": "团结就是力量。", "vi": "Đoàn kết chính là sức mạnh.", "en": "Unity is strength." }
+  },
+  {
+    "id": "L3-0445",
+    "vi": ["ngay lập tức", "lập tức"],
+    "viAliases": ["ngay", "tức khắc", "ngay tức khắc"],
+    "en": ["immediately; at once; right away"],
+    "enSource": "cedict",
+    "example": { "zh": "听到消息，他立刻跑了过来。", "vi": "Nghe tin xong, anh ấy lập tức chạy tới.", "en": "On hearing the news, he immediately ran over." }
+  },
+  {
+    "id": "L3-0446",
+    "vi": ["lợi dụng", "tận dụng", "sử dụng"],
+    "viAliases": ["dùng", "khai thác"],
+    "en": ["to make use of", "to use", "to take advantage of", "to utilize"],
+    "enSource": "cedict",
+    "example": { "zh": "我们要利用好每一天。", "vi": "Chúng ta phải tận dụng tốt mỗi ngày.", "en": "We should make good use of every day." }
+  },
+  {
+    "id": "L3-0447",
+    "vi": ["nối liền", "liên tục", "ngay cả"],
+    "viAliases": ["nối", "kết nối", "thậm chí"],
+    "en": ["to link", "to join", "to connect", "even"],
+    "enSource": "cedict",
+    "example": { "zh": "他连饭都没吃就走了。", "vi": "Anh ấy đến cơm cũng không ăn đã đi rồi.", "en": "He left without even eating." }
+  },
+  {
+    "id": "L3-0448",
+    "vi": ["vội vàng", "vội", "lập tức"],
+    "viAliases": ["vội vã"],
+    "en": ["promptly; at once"],
+    "enSource": "cedict",
+    "example": { "zh": "他连忙站起来开门。", "vi": "Anh ấy vội đứng dậy mở cửa.", "en": "He promptly stood up and opened the door." }
+  },
+  {
+    "id": "L3-0449",
+    "vi": ["liên tục", "liên tiếp"],
+    "viAliases": ["nối tiếp", "liền mạch"],
+    "en": ["continuous", "in a row", "consecutive"],
+    "enSource": "cedict",
+    "example": { "zh": "他连续三天没来上课。", "vi": "Anh ấy ba ngày liên tục không đến lớp.", "en": "He missed class three days in a row." }
+  },
+  {
+    "id": "L3-0450",
+    "vi": ["phim truyền hình dài tập", "phim bộ"],
+    "viAliases": ["phim nhiều tập", "phim dài tập"],
+    "en": ["TV series"],
+    "enSource": "cedict",
+    "example": { "zh": "我妈妈喜欢看连续剧。", "vi": "Mẹ tôi thích xem phim truyền hình dài tập.", "en": "My mother likes watching TV series." }
+  },
+  {
+    "id": "L3-0451",
+    "vi": ["liên hợp", "liên kết", "hợp lại"],
+    "viAliases": ["kết hợp", "liên minh"],
+    "en": ["to combine", "to join", "unite"],
+    "enSource": "cedict",
+    "example": { "zh": "两家公司联合起来了。", "vi": "Hai công ty đã liên kết với nhau.", "en": "The two companies have joined together." }
+  },
+  {
+    "id": "L3-0452",
+    "vi": ["Liên Hợp Quốc"],
+    "viAliases": ["Liên Hiệp Quốc", "LHQ"],
+    "en": ["United Nations"],
+    "enSource": "cedict",
+    "example": { "zh": "他在联合国工作。", "vi": "Anh ấy làm việc ở Liên Hợp Quốc.", "en": "He works at the United Nations." }
+  },
+  {
+    "id": "L3-0453",
+    "vi": ["liên hệ", "liên lạc", "mối liên hệ"],
+    "viAliases": ["kết nối", "quan hệ"],
+    "en": ["to get in touch with", "contact", "connection", "to link"],
+    "enSource": "cedict",
+    "example": { "zh": "有问题请跟我联系。", "vi": "Có vấn đề gì xin hãy liên hệ với tôi.", "en": "Please contact me if you have any questions." }
+  },
+  {
+    "id": "L3-0454",
+    "vi": ["nước lạnh", "nước lã"],
+    "viAliases": ["nước nguội", "nước mát"],
+    "en": ["cool water", "unboiled water"],
+    "enSource": "cedict",
+    "example": { "zh": "天太热，我想喝凉水。", "vi": "Trời nóng quá, tôi muốn uống nước lạnh.", "en": "It's too hot, I want to drink some cold water." }
+  },
+  {
+    "id": "L3-0455",
+    "vi": ["xong", "hết", "hoàn thành"],
+    "viAliases": ["kết thúc", "nổi"],
+    "en": ["to finish"],
+    "enSource": "cedict",
+    "example": { "zh": "这些菜太多，我吃不了。", "vi": "Nhiều món quá, tôi ăn không hết.", "en": "There is too much food, I can't finish it." }
+  },
+  {
+    "id": "L3-0456",
+    "vi": ["dẫn", "lĩnh", "nhận"],
+    "viAliases": ["dắt", "lãnh"],
+    "en": ["to lead", "to receive"],
+    "enSource": "cedict",
+    "example": { "zh": "老师领我们进教室。", "vi": "Cô giáo dẫn chúng tôi vào lớp học.", "en": "The teacher led us into the classroom." }
+  },
+  {
+    "id": "L3-0457",
+    "vi": ["lãnh đạo", "người lãnh đạo"],
+    "viAliases": ["chỉ đạo", "cấp trên", "thủ trưởng"],
+    "en": ["to lead", "leadership", "leader"],
+    "enSource": "cedict",
+    "example": { "zh": "我们的领导很热情。", "vi": "Lãnh đạo của chúng tôi rất nhiệt tình.", "en": "Our leader is very warm-hearted." }
+  },
+  {
+    "id": "L3-0458",
+    "vi": ["dẫn đầu", "đi đầu"],
+    "viAliases": ["dẫn trước", "đứng đầu", "vượt lên trước"],
+    "en": ["to lead", "to be in front"],
+    "enSource": "cedict",
+    "example": { "zh": "我们班在比赛中领先。", "vi": "Lớp chúng tôi dẫn đầu trong cuộc thi.", "en": "Our class is leading in the competition." }
+  },
+  {
+    "id": "L3-0459",
+    "vi": ["ngoài ra", "khác", "hơn nữa"],
+    "viAliases": ["bên cạnh đó", "thêm nữa"],
+    "en": ["in addition", "besides", "other", "moreover"],
+    "enSource": "cedict",
+    "example": { "zh": "我还想买另外一本书。", "vi": "Tôi còn muốn mua một quyển sách khác.", "en": "I also want to buy another book." }
+  },
+  {
+    "id": "L3-0460",
+    "vi": ["mặt khác"],
+    "viAliases": ["một mặt khác", "về mặt khác"],
+    "en": ["on the other hand", "another aspect"],
+    "enSource": "cedict",
+    "example": { "zh": "另一方面，这样做也有好处。", "vi": "Mặt khác, làm như vậy cũng có lợi ích.", "en": "On the other hand, doing so also has its benefits." }
+  },
+  {
+    "id": "L3-0461",
+    "vi": ["du học"],
+    "viAliases": ["đi du học", "học ở nước ngoài"],
+    "en": ["to study abroad"],
+    "enSource": "cedict",
+    "example": { "zh": "他去中国留学了。", "vi": "Anh ấy đã đi Trung Quốc du học.", "en": "He went to China to study." }
+  },
+  {
+    "id": "L3-0462",
+    "vi": ["rồng"],
+    "viAliases": ["con rồng", "long"],
+    "en": ["Chinese dragon", "dragon"],
+    "enSource": "cedict",
+    "example": { "zh": "中国人很喜欢龙。", "vi": "Người Trung Quốc rất thích rồng.", "en": "Chinese people like dragons very much." }
+  },
+  {
+    "id": "L3-0463",
+    "vi": ["ghi", "ghi lại", "thu"],
+    "viAliases": ["ghi chép", "sao chép"],
+    "en": ["record", "to copy"],
+    "enSource": "cedict",
+    "example": { "zh": "请把这些词录下来。", "vi": "Hãy ghi lại những từ này.", "en": "Please write these words down." }
+  },
+  {
+    "id": "L3-0464",
+    "vi": ["ghi âm", "bản ghi âm"],
+    "viAliases": ["thu âm", "băng ghi âm"],
+    "en": ["to record sound", "an audio recording"],
+    "enSource": "cedict",
+    "example": { "zh": "老师让我们听录音。", "vi": "Cô giáo bảo chúng tôi nghe bản ghi âm.", "en": "The teacher had us listen to the recording." }
+  },
+  {
+    "id": "L3-0465",
+    "vi": ["tuyến đường", "lộ trình"],
+    "viAliases": ["đường đi", "tuyến"],
+    "en": ["itinerary", "route"],
+    "enSource": "cedict",
+    "example": { "zh": "这条路线比较近。", "vi": "Tuyến đường này khá gần.", "en": "This route is relatively short." }
+  },
+  {
+    "id": "L3-0466",
+    "vi": ["khách sạn", "nhà nghỉ"],
+    "viAliases": ["lữ quán", "quán trọ"],
+    "en": ["hotel"],
+    "enSource": "cedict",
+    "example": { "zh": "我们住在一家小旅馆。", "vi": "Chúng tôi ở trong một khách sạn nhỏ.", "en": "We are staying in a small hotel." }
+  },
+  {
+    "id": "L3-0467",
+    "vi": ["công ty du lịch", "hãng lữ hành"],
+    "viAliases": ["đại lý du lịch", "văn phòng du lịch"],
+    "en": ["travel agency"],
+    "enSource": "cedict",
+    "example": { "zh": "她在旅行社工作。", "vi": "Cô ấy làm việc ở công ty du lịch.", "en": "She works at a travel agency." }
+  },
+  {
+    "id": "L3-0468",
+    "vi": ["trà xanh"],
+    "viAliases": ["chè xanh", "trà lục"],
+    "en": ["green tea"],
+    "enSource": "cedict",
+    "example": { "zh": "我每天早上喝绿茶。", "vi": "Mỗi sáng tôi đều uống trà xanh.", "en": "I drink green tea every morning." }
+  },
+  {
+    "id": "L3-0469",
+    "vi": ["lộn xộn", "bừa bộn", "loạn"],
+    "viAliases": ["hỗn loạn", "bừa bãi", "lung tung"],
+    "en": ["in confusion or disorder", "indiscriminate", "random"],
+    "enSource": "cedict",
+    "example": { "zh": "他的房间很乱。", "vi": "Phòng của anh ấy rất bừa bộn.", "en": "His room is very messy." }
+  },
+  {
+    "id": "L3-0470",
+    "vi": ["lạc hậu", "tụt hậu", "tụt lại phía sau"],
+    "viAliases": ["chậm tiến", "thụt lùi"],
+    "en": ["to fall behind", "to lag", "backward"],
+    "enSource": "cedict",
+    "example": { "zh": "我们不能落后于别人。", "vi": "Chúng ta không thể tụt hậu so với người khác.", "en": "We can't fall behind others." }
+  },
+  {
+    "id": "L3-0471",
+    "vi": ["phiền phức", "rắc rối", "làm phiền"],
+    "viAliases": ["phiền", "rườm rà", "quấy rầy"],
+    "en": ["inconvenient; troublesome; annoying", "to bother sb; to put sb to trouble"],
+    "enSource": "cedict",
+    "example": { "zh": "麻烦你帮我开一下门。", "vi": "Phiền bạn giúp tôi mở cửa một chút.", "en": "Could I trouble you to open the door for me?" }
+  },
+  {
+    "id": "L3-0472",
+    "vi": ["ngựa"],
+    "viAliases": ["con ngựa", "mã"],
+    "en": ["horse"],
+    "enSource": "cedict",
+    "example": { "zh": "那匹马跑得很快。", "vi": "Con ngựa kia chạy rất nhanh.", "en": "That horse runs very fast." }
+  },
+  {
+    "id": "L3-0473",
+    "vi": ["thỏa mãn", "đáp ứng"],
+    "viAliases": ["làm hài lòng", "mãn nguyện", "thoả mãn"],
+    "en": ["to satisfy", "to meet (the needs of)"],
+    "enSource": "cedict",
+    "example": { "zh": "这个办法能满足大家的要求。", "vi": "Cách này có thể đáp ứng yêu cầu của mọi người.", "en": "This method can satisfy everyone's requirements." }
+  },
+  {
+    "id": "L3-0474",
+    "vi": ["từ từ", "chậm rãi", "dần dần"],
+    "viAliases": ["thong thả", "chầm chậm"],
+    "en": ["slowly; gradually"],
+    "enSource": "cedict",
+    "example": { "zh": "你慢慢说，别着急。", "vi": "Bạn cứ nói từ từ, đừng vội.", "en": "Speak slowly, don't rush." }
+  },
+  {
+    "id": "L3-0475",
+    "vi": ["lông", "len"],
+    "viAliases": ["lông tơ", "sợi len"],
+    "en": ["hair", "feather", "wool"],
+    "enSource": "cedict",
+    "example": { "zh": "这只猫的毛很白。", "vi": "Bộ lông của con mèo này rất trắng.", "en": "This cat's fur is very white." }
+  },
+  {
+    "id": "L3-0476",
+    "vi": ["khuyết điểm", "tật xấu", "trục trặc"],
+    "viAliases": ["lỗi", "hỏng hóc", "thói xấu"],
+    "en": ["fault", "defect", "shortcomings", "ailment"],
+    "enSource": "cedict",
+    "example": { "zh": "我的电脑又出毛病了。", "vi": "Máy tính của tôi lại bị trục trặc rồi.", "en": "My computer is having problems again." }
+  },
+  {
+    "id": "L3-0477",
+    "vi": ["vô dụng", "không có tác dụng"],
+    "viAliases": ["vô ích", "không dùng được"],
+    "en": ["useless"],
+    "enSource": "cedict",
+    "example": { "zh": "这个旧手机已经没用了。", "vi": "Chiếc điện thoại cũ này đã vô dụng rồi.", "en": "This old phone is useless now." }
+  },
+  {
+    "id": "L3-0478",
+    "vi": ["truyền thông", "phương tiện truyền thông"],
+    "viAliases": ["giới truyền thông", "báo đài"],
+    "en": ["media, esp. news media"],
+    "enSource": "cedict",
+    "example": { "zh": "很多媒体报道了这件事。", "vi": "Rất nhiều cơ quan truyền thông đã đưa tin về việc này.", "en": "Many media outlets reported this matter." }
+  },
+  {
+    "id": "L3-0479",
+    "vi": ["mỗi", "từng"],
+    "viAliases": ["mọi"],
+    "en": ["each", "every"],
+    "enSource": "cedict",
+    "example": { "zh": "我每天都去跑步。", "vi": "Ngày nào tôi cũng đi chạy bộ.", "en": "I go running every day." }
+  },
+  {
+    "id": "L3-0480",
+    "vi": ["đẹp", "tốt đẹp"],
+    "viAliases": ["xinh đẹp", "mĩ lệ"],
+    "en": ["beautiful", "very satisfactory; good"],
+    "enSource": "cedict",
+    "example": { "zh": "这里的风景真美。", "vi": "Phong cảnh ở đây thật đẹp.", "en": "The scenery here is really beautiful." }
+  },
+  {
+    "id": "L3-0481",
+    "vi": ["tốt đẹp", "đẹp đẽ"],
+    "viAliases": ["tươi đẹp", "tốt lành"],
+    "en": ["beautiful", "fine"],
+    "enSource": "cedict",
+    "example": { "zh": "祝你有一个美好的假期。", "vi": "Chúc bạn có một kỳ nghỉ tốt đẹp.", "en": "Wishing you a wonderful holiday." }
+  },
+  {
+    "id": "L3-0482",
+    "vi": ["xinh đẹp", "đẹp"],
+    "viAliases": ["mỹ lệ", "tươi đẹp", "diễm lệ"],
+    "en": ["beautiful"],
+    "enSource": "cedict",
+    "example": { "zh": "她是一个美丽的姑娘。", "vi": "Cô ấy là một cô gái xinh đẹp.", "en": "She is a beautiful girl." }
+  },
+  {
+    "id": "L3-0483",
+    "vi": ["món ngon", "đồ ăn ngon"],
+    "viAliases": ["mỹ vị", "món ăn ngon"],
+    "en": ["culinary delicacy", "fine food", "gourmet food"],
+    "enSource": "cedict",
+    "example": { "zh": "中国有很多有名的美食。", "vi": "Trung Quốc có rất nhiều món ngon nổi tiếng.", "en": "China has many famous delicacies." }
+  }
+]

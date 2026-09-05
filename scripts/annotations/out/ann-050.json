@@ -1,0 +1,322 @@
+[
+  {
+    "id": "L3-0934",
+    "vi": ["xung quanh", "chung quanh"],
+    "viAliases": ["vùng xung quanh", "quanh"],
+    "en": ["surroundings", "environs", "periphery"],
+    "enSource": "cedict",
+    "example": { "zh": "我家周围有很多商店。", "vi": "Xung quanh nhà tôi có rất nhiều cửa hàng.", "en": "There are many shops around my house." }
+  },
+  {
+    "id": "L3-0935",
+    "vi": ["con lợn", "con heo"],
+    "viAliases": ["lợn", "heo"],
+    "en": ["pig", "hog", "swine"],
+    "enSource": "cedict",
+    "example": { "zh": "我们在山上看见了一只猪。", "vi": "Chúng tôi nhìn thấy một con lợn trên núi.", "en": "We saw a pig on the mountain." }
+  },
+  {
+    "id": "L3-0936",
+    "vi": ["chủ trì", "dẫn chương trình"],
+    "viAliases": ["chủ tọa", "điều hành"],
+    "en": ["to take charge of", "to preside over", "to host (a TV or radio program etc)"],
+    "enSource": "cedict",
+    "example": { "zh": "今天的会议由王老师主持。", "vi": "Cuộc họp hôm nay do thầy Vương chủ trì.", "en": "Today's meeting is presided over by Teacher Wang." }
+  },
+  {
+    "id": "L3-0937",
+    "vi": ["chủ động"],
+    "viAliases": ["tự nguyện", "tích cực"],
+    "en": ["to take the initiative", "to do sth of one's own accord", "active"],
+    "enSource": "cedict",
+    "example": { "zh": "他很主动地帮助新同学。", "vi": "Cậu ấy rất chủ động giúp đỡ bạn học mới.", "en": "He actively helps the new classmates." }
+  },
+  {
+    "id": "L3-0938",
+    "vi": ["chủ nhiệm", "trưởng phòng"],
+    "viAliases": ["trưởng ban", "người phụ trách"],
+    "en": ["director", "head"],
+    "enSource": "cedict",
+    "example": { "zh": "王老师是这个班的主任。", "vi": "Thầy Vương là chủ nhiệm của lớp này.", "en": "Teacher Wang is the head of this class." }
+  },
+  {
+    "id": "L3-0939",
+    "vi": ["ý kiến", "ý tưởng", "chủ ý"],
+    "viAliases": ["cách nghĩ", "chủ kiến"],
+    "en": ["idea", "plan", "decision"],
+    "enSource": "cedict",
+    "example": { "zh": "这是一个很好的主意。", "vi": "Đây là một ý kiến rất hay.", "en": "This is a very good idea." }
+  },
+  {
+    "id": "L3-0940",
+    "vi": ["chủ trương", "quan điểm"],
+    "viAliases": ["đề xướng", "lập trường"],
+    "en": ["to advocate", "to stand for", "view", "proposition"],
+    "enSource": "cedict",
+    "example": { "zh": "我主张多听别人的意见。", "vi": "Tôi chủ trương lắng nghe nhiều ý kiến của người khác.", "en": "I advocate listening more to other people's opinions." }
+  },
+  {
+    "id": "L3-0941",
+    "vi": ["chú ý", "lưu ý"],
+    "viAliases": ["để ý", "chú tâm"],
+    "en": ["to pay attention to", "to take note of"],
+    "enSource": "cedict",
+    "example": { "zh": "过马路的时候要注意车。", "vi": "Khi qua đường phải chú ý xe cộ.", "en": "Pay attention to cars when you cross the street." }
+  },
+  {
+    "id": "L3-0942",
+    "vi": ["chúc"],
+    "viAliases": ["cầu chúc", "chúc cho"],
+    "en": ["to wish (sb bon voyage, happy birthday etc)", "to pray for"],
+    "enSource": "cedict",
+    "example": { "zh": "祝你生日快乐！", "vi": "Chúc bạn sinh nhật vui vẻ!", "en": "Happy birthday to you!" }
+  },
+  {
+    "id": "L3-0943",
+    "vi": ["nắm", "bắt", "gãi"],
+    "viAliases": ["túm", "chộp"],
+    "en": ["to grab", "to catch", "to scratch"],
+    "enSource": "cedict",
+    "example": { "zh": "他抓着我的手不放。", "vi": "Anh ấy nắm chặt tay tôi không buông.", "en": "He held my hand tightly and would not let go." }
+  },
+  {
+    "id": "L3-0944",
+    "vi": ["nắm chặt", "nắm bắt", "bắt được"],
+    "viAliases": ["tóm được", "giữ chặt"],
+    "en": ["to grab hold of", "to capture"],
+    "enSource": "cedict",
+    "example": { "zh": "他抓住了这个好机会。", "vi": "Anh ấy đã nắm bắt được cơ hội tốt này.", "en": "He seized this good opportunity." }
+  },
+  {
+    "id": "L3-0945",
+    "vi": ["chuyên gia"],
+    "viAliases": ["nhà chuyên môn"],
+    "en": ["expert", "specialist"],
+    "enSource": "cedict",
+    "example": { "zh": "这位专家很有经验。", "vi": "Vị chuyên gia này rất có kinh nghiệm.", "en": "This expert is very experienced." }
+  },
+  {
+    "id": "L3-0946",
+    "vi": ["chuyên", "đặc biệt"],
+    "viAliases": ["riêng", "dành riêng", "cố ý"],
+    "en": ["specially", "specifically (for a particular purpose)"],
+    "enSource": "cedict",
+    "example": { "zh": "他专门来看你的。", "vi": "Anh ấy đặc biệt đến để thăm bạn đấy.", "en": "He came specially to see you." }
+  },
+  {
+    "id": "L3-0947",
+    "vi": ["chuyên đề"],
+    "viAliases": ["đề tài chuyên biệt", "chủ đề chuyên sâu"],
+    "en": ["specific topic", "article, report or program etc on a specific topic"],
+    "enSource": "cedict",
+    "example": { "zh": "今天的课是一个专题讨论。", "vi": "Buổi học hôm nay là một buổi thảo luận chuyên đề.", "en": "Today's class is a discussion on a specific topic." }
+  },
+  {
+    "id": "L3-0948",
+    "vi": ["chuyên ngành", "chuyên môn"],
+    "viAliases": ["ngành học", "chuyên khoa"],
+    "en": ["specialty", "specialized field", "major", "main field of study (at university)"],
+    "enSource": "cedict",
+    "example": { "zh": "我的专业是中文。", "vi": "Chuyên ngành của tôi là tiếng Trung.", "en": "My major is Chinese." }
+  },
+  {
+    "id": "L3-0949",
+    "vi": ["quay", "rẽ", "chuyển"],
+    "viAliases": ["xoay", "chuyển hướng"],
+    "en": ["to turn", "to change direction", "to transfer"],
+    "enSource": "cedict",
+    "example": { "zh": "到前面的路口向右转。", "vi": "Đến ngã tư phía trước thì rẽ phải.", "en": "Turn right at the intersection ahead." }
+  },
+  {
+    "id": "L3-0950",
+    "vi": ["chuyển biến", "thay đổi", "chuyển đổi"],
+    "viAliases": ["biến đổi", "chuyển hóa"],
+    "en": ["to change", "to transform"],
+    "enSource": "cedict",
+    "example": { "zh": "他的想法转变得很快。", "vi": "Suy nghĩ của anh ấy thay đổi rất nhanh.", "en": "His way of thinking changed very quickly." }
+  },
+  {
+    "id": "L3-0951",
+    "vi": ["tình trạng", "tình hình"],
+    "viAliases": ["hiện trạng"],
+    "en": ["condition", "state", "situation"],
+    "enSource": "cedict",
+    "example": { "zh": "他的身体状况很好。", "vi": "Tình trạng sức khỏe của anh ấy rất tốt.", "en": "His physical condition is very good." }
+  },
+  {
+    "id": "L3-0952",
+    "vi": ["trạng thái"],
+    "viAliases": ["tình trạng", "phong độ"],
+    "en": ["state", "condition", "state of affairs"],
+    "enSource": "cedict",
+    "example": { "zh": "今天我的学习状态很好。", "vi": "Hôm nay trạng thái học tập của tôi rất tốt.", "en": "My study condition is very good today." }
+  },
+  {
+    "id": "L3-0953",
+    "vi": ["đuổi theo", "theo đuổi"],
+    "viAliases": ["rượt theo", "đuổi bắt"],
+    "en": ["to chase", "to pursue"],
+    "enSource": "cedict",
+    "example": { "zh": "那只狗在后面追我。", "vi": "Con chó đó đuổi theo tôi ở phía sau.", "en": "That dog is chasing me from behind." }
+  },
+  {
+    "id": "L3-0954",
+    "vi": ["chính xác", "chắc chắn", "nhất định"],
+    "viAliases": ["chuẩn", "đúng"],
+    "en": ["accurate", "definitely", "certainly"],
+    "enSource": "cedict",
+    "example": { "zh": "你的表走得很准。", "vi": "Đồng hồ của bạn chạy rất chính xác.", "en": "Your watch keeps very accurate time." }
+  },
+  {
+    "id": "L3-0955",
+    "vi": ["tư cách", "thâm niên"],
+    "viAliases": ["đủ tư cách"],
+    "en": ["qualifications", "seniority"],
+    "enSource": "cedict",
+    "example": { "zh": "他有资格参加这个比赛。", "vi": "Anh ấy có tư cách tham gia cuộc thi này.", "en": "He is qualified to take part in this competition." }
+  },
+  {
+    "id": "L3-0956",
+    "vi": ["vốn", "nguồn vốn", "tiền vốn"],
+    "viAliases": ["kinh phí", "vốn đầu tư"],
+    "en": ["funds", "capital"],
+    "enSource": "cedict",
+    "example": { "zh": "这个公司的资金不多。", "vi": "Nguồn vốn của công ty này không nhiều.", "en": "This company does not have much capital." }
+  },
+  {
+    "id": "L3-0957",
+    "vi": ["con cái"],
+    "viAliases": ["con trai và con gái", "con"],
+    "en": ["children", "sons and daughters"],
+    "enSource": "cedict",
+    "example": { "zh": "他们的子女都在国外工作。", "vi": "Con cái của họ đều làm việc ở nước ngoài.", "en": "Their children all work abroad." }
+  },
+  {
+    "id": "L3-0958",
+    "vi": ["từ khi", "kể từ"],
+    "viAliases": ["từ lúc", "kể từ khi"],
+    "en": ["since (a time)", "ever since"],
+    "enSource": "cedict",
+    "example": { "zh": "自从上了大学，他变得很忙。", "vi": "Từ khi vào đại học, anh ấy trở nên rất bận.", "en": "Ever since he started university, he has been very busy." }
+  },
+  {
+    "id": "L3-0959",
+    "vi": ["tự động"],
+    "viAliases": ["tự nguyện"],
+    "en": ["automatic", "voluntarily"],
+    "enSource": "cedict",
+    "example": { "zh": "这个门可以自动打开。", "vi": "Cánh cửa này có thể tự động mở ra.", "en": "This door can open automatically." }
+  },
+  {
+    "id": "L3-0960",
+    "vi": ["tự giác", "có ý thức"],
+    "viAliases": ["tự ý thức", "ý thức cao"],
+    "en": ["responsible", "predisposed to do the right thing", "considerate of others"],
+    "enSource": "cedict",
+    "example": { "zh": "学生们都很自觉地打扫教室。", "vi": "Các bạn học sinh đều rất tự giác dọn dẹp lớp học.", "en": "The students all clean the classroom conscientiously." }
+  },
+  {
+    "id": "L3-0961",
+    "vi": ["thiên nhiên", "tự nhiên", "đương nhiên"],
+    "viAliases": ["giới tự nhiên"],
+    "en": ["nature", "natural", "naturally"],
+    "enSource": "cedict",
+    "example": { "zh": "我很喜欢大自然的风景。", "vi": "Tôi rất thích phong cảnh thiên nhiên.", "en": "I really like natural scenery." }
+  },
+  {
+    "id": "L3-0962",
+    "vi": ["bản thân", "chính mình"],
+    "viAliases": ["tự thân", "của chính mình"],
+    "en": ["oneself", "itself", "one's own"],
+    "enSource": "cedict",
+    "example": { "zh": "我们要先看到自身的问题。", "vi": "Chúng ta phải nhìn thấy vấn đề của bản thân trước.", "en": "We should first see our own problems." }
+  },
+  {
+    "id": "L3-0963",
+    "vi": ["tự chủ", "tự quyết"],
+    "viAliases": ["tự làm chủ", "tự quyết định"],
+    "en": ["to act independently", "to be autonomous", "to be in control of one's own affairs"],
+    "enSource": "cedict",
+    "example": { "zh": "孩子长大了要学会自主。", "vi": "Trẻ con lớn lên phải học cách tự chủ.", "en": "Children must learn to be independent when they grow up." }
+  },
+  {
+    "id": "L3-0964",
+    "vi": ["luôn", "cứ", "dù sao cũng"],
+    "viAliases": ["lúc nào cũng", "suốt"],
+    "en": ["always", "invariably", "anyway", "after all"],
+    "enSource": "cedict",
+    "example": { "zh": "他总在教室里看书。", "vi": "Cậu ấy luôn ngồi đọc sách trong lớp học.", "en": "He is always reading in the classroom." }
+  },
+  {
+    "id": "L3-0965",
+    "vi": ["tổng kết", "tóm tắt"],
+    "viAliases": ["đúc kết", "bản tổng kết"],
+    "en": ["to sum up", "to conclude", "summary"],
+    "enSource": "cedict",
+    "example": { "zh": "老师总结了这次考试的问题。", "vi": "Thầy giáo đã tổng kết những vấn đề của kỳ thi lần này.", "en": "The teacher summed up the problems in this exam." }
+  },
+  {
+    "id": "L3-0966",
+    "vi": ["luôn luôn", "lúc nào cũng"],
+    "viAliases": ["luôn", "cứ"],
+    "en": ["always"],
+    "enSource": "cedict",
+    "example": { "zh": "他总是第一个来学校。", "vi": "Cậu ấy lúc nào cũng là người đến trường đầu tiên.", "en": "He is always the first one to arrive at school." }
+  },
+  {
+    "id": "L3-0967",
+    "vi": ["đủ", "đầy đủ"],
+    "viAliases": ["đủ dùng", "đủ để"],
+    "en": ["enough", "sufficient"],
+    "enSource": "cedict",
+    "example": { "zh": "我们的时间足够了。", "vi": "Thời gian của chúng ta đủ rồi.", "en": "We have enough time." }
+  },
+  {
+    "id": "L3-0968",
+    "vi": ["bóng đá", "quả bóng đá"],
+    "viAliases": ["môn bóng đá", "túc cầu"],
+    "en": ["soccer", "football", "a soccer ball"],
+    "enSource": "cedict",
+    "example": { "zh": "弟弟很喜欢踢足球。", "vi": "Em trai tôi rất thích đá bóng.", "en": "My younger brother loves playing soccer." }
+  },
+  {
+    "id": "L3-0969",
+    "vi": ["kết hợp", "ghép lại", "tổ hợp"],
+    "viAliases": ["phối hợp", "lắp ghép"],
+    "en": ["to combine", "to assemble", "to compose", "combination"],
+    "enSource": "cedict",
+    "example": { "zh": "我们把这些词组合成句子。", "vi": "Chúng ta ghép những từ này lại thành câu.", "en": "We combine these words into a sentence." }
+  },
+  {
+    "id": "L3-0970",
+    "vi": ["khoảng chừng", "bên trái bên phải", "chi phối"],
+    "viAliases": ["xấp xỉ", "trái phải"],
+    "en": ["left and right", "approximately", "to control", "to influence"],
+    "enSource": "cedict",
+    "example": { "zh": "他每天睡八个小时左右。", "vi": "Mỗi ngày anh ấy ngủ khoảng tám tiếng.", "en": "He sleeps about eight hours every day." }
+  },
+  {
+    "id": "L3-0971",
+    "vi": ["tác phẩm"],
+    "viAliases": ["tác phẩm nghệ thuật"],
+    "en": ["work (of art)", "opus"],
+    "enSource": "cedict",
+    "example": { "zh": "这本书是他最有名的作品。", "vi": "Cuốn sách này là tác phẩm nổi tiếng nhất của ông ấy.", "en": "This book is his most famous work." }
+  },
+  {
+    "id": "L3-0972",
+    "vi": ["tác giả"],
+    "viAliases": ["người viết", "người sáng tác"],
+    "en": ["author", "writer"],
+    "enSource": "cedict",
+    "example": { "zh": "你知道这篇文章的作者是谁吗？", "vi": "Bạn có biết tác giả của bài viết này là ai không?", "en": "Do you know who the author of this article is?" }
+  },
+  {
+    "id": "L3-0973",
+    "vi": ["làm khách", "đến chơi nhà"],
+    "viAliases": ["đi làm khách", "sang chơi nhà"],
+    "en": ["to be a guest or visitor"],
+    "enSource": "cedict",
+    "example": { "zh": "星期天我去朋友家做客。", "vi": "Chủ nhật tôi đến nhà bạn làm khách.", "en": "On Sunday I go to a friend's home as a guest." }
+  }
+]

@@ -9,7 +9,7 @@
   },
   {
     "id": "L1-0227",
-    "vi": ["trợ từ nghi vấn đặt cuối câu hỏi có hoặc không"],
+    "vi": ["trợ từ nghi vấn"],
     "viAliases": [],
     "en": ["(question particle for yes-no questions)"],
     "enSource": "cedict",
@@ -18,7 +18,7 @@
   {
     "id": "L1-0228",
     "vi": ["mua"],
-    "viAliases": ["sắm", "mua sắm"],
+    "viAliases": ["sắm"],
     "en": ["to buy", "to purchase"],
     "enSource": "cedict",
     "example": { "zh": "我想买一本书。", "vi": "Tôi muốn mua một quyển sách.", "en": "I want to buy a book." }
@@ -26,7 +26,7 @@
   {
     "id": "L1-0229",
     "vi": ["chậm"],
-    "viAliases": ["chậm chạp", "chậm rãi", "từ từ"],
+    "viAliases": ["chậm chạp", "chậm rãi"],
     "en": ["slow"],
     "enSource": "cedict",
     "example": { "zh": "他走得很慢。", "vi": "Anh ấy đi rất chậm.", "en": "He walks very slowly." }
@@ -41,7 +41,7 @@
   },
   {
     "id": "L1-0231",
-    "vi": ["hào", "đơn vị tiền bằng một phần mười tệ"],
+    "vi": ["hào"],
     "viAliases": ["giác", "mao"],
     "en": ["classifier for Chinese fractional monetary unit, one-tenth of a yuan or 10 fen"],
     "enSource": "cedict",
@@ -50,7 +50,7 @@
   {
     "id": "L1-0232",
     "vi": ["không", "chưa"],
-    "viAliases": ["chẳng", "chưa từng"],
+    "viAliases": ["chẳng"],
     "en": ["(negative prefix for verbs) have not; not"],
     "enSource": "cedict",
     "example": { "zh": "我今天没吃早饭。", "vi": "Hôm nay tôi chưa ăn sáng.", "en": "I did not eat breakfast today." }
@@ -121,7 +121,7 @@
   },
   {
     "id": "L1-0241",
-    "vi": ["hậu tố chỉ số nhiều cho đại từ và danh từ chỉ người"],
+    "vi": ["hậu tố chỉ số nhiều"],
     "viAliases": [],
     "en": ["plural marker for pronouns, and nouns referring to individuals"],
     "enSource": "cedict",
@@ -146,9 +146,9 @@
   {
     "id": "L1-0244",
     "vi": ["mì sợi", "mì"],
-    "viAliases": ["sợi mì", "mì nước"],
+    "viAliases": ["sợi mì"],
     "en": ["noodles"],
-    "enSource": "written",
+    "enSource": "cedict",
     "example": { "zh": "我们晚上吃面条儿。", "vi": "Buổi tối chúng tôi ăn mì.", "en": "We eat noodles in the evening." }
   },
   {
@@ -194,7 +194,7 @@
   {
     "id": "L1-0250",
     "vi": ["nào"],
-    "viAliases": ["cái nào", "gì"],
+    "viAliases": ["cái nào"],
     "en": ["which", "how"],
     "enSource": "cedict",
     "example": { "zh": "你是哪国人？", "vi": "Bạn là người nước nào?", "en": "Which country are you from?" }
@@ -218,7 +218,7 @@
   {
     "id": "L1-0253",
     "vi": ["những cái nào", "những gì"],
-    "viAliases": ["cái nào", "những thứ nào", "những người nào"],
+    "viAliases": ["những thứ nào", "những người nào"],
     "en": ["which ones?", "what?"],
     "enSource": "cedict",
     "example": { "zh": "你买了哪些东西？", "vi": "Bạn đã mua những thứ nào?", "en": "Which things did you buy?" }
@@ -282,7 +282,7 @@
   {
     "id": "L1-0261",
     "vi": ["nam", "thuộc nam giới"],
-    "viAliases": ["phái nam", "giống đực"],
+    "viAliases": ["phái nam"],
     "en": ["male"],
     "enSource": "cedict",
     "example": { "zh": "他有一个男同学。", "vi": "Cậu ấy có một bạn học nam.", "en": "He has a male classmate." }
@@ -292,7 +292,7 @@
     "vi": ["bé trai", "cậu bé"],
     "viAliases": ["con trai", "thằng bé"],
     "en": ["boy"],
-    "enSource": "written",
+    "enSource": "cedict",
     "example": { "zh": "那个男孩儿很可爱。", "vi": "Cậu bé đó rất đáng yêu.", "en": "That boy is very cute." }
   },
   {
@@ -322,7 +322,7 @@
   {
     "id": "L1-0266",
     "vi": ["phía nam", "hướng nam"],
-    "viAliases": ["nam", "miền nam"],
+    "viAliases": ["nam"],
     "en": ["south"],
     "enSource": "cedict",
     "example": { "zh": "你往南走五分钟。", "vi": "Bạn đi về phía nam năm phút.", "en": "Walk south for five minutes." }
@@ -345,7 +345,7 @@
   },
   {
     "id": "L1-0269",
-    "vi": ["trợ từ cuối câu dùng để hỏi lại", "trợ từ chỉ trạng thái còn đang tiếp diễn"],
+    "vi": ["trợ từ nghi vấn cuối câu", "trợ từ chỉ trạng thái tiếp diễn"],
     "viAliases": [],
     "en": ["(sentence-final particle) used in questions to link back to prior discourse or context", "(sentence-final particle) indicating that a state or situation still holds"],
     "enSource": "cedict",

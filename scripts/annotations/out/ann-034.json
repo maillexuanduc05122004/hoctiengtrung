@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L3-0214",
+    "vi": ["khái niệm"],
+    "viAliases": ["ý niệm"],
+    "en": ["concept", "idea"],
+    "enSource": "cedict",
+    "example": { "zh": "这个概念很难理解。", "vi": "Khái niệm này rất khó hiểu.", "en": "This concept is hard to understand." }
+  },
+  {
+    "id": "L3-0215",
+    "vi": ["đuổi kịp", "vội vã", "xua đuổi"],
+    "viAliases": ["bắt kịp", "đuổi theo", "gấp rút"],
+    "en": ["to overtake; to catch up with", "to hurry; to rush", "to try to catch (the bus etc)"],
+    "enSource": "cedict",
+    "example": { "zh": "我要赶火车，先走了。", "vi": "Tôi phải đi cho kịp chuyến tàu, tôi đi trước đây.", "en": "I have to catch the train, so I am leaving first." }
+  },
+  {
+    "id": "L3-0216",
+    "vi": ["vội đến", "đến kịp"],
+    "viAliases": ["tới kịp", "chạy đến"],
+    "en": ["to hurry (to some place)"],
+    "enSource": "cedict",
+    "example": { "zh": "他很快赶到了医院。", "vi": "Anh ấy nhanh chóng đến bệnh viện.", "en": "He hurried to the hospital." }
+  },
+  {
+    "id": "L3-0217",
+    "vi": ["nhanh chóng", "vội vàng"],
+    "viAliases": ["khẩn trương", "mau lên"],
+    "en": ["hurriedly", "without delay"],
+    "enSource": "cedict",
+    "example": { "zh": "下雨了，我们赶紧回家吧。", "vi": "Mưa rồi, chúng ta mau về nhà thôi.", "en": "It is raining, let us hurry home." }
+  },
+  {
+    "id": "L3-0218",
+    "vi": ["mau lên", "nhanh lên"],
+    "viAliases": ["lập tức", "mau chóng"],
+    "en": ["quickly; at once"],
+    "enSource": "cedict",
+    "example": { "zh": "你赶快吃饭，别迟到了。", "vi": "Bạn mau ăn cơm đi, đừng đến muộn.", "en": "Eat quickly, do not be late." }
+  },
+  {
+    "id": "L3-0219",
+    "vi": ["dám"],
+    "viAliases": ["cả gan"],
+    "en": ["to dare", "daring"],
+    "enSource": "cedict",
+    "example": { "zh": "他不敢一个人在家。", "vi": "Cậu ấy không dám ở nhà một mình.", "en": "He does not dare to stay home alone." }
+  },
+  {
+    "id": "L3-0220",
+    "vi": ["cảm lạnh", "bị cảm"],
+    "viAliases": ["cảm cúm", "cảm mạo"],
+    "en": ["to catch cold", "(common) cold"],
+    "enSource": "cedict",
+    "example": { "zh": "我感冒了，要去看医生。", "vi": "Tôi bị cảm rồi, phải đi khám bác sĩ.", "en": "I have caught a cold, I need to see a doctor." }
+  },
+  {
+    "id": "L3-0221",
+    "vi": ["tình cảm", "cảm xúc"],
+    "viAliases": ["tình nghĩa"],
+    "en": ["emotion; sentiment", "affection; feelings between two persons"],
+    "enSource": "cedict",
+    "example": { "zh": "他们兄弟的感情很好。", "vi": "Tình cảm anh em họ rất tốt.", "en": "The brothers have a very good relationship." }
+  },
+  {
+    "id": "L3-0222",
+    "vi": ["cảm nhận", "cảm giác"],
+    "viAliases": ["cảm thụ", "trải nghiệm"],
+    "en": ["to feel (through the senses)", "to experience", "a feeling"],
+    "enSource": "cedict",
+    "example": { "zh": "在这里我感受到了快乐。", "vi": "Ở đây tôi cảm nhận được niềm vui.", "en": "Here I felt happiness." }
+  },
+  {
+    "id": "L3-0223",
+    "vi": ["làm gì", "tại sao"],
+    "viAliases": ["vì sao", "sao lại"],
+    "en": ["what for?; why on earth?", "what are you doing?"],
+    "enSource": "cedict",
+    "example": { "zh": "你干吗不告诉我？", "vi": "Sao bạn không nói với tôi?", "en": "Why did you not tell me?" }
+  },
+  {
+    "id": "L3-0224",
+    "vi": ["tốc độ cao", "cao tốc"],
+    "viAliases": ["tốc độ nhanh"],
+    "en": ["high speed"],
+    "enSource": "cedict",
+    "example": { "zh": "这辆车能高速行驶。", "vi": "Chiếc xe này có thể chạy với tốc độ cao.", "en": "This car can travel at high speed." }
+  },
+  {
+    "id": "L3-0225",
+    "vi": ["đường cao tốc"],
+    "viAliases": ["xa lộ"],
+    "en": ["expressway; highway; freeway"],
+    "enSource": "cedict",
+    "example": { "zh": "我们从高速公路去机场。", "vi": "Chúng tôi đi đường cao tốc ra sân bay.", "en": "We take the expressway to the airport." }
+  },
+  {
+    "id": "L3-0226",
+    "vi": ["từ biệt", "chia tay"],
+    "viAliases": ["tạm biệt", "giã từ"],
+    "en": ["to leave; to part from", "to bid farewell to; to say goodbye to"],
+    "enSource": "cedict",
+    "example": { "zh": "他和朋友告别后走了。", "vi": "Cậu ấy chia tay bạn rồi đi.", "en": "He said goodbye to his friend and left." }
+  },
+  {
+    "id": "L3-0227",
+    "vi": ["người hâm mộ ca sĩ", "fan của ca sĩ"],
+    "viAliases": ["fan ca sĩ"],
+    "en": ["fan of a singer"],
+    "enSource": "cedict",
+    "example": { "zh": "我是这个歌手的歌迷。", "vi": "Tôi là fan của ca sĩ này.", "en": "I am a fan of this singer." }
+  },
+  {
+    "id": "L3-0228",
+    "vi": ["tiếng hát", "giọng hát"],
+    "viAliases": ["giọng ca"],
+    "en": ["singing voice"],
+    "enSource": "cedict",
+    "example": { "zh": "她的歌声非常好听。", "vi": "Tiếng hát của cô ấy rất hay.", "en": "Her singing voice is very beautiful." }
+  },
+  {
+    "id": "L3-0229",
+    "vi": ["ca sĩ"],
+    "viAliases": ["ca sỹ", "người hát"],
+    "en": ["singer"],
+    "enSource": "cedict",
+    "example": { "zh": "他想当一名歌手。", "vi": "Cậu ấy muốn làm ca sĩ.", "en": "He wants to be a singer." }
+  },
+  {
+    "id": "L3-0230",
+    "vi": ["cá nhân", "bản thân"],
+    "viAliases": ["riêng của mình"],
+    "en": ["an individual; oneself; personal; one's own"],
+    "enSource": "cedict",
+    "example": { "zh": "这是我个人的意见。", "vi": "Đây là ý kiến cá nhân của tôi.", "en": "This is my personal opinion." }
+  },
+  {
+    "id": "L3-0231",
+    "vi": ["cá tính", "tính cách riêng"],
+    "viAliases": ["bản sắc riêng"],
+    "en": ["individuality", "personality"],
+    "enSource": "cedict",
+    "example": { "zh": "这个女孩很有个性。", "vi": "Cô bé này rất có cá tính.", "en": "This girl has a strong personality." }
+  },
+  {
+    "id": "L3-0232",
+    "vi": ["mỗi", "các"],
+    "viAliases": ["từng"],
+    "en": ["each", "every"],
+    "enSource": "cedict",
+    "example": { "zh": "各国的文化都不同。", "vi": "Văn hóa mỗi nước đều khác nhau.", "en": "Every country has a different culture." }
+  },
+  {
+    "id": "L3-0233",
+    "vi": ["các nơi", "khắp nơi"],
+    "viAliases": ["mọi miền", "các vùng"],
+    "en": ["in all parts of (a country)", "various regions"],
+    "enSource": "cedict",
+    "example": { "zh": "来自各地的客人很多。", "vi": "Khách từ khắp nơi đến rất đông.", "en": "There are many guests from all over the country." }
+  },
+  {
+    "id": "L3-0234",
+    "vi": ["các vị", "quý vị"],
+    "viAliases": ["mọi người", "các bạn"],
+    "en": ["everybody", "all of you"],
+    "enSource": "cedict",
+    "example": { "zh": "各位早上好，请坐。", "vi": "Chào buổi sáng các vị, mời ngồi.", "en": "Good morning everyone, please sit down." }
+  },
+  {
+    "id": "L3-0235",
+    "vi": ["các loại", "đủ loại"],
+    "viAliases": ["nhiều loại", "mọi loại"],
+    "en": ["every kind of; all kinds of; various"],
+    "enSource": "cedict",
+    "example": { "zh": "商店里有各种水果。", "vi": "Trong cửa hàng có đủ loại trái cây.", "en": "The shop has all kinds of fruit." }
+  },
+  {
+    "id": "L3-0236",
+    "vi": ["mỗi người", "riêng từng người"],
+    "viAliases": ["ai nấy", "của riêng mỗi người"],
+    "en": ["each", "respective"],
+    "enSource": "cedict",
+    "example": { "zh": "下课后我们各自回家。", "vi": "Sau giờ học chúng tôi ai về nhà nấy.", "en": "After class we each went home." }
+  },
+  {
+    "id": "L3-0237",
+    "vi": ["hoàn toàn không", "căn bản", "gốc rễ"],
+    "viAliases": ["cơ bản", "nền tảng"],
+    "en": ["fundamental", "basic", "simply", "(not) at all"],
+    "enSource": "cedict",
+    "example": { "zh": "我根本不知道这件事。", "vi": "Tôi hoàn toàn không biết chuyện này.", "en": "I had no idea about this at all." }
+  },
+  {
+    "id": "L3-0238",
+    "vi": ["càng thêm", "càng"],
+    "viAliases": ["càng hơn", "hơn nữa"],
+    "en": ["more (than sth else)", "even more"],
+    "enSource": "cedict",
+    "example": { "zh": "今天的天气更加暖和。", "vi": "Thời tiết hôm nay càng ấm áp hơn.", "en": "Today the weather is even warmer." }
+  },
+  {
+    "id": "L3-0239",
+    "vi": ["nhà máy", "xưởng"],
+    "viAliases": ["công xưởng", "nhà xưởng"],
+    "en": ["factory"],
+    "enSource": "cedict",
+    "example": { "zh": "我爸爸在工厂工作。", "vi": "Bố tôi làm việc ở nhà máy.", "en": "My dad works in a factory." }
+  },
+  {
+    "id": "L3-0240",
+    "vi": ["kỹ sư"],
+    "viAliases": ["kĩ sư"],
+    "en": ["engineer"],
+    "enSource": "cedict",
+    "example": { "zh": "他是一名电脑工程师。", "vi": "Anh ấy là kỹ sư máy tính.", "en": "He is a computer engineer." }
+  },
+  {
+    "id": "L3-0241",
+    "vi": ["thời gian", "công sức"],
+    "viAliases": ["thì giờ", "thời giờ"],
+    "en": ["period of time", "spare time", "effort"],
+    "enSource": "cedict",
+    "example": { "zh": "学中文要花很多工夫。", "vi": "Học tiếng Trung phải bỏ ra nhiều thời gian.", "en": "Learning Chinese takes a lot of time." }
+  },
+  {
+    "id": "L3-0242",
+    "vi": ["công cụ", "dụng cụ"],
+    "viAliases": ["đồ nghề", "phương tiện"],
+    "en": ["tool", "instrument", "means (to achieve a goal etc)"],
+    "enSource": "cedict",
+    "example": { "zh": "这些工具很有用。", "vi": "Những công cụ này rất hữu ích.", "en": "These tools are very useful." }
+  },
+  {
+    "id": "L3-0243",
+    "vi": ["công nghiệp"],
+    "viAliases": ["ngành công nghiệp"],
+    "en": ["industry"],
+    "enSource": "cedict",
+    "example": { "zh": "这个城市的工业很发达。", "vi": "Công nghiệp của thành phố này rất phát triển.", "en": "This city's industry is very developed." }
+  },
+  {
+    "id": "L3-0244",
+    "vi": ["tiền lương", "lương"],
+    "viAliases": ["tiền công", "lương bổng"],
+    "en": ["wages; pay"],
+    "enSource": "cedict",
+    "example": { "zh": "他每个月的工资不高。", "vi": "Lương hàng tháng của anh ấy không cao.", "en": "His monthly wage is not high." }
+  },
+  {
+    "id": "L3-0245",
+    "vi": ["công bố", "ban bố"],
+    "viAliases": ["thông báo rộng rãi", "công khai đưa ra"],
+    "en": ["to announce", "to make public"],
+    "enSource": "cedict",
+    "example": { "zh": "学校公布了考试成绩。", "vi": "Nhà trường đã công bố điểm thi.", "en": "The school announced the exam results." }
+  },
+  {
+    "id": "L3-0246",
+    "vi": ["công cộng", "chung"],
+    "viAliases": ["dùng chung"],
+    "en": ["public; common; communal"],
+    "enSource": "cedict",
+    "example": { "zh": "公共汽车很方便。", "vi": "Xe buýt công cộng rất tiện.", "en": "Public buses are very convenient." }
+  },
+  {
+    "id": "L3-0247",
+    "vi": ["công khai"],
+    "viAliases": ["công khai hóa", "không giấu giếm"],
+    "en": ["open; overt; public", "to make public; to release"],
+    "enSource": "cedict",
+    "example": { "zh": "这个消息已经公开了。", "vi": "Tin này đã được công khai.", "en": "This news has already been made public." }
+  },
+  {
+    "id": "L3-0248",
+    "vi": ["công dân"],
+    "viAliases": [],
+    "en": ["citizen"],
+    "enSource": "cedict",
+    "example": { "zh": "他是中国公民。", "vi": "Anh ấy là công dân Trung Quốc.", "en": "He is a Chinese citizen." }
+  },
+  {
+    "id": "L3-0249",
+    "vi": ["công chức", "viên chức nhà nước"],
+    "viAliases": ["cán bộ nhà nước"],
+    "en": ["civil servant; public servant"],
+    "enSource": "cedict",
+    "example": { "zh": "我姐姐想当公务员。", "vi": "Chị tôi muốn làm công chức.", "en": "My older sister wants to be a civil servant." }
+  },
+  {
+    "id": "L3-0250",
+    "vi": ["võ thuật", "công phu", "tài nghệ"],
+    "viAliases": ["kung fu", "võ công"],
+    "en": ["skill", "art", "kung fu"],
+    "enSource": "cedict",
+    "example": { "zh": "他的功夫非常厉害。", "vi": "Võ thuật của anh ấy rất lợi hại.", "en": "His kung fu is amazing." }
+  },
+  {
+    "id": "L3-0251",
+    "vi": ["bài tập", "bài vở"],
+    "viAliases": ["bài tập về nhà", "bài học"],
+    "en": ["homework", "assignment", "lesson"],
+    "enSource": "cedict",
+    "example": { "zh": "我还没做完今天的功课。", "vi": "Tôi vẫn chưa làm xong bài tập hôm nay.", "en": "I have not finished today's homework yet." }
+  },
+  {
+    "id": "L3-0252",
+    "vi": ["chức năng", "công năng"],
+    "viAliases": ["tính năng"],
+    "en": ["function; capability"],
+    "enSource": "cedict",
+    "example": { "zh": "这个手机的功能很多。", "vi": "Điện thoại này có nhiều chức năng.", "en": "This phone has many functions." }
+  },
+  {
+    "id": "L3-0253",
+    "vi": ["chung", "cùng nhau"],
+    "viAliases": ["cùng chung", "chung nhau"],
+    "en": ["common", "joint", "together"],
+    "enSource": "cedict",
+    "example": { "zh": "我们有共同的爱好。", "vi": "Chúng tôi có sở thích chung.", "en": "We have a common hobby." }
+  },
+  {
+    "id": "L3-0254",
+    "vi": ["có tổng cộng", "sở hữu chung"],
+    "viAliases": ["tổng cộng có", "cùng sở hữu"],
+    "en": ["in total there are ...", "to own jointly"],
+    "enSource": "cedict",
+    "example": { "zh": "我们班共有三十个学生。", "vi": "Lớp chúng tôi có tổng cộng ba mươi học sinh.", "en": "Our class has thirty students in total." }
+  },
+  {
+    "id": "L3-0255",
+    "vi": ["cô gái", "thiếu nữ"],
+    "viAliases": ["cô bé", "con gái"],
+    "en": ["girl", "young woman", "daughter"],
+    "enSource": "cedict",
+    "example": { "zh": "那个姑娘很漂亮。", "vi": "Cô gái đó rất xinh.", "en": "That girl is very pretty." }
+  },
+  {
+    "id": "L3-0256",
+    "vi": ["cổ", "xưa"],
+    "viAliases": ["cổ xưa", "cổ kính"],
+    "en": ["ancient", "old"],
+    "enSource": "cedict",
+    "example": { "zh": "这座古城很有名。", "vi": "Tòa thành cổ này rất nổi tiếng.", "en": "This ancient city is very famous." }
+  },
+  {
+    "id": "L3-0257",
+    "vi": ["thời cổ đại", "cổ đại"],
+    "viAliases": ["thời xưa", "ngày xưa"],
+    "en": ["ancient times"],
+    "enSource": "cedict",
+    "example": { "zh": "我喜欢看古代的故事。", "vi": "Tôi thích đọc những câu chuyện thời cổ đại.", "en": "I like reading stories from ancient times." }
+  },
+  {
+    "id": "L3-0258",
+    "vi": ["quê hương", "quê nhà"],
+    "viAliases": ["cố hương", "quê"],
+    "en": ["home", "homeland", "native place"],
+    "enSource": "cedict",
+    "example": { "zh": "他很想念自己的故乡。", "vi": "Anh ấy rất nhớ quê hương mình.", "en": "He misses his hometown very much." }
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L2-0266",
+    "vi": ["khỏe mạnh", "sức khỏe"],
+    "viAliases": ["mạnh khỏe"],
+    "en": ["healthy", "health"],
+    "enSource": "cedict",
+    "example": { "zh": "他的身体很健康。", "vi": "Sức khỏe của anh ấy rất tốt.", "en": "He is very healthy." }
+  },
+  {
+    "id": "L2-0267",
+    "vi": ["nói", "kể", "giảng"],
+    "viAliases": ["giảng giải", "trình bày"],
+    "en": ["to speak", "to explain"],
+    "enSource": "cedict",
+    "example": { "zh": "老师给我们讲故事。", "vi": "Cô giáo kể chuyện cho chúng tôi nghe.", "en": "The teacher tells us stories." }
+  },
+  {
+    "id": "L2-0268",
+    "vi": ["nói chuyện", "phát biểu", "bài phát biểu"],
+    "viAliases": ["diễn thuyết", "nói"],
+    "en": ["to speak", "to talk", "a speech"],
+    "enSource": "cedict",
+    "example": { "zh": "请你大声讲话。", "vi": "Xin bạn nói to lên.", "en": "Please speak loudly." }
+  },
+  {
+    "id": "L2-0269",
+    "vi": ["nộp", "giao", "kết giao"],
+    "viAliases": ["trao", "đưa"],
+    "en": ["to hand over; to deliver", "to make friends"],
+    "enSource": "cedict",
+    "example": { "zh": "我明天交作业。", "vi": "Ngày mai tôi nộp bài tập.", "en": "I will hand in my homework tomorrow." }
+  },
+  {
+    "id": "L2-0270",
+    "vi": ["giao cho", "đưa cho"],
+    "viAliases": ["trao cho", "giao lại cho"],
+    "en": ["to give", "to deliver", "to hand over"],
+    "enSource": "cedict",
+    "example": { "zh": "他把书交给我了。", "vi": "Anh ấy đã đưa sách cho tôi.", "en": "He handed the book to me." }
+  },
+  {
+    "id": "L2-0271",
+    "vi": ["kết bạn", "làm bạn"],
+    "viAliases": ["kết giao bạn bè"],
+    "en": ["to make friends"],
+    "enSource": "cedict",
+    "example": { "zh": "我喜欢和同学交朋友。", "vi": "Tôi thích kết bạn với bạn học.", "en": "I like making friends with my classmates." }
+  },
+  {
+    "id": "L2-0272",
+    "vi": ["giao thông"],
+    "viAliases": ["giao thông vận tải", "sự đi lại"],
+    "en": ["traffic", "transportation", "communications"],
+    "enSource": "cedict",
+    "example": { "zh": "这个城市的交通很方便。", "vi": "Giao thông ở thành phố này rất thuận tiện.", "en": "Transportation in this city is very convenient." }
+  },
+  {
+    "id": "L2-0273",
+    "vi": ["góc", "sừng", "hào (đơn vị tiền)"],
+    "viAliases": ["giác"],
+    "en": ["angle", "corner", "horn", "unit of money equal to 0.1 yuan"],
+    "enSource": "cedict",
+    "example": { "zh": "这个桌子有四个角。", "vi": "Cái bàn này có bốn góc.", "en": "This table has four corners." }
+  },
+  {
+    "id": "L2-0274",
+    "vi": ["góc độ", "góc nhìn"],
+    "viAliases": ["cách nhìn", "quan điểm"],
+    "en": ["angle", "point of view"],
+    "enSource": "cedict",
+    "example": { "zh": "我们从新的角度看问题。", "vi": "Chúng tôi nhìn vấn đề từ một góc độ mới.", "en": "We look at the problem from a new angle." }
+  },
+  {
+    "id": "L2-0275",
+    "vi": ["sủi cảo"],
+    "viAliases": ["bánh sủi cảo", "bánh chẻo"],
+    "en": ["dumpling", "pot-sticker"],
+    "enSource": "cedict",
+    "example": { "zh": "我们过年一起包饺子。", "vi": "Chúng tôi cùng gói sủi cảo vào dịp Tết.", "en": "We make dumplings together at New Year." }
+  },
+  {
+    "id": "L2-0276",
+    "vi": ["chân", "bàn chân"],
+    "viAliases": ["cái chân"],
+    "en": ["foot", "leg (of an animal or an object)", "base (of an object)"],
+    "enSource": "cedict",
+    "example": { "zh": "我的脚有点儿疼。", "vi": "Chân tôi hơi đau.", "en": "My foot hurts a little." }
+  },
+  {
+    "id": "L2-0277",
+    "vi": ["gọi là", "được gọi là"],
+    "viAliases": ["kêu là", "gọi bằng"],
+    "en": ["to call", "to be called"],
+    "enSource": "cedict",
+    "example": { "zh": "这种水果叫作西瓜。", "vi": "Loại quả này gọi là dưa hấu.", "en": "This kind of fruit is called watermelon." }
+  },
+  {
+    "id": "L2-0278",
+    "vi": ["giáo viên", "thầy giáo"],
+    "viAliases": ["nhà giáo", "cô giáo"],
+    "en": ["teacher"],
+    "enSource": "cedict",
+    "example": { "zh": "我妈妈是一位教师。", "vi": "Mẹ tôi là một giáo viên.", "en": "My mother is a teacher." }
+  },
+  {
+    "id": "L2-0279",
+    "vi": ["phòng học", "lớp học"],
+    "viAliases": ["phòng học tập"],
+    "en": ["classroom"],
+    "enSource": "cedict",
+    "example": { "zh": "我们的教室在三楼。", "vi": "Phòng học của chúng tôi ở tầng ba.", "en": "Our classroom is on the third floor." }
+  },
+  {
+    "id": "L2-0280",
+    "vi": ["việc dạy học", "giảng dạy"],
+    "viAliases": ["công tác giảng dạy", "dạy học"],
+    "en": ["teaching", "instruction"],
+    "enSource": "cedict",
+    "example": { "zh": "老师的教学方法很好。", "vi": "Phương pháp giảng dạy của thầy giáo rất tốt.", "en": "The teaching method of the teacher is very good." }
+  },
+  {
+    "id": "L2-0281",
+    "vi": ["giáo dục", "dạy dỗ"],
+    "viAliases": ["nền giáo dục", "sự giáo dục"],
+    "en": ["to educate", "to teach", "education"],
+    "enSource": "cedict",
+    "example": { "zh": "他很关心孩子的教育。", "vi": "Anh ấy rất quan tâm đến việc giáo dục con cái.", "en": "He cares a lot about the education of his children." }
+  },
+  {
+    "id": "L2-0282",
+    "vi": ["đón", "nhận", "nghe điện thoại"],
+    "viAliases": ["tiếp nhận", "đón tiếp"],
+    "en": ["to receive", "to answer (the phone)", "to meet or welcome sb", "to catch"],
+    "enSource": "cedict",
+    "example": { "zh": "我去机场接朋友。", "vi": "Tôi đi sân bay đón bạn.", "en": "I am going to the airport to pick up a friend." }
+  },
+  {
+    "id": "L2-0283",
+    "vi": ["nhận được"],
+    "viAliases": ["nhận", "thu được"],
+    "en": ["to receive"],
+    "enSource": "cedict",
+    "example": { "zh": "我昨天接到他的电话。", "vi": "Hôm qua tôi nhận được điện thoại của anh ấy.", "en": "I received his phone call yesterday." }
+  },
+  {
+    "id": "L2-0284",
+    "vi": ["tiếp nhận", "chấp nhận"],
+    "viAliases": ["đón nhận", "nhận lời"],
+    "en": ["to accept", "to acquiesce"],
+    "enSource": "cedict",
+    "example": { "zh": "他接受了我的建议。", "vi": "Anh ấy đã chấp nhận đề nghị của tôi.", "en": "He accepted my suggestion." }
+  },
+  {
+    "id": "L2-0285",
+    "vi": ["tiếp theo", "sau đó"],
+    "viAliases": ["kế tiếp", "tiếp đó"],
+    "en": ["next", "following"],
+    "enSource": "cedict",
+    "example": { "zh": "接下来我们去吃饭。", "vi": "Tiếp theo chúng ta đi ăn cơm.", "en": "Next we are going to eat." }
+  },
+  {
+    "id": "L2-0286",
+    "vi": ["tiếp tục", "sau đó", "rồi"],
+    "viAliases": ["rồi sau đó", "nối tiếp"],
+    "en": ["to continue", "to carry on", "then", "after that"],
+    "enSource": "cedict",
+    "example": { "zh": "他吃完饭接着看书。", "vi": "Anh ấy ăn cơm xong rồi tiếp tục đọc sách.", "en": "After eating, he went on reading." }
+  },
+  {
+    "id": "L2-0287",
+    "vi": ["phố", "đường phố"],
+    "viAliases": ["con phố", "phố xá"],
+    "en": ["street"],
+    "enSource": "cedict",
+    "example": { "zh": "这条街上有很多商店。", "vi": "Trên con phố này có rất nhiều cửa hàng.", "en": "There are many shops on this street." }
+  },
+  {
+    "id": "L2-0288",
+    "vi": ["ngày lễ", "đốt", "tiết (lượng từ)"],
+    "viAliases": ["khớp", "mấu"],
+    "en": ["joint; node", "seasonal festival", "classifier for segments: lessons, train wagons"],
+    "enSource": "cedict",
+    "example": { "zh": "今天上午有四节课。", "vi": "Sáng nay có bốn tiết học.", "en": "There are four classes this morning." }
+  },
+  {
+    "id": "L2-0289",
+    "vi": ["chương trình", "tiết mục"],
+    "viAliases": ["chương trình biểu diễn"],
+    "en": ["program; show", "item; act; segment"],
+    "enSource": "cedict",
+    "example": { "zh": "这个电视节目很有意思。", "vi": "Chương trình truyền hình này rất thú vị.", "en": "This TV program is very interesting." }
+  },
+  {
+    "id": "L2-0290",
+    "vi": ["ngày lễ", "ngày tết"],
+    "viAliases": ["lễ hội", "dịp lễ"],
+    "en": ["holiday", "festival"],
+    "enSource": "cedict",
+    "example": { "zh": "春节是中国重要的节日。", "vi": "Tết Nguyên Đán là ngày lễ quan trọng của Trung Quốc.", "en": "Spring Festival is an important holiday in China." }
+  },
+  {
+    "id": "L2-0291",
+    "vi": ["kết quả", "cuối cùng thì"],
+    "viAliases": ["rốt cuộc"],
+    "en": ["outcome; result; consequence", "in the end; as a result"],
+    "enSource": "cedict",
+    "example": { "zh": "考试的结果明天出来。", "vi": "Kết quả thi ngày mai sẽ có.", "en": "The exam results will come out tomorrow." }
+  },
+  {
+    "id": "L2-0292",
+    "vi": ["mượn", "vay", "cho mượn"],
+    "viAliases": ["mượn về", "cho vay"],
+    "en": ["to borrow", "to lend", "to make use of; to avail oneself of"],
+    "enSource": "cedict",
+    "example": { "zh": "我想借你的词典用一下。", "vi": "Tôi muốn mượn từ điển của bạn dùng một chút.", "en": "I would like to borrow your dictionary for a moment." }
+  },
+  {
+    "id": "L2-0293",
+    "vi": ["cân (đơn vị 500 gam)"],
+    "viAliases": ["cân", "cân ta"],
+    "en": ["catty", "weight equal to 500 g"],
+    "enSource": "cedict",
+    "example": { "zh": "我买了两斤苹果。", "vi": "Tôi đã mua hai cân táo.", "en": "I bought two catties of apples." }
+  },
+  {
+    "id": "L2-0294",
+    "vi": ["từ nay về sau", "sau này"],
+    "viAliases": ["từ giờ trở đi", "trong tương lai"],
+    "en": ["hereafter", "henceforth", "in the future", "from now on"],
+    "enSource": "cedict",
+    "example": { "zh": "今后我要努力学习。", "vi": "Từ nay về sau tôi phải học hành chăm chỉ.", "en": "From now on I will study hard." }
+  },
+  {
+    "id": "L2-0295",
+    "vi": ["đi vào", "bước vào"],
+    "viAliases": ["tiến vào", "vào"],
+    "en": ["to enter", "to go into"],
+    "enSource": "cedict",
+    "example": { "zh": "他慢慢地进入房间。", "vi": "Anh ấy từ từ bước vào phòng.", "en": "He slowly entered the room." }
+  },
+  {
+    "id": "L2-0296",
+    "vi": ["tiến hành", "thực hiện"],
+    "viAliases": ["triển khai", "diễn ra"],
+    "en": ["to proceed; to be in progress", "to carry out; to conduct"],
+    "enSource": "cedict",
+    "example": { "zh": "会议正在进行。", "vi": "Cuộc họp đang tiến hành.", "en": "The meeting is in progress." }
+  },
+  {
+    "id": "L2-0297",
+    "vi": ["gần"],
+    "viAliases": ["gần gũi", "sát"],
+    "en": ["near", "close to"],
+    "enSource": "cedict",
+    "example": { "zh": "我家离学校很近。", "vi": "Nhà tôi rất gần trường học.", "en": "My home is very close to the school." }
+  },
+  {
+    "id": "L2-0298",
+    "vi": ["thường xuyên", "thường"],
+    "viAliases": ["hay"],
+    "en": ["frequently", "often", "regularly"],
+    "enSource": "cedict",
+    "example": { "zh": "他经常去公园跑步。", "vi": "Anh ấy thường xuyên đến công viên chạy bộ.", "en": "He often goes to the park to run." }
+  },
+  {
+    "id": "L2-0299",
+    "vi": ["đi qua", "trải qua", "quá trình"],
+    "viAliases": ["ngang qua", "diễn biến"],
+    "en": ["to pass", "to go through", "process", "course"],
+    "enSource": "cedict",
+    "example": { "zh": "我每天经过这条路。", "vi": "Ngày nào tôi cũng đi qua con đường này.", "en": "I pass by this road every day." }
+  },
+  {
+    "id": "L2-0300",
+    "vi": ["giám đốc", "quản lý"],
+    "viAliases": ["người quản lý"],
+    "en": ["manager", "director"],
+    "enSource": "cedict",
+    "example": { "zh": "我们公司的经理很忙。", "vi": "Giám đốc công ty chúng tôi rất bận.", "en": "The manager of our company is very busy." }
+  },
+  {
+    "id": "L2-0301",
+    "vi": ["rượu"],
+    "viAliases": ["đồ uống có cồn"],
+    "en": ["wine", "liquor", "alcoholic beverage"],
+    "enSource": "cedict",
+    "example": { "zh": "爸爸晚上喝了一点儿酒。", "vi": "Buổi tối bố uống một chút rượu.", "en": "Dad drank a little wine in the evening." }
+  },
+  {
+    "id": "L2-0302",
+    "vi": ["khách sạn", "nhà hàng"],
+    "viAliases": ["quán rượu", "tửu điếm"],
+    "en": ["hotel", "restaurant", "wine shop"],
+    "enSource": "cedict",
+    "example": { "zh": "我们住在机场旁边的酒店。", "vi": "Chúng tôi ở khách sạn bên cạnh sân bay.", "en": "We are staying at the hotel next to the airport." }
+  },
+  {
+    "id": "L2-0303",
+    "vi": ["sắp", "sắp sửa"],
+    "viAliases": ["chuẩn bị"],
+    "en": ["will", "shall", "to be going to"],
+    "enSource": "cedict",
+    "example": { "zh": "火车就要开了。", "vi": "Tàu hỏa sắp chạy rồi.", "en": "The train is about to leave." }
+  },
+  {
+    "id": "L2-0304",
+    "vi": ["giơ lên", "nâng", "nêu ra"],
+    "viAliases": ["đưa lên", "cất lên"],
+    "en": ["to lift", "to hold up", "to raise", "to cite"],
+    "enSource": "cedict",
+    "example": { "zh": "老师让我们举例子。", "vi": "Cô giáo bảo chúng tôi nêu ví dụ.", "en": "The teacher asked us to give examples." }
+  },
+  {
+    "id": "L2-0305",
+    "vi": ["giơ tay"],
+    "viAliases": ["giơ tay lên", "đưa tay lên"],
+    "en": ["to raise a hand", "to put up one's hand"],
+    "enSource": "cedict",
+    "example": { "zh": "有问题的同学请举手。", "vi": "Bạn học nào có câu hỏi thì giơ tay.", "en": "Students with questions please raise your hand." }
+  },
+  {
+    "id": "L2-0306",
+    "vi": ["tổ chức", "cử hành"],
+    "viAliases": ["đứng ra tổ chức"],
+    "en": ["to hold (a meeting, ceremony etc)"],
+    "enSource": "cedict",
+    "example": { "zh": "学校下周举行运动会。", "vi": "Tuần sau trường tổ chức đại hội thể thao.", "en": "The school will hold a sports meet next week." }
+  },
+  {
+    "id": "L2-0307",
+    "vi": ["câu (lượng từ)"],
+    "viAliases": ["câu"],
+    "en": ["sentence", "classifier for phrases or lines of verse"],
+    "enSource": "cedict",
+    "example": { "zh": "请你再说一句。", "vi": "Xin bạn nói thêm một câu.", "en": "Please say one more sentence." }
+  },
+  {
+    "id": "L2-0308",
+    "vi": ["câu", "câu văn"],
+    "viAliases": ["câu nói"],
+    "en": ["sentence"],
+    "enSource": "cedict",
+    "example": { "zh": "这个句子有点儿难。", "vi": "Câu này hơi khó.", "en": "This sentence is a bit difficult." }
+  },
+  {
+    "id": "L2-0309",
+    "vi": ["thẻ", "tấm thẻ"],
+    "viAliases": ["cạc"],
+    "en": ["card"],
+    "enSource": "cedict",
+    "example": { "zh": "我用卡买东西。", "vi": "Tôi dùng thẻ để mua đồ.", "en": "I use a card to buy things." }
+  },
+  {
+    "id": "L2-0310",
+    "vi": ["bật máy", "khởi động máy"],
+    "viAliases": ["mở máy", "bật nguồn"],
+    "en": ["to start an engine", "to boot up (a computer)"],
+    "enSource": "cedict",
+    "example": { "zh": "请先开机再上网。", "vi": "Hãy bật máy trước rồi mới lên mạng.", "en": "Please boot up the computer before going online." }
+  }
+]

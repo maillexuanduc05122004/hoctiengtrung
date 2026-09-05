@@ -18,7 +18,7 @@
   {
     "id": "L1-0363",
     "vi": ["nghe thấy"],
-    "viAliases": ["nghe được", "nghe rõ"],
+    "viAliases": ["nghe được"],
     "en": ["to hear"],
     "enSource": "cedict",
     "example": { "zh": "你听见我说话了吗？", "vi": "Bạn có nghe thấy tôi nói không?", "en": "Did you hear me talking?" }
@@ -26,7 +26,7 @@
   {
     "id": "L1-0364",
     "vi": ["viết chính tả", "chính tả"],
-    "viAliases": ["đọc chép chính tả"],
+    "viAliases": ["nghe viết"],
     "en": ["to write down (in a dictation exercise); dictation"],
     "enSource": "cedict",
     "example": { "zh": "明天我们要听写汉字。", "vi": "Ngày mai chúng tôi phải viết chính tả chữ Hán.", "en": "Tomorrow we have to do a Chinese character dictation." }
@@ -66,7 +66,7 @@
   {
     "id": "L1-0369",
     "vi": ["nước ngoài", "ngoại quốc"],
-    "viAliases": ["xứ người"],
+    "viAliases": [],
     "en": ["foreign country"],
     "enSource": "cedict",
     "example": { "zh": "他去外国工作了。", "vi": "Anh ấy đã đi nước ngoài làm việc.", "en": "He went abroad to work." }
@@ -122,7 +122,7 @@
   {
     "id": "L1-0376",
     "vi": ["bạn trên mạng", "bạn quen qua mạng"],
-    "viAliases": ["bạn online", "bạn ảo"],
+    "viAliases": ["bạn online"],
     "en": ["online friend"],
     "enSource": "cedict",
     "example": { "zh": "我和网友一起玩游戏。", "vi": "Tôi chơi trò chơi cùng với bạn trên mạng.", "en": "I play games with my online friends." }
@@ -146,7 +146,7 @@
   {
     "id": "L1-0379",
     "vi": ["hỏi"],
-    "viAliases": ["hỏi han", "chất vấn"],
+    "viAliases": ["hỏi han"],
     "en": ["to ask; to inquire"],
     "enSource": "cedict",
     "example": { "zh": "老师问了我一个问题。", "vi": "Thầy giáo hỏi tôi một câu hỏi.", "en": "The teacher asked me a question." }
@@ -202,7 +202,7 @@
   {
     "id": "L1-0386",
     "vi": ["rửa", "giặt"],
-    "viAliases": ["tắm rửa", "gột rửa"],
+    "viAliases": ["tắm rửa"],
     "en": ["to wash; to bathe"],
     "enSource": "cedict",
     "example": { "zh": "吃饭前要洗手。", "vi": "Trước khi ăn cơm phải rửa tay.", "en": "You have to wash your hands before eating." }
@@ -210,7 +210,7 @@
   {
     "id": "L1-0387",
     "vi": ["nhà vệ sinh", "phòng vệ sinh"],
-    "viAliases": ["toilet", "nhà tắm"],
+    "viAliases": ["toilet"],
     "en": ["toilet", "lavatory", "washroom"],
     "enSource": "cedict",
     "example": { "zh": "请问洗手间在哪儿？", "vi": "Xin hỏi nhà vệ sinh ở đâu?", "en": "Excuse me, where is the restroom?" }
@@ -274,7 +274,7 @@
   {
     "id": "L1-0395",
     "vi": ["buổi chiều", "chiều"],
-    "viAliases": ["xế chiều"],
+    "viAliases": [],
     "en": ["afternoon", "p.m."],
     "enSource": "cedict",
     "example": { "zh": "今天下午我有课。", "vi": "Chiều nay tôi có tiết học.", "en": "I have class this afternoon." }
@@ -332,7 +332,7 @@
     "vi": ["đứa trẻ", "trẻ con"],
     "viAliases": ["em bé", "con nít"],
     "en": ["child", "kid"],
-    "enSource": "written",
+    "enSource": "cedict",
     "example": { "zh": "那个小孩儿很可爱。", "vi": "Đứa trẻ đó rất đáng yêu.", "en": "That child is very cute." }
   },
   {

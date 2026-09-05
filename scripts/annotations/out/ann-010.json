@@ -26,7 +26,7 @@
   {
     "id": "L1-0408",
     "vi": ["cười", "mỉm cười"],
-    "viAliases": ["cười vui"],
+    "viAliases": [],
     "en": ["to laugh; to smile"],
     "enSource": "cedict",
     "example": {
@@ -194,7 +194,7 @@
   {
     "id": "L1-0422",
     "vi": ["học viện", "trường cao đẳng"],
-    "viAliases": ["viện", "khoa"],
+    "viAliases": ["viện"],
     "en": ["college", "educational institute", "faculty"],
     "enSource": "cedict",
     "example": {
@@ -328,7 +328,7 @@
     "vi": ["cùng nhau", "cùng một chỗ"],
     "viAliases": ["với nhau", "chung một chỗ"],
     "en": ["together", "in the same place"],
-    "enSource": "written",
+    "enSource": "cedict",
     "example": {
       "zh": "我们一块儿去吃饭吧。",
       "vi": "Chúng ta cùng nhau đi ăn cơm nhé.",
@@ -338,9 +338,9 @@
   {
     "id": "L1-0434",
     "vi": ["một chút", "một lát"],
-    "viAliases": ["một cái", "thử một chút"],
+    "viAliases": ["một cái"],
     "en": ["(after a verb) a bit; briefly", "one time; once"],
-    "enSource": "written",
+    "enSource": "cedict",
     "example": {
       "zh": "请你等一下儿。",
       "vi": "Xin bạn đợi một chút.",
@@ -361,8 +361,8 @@
   },
   {
     "id": "L1-0436",
-    "vi": ["một bên", "vừa làm việc này vừa làm việc kia"],
-    "viAliases": ["một phía", "một bên nào đó"],
+    "vi": ["một bên", "vừa"],
+    "viAliases": ["một phía", "đồng thời"],
     "en": ["one side", "either side", "doing while"],
     "enSource": "cedict",
     "example": {
@@ -376,7 +376,7 @@
     "vi": ["một chút", "một ít"],
     "viAliases": ["một tí", "chút xíu"],
     "en": ["a little; a bit", "a few"],
-    "enSource": "written",
+    "enSource": "cedict",
     "example": {
       "zh": "我会说一点儿中文。",
       "vi": "Tôi biết nói một chút tiếng Trung.",
@@ -470,7 +470,7 @@
   {
     "id": "L1-0445",
     "vi": ["một số", "một vài"],
-    "viAliases": ["vài", "có những"],
+    "viAliases": ["vài"],
     "en": ["some"],
     "enSource": "cedict",
     "example": {

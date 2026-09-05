@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L3-0079",
+    "vi": ["nhà máy", "xưởng"],
+    "viAliases": ["công xưởng"],
+    "en": ["factory", "(industrial) plant", "works"],
+    "enSource": "cedict",
+    "example": { "zh": "我爸爸在工厂工作。", "vi": "Bố tôi làm việc ở nhà máy.", "en": "My dad works in a factory." }
+  },
+  {
+    "id": "L3-0080",
+    "vi": ["dịp", "trường hợp"],
+    "viAliases": ["tình huống", "bối cảnh"],
+    "en": ["occasion; situation; context", "setting; venue"],
+    "enSource": "cedict",
+    "example": { "zh": "在这个场合不能大声说话。", "vi": "Trong dịp này không được nói to.", "en": "You must not speak loudly on this occasion." }
+  },
+  {
+    "id": "L3-0081",
+    "vi": ["địa điểm", "nơi chốn"],
+    "viAliases": ["nơi", "chỗ"],
+    "en": ["location", "place"],
+    "enSource": "cedict",
+    "example": { "zh": "图书馆是学习的场所。", "vi": "Thư viện là nơi để học tập.", "en": "The library is a place for studying." }
+  },
+  {
+    "id": "L3-0082",
+    "vi": ["siêu", "siêu cấp"],
+    "viAliases": ["siêu hạng"],
+    "en": ["super-", "ultra-", "hyper-"],
+    "enSource": "cedict",
+    "example": { "zh": "我家附近有一个超级市场。", "vi": "Gần nhà tôi có một siêu thị.", "en": "There is a supermarket near my home." }
+  },
+  {
+    "id": "L3-0083",
+    "vi": ["hướng về", "quay về phía"],
+    "viAliases": ["về phía", "hướng tới"],
+    "en": ["facing", "towards"],
+    "enSource": "cedict",
+    "example": { "zh": "他朝我笑了一下。", "vi": "Anh ấy cười với tôi một cái.", "en": "He smiled toward me." }
+  },
+  {
+    "id": "L3-0084",
+    "vi": ["ồn ào", "cãi nhau"],
+    "viAliases": ["ầm ĩ", "ồn"],
+    "en": ["noisy; loud", "to quarrel; to argue"],
+    "enSource": "cedict",
+    "example": { "zh": "外面太吵了，我睡不着。", "vi": "Bên ngoài ồn quá, tôi không ngủ được.", "en": "It is too noisy outside, I cannot fall asleep." }
+  },
+  {
+    "id": "L3-0085",
+    "vi": ["cãi nhau", "cãi vã"],
+    "viAliases": ["cãi cọ", "tranh cãi"],
+    "en": ["to quarrel", "to have a row"],
+    "enSource": "cedict",
+    "example": { "zh": "他们为了小事吵架了。", "vi": "Họ cãi nhau vì chuyện nhỏ.", "en": "They quarreled over a small matter." }
+  },
+  {
+    "id": "L3-0086",
+    "vi": ["áo sơ mi"],
+    "viAliases": ["sơ mi", "áo sơ-mi"],
+    "en": ["shirt", "blouse"],
+    "enSource": "cedict",
+    "example": { "zh": "他今天穿了一件白衬衫。", "vi": "Hôm nay anh ấy mặc một chiếc áo sơ mi trắng.", "en": "He is wearing a white shirt today." }
+  },
+  {
+    "id": "L3-0087",
+    "vi": ["áo sơ mi"],
+    "viAliases": ["sơ mi", "áo sơ-mi"],
+    "en": ["shirt"],
+    "enSource": "cedict",
+    "example": { "zh": "这件衬衣有点儿大。", "vi": "Chiếc áo sơ mi này hơi rộng.", "en": "This shirt is a bit big." }
+  },
+  {
+    "id": "L3-0088",
+    "vi": ["gọi là", "được gọi là"],
+    "viAliases": ["gọi bằng"],
+    "en": ["to be called; to be known as"],
+    "enSource": "cedict",
+    "example": { "zh": "他被大家称为老师。", "vi": "Anh ấy được mọi người gọi là thầy giáo.", "en": "Everyone calls him teacher." }
+  },
+  {
+    "id": "L3-0089",
+    "vi": ["thành công"],
+    "viAliases": ["thành đạt"],
+    "en": ["to succeed", "success", "successful; fruitful"],
+    "enSource": "cedict",
+    "example": { "zh": "只要努力，你一定会成功。", "vi": "Chỉ cần cố gắng, bạn nhất định sẽ thành công.", "en": "As long as you work hard, you will surely succeed." }
+  },
+  {
+    "id": "L3-0090",
+    "vi": ["thành quả", "kết quả"],
+    "viAliases": ["thành tựu", "thu hoạch"],
+    "en": ["result", "achievement", "gain"],
+    "enSource": "cedict",
+    "example": { "zh": "这是大家努力的成果。", "vi": "Đây là thành quả nỗ lực của mọi người.", "en": "This is the fruit of everyone's efforts." }
+  },
+  {
+    "id": "L3-0091",
+    "vi": ["thành tựu", "đạt được"],
+    "viAliases": ["thành tích", "làm nên"],
+    "en": ["accomplishment", "achievement", "to achieve (a result)"],
+    "enSource": "cedict",
+    "example": { "zh": "他的成就让父母很高兴。", "vi": "Thành tựu của anh ấy khiến bố mẹ rất vui.", "en": "His achievements make his parents very happy." }
+  },
+  {
+    "id": "L3-0092",
+    "vi": ["thành lập", "sáng lập"],
+    "viAliases": ["lập ra", "thiết lập"],
+    "en": ["to establish", "to set up"],
+    "enSource": "cedict",
+    "example": { "zh": "他们成立了一个新公司。", "vi": "Họ đã thành lập một công ty mới.", "en": "They set up a new company." }
+  },
+  {
+    "id": "L3-0093",
+    "vi": ["chín", "trưởng thành", "chín chắn"],
+    "viAliases": ["già dặn", "chín muồi"],
+    "en": ["mature; ripe"],
+    "enSource": "cedict",
+    "example": { "zh": "这些苹果还没成熟。", "vi": "Những quả táo này vẫn chưa chín.", "en": "These apples are not ripe yet." }
+  },
+  {
+    "id": "L3-0094",
+    "vi": ["thành viên"],
+    "viAliases": ["hội viên"],
+    "en": ["member"],
+    "enSource": "cedict",
+    "example": { "zh": "他是我们班的新成员。", "vi": "Cậu ấy là thành viên mới của lớp chúng tôi.", "en": "He is a new member of our class." }
+  },
+  {
+    "id": "L3-0095",
+    "vi": ["trưởng thành", "lớn lên"],
+    "viAliases": ["khôn lớn", "lớn khôn"],
+    "en": ["to mature", "to grow", "growth"],
+    "enSource": "cedict",
+    "example": { "zh": "孩子们健康地成长。", "vi": "Bọn trẻ lớn lên khỏe mạnh.", "en": "The children grow up healthily." }
+  },
+  {
+    "id": "L3-0096",
+    "vi": ["thành phố", "thành"],
+    "viAliases": ["đô thị", "thành trì"],
+    "en": ["city", "town", "city walls"],
+    "enSource": "cedict",
+    "example": { "zh": "我们进城去买东西吧。", "vi": "Chúng ta vào thành phố mua đồ nhé.", "en": "Let us go into town to buy some things." }
+  },
+  {
+    "id": "L3-0097",
+    "vi": ["thành phố", "đô thị"],
+    "viAliases": ["thành thị"],
+    "en": ["city; town"],
+    "enSource": "cedict",
+    "example": { "zh": "北京是一座很大的城市。", "vi": "Bắc Kinh là một thành phố rất lớn.", "en": "Beijing is a very big city." }
+  },
+  {
+    "id": "L3-0098",
+    "vi": ["mức độ", "trình độ"],
+    "viAliases": ["cấp độ", "chừng mực"],
+    "en": ["degree; level; extent"],
+    "enSource": "cedict",
+    "example": { "zh": "他的汉语程度很高。", "vi": "Trình độ tiếng Trung của anh ấy rất cao.", "en": "His level of Chinese is very high." }
+  },
+  {
+    "id": "L3-0099",
+    "vi": ["kéo dài", "tiếp tục"],
+    "viAliases": ["liên tục", "duy trì"],
+    "en": ["to continue; to last; to persist"],
+    "enSource": "cedict",
+    "example": { "zh": "这场雨持续了三天。", "vi": "Cơn mưa này kéo dài ba ngày.", "en": "This rain lasted for three days." }
+  },
+  {
+    "id": "L3-0100",
+    "vi": ["tràn đầy", "chứa đầy"],
+    "viAliases": ["đầy ắp", "ngập tràn"],
+    "en": ["full of", "brimming with", "permeated"],
+    "enSource": "cedict",
+    "example": { "zh": "他对未来充满希望。", "vi": "Anh ấy tràn đầy hy vọng về tương lai.", "en": "He is full of hope for the future." }
+  },
+  {
+    "id": "L3-0101",
+    "vi": ["lại", "lặp lại"],
+    "viAliases": ["làm lại", "một lần nữa"],
+    "en": ["again", "to repeat", "re-"],
+    "enSource": "cedict",
+    "example": { "zh": "这个字写错了，请重写一遍。", "vi": "Chữ này viết sai rồi, hãy viết lại một lần.", "en": "This character is written wrong, please write it again." }
+  },
+  {
+    "id": "L3-0102",
+    "vi": ["ban đầu", "lúc đầu"],
+    "viAliases": ["thoạt đầu", "mới đầu"],
+    "en": ["at first; initially"],
+    "enSource": "cedict",
+    "example": { "zh": "初到中国时我很紧张。", "vi": "Lúc mới đến Trung Quốc tôi rất căng thẳng.", "en": "When I first arrived in China I was very nervous." }
+  },
+  {
+    "id": "L3-0103",
+    "vi": ["sơ", "mùng"],
+    "viAliases": ["mồng", "đầu"],
+    "en": ["first; early", "(in lunar calendar dates, before numerals 1-10) days 1 to 10 of a month"],
+    "enSource": "cedict",
+    "example": { "zh": "我妹妹今年上初一。", "vi": "Em gái tôi năm nay học lớp sáu.", "en": "My younger sister is in her first year of junior high this year." }
+  },
+  {
+    "id": "L3-0104",
+    "vi": ["bước đầu", "sơ bộ"],
+    "viAliases": ["ban đầu"],
+    "en": ["initial", "preliminary", "tentative"],
+    "enSource": "cedict",
+    "example": { "zh": "我们有了初步的计划。", "vi": "Chúng tôi đã có kế hoạch sơ bộ.", "en": "We have a preliminary plan." }
+  },
+  {
+    "id": "L3-0105",
+    "vi": ["sơ cấp"],
+    "viAliases": ["sơ đẳng", "vỡ lòng"],
+    "en": ["junior", "primary"],
+    "enSource": "cedict",
+    "example": { "zh": "我在学初级汉语。", "vi": "Tôi đang học tiếng Trung sơ cấp.", "en": "I am studying elementary Chinese." }
+  },
+  {
+    "id": "L3-0106",
+    "vi": ["trung học cơ sở", "cấp hai"],
+    "viAliases": ["trường cấp hai", "trường trung học cơ sở"],
+    "en": ["junior high school"],
+    "enSource": "cedict",
+    "example": { "zh": "他今年初中毕业了。", "vi": "Năm nay cậu ấy tốt nghiệp trung học cơ sở.", "en": "He graduated from junior high school this year." }
+  },
+  {
+    "id": "L3-0107",
+    "vi": ["ngoài ... ra", "trừ ... ra"],
+    "viAliases": ["ngoài", "trừ"],
+    "en": ["apart from; besides; in addition to"],
+    "enSource": "cedict",
+    "example": { "zh": "除了小王，大家都来了。", "vi": "Ngoài Tiểu Vương ra, mọi người đều đã đến.", "en": "Apart from Xiao Wang, everyone came." }
+  },
+  {
+    "id": "L3-0108",
+    "vi": ["xử lý", "giải quyết"],
+    "viAliases": ["xử trí", "sự xử lý"],
+    "en": ["to handle; to deal with", "to process"],
+    "enSource": "cedict",
+    "example": { "zh": "这件事你自己处理吧。", "vi": "Việc này bạn tự xử lý đi.", "en": "You should handle this matter yourself." }
+  },
+  {
+    "id": "L3-0109",
+    "vi": ["truyền", "chuyển"],
+    "viAliases": ["truyền đạt", "chuyền"],
+    "en": ["to pass on", "to spread", "to transmit"],
+    "enSource": "cedict",
+    "example": { "zh": "请把这本书传给他。", "vi": "Hãy chuyển quyển sách này cho anh ấy.", "en": "Please pass this book on to him." }
+  },
+  {
+    "id": "L3-0110",
+    "vi": ["truyền bá", "lan truyền"],
+    "viAliases": ["phổ biến", "truyền đi"],
+    "en": ["to disseminate; to propagate; to spread"],
+    "enSource": "cedict",
+    "example": { "zh": "网络让消息传播得很快。", "vi": "Mạng Internet khiến tin tức lan truyền rất nhanh.", "en": "The internet makes news spread very fast." }
+  },
+  {
+    "id": "L3-0111",
+    "vi": ["truyền đến", "vọng tới"],
+    "viAliases": ["vang lên", "vọng lại"],
+    "en": ["(of a sound) to come through", "to be heard", "(of news) to arrive"],
+    "enSource": "cedict",
+    "example": { "zh": "楼上传来了音乐声。", "vi": "Từ trên lầu vọng xuống tiếng nhạc.", "en": "The sound of music came from upstairs." }
+  },
+  {
+    "id": "L3-0112",
+    "vi": ["truyền thuyết", "nghe nói"],
+    "viAliases": ["chuyện truyền miệng", "tương truyền"],
+    "en": ["legend; folk tale", "to repeat from mouth to mouth; they say that..."],
+    "enSource": "cedict",
+    "example": { "zh": "这个传说很有意思。", "vi": "Truyền thuyết này rất thú vị.", "en": "This legend is very interesting." }
+  },
+  {
+    "id": "L3-0113",
+    "vi": ["đổi mới", "cách tân"],
+    "viAliases": ["sự đổi mới", "đổi mới sáng tạo"],
+    "en": ["to bring forth new ideas; to blaze new trails", "innovation"],
+    "enSource": "cedict",
+    "example": { "zh": "年轻人应该多创新。", "vi": "Người trẻ nên đổi mới nhiều hơn.", "en": "Young people should innovate more." }
+  },
+  {
+    "id": "L3-0114",
+    "vi": ["khởi nghiệp", "lập nghiệp"],
+    "viAliases": ["gây dựng sự nghiệp", "khởi sự kinh doanh"],
+    "en": ["to begin an undertaking; to start an enterprise", "entrepreneurship"],
+    "enSource": "cedict",
+    "example": { "zh": "他大学毕业后就创业了。", "vi": "Sau khi tốt nghiệp đại học anh ấy đã khởi nghiệp.", "en": "He started his own business after graduating from university." }
+  },
+  {
+    "id": "L3-0115",
+    "vi": ["sáng tạo", "tạo ra"],
+    "viAliases": ["tạo nên", "lập nên"],
+    "en": ["to create", "to bring about", "to produce", "to set (a record)"],
+    "enSource": "cedict",
+    "example": { "zh": "他们创造了新的方法。", "vi": "Họ đã tạo ra một phương pháp mới.", "en": "They created a new method." }
+  },
+  {
+    "id": "L3-0116",
+    "vi": ["sáng tác", "tác phẩm"],
+    "viAliases": ["viết ra", "soạn ra"],
+    "en": ["to create; to produce; to write", "a creative work; a creation"],
+    "enSource": "cedict",
+    "example": { "zh": "这首歌是他创作的。", "vi": "Bài hát này do anh ấy sáng tác.", "en": "This song was written by him." }
+  },
+  {
+    "id": "L3-0117",
+    "vi": ["từ trước tới nay", "xưa nay"],
+    "viAliases": ["chưa bao giờ", "từ trước đến nay"],
+    "en": ["always", "at all times", "never (if used in negative sentence)"],
+    "enSource": "cedict",
+    "example": { "zh": "我从来没去过北京。", "vi": "Tôi chưa bao giờ đến Bắc Kinh.", "en": "I have never been to Beijing." }
+  },
+  {
+    "id": "L3-0118",
+    "vi": ["trước đây", "ngày xưa"],
+    "viAliases": ["hồi trước", "thuở trước"],
+    "en": ["previously", "formerly", "once upon a time"],
+    "enSource": "cedict",
+    "example": { "zh": "从前这里有一条小河。", "vi": "Ngày xưa ở đây có một con sông nhỏ.", "en": "There used to be a small river here." }
+  },
+  {
+    "id": "L3-0119",
+    "vi": ["làm nghề", "theo nghề"],
+    "viAliases": ["công tác"],
+    "en": ["to engage in", "to undertake", "to deal with"],
+    "enSource": "cedict",
+    "example": { "zh": "他从事教育工作多年。", "vi": "Anh ấy làm công tác giáo dục nhiều năm.", "en": "He has worked in education for many years." }
+  },
+  {
+    "id": "L3-0120",
+    "vi": ["làng", "thôn"],
+    "viAliases": ["xóm", "bản"],
+    "en": ["village"],
+    "enSource": "cedict",
+    "example": { "zh": "我们村的人都很热情。", "vi": "Người trong làng chúng tôi đều rất nhiệt tình.", "en": "The people in our village are very warm." }
+  },
+  {
+    "id": "L3-0121",
+    "vi": ["gửi", "cất giữ", "lưu trữ"],
+    "viAliases": ["để dành", "tích trữ"],
+    "en": ["to deposit", "to store", "to keep"],
+    "enSource": "cedict",
+    "example": { "zh": "我把钱存在银行里。", "vi": "Tôi gửi tiền ở ngân hàng.", "en": "I deposit my money in the bank." }
+  },
+  {
+    "id": "L3-0122",
+    "vi": ["tồn tại", "hiện hữu"],
+    "viAliases": ["hiện diện"],
+    "en": ["to exist", "to be", "existence"],
+    "enSource": "cedict",
+    "example": { "zh": "这个问题还存在。", "vi": "Vấn đề này vẫn còn tồn tại.", "en": "This problem still exists." }
+  },
+  {
+    "id": "L3-0123",
+    "vi": ["sai lầm", "lỗi", "sai"],
+    "viAliases": ["nhầm lẫn", "sai sót"],
+    "en": ["mistaken; false; wrong", "error; mistake"],
+    "enSource": "cedict",
+    "example": { "zh": "这个句子有一个错误。", "vi": "Câu này có một lỗi sai.", "en": "There is a mistake in this sentence." }
+  }
+]

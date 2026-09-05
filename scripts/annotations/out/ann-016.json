@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L2-0176",
+    "vi": ["cảm thấy", "thấy"],
+    "viAliases": ["cảm nhận thấy"],
+    "en": ["to feel", "to sense", "to perceive"],
+    "enSource": "cedict",
+    "example": { "zh": "我感到很高兴。", "vi": "Tôi cảm thấy rất vui.", "en": "I feel very happy." }
+  },
+  {
+    "id": "L2-0177",
+    "vi": ["cảm động", "làm cảm động"],
+    "viAliases": ["xúc động", "làm xúc động"],
+    "en": ["to move (sb)", "to touch (sb emotionally)", "moving"],
+    "enSource": "cedict",
+    "example": { "zh": "这个故事让我很感动。", "vi": "Câu chuyện này khiến tôi rất cảm động.", "en": "This story moved me a lot." }
+  },
+  {
+    "id": "L2-0178",
+    "vi": ["cảm thấy", "cảm giác"],
+    "viAliases": ["cảm nhận"],
+    "en": ["to feel", "to perceive", "feeling; impression; sensation"],
+    "enSource": "cedict",
+    "example": { "zh": "我感觉今天有点累。", "vi": "Tôi cảm thấy hôm nay hơi mệt.", "en": "I feel a bit tired today." }
+  },
+  {
+    "id": "L2-0179",
+    "vi": ["cảm ơn", "cảm tạ"],
+    "viAliases": ["cám ơn", "biết ơn"],
+    "en": ["to thank", "to be grateful"],
+    "enSource": "cedict",
+    "example": { "zh": "非常感谢你的帮助。", "vi": "Rất cảm ơn sự giúp đỡ của bạn.", "en": "Thank you very much for your help." }
+  },
+  {
+    "id": "L2-0180",
+    "vi": ["làm việc", "làm lụng"],
+    "viAliases": ["làm công việc", "lao động"],
+    "en": ["to work", "to do manual work"],
+    "enSource": "cedict",
+    "example": { "zh": "他在家里干活儿。", "vi": "Anh ấy làm việc ở nhà.", "en": "He is working at home." }
+  },
+  {
+    "id": "L2-0181",
+    "vi": ["vừa mới", "vừa"],
+    "viAliases": ["mới vừa", "vừa xong"],
+    "en": ["just; only a short while ago", "barely; only just"],
+    "enSource": "cedict",
+    "example": { "zh": "我刚到学校。", "vi": "Tôi vừa mới đến trường.", "en": "I just arrived at school." }
+  },
+  {
+    "id": "L2-0182",
+    "vi": ["vừa nãy", "lúc nãy"],
+    "viAliases": ["ban nãy", "hồi nãy"],
+    "en": ["just now", "a moment ago"],
+    "enSource": "cedict",
+    "example": { "zh": "刚才谁给我打电话？", "vi": "Vừa nãy ai gọi điện cho tôi vậy?", "en": "Who called me just now?" }
+  },
+  {
+    "id": "L2-0183",
+    "vi": ["vừa mới", "mới vừa"],
+    "viAliases": ["vừa", "vừa xong"],
+    "en": ["just recently", "just a moment ago"],
+    "enSource": "cedict",
+    "example": { "zh": "他刚刚出去了。", "vi": "Anh ấy vừa mới ra ngoài rồi.", "en": "He went out just a moment ago." }
+  },
+  {
+    "id": "L2-0184",
+    "vi": ["cao cấp", "cấp cao"],
+    "viAliases": ["hạng sang", "trình độ cao"],
+    "en": ["high level", "advanced", "high-ranking"],
+    "enSource": "cedict",
+    "example": { "zh": "这家饭馆很高级。", "vi": "Nhà hàng này rất cao cấp.", "en": "This restaurant is very high-end." }
+  },
+  {
+    "id": "L2-0185",
+    "vi": ["trung học phổ thông", "cấp ba"],
+    "viAliases": ["phổ thông trung học", "trường cấp ba"],
+    "en": ["senior high school"],
+    "enSource": "cedict",
+    "example": { "zh": "我姐姐在读高中。", "vi": "Chị tôi đang học cấp ba.", "en": "My older sister is in high school." }
+  },
+  {
+    "id": "L2-0186",
+    "vi": ["vóc người", "chiều cao"],
+    "viAliases": ["dáng người", "tầm vóc"],
+    "en": ["stature", "height", "size (of a person)"],
+    "enSource": "cedict",
+    "example": { "zh": "他的个子很高。", "vi": "Vóc người anh ấy rất cao.", "en": "He is very tall." }
+  },
+  {
+    "id": "L2-0187",
+    "vi": ["càng", "hơn"],
+    "viAliases": ["càng thêm", "hơn nữa"],
+    "en": ["more", "even more", "further"],
+    "enSource": "cedict",
+    "example": { "zh": "今天比昨天更冷。", "vi": "Hôm nay lạnh hơn hôm qua.", "en": "Today is even colder than yesterday." }
+  },
+  {
+    "id": "L2-0188",
+    "vi": ["xe buýt"],
+    "viAliases": ["xe bus", "ô tô buýt"],
+    "en": ["bus"],
+    "enSource": "cedict",
+    "example": { "zh": "我每天坐公共汽车上班。", "vi": "Tôi đi làm bằng xe buýt mỗi ngày.", "en": "I take the bus to work every day." }
+  },
+  {
+    "id": "L2-0189",
+    "vi": ["xe buýt", "xe công cộng"],
+    "viAliases": ["xe bus", "xe buýt công cộng"],
+    "en": ["public transport vehicle", "town bus"],
+    "enSource": "cedict",
+    "example": { "zh": "公交车站在前面。", "vi": "Trạm xe buýt ở phía trước.", "en": "The bus stop is up ahead." }
+  },
+  {
+    "id": "L2-0190",
+    "vi": ["ki-lô-gam", "cân"],
+    "viAliases": ["kg", "kilogam", "ký"],
+    "en": ["kilogram"],
+    "enSource": "cedict",
+    "example": { "zh": "这个西瓜有五公斤。", "vi": "Quả dưa hấu này nặng năm ki-lô-gam.", "en": "This watermelon weighs five kilograms." }
+  },
+  {
+    "id": "L2-0191",
+    "vi": ["ki-lô-mét", "cây số"],
+    "viAliases": ["km", "kilômét", "kilomet"],
+    "en": ["kilometer"],
+    "enSource": "cedict",
+    "example": { "zh": "我家离学校两公里。", "vi": "Nhà tôi cách trường hai ki-lô-mét.", "en": "My home is two kilometers from school." }
+  },
+  {
+    "id": "L2-0192",
+    "vi": ["đường cái", "đường quốc lộ"],
+    "viAliases": ["quốc lộ", "đường bộ"],
+    "en": ["highway", "road"],
+    "enSource": "cedict",
+    "example": { "zh": "这条公路很长。", "vi": "Con đường quốc lộ này rất dài.", "en": "This highway is very long." }
+  },
+  {
+    "id": "L2-0193",
+    "vi": ["công bằng"],
+    "viAliases": ["công minh", "công tâm"],
+    "en": ["fair", "impartial"],
+    "enSource": "cedict",
+    "example": { "zh": "这样做不太公平。", "vi": "Làm như vậy không công bằng lắm.", "en": "Doing it this way is not very fair." }
+  },
+  {
+    "id": "L2-0194",
+    "vi": ["công ty"],
+    "viAliases": ["hãng", "doanh nghiệp"],
+    "en": ["company", "firm", "corporation"],
+    "enSource": "cedict",
+    "example": { "zh": "他在一家大公司工作。", "vi": "Anh ấy làm việc ở một công ty lớn.", "en": "He works at a big company." }
+  },
+  {
+    "id": "L2-0195",
+    "vi": ["công viên"],
+    "viAliases": ["vườn hoa"],
+    "en": ["park (for public recreation)"],
+    "enSource": "cedict",
+    "example": { "zh": "我们去公园散步吧。", "vi": "Chúng ta đi dạo ở công viên nhé.", "en": "Let us go for a walk in the park." }
+  },
+  {
+    "id": "L2-0196",
+    "vi": ["chó"],
+    "viAliases": ["con chó", "cún"],
+    "en": ["dog"],
+    "enSource": "cedict",
+    "example": { "zh": "我家有一只小狗。", "vi": "Nhà tôi có một con chó nhỏ.", "en": "There is a little dog at my house." }
+  },
+  {
+    "id": "L2-0197",
+    "vi": ["đủ", "đầy đủ"],
+    "viAliases": ["vừa đủ", "đủ dùng"],
+    "en": ["enough (sufficient)", "(before adj.) really"],
+    "enSource": "cedict",
+    "example": { "zh": "这些钱够买两本书。", "vi": "Số tiền này đủ mua hai quyển sách.", "en": "This money is enough to buy two books." }
+  },
+  {
+    "id": "L2-0198",
+    "vi": ["câu chuyện", "truyện"],
+    "viAliases": ["chuyện", "mẩu chuyện"],
+    "en": ["story", "tale", "narrative"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈给我讲了一个故事。", "vi": "Mẹ kể cho tôi nghe một câu chuyện.", "en": "Mom told me a story." }
+  },
+  {
+    "id": "L2-0199",
+    "vi": ["cố ý", "cố tình"],
+    "viAliases": ["chủ ý", "có ý"],
+    "en": ["deliberately", "on purpose"],
+    "enSource": "cedict",
+    "example": { "zh": "我不是故意的。", "vi": "Tôi không cố ý đâu.", "en": "I did not do it on purpose." }
+  },
+  {
+    "id": "L2-0200",
+    "vi": ["khách hàng"],
+    "viAliases": ["khách", "người mua hàng"],
+    "en": ["customer", "client"],
+    "enSource": "cedict",
+    "example": { "zh": "这家商店的顾客很多。", "vi": "Cửa hàng này có rất nhiều khách hàng.", "en": "This shop has a lot of customers." }
+  },
+  {
+    "id": "L2-0201",
+    "vi": ["tắt máy", "tắt nguồn"],
+    "viAliases": ["tắt điện thoại", "tắt máy tính"],
+    "en": ["to turn off (a machine or device)"],
+    "enSource": "cedict",
+    "example": { "zh": "上课以前请关机。", "vi": "Trước khi vào học xin hãy tắt máy.", "en": "Please turn off your phone before class." }
+  },
+  {
+    "id": "L2-0202",
+    "vi": ["quan tâm", "chăm lo"],
+    "viAliases": ["để ý đến", "lo lắng cho"],
+    "en": ["to be concerned about", "to care about"],
+    "enSource": "cedict",
+    "example": { "zh": "爸爸很关心我的学习。", "vi": "Bố rất quan tâm đến việc học của tôi.", "en": "My dad cares a lot about my studies." }
+  },
+  {
+    "id": "L2-0203",
+    "vi": ["quan điểm", "cách nhìn"],
+    "viAliases": ["lập trường", "góc nhìn"],
+    "en": ["point of view", "viewpoint", "standpoint"],
+    "enSource": "cedict",
+    "example": { "zh": "我同意你的观点。", "vi": "Tôi đồng ý với quan điểm của bạn.", "en": "I agree with your point of view." }
+  },
+  {
+    "id": "L2-0204",
+    "vi": ["quảng trường"],
+    "viAliases": [],
+    "en": ["public square", "plaza"],
+    "enSource": "cedict",
+    "example": { "zh": "广场上有很多人。", "vi": "Trên quảng trường có rất nhiều người.", "en": "There are many people in the square." }
+  },
+  {
+    "id": "L2-0205",
+    "vi": ["quảng cáo"],
+    "viAliases": ["mẩu quảng cáo", "bài quảng cáo"],
+    "en": ["advertisement", "a commercial"],
+    "enSource": "cedict",
+    "example": { "zh": "电视上有很多广告。", "vi": "Trên ti vi có rất nhiều quảng cáo.", "en": "There are a lot of ads on TV." }
+  },
+  {
+    "id": "L2-0206",
+    "vi": ["quốc tế"],
+    "viAliases": ["mang tính quốc tế"],
+    "en": ["international"],
+    "enSource": "cedict",
+    "example": { "zh": "他在国际学校上学。", "vi": "Cậu ấy học ở trường quốc tế.", "en": "He studies at an international school." }
+  },
+  {
+    "id": "L2-0207",
+    "vi": ["đến đây", "qua đây"],
+    "viAliases": ["lại đây", "sang đây"],
+    "en": ["to come over"],
+    "enSource": "cedict",
+    "example": { "zh": "你过来看看这个。", "vi": "Bạn qua đây xem cái này đi.", "en": "Come over and take a look at this." }
+  },
+  {
+    "id": "L2-0208",
+    "vi": ["ăn Tết", "đón năm mới"],
+    "viAliases": ["đón Tết", "mừng năm mới"],
+    "en": ["to celebrate the Chinese New Year"],
+    "enSource": "cedict",
+    "example": { "zh": "我们回老家过年。", "vi": "Chúng tôi về quê ăn Tết.", "en": "We go back to our hometown to celebrate the New Year." }
+  },
+  {
+    "id": "L2-0209",
+    "vi": ["đi qua", "đi sang"],
+    "viAliases": ["băng qua", "qua đó"],
+    "en": ["to go over", "to pass by"],
+    "enSource": "cedict",
+    "example": { "zh": "我走过去问他。", "vi": "Tôi đi qua đó hỏi anh ấy.", "en": "I walked over and asked him." }
+  },
+  {
+    "id": "L2-0210",
+    "vi": ["đã từng", "từng"],
+    "viAliases": ["từng trải qua"],
+    "en": ["(experienced action marker)"],
+    "enSource": "cedict",
+    "example": { "zh": "我去过北京。", "vi": "Tôi đã từng đi Bắc Kinh.", "en": "I have been to Beijing." }
+  },
+  {
+    "id": "L2-0211",
+    "vi": ["biển"],
+    "viAliases": ["biển cả", "đại dương"],
+    "en": ["sea", "ocean"],
+    "enSource": "cedict",
+    "example": { "zh": "夏天我喜欢去海里游泳。", "vi": "Mùa hè tôi thích đi bơi ở biển.", "en": "In summer I like to swim in the sea." }
+  },
+  {
+    "id": "L2-0212",
+    "vi": ["bờ biển", "bãi biển"],
+    "viAliases": ["ven biển"],
+    "en": ["seaside", "coast", "seashore", "beach"],
+    "enSource": "cedict",
+    "example": { "zh": "我们在海边玩了一天。", "vi": "Chúng tôi chơi ở bờ biển cả một ngày.", "en": "We played at the seaside all day." }
+  },
+  {
+    "id": "L2-0213",
+    "vi": ["hét", "kêu to", "gọi"],
+    "viAliases": ["la", "hô", "gào"],
+    "en": ["to shout", "to yell", "to call out for (a person)"],
+    "enSource": "cedict",
+    "example": { "zh": "别在教室里大声喊。", "vi": "Đừng hét to trong lớp học.", "en": "Do not shout loudly in the classroom." }
+  },
+  {
+    "id": "L2-0214",
+    "vi": ["thật là", "rất"],
+    "viAliases": ["quá", "biết bao"],
+    "en": ["(before an adjective for exclamatory effect) so", "(before a verb) easy to"],
+    "enSource": "cedict",
+    "example": { "zh": "今天好热啊。", "vi": "Hôm nay thật là nóng.", "en": "It is so hot today." }
+  },
+  {
+    "id": "L2-0215",
+    "vi": ["lợi ích", "cái lợi"],
+    "viAliases": ["ích lợi", "điều tốt"],
+    "en": ["benefit; advantage; merit", "gain; profit"],
+    "enSource": "cedict",
+    "example": { "zh": "多运动对身体有好处。", "vi": "Vận động nhiều có lợi cho sức khỏe.", "en": "Exercising a lot is good for your health." }
+  },
+  {
+    "id": "L2-0216",
+    "vi": ["rất nhiều", "nhiều"],
+    "viAliases": ["khá nhiều", "bao nhiêu là"],
+    "en": ["many", "quite a lot"],
+    "enSource": "cedict",
+    "example": { "zh": "今天来了好多客人。", "vi": "Hôm nay có rất nhiều khách đến.", "en": "A lot of guests came today." }
+  },
+  {
+    "id": "L2-0217",
+    "vi": ["rất lâu", "lâu"],
+    "viAliases": ["lâu lắm", "hồi lâu"],
+    "en": ["for a long time"],
+    "enSource": "cedict",
+    "example": { "zh": "我们好久没见面了。", "vi": "Chúng ta lâu rồi không gặp nhau.", "en": "We have not seen each other for a long time." }
+  },
+  {
+    "id": "L2-0218",
+    "vi": ["người tốt"],
+    "viAliases": ["người tử tế", "người hiền lành"],
+    "en": ["good person"],
+    "enSource": "cedict",
+    "example": { "zh": "他是一个好人。", "vi": "Anh ấy là một người tốt.", "en": "He is a good person." }
+  },
+  {
+    "id": "L2-0219",
+    "vi": ["việc tốt", "chuyện tốt"],
+    "viAliases": ["điều tốt", "việc thiện"],
+    "en": ["good action, deed, thing or work", "happy occasion"],
+    "enSource": "cedict",
+    "example": { "zh": "帮助别人是好事。", "vi": "Giúp đỡ người khác là việc tốt.", "en": "Helping others is a good deed." }
+  },
+  {
+    "id": "L2-0220",
+    "vi": ["hình như", "giống như"],
+    "viAliases": ["dường như", "có vẻ như", "tựa như"],
+    "en": ["as if", "to seem like"],
+    "enSource": "cedict",
+    "example": { "zh": "他好像有点不高兴。", "vi": "Anh ấy hình như hơi không vui.", "en": "He seems a little unhappy." }
+  }
+]

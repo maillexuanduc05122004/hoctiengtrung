@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L3-0709",
+    "vi": ["điều chỉnh", "sắp xếp lại"],
+    "viAliases": ["chỉnh sửa", "chỉnh lại"],
+    "en": ["to adjust", "to revise", "to reorganize"],
+    "enSource": "cedict",
+    "example": { "zh": "我们要调整一下时间。", "vi": "Chúng ta cần điều chỉnh thời gian một chút.", "en": "We need to adjust the time a little." }
+  },
+  {
+    "id": "L3-0710",
+    "vi": ["nhảy"],
+    "viAliases": ["nhảy lên", "nhảy nhót"],
+    "en": ["to jump", "to hop", "to bounce", "to skip over"],
+    "enSource": "cedict",
+    "example": { "zh": "小狗跳得很高。", "vi": "Con chó nhỏ nhảy rất cao.", "en": "The puppy jumps very high." }
+  },
+  {
+    "id": "L3-0711",
+    "vi": ["nhảy cao"],
+    "viAliases": ["môn nhảy cao"],
+    "en": ["high jump"],
+    "enSource": "cedict",
+    "example": { "zh": "他喜欢跳高和跑步。", "vi": "Anh ấy thích nhảy cao và chạy bộ.", "en": "He likes the high jump and running." }
+  },
+  {
+    "id": "L3-0712",
+    "vi": ["nhảy múa", "khiêu vũ"],
+    "viAliases": ["múa", "nhảy đầm"],
+    "en": ["to dance"],
+    "enSource": "cedict",
+    "example": { "zh": "姐姐每天晚上跳舞。", "vi": "Chị gái nhảy múa mỗi tối.", "en": "My older sister dances every evening." }
+  },
+  {
+    "id": "L3-0713",
+    "vi": ["nhảy xa"],
+    "viAliases": ["môn nhảy xa"],
+    "en": ["long jump"],
+    "enSource": "cedict",
+    "example": { "zh": "弟弟在学校学跳远。", "vi": "Em trai học nhảy xa ở trường.", "en": "My younger brother learns the long jump at school." }
+  },
+  {
+    "id": "L3-0714",
+    "vi": ["sắt"],
+    "viAliases": ["chất sắt"],
+    "en": ["iron (metal)"],
+    "enSource": "cedict",
+    "example": { "zh": "这个门是铁做的。", "vi": "Cái cửa này làm bằng sắt.", "en": "This door is made of iron." }
+  },
+  {
+    "id": "L3-0715",
+    "vi": ["đường sắt"],
+    "viAliases": ["đường xe lửa", "tuyến đường sắt"],
+    "en": ["railroad", "railway"],
+    "enSource": "cedict",
+    "example": { "zh": "这条铁路很长。", "vi": "Tuyến đường sắt này rất dài.", "en": "This railway is very long." }
+  },
+  {
+    "id": "L3-0716",
+    "vi": ["khả năng nghe", "kỹ năng nghe"],
+    "viAliases": ["thính lực", "sức nghe"],
+    "en": ["hearing", "listening ability"],
+    "enSource": "cedict",
+    "example": { "zh": "我的听力还不太好。", "vi": "Kỹ năng nghe của tôi vẫn chưa tốt lắm.", "en": "My listening ability is still not very good." }
+  },
+  {
+    "id": "L3-0717",
+    "vi": ["thính giả", "khán thính giả"],
+    "viAliases": ["người nghe"],
+    "en": ["audience", "listeners"],
+    "enSource": "cedict",
+    "example": { "zh": "今天的听众非常多。", "vi": "Hôm nay có rất nhiều thính giả.", "en": "There is a very large audience today." }
+  },
+  {
+    "id": "L3-0718",
+    "vi": ["dừng lại", "ngừng"],
+    "viAliases": ["chấm dứt", "đình chỉ"],
+    "en": ["to stop", "to halt", "to cease"],
+    "enSource": "cedict",
+    "example": { "zh": "雨已经停止了。", "vi": "Mưa đã ngừng rồi.", "en": "The rain has already stopped." }
+  },
+  {
+    "id": "L3-0719",
+    "vi": ["thông thường", "thường lệ"],
+    "viAliases": ["thường", "theo lệ thường"],
+    "en": ["regular", "usual", "normal"],
+    "enSource": "cedict",
+    "example": { "zh": "我通常七点起床。", "vi": "Tôi thường dậy lúc bảy giờ.", "en": "I usually get up at seven o'clock." }
+  },
+  {
+    "id": "L3-0720",
+    "vi": ["liên lạc thư từ", "liên lạc"],
+    "viAliases": ["trao đổi thư từ", "thông tin liên lạc"],
+    "en": ["to correspond (by letter, email etc)", "to send or receive messages through telecommunications"],
+    "enSource": "cedict",
+    "example": { "zh": "我常常和朋友通信。", "vi": "Tôi thường liên lạc thư từ với bạn bè.", "en": "I often correspond with my friends." }
+  },
+  {
+    "id": "L3-0721",
+    "vi": ["đồng ý", "tán thành"],
+    "viAliases": ["chấp thuận", "nhất trí"],
+    "en": ["to agree", "to consent", "to approve"],
+    "enSource": "cedict",
+    "example": { "zh": "老师同意了我的想法。", "vi": "Thầy giáo đã đồng ý với ý kiến của tôi.", "en": "The teacher agreed with my idea." }
+  },
+  {
+    "id": "L3-0722",
+    "vi": ["đau", "nhức"],
+    "viAliases": ["đau nhức", "buốt"],
+    "en": ["ache", "pain"],
+    "enSource": "cedict",
+    "example": { "zh": "我的头很痛。", "vi": "Đầu tôi rất đau.", "en": "My head hurts a lot." }
+  },
+  {
+    "id": "L3-0723",
+    "vi": ["đau khổ", "khổ sở"],
+    "viAliases": ["đau đớn", "khốn khổ"],
+    "en": ["painful", "suffering", "pain"],
+    "enSource": "cedict",
+    "example": { "zh": "他现在非常痛苦。", "vi": "Bây giờ anh ấy vô cùng đau khổ.", "en": "He is in great pain right now." }
+  },
+  {
+    "id": "L3-0724",
+    "vi": ["đầu tiên", "đứng đầu"],
+    "viAliases": ["dẫn đầu", "hàng đầu"],
+    "en": ["first", "leading", "chief"],
+    "enSource": "cedict",
+    "example": { "zh": "这是我头一次来中国。", "vi": "Đây là lần đầu tiên tôi đến Trung Quốc.", "en": "This is my first time coming to China." }
+  },
+  {
+    "id": "L3-0725",
+    "vi": ["đầu óc", "trí óc"],
+    "viAliases": ["bộ óc", "trí tuệ"],
+    "en": ["brains", "mind"],
+    "enSource": "cedict",
+    "example": { "zh": "他的头脑很清楚。", "vi": "Đầu óc anh ấy rất minh mẫn.", "en": "His mind is very clear." }
+  },
+  {
+    "id": "L3-0726",
+    "vi": ["nổi bật", "làm nổi bật"],
+    "viAliases": ["xuất sắc", "nhô ra"],
+    "en": ["prominent", "outstanding", "to give prominence to", "to protrude"],
+    "enSource": "cedict",
+    "example": { "zh": "他的成绩很突出。", "vi": "Thành tích của anh ấy rất nổi bật.", "en": "His achievements are outstanding." }
+  },
+  {
+    "id": "L3-0727",
+    "vi": ["đột nhiên", "bất ngờ"],
+    "viAliases": ["bỗng nhiên", "đột ngột"],
+    "en": ["sudden", "abrupt", "unexpected"],
+    "enSource": "cedict",
+    "example": { "zh": "天气突然变冷了。", "vi": "Thời tiết bỗng nhiên trở lạnh.", "en": "The weather suddenly turned cold." }
+  },
+  {
+    "id": "L3-0728",
+    "vi": ["hình vẽ", "biểu đồ", "bản đồ"],
+    "viAliases": ["bức tranh", "sơ đồ"],
+    "en": ["diagram", "picture", "drawing", "chart"],
+    "enSource": "cedict",
+    "example": { "zh": "请你看这张图。", "vi": "Bạn hãy xem bức hình này.", "en": "Please look at this picture." }
+  },
+  {
+    "id": "L3-0729",
+    "vi": ["tranh vẽ", "bức tranh"],
+    "viAliases": ["hình vẽ", "tranh"],
+    "en": ["drawing", "picture"],
+    "enSource": "cedict",
+    "example": { "zh": "墙上有一张图画。", "vi": "Trên tường có một bức tranh.", "en": "There is a picture on the wall." }
+  },
+  {
+    "id": "L3-0730",
+    "vi": ["đất"],
+    "viAliases": ["đất cát", "bụi đất"],
+    "en": ["earth", "dust", "clay"],
+    "enSource": "cedict",
+    "example": { "zh": "我在土里种了花。", "vi": "Tôi trồng hoa trong đất.", "en": "I planted flowers in the soil." }
+  },
+  {
+    "id": "L3-0731",
+    "vi": ["đoàn", "nhóm", "cục"],
+    "viAliases": ["tập thể", "vắt", "cuộn"],
+    "en": ["group", "regiment", "ball", "classifier for a lump or a soft mass"],
+    "enSource": "cedict",
+    "example": { "zh": "桌上有一团纸。", "vi": "Trên bàn có một cục giấy.", "en": "There is a wad of paper on the table." }
+  },
+  {
+    "id": "L3-0732",
+    "vi": ["đoàn kết"],
+    "viAliases": ["gắn bó", "hợp sức"],
+    "en": ["to unite", "unity", "solidarity", "united"],
+    "enSource": "cedict",
+    "example": { "zh": "我们班同学很团结。", "vi": "Các bạn lớp tôi rất đoàn kết.", "en": "The students in my class are very united." }
+  },
+  {
+    "id": "L3-0733",
+    "vi": ["tập thể", "đoàn thể"],
+    "viAliases": ["tổ chức", "nhóm"],
+    "en": ["group", "organization", "team"],
+    "enSource": "cedict",
+    "example": { "zh": "他参加了一个学习团体。", "vi": "Anh ấy tham gia một nhóm học tập.", "en": "He joined a study group." }
+  },
+  {
+    "id": "L3-0734",
+    "vi": ["thúc đẩy", "xúc tiến"],
+    "viAliases": ["đẩy mạnh", "đẩy tới"],
+    "en": ["to push", "to promote", "to give impetus to"],
+    "enSource": "cedict",
+    "example": { "zh": "老师的话推动了我努力学习。", "vi": "Lời của thầy đã thúc đẩy tôi học tập chăm chỉ.", "en": "The words of the teacher spurred me to study hard." }
+  },
+  {
+    "id": "L3-0735",
+    "vi": ["phổ biến", "quảng bá"],
+    "viAliases": ["phổ cập", "mở rộng"],
+    "en": ["to extend", "to spread", "to popularize"],
+    "enSource": "cedict",
+    "example": { "zh": "学校推广了新的方法。", "vi": "Nhà trường đã phổ biến phương pháp mới.", "en": "The school promoted the new method." }
+  },
+  {
+    "id": "L3-0736",
+    "vi": ["đẩy tới", "đẩy mạnh"],
+    "viAliases": ["tiến lên", "thúc đẩy"],
+    "en": ["to advance", "to push on", "to carry forward"],
+    "enSource": "cedict",
+    "example": { "zh": "这个工作正在推进。", "vi": "Công việc này đang được đẩy mạnh.", "en": "This work is moving forward." }
+  },
+  {
+    "id": "L3-0737",
+    "vi": ["đẩy ra", "gạt ra"],
+    "viAliases": ["đẩy bật ra"],
+    "en": ["to push open", "to push away"],
+    "enSource": "cedict",
+    "example": { "zh": "他推开门走了进去。", "vi": "Anh ấy đẩy cửa ra rồi đi vào.", "en": "He pushed the door open and walked in." }
+  },
+  {
+    "id": "L3-0738",
+    "vi": ["lùi", "rút lui", "trả lại"],
+    "viAliases": ["thoái lui", "hoàn trả"],
+    "en": ["to retreat", "to withdraw", "to return (sth)"],
+    "enSource": "cedict",
+    "example": { "zh": "请你往后退一点。", "vi": "Bạn hãy lùi lại phía sau một chút.", "en": "Please step back a little." }
+  },
+  {
+    "id": "L3-0739",
+    "vi": ["rút khỏi", "thoát ra"],
+    "viAliases": ["rút lui", "đăng xuất"],
+    "en": ["to withdraw", "to quit", "to log out (computing)"],
+    "enSource": "cedict",
+    "example": { "zh": "他退出了这个比赛。", "vi": "Anh ấy đã rút khỏi cuộc thi này.", "en": "He withdrew from this competition." }
+  },
+  {
+    "id": "L3-0740",
+    "vi": ["nghỉ hưu", "về hưu"],
+    "viAliases": ["hưu trí"],
+    "en": ["to retire (from the workforce)", "to go into retirement"],
+    "enSource": "cedict",
+    "example": { "zh": "我爷爷去年退休了。", "vi": "Ông tôi đã nghỉ hưu năm ngoái.", "en": "My grandfather retired last year." }
+  },
+  {
+    "id": "L3-0741",
+    "vi": ["ngoại giao"],
+    "viAliases": ["đối ngoại"],
+    "en": ["diplomacy", "foreign affairs"],
+    "enSource": "cedict",
+    "example": { "zh": "他想做外交工作。", "vi": "Anh ấy muốn làm công việc ngoại giao.", "en": "He wants to do diplomatic work." }
+  },
+  {
+    "id": "L3-0742",
+    "vi": ["bên ngoài", "phía ngoài"],
+    "viAliases": ["ngoài", "mặt ngoài"],
+    "en": ["outside", "exterior", "external appearance"],
+    "enSource": "cedict",
+    "example": { "zh": "外面下雨了。", "vi": "Bên ngoài trời mưa rồi.", "en": "It is raining outside." }
+  },
+  {
+    "id": "L3-0743",
+    "vi": ["tiếng nước ngoài", "ngoại văn"],
+    "viAliases": ["ngoại ngữ", "chữ nước ngoài"],
+    "en": ["foreign language (written)"],
+    "enSource": "cedict",
+    "example": { "zh": "这本书是外文的。", "vi": "Quyển sách này bằng tiếng nước ngoài.", "en": "This book is in a foreign language." }
+  },
+  {
+    "id": "L3-0744",
+    "vi": ["hoàn mỹ", "hoàn hảo"],
+    "viAliases": ["tuyệt hảo"],
+    "en": ["perfect"],
+    "enSource": "cedict",
+    "example": { "zh": "她唱得非常完美。", "vi": "Cô ấy hát vô cùng hoàn hảo.", "en": "She sang perfectly." }
+  },
+  {
+    "id": "L3-0745",
+    "vi": ["hoàn thiện", "kiện toàn"],
+    "viAliases": ["chu đáo", "cải thiện"],
+    "en": ["comprehensive", "well-developed", "to refine", "to improve"],
+    "enSource": "cedict",
+    "example": { "zh": "学校的服务很完善。", "vi": "Dịch vụ của nhà trường rất hoàn thiện.", "en": "The services of the school are very comprehensive." }
+  },
+  {
+    "id": "L3-0746",
+    "vi": ["hoàn chỉnh", "trọn vẹn"],
+    "viAliases": ["nguyên vẹn", "đầy đủ"],
+    "en": ["complete", "intact"],
+    "enSource": "cedict",
+    "example": { "zh": "这个故事很完整。", "vi": "Câu chuyện này rất hoàn chỉnh.", "en": "This story is complete." }
+  },
+  {
+    "id": "L3-0747",
+    "vi": ["đồ chơi"],
+    "viAliases": ["món đồ chơi"],
+    "en": ["toy", "plaything"],
+    "enSource": "cedict",
+    "example": { "zh": "弟弟有很多玩具。", "vi": "Em trai có rất nhiều đồ chơi.", "en": "My younger brother has a lot of toys." }
+  },
+  {
+    "id": "L3-0748",
+    "vi": ["thường thường", "thường hay"],
+    "viAliases": ["phần nhiều", "đa phần"],
+    "en": ["usually", "in many cases", "more often than not"],
+    "enSource": "cedict",
+    "example": { "zh": "他往往很晚才回家。", "vi": "Anh ấy thường về nhà rất muộn.", "en": "He often does not get home until very late." }
+  },
+  {
+    "id": "L3-0749",
+    "vi": ["gây hại", "tác hại"],
+    "viAliases": ["làm hại", "nguy hại"],
+    "en": ["to harm", "to endanger", "harmful effect", "damage"],
+    "enSource": "cedict",
+    "example": { "zh": "吸烟危害身体健康。", "vi": "Hút thuốc gây hại cho sức khỏe.", "en": "Smoking harms your health." }
+  },
+  {
+    "id": "L3-0750",
+    "vi": ["nguy hiểm", "sự nguy hiểm"],
+    "viAliases": ["hiểm nguy", "mối nguy"],
+    "en": ["dangerous", "danger"],
+    "enSource": "cedict",
+    "example": { "zh": "晚上一个人走路很危险。", "vi": "Đi bộ một mình vào buổi tối rất nguy hiểm.", "en": "Walking alone at night is very dangerous." }
+  },
+  {
+    "id": "L3-0751",
+    "vi": ["làm", "trở thành"],
+    "viAliases": ["đóng vai trò", "coi là"],
+    "en": ["to act as", "to serve as", "to become", "to be"],
+    "enSource": "cedict",
+    "example": { "zh": "大家选他为班长。", "vi": "Mọi người bầu anh ấy làm lớp trưởng.", "en": "Everyone elected him as class monitor." }
+  },
+  {
+    "id": "L3-0752",
+    "vi": ["bị", "được"],
+    "viAliases": ["bởi", "do"],
+    "en": ["by (in the passive voice)"],
+    "enSource": "cedict",
+    "example": { "zh": "他为大家所喜欢。", "vi": "Anh ấy được mọi người yêu thích.", "en": "He is liked by everyone." }
+  },
+  {
+    "id": "L3-0753",
+    "vi": ["vây quanh", "quấn"],
+    "viAliases": ["bao quanh", "vây"],
+    "en": ["to encircle", "to surround", "to wear by wrapping around (scarf, shawl)"],
+    "enSource": "cedict",
+    "example": { "zh": "大家围着老师坐下。", "vi": "Mọi người ngồi vây quanh thầy giáo.", "en": "Everyone sat around the teacher." }
+  }
+]
