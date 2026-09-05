@@ -17,7 +17,12 @@ import { Icon } from '../../components/ui/Icon.tsx';
 import { useSettings } from '../../hooks/settings-context.ts';
 import { useSpeech } from '../../hooks/useSpeech.ts';
 import type { SubmitInput } from '../../hooks/useStudySession.ts';
-import { hanziChars, matchAnswer, type MatchDiffPart } from '../../lib/answer-matcher/index.ts';
+import {
+  hanziChars,
+  matchAnswer,
+  type MatchDiffPart,
+  type MatchResult,
+} from '../../lib/answer-matcher/index.ts';
 import { SPEECH_RATES, type DisplayMode, type SpeechRate } from '../../types/settings.ts';
 import type { AnswerVerdict } from '../../types/study.ts';
 import type { VocabularyWord } from '../../types/vocabulary.ts';
@@ -217,17 +222,30 @@ export function ListeningRound({
     setOutcome({ ...result, elapsedMs });
   };
 
+  /** Chấm phần đã gõ; chỉ gọi ở hai dạng gõ chữ Hán và pinyin. */
+  const gradeTyped = (kind: 'hanzi' | 'pinyin', text: string): MatchResult =>
+    matchAnswer(text, {
+      kind,
+      expected: [kind === 'hanzi' ? word.simplified : word.pinyin],
+      aliases: kind === 'hanzi' ? (word.writtenVariants ?? []) : word.aliases.pinyin,
+      usedHint,
+    });
+
   const handleRevealAll = (): void => {
     setUsedHint(true);
     setRevealedSyllables(syllables.length);
     setShowMeaning(true);
+    const given = answerMode === 'choice' ? '' : input.trim();
+    // Bỏ dở giữa chừng vẫn phải cho thấy phần đã gõ sai ở bảng kết quả, nên vẫn
+    // chấm để lấy bảng đối chiếu. Ô nhập còn trống thì diff rỗng, bảng tự ẩn.
+    const diff = answerMode === 'choice' ? [] : gradeTyped(answerMode, given).diff;
     finish({
       verdict: 'wrong',
       usedHint: true,
-      given: answerMode === 'choice' ? '' : input.trim(),
+      given,
       expected: expectedText,
       explanation: 'Bạn đã xem đáp án nên lượt này tính là chưa thuộc.',
-      diff: [],
+      diff,
     });
   };
 
@@ -250,12 +268,7 @@ export function ListeningRound({
     }
 
     if (input.trim() === '') return;
-    const result = matchAnswer(input, {
-      kind: answerMode,
-      expected: [answerMode === 'hanzi' ? word.simplified : word.pinyin],
-      aliases: answerMode === 'hanzi' ? (word.writtenVariants ?? []) : word.aliases.pinyin,
-      usedHint,
-    });
+    const result = gradeTyped(answerMode, input);
     finish({
       verdict: result.verdict,
       usedHint,

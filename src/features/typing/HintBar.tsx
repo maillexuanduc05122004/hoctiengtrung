@@ -36,8 +36,10 @@ const BLANK = '＿';
  * Trạng thái gợi ý thuộc về riêng một câu hỏi, nên nơi gọi truyền `key` theo từ
  * hiện tại; sang câu mới là thành phần này được dựng lại và mọi gợi ý đóng lại.
  *
- * Chỉ nút "Nghe từ" là không tính gợi ý: nghe phát âm là một phần của việc học
- * từ chứ không phải xem trước đáp án.
+ * Chỉ nút "Nghe phát âm" là không tính gợi ý: nghe phát âm là một phần của việc
+ * học từ chứ không phải xem trước đáp án. Vì vậy nhãn của nút cũng không được ghi
+ * chữ Hán ra: nhãn đi thẳng vào `title` và `aria-label`, rê chuột lên hay nghe
+ * bằng trình đọc màn hình là thấy nguyên đáp án mà lượt đó vẫn tính là tự trả lời.
  */
 export function HintBar({ word, challenge, onUseHint, onInsert }: HintBarProps) {
   const [revealed, setRevealed] = useState(0);
@@ -118,9 +120,10 @@ export function HintBar({ word, challenge, onUseHint, onInsert }: HintBarProps) 
         <div
           className="shrink-0"
         >
+          {/* Nhãn chung chung là cố ý, xem lời giải thích ở đầu tệp. */}
           <SpeakerButton
             text={word.simplified}
-            label={`Nghe từ ${word.simplified}`}
+            label="Nghe phát âm"
           />
         </div>
         <span

@@ -45,6 +45,15 @@ export interface FlashcardDeckProps {
 /** Quãng vuốt tối thiểu để tính là chuyển thẻ. */
 const SWIPE_THRESHOLD_REM = 4;
 
+/**
+ * Khoảng lặng sau mỗi lần chấm.
+ *
+ * Chấm xong là thẻ kế tiếp hiện ra ngay dưới ngón tay đang bấm, nên chạm hai lần
+ * thật nhanh trên điện thoại sẽ chấm luôn một thẻ người học chưa kịp nhìn thấy.
+ * Đọc xong một thẻ không thể nhanh hơn ngần này nên nuốt cú chạm thứ hai là an toàn.
+ */
+const RATE_LOCK_MS = 350;
+
 /** Cỡ chữ gốc mặc định của trình duyệt, dùng khi không đọc được giá trị thật. */
 const DEFAULT_ROOT_FONT_SIZE = 16;
 
@@ -193,6 +202,8 @@ export function FlashcardDeck({
   const [dragging, setDragging] = useState(false);
 
   const shownAt = useRef<number>(0);
+  // Mốc của lần chấm gần nhất, để nhận ra cú chạm dính ngay sau đó.
+  const ratedAt = useRef<number>(0);
   const drag = useRef<{ pointerId: number; x: number; y: number; unit: number } | null>(null);
   // Vuốt xong trình duyệt vẫn bắn một sự kiện click; cờ này để nuốt nó đi, nếu
   // không thì mỗi lần vuốt xong thẻ mới lại bị lật ngay.
@@ -230,13 +241,17 @@ export function FlashcardDeck({
     (verdict: AnswerVerdict) => {
       // Đang xem lại thẻ cũ thì không chấm, tránh chấm nhầm sang thẻ hiện tại.
       if (current === null || back > 0) return;
+      // Cú chạm thứ hai rơi vào thẻ kế tiếp chứ không phải thẻ vừa chấm, nên bỏ đi.
+      const now = Date.now();
+      if (now - ratedAt.current < RATE_LOCK_MS) return;
+      ratedAt.current = now;
       const startedAt = shownAt.current;
       void submit({
         verdict,
         usedHint: false,
         given: '',
         expected: current.pinyin,
-        elapsedMs: startedAt > 0 ? Math.max(0, Date.now() - startedAt) : 0,
+        elapsedMs: startedAt > 0 ? Math.max(0, now - startedAt) : 0,
       });
     },
     [current, back, submit],

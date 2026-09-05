@@ -68,6 +68,20 @@ describe('buildChallenge', () => {
     expect([...kinds]).toEqual(['zh-to-pinyin']);
   });
 
+  it('ra đề chấm được khi từ chỉ còn chữ Hán', () => {
+    const bare = word({
+      pinyin: '',
+      meanings: { vi: [], en: [] },
+      aliases: { vi: [], en: [], pinyin: [] },
+    });
+    const challenge = buildChallenge(bare, () => 0);
+    // Chữ Hán là thứ duy nhất chắc chắn có, nên phải lấy nó làm đáp án thì người
+    // học mới gõ đúng được và nút gợi ý mới mở ra được thứ gì.
+    expect(challenge.answerKind).toBe('hanzi');
+    expect(gradeChallenge(challenge, '爱', false).verdict).toBe('correct');
+    expect(hintUnits(challenge)).toEqual(['爱']);
+  });
+
   it('không vượt mảng khi bộ sinh trả về giá trị ở biên', () => {
     expect(buildChallenge(word(), () => 1).kind).toBe('pinyin-to-meaning');
     expect(buildChallenge(word(), () => Number.NaN).kind).toBe('vi-to-zh');

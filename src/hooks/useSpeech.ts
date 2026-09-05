@@ -1,9 +1,18 @@
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { createTtsAdapter, type SpeechLang, type TtsAdapter } from '../lib/speech/index.ts';
 import { useSettings } from './settings-context.ts';
 
 /** Một bộ đọc dùng chung cho cả ứng dụng, tránh tạo lại và tránh chồng tiếng. */
 let sharedAdapter: TtsAdapter | null = null;
+
+/**
+ * Chỗ dùng hook nào đang chiếm bộ đọc dùng chung.
+ *
+ * Bộ đọc chỉ có một, nên lúc tháo chỉ chỗ đang phát mới được dừng nó. Không phân biệt
+ * thì tháo một nút loa bất kỳ (thanh gợi ý biến mất sau khi chấm bài, đóng hộp tra từ,
+ * đổi từ...) sẽ cắt ngang tiếng mà chỗ khác đang đọc dở.
+ */
+let speakingOwner: object | null = null;
 
 function getAdapter(): TtsAdapter {
   sharedAdapter ??= createTtsAdapter();
@@ -33,6 +42,8 @@ export interface UseSpeechResult {
 export function useSpeech(): UseSpeechResult {
   const { settings } = useSettings();
   const adapter = useMemo(() => getAdapter(), []);
+  // Thẻ nhận dạng riêng của mỗi chỗ dùng hook, để biết ai đang chiếm bộ đọc.
+  const ownerRef = useRef<object>({});
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>(() => adapter.listVoices());
   const [speaking, setSpeaking] = useState(false);
 
@@ -57,6 +68,8 @@ export function useSpeech(): UseSpeechResult {
   const speak = useCallback(
     async (text: string, lang: SpeechLang = 'zh-CN', rateOverride?: number) => {
       if (text.trim() === '') return;
+      const owner = ownerRef.current;
+      speakingOwner = owner;
       setSpeaking(true);
       try {
         await adapter.speak(text, {
@@ -65,6 +78,8 @@ export function useSpeech(): UseSpeechResult {
           voiceUri: lang === 'zh-CN' ? settings.preferredVoiceUri : null,
         });
       } finally {
+        // Chỗ khác đã giành bộ đọc trong lúc chờ thì đừng xoá dấu của họ.
+        if (speakingOwner === owner) speakingOwner = null;
         setSpeaking(false);
       }
     },
@@ -75,6 +90,8 @@ export function useSpeech(): UseSpeechResult {
     async (parts: readonly string[], lang: SpeechLang = 'zh-CN', rateOverride?: number) => {
       const usable = parts.filter((p) => p.trim() !== '');
       if (usable.length === 0) return;
+      const owner = ownerRef.current;
+      speakingOwner = owner;
       setSpeaking(true);
       try {
         await adapter.speakSequence(
@@ -87,6 +104,7 @@ export function useSpeech(): UseSpeechResult {
           260,
         );
       } finally {
+        if (speakingOwner === owner) speakingOwner = null;
         setSpeaking(false);
       }
     },
@@ -94,11 +112,22 @@ export function useSpeech(): UseSpeechResult {
   );
 
   const cancel = useCallback(() => {
+    // Người học bấm dừng thì bộ đọc im hẳn, không còn ai chiếm nữa.
     adapter.cancel();
+    speakingOwner = null;
     setSpeaking(false);
   }, [adapter]);
 
-  useEffect(() => () => adapter.cancel(), [adapter]);
+  useEffect(
+    () => () => {
+      // Chỉ dừng đúng tiếng do chính chỗ này phát: bộ đọc là của chung, tháo một nút loa
+      // không được cắt ngang tiếng chỗ khác đang đọc.
+      if (speakingOwner !== ownerRef.current) return;
+      speakingOwner = null;
+      adapter.cancel();
+    },
+    [adapter],
+  );
 
   return {
     supported: adapter.isSupported(),

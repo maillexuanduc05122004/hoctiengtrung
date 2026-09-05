@@ -102,8 +102,10 @@ function availableKinds(word: VocabularyWord): TypingPromptKind[] {
         return hasPinyin && (hasVi || hasEn);
     }
   });
-  // Chữ Hán thì từ nào cũng có, nên vẫn còn một dạng đề ra được trong mọi trường hợp.
-  return kinds.length > 0 ? kinds : ['zh-to-pinyin'];
+  // Hết sạch dữ liệu thì chữ Hán vẫn còn, nên lui về dạng lấy chữ Hán làm ĐÁP ÁN.
+  // Lui về "chữ Hán -> pinyin" mới là hỏng: đáp án của dạng đó là pinyin, mà đúng
+  // lúc này pinyin rỗng, nên người học gõ gì cũng sai và nút gợi ý không mở được gì.
+  return kinds.length > 0 ? kinds : ['vi-to-zh'];
 }
 
 function meaningToHanzi(word: VocabularyWord, kind: 'vi-to-zh' | 'en-to-zh'): TypingChallenge {

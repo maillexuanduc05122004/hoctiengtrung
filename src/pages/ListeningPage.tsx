@@ -114,11 +114,9 @@ export function ListeningPage() {
       {current !== null ? (
         <IconButton
           icon={starred ? 'star-filled' : 'star'}
-          label={
-            starred
-              ? `Bỏ đánh dấu từ ${current.simplified}`
-              : `Đánh dấu từ ${current.simplified} để ôn lại`
-          }
+          // Nhãn không nhắc chữ Hán: IconButton dùng nhãn này làm cả title lẫn
+          // aria-label, mà chế độ nghe giấu chữ Hán cho tới khi trả lời xong.
+          label={starred ? 'Bỏ đánh dấu từ này' : 'Đánh dấu từ này để ôn lại'}
           pressed={starred}
           onClick={() => {
             void session.toggleStar(current.id);

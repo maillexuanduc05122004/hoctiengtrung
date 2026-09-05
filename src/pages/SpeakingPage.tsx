@@ -59,7 +59,10 @@ function parseLevels(raw: string, fallback: string): HskLevel[] {
 }
 
 function parsePool(raw: string | null): PoolKind {
-  const found = POOL_VALUES.find((value) => value === raw);
+  // 'lesson' chỉ hợp lệ khi địa chỉ có kèm tham số `lesson`, nên không nhận nó ở
+  // đây: `?pool=lesson` trơ trọi cho hàng đợi rỗng mà bảng tuỳ chọn lại giấu hẳn
+  // phần chọn nguồn từ, người học không đổi sang nguồn khác được.
+  const found = POOL_VALUES.find((value) => value === raw && value !== 'lesson');
   // Mặc định là "trộn": người mở thẳng đường dẫn thường muốn học tiếp, không muốn chọn.
   return found ?? 'mixed';
 }

@@ -118,9 +118,11 @@ export function TypingRound({ session, word, title, subtitle }: TypingRoundProps
         total={session.stats.total}
         subtitle={subtitle}
         right={
+          // Nhãn không nhắc chữ Hán: `IconButton` gán nhãn vào cả `title`, mà những
+          // dạng đề hỏi chữ Hán lấy chính chữ đó làm đáp án — rê chuột là lộ bài.
           <IconButton
             icon={starred ? 'star-filled' : 'star'}
-            label={starred ? `Bỏ đánh dấu từ ${word.simplified}` : `Đánh dấu từ ${word.simplified}`}
+            label={starred ? 'Bỏ đánh dấu từ này' : 'Đánh dấu từ này'}
             pressed={starred}
             onClick={() => void session.toggleStar(word.id)}
           />

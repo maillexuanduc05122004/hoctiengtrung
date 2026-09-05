@@ -61,6 +61,15 @@ export function SearchField({
         placeholder={placeholder}
         onChange={(event) => onChange(event.target.value)}
         onKeyDown={(event) => {
+          // Ô này tìm ngay trong lúc gõ nên Enter không có việc gì để làm. Phải
+          // chặn hẳn: hộp tra từ được mở giữa lúc làm bài nên có khi nằm trong
+          // form gõ đáp án, để nguyên thì Enter (phím "tìm kiếm" của bàn phím
+          // ảo) chấm luôn câu đang làm rồi hộp tra từ biến mất. Đang gõ dở bằng
+          // bộ gõ tiếng Trung thì Enter là để chốt chữ, không đụng vào.
+          if (event.key === 'Enter' && !event.nativeEvent.isComposing) {
+            event.preventDefault();
+            return;
+          }
           // Phím Esc xoá nhanh ô tìm kiếm. Trong hộp trượt, phím này đã bị tấm
           // trượt bắt trước để đóng lại nên ở đây chỉ có tác dụng trên trang.
           if (event.key === 'Escape' && value !== '') onChange('');
