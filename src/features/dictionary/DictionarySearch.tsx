@@ -103,8 +103,10 @@ export function DictionarySearch({ autoFocus = false, onSelect }: DictionarySear
                 <WordRow
                   word={word}
                   displayMode={settings.displayMode}
+                  hidePinyin={settings.hidePinyin}
                   onSelect={onSelect}
                   showLevel
+                  showTraditional={settings.showTraditional}
                 />
               </li>
             ))}
@@ -156,8 +158,10 @@ export function DictionarySearch({ autoFocus = false, onSelect }: DictionarySear
               <WordRow
                 word={hit.word}
                 displayMode={settings.displayMode}
+                hidePinyin={settings.hidePinyin}
                 onSelect={onSelect}
                 showLevel
+                showTraditional={settings.showTraditional}
               />
             </li>
           ))}

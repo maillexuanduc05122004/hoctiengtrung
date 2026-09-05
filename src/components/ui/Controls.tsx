@@ -104,17 +104,22 @@ export function Toggle({ label, description, checked, onChange }: ToggleProps) {
         aria-checked={checked}
         aria-label={label}
         onClick={() => onChange(!checked)}
-        className={[
-          'relative h-6 w-11 shrink-0 rounded-full border transition-colors duration-150',
-          checked ? 'border-teal bg-teal' : 'border-line-strong bg-sunken',
-        ].join(' ')}
+        className="tap flex shrink-0 items-center justify-center"
       >
+        {/* Rãnh công tắc nằm gọn trong vùng chạm 2,75rem nên kích thước hiển thị giữ nguyên. */}
         <span
           className={[
-            'block h-4.5 w-4.5 rounded-full bg-surface shadow-sm transition-transform duration-150',
-            checked ? 'translate-x-[1.4rem]' : 'translate-x-[0.15rem]',
+            'flex h-6 w-11 items-center rounded-full border transition-colors duration-150',
+            checked ? 'border-teal bg-teal' : 'border-line-strong bg-sunken',
           ].join(' ')}
-        />
+        >
+          <span
+            className={[
+              'block h-4.5 w-4.5 rounded-full bg-surface shadow-sm transition-transform duration-150',
+              checked ? 'translate-x-[1.4rem]' : 'translate-x-[0.15rem]',
+            ].join(' ')}
+          />
+        </span>
       </button>
     </div>
   );

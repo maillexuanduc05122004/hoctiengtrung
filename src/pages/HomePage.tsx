@@ -191,73 +191,85 @@ export function HomePage() {
           >
             Trình duyệt đang chặn bộ nhớ cục bộ hoặc dữ liệu chưa sẵn sàng. Thử tải lại trang.
           </Notice>
-        ) : isNewLearner ? (
+        ) : (
           <div
             className="min-w-0"
           >
-            <p
-              className="text-[1.125rem] font-semibold tracking-tight text-ink"
-            >
-              Bắt đầu buổi học đầu tiên
-            </p>
-            <p
-              className="mt-1.5 max-w-[34rem] text-[0.9375rem] leading-relaxed text-ink-soft"
-            >
-              Bạn chưa học từ nào. Mỗi buổi khoảng mười từ; học xong buổi đầu tiên, ứng dụng sẽ tự
-              xếp lịch ôn cho từng từ.
-            </p>
-            <div
-              className="mt-4"
-            >
-              <ActionLink
-                to={
-                  suggestion !== null
-                    ? `/buoi-hoc/${suggestion.lesson.id}`
-                    : studyLink('/the', 'new', levels)
-                }
+            {/* Người mới vẫn được mời vào buổi đầu tiên, nhưng lời mời nằm thêm
+                bên trên chứ không thay chỗ số từ cần ôn và nút "Học tiếp". */}
+            {isNewLearner ? (
+              <div
+                className="mb-6 min-w-0"
               >
-                Học buổi đầu tiên
-              </ActionLink>
-            </div>
-          </div>
-        ) : (
-          <div
-            className="flex min-w-0 flex-wrap items-end justify-between"
-          >
-            <div
-              className="min-w-0"
-            >
-              <p
-                className="text-[0.8125rem] text-ink-faint"
-              >
-                Cần ôn hôm nay
-              </p>
-              <p
-                className="mt-1 flex items-baseline"
-              >
-                <span
-                  className="text-[2.75rem] leading-none font-semibold tabular-nums text-cinnabar"
+                <p
+                  className="text-[1.125rem] font-semibold tracking-tight text-ink"
                 >
-                  {summary.dueToday}
-                </span>
-                <span
-                  className="ml-2 text-[0.9375rem] text-ink-soft"
+                  Bắt đầu buổi học đầu tiên
+                </p>
+                <p
+                  className="mt-1.5 max-w-[34rem] text-[0.9375rem] leading-relaxed text-ink-soft"
                 >
-                  từ
-                </span>
-              </p>
-              <p
-                className="mt-1.5 max-w-[30rem] text-[0.875rem] leading-relaxed text-ink-soft"
-              >
-                {summary.dueToday === 0
-                  ? `Không còn từ nào tới hạn. Còn ${summary.newAvailable} từ mới chưa học.`
-                  : `Còn ${summary.newAvailable} từ mới chưa học trong các cấp đang chọn.`}
-              </p>
-            </div>
+                  Bạn chưa học từ nào. Mỗi buổi khoảng mười từ; học xong buổi đầu tiên, ứng dụng sẽ
+                  tự xếp lịch ôn cho từng từ.
+                </p>
+                <div
+                  className="mt-4"
+                >
+                  <ActionLink
+                    to={
+                      suggestion !== null
+                        ? `/buoi-hoc/${suggestion.lesson.id}`
+                        : studyLink('/the', 'new', levels)
+                    }
+                  >
+                    Học buổi đầu tiên
+                  </ActionLink>
+                </div>
+              </div>
+            ) : null}
             <div
-              className="mt-4 shrink-0 xsm:w-full"
+              className="flex min-w-0 flex-wrap items-end justify-between"
             >
-              <ActionLink to={studyLink('/the', 'mixed', levels)}>Học tiếp</ActionLink>
+              <div
+                className="min-w-0"
+              >
+                <p
+                  className="text-[0.8125rem] text-ink-faint"
+                >
+                  Cần ôn hôm nay
+                </p>
+                <p
+                  className="mt-1 flex items-baseline"
+                >
+                  <span
+                    className="text-[2.75rem] leading-none font-semibold tabular-nums text-cinnabar"
+                  >
+                    {summary.dueToday}
+                  </span>
+                  <span
+                    className="ml-2 text-[0.9375rem] text-ink-soft"
+                  >
+                    từ
+                  </span>
+                </p>
+                <p
+                  className="mt-1.5 max-w-[30rem] text-[0.875rem] leading-relaxed text-ink-soft"
+                >
+                  {summary.dueToday === 0
+                    ? `Không còn từ nào tới hạn. Còn ${summary.newAvailable} từ mới chưa học.`
+                    : `Còn ${summary.newAvailable} từ mới chưa học trong các cấp đang chọn.`}
+                </p>
+              </div>
+              <div
+                className="mt-4 shrink-0 xsm:w-full"
+              >
+                <ActionLink
+                  to={studyLink('/the', 'mixed', levels)}
+                  tone={isNewLearner ? 'secondary' : 'primary'}
+                >
+                  Học tiếp
+                </ActionLink>
+              </div>
             </div>
           </div>
         )}
@@ -464,26 +476,26 @@ export function HomePage() {
         </Section>
       ) : null}
 
-      {isNewLearner ? null : (
-        <Section
-          id="tu-hay-sai"
-          title="Từ thường trả lời sai"
-          action={
-            <Link
-              to="/tien-do"
-              className="tap inline-flex items-center justify-end text-[0.8125rem] text-ink-soft underline underline-offset-2"
-            >
-              Xem tất cả
-            </Link>
-          }
-        >
-          <TroubleWords
-            limit={5}
-            levels={levels}
-            emptyMessage="Chưa có từ nào bị trả lời sai. Những từ hay nhầm sẽ xuất hiện ở đây."
-          />
-        </Section>
-      )}
+      {/* Mục này luôn có mặt; khi chưa có từ nào sai thì TroubleWords tự hiện
+          lời nhắn trống, đúng như trang chủ phải hiển thị đủ các mục. */}
+      <Section
+        id="tu-hay-sai"
+        title="Từ thường trả lời sai"
+        action={
+          <Link
+            to="/tien-do"
+            className="tap inline-flex items-center justify-end text-[0.8125rem] text-ink-soft underline underline-offset-2"
+          >
+            Xem tất cả
+          </Link>
+        }
+      >
+        <TroubleWords
+          limit={5}
+          levels={levels}
+          emptyMessage="Chưa có từ nào bị trả lời sai. Những từ hay nhầm sẽ xuất hiện ở đây."
+        />
+      </Section>
     </div>
   );
 }

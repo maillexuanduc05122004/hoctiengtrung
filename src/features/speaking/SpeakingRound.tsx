@@ -55,6 +55,10 @@ const SLOW_RATE = 0.7;
 const HONEST_NOTE =
   'Đây chỉ là kiểm tra xem hệ thống có nghe ra đúng từ hay không, không phải điểm phát âm hay điểm thanh điệu. Máy vẫn có thể nghe nhầm dù bạn đọc đúng, và ngược lại.';
 
+/** Lượt nghe kết thúc mà không có chữ nào, và trình duyệt cũng chẳng báo lỗi gì. */
+const NO_TRANSCRIPT_MESSAGE =
+  'Chưa nghe được chữ nào. Hãy bấm nút nói rồi đọc to và rõ hơn một chút.';
+
 /** Câu ví dụ đầu tiên đủ ngắn để đọc thành tiếng, hoặc null nếu không có câu nào. */
 function pickExample(word: VocabularyWord): WordExample | null {
   const usable = word.examples.find(
@@ -92,6 +96,9 @@ export function SpeakingRound({
   const aliveRef = useRef(true);
   const transcriptRef = useRef('');
   const submittedRef = useRef(false);
+  // Chính người học bỏ lượt nghe giữa chừng thì không phải nhắc gì; chỉ lượt tự kết thúc
+  // mới cần lời nhắc khi không nghe ra chữ nào.
+  const cancelledRef = useRef(false);
   // Mốc thời gian đặt trong effect chứ không đặt lúc render: render có thể chạy lại
   // nhiều lần, còn effect gắn kết chỉ chạy đúng một lần cho mỗi từ.
   const startedAtRef = useRef(0);
@@ -151,6 +158,7 @@ export function SpeakingRound({
     // Tiếng của bộ đọc mẫu sẽ lọt thẳng vào micro nếu còn đang phát.
     cancel();
     resetAttempt();
+    cancelledRef.current = false;
     setListening(true);
     setAttempts((count) => count + 1);
 
@@ -173,8 +181,17 @@ export function SpeakingRound({
         if (!aliveRef.current) return;
         setListening(false);
         const heard = transcriptRef.current.trim();
-        // Không nghe được gì thì không có gì để chấm; thông báo lỗi đã đủ rõ.
-        if (heard === '') return;
+        if (heard === '') {
+          // Không có gì để chấm. Trình duyệt thường bắn 'error' kèm theo, nhưng không phải
+          // lúc nào cũng vậy: hạn thoát kẹt sau stop() chốt lượt nghe mà không kèm lỗi nào.
+          // Im lặng ở đây thì màn hình chẳng còn dòng nào, người học không biết đã xảy ra gì.
+          if (!cancelledRef.current) {
+            setProblem(
+              (current) => current ?? { code: 'no-transcript', message: NO_TRANSCRIPT_MESSAGE },
+            );
+          }
+          return;
+        }
         setAssessing(true);
         provider
           .assess({
@@ -206,6 +223,7 @@ export function SpeakingRound({
 
   const handleTargetChange = useCallback(
     (next: SpeakingTarget) => {
+      cancelledRef.current = true;
       recognizer.abort();
       cancel();
       setTarget(next);
@@ -221,6 +239,7 @@ export function SpeakingRound({
       // Chạm hai lần thật nhanh trên điện thoại có thể ghi hai lượt cho cùng một từ.
       if (submittedRef.current) return;
       submittedRef.current = true;
+      cancelledRef.current = true;
       recognizer.abort();
       cancel();
       const startedAt = startedAtRef.current;
@@ -237,6 +256,7 @@ export function SpeakingRound({
   );
 
   const handleSkip = useCallback(() => {
+    cancelledRef.current = true;
     recognizer.abort();
     cancel();
     onSkip();

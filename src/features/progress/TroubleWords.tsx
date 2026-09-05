@@ -124,6 +124,8 @@ export function TroubleWords({
             <WordRow
               word={word}
               displayMode={settings.displayMode}
+              hidePinyin={settings.hidePinyin}
+              showTraditional={settings.showTraditional}
             />
             <p
               className="-mt-1.5 min-w-0 pb-3 text-[0.75rem] leading-relaxed break-words text-ink-faint"

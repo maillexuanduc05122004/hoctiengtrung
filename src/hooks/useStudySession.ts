@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import {
+  countByMode,
   dayKey,
   getCard,
   getCards,
@@ -62,6 +63,8 @@ export interface StudySession {
   toggleStar: (wordId: string) => Promise<void>;
 }
 
+const MODES: readonly StudyMode[] = ['flashcards', 'typing', 'listening', 'speaking'];
+
 const EMPTY_STATS: SessionStats = { total: 0, done: 0, correct: 0, close: 0, wrong: 0, hinted: 0 };
 const EMPTY_QUEUE: VocabularyWord[] = [];
 const EMPTY_STARRED: ReadonlySet<string> = new Set<string>();
@@ -71,6 +74,24 @@ interface LoadedSession {
   key: string;
   queue: VocabularyWord[];
   starred: ReadonlySet<string>;
+}
+
+/**
+ * Chế độ người học hay sai nhất, tính trên cả nhật ký ôn của từ chứ không phải
+ * chế độ vừa sai: sai chín lần khi gõ đáp án rồi sai một lần khi lật thẻ thì chỗ
+ * yếu vẫn là gõ đáp án. Hoà nhau thì lấy chế độ vừa sai vì đó là bằng chứng mới nhất.
+ */
+function weakestModeOf(
+  counts: Record<StudyMode, { total: number; wrong: number }>,
+  latest: StudyMode,
+): StudyMode {
+  let weakest = latest;
+  for (const mode of MODES) {
+    if (counts[mode].wrong > counts[weakest].wrong) {
+      weakest = mode;
+    }
+  }
+  return weakest;
 }
 
 /** Trộn mảng theo Fisher-Yates để thứ tự từ không lặp lại giữa các phiên. */
@@ -210,8 +231,25 @@ export function useStudySession(options: StudySessionOptions): StudySession {
       try {
         const existing = (await getCard(word.id)) ?? createInitialCard(word.id);
         const updated = applyReview(existing, rating, now);
+
+        // Chỗ yếu chỉ thay đổi khi có câu sai, nên câu đúng khỏi phải đọc lại nhật ký.
+        let weakestMode = updated.weakestMode;
+        if (input.verdict === 'wrong') {
+          const counts = await countByMode(word.id);
+          // Nhật ký chưa có câu vừa trả lời nên phải cộng tay câu này vào chế độ hiện tại.
+          counts[mode].wrong += 1;
+          weakestMode = weakestModeOf(counts, mode);
+        }
+
         await saveCard({
           ...updated,
+          // Hai cột thống kê phải đếm theo kết quả chấm bài, không theo mức FSRS.
+          // Mức FSRS còn hạ điểm khi người học bấm gợi ý, nên một câu trả lời đúng
+          // nhờ gợi ý chỉ còn là "khó" và không rơi vào cột nào cả. Câu "gần đúng"
+          // là mức giữa nên không tính vào cả hai, giống cách thống kê ngày và
+          // "chế độ hay sai" vẫn đang lấy mốc theo verdict.
+          correctCount: existing.correctCount + (input.verdict === 'correct' ? 1 : 0),
+          wrongCount: existing.wrongCount + (input.verdict === 'wrong' ? 1 : 0),
           lastMistake:
             input.verdict === 'correct'
               ? updated.lastMistake
@@ -222,7 +260,7 @@ export function useStudySession(options: StudySessionOptions): StudySession {
                   expected: input.expected,
                   verdict: input.verdict,
                 },
-          weakestMode: input.verdict === 'wrong' ? mode : updated.weakestMode,
+          weakestMode,
         });
         await recordReview({
           wordId: word.id,

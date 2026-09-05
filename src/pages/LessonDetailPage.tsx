@@ -220,6 +220,8 @@ export function LessonDetailPage() {
                     <WordRow
                       word={word}
                       displayMode={settings.displayMode}
+                      hidePinyin={settings.hidePinyin}
+                      showTraditional={settings.showTraditional}
                     />
                   </div>
                   <div

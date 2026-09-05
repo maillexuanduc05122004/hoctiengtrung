@@ -99,7 +99,9 @@ export function DictionarySheet({ open, onClose, onInsert, initialQuery }: Dicti
                 <WordRow
                   word={word}
                   displayMode={settings.displayMode}
+                  hidePinyin={settings.hidePinyin}
                   onInsert={insertHandler}
+                  showTraditional={settings.showTraditional}
                 />
               </li>
             ))}
@@ -140,8 +142,10 @@ export function DictionarySheet({ open, onClose, onInsert, initialQuery }: Dicti
             <WordRow
               word={hit.word}
               displayMode={settings.displayMode}
+              hidePinyin={settings.hidePinyin}
               onInsert={insertHandler}
               showLevel
+              showTraditional={settings.showTraditional}
             />
           </li>
         ))}

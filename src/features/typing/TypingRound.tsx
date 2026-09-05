@@ -206,10 +206,11 @@ export function TypingRound({ session, word, title, subtitle }: TypingRoundProps
                 <div
                   className="min-w-0"
                 >
+                  {/* Bảng lộ đáp án cũng theo cài đặt "Hiện thêm chữ phồn thể" như đề bài. */}
                   <WordFace
                     word={word}
                     size="lg"
-                    showTraditional
+                    showTraditional={settings.showTraditional}
                   />
                   <PinyinLine
                     pinyin={word.pinyin}

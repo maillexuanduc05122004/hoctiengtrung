@@ -22,7 +22,9 @@ const POOL_OPTIONS: readonly SegmentedOption<PoolKind>[] = [
   { value: 'due', label: 'Cần ôn' },
   { value: 'new', label: 'Từ mới' },
   { value: 'starred', label: 'Đã đánh dấu', srLabel: 'Từ đã đánh dấu' },
-  { value: 'mixed', label: 'Trộn', srLabel: 'Trộn tất cả nguồn từ' },
+  // Nhánh 'mixed' trong useStudySession chỉ gộp từ cần ôn với từ mới, không lấy
+  // từ đã đánh dấu, nên nhãn đọc màn hình phải nói đúng phạm vi đó.
+  { value: 'mixed', label: 'Trộn', srLabel: 'Trộn từ cần ôn và từ mới' },
 ];
 
 /**

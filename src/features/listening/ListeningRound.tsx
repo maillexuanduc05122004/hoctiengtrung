@@ -601,9 +601,10 @@ export function ListeningRound({
           <div
             className="mt-4 min-w-0"
           >
+            {/* Theo đúng cách hiển thị người học đã chọn, như câu ví dụ bên dưới. */}
             <MeaningList
               word={word}
-              displayMode="vi-en-zh"
+              displayMode={displayMode}
             />
           </div>
 

@@ -47,6 +47,8 @@ const PART_OF_SPEECH_VI: Record<string, string> = {
   Prefix: 'tiền tố',
   Suffix: 'hậu tố',
   Pr: 'danh từ riêng',
+  Intj: 'thán từ',
+  Phonetic: 'từ tượng thanh',
 };
 
 export function Flashcard({

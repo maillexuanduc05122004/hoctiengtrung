@@ -300,7 +300,7 @@ export function ProgressPage() {
           <Block
             id="theo-che-do"
             title="Theo chế độ luyện tập"
-            note="Mỗi từ được xếp vào chế độ khiến bạn trả lời sai gần đây nhất, nên đây là số từ đang vướng ở mỗi chế độ chứ không phải số lượt ôn."
+            note="Mỗi từ được xếp vào chế độ khiến bạn trả lời sai nhiều lần nhất, nên đây là số từ đang vướng ở mỗi chế độ chứ không phải số lượt ôn."
           >
             {modeLoading ? (
               <p

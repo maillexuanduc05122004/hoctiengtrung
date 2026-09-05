@@ -1,4 +1,5 @@
 import { IconButton } from '../../components/ui/Button.tsx';
+import { useSettings } from '../../hooks/settings-context.ts';
 import { useSpeech } from '../../hooks/useSpeech.ts';
 
 export interface SpeakerButtonProps {
@@ -16,6 +17,14 @@ export interface SpeakerButtonProps {
 const SLOW_RATE = 0.7;
 
 /**
+ * Khi người học đã chọn sẵn mức chậm nhất, nút nghe chậm phải lùi thêm một bậc nữa,
+ * nếu không hai nút phát ra y hệt nhau và nút nghe chậm không còn tác dụng. 0,15 đúng
+ * bằng khoảng cách giữa hai mức trong cài đặt, và 0,7 − 0,15 vẫn nằm trên ngưỡng 0,5
+ * mà bộ đọc của trình duyệt chấp nhận.
+ */
+const SLOW_STEP = 0.15;
+
+/**
  * Nút nghe phát âm.
  *
  * Chỉ phát khi người dùng bấm, không bao giờ tự phát. Bấm lần nữa trong lúc đang
@@ -31,6 +40,7 @@ export function SpeakerButton({
   size = 1.125,
 }: SpeakerButtonProps) {
   const { supported, speaking, speak, cancel } = useSpeech();
+  const { settings } = useSettings();
 
   const content = text.trim();
   if (content === '') return null;
@@ -42,7 +52,8 @@ export function SpeakerButton({
       return;
     }
     // `speak` không bao giờ reject nên chỉ cần thả trôi lời hứa.
-    void speak(content, lang, slow ? SLOW_RATE : rate);
+    const slowRate = Math.min(SLOW_RATE, (rate ?? settings.speechRate) - SLOW_STEP);
+    void speak(content, lang, slow ? slowRate : rate);
   };
 
   return (

@@ -241,7 +241,7 @@ export function useSuggestedLesson(
 
 export interface ModeStat {
   mode: StudyMode;
-  /** Số từ mà lần trả lời sai gần nhất rơi vào chế độ này. */
+  /** Số từ mà chế độ này đang là chỗ hay sai nhất. */
   words: number;
 }
 
@@ -255,9 +255,9 @@ export interface ModeBreakdownState {
 /**
  * Chế độ nào đang làm người học vấp nhiều nhất.
  *
- * Mỗi thẻ chỉ giữ một `weakestMode` là chế độ của lần sai gần nhất, nên con số
- * ở đây là "số từ đang vướng ở chế độ đó", không phải tổng số lượt ôn. Giao
- * diện phải nói đúng như vậy để không biến nó thành một chỉ số bịa.
+ * Mỗi thẻ chỉ giữ một `weakestMode` là chế độ mà từ đó bị sai nhiều lần nhất,
+ * nên con số ở đây là "số từ đang vướng ở chế độ đó", không phải tổng số lượt
+ * ôn. Giao diện phải nói đúng như vậy để không biến nó thành một chỉ số bịa.
  */
 export function useModeBreakdown(refreshToken = 0): ModeBreakdownState {
   const { index, loading: vocabularyLoading } = useVocabulary();
