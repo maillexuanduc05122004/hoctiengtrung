@@ -1,8 +1,10 @@
 import 'fake-indexeddb/auto';
 import { beforeEach, describe, expect, it } from 'vitest';
-import { getCard, saveCard } from './cards.ts';
+import { getCard, saveCard, toggleStar } from './cards.ts';
 import { db, resetDatabase } from './database.ts';
+import { getRecentLookups, recordLookup } from './lookups.ts';
 import { getDailyStat, recordReview } from './reviews.ts';
+import { getSavedLessons, saveLesson } from './saved-lessons.ts';
 import {
   BACKUP_VERSION,
   exportProgress,
@@ -130,6 +132,8 @@ describe('saveSettings', () => {
       dailyGoal: 50,
       newPerDay: 15,
       activeLevels: [1, 2, 3],
+      lastLessonId: 'L2-B40',
+      lastBackupAt: 1741564800000,
     };
 
     await saveSettings(settings);
@@ -208,7 +212,7 @@ describe('exportProgress và importProgress', () => {
 
     const counts = await importProgress(json);
 
-    expect(counts).toEqual({ cards: 1, reviews: 1, days: 1 });
+    expect(counts).toEqual({ cards: 1, reviews: 1, days: 1, savedLessons: 0, lookups: 0 });
     expect(await getCard('L1-0001')).toEqual(SAMPLE_CARD);
     expect(await getDailyStat('2026-03-10')).toEqual({
       day: '2026-03-10',
@@ -337,6 +341,67 @@ describe('exportProgress và importProgress', () => {
 
     expect(await db.cards.count()).toBe(1);
     expect(await loadSettings()).toMatchObject({ dailyGoal: 45 });
+  });
+
+  it('mang theo sổ tay buổi học và lịch sử tra từ qua một vòng xuất rồi nạp', async () => {
+    await saveLesson('L2-B40', { at: 1_741_000_000_000 });
+    await recordLookup('L1-0007', { query: 'xin chào', at: 1_741_000_001_000 });
+    const json = await exportProgress();
+
+    await resetDatabase();
+    const counts = await importProgress(json);
+
+    expect(counts).toMatchObject({ savedLessons: 1, lookups: 1 });
+    expect(await getSavedLessons()).toEqual([{ lessonId: 'L2-B40', at: 1_741_000_000_000 }]);
+    expect(await getRecentLookups(10)).toEqual([
+      {
+        wordId: 'L1-0007',
+        at: 1_741_000_001_000,
+        count: 1,
+        query: 'xin chào',
+        source: 'search',
+      },
+    ]);
+  });
+
+  it('giữ nguyên mốc lưu của từng từ trong sổ tay', async () => {
+    await toggleStar('L1-0002', { at: 1_741_000_000_000 });
+    const json = await exportProgress();
+
+    await resetDatabase();
+    await importProgress(json);
+
+    expect((await getCard('L1-0002'))?.starredAt).toBe(1_741_000_000_000);
+  });
+
+  it('nạp được tệp cũ chưa biết tới sổ tay và lịch sử tra từ', async () => {
+    // Tệp người dùng đã tải về từ bản trước không có hai mảng này. Nếu bắt buộc
+    // phải có thì mọi bản sao lưu cũ thành vô dụng, nên chỉ coi là sổ tay rỗng.
+    const json = JSON.stringify({
+      version: BACKUP_VERSION,
+      exportedAt: 0,
+      cards: [SAMPLE_CARD],
+      reviews: [],
+      dailyStats: [],
+      settings: null,
+    });
+
+    const counts = await importProgress(json);
+
+    expect(counts).toMatchObject({ cards: 1, savedLessons: 0, lookups: 0 });
+    expect(await getSavedLessons()).toEqual([]);
+  });
+
+  it('ném lỗi khi sổ tay trong tệp sai kiểu', async () => {
+    const json = JSON.stringify({
+      version: BACKUP_VERSION,
+      cards: [],
+      reviews: [],
+      dailyStats: [],
+      savedLessons: [{ lessonId: 'L1-B01' }],
+    });
+
+    await expect(importProgress(json)).rejects.toThrow(/"savedLessons\[0\]\.at"/);
   });
 });
 

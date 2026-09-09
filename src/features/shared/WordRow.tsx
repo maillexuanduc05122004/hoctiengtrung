@@ -4,6 +4,7 @@ import { Chip } from '../../components/ui/Controls.tsx';
 import type { DisplayMode } from '../../types/settings.ts';
 import type { VocabularyWord } from '../../types/vocabulary.ts';
 import { MeaningList } from './MeaningList.tsx';
+import { SaveWordButton } from './SaveWordButton.tsx';
 import { SpeakerButton } from './SpeakerButton.tsx';
 
 export interface WordRowProps {
@@ -17,6 +18,13 @@ export interface WordRowProps {
   showLevel?: boolean;
   /** Hiện thêm chữ phồn thể nhỏ bên cạnh chữ giản thể khi hai cách viết khác nhau. */
   showTraditional?: boolean;
+  /**
+   * Từ này đang nằm trong sổ tay. Có `onToggleSave` thì dòng mọc thêm nút sao,
+   * để lưu ngay tại danh sách thay vì phải mở thêm một lớp hộp chi tiết nữa —
+   * lúc gặp một từ khó giữa giờ học chính là lúc muốn lưu nhất.
+   */
+  saved?: boolean;
+  onToggleSave?: (word: VocabularyWord) => void;
 }
 
 /**
@@ -37,6 +45,8 @@ export function WordRow({
   onSelect,
   showLevel = false,
   showTraditional = false,
+  saved = false,
+  onToggleSave,
 }: WordRowProps) {
   const [pinyinRevealed, setPinyinRevealed] = useState(false);
 
@@ -144,6 +154,14 @@ export function WordRow({
           label={`Nghe phát âm từ ${word.simplified}`}
           size={1.0625}
         />
+        {onToggleSave !== undefined ? (
+          <SaveWordButton
+            word={word.simplified}
+            saved={saved}
+            iconSize={1.0625}
+            onToggle={() => onToggleSave(word)}
+          />
+        ) : null}
         {onInsert !== undefined ? (
           <Button
             variant="quiet"

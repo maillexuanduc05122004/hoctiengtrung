@@ -49,8 +49,15 @@ export interface CardState {
   dueAt: number;
   /** Số bước đã qua trong giai đoạn học lần đầu hoặc học lại. */
   learningStep: number;
-  /** Người học đã đánh dấu từ này. */
+  /** Người học đã lưu từ này vào sổ tay. */
   starred: boolean;
+  /**
+   * Thời điểm lưu gần nhất, để sổ tay xếp từ mới lưu lên đầu.
+   *
+   * Không bắt buộc vì các thẻ tạo ra trước khi có sổ tay không có mốc này, và
+   * tệp sao lưu cũ cũng vậy. Thiếu mốc thì coi như đã lưu từ rất lâu rồi.
+   */
+  starredAt?: number;
   /** Chế độ mà người học hay trả lời sai nhất. */
   weakestMode: StudyMode | null;
   /** Lỗi gần nhất, để nhắc lại khi gặp lại từ. */
@@ -95,6 +102,37 @@ export interface DailyStat {
   studyMs: number;
 }
 
+/** Nơi phát sinh một lượt tra từ. */
+export type LookupSource = 'search' | 'scan';
+
+/**
+ * Một từ đã tra trong từ điển. Gộp theo từ chứ không ghi từng lượt, nên `at` là
+ * lần tra gần nhất còn `count` là tổng số lần.
+ */
+export interface LookupEntry {
+  /** Khoá chính. */
+  wordId: string;
+  at: number;
+  count: number;
+  /** Nội dung đã gõ ở lần tra gần nhất; rỗng khi từ đến từ phần quét đoạn văn. */
+  query: string;
+  source: LookupSource;
+}
+
+/**
+ * Một buổi học người dùng đã lưu để quay lại sau.
+ *
+ * Tách khỏi tiến độ học: lưu một buổi là ý định của người học ("để dành buổi
+ * này"), còn tiến độ là hệ quả của việc trả lời. Trộn hai thứ vào một bảng thì
+ * xoá tiến độ sẽ xoá luôn danh sách để dành, mà hai việc đó không liên quan.
+ */
+export interface SavedLesson {
+  /** Khoá chính, ví dụ "L2-B42". */
+  lessonId: string;
+  /** Thời điểm lưu, dùng để xếp mới trước cũ sau. */
+  at: number;
+}
+
 export interface StudyQueueOptions {
   levels: HskLevel[];
   /** Nguồn từ đưa vào hàng đợi. */
@@ -117,4 +155,8 @@ export interface ProgressSummary {
   lastSevenDays: DailyStat[];
   todayReviews: number;
   todayGoalReached: boolean;
+  /** Số từ đang nằm trong sổ tay, đếm trên toàn bộ kho chứ không theo cấp đang chọn. */
+  starredTotal: number;
+  /** Số buổi học đã lưu. */
+  savedLessonsTotal: number;
 }

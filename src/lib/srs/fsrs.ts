@@ -339,3 +339,45 @@ export function describeNextReview(card: CardState, now: number): string {
 
   return `Ôn lại sau ${Math.round(days / 365)} năm`;
 }
+
+/**
+ * Khoảng cách tới lần ôn kế tiếp, viết thật ngắn để nhét vừa một nút bấm.
+ *
+ * Ba nút "Chưa nhớ / Gần nhớ / Đã nhớ" là dữ liệu đầu vào của cả thuật toán,
+ * nhưng nếu người học không thấy hệ quả thì họ bấm theo cảm tính. Chuỗi này bỏ
+ * hẳn phần "Ôn lại sau" của `describeNextReview` vì nhãn nút đã nói điều đó rồi.
+ */
+export function shortInterval(card: CardState, now: number): string {
+  const remaining = card.dueAt - now;
+  if (!Number.isFinite(remaining) || remaining <= 0) return 'ngay';
+
+  const minutes = Math.round(remaining / MINUTE_MS);
+  if (minutes < 60) return `${Math.max(1, minutes)} phút`;
+
+  const hours = Math.round(remaining / (60 * MINUTE_MS));
+  if (hours < 24) return `${hours} giờ`;
+
+  const days = Math.round(remaining / DAY_MS);
+  if (days < 30) return `${days} ngày`;
+
+  const months = Math.round(days / 30);
+  if (months < 12) return `${months} tháng`;
+
+  return `${Math.round(days / 365)} năm`;
+}
+
+/**
+ * Xem trước hạn ôn nếu người học chấm thẻ này ở mức `verdict`.
+ *
+ * Chỉ tính chứ không ghi: `applyReview` là hàm thuần nên gọi ở đây an toàn, và
+ * lượt chấm thật vẫn đi qua đúng đường cũ.
+ */
+export function previewInterval(
+  card: CardState | null,
+  wordId: string,
+  verdict: AnswerVerdict,
+  now: number,
+): string {
+  const base = card ?? createInitialCard(wordId);
+  return shortInterval(applyReview(base, ratingFromAnswer(verdict, false), now), now);
+}

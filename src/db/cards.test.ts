@@ -2,13 +2,16 @@ import 'fake-indexeddb/auto';
 import { beforeEach, describe, expect, it } from 'vitest';
 import {
   countLearnedByWordIds,
+  countStarred,
   getCard,
   getCards,
   getDueCards,
   getNewWordIds,
+  getStarredCards,
   getStarredWordIds,
   getTroubleWords,
   saveCard,
+  setStar,
   toggleStar,
 } from './cards.ts';
 import { db, resetDatabase } from './database.ts';
@@ -196,6 +199,71 @@ describe('toggleStar và getStarredWordIds', () => {
     await toggleStar('L1-0009');
 
     expect(await getStarredWordIds(ALL)).toEqual(['L1-0001']);
+  });
+});
+
+describe('sổ tay từ vựng', () => {
+  it('xếp từ mới lưu lên đầu', async () => {
+    await toggleStar('L1-0001', { at: 1_000 });
+    await toggleStar('L1-0002', { at: 3_000 });
+    await toggleStar('L1-0003', { at: 2_000 });
+
+    expect((await getStarredCards()).map((card) => card.wordId)).toEqual([
+      'L1-0002',
+      'L1-0003',
+      'L1-0001',
+    ]);
+  });
+
+  it('đọc cả bảng nên thấy cả từ ngoài các cấp đang chọn', async () => {
+    await toggleStar('L3-0900', { at: 1_000 });
+
+    expect((await getStarredCards()).map((card) => card.wordId)).toEqual(['L3-0900']);
+    expect(await countStarred()).toBe(1);
+  });
+
+  it('bỏ lưu rồi lưu lại thì từ đó nhảy lên đầu, không giữ chỗ cũ', async () => {
+    await toggleStar('L1-0001', { at: 1_000 });
+    await toggleStar('L1-0002', { at: 2_000 });
+
+    await toggleStar('L1-0001', { at: 3_000 });
+    expect(await countStarred()).toBe(1);
+
+    await toggleStar('L1-0001', { at: 4_000 });
+
+    expect((await getStarredCards()).map((card) => card.wordId)).toEqual(['L1-0001', 'L1-0002']);
+  });
+
+  it('bỏ lưu thì xoá luôn mốc lưu', async () => {
+    await toggleStar('L1-0001', { at: 1_000 });
+    await toggleStar('L1-0001', { at: 2_000 });
+
+    expect((await getCard('L1-0001'))?.starredAt).toBeUndefined();
+  });
+
+  it('thẻ lưu từ trước khi có mốc lưu bị xếp xuống cuối chứ không lên đầu', async () => {
+    await saveCard(studiedCard('L1-0004', { starred: true }));
+    await toggleStar('L1-0001', { at: 1_000 });
+
+    expect((await getStarredCards()).map((card) => card.wordId)).toEqual(['L1-0001', 'L1-0004']);
+  });
+
+  it('setStar ghi thẳng trạng thái, gọi lại nhiều lần vẫn ra một kết quả', async () => {
+    expect(await setStar('L1-0001', true, { at: 1_000 })).toBe(true);
+    expect(await setStar('L1-0001', true, { at: 2_000 })).toBe(true);
+
+    expect(await countStarred()).toBe(1);
+    expect((await getCard('L1-0001'))?.starredAt).toBe(2_000);
+
+    expect(await setStar('L1-0001', false)).toBe(false);
+    expect(await countStarred()).toBe(0);
+  });
+
+  it('lưu một từ chưa học không biến nó thành từ đã học', async () => {
+    await toggleStar('L1-0001', { at: 1_000 });
+
+    expect(await getNewWordIds(ALL, 10)).toContain('L1-0001');
+    expect(await countLearnedByWordIds(ALL)).toBe(0);
   });
 });
 

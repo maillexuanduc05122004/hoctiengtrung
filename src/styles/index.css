@@ -18,15 +18,26 @@
     'PingFang SC', 'Microsoft YaHei', 'Hiragino Sans GB', serif;
   --font-mono: 'Cascadia Mono', 'SF Mono', 'Roboto Mono', ui-monospace, monospace;
 
-  /* Nền giấy ấm và mực đen. */
+  /*
+    Nền giấy ấm và mực đen.
+
+    Các giá trị chữ và viền ở đây đều đã được đo bằng công thức tương phản của
+    WCAG chứ không chọn bằng mắt:
+    - `ink-faint` là chữ phụ thật (nhãn, chú thích) nên phải đạt 4,5:1 trên cả
+      ba nền: 4,96 trên paper, 5,49 trên surface, 4,54 trên sunken.
+    - `line-strong` là viền của nút và ô nhập, tức là thành phần giao diện, nên
+      phải đạt 3:1: 3,32 trên surface, 3,00 trên paper.
+    - `line` chỉ là đường phân cách trang trí nên không có ngưỡng bắt buộc,
+      nhưng vẫn đậm hơn trước để trang không phẳng lì.
+  */
   --color-paper: #f6f1e7;
   --color-surface: #fffdf8;
   --color-sunken: #eee7d9;
   --color-ink: #201d18;
   --color-ink-soft: #565047;
-  --color-ink-faint: #8b8377;
-  --color-line: #ddd3c1;
-  --color-line-strong: #c6b9a2;
+  --color-ink-faint: #6f6759;
+  --color-line: #cfc3ad;
+  --color-line-strong: #9a8a6a;
 
   /* Đỏ son. */
   --color-cinnabar: #b03a28;
@@ -38,9 +49,9 @@
   --color-teal-ink: #24544d;
   --color-teal-soft: #e0eae6;
 
-  /* Màu trạng thái trả lời. */
+  /* Màu trạng thái trả lời. Vàng đất đã hạ độ sáng để đạt 4,80:1 trên nền vàng nhạt. */
   --color-correct: #2e6a61;
-  --color-partial: #9a6b1f;
+  --color-partial: #8a5f1a;
   --color-partial-soft: #f6ecd8;
   --color-wrong: #b03a28;
 
@@ -48,28 +59,34 @@
   --spacing-tap: 2.75rem;
 }
 
-/* Chế độ tối: nền mực ấm chứ không dùng đen tuyệt đối. */
+/*
+  Chế độ tối: nền mực ấm chứ không dùng đen tuyệt đối.
+
+  Ba nền phụ (`*-soft`) trước đây gần như trùng nền trang — chênh chưa tới 1,2:1
+  — nên một khung thông báo trông y hệt một đoạn văn thường. Nay chúng sáng hơn
+  hẳn để mảng nền lại mang tín hiệu, mà chữ trên chúng vẫn giữ trên 5,5:1.
+*/
 [data-theme='dark'] {
   --color-paper: #1b1916;
   --color-surface: #242019;
   --color-sunken: #14120f;
   --color-ink: #ece4d5;
   --color-ink-soft: #b3a999;
-  --color-ink-faint: #8a8071;
-  --color-line: #3b352c;
-  --color-line-strong: #4f4738;
+  --color-ink-faint: #948a7a;
+  --color-line: #453e33;
+  --color-line-strong: #776c57;
 
   --color-cinnabar: #dd7863;
   --color-cinnabar-ink: #e89a89;
-  --color-cinnabar-soft: #33231e;
+  --color-cinnabar-soft: #422d26;
 
   --color-teal: #6cb2a4;
   --color-teal-ink: #8ac6ba;
-  --color-teal-soft: #1c2b28;
+  --color-teal-soft: #253833;
 
   --color-correct: #6cb2a4;
   --color-partial: #d2a45f;
-  --color-partial-soft: #2c2517;
+  --color-partial-soft: #3d321f;
   --color-wrong: #dd7863;
 }
 

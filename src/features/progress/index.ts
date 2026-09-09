@@ -1,5 +1,8 @@
 /** Phần theo dõi tiến độ: dùng chung cho trang chủ và trang Tiến độ. */
 
+export { DataSafety } from './DataSafety.tsx';
+export type { DataSafetyProps } from './DataSafety.tsx';
+
 export { ProgressOverview } from './ProgressOverview.tsx';
 export type { ProgressOverviewProps } from './ProgressOverview.tsx';
 

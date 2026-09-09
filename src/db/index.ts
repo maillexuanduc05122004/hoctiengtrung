@@ -3,15 +3,42 @@ export type { SettingsRow } from './database.ts';
 
 export {
   countLearnedByWordIds,
+  countStarred,
   getCard,
   getCards,
   getDueCards,
   getNewWordIds,
+  getStarredCards,
   getStarredWordIds,
   getTroubleWords,
   saveCard,
+  setStar,
   toggleStar,
 } from './cards.ts';
+export type { StarOptions } from './cards.ts';
+
+export {
+  clearSavedLessons,
+  countSavedLessons,
+  getSavedLessonIds,
+  getSavedLessons,
+  isLessonSaved,
+  saveLesson,
+  toggleSavedLesson,
+  unsaveLesson,
+} from './saved-lessons.ts';
+export type { SaveLessonOptions } from './saved-lessons.ts';
+
+export {
+  clearLookups,
+  countLookups,
+  getRecentLookups,
+  MAX_LOOKUPS,
+  recordLookup,
+  recordLookups,
+  removeLookup,
+} from './lookups.ts';
+export type { RecordLookupOptions } from './lookups.ts';
 
 export {
   countByMode,

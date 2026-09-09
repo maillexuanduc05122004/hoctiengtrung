@@ -1,7 +1,7 @@
 import type { ButtonHTMLAttributes, ReactNode } from 'react';
 import { Icon, type IconName } from './Icon.tsx';
 
-export type ButtonVariant = 'primary' | 'secondary' | 'ghost' | 'danger' | 'quiet';
+export type ButtonVariant = 'primary' | 'secondary' | 'ghost' | 'danger' | 'quiet' | 'saved';
 export type ButtonSize = 'md' | 'lg';
 
 const VARIANTS: Record<ButtonVariant, string> = {
@@ -10,6 +10,10 @@ const VARIANTS: Record<ButtonVariant, string> = {
   ghost: 'bg-transparent text-ink-soft border-transparent hover:bg-sunken active:bg-sunken',
   danger: 'bg-transparent text-wrong border-wrong hover:bg-cinnabar-soft',
   quiet: 'bg-sunken text-ink border-transparent hover:border-line-strong',
+  // Trạng thái "đã lưu". Nền `sunken` của biến thể quiet chỉ chênh nền trang
+  // 1,09:1 nên nhìn lướt không thấy nút nào đang bật; ở đây trạng thái bật mang
+  // cả ba tín hiệu — màu chữ, màu nền và màu viền — để không phải soi mới thấy.
+  saved: 'bg-cinnabar-soft text-cinnabar-ink border-cinnabar/45 hover:border-cinnabar',
 };
 
 const SIZES: Record<ButtonSize, string> = {
@@ -71,6 +75,8 @@ export interface IconButtonProps extends ButtonHTMLAttributes<HTMLButtonElement>
   iconSize?: number;
   /** Hiện trạng bật/tắt cho các nút chuyển trạng thái. */
   pressed?: boolean;
+  /** Hình thức lúc đang bật. Mặc định là `quiet`, nút lưu dùng `saved`. */
+  pressedVariant?: ButtonVariant;
 }
 
 export function IconButton({
@@ -79,6 +85,7 @@ export function IconButton({
   variant = 'ghost',
   iconSize = 1.25,
   pressed,
+  pressedVariant = 'quiet',
   className = '',
   type = 'button',
   ...rest
@@ -92,7 +99,7 @@ export function IconButton({
       className={[
         'tap inline-flex items-center justify-center border transition-colors duration-150',
         'rounded-[0.375rem] disabled:opacity-45 disabled:cursor-not-allowed',
-        pressed ? VARIANTS.quiet : VARIANTS[variant],
+        pressed ? VARIANTS[pressedVariant] : VARIANTS[variant],
         className,
       ]
         .filter(Boolean)

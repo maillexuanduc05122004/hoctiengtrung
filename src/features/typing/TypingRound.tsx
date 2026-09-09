@@ -1,6 +1,15 @@
-import { useEffect, useId, useMemo, useRef, useState, type FormEvent } from 'react';
+import {
+  useEffect,
+  useId,
+  useMemo,
+  useRef,
+  useState,
+  type FormEvent,
+  type ReactNode,
+} from 'react';
 import { Button, IconButton } from '../../components/ui/Button.tsx';
 import { isBlankAnswer, type MatchResult } from '../../lib/answer-matcher/index.ts';
+import { useLiveMessage } from '../../hooks/useLiveMessage.ts';
 import { useSettings } from '../../hooks/settings-context.ts';
 import type { StudySession } from '../../hooks/useStudySession.ts';
 import type { VocabularyWord } from '../../types/vocabulary.ts';
@@ -10,6 +19,7 @@ import { MeaningList } from '../shared/MeaningList.tsx';
 import { PinyinLine } from '../shared/PinyinLine.tsx';
 import { SpeakerButton } from '../shared/SpeakerButton.tsx';
 import { StudyHeader } from '../shared/StudyHeader.tsx';
+import { saveWordMessage } from '../shared/save-word.ts';
 import { VerdictBanner } from '../shared/VerdictBanner.tsx';
 import { WordFace } from '../shared/WordFace.tsx';
 import { HintBar } from './HintBar.tsx';
@@ -20,7 +30,14 @@ export interface TypingRoundProps {
   /** Từ đang hỏi; nơi gọi đã bảo đảm hàng đợi còn từ. */
   word: VocabularyWord;
   title: string;
-  subtitle?: string;
+  /** Câu mô tả nguồn từ của phiên, dựng bằng studySourceLabel. */
+  source: string;
+  onEditSource?: () => void;
+  lessonId?: string;
+  /** Chuỗi truy vấn của phiên, để hàng đổi cách luyện giữ đúng tập từ. */
+  sessionQuery: string;
+  /** Bảng chọn nguồn từ, vẽ ngay dưới tiêu đề khi người học mở nó. */
+  options?: ReactNode;
 }
 
 /** Kết quả đã chấm của câu hiện tại, giữ lại để hiện nhận xét trước khi sang từ mới. */
@@ -38,10 +55,20 @@ interface GradedAnswer {
  * đọc phần giải thích trước đã. Cả hai nhịp đều nằm trên phím Enter nên gõ xong
  * là đi tiếp được mà không phải rời bàn phím.
  */
-export function TypingRound({ session, word, title, subtitle }: TypingRoundProps) {
+export function TypingRound({
+  session,
+  word,
+  title,
+  source,
+  onEditSource,
+  lessonId,
+  sessionQuery,
+  options,
+}: TypingRoundProps) {
   const { settings } = useSettings();
   const inputId = useId();
   const inputRef = useRef<HTMLInputElement>(null);
+  const { message, token, announce } = useLiveMessage();
 
   const [input, setInput] = useState('');
   const [graded, setGraded] = useState<GradedAnswer | null>(null);
@@ -72,6 +99,13 @@ export function TypingRound({ session, word, title, subtitle }: TypingRoundProps
   );
 
   const starred = session.starred.has(word.id);
+
+  const handleToggleStar = (): void => {
+    void session.toggleStar(word.id).then(
+      (saved) => announce(saveWordMessage(word.simplified, saved)),
+      () => announce('Không lưu được vào máy này.'),
+    );
+  };
   const answered = graded !== null;
   const example = word.examples[0];
   const expectedAnswer = challenge.expected[0] ?? '';
@@ -114,20 +148,29 @@ export function TypingRound({ session, word, title, subtitle }: TypingRoundProps
     >
       <StudyHeader
         title={title}
-        done={session.stats.done}
+        mode="typing"
+        done={session.stats.done + session.stats.skipped}
         total={session.stats.total}
-        subtitle={subtitle}
+        source={source}
+        onEditSource={onEditSource}
+        lessonId={lessonId}
+        sessionQuery={sessionQuery}
+        message={message}
+        messageToken={token}
         right={
           // Nhãn không nhắc chữ Hán: `IconButton` gán nhãn vào cả `title`, mà những
           // dạng đề hỏi chữ Hán lấy chính chữ đó làm đáp án — rê chuột là lộ bài.
           <IconButton
             icon={starred ? 'star-filled' : 'star'}
-            label={starred ? 'Bỏ đánh dấu từ này' : 'Đánh dấu từ này'}
+            label={starred ? 'Bỏ lưu từ này' : 'Lưu từ này vào sổ tay'}
             pressed={starred}
-            onClick={() => void session.toggleStar(word.id)}
+            pressedVariant="saved"
+            onClick={handleToggleStar}
           />
         }
       />
+
+      {options}
 
       <div
         className="min-w-0 flex-1 pt-5"

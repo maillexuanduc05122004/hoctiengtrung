@@ -4,6 +4,7 @@ import { Button } from '../components/ui/Button.tsx';
 import { Notice, ProgressBar, Spinner } from '../components/ui/Feedback.tsx';
 import { dayKey, exportProgress, importProgress, resetDatabase } from '../db/index.ts';
 import {
+  DataSafety,
   ProgressOverview,
   TroubleWords,
   WeeklyChart,
@@ -136,6 +137,10 @@ export function ProgressPage() {
       const url = URL.createObjectURL(blob);
       backupUrl.current = url;
       setBackup({ url, name: `moi-ngay-tien-do-${dayKey(Date.now())}.json` });
+      // Ghi mốc ngay khi tệp vừa được tạo, không đợi cú bấm tải: đây là lúc cuối
+      // cùng ứng dụng còn biết chắc điều gì đang xảy ra, phần tải là việc của
+      // trình duyệt và không báo lại.
+      await update({ lastBackupAt: Date.now() });
       setFeedback(null);
     } catch (cause: unknown) {
       setFeedback({
@@ -145,7 +150,7 @@ export function ProgressPage() {
     } finally {
       setBusy(false);
     }
-  }, []);
+  }, [update]);
 
   const handleImport = useCallback(
     async (file: File) => {
@@ -157,7 +162,9 @@ export function ProgressPage() {
         refreshAll();
         setFeedback({
           tone: 'info',
-          text: `Đã nạp ${result.cards} thẻ, ${result.reviews} lượt ôn và ${result.days} ngày học.`,
+          text:
+            `Đã nạp ${result.cards} thẻ, ${result.reviews} lượt ôn, ${result.days} ngày học, ` +
+            `${result.savedLessons} buổi đã lưu và ${result.lookups} từ vừa tra.`,
         });
       } catch (cause: unknown) {
         setFeedback({
@@ -355,13 +362,18 @@ export function ProgressPage() {
       <Block
         id="sao-luu"
         title="Sao lưu và đặt lại"
-        note="Tiến độ chỉ nằm trong máy này. Xoá dữ liệu trình duyệt là mất, nên hãy tải tệp sao lưu trước khi đổi máy."
+        note="Tiến độ, sổ tay từ và sổ tay buổi học đều chỉ nằm trong máy này. Xoá dữ liệu trình duyệt là mất, nên hãy tải tệp sao lưu trước khi đổi máy."
       >
         <div
           className="min-w-0 space-y-5"
         >
+          <DataSafety
+            lastBackupAt={settings.lastBackupAt}
+            hasProgress={summary !== null && summary.learnedTotal > 0}
+          />
+
           <div
-            className="min-w-0"
+            className="min-w-0 border-t border-line pt-5"
           >
             <p
               className="text-[0.875rem] font-medium text-ink"
@@ -427,7 +439,8 @@ export function ProgressPage() {
             <p
               className="mt-1 text-[0.8125rem] leading-relaxed text-ink-faint"
             >
-              Xoá hết thẻ, lịch sử ôn và thống kê ngày. Cài đặt của bạn được giữ lại.
+              Xoá hết thẻ, lịch sử ôn, thống kê ngày, sổ tay từ, sổ tay buổi học và lịch sử tra
+              từ. Cài đặt của bạn được giữ lại.
             </p>
             <div
               className="mt-2"
@@ -453,8 +466,8 @@ export function ProgressPage() {
         <p
           className="text-[0.875rem] leading-relaxed text-ink-soft"
         >
-          Toàn bộ thẻ ghi nhớ, lịch sử ôn và thống kê ngày sẽ bị xoá. Nếu còn muốn giữ, hãy đóng hộp
-          này và tạo tệp sao lưu trước.
+          Toàn bộ thẻ ghi nhớ, lịch sử ôn, thống kê ngày, sổ tay từ, sổ tay buổi học và lịch sử
+          tra từ sẽ bị xoá. Nếu còn muốn giữ, hãy đóng hộp này và tạo tệp sao lưu trước.
         </p>
         <div
           className="mt-5 space-y-2"

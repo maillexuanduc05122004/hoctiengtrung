@@ -2,6 +2,7 @@ import { createContext, useContext, useMemo } from 'react';
 import type { HskLevel, Lesson, VocabularyWord } from '../types/vocabulary.ts';
 import { EMPTY_INDEX, type VocabularyIndex } from '../lib/vocabulary/store.ts';
 import { buildSearchIndex, type SearchIndex } from '../lib/vocabulary/search.ts';
+import { buildScanIndex, type ScanIndex } from '../lib/vocabulary/scan.ts';
 
 export interface VocabularyContextValue {
   index: VocabularyIndex;
@@ -44,4 +45,10 @@ export function useLessons(level: HskLevel | 'all' = 'all'): Lesson[] {
 export function useSearchIndex(): SearchIndex {
   const { index } = useVocabulary();
   return useMemo(() => buildSearchIndex(index.words), [index.words]);
+}
+
+/** Chỉ mục quét đoạn văn, dựng lại chỉ khi bộ từ thay đổi. */
+export function useScanIndex(): ScanIndex {
+  const { index } = useVocabulary();
+  return useMemo(() => buildScanIndex(index.words), [index.words]);
 }

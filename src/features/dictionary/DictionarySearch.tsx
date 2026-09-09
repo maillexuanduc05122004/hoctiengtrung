@@ -9,14 +9,19 @@ import { Button } from '../../components/ui/Button.tsx';
 import { Segmented, type SegmentedOption } from '../../components/ui/Controls.tsx';
 import { EmptyState, Notice, Spinner } from '../../components/ui/Feedback.tsx';
 import { WordRow } from '../shared/WordRow.tsx';
+import { useSavedIds } from '../saved/useSavedIds.ts';
 import { useSettings } from '../../hooks/settings-context.ts';
 import { useVocabulary } from '../../hooks/vocabulary-context.ts';
+import { LookupHistory } from './LookupHistory.tsx';
 import { SearchField } from './SearchField.tsx';
 import { useDictionarySearch, useSuggestedWords, type LevelFilter } from './useDictionarySearch.ts';
 import type { VocabularyWord } from '../../types/vocabulary.ts';
 
 /** Số kết quả tối đa hiện trên trang; nhiều hơn thì cuộn mãi cũng không ai đọc. */
 const RESULT_LIMIT = 40;
+
+/** Lịch sử dài hơn từng này thì phần gợi ý bên dưới bị đẩy khuất khỏi màn hình đầu tiên. */
+const HISTORY_LIMIT = 8;
 
 /** Đổi giá trị của nhóm nút thành bộ lọc cấp mà không cần ép kiểu. */
 function toLevelFilter(value: string): LevelFilter {
@@ -43,6 +48,7 @@ export function DictionarySearch({ autoFocus = false, onSelect }: DictionarySear
   const [level, setLevel] = useState<LevelFilter>('all');
   const { query, setQuery, hits, pending } = useDictionarySearch({ level, limit: RESULT_LIMIT });
   const suggestions = useSuggestedWords(8);
+  const { ids: savedIds, toggle: toggleSaved } = useSavedIds();
 
   const levelOptions = useMemo<SegmentedOption<string>[]>(
     () => [
@@ -82,43 +88,56 @@ export function DictionarySearch({ autoFocus = false, onSelect }: DictionarySear
   } else if (loading) {
     body = <Spinner label="Đang tải bộ từ" />;
   } else if (trimmed === '') {
-    body =
-      suggestions.length > 0 ? (
-        <div
-          className="min-w-0"
-        >
-          <p
-            className="mb-1 text-[0.8125rem] font-medium text-ink-soft"
-          >
-            Từ trong cấp bạn đang học
-          </p>
-          <ul
-            className="min-w-0 border-t border-line"
-          >
-            {suggestions.map((word) => (
-              <li
-                key={word.id}
-                className="min-w-0 border-b border-line"
-              >
-                <WordRow
-                  word={word}
-                  displayMode={settings.displayMode}
-                  hidePinyin={settings.hidePinyin}
-                  onSelect={onSelect}
-                  showLevel
-                  showTraditional={settings.showTraditional}
-                />
-              </li>
-            ))}
-          </ul>
-        </div>
-      ) : (
-        <EmptyState
-          icon="search"
-          title="Gõ để bắt đầu tra từ"
-          description="Tìm được theo chữ Hán, pinyin có dấu hoặc không dấu, nghĩa tiếng Việt có dấu hoặc không dấu, và tiếng Anh."
+    // Ô còn trống thì đây là chỗ để nhìn lại: các từ vừa tra đứng trước, rồi mới
+    // đến vài từ gợi ý của cấp đang học.
+    body = (
+      <div
+        className="min-w-0 space-y-5"
+      >
+        <LookupHistory
+          limit={HISTORY_LIMIT}
+          onSelect={onSelect}
         />
-      );
+        {suggestions.length > 0 ? (
+          <div
+            className="min-w-0"
+          >
+            <p
+              className="mb-1 text-[0.8125rem] font-medium text-ink-soft"
+            >
+              Từ trong cấp bạn đang học
+            </p>
+            <ul
+              className="min-w-0 border-t border-line"
+            >
+              {suggestions.map((word) => (
+                <li
+                  key={word.id}
+                  className="min-w-0 border-b border-line"
+                >
+                  <WordRow
+                    word={word}
+                    displayMode={settings.displayMode}
+                    hidePinyin={settings.hidePinyin}
+                    onSelect={onSelect}
+                    showLevel
+                    showTraditional={settings.showTraditional}
+                    saved={savedIds.has(word.id)}
+                    onToggleSave={() => void toggleSaved(word.id)}
+                  />
+                </li>
+              ))}
+            </ul>
+          </div>
+        ) : (
+          <EmptyState
+            icon="search"
+            title="Gõ để bắt đầu tra từ"
+            description="Tìm được theo chữ Hán, pinyin có dấu hoặc không dấu, nghĩa tiếng Việt có dấu hoặc không dấu, và tiếng Anh."
+          />
+        )}
+      </div>
+    );
   } else if (hits.length === 0) {
     body = pending ? (
       <p
@@ -162,6 +181,8 @@ export function DictionarySearch({ autoFocus = false, onSelect }: DictionarySear
                 onSelect={onSelect}
                 showLevel
                 showTraditional={settings.showTraditional}
+                saved={savedIds.has(hit.word.id)}
+                onToggleSave={() => void toggleSaved(hit.word.id)}
               />
             </li>
           ))}

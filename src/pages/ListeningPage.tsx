@@ -7,13 +7,16 @@
  * trong <ListeningRound>.
  */
 import { useMemo, useState } from 'react';
-import { useSearchParams } from 'react-router';
+import { Link, useSearchParams } from 'react-router';
 import { IconButton } from '../components/ui/Button.tsx';
 import { EmptyState, Notice, Spinner } from '../components/ui/Feedback.tsx';
 import { ListeningRound, type ListeningAnswerMode } from '../features/listening/index.ts';
 import { SessionSummary } from '../features/shared/SessionSummary.tsx';
 import { StudyHeader } from '../features/shared/StudyHeader.tsx';
 import { StudyOptions, type StudyOptionsValue } from '../features/shared/StudyOptions.tsx';
+import { studySessionQuery, studySourceLabel } from '../features/shared/study-source.ts';
+import { saveWordMessage } from '../features/shared/save-word.ts';
+import { useLiveMessage } from '../hooks/useLiveMessage.ts';
 import { useSettings } from '../hooks/settings-context.ts';
 import { useStudySession, type PoolKind } from '../hooks/useStudySession.ts';
 import { useVocabulary } from '../hooks/vocabulary-context.ts';
@@ -22,18 +25,10 @@ import type { HskLevel } from '../types/vocabulary.ts';
 /** Số từ mỗi phiên; nghe lâu hơn gõ nên phiên để ngắn cho vừa sức. */
 const SESSION_LIMIT = 15;
 
-const POOL_LABELS: Record<PoolKind, string> = {
-  due: 'Từ cần ôn',
-  new: 'Từ mới',
-  starred: 'Từ đã đánh dấu',
-  mixed: 'Trộn từ cần ôn và từ mới',
-  lesson: 'Theo buổi học',
-};
-
 const EMPTY_HINTS: Record<PoolKind, string> = {
   due: 'Hôm nay chưa có từ nào tới hạn ôn. Chọn "Từ mới" hoặc "Trộn" để học tiếp.',
   new: 'Bạn đã mở hết từ mới của những cấp đang chọn. Thử thêm một cấp khác.',
-  starred: 'Bạn chưa đánh dấu từ nào. Bấm ngôi sao ở đầu trang khi gặp từ khó.',
+  starred: 'Sổ tay của bạn còn trống. Bấm ngôi sao ở đầu trang khi gặp từ khó.',
   mixed: 'Chưa có từ nào cho phiên này. Thử chọn thêm cấp HSK.',
   lesson: 'Buổi học này chưa có từ nào.',
 };
@@ -62,6 +57,7 @@ export function ListeningPage() {
   const [searchParams, setSearchParams] = useSearchParams();
   const [answerMode, setAnswerMode] = useState<ListeningAnswerMode>('hanzi');
   const [optionsOpen, setOptionsOpen] = useState(false);
+  const { message, token, announce } = useLiveMessage();
 
   const levelParam = searchParams.get('level');
   const poolParam = searchParams.get('pool');
@@ -104,10 +100,13 @@ export function ListeningPage() {
   const current = session.current;
   const starred = current !== null && session.starred.has(current.id);
 
-  const subtitle =
-    lessonLabel !== undefined
-      ? `Nghe rồi viết lại · ${lessonLabel}`
-      : `Nghe rồi viết lại · ${POOL_LABELS[pool]}`;
+  const source = studySourceLabel({
+    pool,
+    levels,
+    lessonLabel,
+    shown: session.queue.length,
+    total: session.poolTotal,
+  });
 
   const headerActions = (
     <>
@@ -116,10 +115,14 @@ export function ListeningPage() {
           icon={starred ? 'star-filled' : 'star'}
           // Nhãn không nhắc chữ Hán: IconButton dùng nhãn này làm cả title lẫn
           // aria-label, mà chế độ nghe giấu chữ Hán cho tới khi trả lời xong.
-          label={starred ? 'Bỏ đánh dấu từ này' : 'Đánh dấu từ này để ôn lại'}
+          label={starred ? 'Bỏ lưu từ này' : 'Lưu từ này vào sổ tay'}
           pressed={starred}
+          pressedVariant="saved"
           onClick={() => {
-            void session.toggleStar(current.id);
+            void session.toggleStar(current.id).then(
+              (saved) => announce(saveWordMessage(current.simplified, saved)),
+              () => announce('Không lưu được vào máy này.'),
+            );
           }}
         />
       ) : null}
@@ -156,7 +159,20 @@ export function ListeningPage() {
     body = (
       <SessionSummary
         stats={session.stats}
+        onReplay={session.replay}
         onRestart={session.restart}
+        onReplayMissed={session.replayMissed}
+        missedCount={session.missed.length}
+        extra={
+          lessonId !== undefined ? (
+            <Link
+              to={`/buoi-hoc/${encodeURIComponent(lessonId)}`}
+              className="tap flex w-full min-w-0 items-center justify-center border border-line-strong bg-surface px-5 py-3 text-[1rem] font-medium text-ink no-underline rounded-[0.375rem] transition-colors duration-150 hover:border-ink-faint"
+            >
+              Về buổi học
+            </Link>
+          ) : null
+        }
       />
     );
   } else if (current === null) {
@@ -191,9 +207,15 @@ export function ListeningPage() {
     >
       <StudyHeader
         title="Nghe và chép"
-        subtitle={subtitle}
-        done={session.stats.done}
+        mode="listening"
+        source={source}
+        onEditSource={() => setOptionsOpen((open) => !open)}
+        lessonId={lessonId}
+        sessionQuery={studySessionQuery(pool, levels, lessonId)}
+        done={session.stats.done + session.stats.skipped}
         total={session.stats.total}
+        message={message}
+        messageToken={token}
         right={headerActions}
       />
 
@@ -206,6 +228,7 @@ export function ListeningPage() {
             value={{ levels, pool }}
             onChange={handleOptionsChange}
             lessonLabel={lessonLabel}
+            lessonId={lessonId}
           />
         </section>
       ) : null}

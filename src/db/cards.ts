@@ -2,7 +2,7 @@ import { db } from './database.ts';
 import type { CardState } from '../types/study.ts';
 
 /**
- * Thẻ trắng cho từ chưa từng học. Chỉ tạo khi người dùng đánh dấu sao trước lúc học,
+ * Thẻ trắng cho từ chưa từng học. Chỉ tạo khi người dùng lưu từ trước lúc học,
  * vì lúc đó cần một chỗ để lưu cờ `starred`.
  */
 function blankCard(wordId: string): CardState {
@@ -118,13 +118,59 @@ export async function getStarredWordIds(wordIds: readonly string[]): Promise<str
   return result;
 }
 
-export async function toggleStar(wordId: string): Promise<boolean> {
+export interface StarOptions {
+  /** Mốc thời gian, chỉ truyền trong kiểm thử. */
+  at?: number;
+}
+
+/**
+ * Ghi trạng thái lưu của một từ và trả về chính trạng thái đó.
+ *
+ * Bỏ lưu thì xoá luôn mốc `starredAt` chứ không giữ lại: lưu lần sau phải nhảy
+ * lên đầu sổ tay, mà giữ mốc cũ thì nó lại nằm đúng chỗ cũ.
+ */
+async function writeStar(wordId: string, next: boolean, at: number): Promise<boolean> {
   return db.transaction('rw', db.cards, async () => {
-    const card = await db.cards.get(wordId);
-    const next = card ? !card.starred : true;
-    await db.cards.put({ ...(card ?? blankCard(wordId)), starred: next });
+    const card = (await db.cards.get(wordId)) ?? blankCard(wordId);
+    const { starredAt: _previous, ...rest } = card;
+    await db.cards.put(next ? { ...rest, starred: true, starredAt: at } : { ...rest, starred: false });
     return next;
   });
+}
+
+/** Bật tắt việc lưu một từ. Trả về trạng thái sau khi đổi. */
+export async function toggleStar(wordId: string, options: StarOptions = {}): Promise<boolean> {
+  const at = options.at ?? Date.now();
+  const card = await db.cards.get(wordId);
+  return writeStar(wordId, card ? !card.starred : true, at);
+}
+
+/** Đặt thẳng trạng thái lưu, dùng khi nút biết sẵn mình đang bật hay tắt. */
+export async function setStar(
+  wordId: string,
+  starred: boolean,
+  options: StarOptions = {},
+): Promise<boolean> {
+  return writeStar(wordId, starred, options.at ?? Date.now());
+}
+
+/**
+ * Mọi thẻ đang được lưu, mới lưu trước cũ sau.
+ *
+ * Sổ tay cần đọc toàn bộ chứ không theo một tập mã cho trước như
+ * `getStarredWordIds`, nên phải duyệt cả bảng: IndexedDB không lập chỉ mục được
+ * cho boolean. Bảng chỉ lớn bằng số từ người học từng chạm tới nên vẫn nhanh.
+ */
+export async function getStarredCards(): Promise<CardState[]> {
+  const starred = await db.cards.filter((card) => card.starred).toArray();
+  // Thẻ lưu từ trước khi có mốc `starredAt` được đẩy xuống cuối thay vì lên đầu.
+  starred.sort((a, b) => (b.starredAt ?? 0) - (a.starredAt ?? 0) || a.wordId.localeCompare(b.wordId));
+  return starred;
+}
+
+/** Số từ đang có trong sổ tay. */
+export async function countStarred(): Promise<number> {
+  return db.cards.filter((card) => card.starred).count();
 }
 
 /** Các từ hay trả lời sai nhất, sắp giảm dần theo số lần sai. */

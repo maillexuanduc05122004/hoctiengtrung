@@ -1,7 +1,13 @@
 import Dexie from 'dexie';
 import type { Table } from 'dexie';
 import type { AppSettings } from '../types/settings.ts';
-import type { CardState, DailyStat, ReviewLogEntry } from '../types/study.ts';
+import type {
+  CardState,
+  DailyStat,
+  LookupEntry,
+  ReviewLogEntry,
+  SavedLesson,
+} from '../types/study.ts';
 
 /** Bảng cài đặt chỉ chứa đúng một dòng nên cần một khoá cố định. */
 export interface SettingsRow {
@@ -16,6 +22,8 @@ export class MoiNgayDatabase extends Dexie {
   reviews!: Table<ReviewLogEntry, number>;
   dailyStats!: Table<DailyStat, string>;
   appSettings!: Table<SettingsRow, string>;
+  lookups!: Table<LookupEntry, string>;
+  savedLessons!: Table<SavedLesson, string>;
 
   constructor(name: string = DB_NAME) {
     super(name);
@@ -25,6 +33,16 @@ export class MoiNgayDatabase extends Dexie {
       reviews: '++id, wordId, day, at, mode',
       dailyStats: 'day',
       appSettings: 'key',
+    });
+    // Phiên bản 2 thêm lịch sử tra từ. Chỉ khai bảng mới: bảng nào không nhắc lại
+    // thì Dexie giữ nguyên lược đồ của phiên bản trước, dữ liệu cũ không mất.
+    this.version(2).stores({
+      lookups: 'wordId, at',
+    });
+    // Phiên bản 3 thêm danh sách buổi học đã lưu. `at` có chỉ mục để sổ tay xếp
+    // buổi mới lưu lên đầu mà không phải đọc cả bảng rồi sắp trong bộ nhớ.
+    this.version(3).stores({
+      savedLessons: 'lessonId, at',
     });
   }
 }
@@ -37,12 +55,18 @@ export async function resetDatabase(): Promise<void> {
   if (!db.isOpen()) {
     await db.open();
   }
-  await db.transaction('rw', [db.cards, db.reviews, db.dailyStats, db.appSettings], async () => {
-    await Promise.all([
-      db.cards.clear(),
-      db.reviews.clear(),
-      db.dailyStats.clear(),
-      db.appSettings.clear(),
-    ]);
-  });
+  await db.transaction(
+    'rw',
+    [db.cards, db.reviews, db.dailyStats, db.appSettings, db.lookups, db.savedLessons],
+    async () => {
+      await Promise.all([
+        db.cards.clear(),
+        db.reviews.clear(),
+        db.dailyStats.clear(),
+        db.appSettings.clear(),
+        db.lookups.clear(),
+        db.savedLessons.clear(),
+      ]);
+    },
+  );
 }

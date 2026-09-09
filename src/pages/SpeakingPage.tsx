@@ -5,14 +5,17 @@
  * Nhờ vậy trang chủ và trang buổi học chỉ cần trỏ tới một đường dẫn là mở đúng phiên,
  * và người học chia sẻ hay lưu lại đường dẫn thì mở ra vẫn đúng phiên đó.
  */
-import { useCallback, useMemo, type ReactNode } from 'react';
-import { useNavigate, useSearchParams } from 'react-router';
+import { useCallback, useMemo, useState, type ReactNode } from 'react';
+import { Link, useNavigate, useSearchParams } from 'react-router';
 import { Button, IconButton } from '../components/ui/Button.tsx';
 import { EmptyState, Notice, Spinner } from '../components/ui/Feedback.tsx';
 import { SpeakingRound } from '../features/speaking/index.ts';
 import { SessionSummary } from '../features/shared/SessionSummary.tsx';
 import { StudyHeader } from '../features/shared/StudyHeader.tsx';
 import { StudyOptions, type StudyOptionsValue } from '../features/shared/StudyOptions.tsx';
+import { studySessionQuery, studySourceLabel } from '../features/shared/study-source.ts';
+import { saveWordMessage } from '../features/shared/save-word.ts';
+import { useLiveMessage } from '../hooks/useLiveMessage.ts';
 import { useSettings } from '../hooks/settings-context.ts';
 import { useVocabulary } from '../hooks/vocabulary-context.ts';
 import {
@@ -31,7 +34,7 @@ const POOL_VALUES: readonly PoolKind[] = ['due', 'new', 'starred', 'mixed', 'les
 const EMPTY_HINTS: Record<PoolKind, string> = {
   due: 'Chưa có từ nào tới hạn ôn. Chọn “Từ mới” để học thêm từ chưa gặp bao giờ.',
   new: 'Các cấp đang chọn đã hết từ mới. Chọn “Cần ôn” hoặc thêm một cấp HSK khác.',
-  starred: 'Bạn chưa đánh dấu từ nào ở các cấp đang chọn.',
+  starred: 'Sổ tay của bạn còn trống. Bấm ngôi sao khi gặp một từ khó để lưu lại.',
   mixed: 'Không còn từ nào để ôn hay học mới ở các cấp đang chọn.',
   lesson: 'Buổi học này chưa có từ nào.',
 };
@@ -119,6 +122,15 @@ export function SpeakingPage() {
   const starred = current !== null && session.starred.has(current.id);
 
   const optionsValue: StudyOptionsValue = { levels, pool };
+  const [optionsOpen, setOptionsOpen] = useState(false);
+  const { message, token, announce } = useLiveMessage();
+  const source = studySourceLabel({
+    pool,
+    levels,
+    lessonLabel,
+    shown: session.queue.length,
+    total: session.poolTotal,
+  });
 
   const body = (): ReactNode => {
     if (session.loading) {
@@ -166,17 +178,19 @@ export function SpeakingPage() {
       return (
         <SessionSummary
           stats={session.stats}
+          onReplay={session.replay}
           onRestart={session.restart}
+          onReplayMissed={session.replayMissed}
+          missedCount={session.missed.length}
           extra={
-            <Button
-              variant="secondary"
-              size="lg"
-              icon="ear"
-              block
-              onClick={() => void navigate('/nghe')}
-            >
-              Sang chế độ nghe chép
-            </Button>
+            lessonId !== '' ? (
+              <Link
+                to={`/buoi-hoc/${encodeURIComponent(lessonId)}`}
+                className="tap flex w-full min-w-0 items-center justify-center border border-line-strong bg-surface px-5 py-3 text-[1rem] font-medium text-ink no-underline rounded-[0.375rem] transition-colors duration-150 hover:border-ink-faint"
+              >
+                Về buổi học
+              </Link>
+            ) : null
           }
         />
       );
@@ -201,39 +215,46 @@ export function SpeakingPage() {
     >
       <StudyHeader
         title="Luyện nói"
-        done={session.stats.done}
+        mode="speaking"
+        done={session.stats.done + session.stats.skipped}
         total={session.stats.total}
-        subtitle={lessonLabel ?? 'Đọc thành tiếng rồi để hệ thống nghe lại'}
+        source={source}
+        onEditSource={() => setOptionsOpen((open) => !open)}
+        lessonId={lessonId}
+        sessionQuery={studySessionQuery(pool, levels, lessonId === '' ? undefined : lessonId)}
+        message={message}
+        messageToken={token}
         right={
           current === null ? null : (
             <IconButton
               icon={starred ? 'star-filled' : 'star'}
-              label={starred ? 'Bỏ đánh dấu từ này' : 'Đánh dấu từ này'}
+              label={starred ? 'Bỏ lưu từ này' : 'Lưu từ này vào sổ tay'}
               pressed={starred}
-              onClick={() => void session.toggleStar(current.id)}
+              pressedVariant="saved"
+              onClick={() => {
+                void session.toggleStar(current.id).then(
+                  (saved) => announce(saveWordMessage(current.simplified, saved)),
+                  () => announce('Không lưu được vào máy này.'),
+                );
+              }}
             />
           )
         }
       />
 
-      <details
-        className="mt-3 border-b border-line pb-3"
-      >
-        <summary
-          className="tap cursor-pointer py-2 text-[0.875rem] font-medium text-ink-soft"
-        >
-          Tuỳ chọn phiên học
-        </summary>
-        <div
-          className="pt-2"
+      {optionsOpen ? (
+        <section
+          aria-label="Tuỳ chọn phiên học"
+          className="mt-3 border-b border-line pb-3"
         >
           <StudyOptions
             value={optionsValue}
             onChange={applyOptions}
             lessonLabel={lessonLabel}
+            lessonId={lessonId}
           />
-        </div>
-      </details>
+        </section>
+      ) : null}
 
       <div
         className="mt-5 min-w-0"

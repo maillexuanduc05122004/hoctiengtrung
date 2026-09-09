@@ -7,8 +7,10 @@ import {
   createInitialCard,
   describeNextReview,
   intervalFromStability,
+  previewInterval,
   ratingFromAnswer,
   retrievability,
+  shortInterval,
 } from './fsrs.ts';
 
 const MINUTE = 60_000;
@@ -252,6 +254,48 @@ describe('describeNextReview', () => {
     expect(say(T0 + 3 * DAY)).toBe('Ôn lại sau 3 ngày');
     expect(say(T0 + 90 * DAY)).toBe('Ôn lại sau 3 tháng');
     expect(say(T0 + 800 * DAY)).toBe('Ôn lại sau 2 năm');
+  });
+});
+
+describe('shortInterval', () => {
+  it('viết gọn để nhét vừa một nút bấm', () => {
+    const base = graduated();
+    const say = (dueAt: number): string => shortInterval({ ...base, dueAt }, T0);
+
+    expect(say(T0 - DAY)).toBe('ngay');
+    expect(say(T0 + MINUTE)).toBe('1 phút');
+    expect(say(T0 + 3 * 3_600_000)).toBe('3 giờ');
+    expect(say(T0 + 3 * DAY)).toBe('3 ngày');
+    expect(say(T0 + 90 * DAY)).toBe('3 tháng');
+    expect(say(T0 + 800 * DAY)).toBe('2 năm');
+  });
+
+  it('hạn ôn hỏng thì nói "ngay" chứ không hiện NaN', () => {
+    expect(shortInterval({ ...graduated(), dueAt: Number.NaN }, T0)).toBe('ngay');
+  });
+});
+
+describe('previewInterval', () => {
+  it('chấm càng chắc thì hẹn ôn càng xa', () => {
+    const card = graduated();
+    const wrong = applyReview(card, RATING.again, T0).dueAt;
+    const close = applyReview(card, RATING.hard, T0).dueAt;
+    const correct = applyReview(card, RATING.good, T0).dueAt;
+
+    // "Chưa nhớ" luôn kéo hạn về gần hẳn; "gần nhớ" và "đã nhớ" chỉ chắc chắn
+    // không đảo thứ tự — với thẻ vừa tốt nghiệp, hai mức này có thể làm tròn ra
+    // cùng một ngày, và đó là hành vi đúng của FSRS chứ không phải lỗi.
+    expect(wrong).toBeLessThan(close);
+    expect(close).toBeLessThanOrEqual(correct);
+    expect(previewInterval(card, card.wordId, 'correct', T0)).toBe(
+      shortInterval({ ...card, dueAt: correct }, T0),
+    );
+  });
+
+  it('từ mới chưa có thẻ vẫn xem trước được, không ném lỗi', () => {
+    // Đây là trường hợp thường gặp nhất: mặt trước một thẻ chưa từng học.
+    expect(previewInterval(null, 'L1-0001', 'wrong', T0)).not.toBe('');
+    expect(previewInterval(null, 'L1-0001', 'correct', T0)).not.toBe('');
   });
 });
 

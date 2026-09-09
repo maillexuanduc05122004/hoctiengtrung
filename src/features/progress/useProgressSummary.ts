@@ -11,6 +11,8 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import {
   countLearnedByWordIds,
+  countSavedLessons,
+  countStarred,
   dayKey,
   getCards,
   getDueCards,
@@ -18,24 +20,17 @@ import {
   getRecentDays,
   getStreak,
 } from '../../db/index.ts';
+import { pickNextLesson, type NextLesson } from '../lessons/next-lesson.ts';
 import { useSettings } from '../../hooks/settings-context.ts';
 import { useVocabulary } from '../../hooks/vocabulary-context.ts';
-import type { CardState, ProgressSummary, StudyMode } from '../../types/study.ts';
-import type { HskLevel, Lesson } from '../../types/vocabulary.ts';
+import type { ProgressSummary, StudyMode } from '../../types/study.ts';
+import type { HskLevel } from '../../types/vocabulary.ts';
 
 const LEVELS: readonly HskLevel[] = [1, 2, 3];
 const MODES: readonly StudyMode[] = ['flashcards', 'typing', 'listening', 'speaking'];
 
 /** Số ngày vẽ trên biểu đồ, cũng là số ngày ProgressSummary hứa trả về. */
 const RECENT_DAYS = 7;
-
-/**
- * Bản ghi có tồn tại nhưng chưa qua lượt ôn nào thì vẫn là từ mới. Điều kiện
- * này lặp lại đúng như trong db/cards.ts để số "đã học" ở hai nơi không lệch.
- */
-function isStudied(card: CardState | undefined): boolean {
-  return card !== undefined && !(card.reps === 0 && card.phase === 'new');
-}
 
 /**
  * Danh sách cấp được rút thành chuỗi để làm phụ thuộc của useMemo và useEffect:
@@ -95,12 +90,17 @@ export function useProgressSummary(): ProgressSummaryState {
       const now = Date.now();
       const today = dayKey(now);
       // Giới hạn bằng chính số từ ứng viên: cần đếm hết chứ không cắt bớt như hàng đợi học.
-      const [due, fresh, streak, lastSevenDays] = await Promise.all([
-        getDueCards(activeIds, now, activeIds.length),
-        getNewWordIds(activeIds, activeIds.length),
-        getStreak(today),
-        getRecentDays(today, RECENT_DAYS),
-      ]);
+      const [due, fresh, streak, lastSevenDays, starredTotal, savedLessonsTotal] =
+        await Promise.all([
+          getDueCards(activeIds, now, activeIds.length),
+          getNewWordIds(activeIds, activeIds.length),
+          getStreak(today),
+          getRecentDays(today, RECENT_DAYS),
+          // Sổ tay đếm trên cả kho: người học lưu một từ HSK 3 rồi quay về học
+          // HSK 1 thì từ đó vẫn còn trong sổ tay, không được biến mất khỏi số đếm.
+          countStarred(),
+          countSavedLessons(),
+        ]);
 
       const perLevel = await Promise.all(
         LEVELS.filter((level) => (idsByLevel.get(level) ?? []).length > 0).map(async (level) => {
@@ -121,6 +121,8 @@ export function useProgressSummary(): ProgressSummaryState {
         lastSevenDays,
         todayReviews,
         todayGoalReached: settings.dailyGoal > 0 && todayReviews >= settings.dailyGoal,
+        starredTotal,
+        savedLessonsTotal,
       };
     };
 
@@ -156,11 +158,7 @@ export function useProgressSummary(): ProgressSummaryState {
   };
 }
 
-export interface SuggestedLesson {
-  lesson: Lesson;
-  learned: number;
-  total: number;
-}
+export type SuggestedLesson = NextLesson;
 
 export interface SuggestedLessonState {
   suggestion: SuggestedLesson | null;
@@ -168,8 +166,8 @@ export interface SuggestedLessonState {
 }
 
 /**
- * Buổi học nên vào tiếp: buổi đang học dở gần nhất, nếu không có thì buổi chưa
- * đụng tới đầu tiên. Trả về null khi mọi buổi trong các cấp đang chọn đã xong.
+ * Buổi học nên vào tiếp. Quy tắc chọn nằm ở `pickNextLesson` để trang chủ và
+ * trang danh sách buổi học không bao giờ mời vào hai buổi khác nhau.
  *
  * Đọc một lần toàn bộ thẻ của các buổi ứng viên rồi tự đếm, thay vì gọi
  * countLearnedByWordIds cho từng buổi: một cấp có tới năm chục buổi nên cách kia
@@ -202,21 +200,7 @@ export function useSuggestedLesson(
     const find = async (): Promise<SuggestedLesson | null> => {
       if (ordered.length === 0) return null;
       const cards = await getCards(ordered.flatMap((lesson) => lesson.wordIds));
-
-      let started: SuggestedLesson | null = null;
-      let untouched: SuggestedLesson | null = null;
-      for (const lesson of ordered) {
-        const total = lesson.wordIds.length;
-        const learned = lesson.wordIds.filter((id) => isStudied(cards.get(id))).length;
-        if (learned >= total) continue;
-        if (learned > 0) {
-          // Vòng lặp đi từ buổi đầu tới buổi cuối nên giá trị đọng lại là buổi dở gần nhất.
-          started = { lesson, learned, total };
-        } else if (untouched === null) {
-          untouched = { lesson, learned, total };
-        }
-      }
-      return started ?? untouched;
+      return pickNextLesson(ordered, cards);
     };
 
     find()

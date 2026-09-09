@@ -5,6 +5,8 @@ export {
   createInitialCard,
   describeNextReview,
   intervalFromStability,
+  previewInterval,
   ratingFromAnswer,
   retrievability,
+  shortInterval,
 } from './fsrs.ts';

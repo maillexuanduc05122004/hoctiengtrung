@@ -34,12 +34,20 @@ export interface WordCardsState {
 
 export interface LessonProgressState {
   progress: Map<string, LessonProgress>;
+  /** Thẻ thô của mọi từ trong các buổi, để bên gọi tự tính thêm mà khỏi đọc lại kho. */
+  cards: ReadonlyMap<string, CardState>;
   loading: boolean;
   reload: () => void;
 }
 
-/** Trạng thái học của một buổi, dùng cho nhãn và màu viền của thẻ buổi học. */
-export type LessonStatus = 'new' | 'doing' | 'done';
+/**
+ * Trạng thái học của một buổi, dùng cho nhãn và màu viền của thẻ buổi học.
+ *
+ * `review` tách khỏi `done` vì hai câu "đã xong" và "6 từ cần ôn" từng cùng
+ * hiện trên một thẻ và nói ngược nhau. Học hết một buổi không có nghĩa là xong
+ * với nó: lịch ôn còn kéo dài nhiều tháng sau đó.
+ */
+export type LessonStatus = 'new' | 'doing' | 'review' | 'done';
 
 /** Kết quả một lần đọc, gắn với khoá yêu cầu đã sinh ra nó. */
 interface LoadedCards {
@@ -51,11 +59,15 @@ interface LoadedCards {
 const EMPTY_CARDS: ReadonlyMap<string, CardState> = new Map<string, CardState>();
 
 /**
- * Một từ tính là đã học khi thẻ của nó đã rời giai đoạn 'new'. Thẻ chỉ mới được
- * tạo ra vì người học bấm đánh dấu sao thì vẫn nằm ở 'new', nên không bị tính nhầm.
+ * Một từ tính là đã học khi thẻ của nó đã qua ít nhất một lượt ôn. Thẻ chỉ mới
+ * được tạo ra vì người học bấm lưu từ thì vẫn là từ mới, nên không bị tính nhầm.
+ *
+ * Điều kiện này lặp lại đúng `isUnstudied` trong db/cards.ts — cùng một phép thử
+ * quyết định "từ này còn mới hay không" ở hàng đợi học, ở tiến độ buổi và ở
+ * trang Tiến độ, nên ba nơi không được phép định nghĩa khác nhau.
  */
 export function isLearned(card: CardState | undefined): boolean {
-  return card !== undefined && card.phase !== 'new';
+  return card !== undefined && !(card.reps === 0 && card.phase === 'new');
 }
 
 /** Từ đã học và đã tới hạn ôn lại tính đến thời điểm `now`. */
@@ -65,7 +77,8 @@ export function isDue(card: CardState | undefined, now: number): boolean {
 
 export function lessonStatus(progress: LessonProgress | undefined): LessonStatus {
   if (!progress || progress.learned === 0) return 'new';
-  return progress.done ? 'done' : 'doing';
+  if (!progress.done) return 'doing';
+  return progress.due > 0 ? 'review' : 'done';
 }
 
 /**
@@ -143,5 +156,5 @@ export function useLessonProgress(lessons: readonly Lesson[]): LessonProgressSta
     return map;
   }, [lessons, cards, readAt]);
 
-  return { progress, loading, reload };
+  return { progress, cards, loading, reload };
 }

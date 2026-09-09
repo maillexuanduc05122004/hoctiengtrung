@@ -18,13 +18,19 @@ import {
   type PointerEvent as ReactPointerEvent,
   type ReactNode,
 } from 'react';
+import { Link } from 'react-router';
 import { Button, IconButton } from '../../components/ui/Button.tsx';
 import { EmptyState, Notice, Spinner } from '../../components/ui/Feedback.tsx';
 import { DictionarySheet } from '../dictionary/DictionarySheet.tsx';
 import { SessionSummary } from '../shared/SessionSummary.tsx';
+import { SaveWordButton } from '../shared/SaveWordButton.tsx';
+import { saveWordMessage } from '../shared/save-word.ts';
 import { SpeakerButton } from '../shared/SpeakerButton.tsx';
 import { StudyHeader } from '../shared/StudyHeader.tsx';
 import { StudyOptions, type StudyOptionsValue } from '../shared/StudyOptions.tsx';
+import { studySessionQuery, studySourceLabel } from '../shared/study-source.ts';
+import { previewInterval } from '../../lib/srs/index.ts';
+import { useLiveMessage } from '../../hooks/useLiveMessage.ts';
 import { useSettings } from '../../hooks/settings-context.ts';
 import { useStudySession, type PoolKind } from '../../hooks/useStudySession.ts';
 import type { AnswerVerdict } from '../../types/study.ts';
@@ -57,14 +63,6 @@ const RATE_LOCK_MS = 350;
 /** Cỡ chữ gốc mặc định của trình duyệt, dùng khi không đọc được giá trị thật. */
 const DEFAULT_ROOT_FONT_SIZE = 16;
 
-const POOL_LABEL: Record<PoolKind, string> = {
-  due: 'Từ cần ôn',
-  new: 'Từ mới',
-  starred: 'Từ đã đánh dấu',
-  mixed: 'Trộn từ cần ôn và từ mới',
-  lesson: 'Theo buổi học',
-};
-
 const EMPTY_TEXT: Record<PoolKind, { title: string; description: string }> = {
   due: {
     title: 'Không còn thẻ nào tới hạn ôn',
@@ -77,9 +75,9 @@ const EMPTY_TEXT: Record<PoolKind, { title: string; description: string }> = {
       'Mọi từ của các cấp này đều đã vào lịch ôn. Hãy chọn thêm cấp HSK khác, hoặc quay lại phần từ cần ôn.',
   },
   starred: {
-    title: 'Chưa có từ nào được đánh dấu',
+    title: 'Sổ tay chưa có từ nào',
     description:
-      'Bấm ngôi sao ở đầu trang khi gặp một từ khó, từ đó sẽ vào danh sách này. Trong lúc chờ, hãy học từ mới.',
+      'Bấm ngôi sao ở đầu trang khi gặp một từ khó, từ đó sẽ vào sổ tay. Trong lúc chờ, hãy học từ mới.',
   },
   mixed: {
     title: 'Chưa có thẻ nào để học',
@@ -126,6 +124,13 @@ function usePrefersReducedMotion(): boolean {
 
 type RatingTone = 'wrong' | 'close' | 'correct';
 
+/** Câu xác nhận sau mỗi lần chấm, cho vùng đọc thông báo. */
+const RATING_MESSAGE: Record<AnswerVerdict, string> = {
+  wrong: 'Đã ghi: chưa nhớ',
+  close: 'Đã ghi: gần nhớ',
+  correct: 'Đã ghi: đã nhớ',
+};
+
 const RATING_TONES: Record<RatingTone, string> = {
   wrong: 'border-cinnabar/55 bg-surface text-cinnabar-ink hover:bg-cinnabar-soft',
   close: 'border-partial/55 bg-surface text-partial hover:bg-partial-soft',
@@ -135,6 +140,8 @@ const RATING_TONES: Record<RatingTone, string> = {
 interface RatingButtonProps {
   tone: RatingTone;
   label: string;
+  /** Khoảng cách tới lần ôn kế tiếp nếu chấm ở mức này, ví dụ "3 ngày". */
+  interval: string;
   disabled: boolean;
   onClick: () => void;
 }
@@ -144,21 +151,36 @@ interface RatingButtonProps {
  *
  * Viết riêng thay vì dùng <Button> vì ba nút này cần đúng ba màu trạng thái của
  * bảng màu, mà các biến thể sẵn có không có màu vàng đất và xanh ngọc.
+ *
+ * Dòng thứ hai là hệ quả của lựa chọn. Ba mức này là dữ liệu đầu vào của cả
+ * thuật toán lặp lại ngắt quãng, mà nếu không thấy hệ quả thì người học không
+ * phân biệt nổi "gần nhớ" với "đã nhớ" và bấm theo cảm tính.
  */
-function RatingButton({ tone, label, disabled, onClick }: RatingButtonProps) {
+function RatingButton({ tone, label, interval, disabled, onClick }: RatingButtonProps) {
   return (
     <button
       type="button"
       disabled={disabled}
+      aria-label={`${label}, ôn lại sau ${interval}`}
       onClick={onClick}
       className={[
-        'tap flex w-full min-w-0 items-center justify-center border px-1.5 py-2 text-center',
+        'tap flex w-full min-w-0 flex-col items-center justify-center border px-1.5 py-1.5 text-center',
         'text-[0.875rem] leading-tight font-medium rounded-[0.375rem] transition-colors duration-150',
         'disabled:cursor-not-allowed disabled:opacity-45',
         RATING_TONES[tone],
       ].join(' ')}
     >
-      {label}
+      <span
+        aria-hidden="true"
+      >
+        {label}
+      </span>
+      <span
+        aria-hidden="true"
+        className="mt-0.5 text-[0.6875rem] font-normal opacity-80"
+      >
+        {interval}
+      </span>
     </button>
   );
 }
@@ -178,16 +200,23 @@ export function FlashcardDeck({
     queue,
     index,
     current,
+    currentCard,
+    readAt,
+    poolTotal,
     finished,
     loading,
     error,
     stats,
     starred,
+    missed,
     submit,
     skip,
     restart,
+    replay,
+    replayMissed,
     toggleStar,
   } = session;
+  const { message, token, announce } = useLiveMessage();
 
   // Trạng thái lật và trạng thái xem lại đều gắn với thẻ sinh ra chúng: đổi thẻ
   // là giá trị suy ra trở về mặc định, khỏi phải đặt lại bằng effect.
@@ -195,7 +224,18 @@ export function FlashcardDeck({
     wordId: null,
     open: false,
   });
-  const [peek, setPeek] = useState<{ at: number; steps: number }>({ at: 0, steps: 0 });
+  /*
+    Trạng thái "đang xem lại thẻ cũ" gắn với chỉ số thẻ, mà hàng đợi mới cũng
+    bắt đầu lại từ chỉ số 0. Nếu không dọn, người học lùi lại ở thẻ 5 của phiên
+    trước rồi bấm "phiên mới" sẽ bị ném về một thẻ cũ ngay khi đi tới thẻ 5, và
+    ba nút chấm bị khoá mà không hiểu vì sao. Vì vậy nó mang theo cả danh tính
+    của hàng đợi: đổi hàng đợi là giá trị suy ra tự trở về mặc định.
+  */
+  const [peek, setPeek] = useState<{ queue: string; at: number; steps: number }>({
+    queue: '',
+    at: 0,
+    steps: 0,
+  });
   const [optionsOpen, setOptionsOpen] = useState(false);
   const [dictionaryOpen, setDictionaryOpen] = useState(false);
   const [offsetRem, setOffsetRem] = useState(0);
@@ -210,7 +250,9 @@ export function FlashcardDeck({
   const swallowClick = useRef(false);
 
   // Số thẻ đang lùi lại để xem lại; 0 nghĩa là đang ở thẻ phải trả lời.
-  const back = peek.at === index ? peek.steps : 0;
+  // Danh tính hàng đợi: đủ để nhận ra "vẫn đúng hàng đợi ấy" mà không phải ghép cả mảng.
+  const queueKey = `${queue.length}|${queue[0]?.id ?? ''}|${queue[queue.length - 1]?.id ?? ''}`;
+  const back = peek.queue === queueKey && peek.at === index ? peek.steps : 0;
   const viewIndex = index - back;
   const word = queue[viewIndex] ?? null;
   const reviewing = back > 0 && word !== null;
@@ -226,16 +268,16 @@ export function FlashcardDeck({
 
   const goPrevious = useCallback(() => {
     if (index - back <= 0) return;
-    setPeek({ at: index, steps: back + 1 });
-  }, [index, back]);
+    setPeek({ queue: queueKey, at: index, steps: back + 1 });
+  }, [index, back, queueKey]);
 
   const goNext = useCallback(() => {
     if (back > 0) {
-      setPeek({ at: index, steps: back - 1 });
+      setPeek({ queue: queueKey, at: index, steps: back - 1 });
       return;
     }
     skip();
-  }, [index, back, skip]);
+  }, [index, back, skip, queueKey]);
 
   const rate = useCallback(
     (verdict: AnswerVerdict) => {
@@ -246,6 +288,15 @@ export function FlashcardDeck({
       if (now - ratedAt.current < RATE_LOCK_MS) return;
       ratedAt.current = now;
       const startedAt = shownAt.current;
+      // Chấm xong màn hình chỉ thay một thẻ mới, không có tín hiệu nào nói rằng
+      // lượt vừa rồi đã được ghi nhận. Câu này vừa xác nhận, vừa cho biết còn
+      // bao nhiêu thẻ nữa — thông tin mà trình đọc màn hình không có cách nào khác để biết.
+      const left = queue.length - (index + 1);
+      announce(
+        left > 0
+          ? `${RATING_MESSAGE[verdict]}. Còn ${left} thẻ.`
+          : `${RATING_MESSAGE[verdict]}. Đã hết thẻ.`,
+      );
       void submit({
         verdict,
         usedHint: false,
@@ -254,13 +305,16 @@ export function FlashcardDeck({
         elapsedMs: startedAt > 0 ? Math.max(0, now - startedAt) : 0,
       });
     },
-    [current, back, submit],
+    [current, back, submit, announce, queue.length, index],
   );
 
   const handleToggleStar = useCallback(() => {
     if (word === null) return;
-    void toggleStar(word.id);
-  }, [word, toggleStar]);
+    void toggleStar(word.id).then(
+      (saved) => announce(saveWordMessage(word.simplified, saved)),
+      () => announce('Không lưu được vào máy này.'),
+    );
+  }, [word, toggleStar, announce]);
 
   const handleFlip = useCallback(() => {
     setFlip((previous) => ({
@@ -362,11 +416,17 @@ export function FlashcardDeck({
   const showOptions = optionsOpen || empty;
   const fallbackPool: PoolKind = pool === 'new' ? 'due' : 'new';
   const fallbackLabel = pool === 'new' ? 'Chuyển sang Từ cần ôn' : 'Chuyển sang Từ mới';
-  const subtitle =
-    lessonLabel !== undefined && lessonLabel !== ''
-      ? lessonLabel
-      : `${POOL_LABEL[pool]} · HSK ${levelList.join(', ')}`;
+  const source = studySourceLabel({
+    pool,
+    levels: levelList,
+    lessonLabel,
+    shown: queue.length,
+    total: poolTotal,
+  });
   const isStarred = word !== null && starred.has(word.id);
+  // Từ mới chưa có thẻ nào, nhưng vẫn xem trước được bằng thẻ khởi tạo.
+  const previewFor = (verdict: AnswerVerdict): string =>
+    word === null || readAt === 0 ? '' : previewInterval(currentCard, word.id, verdict, readAt);
 
   let body: ReactNode;
 
@@ -389,19 +449,42 @@ export function FlashcardDeck({
     body = (
       <SessionSummary
         stats={stats}
+        onReplay={replay}
         onRestart={restart}
+        onReplayMissed={replayMissed}
+        missedCount={missed.length}
         extra={
-          pool === 'new' ? null : (
-            <Button
-              variant="secondary"
-              size="lg"
-              icon="arrow-right"
-              block
-              onClick={() => onOptionsChange({ levels: levelList, pool: 'new' })}
-            >
-              Học tiếp từ mới
-            </Button>
-          )
+          <>
+            {/* Học theo buổi thì bước tiếp theo tự nhiên là quay lại buổi đó để
+                đổi cách luyện, chứ không phải nhảy sang một nguồn từ khác. */}
+            {lessonId !== undefined && lessonId !== '' ? (
+              <Link
+                to={`/buoi-hoc/${encodeURIComponent(lessonId)}`}
+                className="tap flex w-full min-w-0 items-center justify-center border border-line-strong bg-surface px-5 py-3 text-[1rem] font-medium text-ink no-underline rounded-[0.375rem] transition-colors duration-150 hover:border-ink-faint"
+              >
+                Về buổi học
+              </Link>
+            ) : null}
+            {pool === 'starred' ? (
+              <Link
+                to="/da-luu"
+                className="tap flex w-full min-w-0 items-center justify-center border border-line-strong bg-surface px-5 py-3 text-[1rem] font-medium text-ink no-underline rounded-[0.375rem] transition-colors duration-150 hover:border-ink-faint"
+              >
+                Xem sổ tay
+              </Link>
+            ) : null}
+            {pool === 'new' || pool === 'lesson' || pool === 'starred' ? null : (
+              <Button
+                variant="secondary"
+                size="lg"
+                icon="arrow-right"
+                block
+                onClick={() => onOptionsChange({ levels: levelList, pool: 'new' })}
+              >
+                Học tiếp từ mới
+              </Button>
+            )}
+          </>
         }
       />
     );
@@ -491,9 +574,11 @@ export function FlashcardDeck({
           </p>
         ) : null}
 
-        {/* Hàng nút dính đáy vùng cuộn, nâng lên trên thanh điều hướng của điện thoại. */}
+        {/* Hàng nút dính đáy vùng cuộn, đặt đúng bằng chiều cao thanh điều hướng
+            (3,5rem) cộng vùng an toàn. Trước đây dùng 4,75rem — bằng phần đệm đáy
+            của trang — nên hở một khe 1,25rem cho nội dung chạy qua bên dưới. */}
         <div
-          className="sticky bottom-0 z-20 mt-4 border-t border-line bg-paper pt-3 pb-3 xsm:bottom-[calc(4.75rem+env(safe-area-inset-bottom))]"
+          className="sticky bottom-0 z-20 mt-4 border-t border-line bg-paper pt-3 pb-3 xsm:bottom-[calc(3.5rem+env(safe-area-inset-bottom))]"
         >
           <div
             className="flex min-w-0 items-center justify-between"
@@ -526,18 +611,21 @@ export function FlashcardDeck({
             <RatingButton
               tone="wrong"
               label="Chưa nhớ"
+              interval={previewFor('wrong')}
               disabled={reviewing}
               onClick={() => rate('wrong')}
             />
             <RatingButton
               tone="close"
               label="Gần nhớ"
+              interval={previewFor('close')}
               disabled={reviewing}
               onClick={() => rate('close')}
             />
             <RatingButton
               tone="correct"
               label="Đã nhớ"
+              interval={previewFor('correct')}
               disabled={reviewing}
               onClick={() => rate('correct')}
             />
@@ -553,9 +641,15 @@ export function FlashcardDeck({
     >
       <StudyHeader
         title="Lật thẻ"
-        done={stats.done}
+        mode="flashcards"
+        done={stats.done + stats.skipped}
         total={stats.total}
-        subtitle={subtitle}
+        source={source}
+        onEditSource={() => setOptionsOpen((value) => !value)}
+        lessonId={lessonId}
+        sessionQuery={studySessionQuery(pool, levelList, lessonId)}
+        message={message}
+        messageToken={token}
         right={
           <>
             <IconButton
@@ -564,24 +658,11 @@ export function FlashcardDeck({
               disabled={word === null}
               onClick={handleFlip}
             />
-            <IconButton
-              icon={isStarred ? 'star-filled' : 'star'}
-              label={
-                word === null
-                  ? 'Đánh dấu từ'
-                  : isStarred
-                    ? `Bỏ đánh dấu từ ${word.simplified}`
-                    : `Đánh dấu từ ${word.simplified}`
-              }
-              pressed={isStarred}
+            <SaveWordButton
+              word={word?.simplified ?? ''}
+              saved={isStarred}
               disabled={word === null}
-              onClick={handleToggleStar}
-            />
-            <IconButton
-              icon="settings"
-              label="Tùy chọn phiên học"
-              pressed={optionsOpen}
-              onClick={() => setOptionsOpen((value) => !value)}
+              onToggle={handleToggleStar}
             />
           </>
         }
@@ -596,6 +677,7 @@ export function FlashcardDeck({
             value={{ levels: levelList, pool }}
             onChange={onOptionsChange}
             lessonLabel={lessonLabel}
+            lessonId={lessonId}
           />
         </section>
       ) : null}

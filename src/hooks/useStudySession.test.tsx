@@ -6,8 +6,9 @@ import { useStudySession } from './useStudySession.ts';
 import { SettingsContext } from './settings-context.ts';
 import { VocabularyContext } from './vocabulary-context.ts';
 import { buildIndex } from '../lib/vocabulary/store.ts';
-import { db, getCard, getRecentDays, resetDatabase } from '../db/index.ts';
+import { db, getCard, getRecentDays, resetDatabase, saveCard, toggleStar } from '../db/index.ts';
 import { DEFAULT_SETTINGS } from '../types/settings.ts';
+import type { CardState } from '../types/study.ts';
 import type { HskLevel, LevelDataFile, VocabularyWord } from '../types/vocabulary.ts';
 
 function makeWord(index: number, level: HskLevel = 1): VocabularyWord {
@@ -227,7 +228,7 @@ describe('useStudySession', () => {
     expect(starred.result.current.queue.map((w) => w.id)).toEqual(['L1-0003']);
   });
 
-  it('bỏ qua từ thì không tính vào thống kê', async () => {
+  it('bỏ qua từ không tính là đã trả lời, nhưng vẫn tính là đã đi qua', async () => {
     const { result } = renderSession('new');
     await waitFor(() => expect(result.current.loading).toBe(false));
 
@@ -237,5 +238,98 @@ describe('useStudySession', () => {
 
     expect(result.current.index).toBe(1);
     expect(result.current.stats.done).toBe(0);
+    // Thanh tiến độ chạy theo done + skipped, nếu không thì bỏ qua ba thẻ là
+    // màn hình nói "2/20" trong khi người học đang ở thẻ thứ sáu.
+    expect(result.current.stats.skipped).toBe(1);
+  });
+
+  it('phát lại đúng những từ vừa học chứ không đọc lại kho', async () => {
+    const { result } = renderSession('new', 2);
+    await waitFor(() => expect(result.current.loading).toBe(false));
+    const played = result.current.queue.map((word) => word.id);
+
+    for (let turn = 0; turn < 2; turn += 1) {
+      await act(async () => {
+        await result.current.submit({
+          verdict: 'correct',
+          usedHint: false,
+          given: 'zì',
+          expected: 'zì',
+          elapsedMs: 100,
+        });
+      });
+    }
+    expect(result.current.finished).toBe(true);
+
+    act(() => {
+      result.current.replay();
+    });
+
+    // Dựng lại từ kho sẽ ra hàng đợi rỗng vì hai từ này vừa có thẻ; phát lại
+    // thì phải ra đúng hai từ đó.
+    expect(result.current.queue.map((word) => word.id)).toEqual(played);
+    expect(result.current.finished).toBe(false);
+    expect(result.current.stats.done).toBe(0);
+  });
+
+  it('chỉ phát lại những từ chưa trả lời đúng', async () => {
+    const { result } = renderSession('new', 2);
+    await waitFor(() => expect(result.current.loading).toBe(false));
+    const wrongWord = result.current.queue[1].id;
+
+    for (const verdict of ['correct', 'wrong'] as const) {
+      await act(async () => {
+        await result.current.submit({
+          verdict,
+          usedHint: false,
+          given: '',
+          expected: 'zì',
+          elapsedMs: 100,
+        });
+      });
+    }
+
+    expect(result.current.missed.map((word) => word.id)).toEqual([wrongWord]);
+
+    act(() => {
+      result.current.replayMissed();
+    });
+
+    expect(result.current.queue.map((word) => word.id)).toEqual([wrongWord]);
+  });
+
+  it('sổ tay xếp từ lâu chưa ôn nhất lên trước để đi hết được vòng', async () => {
+    // Đây là lỗi từng có: xếp theo mốc LƯU thì phiên nào cũng cắt ra đúng cùng
+    // một nhóm đầu danh sách, và từ thứ (limit + 1) trở đi không bao giờ tới lượt.
+    await toggleStar('L1-0001', { at: 1_000 });
+    await toggleStar('L1-0002', { at: 2_000 });
+    await toggleStar('L1-0003', { at: 3_000 });
+    // L1-0001 vừa được ôn nên phải tụt xuống cuối.
+    await saveCard({
+      ...((await getCard('L1-0001')) as CardState),
+      phase: 'review',
+      reps: 1,
+      lastReviewedAt: 9_000,
+      dueAt: 9_000,
+    });
+
+    const { result } = renderSession('starred', 2);
+    await waitFor(() => expect(result.current.loading).toBe(false));
+
+    expect(result.current.queue.map((word) => word.id)).toEqual(['L1-0002', 'L1-0003']);
+    expect(result.current.poolTotal).toBe(3);
+  });
+
+  it('sổ tay không lọc theo cấp đang chọn', async () => {
+    // Lưu một từ rồi đổi cấp học mà từ đó biến mất thì chẳng khác gì mất dữ liệu.
+    await toggleStar('L1-0004', { at: 1_000 });
+
+    const { result } = renderHook(
+      () => useStudySession({ mode: 'flashcards', levels: [2, 3], pool: 'starred', limit: 5 }),
+      { wrapper },
+    );
+    await waitFor(() => expect(result.current.loading).toBe(false));
+
+    expect(result.current.queue.map((word) => word.id)).toEqual(['L1-0004']);
   });
 });

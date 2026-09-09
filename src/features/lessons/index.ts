@@ -6,6 +6,12 @@ export type { LessonCardProps } from './LessonCard.tsx';
 export { LessonList } from './LessonList.tsx';
 export type { LessonListProps } from './LessonList.tsx';
 
+export { pickNextLesson } from './next-lesson.ts';
+export type { NextLesson, NextLessonReason } from './next-lesson.ts';
+
+export { useSavedLessonIds, useSavedLessonRows } from './useSavedLessons.ts';
+export type { SavedLessonRowsState, SavedLessonsState } from './useSavedLessons.ts';
+
 export {
   isDue,
   isLearned,

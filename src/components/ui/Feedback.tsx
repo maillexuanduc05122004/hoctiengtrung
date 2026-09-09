@@ -10,6 +10,11 @@ export interface ProgressBarProps {
   tone?: 'teal' | 'cinnabar' | 'ink';
 }
 
+/** Trình đọc màn hình đọc "50 phần trăm" nếu không có câu này; số thật rõ hơn nhiều. */
+function valueTextOf(value: number, max: number, hint?: string): string {
+  return hint ?? `${value} trên ${max}`;
+}
+
 const BAR_TONES: Record<NonNullable<ProgressBarProps['tone']>, string> = {
   teal: 'bg-teal',
   cinnabar: 'bg-cinnabar',
@@ -44,6 +49,7 @@ export function ProgressBar({ value, max, label, hint, tone = 'teal' }: Progress
         aria-valuenow={value}
         aria-valuemin={0}
         aria-valuemax={safeMax}
+        aria-valuetext={valueTextOf(value, safeMax, hint)}
         aria-label={label}
         className="h-1.5 w-full overflow-hidden rounded-full bg-sunken"
       >

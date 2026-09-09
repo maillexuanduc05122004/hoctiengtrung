@@ -83,25 +83,51 @@ Chi tiết đầy đủ nằm ở trang **Nguồn dữ liệu** trong ứng dụ
    Có nghe lại, phát chậm, nghe từng âm tiết, hé dần pinyin, xem nghĩa, xem đáp án.
 4. **Luyện nói** — nghe mẫu rồi đọc lại, dùng Web Speech Recognition với `zh-CN`.
 
+### Sổ tay
+
+Bấm ngôi sao ở bất cứ đâu — lúc lật thẻ, lúc gõ, lúc tra từ, hay trên một buổi học — thì từ
+hoặc buổi đó vào **Sổ tay**. Sổ tay có ba mục: từ đã lưu, buổi đã lưu, và các từ vừa tra. Hai
+mục đầu do người học tự chọn nên giữ đến khi chính họ bỏ; mục thứ ba do máy tự ghi và chỉ giữ
+300 từ gần nhất — ứng dụng nói rõ khác biệt đó ngay trên màn hình.
+
+Ôn riêng các từ đã lưu bằng một nút, và phiên đó lấy toàn bộ sổ tay chứ không lọc theo cấp
+đang học: sổ tay là danh sách cá nhân, không phải một lát cắt của bộ từ.
+
 ### Học tập và tiến độ
 
 - Thuật toán lặp lại ngắt quãng **FSRS 4.5** (`src/lib/srs/fsrs.ts`), có ghi rõ công thức và
   lý do trong chú thích.
 - Lưu trên máy: từ đã học, số lần đúng sai, lỗi gần nhất, ngày cần ôn, mức ghi nhớ, chế độ
-  hay sai, từ đã đánh dấu, chuỗi ngày học thật.
+  hay sai, sổ tay từ và buổi học đã lưu, chuỗi ngày học thật.
 - Trang chủ: số từ cần ôn hôm nay, mục tiêu ngày, nút học tiếp, tiến độ từng cấp HSK, những
   từ hay sai, lịch sử bảy ngày gần nhất.
 - **Người dùng mới bắt đầu từ trạng thái trống hoàn toàn.** Không có dữ liệu mẫu.
+- Đổi cách luyện giữa chừng vẫn giữ nguyên tập từ đang luyện, nhờ hàng chip đổi chế độ ngay
+  trong phiên học.
+- Ba nút tự đánh giá ghi luôn khoảng ôn dự kiến, để người học thấy hệ quả của lựa chọn.
 
 ### Buổi học
 
 Mỗi cấp được chia thành các buổi khoảng 10 từ: HSK 1 có 50 buổi, HSK 2 có 77 buổi, HSK 3 có
-97 buổi. Mỗi buổi vào thẳng được cả bốn chế độ luyện tập.
+97 buổi. Danh sách có bộ lọc theo trạng thái (cần ôn, đang học, chưa học, đã lưu), ô nhảy
+thẳng tới buổi số N, và thẻ "học tiếp" đưa về đúng chỗ vừa rời đi. Trang mở lại đúng cấp
+người học đang theo chứ không luôn quay về HSK 1, và quay lại từ một buổi thì rơi đúng chỗ cũ
+trong danh sách.
+
+Mỗi buổi có một hành động chính nói rõ việc sắp làm ("Học 4 từ chưa thuộc", "Ôn 6 từ tới
+hạn"), ba cách luyện còn lại nằm ở hàng phụ.
 
 ### Tra từ
 
 Tìm theo chữ Hán, pinyin có hoặc không dấu thanh, tiếng Việt có hoặc không dấu, và tiếng Anh.
 Mở được ngay giữa lúc làm bài dưới dạng bottom sheet, có nút nghe và nút chèn vào ô nhập.
+
+### Giữ dữ liệu
+
+Tiến độ nằm trong IndexedDB của máy, mà mặc định trình duyệt được phép xoá kho đó khi máy hết
+chỗ. Trang **Tiến độ** cho biết kho đã được ghim hay chưa, xin ghim bằng
+`navigator.storage.persist()`, và nhắc sao lưu khi đã quá lâu. Tệp sao lưu mang theo cả sổ tay
+từ, sổ tay buổi học và lịch sử tra từ; tệp cũ vẫn nạp được vì các phần mới không bắt buộc.
 
 ### Trải nghiệm
 
@@ -109,6 +135,13 @@ Giao diện tiếng Việt; chọn cách hiển thị Việt+Trung, Anh+Trung ho
 hiện thêm chữ phồn thể; chế độ tối (không dùng đen tuyệt đối); vùng chạm tối thiểu 2,75rem;
 điều hướng bàn phím; aria-label cho nút chỉ có biểu tượng; tôn trọng `prefers-reduced-motion`;
 không tự phát âm thanh; không xin quyền micro trước khi người dùng bấm nút luyện nói.
+
+Thanh điều hướng mang năm đích đến — Hôm nay, Buổi học, Sổ tay, Tra từ, Tiến độ — chứ không
+mang bốn cách luyện, vì vào thẳng một cách luyện thì không rõ đang học từ nào. Mọi thao tác
+lưu và chấm điểm đều báo lại bằng một câu trong vùng `aria-live`. Màu chữ và màu viền đã được
+đo lại theo ngưỡng tương phản WCAG.
+
+Lý do đằng sau các quyết định này nằm ở [docs/thiet-ke-ux.md](docs/thiet-ke-ux.md).
 
 ## Giới hạn của Web Speech API
 
@@ -145,6 +178,7 @@ src/
     dictionary/    tra từ
     progress/      tiến độ
     lessons/       buổi học
+    saved/         sổ tay từ và buổi học đã lưu
     shared/        thành phần trình bày dùng chung
   hooks/           state của ứng dụng và bộ máy phiên học
   lib/
@@ -152,6 +186,7 @@ src/
     pinyin/          đọc và chuẩn hoá pinyin
     speech/          bọc Web Speech API
     srs/             thuật toán FSRS
+    storage/         ghim kho dữ liệu của trình duyệt
     text/            chuẩn hoá tiếng Việt
     vocabulary/      nạp và tra cứu từ vựng
   pages/           các trang gắn với đường dẫn

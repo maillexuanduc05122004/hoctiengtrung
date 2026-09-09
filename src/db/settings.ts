@@ -7,8 +7,11 @@ import type {
   CardState,
   DailyStat,
   LastMistake,
+  LookupEntry,
+  LookupSource,
   Rating,
   ReviewLogEntry,
+  SavedLesson,
   StudyMode,
 } from '../types/study.ts';
 
@@ -17,13 +20,22 @@ export const SETTINGS_KEY = 'app';
 /** Tăng số này khi định dạng tệp sao lưu thay đổi không tương thích. */
 export const BACKUP_VERSION = 1;
 
-/** Cấu trúc tệp sao lưu mà người dùng tải về rồi nạp lại. */
+/**
+ * Cấu trúc tệp sao lưu mà người dùng tải về rồi nạp lại.
+ *
+ * Sổ tay (`savedLessons`) và lịch sử tra từ (`lookups`) được thêm sau nên vẫn
+ * mang số phiên bản 1: tệp cũ không có hai mảng này vẫn nạp được, chỉ là nạp
+ * vào một sổ tay rỗng. Đổi số phiên bản chỉ vì thêm phần không bắt buộc sẽ làm
+ * mọi tệp người dùng đã tải về trước đó thành vô dụng.
+ */
 export interface ProgressBackup {
   version: number;
   exportedAt: number;
   cards: CardState[];
   reviews: ReviewLogEntry[];
   dailyStats: DailyStat[];
+  savedLessons: SavedLesson[];
+  lookups: LookupEntry[];
   settings: AppSettings | null;
 }
 
@@ -36,6 +48,7 @@ const RATINGS: readonly Rating[] = [1, 2, 3, 4];
 const LEVELS: readonly HskLevel[] = [1, 2, 3];
 const DISPLAY_MODES: readonly DisplayMode[] = ['vi-zh', 'en-zh', 'vi-en-zh'];
 const THEMES: readonly ThemePreference[] = ['light', 'dark', 'system'];
+const LOOKUP_SOURCES: readonly LookupSource[] = ['search', 'scan'];
 
 /** Trả bản sao để nơi gọi sửa thoải mái mà không đụng vào DEFAULT_SETTINGS dùng chung. */
 function cloneSettings(settings: AppSettings): AppSettings {
@@ -86,6 +99,11 @@ function sanitizeSettings(stored: unknown): AppSettings {
     newPerDay: countOr(raw.newPerDay, DEFAULT_SETTINGS.newPerDay),
     // Danh sách rỗng là ý muốn thật của người dùng (bỏ chọn hết cấp), giữ nguyên.
     activeLevels: levels ?? [...DEFAULT_SETTINGS.activeLevels],
+    lastLessonId: typeof raw.lastLessonId === 'string' ? raw.lastLessonId : null,
+    lastBackupAt:
+      typeof raw.lastBackupAt === 'number' && Number.isFinite(raw.lastBackupAt)
+        ? raw.lastBackupAt
+        : null,
   };
 }
 
@@ -106,6 +124,9 @@ function mergeDefined(base: AppSettings, patch: Partial<AppSettings>): AppSettin
     dailyGoal: patch.dailyGoal ?? base.dailyGoal,
     newPerDay: patch.newPerDay ?? base.newPerDay,
     activeLevels: [...(patch.activeLevels ?? base.activeLevels)],
+    lastLessonId: patch.lastLessonId !== undefined ? patch.lastLessonId : base.lastLessonId,
+    // Nhận `null` để xoá mốc sao lưu, giống cách preferredVoiceUri bỏ chọn giọng.
+    lastBackupAt: patch.lastBackupAt !== undefined ? patch.lastBackupAt : base.lastBackupAt,
   };
 }
 
@@ -131,12 +152,14 @@ export async function patchSettings(patch: Partial<AppSettings>): Promise<AppSet
 export async function exportProgress(): Promise<string> {
   const backup = await db.transaction(
     'r',
-    [db.cards, db.reviews, db.dailyStats, db.appSettings],
+    [db.cards, db.reviews, db.dailyStats, db.appSettings, db.savedLessons, db.lookups],
     async (): Promise<ProgressBackup> => {
-      const [cards, reviews, dailyStats, row] = await Promise.all([
+      const [cards, reviews, dailyStats, savedLessons, lookups, row] = await Promise.all([
         db.cards.toArray(),
         db.reviews.toArray(),
         db.dailyStats.toArray(),
+        db.savedLessons.toArray(),
+        db.lookups.toArray(),
         db.appSettings.get(SETTINGS_KEY),
       ]);
       return {
@@ -145,6 +168,8 @@ export async function exportProgress(): Promise<string> {
         cards,
         reviews,
         dailyStats,
+        savedLessons,
+        lookups,
         settings: row ? row.value : null,
       };
     },
@@ -155,24 +180,38 @@ export async function exportProgress(): Promise<string> {
 /** Nạp lại tiến độ từ JSON đã xuất. Trả về số bản ghi đã nạp. */
 export async function importProgress(
   json: string,
-): Promise<{ cards: number; reviews: number; days: number }> {
+): Promise<{ cards: number; reviews: number; days: number; savedLessons: number; lookups: number }> {
   const backup = parseBackup(json);
-  await db.transaction('rw', [db.cards, db.reviews, db.dailyStats, db.appSettings], async () => {
-    // Nạp là thay thế toàn bộ tiến độ, không trộn với dữ liệu đang có để tránh số liệu lai.
-    // Riêng cài đặt chỉ bị ghi đè khi tệp có kèm, vì tệp cũ có thể xuất trước lúc người
-    // dùng chỉnh cài đặt và không có lý do gì để trả họ về mặc định.
-    await Promise.all([db.cards.clear(), db.reviews.clear(), db.dailyStats.clear()]);
-    await db.cards.bulkPut(backup.cards);
-    await db.reviews.bulkPut(backup.reviews);
-    await db.dailyStats.bulkPut(backup.dailyStats);
-    if (backup.settings) {
-      await db.appSettings.put({ key: SETTINGS_KEY, value: backup.settings });
-    }
-  });
+  await db.transaction(
+    'rw',
+    [db.cards, db.reviews, db.dailyStats, db.appSettings, db.savedLessons, db.lookups],
+    async () => {
+      // Nạp là thay thế toàn bộ tiến độ, không trộn với dữ liệu đang có để tránh số liệu lai.
+      // Riêng cài đặt chỉ bị ghi đè khi tệp có kèm, vì tệp cũ có thể xuất trước lúc người
+      // dùng chỉnh cài đặt và không có lý do gì để trả họ về mặc định.
+      await Promise.all([
+        db.cards.clear(),
+        db.reviews.clear(),
+        db.dailyStats.clear(),
+        db.savedLessons.clear(),
+        db.lookups.clear(),
+      ]);
+      await db.cards.bulkPut(backup.cards);
+      await db.reviews.bulkPut(backup.reviews);
+      await db.dailyStats.bulkPut(backup.dailyStats);
+      await db.savedLessons.bulkPut(backup.savedLessons);
+      await db.lookups.bulkPut(backup.lookups);
+      if (backup.settings) {
+        await db.appSettings.put({ key: SETTINGS_KEY, value: backup.settings });
+      }
+    },
+  );
   return {
     cards: backup.cards.length,
     reviews: backup.reviews.length,
     days: backup.dailyStats.length,
+    savedLessons: backup.savedLessons.length,
+    lookups: backup.lookups.length,
   };
 }
 
@@ -277,6 +316,12 @@ function toCard(value: unknown, index: number): CardState {
     dueAt: requireNumber(raw.dueAt, `${field}.dueAt`),
     learningStep: requireNumber(raw.learningStep, `${field}.learningStep`),
     starred: requireBoolean(raw.starred, `${field}.starred`),
+    // Tệp xuất trước khi sổ tay biết ghi mốc lưu thì không có trường này. Để
+    // `undefined` chứ không bịa ra một mốc, vì bịa sẽ đẩy từ cũ lên đầu sổ tay.
+    starredAt:
+      raw.starredAt === null || raw.starredAt === undefined
+        ? undefined
+        : requireNumber(raw.starredAt, `${field}.starredAt`),
     weakestMode:
       raw.weakestMode === null || raw.weakestMode === undefined
         ? null
@@ -317,6 +362,42 @@ function toDailyStat(value: unknown, index: number): DailyStat {
   };
 }
 
+function toSavedLesson(value: unknown, index: number): SavedLesson {
+  const field = `savedLessons[${index}]`;
+  const raw = requireRecord(value, field);
+  return {
+    lessonId: requireString(raw.lessonId, `${field}.lessonId`),
+    at: requireNumber(raw.at, `${field}.at`),
+  };
+}
+
+function toLookup(value: unknown, index: number): LookupEntry {
+  const field = `lookups[${index}]`;
+  const raw = requireRecord(value, field);
+  return {
+    wordId: requireString(raw.wordId, `${field}.wordId`),
+    at: requireNumber(raw.at, `${field}.at`),
+    count: requireNumber(raw.count, `${field}.count`),
+    // Hai trường này chỉ để hiển thị, thiếu thì lùi về giá trị trung tính chứ
+    // không làm hỏng cả tệp: mất một dòng lịch sử tra từ nhẹ hơn mất cả tiến độ.
+    query: typeof raw.query === 'string' ? raw.query : '',
+    source: oneOfOr<LookupSource>(raw.source, LOOKUP_SOURCES, 'search'),
+  };
+}
+
+/**
+ * Phần không bắt buộc của tệp sao lưu: thiếu hẳn thì coi như rỗng, nhưng có mà
+ * sai kiểu thì vẫn phải báo lỗi để người dùng biết tệp hỏng.
+ */
+function optionalArray<T>(
+  value: unknown,
+  field: string,
+  map: (item: unknown, index: number) => T,
+): T[] {
+  if (value === undefined || value === null) return [];
+  return requireArray(value, field).map(map);
+}
+
 function toSettings(value: unknown): AppSettings {
   const raw = requireRecord(value, 'settings');
   const levels = requireArray(raw.activeLevels, 'settings.activeLevels').map((level, index) =>
@@ -335,6 +416,16 @@ function toSettings(value: unknown): AppSettings {
     dailyGoal: requireNumber(raw.dailyGoal, 'settings.dailyGoal'),
     newPerDay: requireNumber(raw.newPerDay, 'settings.newPerDay'),
     activeLevels: levels,
+    lastLessonId:
+      raw.lastLessonId === null || raw.lastLessonId === undefined
+        ? null
+        : requireString(raw.lastLessonId, 'settings.lastLessonId'),
+    // Tệp xuất trước khi có lời nhắc sao lưu thì thiếu trường này; coi như chưa
+    // từng sao lưu, đúng với những gì tệp đó biết.
+    lastBackupAt:
+      raw.lastBackupAt === null || raw.lastBackupAt === undefined
+        ? null
+        : requireNumber(raw.lastBackupAt, 'settings.lastBackupAt'),
   };
 }
 
@@ -356,6 +447,8 @@ function parseBackup(json: string): ProgressBackup {
     cards: requireArray(root.cards, 'cards').map(toCard),
     reviews: requireArray(root.reviews, 'reviews').map(toReview),
     dailyStats: requireArray(root.dailyStats, 'dailyStats').map(toDailyStat),
+    savedLessons: optionalArray(root.savedLessons, 'savedLessons', toSavedLesson),
+    lookups: optionalArray(root.lookups, 'lookups', toLookup),
     settings:
       root.settings === null || root.settings === undefined ? null : toSettings(root.settings),
   };

@@ -1,16 +1,43 @@
+import { useEffect, useRef } from 'react';
 import { NavLink, Outlet, useLocation } from 'react-router';
-import { GENERAL_NAV, STUDY_NAV } from './navigation.ts';
+import { MAIN_NAV, SECONDARY_NAV, STUDY_NAV, type NavItem } from './navigation.ts';
 import { Icon } from './ui/Icon.tsx';
 
 /**
  * Khung ứng dụng.
  *
- * Trên điện thoại: thanh tiêu đề dính trên cùng và thanh điều hướng bốn chức
- * năng dính dưới cùng. Trên máy tính: cột điều hướng bên trái và vùng nội dung
+ * Trên điện thoại: thanh tiêu đề dính trên cùng và thanh điều hướng năm đích
+ * đến dính dưới cùng. Trên máy tính: cột điều hướng bên trái và vùng nội dung
  * rộng, không phải bản phóng to của giao diện điện thoại.
+ *
+ * Thanh dưới cùng mang các ĐÍCH ĐẾN chứ không mang bốn chế độ luyện tập. Bốn
+ * chế độ là công cụ: vào thẳng chúng từ thanh điều hướng là rơi vào một hàng đợi
+ * không ai chọn. Chúng có mặt ở nơi đã biết mình luyện từ nào — trang buổi học,
+ * sổ tay, và hàng đổi chế độ ngay trong phiên.
  */
 export function AppShell() {
   const location = useLocation();
+  const mainRef = useRef<HTMLElement>(null);
+
+  /*
+    Đổi trang thì đưa cửa sổ về đầu và trả tiêu điểm về vùng nội dung.
+
+    React Router không tự làm việc này. Hậu quả thấy rõ nhất ở danh sách buổi
+    học: mở buổi 42 từ cuối một trang đã cuộn sâu thì trang chi tiết cũng mở ra
+    ở đúng độ cao đó, tức là ở giữa danh sách từ. Người dùng bàn phím và trình
+    đọc màn hình còn tệ hơn: tiêu điểm vẫn nằm ở liên kết vừa bấm, thuộc về một
+    trang không còn tồn tại.
+
+    Trang có neo trong địa chỉ (`#buoi-42`) thì không đụng tới: chính trang đó
+    sẽ tự cuộn tới neo.
+  */
+  useEffect(() => {
+    // Trang có neo thì để chính trang đó cuộn tới neo, nhưng tiêu điểm vẫn phải
+    // rời khỏi liên kết của trang cũ — `preventScroll` giữ cho việc đó không
+    // kéo màn hình về đầu và phá mất cú cuộn tới neo.
+    if (location.hash === '') window.scrollTo(0, 0);
+    mainRef.current?.focus({ preventScroll: true });
+  }, [location.pathname, location.hash]);
 
   return (
     <div
@@ -28,7 +55,7 @@ export function AppShell() {
       >
         {/* Cột điều hướng chỉ có trên máy tính. */}
         <aside
-          className="sticky top-0 h-dvh w-[15rem] shrink-0 border-r border-line px-3 py-5 xsm:hidden"
+          className="sticky top-0 h-dvh w-[15rem] shrink-0 overflow-y-auto border-r border-line px-3 py-5 xsm:hidden"
         >
           <NavLink
             to="/"
@@ -47,15 +74,22 @@ export function AppShell() {
           </NavLink>
 
           <SidebarGroup
-            title="Luyện tập"
+            title="Học"
+            items={MAIN_NAV}
+          />
+          <div
+            className="my-4 border-t border-line"
+          />
+          <SidebarGroup
+            title="Cách luyện"
             items={STUDY_NAV}
           />
           <div
             className="my-4 border-t border-line"
           />
           <SidebarGroup
-            title="Theo dõi"
-            items={GENERAL_NAV}
+            title="Khác"
+            items={SECONDARY_NAV}
           />
 
           <NavLink
@@ -92,7 +126,7 @@ export function AppShell() {
               aria-label="Điều hướng phụ"
               className="flex items-center space-x-0.5"
             >
-              {GENERAL_NAV.filter((item) => item.to !== '/').map((item) => (
+              {SECONDARY_NAV.map((item) => (
                 <NavLink
                   key={item.to}
                   to={item.to}
@@ -111,37 +145,46 @@ export function AppShell() {
             </nav>
           </header>
 
+          {/*
+            `tabIndex={-1}` để liên kết "Bỏ qua phần điều hướng" thật sự đưa được
+            tiêu điểm tới đây: nhảy tới một phần tử không nhận tiêu điểm thì
+            trình duyệt chỉ cuộn, còn phím Tab tiếp theo vẫn quay về thanh điều
+            hướng vừa bỏ qua. Đây cũng là chỗ nhận tiêu điểm sau mỗi lần đổi trang.
+          */}
           <main
             id="noi-dung"
-            className="px-6 pt-6 pb-16 xsm:px-4 xsm:pt-4 xsm:pb-[calc(4.75rem+env(safe-area-inset-bottom))]"
+            ref={mainRef}
+            tabIndex={-1}
+            className="px-6 pt-6 pb-16 focus:outline-none xsm:px-4 xsm:pt-4 xsm:pb-[calc(4.75rem+env(safe-area-inset-bottom))]"
           >
             <Outlet key={location.pathname} />
           </main>
         </div>
       </div>
 
-      {/* Bốn chức năng chính, chỉ hiện trên điện thoại. */}
+      {/* Năm đích đến chính, chỉ hiện trên điện thoại. */}
       <nav
-        aria-label="Bốn chức năng luyện tập"
-        className="hidden xsm:fixed xsm:right-0 xsm:bottom-0 xsm:left-0 xsm:z-30 xsm:grid xsm:grid-cols-4 xsm:border-t xsm:border-line xsm:bg-surface xsm:pb-[env(safe-area-inset-bottom)]"
+        aria-label="Điều hướng chính"
+        className="hidden xsm:fixed xsm:right-0 xsm:bottom-0 xsm:left-0 xsm:z-30 xsm:grid xsm:grid-cols-5 xsm:border-t xsm:border-line xsm:bg-surface xsm:pb-[env(safe-area-inset-bottom)]"
       >
-        {STUDY_NAV.map((item) => (
+        {MAIN_NAV.map((item) => (
           <NavLink
             key={item.to}
             to={item.to}
+            end={item.to === '/'}
             className={({ isActive }) =>
               [
-                'flex min-h-[3.5rem] flex-col items-center justify-center py-1.5 no-underline transition-colors duration-150',
+                'flex min-h-[3.5rem] flex-col items-center justify-center px-0.5 py-1.5 no-underline transition-colors duration-150',
                 isActive ? 'text-cinnabar' : 'text-ink-faint',
               ].join(' ')
             }
           >
             {({ isActive }) => (
               <>
-                <Icon name={item.icon} size={1.3125} />
+                <Icon name={isActive && item.icon === 'star' ? 'star-filled' : item.icon} size={1.3125} />
                 <span
                   className={[
-                    'mt-0.5 text-[0.6875rem]',
+                    'mt-0.5 text-center text-[0.6875rem] leading-tight',
                     isActive ? 'font-semibold' : 'font-medium',
                   ].join(' ')}
                 >
@@ -156,7 +199,7 @@ export function AppShell() {
   );
 }
 
-function SidebarGroup({ title, items }: { title: string; items: readonly (typeof STUDY_NAV)[number][] }) {
+function SidebarGroup({ title, items }: { title: string; items: readonly NavItem[] }) {
   return (
     <nav
       aria-label={title}
