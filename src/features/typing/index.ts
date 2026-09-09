@@ -14,3 +14,6 @@ export {
   seededRandom,
 } from './prompt.ts';
 export type { TypingAnswerSet, TypingChallenge, TypingPromptKind } from './prompt.ts';
+
+export { checkLive } from './live.ts';
+export type { LiveCheck, LivePart, LiveStatus } from './live.ts';

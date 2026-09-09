@@ -22,8 +22,22 @@ import { StudyHeader } from '../shared/StudyHeader.tsx';
 import { saveWordMessage } from '../shared/save-word.ts';
 import { VerdictBanner } from '../shared/VerdictBanner.tsx';
 import { WordFace } from '../shared/WordFace.tsx';
+import { containsHanzi } from '../shared/hanzi.ts';
 import { HintBar } from './HintBar.tsx';
+import { checkLive, type LivePart, type LiveStatus } from './live.ts';
 import { buildChallenge, gradeChallenge, seededRandom } from './prompt.ts';
+
+const LIVE_PART_STYLES: Record<LivePart['status'], string> = {
+  ok: 'text-correct',
+  wrong: 'text-wrong underline decoration-wavy underline-offset-[0.25rem]',
+};
+
+const LIVE_NOTE_STYLES: Record<LiveStatus, string> = {
+  empty: 'text-ink-faint',
+  ok: 'text-ink-faint',
+  wrong: 'text-wrong',
+  complete: 'text-correct',
+};
 
 export interface TypingRoundProps {
   session: StudySession;
@@ -54,6 +68,11 @@ interface GradedAnswer {
  * `session.submit` nhảy sang từ tiếp theo ngay lập tức, trong khi người học cần
  * đọc phần giải thích trước đã. Cả hai nhịp đều nằm trên phím Enter nên gõ xong
  * là đi tiếp được mà không phải rời bàn phím.
+ *
+ * Ngoài hai nhịp đó còn một mạch chấm thứ ba chạy liên tục trong lúc gõ
+ * (`checkLive`): nó chỉ nói phần đã gõ còn khớp đáp án tới đâu, không kết luận
+ * đúng sai cả câu và không ghi gì vào lịch ôn — việc đó vẫn thuộc về nút
+ * "Kiểm tra".
  */
 export function TypingRound({
   session,
@@ -73,6 +92,8 @@ export function TypingRound({
   const [input, setInput] = useState('');
   const [graded, setGraded] = useState<GradedAnswer | null>(null);
   const [usedHint, setUsedHint] = useState(false);
+  const [showHanzi, setShowHanzi] = useState(false);
+  const [showMeaning, setShowMeaning] = useState(false);
   const [shownWordId, setShownWordId] = useState(word.id);
 
   // Sang từ khác thì dọn sạch câu cũ ngay trong lượt vẽ này. Làm bằng effect thì
@@ -82,6 +103,8 @@ export function TypingRound({
     setInput('');
     setGraded(null);
     setUsedHint(false);
+    setShowHanzi(false);
+    setShowMeaning(false);
   }
 
   // Đồng hồ đo thời gian trả lời. Đọc giờ là việc không thuần khiết nên phải đặt
@@ -109,6 +132,11 @@ export function TypingRound({
   const answered = graded !== null;
   const example = word.examples[0];
   const expectedAnswer = challenge.expected[0] ?? '';
+  const viMeanings = word.meanings.vi.filter((meaning) => meaning.trim() !== '');
+  // Chấm lại cả chuỗi sau mỗi phím thay vì giữ thêm một trạng thái chạy song song
+  // với ô nhập: câu trả lời chỉ dài vài chục ký tự nên tính lại rẻ hơn nhiều so
+  // với việc phải đồng bộ hai nguồn sự thật mỗi lần người học sửa giữa chừng.
+  const live = checkLive(challenge, input);
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>): void => {
     event.preventDefault();
@@ -214,6 +242,68 @@ export function TypingRound({
           >
             {challenge.instruction}
           </p>
+
+          {/*
+            Hai nút xem đặt ngay trong khối đề bài, tách hẳn khỏi thanh gợi ý ở
+            đáy: người học đang bí chỉ cần nhìn mặt chữ hoặc nghĩa rồi gõ theo,
+            không phải mở từng phần đáp án. Mở ra là câu này tính có dùng gợi ý,
+            giống mọi nút khác lộ nội dung của từ.
+          */}
+          {answered ? null : (
+            <div
+              className="mt-5 min-w-0 border-t border-line pt-4"
+            >
+              {showHanzi ? (
+                <div
+                  className="mb-4 flex min-w-0 justify-center"
+                >
+                  <WordFace
+                    word={word}
+                    size="lg"
+                    showTraditional={settings.showTraditional}
+                  />
+                </div>
+              ) : null}
+
+              {showMeaning && viMeanings.length > 0 ? (
+                <p
+                  lang="vi"
+                  className="mb-4 min-w-0 break-words text-[1.0625rem] text-ink"
+                >
+                  {viMeanings.join('; ')}
+                </p>
+              ) : null}
+
+              <div
+                className="flex min-w-0 justify-center space-x-2"
+              >
+                <Button
+                  variant="secondary"
+                  className="shrink-0 px-3 text-[0.8125rem] whitespace-nowrap"
+                  aria-pressed={showHanzi}
+                  disabled={challenge.questionKind === 'hanzi'}
+                  onClick={() => {
+                    setShowHanzi(true);
+                    setUsedHint(true);
+                  }}
+                >
+                  Xem chữ Hán
+                </Button>
+                <Button
+                  variant="secondary"
+                  className="shrink-0 px-3 text-[0.8125rem] whitespace-nowrap"
+                  aria-pressed={showMeaning}
+                  disabled={viMeanings.length === 0 || challenge.questionKind === 'vi'}
+                  onClick={() => {
+                    setShowMeaning(true);
+                    setUsedHint(true);
+                  }}
+                >
+                  Xem nghĩa Việt
+                </Button>
+              </div>
+            </div>
+          )}
         </section>
 
         {graded !== null ? (
@@ -358,6 +448,44 @@ export function TypingRound({
             challenge.answerKind === 'hanzi' ? 'han text-[1.375rem]' : 'text-[1.0625rem]',
           ].join(' ')}
         />
+
+        {/*
+          Dòng chấm ngay trong lúc gõ. Ô nhập không tô màu được từng ký tự nên
+          chuỗi đã gõ được vẽ lại ở đây, phần còn khớp đáp án màu xanh, phần đã
+          chệch gạch đỏ. Chỗ này luôn chiếm sẵn một dòng để lúc bắt đầu gõ khối
+          dính đáy không bị đội lên, làm nút "Kiểm tra" nhảy khỏi ngón tay.
+
+          Chuỗi vẽ lại chỉ là hình ảnh của ô nhập nên ẩn với trình đọc màn hình;
+          phần thông tin thật sự mới nằm ở lời nhắc bên phải và được đọc lên.
+        */}
+        {answered ? null : (
+          <div
+            className="mt-2 flex min-h-[1.5rem] min-w-0 items-baseline"
+          >
+            <p
+              aria-hidden="true"
+              className={[
+                'min-w-0 flex-1 leading-snug break-words',
+                containsHanzi(input) ? 'han text-[1.25rem]' : 'text-[0.9375rem]',
+              ].join(' ')}
+            >
+              {live.parts.map((part, index) => (
+                <span
+                  key={`${String(index)}-${part.text}`}
+                  className={LIVE_PART_STYLES[part.status]}
+                >
+                  {part.text}
+                </span>
+              ))}
+            </p>
+            <p
+              aria-live="polite"
+              className={`ml-2 shrink-0 text-[0.6875rem] tracking-wide ${LIVE_NOTE_STYLES[live.status]}`}
+            >
+              {live.note}
+            </p>
+          </div>
+        )}
 
         <div
           className="mt-2 flex min-w-0 items-center space-x-2"
