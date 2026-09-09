@@ -335,8 +335,15 @@ export function HomePage() {
                 : 'Bạn đã học hết các buổi trong những cấp đang chọn.'}
             </p>
           ) : (
+            /*
+              Trên điện thoại hàng này xếp dọc hẳn chứ không trông vào flex-wrap.
+              Cột chữ bên trái là `flex-1` nên kích thước cơ sở của nó bằng 0, mà
+              nút bên phải lại rộng đúng 100% khi thu nhỏ: cộng lại vẫn vừa một
+              hàng nên trình duyệt không xuống dòng, cột chữ bị ép về 0 và tên
+              buổi học rơi xuống mỗi dòng một chữ cái.
+            */
             <div
-              className="flex min-w-0 flex-wrap items-end justify-between"
+              className="flex min-w-0 flex-wrap items-end justify-between xsm:block"
             >
               <div
                 className="min-w-0 flex-1"
