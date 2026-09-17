@@ -117,6 +117,29 @@ trong danh sách.
 Mỗi buổi có một hành động chính nói rõ việc sắp làm ("Học 4 từ chưa thuộc", "Ôn 6 từ tới
 hạn"), ba cách luyện còn lại nằm ở hàng phụ.
 
+### Câu của tôi
+
+Một tab riêng, chạy trên vốn từ người học TỰ KHAI là mình đã học chứ không phải bộ HSK chia
+buổi: 89 từ, gộp từ bảng người học liệt kê và tệp PDF họ đưa. Hai nguồn lệch nhau 10 từ nên
+bảng ghi rõ nhóm nào đến từ đâu.
+
+Ba phần trong tab:
+
+1. **Từ vựng** — bảng ba cột chia đúng các nhóm người học đã chia, nút nghe từng từ và nút
+   nghe cả nhóm lần lượt từ đầu đến cuối.
+2. **Nghe câu** — 90 câu ghép sẵn từ chính 89 từ đó, xếp theo ba cấp dài dần. Mặc định mỗi
+   câu **chỉ có nút phát**: không chữ Hán, không pinyin, không nghĩa. Ba nút Hán / Pinyin /
+   Nghĩa mở riêng từng phần cho riêng câu đó. Tốc độ 0,6× đến 1×. Phím ↓ ↑ chuyển câu và
+   Enter phát câu đang chọn.
+3. **Thêm câu** — ứng dụng không gọi API AI nào (không có backend, và nhúng khoá vào trang
+   tĩnh thì ai cũng lấy được). Thay vào đó nó dựng sẵn câu lệnh kèm cả 89 từ để chép sang một
+   trợ lý bất kỳ, rồi đọc kết quả dán ngược về. Bộ đọc nhận dạng ba cột `汉字 | pinyin |
+   nghĩa`, và tha thứ cho số thứ tự đầu dòng, tab, gạch ngang lẫn bảng Markdown. Câu trùng
+   bị bỏ, và câu đã thêm nằm ở localStorage nên không mất khi đặt lại tiến độ.
+
+Mọi chữ Hán trong 90 câu đều nằm trong 89 từ đó, trừ `去` và `车` tách ra từ `去哪儿` và
+`开车`. Có test canh điều này, nên thêm câu mới mà lỡ dùng chữ chưa học là hỏng ngay.
+
 ### Tra từ
 
 Tìm theo chữ Hán, pinyin có hoặc không dấu thanh, tiếng Việt có hoặc không dấu, và tiếng Anh.
@@ -179,6 +202,7 @@ src/
     progress/      tiến độ
     lessons/       buổi học
     saved/         sổ tay từ và buổi học đã lưu
+    sentences/     vốn từ riêng và câu luyện nghe ghép từ vốn từ đó
     shared/        thành phần trình bày dùng chung
   hooks/           state của ứng dụng và bộ máy phiên học
   lib/

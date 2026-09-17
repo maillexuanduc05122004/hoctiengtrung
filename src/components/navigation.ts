@@ -49,14 +49,20 @@ export const STUDY_NAV: readonly NavItem[] = [
 ];
 
 /**
- * Năm đích đến chính, đủ để làm thanh điều hướng dưới cùng trên điện thoại.
+ * Sáu đích đến chính, cũng là thanh điều hướng dưới cùng trên điện thoại.
  *
  * Thứ tự theo đúng nhịp một ngày học: mở app xem hôm nay cần gì, vào buổi học,
- * ghé sổ tay, tra một từ lạ, rồi thỉnh thoảng ngó lại tiến độ.
+ * nghe lại vốn từ của riêng mình, ghé sổ tay, tra một từ lạ, rồi thỉnh thoảng
+ * ngó lại tiến độ.
+ *
+ * "Câu của tôi" là đích đến chứ không phải một cách luyện: nó chạy trên danh
+ * sách từ người học tự khai, không phải trên bộ HSK chia buổi, nên không có chỗ
+ * nào khác dẫn vào nó được.
  */
 export const MAIN_NAV: readonly NavItem[] = [
   { to: '/', label: 'Hôm nay', icon: 'home' },
   { to: '/buoi-hoc', label: 'Buổi học', shortLabel: 'Buổi học', icon: 'book' },
+  { to: '/cau-cua-toi', label: 'Câu của tôi', shortLabel: 'Câu', icon: 'lightbulb' },
   { to: '/da-luu', label: 'Sổ tay', icon: 'star' },
   { to: '/tra-tu', label: 'Tra từ', icon: 'search' },
   { to: '/tien-do', label: 'Tiến độ', icon: 'chart' },
