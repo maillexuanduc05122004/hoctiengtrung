@@ -1,9 +1,15 @@
 /**
- * Dựng thật trang "Câu của tôi".
+ * Dựng thật trang "Câu của tôi" với máy chủ giả.
  *
- * Trọng tâm là lời hứa dễ vỡ nhất của trang: mở lên thì KHÔNG được thấy chữ Hán,
- * pinyin hay nghĩa — chỉ có nút phát. Một lần lỡ tay đổi giá trị mặc định là
- * người học mất luôn phần đoán, mà nhìn mã nguồn thì không thấy ngay.
+ * Trọng tâm vẫn là lời hứa dễ vỡ nhất của trang: mở phần nghe thì KHÔNG được
+ * thấy chữ Hán, pinyin hay nghĩa — chỉ có nút phát. Cộng thêm ba lời hứa mới
+ * kể từ khi trang nối máy chủ: chưa đăng nhập thì không gọi API nào; nút AI
+ * khoá khi máy chủ chưa bật AI; và bấm "Tạo bằng AI" thì gửi đúng số câu, đúng
+ * cấp người học đã chọn.
+ *
+ * `endpoints.ts` được giả lập nguyên tệp nên không có yêu cầu mạng nào; dữ liệu
+ * mẫu lấy từ `corpus.ts` (89 từ, 90 câu) để bộ câu ngẫu nhiên có cùng kích cỡ
+ * với dữ liệu thật.
  *
  * jsdom không có `speechSynthesis`, nên các nút nghe dựng ra ở trạng thái vô
  * hiệu. Đó đúng là điều cần kiểm: thiết bị không đọc được thì trang vẫn phải
@@ -19,12 +25,96 @@ import userEvent from '@testing-library/user-event';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { SentencesPage } from './SentencesPage.tsx';
 import { MY_SENTENCES, MY_WORDS } from '../features/sentences/corpus.ts';
+import type {
+  AiStatus,
+  ImportPreviewResponse,
+  Sentence,
+  UserWord,
+} from '../lib/api/types.ts';
+
+const auth = vi.hoisted(() => ({ status: 'authenticated' as 'anonymous' | 'authenticated' }));
+
+vi.mock('../hooks/useAuth.ts', () => ({
+  useAuth: () => ({
+    user: null,
+    status: auth.status,
+    login: async () => undefined,
+    logout: async () => undefined,
+    isAdmin: auth.status === 'authenticated',
+  }),
+}));
+
+const api = vi.hoisted(() => ({
+  listMyWords: vi.fn(),
+  deleteMyWord: vi.fn(),
+  previewImport: vi.fn(),
+  confirmImport: vi.fn(),
+  listSentences: vi.fn(),
+  addSentences: vi.fn(),
+  deleteSentence: vi.fn(),
+  deleteSentencesBySource: vi.fn(),
+  generateSentences: vi.fn(),
+  aiStatus: vi.fn(),
+}));
+
+vi.mock('../lib/api/endpoints.ts', () => api);
+
+const LOGIN_DESCRIPTION =
+  'Phần này lưu từ bạn đã học trên máy chủ và dùng AI viết câu mới, nên cần đăng nhập.';
+
+/** 89 từ mẫu, học cách nhau một phút để nhóm "mới nhất" có thứ tự xác định. */
+const WORDS: UserWord[] = MY_WORDS.map((word, i) => ({
+  id: i + 1,
+  wordId: 1000 + i,
+  simplified: word.hanzi,
+  traditional: word.hanzi,
+  pinyin: word.pinyin,
+  meaningVi: word.vi,
+  hskLevel: 1,
+  status: 'LEARNED',
+  learnedAt: new Date(Date.UTC(2026, 0, 1, 0, i)).toISOString(),
+}));
+
+const SENTENCES: Sentence[] = MY_SENTENCES.map((sentence, i) => ({
+  id: i + 1,
+  hanzi: sentence.hanzi,
+  pinyin: sentence.pinyin,
+  meaningVi: sentence.vi,
+  level: sentence.level,
+  source: 'BUILTIN',
+  createdAt: '2026-01-01T00:00:00Z',
+}));
+
+const AI_ON: AiStatus = { enabled: true, model: 'claude-opus-5' };
+const AI_OFF: AiStatus = { enabled: false, model: '', reason: 'Chưa cấu hình ANTHROPIC_API_KEY' };
+
+function aiSentence(id: number, hanzi: string, pinyin: string, meaningVi: string): Sentence {
+  return { id, hanzi, pinyin, meaningVi, level: 1, source: 'AI', createdAt: '2026-02-01T00:00:00Z' };
+}
 
 beforeEach(() => {
-  localStorage.clear();
+  auth.status = 'authenticated';
+  for (const fn of Object.values(api)) fn.mockReset();
+  api.listMyWords.mockResolvedValue({
+    content: WORDS,
+    page: 0,
+    size: 500,
+    totalElements: WORDS.length,
+    totalPages: 1,
+    first: true,
+    last: true,
+  });
+  api.listSentences.mockResolvedValue(SENTENCES);
+  api.aiStatus.mockResolvedValue(AI_ON);
   // jsdom không có scrollIntoView; đổi bộ câu thì trang cuộn lên đầu nên cần hàm giả.
   Element.prototype.scrollIntoView = vi.fn();
 });
+
+/** Dựng trang rồi chờ máy chủ giả trả về từ và câu. */
+async function renderReady(): Promise<void> {
+  render(<SentencesPage />);
+  await screen.findByText(/89 từ bạn đã học và 90 câu ghép từ chính những từ đó\./);
+}
 
 /**
  * Toàn bộ chữ đang có trên trang, lấy một lần.
@@ -48,24 +138,53 @@ function shownHanzi(): Set<string> {
   return new Set([...nodes].map((node) => node.textContent ?? ''));
 }
 
-describe('trang Câu của tôi', () => {
-  it('mở ra ở bảng từ vựng với đủ số từ', () => {
+describe('trang Câu của tôi — đăng nhập', () => {
+  it('chưa đăng nhập thì chỉ có ô đăng nhập và không gọi máy chủ', () => {
+    auth.status = 'anonymous';
     render(<SentencesPage />);
 
     expect(screen.getByRole('heading', { level: 1, name: 'Câu của tôi' })).toBeInTheDocument();
-    expect(
-      screen.getByText(
-        `${MY_WORDS.length} từ bạn đã học và ${MY_SENTENCES.length} câu ghép từ chính những từ đó.`,
-      ),
-    ).toBeInTheDocument();
-    // Một từ ở nhóm đầu và một từ ở nhóm cuối, để chắc là dựng hết chứ không cắt.
+    expect(screen.getByRole('heading', { name: 'Đăng nhập' })).toBeInTheDocument();
+    expect(screen.getByText(LOGIN_DESCRIPTION)).toBeInTheDocument();
+    expect(screen.queryByRole('radio', { name: 'Nghe câu' })).not.toBeInTheDocument();
+
+    expect(api.listMyWords).not.toHaveBeenCalled();
+    expect(api.listSentences).not.toHaveBeenCalled();
+    expect(api.aiStatus).not.toHaveBeenCalled();
+  });
+
+  it('đăng nhập rồi thì lấy từ và câu từ máy chủ, hiện đủ số', async () => {
+    await renderReady();
+
+    expect(api.listMyWords).toHaveBeenCalledWith({ size: 500 });
+    expect(api.listSentences).toHaveBeenCalledTimes(1);
+    expect(api.aiStatus).toHaveBeenCalledTimes(1);
+    await screen.findByText(/· AI: claude-opus-5/);
+
+    // Nhóm mới nhất đứng đầu, rồi đến nhóm theo cấp; một từ ở nhóm đầu và một
+    // từ ở nhóm cuối, để chắc là dựng hết chứ không cắt.
+    expect(screen.getByRole('heading', { name: /10 từ mới nhất/ })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: /HSK 1/ })).toBeInTheDocument();
     expect(screen.getByText('开车')).toBeInTheDocument();
     expect(screen.getByText('水果')).toBeInTheDocument();
   });
 
-  it('ô tìm lọc bảng từ theo chữ Hán, pinyin hoặc nghĩa không dấu', async () => {
+  it('báo lỗi kèm nút thử lại khi máy chủ không trả lời', async () => {
+    api.listSentences.mockRejectedValueOnce(new TypeError('fetch failed'));
     const user = userEvent.setup();
     render(<SentencesPage />);
+
+    expect(await screen.findByText('Không lấy được từ và câu của bạn')).toBeInTheDocument();
+    await user.click(screen.getByRole('button', { name: 'Thử lại' }));
+    await screen.findByText(/89 từ bạn đã học và 90 câu/);
+    expect(api.listSentences).toHaveBeenCalledTimes(2);
+  });
+});
+
+describe('trang Câu của tôi — bảng từ', () => {
+  it('ô tìm lọc bảng từ theo chữ Hán, pinyin hoặc nghĩa không dấu', async () => {
+    const user = userEvent.setup();
+    await renderReady();
 
     // Không dấu nên "mua" khớp cả "mua" (买) lẫn "mưa" (下雨) — đúng ý, vì người
     // học gõ điện thoại thường bỏ dấu.
@@ -80,9 +199,25 @@ describe('trang Câu của tôi', () => {
     expect(screen.getByText('现在')).toBeInTheDocument();
   });
 
-  it('phần nghe câu mở ra một bộ 20 câu, không lộ chữ Hán, pinyin hay nghĩa', async () => {
+  it('bỏ một từ thì gọi máy chủ rồi nạp lại danh sách', async () => {
+    api.deleteMyWord.mockResolvedValue(undefined);
     const user = userEvent.setup();
-    render(<SentencesPage />);
+    await renderReady();
+
+    await user.type(screen.getByRole('searchbox', { name: 'Tìm từ' }), '开车');
+    await user.click(screen.getByRole('button', { name: 'Bỏ khỏi danh sách đã học' }));
+
+    const kaiche = WORDS.find((word) => word.simplified === '开车');
+    expect(api.deleteMyWord).toHaveBeenCalledWith(kaiche?.wordId);
+    await waitFor(() => expect(api.listMyWords).toHaveBeenCalledTimes(2));
+    expect(await screen.findByText('Đã bỏ 开车 khỏi danh sách đã học.')).toBeInTheDocument();
+  });
+});
+
+describe('trang Câu của tôi — nghe câu', () => {
+  it('mở ra một bộ 20 câu, không lộ chữ Hán, pinyin hay nghĩa', async () => {
+    const user = userEvent.setup();
+    await renderReady();
     await user.click(screen.getByRole('radio', { name: 'Nghe câu' }));
 
     expect(screen.getAllByRole('article')).toHaveLength(20);
@@ -96,14 +231,14 @@ describe('trang Câu của tôi', () => {
 
   it('"Đổi câu khác" cho ra bộ không trùng câu nào với bộ trước', async () => {
     const user = userEvent.setup();
-    render(<SentencesPage />);
+    await renderReady();
     await user.click(screen.getByRole('radio', { name: 'Nghe câu' }));
     await user.click(screen.getByRole('radio', { name: 'Hiện hết' }));
 
     const before = shownHanzi();
     expect(before.size).toBe(20);
 
-    await user.click(screen.getAllByRole('button', { name: /Đổi/ })[0]);
+    await user.click(screen.getByRole('button', { name: 'Đổi câu khác' }));
     const after = shownHanzi();
     expect(after.size).toBe(20);
     for (const hanzi of after) expect(before.has(hanzi)).toBe(false);
@@ -111,7 +246,7 @@ describe('trang Câu của tôi', () => {
 
   it('đổi cỡ bộ thì rút lại đúng số câu, "Tất cả" thì hiện hết', async () => {
     const user = userEvent.setup();
-    render(<SentencesPage />);
+    await renderReady();
     await user.click(screen.getByRole('radio', { name: 'Nghe câu' }));
 
     await user.click(screen.getByRole('radio', { name: '10' }));
@@ -126,7 +261,7 @@ describe('trang Câu của tôi', () => {
 
   it('mở riêng từng phần của một câu', async () => {
     const user = userEvent.setup();
-    render(<SentencesPage />);
+    await renderReady();
     await user.click(screen.getByRole('radio', { name: 'Nghe câu' }));
     // Thu hẹp bằng ô tìm để câu đầu chắc chắn là 现在几点？ mà không phải dựng
     // cả 90 thẻ — tra theo role trên 90 thẻ trong jsdom chậm tới mức vượt hạn.
@@ -143,7 +278,7 @@ describe('trang Câu của tôi', () => {
 
   it('ô tìm hiện mọi câu khớp, bỏ qua bộ ngẫu nhiên', async () => {
     const user = userEvent.setup();
-    render(<SentencesPage />);
+    await renderReady();
     await user.click(screen.getByRole('radio', { name: 'Nghe câu' }));
 
     const expected = MY_SENTENCES.filter((sentence) => sentence.hanzi.includes('现在')).length;
@@ -153,40 +288,334 @@ describe('trang Câu của tôi', () => {
     expect(shownHanzi().size).toBe(0);
   });
 
-  it('thêm câu dán vào và giữ lại sau khi dựng lại trang', async () => {
+  it('câu có sẵn không có nút xoá, câu AI và câu tự thêm thì có', async () => {
+    api.listSentences.mockResolvedValue([
+      ...SENTENCES,
+      aiSentence(501, '我在家喝茶。', 'Wǒ zài jiā hē chá.', 'Tôi uống trà ở nhà.'),
+    ]);
+    api.deleteSentence.mockResolvedValue(undefined);
     const user = userEvent.setup();
-    const view = render(<SentencesPage />);
+    render(<SentencesPage />);
+    await screen.findByText(/89 từ bạn đã học và 91 câu/);
+    await user.click(screen.getByRole('radio', { name: 'Nghe câu' }));
 
-    await user.click(screen.getByRole('radio', { name: 'Thêm câu' }));
+    await user.type(screen.getByRole('searchbox', { name: 'Tìm câu' }), '现在几点');
+    expect(screen.queryByRole('button', { name: /Xoá câu/ })).not.toBeInTheDocument();
+
+    await user.clear(screen.getByRole('searchbox', { name: 'Tìm câu' }));
+    await user.type(screen.getByRole('searchbox', { name: 'Tìm câu' }), '我在家喝茶');
+    expect(screen.getByRole('heading', { name: /Câu AI tạo/ })).toBeInTheDocument();
+    expect(screen.getByText('AI')).toBeInTheDocument();
+    await user.click(screen.getByRole('button', { name: 'Xoá câu 我在家喝茶。' }));
+    expect(api.deleteSentence).toHaveBeenCalledWith(501);
+    await waitFor(() => expect(screen.queryAllByRole('article')).toHaveLength(0));
+  });
+});
+
+describe('trang Câu của tôi — AI', () => {
+  it('nút tạo câu bị khoá khi máy chủ chưa bật AI', async () => {
+    api.aiStatus.mockResolvedValue(AI_OFF);
+    const user = userEvent.setup();
+    await renderReady();
+    await user.click(screen.getByRole('radio', { name: 'Nghe câu' }));
+
+    const button = screen.getByRole('button', { name: 'Tạo câu mới bằng AI' });
+    await waitFor(() => expect(button).toBeDisabled());
+    expect(button).toHaveAttribute('title', 'Chưa cấu hình AI trên máy chủ');
+    expect(screen.queryByText(/· AI:/)).not.toBeInTheDocument();
+
+    // Thẻ thêm câu giải thích lý do và cách bật, thay vì giấu nút đi.
+    await user.click(screen.getByRole('radio', { name: 'Thêm từ & câu' }));
+    expect(screen.getByText('Máy chủ chưa bật AI')).toBeInTheDocument();
+    expect(screen.getByText(/Chưa cấu hình ANTHROPIC_API_KEY/)).toBeInTheDocument();
+    expect(screen.queryByRole('button', { name: 'Tạo bằng AI' })).not.toBeInTheDocument();
+  });
+
+  it('nút tạo câu mở khi AI bật, và gửi đúng một bộ 20 câu', async () => {
+    api.generateSentences.mockResolvedValue({
+      requested: 20,
+      generated: 0,
+      rejected: 0,
+      duplicates: 0,
+      sentences: [],
+      rejectedSamples: [],
+      model: 'claude-opus-5',
+    });
+    const user = userEvent.setup();
+    await renderReady();
+    await user.click(screen.getByRole('radio', { name: 'Nghe câu' }));
+
+    const button = screen.getByRole('button', { name: 'Tạo câu mới bằng AI' });
+    await waitFor(() => expect(button).toBeEnabled());
+    await user.click(button);
+    expect(api.generateSentences).toHaveBeenCalledWith({ count: 20 });
+  });
+
+  it('"Tạo bằng AI" gửi đúng số câu và cấp đã chọn, rồi đưa câu mới lên đầu phần nghe', async () => {
+    const created = [
+      aiSentence(601, '妈妈在喝茶。', 'Māma zài hē chá.', 'Mẹ đang uống trà.'),
+      aiSentence(602, '我明天开车。', 'Wǒ míngtiān kāichē.', 'Ngày mai tôi lái xe.'),
+    ];
+    api.generateSentences.mockResolvedValue({
+      requested: 10,
+      generated: 2,
+      rejected: 1,
+      duplicates: 3,
+      sentences: created,
+      rejectedSamples: ['他很高兴。 (lạ: 高兴)'],
+      model: 'claude-opus-5',
+    });
+    const user = userEvent.setup();
+    await renderReady();
+    await user.click(screen.getByRole('radio', { name: 'Thêm từ & câu' }));
+    await screen.findByRole('button', { name: 'Tạo bằng AI' });
+
+    await user.click(screen.getByRole('radio', { name: '10' }));
+    await user.click(screen.getByRole('radio', { name: 'Cấp 2' }));
+    await user.click(screen.getByRole('button', { name: 'Tạo bằng AI' }));
+
+    expect(api.generateSentences).toHaveBeenCalledWith({ count: 10, level: 2 });
+
+    // Xong thì sang thẻ nghe, báo kết quả kể cả câu bị loại, và câu mới thành
+    // mục riêng ở đầu bộ đang xem.
+    expect(await screen.findByText('Đã thêm 2 câu.')).toBeInTheDocument();
+    expect(
+      screen.getByText('1 câu bị loại vì dùng chữ chưa học. 3 câu trùng.'),
+    ).toBeInTheDocument();
+    expect(screen.getByText('他很高兴。 (lạ: 高兴)')).toBeInTheDocument();
+    expect(screen.getByRole('radio', { name: 'Nghe câu' })).toBeChecked();
+
+    const headings = screen.getAllByRole('heading', { level: 2 });
+    expect(headings[0]).toHaveTextContent('Câu AI vừa tạo');
+    expect(headings[0]).toHaveTextContent('2 câu');
+    expect(screen.getAllByRole('article')).toHaveLength(22);
+    expect(screen.getByText(/91 từ bạn đã học|89 từ bạn đã học và 92 câu/)).toBeInTheDocument();
+
+    // Chưa mở gì cả: câu mới cũng phải đoán trước rồi mới xem.
+    expect(shownHanzi().size).toBe(0);
+    await user.click(screen.getAllByRole('button', { name: 'Hiện Chữ Hán' })[0]);
+    expect(['妈妈在喝茶。', '我明天开车。']).toContain([...shownHanzi()][0]);
+  });
+
+  it('AI báo lỗi thì hiện lỗi tại chỗ, không đổi thẻ', async () => {
+    api.generateSentences.mockRejectedValue(new TypeError('fetch failed'));
+    const user = userEvent.setup();
+    await renderReady();
+    await user.click(screen.getByRole('radio', { name: 'Thêm từ & câu' }));
+    await user.click(await screen.findByRole('button', { name: 'Tạo bằng AI' }));
+
+    expect(await screen.findByText('Không kết nối được máy chủ')).toBeInTheDocument();
+    expect(screen.getByRole('radio', { name: 'Thêm từ & câu' })).toBeChecked();
+  });
+});
+
+describe('trang Câu của tôi — thêm câu và từ', () => {
+  it('dán câu thì gửi lên máy chủ với đủ ba phần và cấp suy từ độ dài', async () => {
+    api.addSentences.mockResolvedValue({
+      added: 1,
+      duplicates: 0,
+      sentences: [
+        {
+          id: 700,
+          hanzi: '他很忙。',
+          pinyin: 'Tā hěn máng.',
+          meaningVi: 'Anh ấy rất bận.',
+          level: 1,
+          source: 'MANUAL',
+          createdAt: '2026-03-01T00:00:00Z',
+        },
+      ],
+    });
+    const user = userEvent.setup();
+    await renderReady();
+
+    await user.click(screen.getByRole('radio', { name: 'Thêm từ & câu' }));
     await user.click(screen.getByLabelText('Dán câu do AI tạo'));
-    await user.paste('他很忙。 | Tā hěn máng. | Anh ấy rất bận.');
+    await user.paste('他很忙。 | Tā hěn máng. | Anh ấy rất bận.\n我回家。 | Wǒ huí jiā.');
+    // Câu thiếu nghĩa bị giữ lại và nói rõ, vì máy chủ không nhận câu thiếu phần.
+    expect(screen.getByText(/1 câu thiếu pinyin hoặc nghĩa/)).toBeInTheDocument();
 
     await user.click(screen.getByRole('button', { name: /Thêm 1 câu/ }));
-    expect(await screen.findByRole('status')).toHaveTextContent('Đã thêm 1 câu.');
+    expect(api.addSentences).toHaveBeenCalledWith([
+      { hanzi: '他很忙。', pinyin: 'Tā hěn máng.', meaningVi: 'Anh ấy rất bận.', level: 1 },
+    ]);
 
     // Thêm xong thì nhảy sang phần nghe để dùng được ngay; câu mới tìm được như
-    // mọi câu khác.
+    // mọi câu khác và mang nhãn "Tự thêm".
+    expect(await screen.findByText('Đã thêm 1 câu.')).toBeInTheDocument();
     await user.type(screen.getByRole('searchbox', { name: 'Tìm câu' }), '他很忙');
     await user.click(screen.getByRole('radio', { name: 'Hiện hết' }));
     expect(screen.getByText('他很忙。')).toBeInTheDocument();
+    expect(screen.getByText('Tự thêm')).toBeInTheDocument();
     expect(screen.getAllByRole('article')).toHaveLength(1);
-
-    view.unmount();
-    render(<SentencesPage />);
-    await user.click(screen.getByRole('radio', { name: 'Nghe câu' }));
-    await user.type(screen.getByRole('searchbox', { name: 'Tìm câu' }), '他很忙');
-    await waitFor(() => expect(screen.getAllByRole('article')).toHaveLength(1));
   });
 
-  it('không thêm câu đã có sẵn', async () => {
+  it('câu đã có sẵn thì máy chủ báo trùng và trang nói ra', async () => {
+    api.addSentences.mockResolvedValue({ added: 0, duplicates: 1, sentences: [] });
     const user = userEvent.setup();
-    render(<SentencesPage />);
+    await renderReady();
 
-    await user.click(screen.getByRole('radio', { name: 'Thêm câu' }));
+    await user.click(screen.getByRole('radio', { name: 'Thêm từ & câu' }));
     await user.click(screen.getByLabelText('Dán câu do AI tạo'));
     await user.paste('现在几点？ | Xiànzài jǐ diǎn? | Bây giờ mấy giờ?');
     await user.click(screen.getByRole('button', { name: /Thêm 1 câu/ }));
 
-    expect(await screen.findByRole('status')).toHaveTextContent('1 câu đã có sẵn nên bỏ qua.');
+    expect(await screen.findByText('1 câu đã có sẵn nên bỏ qua.')).toBeInTheDocument();
+  });
+
+  it('xoá hết câu AI gọi đúng nguồn', async () => {
+    api.listSentences.mockResolvedValue([
+      ...SENTENCES,
+      aiSentence(501, '我在家喝茶。', 'Wǒ zài jiā hē chá.', 'Tôi uống trà ở nhà.'),
+    ]);
+    api.deleteSentencesBySource.mockResolvedValue({ message: 'Đã xoá 1 câu' });
+    const user = userEvent.setup();
+    render(<SentencesPage />);
+    await screen.findByText(/89 từ bạn đã học và 91 câu/);
+
+    await user.click(screen.getByRole('radio', { name: 'Thêm từ & câu' }));
+    await user.click(screen.getByRole('button', { name: 'Xoá hết câu AI' }));
+    expect(api.deleteSentencesBySource).toHaveBeenCalledWith('AI');
+    expect(await screen.findByText('Đã xoá 1 câu')).toBeInTheDocument();
+    await screen.findByText(/89 từ bạn đã học và 90 câu/);
+  });
+
+  it('thêm từ: dán → kiểm tra → duyệt → thêm, rồi nạp lại bảng từ', async () => {
+    const preview: ImportPreviewResponse = {
+      summary: { total: 1, willCreate: 1, existing: 0, needsAttention: 0, errors: 0 },
+      rows: [
+        {
+          index: 0,
+          input: { simplified: '学习', pinyin: 'xuéxí', meaningVi: 'học' },
+          simplified: '学习',
+          traditional: '學習',
+          pinyin: 'xuéxí',
+          pinyinNumbered: 'xue2 xi2',
+          meaningVi: 'học',
+          meaningEn: 'to study',
+          hskLevel: 1,
+          dictionaryFound: true,
+          pinyinMatchesDictionary: true,
+          dictionaryPinyin: 'xuéxí',
+          dictionarySenses: [],
+          candidates: [],
+          existingWord: null,
+          status: 'OK',
+          suggestedAction: 'CREATE',
+          messages: [],
+        },
+      ],
+    };
+    api.previewImport.mockResolvedValue(preview);
+    api.confirmImport.mockResolvedValue({
+      created: 1,
+      updated: 0,
+      linked: 0,
+      skipped: 0,
+      markedLearned: 1,
+      wordIds: [42],
+      errors: [],
+    });
+    const user = userEvent.setup();
+    await renderReady();
+
+    await user.click(screen.getByRole('radio', { name: 'Thêm từ & câu' }));
+    await user.click(screen.getByLabelText('Dán từ mới'));
+    await user.paste('学习 xuéxí học');
+    await user.click(screen.getByRole('button', { name: 'Kiểm tra' }));
+
+    expect(api.previewImport).toHaveBeenCalledWith({
+      defaultHskLevel: 1,
+      rows: [{ simplified: '学习', pinyin: 'xuéxí', meaningVi: 'học' }],
+    });
+    expect(await screen.findByText('學習')).toBeInTheDocument();
+    expect(screen.getByText('1 từ · tạo mới 1 · đã có 0 · cần xem 0 · lỗi 0')).toBeInTheDocument();
+    expect(screen.getByLabelText('Nghĩa tiếng Anh')).toHaveValue('to study');
+
+    await user.click(screen.getByRole('button', { name: 'Thêm 1 từ vào danh sách đã học' }));
+    await waitFor(() => expect(api.confirmImport).toHaveBeenCalledTimes(1));
+    const body = api.confirmImport.mock.calls[0][0] as {
+      markAsLearned: boolean;
+      rows: { action: string; simplified?: string; pinyinNumbered?: string; hskLevel?: number }[];
+    };
+    expect(body.markAsLearned).toBe(true);
+    expect(body.rows[0]).toMatchObject({
+      action: 'CREATE',
+      simplified: '学习',
+      pinyinNumbered: 'xue2 xi2',
+      hskLevel: 1,
+    });
+
+    expect(
+      await screen.findByText('Đã tạo mới 1; 1 từ được đánh dấu là đã học.'),
+    ).toBeInTheDocument();
+    await waitFor(() => expect(api.listMyWords).toHaveBeenCalledTimes(2));
+    expect(screen.getByLabelText('Dán từ mới')).toHaveValue('');
+  });
+
+  it('thiếu chữ Hán thì hiện gợi ý; chọn gợi ý là kiểm tra lại', async () => {
+    api.previewImport
+      .mockResolvedValueOnce({
+        summary: { total: 1, willCreate: 0, existing: 0, needsAttention: 1, errors: 0 },
+        rows: [
+          {
+            index: 0,
+            input: { pinyin: 'wǒ', meaningVi: 'tôi' },
+            dictionaryFound: false,
+            dictionarySenses: [],
+            candidates: [
+              { simplified: '我', traditional: '我', pinyinMarked: 'wǒ', meaningEn: 'I', inSystem: true },
+            ],
+            status: 'WARNING',
+            suggestedAction: 'NEEDS_INPUT',
+            messages: ['Thiếu chữ Hán — chọn một trong các gợi ý'],
+          },
+        ],
+      })
+      .mockResolvedValueOnce({
+        summary: { total: 1, willCreate: 0, existing: 1, needsAttention: 0, errors: 0 },
+        rows: [
+          {
+            index: 0,
+            input: { simplified: '我', pinyin: 'wǒ', meaningVi: 'tôi', meaningEn: 'I' },
+            simplified: '我',
+            pinyin: 'wǒ',
+            meaningVi: 'tôi',
+            dictionaryFound: true,
+            dictionarySenses: [],
+            candidates: [],
+            existingWord: {
+              id: 7,
+              simplified: '我',
+              pinyin: 'wǒ',
+              meaningVi: 'tôi',
+              hskLevel: 1,
+              alreadyLearned: true,
+            },
+            status: 'EXISTS',
+            suggestedAction: 'LINK',
+            messages: ['Đã có trong hệ thống (id 7)'],
+          },
+        ],
+      });
+    const user = userEvent.setup();
+    await renderReady();
+
+    await user.click(screen.getByRole('radio', { name: 'Thêm từ & câu' }));
+    await user.click(screen.getByLabelText('Dán từ mới'));
+    await user.paste('wǒ tôi');
+    await user.click(screen.getByRole('button', { name: 'Kiểm tra' }));
+
+    const candidate = await screen.findByRole('button', { name: /我.*wǒ.*I.*đã có/ });
+    expect(screen.getByText('Cần xem')).toBeInTheDocument();
+    await user.click(candidate);
+
+    await waitFor(() => expect(api.previewImport).toHaveBeenCalledTimes(2));
+    expect(api.previewImport.mock.calls[1][0]).toEqual({
+      defaultHskLevel: 1,
+      rows: [{ simplified: '我', pinyin: 'wǒ', meaningVi: 'tôi', meaningEn: 'I' }],
+    });
+    expect(await screen.findByText('Đã có')).toBeInTheDocument();
+    expect(screen.getByRole('combobox')).toHaveValue('LINK');
   });
 });

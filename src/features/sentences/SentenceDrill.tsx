@@ -11,6 +11,10 @@
  * qua 90 câu mỗi sáng thì đến câu 40 người học đã biết câu 41 là gì; rút ngẫu
  * nhiên thì không đoán trước được, đúng tinh thần luyện nghe.
  *
+ * Hết câu lạ thì bấm "Tạo câu mới bằng AI": máy chủ viết câu từ đúng vốn từ đã
+ * học rồi trả về; những câu vừa tạo được xếp thành mục riêng ở đầu bộ đang xem
+ * cho đến khi người học đổi bộ, để nghe thử ngay lúc còn mới.
+ *
  * Thanh "Mặc định hiện" đổi trạng thái ban đầu của cả bộ. Đổi nó — hay đổi bộ
  * câu — thì xoá luôn các lần mở lẻ, vì giữ lại sẽ thành một trạng thái không
  * ai đoán được: chuyển sang "Chỉ nghe" mà vài câu vẫn hiện chữ.
@@ -20,12 +24,10 @@
  */
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Button, IconButton } from '../../components/ui/Button.tsx';
-import { Segmented, type SegmentedOption } from '../../components/ui/Controls.tsx';
+import { Chip, Segmented, type SegmentedOption } from '../../components/ui/Controls.tsx';
 import { useSpeech } from '../../hooks/useSpeech.ts';
+import type { Sentence, SentenceSource } from '../../lib/api/types.ts';
 import { drawBatch, matchesQuery } from './batch.ts';
-import { SENTENCE_LEVELS } from './corpus.ts';
-import type { MySentence } from './corpus.ts';
-import type { StoredSentence } from './store.ts';
 
 type RevealMode = 'audio' | 'hanzi' | 'all';
 type Field = 'hanzi' | 'pinyin' | 'vi';
@@ -58,54 +60,118 @@ const FIELD_LABELS: Record<Field, string> = {
   vi: 'Nghĩa',
 };
 
+/** Ba cấp của bộ câu có sẵn, đúng cách chia người học đã yêu cầu. */
+const LEVELS: readonly { level: 1 | 2 | 3; title: string; note: string }[] = [
+  { level: 1, title: 'Cấp 1 — câu ngắn', note: '3–5 chữ, một chủ ngữ một hành động' },
+  { level: 2, title: 'Cấp 2 — câu vừa', note: '5–7 chữ, thêm thời gian hoặc nơi chốn' },
+  { level: 3, title: 'Cấp 3 — câu dài', note: '7–11 chữ, hai vế hoặc đủ giờ giấc' },
+];
+
+const SOURCE_CHIP: Record<SentenceSource, string | null> = {
+  BUILTIN: null,
+  AI: 'AI',
+  MANUAL: 'Tự thêm',
+};
+
+const AI_DISABLED_HINT = 'Chưa cấu hình AI trên máy chủ';
+
+const NO_IDS: readonly number[] = [];
+
 export interface SentenceDrillProps {
-  /** 90 câu có sẵn. */
-  builtIn: readonly MySentence[];
-  /** Câu người học tự thêm, mới nhất nằm cuối. */
-  stored: readonly StoredSentence[];
+  /** Mọi câu của người học: có sẵn, tự thêm và do AI viết. */
+  sentences: readonly Sentence[];
   rate: number;
   /** Chuỗi trong ô tìm. Đang tìm thì hiện MỌI câu khớp, bỏ qua bộ ngẫu nhiên. */
   query: string;
-  onRemoveStored: (id: string) => void;
+  /** Xoá một câu tự thêm hoặc câu AI; câu có sẵn không xoá được. */
+  onRemove: (id: number) => void;
+  /** Máy chủ đã cấu hình AI chưa; chưa thì nút tạo câu bị khoá kèm lời giải thích. */
+  aiEnabled: boolean;
+  onGenerate: () => void;
+  generating: boolean;
+  /**
+   * Mã các câu AI vừa tạo ở lần bấm gần nhất. Chúng được đưa vào bộ đang xem
+   * thành mục riêng ở đầu, cho đến khi người học đổi bộ hay đổi cỡ bộ. Nơi gọi
+   * phải giữ nguyên tham chiếu mảng giữa hai lần tạo, vì "đã đổi bộ" được ghi
+   * nhớ theo tham chiếu.
+   */
+  freshIds?: readonly number[];
+}
+
+/** Câu ở dạng bảng nghe dùng: mã chuỗi để dùng lại `drawBatch`, nghĩa ở trường `vi`. */
+interface DrillSentence {
+  key: string;
+  id: number;
+  hanzi: string;
+  pinyin: string;
+  vi: string;
+  level: 1 | 2 | 3;
+  source: SentenceSource;
 }
 
 interface Section {
   key: string;
   title: string;
   note: string;
-  items: { sentence: MySentence; number: number }[];
+  items: { sentence: DrillSentence; number: number }[];
 }
 
 export function SentenceDrill({
-  builtIn,
-  stored,
+  sentences,
   rate,
   query,
-  onRemoveStored,
+  onRemove,
+  aiEnabled,
+  onGenerate,
+  generating,
+  freshIds = NO_IDS,
 }: SentenceDrillProps) {
   const [mode, setMode] = useState<RevealMode>('audio');
   const [overrides, setOverrides] = useState<Record<string, Partial<Record<Field, boolean>>>>({});
   const [currentId, setCurrentId] = useState<string | null>(null);
   const [size, setSize] = useState<BatchSize>(DEFAULT_SIZE);
+  // Lô câu AI mà người học đã đổi bộ sau khi xem — so theo tham chiếu.
+  const [dismissedFresh, setDismissedFresh] = useState<readonly number[] | null>(null);
   const nodes = useRef(new Map<string, HTMLElement>());
   const top = useRef<HTMLDivElement>(null);
 
-  const pool = useMemo(() => [...builtIn, ...stored], [builtIn, stored]);
-  const poolIds = useMemo(() => pool.map((sentence) => sentence.id), [pool]);
+  const pool = useMemo<DrillSentence[]>(
+    () =>
+      sentences.map((sentence) => ({
+        key: String(sentence.id),
+        id: sentence.id,
+        hanzi: sentence.hanzi,
+        pinyin: sentence.pinyin,
+        vi: sentence.meaningVi,
+        level: sentence.level,
+        source: sentence.source,
+      })),
+    [sentences],
+  );
+  const poolIds = useMemo(() => pool.map((sentence) => sentence.key), [pool]);
+
+  const fresh = useMemo(
+    () => new Set(dismissedFresh === freshIds ? [] : freshIds.map(String)),
+    [dismissedFresh, freshIds],
+  );
 
   // Rút bộ đầu tiên ngay lúc dựng, để lần vẽ đầu đã có câu chứ không nháy rỗng.
-  const [batch, setBatch] = useState<Set<string>>(() => drawBatch(poolIds, Number(DEFAULT_SIZE)));
+  // Câu AI vừa tạo luôn hiện ở mục riêng, nên không rút chúng vào bộ: rút trúng
+  // thì bộ hụt đi một câu mà người học không hiểu vì sao.
+  const [batch, setBatch] = useState<Set<string>>(() =>
+    drawBatch(
+      poolIds.filter((id) => !fresh.has(id)),
+      Number(DEFAULT_SIZE),
+    ),
+  );
 
   const searching = query.trim() !== '';
 
   const visible = useMemo(() => {
     if (searching) return pool.filter((sentence) => matchesQuery(sentence, query));
     if (size === 'all') return pool;
-    return pool.filter((sentence) => batch.has(sentence.id));
-  }, [batch, pool, query, searching, size]);
-
-  /** Thứ tự phẳng dùng cho phím ↑ ↓, đúng thứ tự đang hiện trên màn hình. */
-  const order = useMemo(() => visible.map((sentence) => sentence.id), [visible]);
+    return pool.filter((sentence) => batch.has(sentence.key) || fresh.has(sentence.key));
+  }, [batch, fresh, pool, query, searching, size]);
 
   /** Về trạng thái "chưa mở gì, chưa chọn gì" — dùng mỗi khi danh sách đổi hẳn. */
   const resetReveal = useCallback(() => {
@@ -116,19 +182,21 @@ export function SentenceDrill({
   const reload = useCallback(() => {
     if (size === 'all') return;
     setBatch(drawBatch(poolIds, Number(size), batch));
+    setDismissedFresh(freshIds);
     resetReveal();
     // Bấm từ nút cuối danh sách thì phải đưa người học lên đầu bộ mới, nếu không
     // họ đứng ở cuối và tưởng nút không có tác dụng.
     top.current?.scrollIntoView({ block: 'start' });
-  }, [batch, poolIds, resetReveal, size]);
+  }, [batch, freshIds, poolIds, resetReveal, size]);
 
   const changeSize = useCallback(
     (next: BatchSize) => {
       setSize(next);
       if (next !== 'all') setBatch(drawBatch(poolIds, Number(next)));
+      setDismissedFresh(freshIds);
       resetReveal();
     },
-    [poolIds, resetReveal],
+    [freshIds, poolIds, resetReveal],
   );
 
   const changeMode = useCallback((next: RevealMode) => {
@@ -142,6 +210,61 @@ export function SentenceDrill({
       [id]: { ...previous[id], [field]: !currentlyOpen },
     }));
   }, []);
+
+  /**
+   * Chia câu đang hiện thành các mục: câu AI vừa tạo (nếu có), ba cấp của bộ
+   * có sẵn, rồi câu AI đã tạo từ trước và câu tự thêm. Số thứ tự đánh liên
+   * tục qua mọi mục theo đúng thứ tự trên màn hình — người học nói "câu 7" là
+   * một câu duy nhất trong bộ đang nghe, không phải câu thứ 7 của một cấp.
+   */
+  const sections = useMemo<Section[]>(() => {
+    const defs: { key: string; title: string; note: string; pick: (s: DrillSentence) => boolean }[] =
+      [
+        {
+          key: 'fresh',
+          title: 'Câu AI vừa tạo',
+          note: 'Vừa viết từ đúng những từ bạn đã học. Ở đây cho đến khi bạn đổi bộ.',
+          pick: (s) => fresh.has(s.key),
+        },
+        ...LEVELS.map((level) => ({
+          key: `level-${level.level}`,
+          title: level.title,
+          note: level.note,
+          pick: (s: DrillSentence) =>
+            !fresh.has(s.key) && s.source === 'BUILTIN' && s.level === level.level,
+        })),
+        {
+          key: 'ai',
+          title: 'Câu AI tạo',
+          note: 'AI viết từ vốn từ của bạn ở những lần trước.',
+          pick: (s) => !fresh.has(s.key) && s.source === 'AI',
+        },
+        {
+          key: 'manual',
+          title: 'Câu bạn tự thêm',
+          note: 'Bạn dán vào từ một trợ lý khác.',
+          pick: (s) => !fresh.has(s.key) && s.source === 'MANUAL',
+        },
+      ];
+    let number = 0;
+    return defs
+      .map((def) => ({
+        key: def.key,
+        title: def.title,
+        note: def.note,
+        items: visible.filter(def.pick).map((sentence) => {
+          number += 1;
+          return { sentence, number };
+        }),
+      }))
+      .filter((section) => section.items.length > 0);
+  }, [fresh, visible]);
+
+  /** Thứ tự phẳng dùng cho phím ↑ ↓, đúng thứ tự đang hiện trên màn hình. */
+  const order = useMemo(
+    () => sections.flatMap((section) => section.items.map((item) => item.sentence.key)),
+    [sections],
+  );
 
   const move = useCallback(
     (step: number) => {
@@ -178,7 +301,9 @@ export function SentenceDrill({
       const target = event.target;
       if (target instanceof HTMLElement) {
         const tag = target.tagName;
-        if (tag === 'INPUT' || tag === 'TEXTAREA' || target.isContentEditable) return;
+        if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || target.isContentEditable) {
+          return;
+        }
       }
       if (event.key === 'ArrowDown') {
         event.preventDefault();
@@ -191,7 +316,7 @@ export function SentenceDrill({
         return;
       }
       if (event.key === 'Enter' && currentId !== null) {
-        const sentence = visible.find((item) => item.id === currentId);
+        const sentence = visible.find((item) => item.key === currentId);
         if (sentence) {
           event.preventDefault();
           play(sentence.hanzi);
@@ -206,31 +331,6 @@ export function SentenceDrill({
     if (node === null) nodes.current.delete(id);
     else nodes.current.set(id, node);
   }, []);
-
-  /**
-   * Chia câu đang hiện thành các mục: ba cấp của bộ có sẵn, rồi mục câu tự
-   * thêm. Số thứ tự đánh liên tục qua mọi mục — người học nói "câu 7" là một
-   * câu duy nhất trong bộ đang nghe, không phải câu thứ 7 của một cấp.
-   */
-  const sections = useMemo<Section[]>(() => {
-    const storedIds = new Set(stored.map((sentence) => sentence.id));
-    const numbered = visible.map((sentence, index) => ({ sentence, number: index + 1 }));
-    const result: Section[] = SENTENCE_LEVELS.map((level) => ({
-      key: `level-${level.level}`,
-      title: level.title,
-      note: level.note,
-      items: numbered.filter(
-        ({ sentence }) => !storedIds.has(sentence.id) && sentence.level === level.level,
-      ),
-    }));
-    result.push({
-      key: 'stored',
-      title: 'Câu bạn tự thêm',
-      note: 'Nằm trên máy này, không mất khi đặt lại tiến độ.',
-      items: numbered.filter(({ sentence }) => storedIds.has(sentence.id)),
-    });
-    return result.filter((section) => section.items.length > 0);
-  }, [stored, visible]);
 
   const canReload = !searching && size !== 'all';
 
@@ -266,7 +366,7 @@ export function SentenceDrill({
             />
           </span>
           <span
-            className="mb-2"
+            className="mr-2 mb-2"
           >
             <Button
               variant="secondary"
@@ -275,6 +375,25 @@ export function SentenceDrill({
               onClick={reload}
             >
               Đổi câu khác
+            </Button>
+          </span>
+          {/*
+            Nút AI nằm ngay cạnh "Đổi câu khác" vì đó là hai câu trả lời cho cùng
+            một câu hỏi: "hết câu rồi, giờ nghe gì?". Lời giải thích đặt ở cả
+            span bọc ngoài, vì nút bị khoá không nhận sự kiện chuột ở vài trình duyệt.
+          */}
+          <span
+            title={aiEnabled ? undefined : AI_DISABLED_HINT}
+            className="mb-2"
+          >
+            <Button
+              variant="primary"
+              icon="refresh"
+              disabled={!aiEnabled || generating}
+              title={aiEnabled ? undefined : AI_DISABLED_HINT}
+              onClick={onGenerate}
+            >
+              {generating ? 'AI đang viết câu…' : 'Tạo câu mới bằng AI'}
             </Button>
           </span>
         </div>
@@ -294,7 +413,9 @@ export function SentenceDrill({
         <p
           className="text-[0.9375rem] text-ink-soft"
         >
-          Không có câu nào khớp.
+          {pool.length === 0
+            ? 'Chưa có câu nào. Bấm "Tạo câu mới bằng AI" hoặc sang thẻ Thêm từ & câu.'
+            : 'Không có câu nào khớp.'}
         </p>
       ) : null}
 
@@ -322,20 +443,20 @@ export function SentenceDrill({
             className="space-y-2"
           >
             {section.items.map(({ sentence, number }) => (
-              <li key={sentence.id}>
+              <li key={sentence.key}>
                 <SentenceCard
                   sentence={sentence}
                   number={number}
                   mode={mode}
-                  override={overrides[sentence.id]}
-                  current={currentId === sentence.id}
+                  override={overrides[sentence.key]}
+                  current={currentId === sentence.key}
                   speakerSupported={supported}
-                  onSelect={() => setCurrentId(sentence.id)}
+                  onSelect={() => setCurrentId(sentence.key)}
                   onPlay={() => play(sentence.hanzi)}
                   onToggleField={toggleField}
                   onRegister={register}
                   onRemove={
-                    section.key === 'stored' ? () => onRemoveStored(sentence.id) : undefined
+                    sentence.source === 'BUILTIN' ? undefined : () => onRemove(sentence.id)
                   }
                 />
               </li>
@@ -364,7 +485,7 @@ export function SentenceDrill({
 }
 
 interface SentenceCardProps {
-  sentence: MySentence;
+  sentence: DrillSentence;
   number: number;
   mode: RevealMode;
   override: Partial<Record<Field, boolean>> | undefined;
@@ -391,10 +512,11 @@ function SentenceCard({
   onRemove,
 }: SentenceCardProps) {
   const open = (field: Field): boolean => override?.[field] ?? BASELINE[mode][field];
+  const chip = SOURCE_CHIP[sentence.source];
 
   return (
     <article
-      ref={(node) => onRegister(sentence.id, node)}
+      ref={(node) => onRegister(sentence.key, node)}
       onClick={onSelect}
       className={[
         'rounded-[0.375rem] border px-3 py-2.5 transition-colors duration-150',
@@ -420,6 +542,14 @@ function SentenceCard({
           >
             Nghe câu
           </Button>
+          {chip ? (
+            <Chip
+              tone={sentence.source === 'AI' ? 'teal' : 'neutral'}
+              className="ml-2"
+            >
+              {chip}
+            </Chip>
+          ) : null}
         </div>
 
         {onRemove ? (
@@ -445,7 +575,7 @@ function SentenceCard({
             key={field}
             type="button"
             aria-pressed={open(field)}
-            onClick={() => onToggleField(sentence.id, field, open(field))}
+            onClick={() => onToggleField(sentence.key, field, open(field))}
             className={[
               'tap mr-1.5 mb-1.5 rounded-[0.375rem] border px-2.5 py-1 text-[0.8125rem] font-medium transition-colors duration-150',
               open(field)
@@ -472,7 +602,7 @@ function SentenceCard({
         <p
           className="mt-1 text-[0.9375rem] text-ink-soft"
         >
-          {sentence.pinyin === '' ? '— bản dán không có pinyin —' : sentence.pinyin}
+          {sentence.pinyin === '' ? '— câu này không có pinyin —' : sentence.pinyin}
         </p>
       ) : null}
 
@@ -480,7 +610,7 @@ function SentenceCard({
         <p
           className="mt-1 text-[0.9375rem] text-ink"
         >
-          {sentence.vi === '' ? '— bản dán không có nghĩa —' : sentence.vi}
+          {sentence.vi === '' ? '— câu này không có nghĩa —' : sentence.vi}
         </p>
       ) : null}
     </article>

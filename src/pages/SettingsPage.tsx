@@ -12,6 +12,7 @@ import { Link } from 'react-router';
 import { Button } from '../components/ui/Button.tsx';
 import { Segmented, Toggle, type SegmentedOption } from '../components/ui/Controls.tsx';
 import { Notice, Spinner } from '../components/ui/Feedback.tsx';
+import { AccountSection } from '../features/account/AccountSection.tsx';
 import { useSettings } from '../hooks/settings-context.ts';
 import { useSpeech } from '../hooks/useSpeech.ts';
 import {
@@ -497,6 +498,13 @@ export function SettingsPage() {
               Xem nguồn dữ liệu và giấy phép
             </Link>
           </p>
+        </Section>
+
+        <Section
+          title="Tài khoản"
+          description="Chỉ phần Câu của tôi cần đăng nhập; mọi phần khác vẫn nằm trên máy và chạy ngoại tuyến."
+        >
+          <AccountSection />
         </Section>
       </div>
     </div>

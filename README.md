@@ -245,3 +245,31 @@ Ba thuật toán cốt lõi — chấm đáp án, FSRS và lớp bọc giọng n
 
 Kho đã có `vercel.json` cấu hình sẵn cho SPA. Trên Vercel chỉ cần trỏ vào kho, build command
 `npm run build`, thư mục xuất `dist`.
+
+## Kết nối máy chủ và triển khai phần "Câu của tôi"
+
+Phần **Câu của tôi** lưu từ đã học và câu luyện nghe trên máy chủ Spring Boot
+(`bewebtiengtrung`) và dùng AI trên máy chủ để viết câu mới, nên **phần này cần đăng nhập**
+(mục Tài khoản trong Cài đặt, hoặc ngay trên trang). Mọi phần còn lại — buổi học, lật thẻ, gõ,
+nghe, nói, sổ tay, tra từ, tiến độ — vẫn nằm trên máy và chạy ngoại tuyến như trước, không cần
+tài khoản.
+
+Ứng dụng đọc địa chỉ máy chủ từ biến môi trường `VITE_API_URL` (xem `.env.example`); bỏ trống
+thì dùng `http://localhost:8080`. Biến này được nhúng vào lúc build, nên đổi giá trị là phải
+build lại.
+
+Khi đưa lên Vercel:
+
+1. Trong **Settings → Environment Variables** của dự án Vercel, đặt
+   `VITE_API_URL=https://<ten-service>.onrender.com` (địa chỉ dịch vụ backend trên Render,
+   **không** kèm `/api/v1`). Sau đó chạy lại deploy để giá trị mới được build vào.
+2. Trên máy chủ backend (Render), biến `CORS_ALLOWED_ORIGINS` phải chứa domain Vercel, ví dụ
+   `https://moi-ngay-zhongwen.vercel.app` (nhiều domain cách nhau bằng dấu phẩy; thêm cả domain
+   preview nếu cần thử trước). Thiếu bước này thì trình duyệt chặn mọi request và ô đăng nhập
+   báo "Không kết nối được máy chủ".
+3. Muốn có nút "Tạo câu mới bằng AI" thì máy chủ cần thêm `ANTHROPIC_API_KEY`; không có, phần
+   còn lại của trang vẫn hoạt động và ứng dụng nói rõ là AI chưa được cấu hình.
+
+Phiên đăng nhập nằm trong `localStorage` (`moingay.auth.v1`); access token hết hạn sẽ được tự làm
+mới bằng refresh token, và khi refresh token bị thu hồi thì ứng dụng tự về trạng thái chưa đăng
+nhập chứ không hiện lỗi mập mờ.

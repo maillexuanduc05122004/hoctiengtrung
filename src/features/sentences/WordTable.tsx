@@ -1,5 +1,9 @@
 /**
- * Phần 1: bảng vốn từ, chia đúng các nhóm người học đã tự chia.
+ * Phần 1: bảng vốn từ đã học, lấy từ máy chủ.
+ *
+ * Nhóm đầu là mười từ học gần nhất — đúng nhóm mà AI được dặn lặp nhiều nhất
+ * khi viết câu — rồi đến từng cấp HSK. Một từ chỉ nằm ở một nhóm: đã ở nhóm
+ * mới nhất thì không lặp lại ở nhóm cấp, nếu không đếm tổng sẽ sai.
  *
  * Mỗi từ có nút nghe riêng vì người học nói rõ là "nghe nó theo từng từ". Mỗi
  * nhóm còn có nút nghe cả nhóm, đọc lần lượt từ đầu đến cuối — buổi sáng vừa
@@ -8,36 +12,42 @@
  * Bảng dùng `<table>` thật chứ không phải lưới div: đây là dữ liệu ba cột, và
  * trình đọc màn hình cần biết ô nào thuộc cột nào.
  */
-import { useMemo, useState } from 'react';
-import { Button } from '../../components/ui/Button.tsx';
+import { useMemo } from 'react';
+import { Button, IconButton } from '../../components/ui/Button.tsx';
 import { useSpeech } from '../../hooks/useSpeech.ts';
+import type { UserWord } from '../../lib/api/types.ts';
 import { SpeakerButton } from '../shared/SpeakerButton.tsx';
-import { matchesQuery } from './batch.ts';
-import { BORROWED_CHARS, MY_WORDS, WORD_GROUPS } from './corpus.ts';
-import type { MyWord, WordGroup } from './corpus.ts';
+import { groupWords, matchesWord } from './words.ts';
 
 export interface WordTableProps {
+  words: readonly UserWord[];
   /** Tốc độ đọc của cả trang, do người học chọn ở thanh trên cùng. */
   rate: number;
   /** Chuỗi trong ô tìm; rỗng thì hiện đủ mọi nhóm. */
   query: string;
+  /** Bỏ một từ khỏi danh sách đã học. Không truyền thì không hiện nút. */
+  onRemove?: (wordId: number) => void;
 }
 
-export function WordTable({ rate, query }: WordTableProps) {
+export function WordTable({ words, rate, query, onRemove }: WordTableProps) {
   const searching = query.trim() !== '';
 
-  const byGroup = useMemo(() => {
-    const map = new Map<WordGroup, MyWord[]>();
-    for (const word of MY_WORDS) {
-      if (!matchesQuery(word, query)) continue;
-      const bucket = map.get(word.group);
-      if (bucket) bucket.push(word);
-      else map.set(word.group, [word]);
-    }
-    return map;
-  }, [query]);
+  const groups = useMemo(
+    () => groupWords(words.filter((word) => matchesWord(word, query))),
+    [query, words],
+  );
 
-  const shown = [...byGroup.values()].reduce((sum, words) => sum + words.length, 0);
+  const shown = groups.reduce((sum, group) => sum + group.words.length, 0);
+
+  if (words.length === 0) {
+    return (
+      <p
+        className="text-[0.9375rem] text-ink-soft"
+      >
+        Chưa có từ nào. Sang thẻ <strong>Thêm từ &amp; câu</strong> để dán những từ bạn đã học.
+      </p>
+    );
+  }
 
   return (
     <div>
@@ -51,26 +61,21 @@ export function WordTable({ rate, query }: WordTableProps) {
         <p
           className="mb-5 max-w-[42rem] text-[0.9375rem] leading-relaxed text-ink-soft"
         >
-          {MY_WORDS.length} từ, gộp từ bảng bạn tự liệt kê và tệp PDF. Bấm loa để nghe một từ,
-          hoặc nghe cả nhóm để chạy lần lượt từ đầu đến cuối.
+          {words.length} từ bạn đã đánh dấu là đã học. Bấm loa để nghe một từ, hoặc nghe cả nhóm
+          để chạy lần lượt từ đầu đến cuối.
         </p>
       )}
 
-      {WORD_GROUPS.map((group) => {
-        const words = byGroup.get(group.id) ?? [];
-        if (words.length === 0) return null;
-        return (
-          <GroupTable
-            key={group.id}
-            title={group.title}
-            note={group.note}
-            words={words}
-            rate={rate}
-          />
-        );
-      })}
-
-      {searching ? null : <BorrowedNote />}
+      {groups.map((group) => (
+        <GroupTable
+          key={group.key}
+          title={group.title}
+          note={group.note}
+          words={group.words}
+          rate={rate}
+          onRemove={onRemove}
+        />
+      ))}
     </div>
   );
 }
@@ -78,11 +83,12 @@ export function WordTable({ rate, query }: WordTableProps) {
 interface GroupTableProps {
   title: string;
   note?: string;
-  words: readonly MyWord[];
+  words: readonly UserWord[];
   rate: number;
+  onRemove?: (wordId: number) => void;
 }
 
-function GroupTable({ title, note, words, rate }: GroupTableProps) {
+function GroupTable({ title, note, words, rate, onRemove }: GroupTableProps) {
   const { supported, speaking, speakParts, cancel } = useSpeech();
 
   const handleGroup = (): void => {
@@ -91,7 +97,7 @@ function GroupTable({ title, note, words, rate }: GroupTableProps) {
       return;
     }
     void speakParts(
-      words.map((word) => word.hanzi),
+      words.map((word) => word.simplified),
       'zh-CN',
       rate,
     );
@@ -172,7 +178,7 @@ function GroupTable({ title, note, words, rate }: GroupTableProps) {
                 <span
                   className="sr-only"
                 >
-                  Nghe
+                  Thao tác
                 </span>
               </th>
             </tr>
@@ -180,16 +186,17 @@ function GroupTable({ title, note, words, rate }: GroupTableProps) {
           <tbody>
             {words.map((word) => (
               <tr
-                key={word.hanzi}
+                key={word.id}
                 className="border-t border-line"
               >
                 <td
                   className="px-3 py-2"
                 >
                   <span
+                    lang="zh-CN"
                     className="han text-[1.375rem] leading-snug text-ink"
                   >
-                    {word.hanzi}
+                    {word.simplified}
                   </span>
                 </td>
                 <td
@@ -200,74 +207,30 @@ function GroupTable({ title, note, words, rate }: GroupTableProps) {
                 <td
                   className="px-3 py-2 text-[0.9375rem] text-ink"
                 >
-                  {word.vi}
+                  {word.meaningVi}
                 </td>
                 <td
-                  className="px-3 py-2 text-right"
+                  className="px-3 py-2 text-right whitespace-nowrap"
                 >
                   <SpeakerButton
-                    text={word.hanzi}
+                    text={word.simplified}
                     rate={rate}
-                    label={`Nghe ${word.hanzi}`}
+                    label={`Nghe ${word.simplified}`}
                   />
+                  {onRemove ? (
+                    <IconButton
+                      icon="close"
+                      label="Bỏ khỏi danh sách đã học"
+                      iconSize={1}
+                      onClick={() => onRemove(word.wordId)}
+                    />
+                  ) : null}
                 </td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
-    </section>
-  );
-}
-
-/**
- * Hai chữ tách ra từ từ ghép đã học. Nói ra để người học không tưởng mình quên
- * mất một từ nào đó khi gặp `去` hay `车` đứng một mình trong câu.
- */
-function BorrowedNote() {
-  const [open, setOpen] = useState(false);
-
-  return (
-    <section
-      className="border border-line rounded-[0.375rem] bg-sunken px-3 py-2.5"
-    >
-      <button
-        type="button"
-        aria-expanded={open}
-        onClick={() => setOpen(!open)}
-        className="tap w-full text-left text-[0.875rem] font-medium text-ink-soft"
-      >
-        Trong phần câu có hai chữ đứng riêng mà bảng trên không có
-      </button>
-      {open ? (
-        <ul
-          className="mt-2 space-y-1.5"
-        >
-          {BORROWED_CHARS.map((item) => (
-            <li
-              key={item.char}
-              className="text-[0.875rem] text-ink-soft"
-            >
-              <span
-                className="han text-[1.125rem] text-ink"
-              >
-                {item.char}
-              </span>
-              <span
-                className="ml-2"
-              >
-                {item.vi} — tách từ{' '}
-                <span
-                  className="han text-ink"
-                >
-                  {item.from}
-                </span>{' '}
-                bạn đã học. Không phải từ mới.
-              </span>
-            </li>
-          ))}
-        </ul>
-      ) : null}
     </section>
   );
 }

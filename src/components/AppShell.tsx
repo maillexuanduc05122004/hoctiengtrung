@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { NavLink, Outlet, useLocation } from 'react-router';
 import { MAIN_NAV, SECONDARY_NAV, STUDY_NAV, type NavItem } from './navigation.ts';
+import { QuickLookupButton } from './QuickLookupButton.tsx';
 import { Icon } from './ui/Icon.tsx';
 
 /**
@@ -91,6 +92,8 @@ export function AppShell() {
             title="Khác"
             items={SECONDARY_NAV}
           />
+          {/* Tra từ nhanh đứng cạnh "Cài đặt": là công cụ mở hộp, không phải đích đến. */}
+          <QuickLookupButton variant="sidebar" />
 
           <NavLink
             to="/nguon-du-lieu"
@@ -126,6 +129,7 @@ export function AppShell() {
               aria-label="Điều hướng phụ"
               className="flex items-center space-x-0.5"
             >
+              <QuickLookupButton variant="header" />
               {SECONDARY_NAV.map((item) => (
                 <NavLink
                   key={item.to}

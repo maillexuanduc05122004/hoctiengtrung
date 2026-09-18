@@ -1,41 +1,53 @@
 /**
  * Trang "Câu của tôi".
  *
- * Tách hẳn khỏi phần còn lại của ứng dụng vì nó chạy trên MỘT VỐN TỪ KHÁC: 89 từ
- * người học khai là mình đã học, chứ không phải bộ HSK 3.0 chia buổi sẵn. Trộn
- * hai thứ vào nhau thì mất cả hai — bộ HSK mất tính chuẩn, còn danh sách riêng
- * thì lạc giữa 2.245 từ.
+ * Tách hẳn khỏi phần còn lại của ứng dụng vì nó chạy trên MỘT VỐN TỪ KHÁC: những
+ * từ người học khai là mình đã học, chứ không phải bộ HSK 3.0 chia buổi sẵn.
+ * Trộn hai thứ vào nhau thì mất cả hai — bộ HSK mất tính chuẩn, còn danh sách
+ * riêng thì lạc giữa 2.245 từ.
+ *
+ * Đây cũng là phần DUY NHẤT của ứng dụng cần máy chủ: vốn từ và câu nằm trên
+ * đó để AI viết câu mới từ đúng những từ đã học. Chưa đăng nhập thì trang chỉ
+ * có ô đăng nhập; mọi phần khác của ứng dụng vẫn chạy ngoại tuyến như cũ.
  *
  * Ba thẻ theo đúng nhịp dùng: xem lại vốn từ, nghe câu ghép từ vốn từ đó, rồi
- * khi nghe hết thì xin thêm câu mới.
+ * khi thêm từ mới hay nghe hết câu thì sang thẻ thứ ba.
  *
  * Tốc độ đọc đặt ở đây chứ không lấy từ trang cài đặt: luyện nghe câu cần chậm
  * hơn nhiều so với nghe một từ, mà đổi cài đặt chung thì ảnh hưởng cả bốn chế độ
  * luyện tập kia.
  */
-import { useCallback, useMemo, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
+import { Button, IconButton } from '../components/ui/Button.tsx';
 import { Segmented, type SegmentedOption } from '../components/ui/Controls.tsx';
+import { Notice, Spinner } from '../components/ui/Feedback.tsx';
+import { LiveMessage } from '../components/ui/LiveMessage.tsx';
+import { LoginCard } from '../features/account/LoginCard.tsx';
 import { SearchField } from '../features/dictionary/SearchField.tsx';
-import { MY_SENTENCES, MY_WORDS } from '../features/sentences/corpus.ts';
-import { sentenceKey } from '../features/sentences/parse.ts';
-import type { ParsedSentence } from '../features/sentences/parse.ts';
 import { SentenceDrill } from '../features/sentences/SentenceDrill.tsx';
 import { SentenceImport } from '../features/sentences/SentenceImport.tsx';
-import {
-  addStoredSentences,
-  clearStoredSentences,
-  loadStoredSentences,
-  removeStoredSentence,
-} from '../features/sentences/store.ts';
-import type { StoredSentence } from '../features/sentences/store.ts';
+import { WordImport } from '../features/sentences/WordImport.tsx';
 import { WordTable } from '../features/sentences/WordTable.tsx';
+import { useAuth } from '../hooks/useAuth.ts';
+import { useLiveMessage } from '../hooks/useLiveMessage.ts';
+import { useMySentences } from '../hooks/useMySentences.ts';
+import { useMyWords } from '../hooks/useMyWords.ts';
+import { describeApiError } from '../lib/api/client.ts';
+import { aiStatus, deleteMyWord } from '../lib/api/endpoints.ts';
+import type {
+  AiStatus,
+  GenerateSentencesRequest,
+  GenerateSentencesResponse,
+  SentenceInput,
+  SentenceSource,
+} from '../lib/api/types.ts';
 
 type Tab = 'words' | 'drill' | 'add';
 
 const TABS: readonly SegmentedOption<Tab>[] = [
   { value: 'words', label: 'Từ vựng' },
   { value: 'drill', label: 'Nghe câu' },
-  { value: 'add', label: 'Thêm câu' },
+  { value: 'add', label: 'Thêm từ & câu' },
 ];
 
 /** Bốn mức người học đã nêu tên. Giá trị là chuỗi vì `Segmented` nhận chuỗi. */
@@ -46,48 +58,37 @@ const RATES: readonly SegmentedOption<string>[] = [
   { value: '1', label: '1×' },
 ];
 
+/** Nút AI trong phần nghe không hỏi gì thêm: xin đúng một bộ, trộn cả ba cấp. */
+const DRILL_GENERATE_COUNT = 20;
+
+const LOGIN_DESCRIPTION =
+  'Phần này lưu từ bạn đã học trên máy chủ và dùng AI viết câu mới, nên cần đăng nhập.';
+
+const NO_IDS: readonly number[] = [];
+
+/** Thông báo kết quả của một thao tác dài, đứng lại cho đến khi người học đóng. */
+interface PageNotice {
+  tone: 'info' | 'warn' | 'error';
+  title?: string;
+  lines: string[];
+  /** Những câu AI bị loại, kèm chữ lạ — để người học thấy bộ lọc đã chặn ở đâu. */
+  samples?: string[];
+}
+
+function describeGeneration(result: GenerateSentencesResponse): PageNotice {
+  return {
+    tone: result.generated > 0 ? 'info' : 'warn',
+    title: `Đã thêm ${result.generated} câu.`,
+    lines: [
+      `${result.rejected} câu bị loại vì dùng chữ chưa học. ${result.duplicates} câu trùng.`,
+      ...(result.model ? [`Mô hình: ${result.model}.`] : []),
+    ],
+    samples: result.rejectedSamples,
+  };
+}
+
 export function SentencesPage() {
-  const [tab, setTab] = useState<Tab>('words');
-  const [rate, setRate] = useState('0.75');
-  // Một ô tìm dùng chung cho cả từ lẫn câu: đổi thẻ vẫn giữ chữ đang gõ, vì
-  // người học hay tra một từ rồi muốn xem ngay từ đó nằm trong câu nào.
-  const [query, setQuery] = useState('');
-  // Đọc ngay ở lần dựng đầu tiên. Ứng dụng không dựng phía máy chủ nên
-  // localStorage đã sẵn sàng, và làm thế thì danh sách không nháy từ rỗng sang
-  // đủ câu ngay sau lần vẽ đầu.
-  const [stored, setStored] = useState<StoredSentence[]>(loadStoredSentences);
-  const [notice, setNotice] = useState('');
-
-  const all = useMemo(() => [...MY_SENTENCES, ...stored], [stored]);
-
-  const handleAdd = useCallback(
-    (incoming: readonly ParsedSentence[]) => {
-      const keys = new Set(all.map((sentence) => sentenceKey(sentence.hanzi)));
-      const result = addStoredSentences(incoming, keys);
-      if (result.added.length > 0) setStored((current) => [...current, ...result.added]);
-      // Kể cả khi không thêm được câu nào cũng phải nói ra, nếu không người học
-      // bấm "Thêm" rồi thấy màn hình y như cũ và không hiểu vì sao.
-      const parts: string[] = [];
-      if (result.added.length > 0) parts.push(`Đã thêm ${result.added.length} câu.`);
-      if (result.duplicates > 0) parts.push(`${result.duplicates} câu đã có sẵn nên bỏ qua.`);
-      if (result.overflow > 0) parts.push(`${result.overflow} câu vượt giới hạn kho.`);
-      if (!result.saved) parts.push('Trình duyệt không cho lưu — câu chỉ còn trong phiên này.');
-      if (parts.length === 0) parts.push('Không có câu nào mới.');
-      setNotice(parts.join(' '));
-      setTab('drill');
-    },
-    [all],
-  );
-
-  const handleRemove = useCallback((id: string) => {
-    setStored(removeStoredSentence(id));
-  }, []);
-
-  const handleClear = useCallback(() => {
-    clearStoredSentences();
-    setStored([]);
-    setNotice('Đã xoá hết câu tự thêm.');
-  }, []);
+  const { status } = useAuth();
 
   return (
     <div
@@ -98,10 +99,186 @@ export function SentencesPage() {
       >
         Câu của tôi
       </h1>
+
+      {status === 'anonymous' ? (
+        <div
+          className="mt-4 max-w-[28rem]"
+        >
+          <LoginCard description={LOGIN_DESCRIPTION} />
+        </div>
+      ) : (
+        <Workspace />
+      )}
+    </div>
+  );
+}
+
+/** Phần trang dành cho người đã đăng nhập; tách riêng để hook dữ liệu chỉ chạy khi cần. */
+function Workspace() {
+  const [tab, setTab] = useState<Tab>('words');
+  const [rate, setRate] = useState('0.75');
+  // Một ô tìm dùng chung cho cả từ lẫn câu: đổi thẻ vẫn giữ chữ đang gõ, vì
+  // người học hay tra một từ rồi muốn xem ngay từ đó nằm trong câu nào.
+  const [query, setQuery] = useState('');
+
+  const myWords = useMyWords();
+  const mySentences = useMySentences();
+  const { add, remove, removeBySource, generate } = mySentences;
+  const reloadWords = myWords.reload;
+
+  const [ai, setAi] = useState<AiStatus | null>(null);
+  const [notice, setNotice] = useState<PageNotice | null>(null);
+  const [generating, setGenerating] = useState(false);
+  // Mã câu AI vừa tạo: giữ nguyên tham chiếu giữa hai lần tạo, vì phần nghe
+  // ghi nhớ "đã đổi bộ" theo tham chiếu mảng này.
+  const [freshIds, setFreshIds] = useState<readonly number[]>(NO_IDS);
+  const { message: liveMessage, token: liveToken, announce } = useLiveMessage();
+
+  // Hỏi máy chủ về AI đúng một lần. Không hỏi được thì coi như tắt và nói rõ
+  // lý do, chứ không để nút tạo câu bấm được rồi báo lỗi.
+  useEffect(() => {
+    let active = true;
+    aiStatus()
+      .then((result) => {
+        if (active) setAi(result);
+      })
+      .catch((cause: unknown) => {
+        if (active) setAi({ enabled: false, model: '', reason: describeApiError(cause) });
+      });
+    return () => {
+      active = false;
+    };
+  }, []);
+
+  const runGenerate = useCallback(
+    async (request: GenerateSentencesRequest): Promise<void> => {
+      setGenerating(true);
+      setNotice(null);
+      try {
+        const result = await generate(request);
+        setFreshIds(result.sentences.map((sentence) => sentence.id));
+        setNotice(describeGeneration(result));
+        setTab('drill');
+      } catch (cause: unknown) {
+        setNotice({ tone: 'error', lines: [describeApiError(cause)] });
+      } finally {
+        setGenerating(false);
+      }
+    },
+    [generate],
+  );
+
+  const generateFromDrill = useCallback(() => {
+    if (!generating) void runGenerate({ count: DRILL_GENERATE_COUNT });
+  }, [generating, runGenerate]);
+
+  const handleAdd = useCallback(
+    async (inputs: SentenceInput[]): Promise<boolean> => {
+      try {
+        const result = await add(inputs);
+        // Kể cả khi không thêm được câu nào cũng phải nói ra, nếu không người
+        // học bấm "Thêm" rồi thấy màn hình y như cũ và không hiểu vì sao.
+        const parts: string[] = [];
+        if (result.added > 0) parts.push(`Đã thêm ${result.added} câu.`);
+        if (result.duplicates > 0) parts.push(`${result.duplicates} câu đã có sẵn nên bỏ qua.`);
+        if (parts.length === 0) parts.push('Không có câu nào mới.');
+        setNotice({ tone: result.added > 0 ? 'info' : 'warn', lines: [parts.join(' ')] });
+        setTab('drill');
+        return true;
+      } catch (cause: unknown) {
+        setNotice({ tone: 'error', lines: [describeApiError(cause)] });
+        return false;
+      }
+    },
+    [add],
+  );
+
+  const handleRemoveSentence = useCallback(
+    (id: number) => {
+      remove(id)
+        .then(() => announce('Đã xoá câu.'))
+        .catch((cause: unknown) => setNotice({ tone: 'error', lines: [describeApiError(cause)] }));
+    },
+    [announce, remove],
+  );
+
+  const handleRemoveBySource = useCallback(
+    async (source: SentenceSource): Promise<void> => {
+      try {
+        const result = await removeBySource(source);
+        announce(result.message);
+      } catch (cause: unknown) {
+        setNotice({ tone: 'error', lines: [describeApiError(cause)] });
+      }
+    },
+    [announce, removeBySource],
+  );
+
+  const handleRemoveWord = useCallback(
+    (wordId: number) => {
+      const word = myWords.words.find((item) => item.wordId === wordId);
+      deleteMyWord(wordId)
+        .then(() => {
+          announce(
+            word ? `Đã bỏ ${word.simplified} khỏi danh sách đã học.` : 'Đã bỏ từ khỏi danh sách.',
+          );
+          reloadWords();
+        })
+        .catch((cause: unknown) => setNotice({ tone: 'error', lines: [describeApiError(cause)] }));
+    },
+    [announce, myWords.words, reloadWords],
+  );
+
+  const handleImported = useCallback(() => {
+    reloadWords();
+  }, [reloadWords]);
+
+  const ready = myWords.ready && mySentences.ready;
+  const initialError = !ready ? (myWords.error ?? mySentences.error) : null;
+
+  if (!ready) {
+    if (initialError !== null) {
+      return (
+        <div
+          className="mt-4"
+        >
+          <Notice
+            tone="error"
+            title="Không lấy được từ và câu của bạn"
+          >
+            {initialError}
+          </Notice>
+          <div
+            className="mt-3"
+          >
+            <Button
+              variant="secondary"
+              icon="refresh"
+              onClick={() => {
+                myWords.reload();
+                mySentences.reload();
+              }}
+            >
+              Thử lại
+            </Button>
+          </div>
+        </div>
+      );
+    }
+    return <Spinner label="Đang lấy từ và câu của bạn" />;
+  }
+
+  const words = myWords.words;
+  const sentences = mySentences.sentences;
+  const laterError = myWords.error ?? mySentences.error;
+
+  return (
+    <>
       <p
         className="mt-1 mb-4 text-[0.9375rem] text-ink-soft"
       >
-        {MY_WORDS.length} từ bạn đã học và {all.length} câu ghép từ chính những từ đó.
+        {words.length} từ bạn đã học và {sentences.length} câu ghép từ chính những từ đó.
+        {ai?.enabled ? ` · AI: ${ai.model}` : ''}
       </p>
 
       <div
@@ -132,14 +309,61 @@ export function SentencesPage() {
         )}
       </div>
 
-      {notice === '' ? null : (
-        <p
-          role="status"
-          className="mb-4 border border-line rounded-[0.375rem] bg-sunken px-3 py-2 text-[0.875rem] text-ink-soft"
+      <LiveMessage
+        message={liveMessage}
+        token={liveToken}
+      />
+
+      {laterError !== null ? (
+        <div
+          className="mb-4"
         >
-          {notice}
-        </p>
-      )}
+          <Notice tone="error">{laterError}</Notice>
+        </div>
+      ) : null}
+
+      {notice !== null ? (
+        <div
+          className="mb-4 flex items-start"
+        >
+          <div
+            className="min-w-0 flex-1"
+          >
+            <Notice
+              tone={notice.tone}
+              title={notice.title}
+            >
+              {notice.lines.map((line) => (
+                <p key={line}>{line}</p>
+              ))}
+              {notice.samples && notice.samples.length > 0 ? (
+                <ul
+                  className="mt-1 list-disc pl-5"
+                >
+                  {notice.samples.map((sample, i) => (
+                    <li
+                      key={`${i}-${sample}`}
+                      lang="zh-CN"
+                    >
+                      {sample}
+                    </li>
+                  ))}
+                </ul>
+              ) : null}
+            </Notice>
+          </div>
+          <span
+            className="ml-1 shrink-0"
+          >
+            <IconButton
+              icon="close"
+              label="Đóng thông báo"
+              iconSize={1}
+              onClick={() => setNotice(null)}
+            />
+          </span>
+        </div>
+      ) : null}
 
       {/*
         Ô tìm dính ở mép trên khi cuộn. Trên điện thoại phải nằm dưới thanh tiêu
@@ -166,30 +390,41 @@ export function SentencesPage() {
 
       {tab === 'words' ? (
         <WordTable
+          words={words}
           rate={Number(rate)}
           query={query}
+          onRemove={handleRemoveWord}
         />
       ) : null}
 
       {tab === 'drill' ? (
         <SentenceDrill
-          builtIn={MY_SENTENCES}
-          stored={stored}
+          sentences={sentences}
           rate={Number(rate)}
           query={query}
-          onRemoveStored={handleRemove}
+          onRemove={handleRemoveSentence}
+          aiEnabled={ai?.enabled === true}
+          onGenerate={generateFromDrill}
+          generating={generating}
+          freshIds={freshIds}
         />
       ) : null}
 
       {tab === 'add' ? (
-        <SentenceImport
-          existing={all}
-          onAdd={handleAdd}
-          onClearStored={handleClear}
-          storedCount={stored.length}
-        />
+        <>
+          <WordImport onImported={handleImported} />
+          <SentenceImport
+            words={words}
+            sentences={sentences}
+            ai={ai}
+            generating={generating}
+            onGenerate={runGenerate}
+            onAdd={handleAdd}
+            onRemoveBySource={handleRemoveBySource}
+          />
+        </>
       ) : null}
-    </div>
+    </>
   );
 }
 

@@ -2,7 +2,7 @@ export type {
   MySentence,
   MyWord,
   SentenceLevel,
-  WordGroup,
+  WordGroup as CorpusWordGroup,
   WordGroupInfo,
 } from './corpus.ts';
 export {
@@ -18,18 +18,18 @@ export { drawBatch, matchesQuery, shuffle } from './batch.ts';
 export type { ParsedSentence, ParseResult } from './parse.ts';
 export { parseSentences, sentenceKey } from './parse.ts';
 
+export { looksLikePinyin, MAX_WORD_ROWS, parseWordLines } from './parse-words.ts';
+
+export type { ManualBatch } from './manual.ts';
+export { inferLevel, toSentenceInputs } from './manual.ts';
+
+export type { WordGroup } from './words.ts';
+export { groupWords, matchesWord, NEWEST_GROUP_SIZE } from './words.ts';
+
 export { buildExistingList, buildPrompt } from './prompt.ts';
-export type { PromptOptions } from './prompt.ts';
+export type { PromptOptions, PromptWord } from './prompt.ts';
 
-export type { AddResult, StoredSentence } from './store.ts';
-export {
-  addStoredSentences,
-  clearStoredSentences,
-  loadStoredSentences,
-  MAX_STORED,
-  removeStoredSentence,
-} from './store.ts';
-
-export { SentenceDrill } from './SentenceDrill.tsx';
-export { SentenceImport } from './SentenceImport.tsx';
-export { WordTable } from './WordTable.tsx';
+export { SentenceDrill, type SentenceDrillProps } from './SentenceDrill.tsx';
+export { MIN_WORDS_FOR_AI, SentenceImport, type SentenceImportProps } from './SentenceImport.tsx';
+export { WordImport, type WordImportProps } from './WordImport.tsx';
+export { WordTable, type WordTableProps } from './WordTable.tsx';
