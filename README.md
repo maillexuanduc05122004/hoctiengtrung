@@ -127,15 +127,21 @@ Ba phần trong tab:
 
 1. **Từ vựng** — bảng ba cột chia đúng các nhóm người học đã chia, nút nghe từng từ và nút
    nghe cả nhóm lần lượt từ đầu đến cuối.
-2. **Nghe câu** — 90 câu ghép sẵn từ chính 89 từ đó, xếp theo ba cấp dài dần. Mặc định mỗi
-   câu **chỉ có nút phát**: không chữ Hán, không pinyin, không nghĩa. Ba nút Hán / Pinyin /
-   Nghĩa mở riêng từng phần cho riêng câu đó. Tốc độ 0,6× đến 1×. Phím ↓ ↑ chuyển câu và
-   Enter phát câu đang chọn.
+2. **Nghe câu** — 90 câu ghép sẵn từ chính 89 từ đó, xếp theo ba cấp dài dần. Không hiện
+   cả kho mà rút một **bộ ngẫu nhiên** (10 / 20 / 30 câu, hoặc tất cả); nghe hết thì bấm
+   "Đổi câu khác" để lấy bộ mới không trùng bộ vừa nghe. Mặc định mỗi câu **chỉ có nút
+   phát**: không chữ Hán, không pinyin, không nghĩa. Ba nút Hán / Pinyin / Nghĩa mở riêng
+   từng phần cho riêng câu đó. Tốc độ 0,6× đến 1×. Phím ↓ ↑ chuyển câu và Enter phát câu
+   đang chọn.
 3. **Thêm câu** — ứng dụng không gọi API AI nào (không có backend, và nhúng khoá vào trang
    tĩnh thì ai cũng lấy được). Thay vào đó nó dựng sẵn câu lệnh kèm cả 89 từ để chép sang một
    trợ lý bất kỳ, rồi đọc kết quả dán ngược về. Bộ đọc nhận dạng ba cột `汉字 | pinyin |
    nghĩa`, và tha thứ cho số thứ tự đầu dòng, tab, gạch ngang lẫn bảng Markdown. Câu trùng
    bị bỏ, và câu đã thêm nằm ở localStorage nên không mất khi đặt lại tiến độ.
+
+Ô tìm dính ở mép trên khi cuộn, dùng chung cho cả từ lẫn câu: gõ chữ Hán, pinyin có hoặc
+không dấu, tiếng Việt có hoặc không dấu. Đang tìm thì phần câu hiện mọi câu khớp thay vì bộ
+ngẫu nhiên, nhưng vẫn không lộ nội dung — muốn xem chữ vẫn phải bấm.
 
 Mọi chữ Hán trong 90 câu đều nằm trong 89 từ đó, trừ `去` và `车` tách ra từ `去哪儿` và
 `开车`. Có test canh điều này, nên thêm câu mới mà lỡ dùng chữ chưa học là hỏng ngay.

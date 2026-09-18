@@ -15,6 +15,7 @@
  */
 import { useCallback, useMemo, useState } from 'react';
 import { Segmented, type SegmentedOption } from '../components/ui/Controls.tsx';
+import { SearchField } from '../features/dictionary/SearchField.tsx';
 import { MY_SENTENCES, MY_WORDS } from '../features/sentences/corpus.ts';
 import { sentenceKey } from '../features/sentences/parse.ts';
 import type { ParsedSentence } from '../features/sentences/parse.ts';
@@ -48,6 +49,9 @@ const RATES: readonly SegmentedOption<string>[] = [
 export function SentencesPage() {
   const [tab, setTab] = useState<Tab>('words');
   const [rate, setRate] = useState('0.75');
+  // Một ô tìm dùng chung cho cả từ lẫn câu: đổi thẻ vẫn giữ chữ đang gõ, vì
+  // người học hay tra một từ rồi muốn xem ngay từ đó nằm trong câu nào.
+  const [query, setQuery] = useState('');
   // Đọc ngay ở lần dựng đầu tiên. Ứng dụng không dựng phía máy chủ nên
   // localStorage đã sẵn sàng, và làm thế thì danh sách không nháy từ rỗng sang
   // đủ câu ngay sau lần vẽ đầu.
@@ -137,13 +141,42 @@ export function SentencesPage() {
         </p>
       )}
 
-      {tab === 'words' ? <WordTable rate={Number(rate)} /> : null}
+      {/*
+        Ô tìm dính ở mép trên khi cuộn. Trên điện thoại phải nằm dưới thanh tiêu
+        đề 4rem của khung ứng dụng; z-index thấp hơn thanh đó để phần chồng lấn
+        một pixel ở đường viền nằm khuất bên dưới. Nền `paper` để nội dung cuộn
+        qua không lộ ra sau ô nhập.
+      */}
+      {tab === 'add' ? null : (
+        <div
+          className="sticky top-0 z-10 -mt-2 mb-4 bg-paper pt-2 pb-2 xsm:top-[4rem]"
+        >
+          <SearchField
+            value={query}
+            onChange={setQuery}
+            label={tab === 'words' ? 'Tìm từ' : 'Tìm câu'}
+            placeholder={
+              tab === 'words'
+                ? 'Chữ Hán, pinyin hoặc nghĩa'
+                : 'Tìm câu theo chữ Hán, pinyin hoặc nghĩa'
+            }
+          />
+        </div>
+      )}
+
+      {tab === 'words' ? (
+        <WordTable
+          rate={Number(rate)}
+          query={query}
+        />
+      ) : null}
 
       {tab === 'drill' ? (
         <SentenceDrill
           builtIn={MY_SENTENCES}
           stored={stored}
           rate={Number(rate)}
+          query={query}
           onRemoveStored={handleRemove}
         />
       ) : null}

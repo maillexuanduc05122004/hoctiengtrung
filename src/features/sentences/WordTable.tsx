@@ -12,33 +12,49 @@ import { useMemo, useState } from 'react';
 import { Button } from '../../components/ui/Button.tsx';
 import { useSpeech } from '../../hooks/useSpeech.ts';
 import { SpeakerButton } from '../shared/SpeakerButton.tsx';
+import { matchesQuery } from './batch.ts';
 import { BORROWED_CHARS, MY_WORDS, WORD_GROUPS } from './corpus.ts';
 import type { MyWord, WordGroup } from './corpus.ts';
 
 export interface WordTableProps {
   /** Tốc độ đọc của cả trang, do người học chọn ở thanh trên cùng. */
   rate: number;
+  /** Chuỗi trong ô tìm; rỗng thì hiện đủ mọi nhóm. */
+  query: string;
 }
 
-export function WordTable({ rate }: WordTableProps) {
+export function WordTable({ rate, query }: WordTableProps) {
+  const searching = query.trim() !== '';
+
   const byGroup = useMemo(() => {
     const map = new Map<WordGroup, MyWord[]>();
     for (const word of MY_WORDS) {
+      if (!matchesQuery(word, query)) continue;
       const bucket = map.get(word.group);
       if (bucket) bucket.push(word);
       else map.set(word.group, [word]);
     }
     return map;
-  }, []);
+  }, [query]);
+
+  const shown = [...byGroup.values()].reduce((sum, words) => sum + words.length, 0);
 
   return (
     <div>
-      <p
-        className="mb-5 max-w-[42rem] text-[0.9375rem] leading-relaxed text-ink-soft"
-      >
-        {MY_WORDS.length} từ, gộp từ bảng bạn tự liệt kê và tệp PDF. Bấm loa để nghe một từ,
-        hoặc nghe cả nhóm để chạy lần lượt từ đầu đến cuối.
-      </p>
+      {searching ? (
+        <p
+          className="mb-4 text-[0.9375rem] text-ink-soft"
+        >
+          {shown === 0 ? 'Không có từ nào khớp.' : `${shown} từ khớp.`}
+        </p>
+      ) : (
+        <p
+          className="mb-5 max-w-[42rem] text-[0.9375rem] leading-relaxed text-ink-soft"
+        >
+          {MY_WORDS.length} từ, gộp từ bảng bạn tự liệt kê và tệp PDF. Bấm loa để nghe một từ,
+          hoặc nghe cả nhóm để chạy lần lượt từ đầu đến cuối.
+        </p>
+      )}
 
       {WORD_GROUPS.map((group) => {
         const words = byGroup.get(group.id) ?? [];
@@ -54,7 +70,7 @@ export function WordTable({ rate }: WordTableProps) {
         );
       })}
 
-      <BorrowedNote />
+      {searching ? null : <BorrowedNote />}
     </div>
   );
 }

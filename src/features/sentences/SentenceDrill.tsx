@@ -6,9 +6,14 @@
  * nút Hán / Pinyin / Nghĩa mở riêng từng phần cho riêng câu đó, nên đoán được
  * chữ mà chưa đoán ra nghĩa thì chỉ cần mở đúng phần còn thiếu.
  *
- * Thanh "Mặc định hiện" đổi trạng thái ban đầu của cả danh sách. Đổi nó thì xoá
- * luôn các lần mở lẻ, vì giữ lại sẽ thành một trạng thái không ai đoán được:
- * chuyển sang "Chỉ nghe" mà vài câu vẫn hiện chữ.
+ * Không hiện cả kho một lúc mà rút một BỘ ngẫu nhiên (mặc định 20 câu). Nghe
+ * hết bộ thì bấm "Đổi câu khác" để lấy bộ mới, không trùng bộ vừa nghe. Cuộn
+ * qua 90 câu mỗi sáng thì đến câu 40 người học đã biết câu 41 là gì; rút ngẫu
+ * nhiên thì không đoán trước được, đúng tinh thần luyện nghe.
+ *
+ * Thanh "Mặc định hiện" đổi trạng thái ban đầu của cả bộ. Đổi nó — hay đổi bộ
+ * câu — thì xoá luôn các lần mở lẻ, vì giữ lại sẽ thành một trạng thái không
+ * ai đoán được: chuyển sang "Chỉ nghe" mà vài câu vẫn hiện chữ.
  *
  * Bàn phím theo đúng thói quen người học đã quen: ↓ câu sau, ↑ câu trước, Enter
  * phát câu đang chọn.
@@ -17,18 +22,29 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Button, IconButton } from '../../components/ui/Button.tsx';
 import { Segmented, type SegmentedOption } from '../../components/ui/Controls.tsx';
 import { useSpeech } from '../../hooks/useSpeech.ts';
+import { drawBatch, matchesQuery } from './batch.ts';
 import { SENTENCE_LEVELS } from './corpus.ts';
-import type { MySentence, SentenceLevel } from './corpus.ts';
+import type { MySentence } from './corpus.ts';
 import type { StoredSentence } from './store.ts';
 
 type RevealMode = 'audio' | 'hanzi' | 'all';
 type Field = 'hanzi' | 'pinyin' | 'vi';
+type BatchSize = '10' | '20' | '30' | 'all';
 
 const REVEAL_MODES: readonly SegmentedOption<RevealMode>[] = [
   { value: 'audio', label: 'Chỉ nghe' },
   { value: 'hanzi', label: 'Hiện chữ Hán' },
   { value: 'all', label: 'Hiện hết' },
 ];
+
+const BATCH_SIZES: readonly SegmentedOption<BatchSize>[] = [
+  { value: '10', label: '10' },
+  { value: '20', label: '20' },
+  { value: '30', label: '30' },
+  { value: 'all', label: 'Tất cả' },
+];
+
+const DEFAULT_SIZE: BatchSize = '20';
 
 const BASELINE: Record<RevealMode, Record<Field, boolean>> = {
   audio: { hanzi: false, pinyin: false, vi: false },
@@ -48,19 +64,71 @@ export interface SentenceDrillProps {
   /** Câu người học tự thêm, mới nhất nằm cuối. */
   stored: readonly StoredSentence[];
   rate: number;
+  /** Chuỗi trong ô tìm. Đang tìm thì hiện MỌI câu khớp, bỏ qua bộ ngẫu nhiên. */
+  query: string;
   onRemoveStored: (id: string) => void;
 }
 
-export function SentenceDrill({ builtIn, stored, rate, onRemoveStored }: SentenceDrillProps) {
+interface Section {
+  key: string;
+  title: string;
+  note: string;
+  items: { sentence: MySentence; number: number }[];
+}
+
+export function SentenceDrill({
+  builtIn,
+  stored,
+  rate,
+  query,
+  onRemoveStored,
+}: SentenceDrillProps) {
   const [mode, setMode] = useState<RevealMode>('audio');
   const [overrides, setOverrides] = useState<Record<string, Partial<Record<Field, boolean>>>>({});
   const [currentId, setCurrentId] = useState<string | null>(null);
+  const [size, setSize] = useState<BatchSize>(DEFAULT_SIZE);
   const nodes = useRef(new Map<string, HTMLElement>());
+  const top = useRef<HTMLDivElement>(null);
+
+  const pool = useMemo(() => [...builtIn, ...stored], [builtIn, stored]);
+  const poolIds = useMemo(() => pool.map((sentence) => sentence.id), [pool]);
+
+  // Rút bộ đầu tiên ngay lúc dựng, để lần vẽ đầu đã có câu chứ không nháy rỗng.
+  const [batch, setBatch] = useState<Set<string>>(() => drawBatch(poolIds, Number(DEFAULT_SIZE)));
+
+  const searching = query.trim() !== '';
+
+  const visible = useMemo(() => {
+    if (searching) return pool.filter((sentence) => matchesQuery(sentence, query));
+    if (size === 'all') return pool;
+    return pool.filter((sentence) => batch.has(sentence.id));
+  }, [batch, pool, query, searching, size]);
 
   /** Thứ tự phẳng dùng cho phím ↑ ↓, đúng thứ tự đang hiện trên màn hình. */
-  const order = useMemo(
-    () => [...builtIn.map((s) => s.id), ...stored.map((s) => s.id)],
-    [builtIn, stored],
+  const order = useMemo(() => visible.map((sentence) => sentence.id), [visible]);
+
+  /** Về trạng thái "chưa mở gì, chưa chọn gì" — dùng mỗi khi danh sách đổi hẳn. */
+  const resetReveal = useCallback(() => {
+    setOverrides({});
+    setCurrentId(null);
+  }, []);
+
+  const reload = useCallback(() => {
+    if (size === 'all') return;
+    setBatch(drawBatch(poolIds, Number(size), batch));
+    resetReveal();
+    // Bấm từ nút cuối danh sách thì phải đưa người học lên đầu bộ mới, nếu không
+    // họ đứng ở cuối và tưởng nút không có tác dụng.
+    top.current?.scrollIntoView({ block: 'start' });
+  }, [batch, poolIds, resetReveal, size]);
+
+  const changeSize = useCallback(
+    (next: BatchSize) => {
+      setSize(next);
+      if (next !== 'all') setBatch(drawBatch(poolIds, Number(next)));
+      resetReveal();
+    },
+    [poolIds, resetReveal],
   );
 
   const changeMode = useCallback((next: RevealMode) => {
@@ -94,7 +162,6 @@ export function SentenceDrill({ builtIn, stored, rate, onRemoveStored }: Sentenc
     [currentId, order],
   );
 
-  const all = useMemo(() => [...builtIn, ...stored], [builtIn, stored]);
   const { supported, speaking, speak, cancel } = useSpeech();
 
   const play = useCallback(
@@ -107,7 +174,7 @@ export function SentenceDrill({ builtIn, stored, rate, onRemoveStored }: Sentenc
 
   useEffect(() => {
     const onKey = (event: KeyboardEvent): void => {
-      // Đang gõ trong ô dán câu thì phím mũi tên thuộc về ô đó.
+      // Đang gõ trong ô tìm hay ô dán câu thì phím thuộc về ô đó.
       const target = event.target;
       if (target instanceof HTMLElement) {
         const tag = target.tagName;
@@ -124,7 +191,7 @@ export function SentenceDrill({ builtIn, stored, rate, onRemoveStored }: Sentenc
         return;
       }
       if (event.key === 'Enter' && currentId !== null) {
-        const sentence = all.find((item) => item.id === currentId);
+        const sentence = visible.find((item) => item.id === currentId);
         if (sentence) {
           event.preventDefault();
           play(sentence.hanzi);
@@ -133,7 +200,7 @@ export function SentenceDrill({ builtIn, stored, rate, onRemoveStored }: Sentenc
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [all, currentId, move, play]);
+  }, [currentId, move, play, visible]);
 
   const register = useCallback((id: string, node: HTMLElement | null) => {
     if (node === null) nodes.current.delete(id);
@@ -141,120 +208,124 @@ export function SentenceDrill({ builtIn, stored, rate, onRemoveStored }: Sentenc
   }, []);
 
   /**
-   * Chia câu theo cấp, kèm số thứ tự mở đầu của từng cấp. Số thứ tự phải đánh
-   * liên tục qua cả ba cấp — người học nói "câu 47" là một câu duy nhất, không
-   * phải câu thứ 47 của cấp nào đó — nên phải tính sẵn ở đây thay vì cộng dồn
-   * một biến trong lúc dựng giao diện.
+   * Chia câu đang hiện thành các mục: ba cấp của bộ có sẵn, rồi mục câu tự
+   * thêm. Số thứ tự đánh liên tục qua mọi mục — người học nói "câu 7" là một
+   * câu duy nhất trong bộ đang nghe, không phải câu thứ 7 của một cấp.
    */
-  const { byLevel, levelStart } = useMemo(() => {
-    const map = new Map<SentenceLevel, MySentence[]>();
-    for (const sentence of builtIn) {
-      const bucket = map.get(sentence.level);
-      if (bucket) bucket.push(sentence);
-      else map.set(sentence.level, [sentence]);
-    }
-    const starts = new Map<SentenceLevel, number>();
-    let at = 0;
-    for (const level of SENTENCE_LEVELS) {
-      starts.set(level.level, at);
-      at += map.get(level.level)?.length ?? 0;
-    }
-    return { byLevel: map, levelStart: starts };
-  }, [builtIn]);
+  const sections = useMemo<Section[]>(() => {
+    const storedIds = new Set(stored.map((sentence) => sentence.id));
+    const numbered = visible.map((sentence, index) => ({ sentence, number: index + 1 }));
+    const result: Section[] = SENTENCE_LEVELS.map((level) => ({
+      key: `level-${level.level}`,
+      title: level.title,
+      note: level.note,
+      items: numbered.filter(
+        ({ sentence }) => !storedIds.has(sentence.id) && sentence.level === level.level,
+      ),
+    }));
+    result.push({
+      key: 'stored',
+      title: 'Câu bạn tự thêm',
+      note: 'Nằm trên máy này, không mất khi đặt lại tiến độ.',
+      items: numbered.filter(({ sentence }) => storedIds.has(sentence.id)),
+    });
+    return result.filter((section) => section.items.length > 0);
+  }, [stored, visible]);
+
+  const canReload = !searching && size !== 'all';
 
   return (
-    <div>
+    <div
+      ref={top}
+      className="scroll-mt-[4.5rem] xsm:scroll-mt-[8.5rem]"
+    >
       <div
         className="mb-4 border border-line rounded-[0.375rem] bg-surface px-3 py-2.5"
       >
-        <Segmented
-          legend="Mặc định hiện"
-          options={REVEAL_MODES}
-          value={mode}
-          onChange={changeMode}
-        />
-        <p
-          className="mt-2 text-[0.8125rem] text-ink-faint"
+        <div
+          className="flex flex-wrap items-end"
         >
-          ↓ câu sau · ↑ câu trước · Enter phát câu đang chọn. Bấm vào một câu để chọn câu đó.
+          <span
+            className="mr-4 mb-2"
+          >
+            <Segmented
+              legend="Mặc định hiện"
+              options={REVEAL_MODES}
+              value={mode}
+              onChange={changeMode}
+            />
+          </span>
+          <span
+            className="mr-4 mb-2"
+          >
+            <Segmented
+              legend="Số câu mỗi bộ"
+              options={BATCH_SIZES}
+              value={size}
+              onChange={changeSize}
+            />
+          </span>
+          <span
+            className="mb-2"
+          >
+            <Button
+              variant="secondary"
+              icon="refresh"
+              disabled={!canReload}
+              onClick={reload}
+            >
+              Đổi câu khác
+            </Button>
+          </span>
+        </div>
+        <p
+          className="text-[0.8125rem] text-ink-faint"
+        >
+          {searching
+            ? `Đang tìm — hiện mọi câu khớp trong ${pool.length} câu.`
+            : size === 'all'
+              ? `Hiện cả ${pool.length} câu.`
+              : `Bộ ${visible.length} câu rút ngẫu nhiên từ ${pool.length} câu.`}{' '}
+          ↓ câu sau · ↑ câu trước · Enter phát câu đang chọn. Bấm vào một câu để chọn.
         </p>
       </div>
 
-      {SENTENCE_LEVELS.map((level) => {
-        const sentences = byLevel.get(level.level) ?? [];
-        if (sentences.length === 0) return null;
-        const start = levelStart.get(level.level) ?? 0;
-        return (
-          <section
-            key={level.level}
-            className="mb-8"
-          >
-            <h2
-              className="mb-1 text-[1rem] font-semibold tracking-tight text-ink"
-            >
-              {level.title}
-              <span
-                className="ml-2 text-[0.8125rem] font-normal text-ink-faint"
-              >
-                {sentences.length} câu
-              </span>
-            </h2>
-            <p
-              className="mb-2.5 text-[0.8125rem] text-ink-faint"
-            >
-              {level.note}
-            </p>
-            <ul
-              className="space-y-2"
-            >
-              {sentences.map((sentence, index) => (
-                <li key={sentence.id}>
-                  <SentenceCard
-                    sentence={sentence}
-                    number={start + index + 1}
-                    mode={mode}
-                    override={overrides[sentence.id]}
-                    current={currentId === sentence.id}
-                    speakerSupported={supported}
-                    onSelect={() => setCurrentId(sentence.id)}
-                    onPlay={() => play(sentence.hanzi)}
-                    onToggleField={toggleField}
-                    onRegister={register}
-                  />
-                </li>
-              ))}
-            </ul>
-          </section>
-        );
-      })}
+      {visible.length === 0 ? (
+        <p
+          className="text-[0.9375rem] text-ink-soft"
+        >
+          Không có câu nào khớp.
+        </p>
+      ) : null}
 
-      {stored.length > 0 ? (
+      {sections.map((section) => (
         <section
+          key={section.key}
           className="mb-8"
         >
           <h2
             className="mb-1 text-[1rem] font-semibold tracking-tight text-ink"
           >
-            Câu bạn tự thêm
+            {section.title}
             <span
               className="ml-2 text-[0.8125rem] font-normal text-ink-faint"
             >
-              {stored.length} câu
+              {section.items.length} câu
             </span>
           </h2>
           <p
             className="mb-2.5 text-[0.8125rem] text-ink-faint"
           >
-            Nằm trên máy này, không mất khi đặt lại tiến độ.
+            {section.note}
           </p>
           <ul
             className="space-y-2"
           >
-            {stored.map((sentence, index) => (
+            {section.items.map(({ sentence, number }) => (
               <li key={sentence.id}>
                 <SentenceCard
                   sentence={sentence}
-                  number={builtIn.length + index + 1}
+                  number={number}
                   mode={mode}
                   override={overrides[sentence.id]}
                   current={currentId === sentence.id}
@@ -263,12 +334,30 @@ export function SentenceDrill({ builtIn, stored, rate, onRemoveStored }: Sentenc
                   onPlay={() => play(sentence.hanzi)}
                   onToggleField={toggleField}
                   onRegister={register}
-                  onRemove={() => onRemoveStored(sentence.id)}
+                  onRemove={
+                    section.key === 'stored' ? () => onRemoveStored(sentence.id) : undefined
+                  }
                 />
               </li>
             ))}
           </ul>
         </section>
+      ))}
+
+      {/* Nghe xong bộ thì tay đang ở cuối trang; nút đổi bộ phải có ngay đó. */}
+      {canReload && visible.length > 0 ? (
+        <div
+          className="flex justify-center border-t border-line pt-5"
+        >
+          <Button
+            variant="primary"
+            size="lg"
+            icon="refresh"
+            onClick={reload}
+          >
+            Đổi {size} câu khác
+          </Button>
+        </div>
       ) : null}
     </div>
   );
@@ -372,6 +461,7 @@ function SentenceCard({
 
       {open('hanzi') ? (
         <p
+          lang="zh-CN"
           className="han mt-1 text-[1.625rem] leading-snug text-ink"
         >
           {sentence.hanzi}

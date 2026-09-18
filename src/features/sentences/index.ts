@@ -13,6 +13,8 @@ export {
   WORD_GROUPS,
 } from './corpus.ts';
 
+export { drawBatch, matchesQuery, shuffle } from './batch.ts';
+
 export type { ParsedSentence, ParseResult } from './parse.ts';
 export { parseSentences, sentenceKey } from './parse.ts';
 
