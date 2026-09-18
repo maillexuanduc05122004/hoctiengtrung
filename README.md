@@ -147,6 +147,11 @@ ngẫu nhiên, nhưng vẫn không lộ nội dung — muốn xem chữ vẫn ph
 Mọi chữ Hán trong 90 câu đều nằm trong 89 từ đó, trừ `去` và `车` tách ra từ `去哪儿` và
 `开车`. Có test canh điều này, nên thêm câu mới mà lỡ dùng chữ chưa học là hỏng ngay.
 
+Máy chủ có sẵn hai tài khoản, mật khẩu hiện luôn trên mọi ô đăng nhập (khối "Tài khoản có sẵn"):
+`2222` / `2222` là chủ trang ("Của tôi", quản trị, giữ danh sách từ đã học) và `1111` / `1111` là
+khách ("Khách", dùng chung, cũng được nạp sẵn 89 từ / 90 câu). Mở tab này khi chưa đăng nhập thì
+ứng dụng tự vào bằng tài khoản khách; đang là khách thì có nút "Dùng tài khoản của tôi (2222)".
+
 ### Tra từ
 
 Tìm theo chữ Hán, pinyin có hoặc không dấu thanh, tiếng Việt có hoặc không dấu, và tiếng Anh.

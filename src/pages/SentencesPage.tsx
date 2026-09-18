@@ -7,8 +7,13 @@
  * riêng thì lạc giữa 3.245 từ.
  *
  * Đây cũng là phần DUY NHẤT của ứng dụng cần máy chủ: vốn từ và câu nằm trên
- * đó để AI viết câu mới từ đúng những từ đã học. Chưa đăng nhập thì trang chỉ
- * có ô đăng nhập; mọi phần khác của ứng dụng vẫn chạy ngoại tuyến như cũ.
+ * đó để AI viết câu mới từ đúng những từ đã học. Mọi phần khác của ứng dụng
+ * vẫn chạy ngoại tuyến như cũ.
+ *
+ * Không bắt ai gõ tài khoản: mở trang khi chưa đăng nhập thì tự vào bằng tài
+ * khoản khách (`ACCOUNTS.guest`) đúng một lần cho mỗi lần dựng trang. Chỉ khi
+ * không vào được mới hiện ô đăng nhập — ô đó liệt kê sẵn cả hai tài khoản. Chủ
+ * trang đang ở tài khoản khách thì có một nút để chuyển sang tài khoản của mình.
  *
  * Ba thẻ theo đúng nhịp dùng: xem lại vốn từ, nghe câu ghép từ vốn từ đó, rồi
  * khi thêm từ mới hay nghe hết câu thì sang thẻ thứ ba.
@@ -17,12 +22,14 @@
  * hơn nhiều so với nghe một từ, mà đổi cài đặt chung thì ảnh hưởng cả bốn chế độ
  * luyện tập kia.
  */
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { Button, IconButton } from '../components/ui/Button.tsx';
 import { Segmented, type SegmentedOption } from '../components/ui/Controls.tsx';
 import { Notice, Spinner } from '../components/ui/Feedback.tsx';
 import { LiveMessage } from '../components/ui/LiveMessage.tsx';
+import { ACCOUNTS } from '../features/account/accounts.ts';
 import { LoginCard } from '../features/account/LoginCard.tsx';
+import { describeLoginError } from '../features/account/login-error.ts';
 import { SearchField } from '../features/dictionary/SearchField.tsx';
 import { SentenceDrill } from '../features/sentences/SentenceDrill.tsx';
 import { SentenceImport } from '../features/sentences/SentenceImport.tsx';
@@ -64,6 +71,10 @@ const DRILL_GENERATE_COUNT = 20;
 const LOGIN_DESCRIPTION =
   'Phần này lưu từ bạn đã học trên máy chủ và dùng AI viết câu mới, nên cần đăng nhập.';
 
+const GUEST_NOTICE =
+  `Bạn đang dùng tài khoản khách (${ACCOUNTS.guest.username}) — ` +
+  'từ và câu ở đây dùng chung với mọi khách.';
+
 const NO_IDS: readonly number[] = [];
 
 /** Thông báo kết quả của một thao tác dài, đứng lại cho đến khi người học đóng. */
@@ -88,7 +99,39 @@ function describeGeneration(result: GenerateSentencesResponse): PageNotice {
 }
 
 export function SentencesPage() {
-  const { status } = useAuth();
+  const { status, user, login, logout } = useAuth();
+  // Tự vào bằng tài khoản khách đúng một lần cho mỗi lần dựng trang. Ref chứ
+  // không phải state: StrictMode chạy effect hai lần nhưng ref thì giữ nguyên.
+  const guestTried = useRef(false);
+  const [authError, setAuthError] = useState<string | null>(null);
+  const [switching, setSwitching] = useState(false);
+
+  useEffect(() => {
+    if (status !== 'anonymous' || guestTried.current) return;
+    guestTried.current = true;
+    login(ACCOUNTS.guest.username, ACCOUNTS.guest.password).catch((cause: unknown) => {
+      setAuthError(describeLoginError(cause));
+    });
+  }, [login, status]);
+
+  const switchToOwner = async (): Promise<void> => {
+    if (switching) return;
+    // Đăng xuất làm trang về trạng thái chưa đăng nhập; đánh dấu để effect
+    // trên không nhảy vào tranh đăng nhập lại bằng tài khoản khách.
+    guestTried.current = true;
+    setSwitching(true);
+    setAuthError(null);
+    try {
+      await logout();
+      await login(ACCOUNTS.owner.username, ACCOUNTS.owner.password);
+    } catch (cause: unknown) {
+      setAuthError(describeLoginError(cause));
+    } finally {
+      setSwitching(false);
+    }
+  };
+
+  const isGuest = user !== null && user.username === ACCOUNTS.guest.username;
 
   return (
     <div
@@ -101,13 +144,57 @@ export function SentencesPage() {
       </h1>
 
       {status === 'anonymous' ? (
-        <div
-          className="mt-4 max-w-[28rem]"
-        >
-          <LoginCard description={LOGIN_DESCRIPTION} />
-        </div>
+        authError === null ? (
+          <Spinner
+            label={
+              switching
+                ? `Đang chuyển sang tài khoản ${ACCOUNTS.owner.username}`
+                : 'Đang vào bằng tài khoản khách'
+            }
+          />
+        ) : (
+          <div
+            className="mt-4 max-w-[28rem]"
+          >
+            <div
+              className="mb-4"
+            >
+              <Notice
+                tone="error"
+                title="Không tự đăng nhập được"
+              >
+                {authError}
+              </Notice>
+            </div>
+            <LoginCard description={LOGIN_DESCRIPTION} />
+          </div>
+        )
       ) : (
-        <Workspace />
+        <>
+          {isGuest ? (
+            <div
+              className="mt-3"
+            >
+              <Notice
+                tone="info"
+              >
+                <p>{GUEST_NOTICE}</p>
+                <div
+                  className="mt-2"
+                >
+                  <Button
+                    variant="secondary"
+                    disabled={switching}
+                    onClick={() => void switchToOwner()}
+                  >
+                    {`Dùng tài khoản của tôi (${ACCOUNTS.owner.username})`}
+                  </Button>
+                </div>
+              </Notice>
+            </div>
+          ) : null}
+          <Workspace />
+        </>
       )}
     </div>
   );

@@ -2,14 +2,17 @@
  * Dựng thật trang "Câu của tôi" với máy chủ giả.
  *
  * Trọng tâm vẫn là lời hứa dễ vỡ nhất của trang: mở phần nghe thì KHÔNG được
- * thấy chữ Hán, pinyin hay nghĩa — chỉ có nút phát. Cộng thêm ba lời hứa mới
- * kể từ khi trang nối máy chủ: chưa đăng nhập thì không gọi API nào; nút AI
- * khoá khi máy chủ chưa bật AI; và bấm "Tạo bằng AI" thì gửi đúng số câu, đúng
- * cấp người học đã chọn.
+ * thấy chữ Hán, pinyin hay nghĩa — chỉ có nút phát. Cộng thêm các lời hứa kể
+ * từ khi trang nối máy chủ: chưa đăng nhập thì tự vào bằng tài khoản khách
+ * 1111 và chỉ khi không vào được mới hiện ô đăng nhập; đang là khách thì có
+ * nút chuyển sang tài khoản 2222; nút AI khoá khi máy chủ chưa bật AI; và bấm
+ * "Tạo bằng AI" thì gửi đúng số câu, đúng cấp người học đã chọn.
  *
  * `endpoints.ts` được giả lập nguyên tệp nên không có yêu cầu mạng nào; dữ liệu
  * mẫu lấy từ `corpus.ts` (89 từ, 90 câu) để bộ câu ngẫu nhiên có cùng kích cỡ
- * với dữ liệu thật.
+ * với dữ liệu thật. `useAuth` được giả bằng một kho nhỏ có đăng ký lắng nghe,
+ * để `login`/`logout` giả đổi được trạng thái và trang vẽ lại như với provider
+ * thật.
  *
  * jsdom không có `speechSynthesis`, nên các nút nghe dựng ra ở trạng thái vô
  * hiệu. Đó đúng là điều cần kiểm: thiết bị không đọc được thì trang vẫn phải
@@ -20,11 +23,12 @@
  * "Tất cả" để lấy một câu: tra theo tên nút trên 90 thẻ trong jsdom chậm tới
  * mức vượt hạn 5 giây khi chạy song song.
  */
-import { render, screen, waitFor } from '@testing-library/react';
+import { act, render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { SentencesPage } from './SentencesPage.tsx';
 import { MY_SENTENCES, MY_WORDS } from '../features/sentences/corpus.ts';
+import type { AuthUser } from '../lib/api/auth.ts';
 import type {
   AiStatus,
   ImportPreviewResponse,
@@ -32,17 +36,63 @@ import type {
   UserWord,
 } from '../lib/api/types.ts';
 
-const auth = vi.hoisted(() => ({ status: 'authenticated' as 'anonymous' | 'authenticated' }));
+const OWNER: AuthUser = {
+  id: 1,
+  email: '2222@hoctiengtrung.vn',
+  username: '2222',
+  displayName: 'Tôi',
+  roles: ['ROLE_ADMIN'],
+  currentHskLevel: 1,
+};
 
-vi.mock('../hooks/useAuth.ts', () => ({
-  useAuth: () => ({
-    user: null,
-    status: auth.status,
-    login: async () => undefined,
-    logout: async () => undefined,
-    isAdmin: auth.status === 'authenticated',
-  }),
-}));
+const GUEST: AuthUser = {
+  id: 2,
+  email: '1111@hoctiengtrung.vn',
+  username: '1111',
+  displayName: 'Khách',
+  roles: ['ROLE_USER'],
+  currentHskLevel: 1,
+};
+
+/**
+ * Kho phiên giả: đổi người dùng thì báo cho mọi bên đang nghe, để trang vẽ lại
+ * đúng như khi `AuthProvider` thật đổi trạng thái sau `login`/`logout`.
+ */
+const auth = vi.hoisted(() => {
+  const listeners = new Set<() => void>();
+  let user: AuthUser | null = null;
+  return {
+    login: vi.fn<(username: string, password: string) => Promise<void>>(),
+    logout: vi.fn<() => Promise<void>>(),
+    getUser: () => user,
+    setUser(next: AuthUser | null): void {
+      user = next;
+      for (const listener of listeners) listener();
+    },
+    subscribe(listener: () => void): () => void {
+      listeners.add(listener);
+      return () => {
+        listeners.delete(listener);
+      };
+    },
+  };
+});
+
+vi.mock('../hooks/useAuth.ts', async () => {
+  const { useSyncExternalStore } = await import('react');
+  return {
+    useAuth: () => {
+      const user = useSyncExternalStore(auth.subscribe, auth.getUser);
+      return {
+        user,
+        status: user === null ? 'anonymous' : 'authenticated',
+        login: auth.login,
+        logout: auth.logout,
+        isAdmin: user !== null && user.roles.includes('ROLE_ADMIN'),
+      };
+    },
+  };
+});
 
 const api = vi.hoisted(() => ({
   listMyWords: vi.fn(),
@@ -93,7 +143,20 @@ function aiSentence(id: number, hanzi: string, pinyin: string, meaningVi: string
 }
 
 beforeEach(() => {
-  auth.status = 'authenticated';
+  auth.setUser(OWNER);
+  auth.login.mockReset();
+  auth.logout.mockReset();
+  // Mặc định máy chủ giả nhận cả hai tài khoản dựng sẵn và từ chối mọi tài khoản khác.
+  auth.login.mockImplementation(async (username, password) => {
+    await Promise.resolve();
+    if (username === '1111' && password === '1111') auth.setUser(GUEST);
+    else if (username === '2222' && password === '2222') auth.setUser(OWNER);
+    else throw new TypeError('fetch failed');
+  });
+  auth.logout.mockImplementation(async () => {
+    await Promise.resolve();
+    auth.setUser(null);
+  });
   for (const fn of Object.values(api)) fn.mockReset();
   api.listMyWords.mockResolvedValue({
     content: WORDS,
@@ -139,18 +202,110 @@ function shownHanzi(): Set<string> {
 }
 
 describe('trang Câu của tôi — đăng nhập', () => {
-  it('chưa đăng nhập thì chỉ có ô đăng nhập và không gọi máy chủ', () => {
-    auth.status = 'anonymous';
+  it('chưa đăng nhập thì tự vào bằng tài khoản khách 1111 rồi hiện từ và câu', async () => {
+    auth.setUser(null);
+    // Giữ yêu cầu đăng nhập treo để thấy vòng chờ, rồi mới cho máy chủ trả lời.
+    let finishLogin: () => void = () => undefined;
+    auth.login.mockImplementationOnce(
+      () =>
+        new Promise<void>((resolve) => {
+          finishLogin = () => {
+            auth.setUser(GUEST);
+            resolve();
+          };
+        }),
+    );
     render(<SentencesPage />);
 
     expect(screen.getByRole('heading', { level: 1, name: 'Câu của tôi' })).toBeInTheDocument();
+    expect(screen.getByText('Đang vào bằng tài khoản khách')).toBeInTheDocument();
+    expect(screen.queryByRole('heading', { name: 'Đăng nhập' })).not.toBeInTheDocument();
+    expect(auth.login).toHaveBeenCalledTimes(1);
+    expect(auth.login).toHaveBeenCalledWith('1111', '1111');
+    // Chưa vào được thì chưa động tới dữ liệu.
+    expect(api.listMyWords).not.toHaveBeenCalled();
+    expect(api.listSentences).not.toHaveBeenCalled();
+
+    act(() => finishLogin());
+    await screen.findByText(/89 từ bạn đã học và 90 câu ghép từ chính những từ đó\./);
+    expect(api.listMyWords).toHaveBeenCalledWith({ size: 500 });
+    expect(api.listSentences).toHaveBeenCalledTimes(1);
+    // Đúng một lần: vào rồi thì không gọi lại dù trang vẽ lại nhiều lần.
+    expect(auth.login).toHaveBeenCalledTimes(1);
+    expect(screen.getByText(/tài khoản khách \(1111\)/)).toBeInTheDocument();
+  });
+
+  it('không tự vào được thì hiện lỗi và ô đăng nhập có sẵn hai tài khoản', async () => {
+    auth.setUser(null);
+    auth.login.mockRejectedValueOnce(new TypeError('fetch failed'));
+    render(<SentencesPage />);
+
+    expect(await screen.findByText('Không tự đăng nhập được')).toBeInTheDocument();
+    expect(screen.getByText('Không kết nối được máy chủ')).toBeInTheDocument();
     expect(screen.getByRole('heading', { name: 'Đăng nhập' })).toBeInTheDocument();
     expect(screen.getByText(LOGIN_DESCRIPTION)).toBeInTheDocument();
+    expect(screen.getByText('Tài khoản có sẵn')).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'Đăng nhập 2222' })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'Đăng nhập 1111' })).toBeInTheDocument();
     expect(screen.queryByRole('radio', { name: 'Nghe câu' })).not.toBeInTheDocument();
 
+    expect(auth.login).toHaveBeenCalledTimes(1);
     expect(api.listMyWords).not.toHaveBeenCalled();
     expect(api.listSentences).not.toHaveBeenCalled();
     expect(api.aiStatus).not.toHaveBeenCalled();
+  });
+
+  it('ô đăng nhập hiện ra sau lỗi vẫn vào được bằng nút một-bấm', async () => {
+    auth.setUser(null);
+    auth.login.mockRejectedValueOnce(new TypeError('fetch failed'));
+    const user = userEvent.setup();
+    render(<SentencesPage />);
+    await screen.findByText('Tài khoản có sẵn');
+
+    await user.click(screen.getByRole('button', { name: 'Đăng nhập 2222' }));
+    expect(auth.login).toHaveBeenLastCalledWith('2222', '2222');
+    await screen.findByText(/89 từ bạn đã học và 90 câu/);
+    expect(screen.queryByText(/tài khoản khách/)).not.toBeInTheDocument();
+  });
+
+  it('đang là khách thì có thông báo và nút chuyển sang tài khoản 2222', async () => {
+    auth.setUser(GUEST);
+    const user = userEvent.setup();
+    await renderReady();
+
+    expect(
+      screen.getByText(
+        'Bạn đang dùng tài khoản khách (1111) — từ và câu ở đây dùng chung với mọi khách.',
+      ),
+    ).toBeInTheDocument();
+    // Đã có phiên thì không tự đăng nhập gì cả.
+    expect(auth.login).not.toHaveBeenCalled();
+
+    await user.click(screen.getByRole('button', { name: 'Dùng tài khoản của tôi (2222)' }));
+
+    expect(auth.logout).toHaveBeenCalledTimes(1);
+    expect(auth.login).toHaveBeenCalledTimes(1);
+    expect(auth.login).toHaveBeenCalledWith('2222', '2222');
+    expect(auth.logout.mock.invocationCallOrder[0]).toBeLessThan(
+      auth.login.mock.invocationCallOrder[0],
+    );
+
+    // Sang tài khoản 2222 thì thông báo khách biến mất và dữ liệu nạp lại.
+    await waitFor(() => {
+      expect(screen.queryByText(/tài khoản khách \(1111\)/)).not.toBeInTheDocument();
+    });
+    await screen.findByText(/89 từ bạn đã học và 90 câu/);
+    expect(api.listMyWords).toHaveBeenCalledTimes(2);
+  });
+
+  it('đang là 2222 thì không có thông báo khách', async () => {
+    await renderReady();
+
+    expect(screen.queryByText(/tài khoản khách/)).not.toBeInTheDocument();
+    expect(
+      screen.queryByRole('button', { name: 'Dùng tài khoản của tôi (2222)' }),
+    ).not.toBeInTheDocument();
+    expect(auth.login).not.toHaveBeenCalled();
   });
 
   it('đăng nhập rồi thì lấy từ và câu từ máy chủ, hiện đủ số', async () => {

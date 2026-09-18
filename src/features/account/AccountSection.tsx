@@ -1,9 +1,9 @@
 /**
  * Mục "Tài khoản" trong trang Cài đặt.
  *
- * Đang đăng nhập thì hiện tên, email và nút đăng xuất; chưa thì nhúng thẳng ô
- * đăng nhập. Không có gì khác: hồ sơ, đổi mật khẩu đều không cần cho một người
- * dùng duy nhất.
+ * Đang đăng nhập thì hiện tên, tên đăng nhập và nút đăng xuất; chưa thì nhúng
+ * thẳng ô đăng nhập — ô đó đã liệt kê sẵn hai tài khoản kèm nút vào một-bấm.
+ * Không có gì khác: hồ sơ, đổi mật khẩu đều không cần cho hai tài khoản dựng sẵn.
  */
 import { useState } from 'react';
 import { Button } from '../../components/ui/Button.tsx';
@@ -15,6 +15,7 @@ import { LoginCard } from './LoginCard.tsx';
 
 const LOGIN_DESCRIPTION =
   'Đăng nhập để dùng phần Câu của tôi: từ đã học và câu luyện nghe được lưu trên máy chủ. ' +
+  'Chọn một tài khoản có sẵn bên dưới, hoặc gõ tài khoản khác. ' +
   'Mọi phần khác vẫn chạy ngoại tuyến, không cần tài khoản.';
 
 export function AccountSection() {
@@ -72,7 +73,12 @@ export function AccountSection() {
           <p
             className="mt-0.5 break-words text-[0.8125rem] text-ink-faint"
           >
-            {user.email}
+            Tài khoản{' '}
+            <span
+              className="font-mono text-ink-soft"
+            >
+              {user.username !== '' ? user.username : user.email}
+            </span>
           </p>
         </div>
         <Button
