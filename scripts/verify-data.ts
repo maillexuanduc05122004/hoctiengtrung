@@ -2,6 +2,10 @@
  * Kiểm tra bộ dữ liệu đã nhập trong public/data/.
  * Thoát với mã 1 khi có bất kỳ kiểm tra nào không đạt.
  *
+ * Danh sách tệp cấp lấy từ manifest.json chứ không liệt kê cứng, nên thêm một
+ * cấp mới chỉ cần nhập lại dữ liệu; còn cấp nào thiếu so với `HSK_LEVELS` thì
+ * bộ kiểm tra trong lib/verify.ts báo lỗi.
+ *
  * Chạy: npm run data:verify
  */
 import { existsSync, readFileSync } from 'node:fs';
@@ -19,13 +23,14 @@ function readJson<T>(file: string): T {
 }
 
 function main(): void {
-  const files = [1, 2, 3].map((level) => readJson<LevelDataFile>(`hsk-${level}.json`));
   const manifest = readJson<DatasetManifest>('manifest.json');
+  const files = manifest.levels.map((entry) => readJson<LevelDataFile>(entry.file));
 
   const results = verifyDataset(files, manifest);
   const width = Math.max(...results.map((r) => r.name.length));
 
-  console.log('Kiểm tra dữ liệu HSK 3.0 cấp 1-3\n');
+  const levelLabel = manifest.levels.map((entry) => entry.level).join(', ');
+  console.log(`Kiểm tra dữ liệu HSK 3.0 cấp ${levelLabel} (${manifest.totalWords} từ theo manifest)\n`);
   for (const result of results) {
     const mark = result.passed ? 'ĐẠT ' : 'LỖI ';
     console.log(`  ${mark} ${result.name.padEnd(width)}  ${result.detail}`);

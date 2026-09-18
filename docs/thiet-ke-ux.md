@@ -119,7 +119,7 @@ trừ khi địa chỉ có neo (`#buoi-42`), vì lúc đó chính trang đó s�
 
 ## 4. Chọn buổi học
 
-Đây là màn hình bị dùng lại nhiều nhất và cũng dài nhất: HSK 3 có 97 buổi.
+Đây là màn hình bị dùng lại nhiều nhất và cũng dài nhất: HSK 4 có 100 buổi.
 
 ### 4.1 Ba đường trả lời cho một câu hỏi
 

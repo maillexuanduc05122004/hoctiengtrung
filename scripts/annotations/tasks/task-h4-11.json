@@ -1,0 +1,674 @@
+[
+  {
+    "id": "L4-0451",
+    "simplified": "扩展",
+    "traditional": "擴展",
+    "pinyin": "kuò zhǎn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to extend",
+      "to expand",
+      "extension",
+      "expansion"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0452",
+    "simplified": "括号",
+    "traditional": "括號",
+    "pinyin": "kuò hào",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "parentheses; brackets"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0453",
+    "simplified": "垃圾",
+    "pinyin": "lā jī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "trash",
+      "refuse",
+      "garbage",
+      "(coll.) of poor quality",
+      "Taiwan pr."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0454",
+    "simplified": "拉开",
+    "traditional": "拉開",
+    "pinyin": "lā kāi",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to pull open",
+      "to pull apart",
+      "to space out",
+      "to increase"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0455",
+    "simplified": "辣",
+    "pinyin": "là",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "hot (spicy)",
+      "pungent",
+      "(of chili pepper, raw onions etc) to sting",
+      "to burn"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0456",
+    "simplified": "来不及",
+    "traditional": "來不及",
+    "pinyin": "lái bu jí",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "there's not enough time (to do sth); it's too late"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0457",
+    "simplified": "来得及",
+    "traditional": "來得及",
+    "pinyin": "lái de jí",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to have enough time; can do it in time; can still make it"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0458",
+    "simplified": "来源",
+    "traditional": "來源",
+    "pinyin": "lái yuán",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "source (of information etc)",
+      "origin"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0459",
+    "simplified": "老公",
+    "pinyin": "lǎo gōng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(coll.) husband"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0460",
+    "simplified": "老家",
+    "pinyin": "lǎo jiā",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "native place",
+      "place of origin",
+      "home state or region"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0461",
+    "simplified": "老婆",
+    "pinyin": "lǎo pó",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(coll.) wife"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0462",
+    "simplified": "老实",
+    "traditional": "老實",
+    "pinyin": "lǎo shi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "honest; sincere",
+      "well-behaved",
+      "naive; gullible"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0463",
+    "simplified": "乐趣",
+    "traditional": "樂趣",
+    "pinyin": "lè qù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "delight; pleasure; joy"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0464",
+    "simplified": "泪",
+    "traditional": "淚",
+    "pinyin": "lèi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(bound form) tears; teardrops"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0465",
+    "simplified": "泪水",
+    "traditional": "淚水",
+    "pinyin": "lèi shuǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "teardrop",
+      "tears"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0466",
+    "simplified": "类型",
+    "traditional": "類型",
+    "pinyin": "lèi xíng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "type; kind; category",
+      "(computer programming) type"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0467",
+    "simplified": "冷静",
+    "traditional": "冷靜",
+    "pinyin": "lěng jìng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "calm; cool-headed; dispassionate",
+      "(of a place) deserted; quiet"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0468",
+    "simplified": "厘米",
+    "traditional": "釐米",
+    "pinyin": "lí mǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "centimeter"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0469",
+    "simplified": "离不开",
+    "traditional": "離不開",
+    "pinyin": "lí bu kāi",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "inseparable",
+      "inevitably linked to"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0470",
+    "simplified": "力气",
+    "traditional": "力氣",
+    "pinyin": "lì qi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "physical strength"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0471",
+    "simplified": "历史",
+    "traditional": "歷史",
+    "pinyin": "lì shǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "history",
+      "CL:門/门,段"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0472",
+    "simplified": "立即",
+    "pinyin": "lì jí",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "immediately"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0473",
+    "simplified": "利息",
+    "pinyin": "lì xī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "interest (on a loan)",
+      "CL:筆/笔"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0474",
+    "simplified": "利益",
+    "pinyin": "lì yì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "benefit",
+      "(in sb's) interest",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0475",
+    "simplified": "俩",
+    "traditional": "倆",
+    "pinyin": "liǎ",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "two (colloquial equivalent of 兩個/两个)",
+      "both",
+      "some"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0476",
+    "simplified": "良好",
+    "pinyin": "liáng hǎo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "good",
+      "favorable",
+      "well",
+      "fine"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0477",
+    "simplified": "量",
+    "pinyin": "liáng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to measure"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0478",
+    "simplified": "粮食",
+    "traditional": "糧食",
+    "pinyin": "liáng shi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "foodstuff",
+      "cereals",
+      "CL:種/种"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0479",
+    "simplified": "两边",
+    "traditional": "兩邊",
+    "pinyin": "liǎng biān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "either side; both sides"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0480",
+    "simplified": "疗养",
+    "traditional": "療養",
+    "pinyin": "liáo yǎng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to get well",
+      "to heal",
+      "to recuperate",
+      "to convalesce",
+      "convalescence",
+      "to nurse"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0481",
+    "simplified": "了不起",
+    "pinyin": "liǎo bu qǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "amazing",
+      "terrific",
+      "extraordinary"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0482",
+    "simplified": "了解",
+    "pinyin": "liǎo jiě",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to understand; to know about",
+      "to learn about; to find out",
+      "variant of 了解"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0483",
+    "simplified": "列",
+    "pinyin": "liè",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "to arrange",
+      "to line up",
+      "file",
+      "series",
+      "(in data tables) column",
+      "(Tw) row"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0484",
+    "simplified": "列车",
+    "traditional": "列車",
+    "pinyin": "liè chē",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(railway) train"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0485",
+    "simplified": "列入",
+    "pinyin": "liè rù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to include on a list"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0486",
+    "simplified": "列为",
+    "traditional": "列為",
+    "pinyin": "liè wéi",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to be classified as"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0487",
+    "simplified": "临时",
+    "traditional": "臨時",
+    "pinyin": "lín shí",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "as the time draws near",
+      "at the last moment",
+      "temporary",
+      "interim",
+      "ad hoc"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0488",
+    "simplified": "零食",
+    "pinyin": "líng shí",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "snack; nibbles"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0489",
+    "simplified": "流传",
+    "traditional": "流傳",
+    "pinyin": "liú chuán",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to spread; to circulate; to hand down"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0490",
+    "simplified": "楼梯",
+    "traditional": "樓梯",
+    "pinyin": "lóu tī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "stair",
+      "staircase",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0491",
+    "simplified": "陆地",
+    "traditional": "陸地",
+    "pinyin": "lù dì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "dry land (as opposed to the sea)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0492",
+    "simplified": "陆续",
+    "traditional": "陸續",
+    "pinyin": "lù xù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "in turn",
+      "successively",
+      "one after the other",
+      "bit by bit"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0493",
+    "simplified": "录取",
+    "traditional": "錄取",
+    "pinyin": "lù qǔ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to accept an applicant (prospective student, employee etc) who passes an entrance exam",
+      "to admit (a student)",
+      "to hire (a job candidate)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0494",
+    "simplified": "律师",
+    "traditional": "律師",
+    "pinyin": "lǜ shī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "lawyer"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0495",
+    "simplified": "轮",
+    "traditional": "輪",
+    "pinyin": "lún",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N",
+      "V",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "wheel; disk; ring",
+      "steamship",
+      "to take turns; to rotate",
+      "classifier for big round objects: disk, or recurring events: round, turn"
+    ],
+    "needsEnglish": false
+  }
+]

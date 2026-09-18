@@ -203,7 +203,7 @@ export function DataSourcePage() {
               tone="info"
               title="Đây là danh sách HSK 3.0 năm 2021"
             >
-              Bộ từ theo chuẩn HSK 3.0 công bố năm 2021, gồm cấp 1 đến cấp 3. Đây không phải danh
+              Bộ từ theo chuẩn HSK 3.0 công bố năm 2021, gồm cấp 1 đến cấp 4. Đây không phải danh
               sách HSK 2026.
             </Notice>
           </div>

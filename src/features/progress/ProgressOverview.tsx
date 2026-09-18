@@ -53,7 +53,7 @@ export function ProgressOverview({ summary, showTotal = false }: ProgressOvervie
         <p
           className="mt-4 border-t border-line pt-3 text-[0.8125rem] text-ink-faint"
         >
-          {`Đã học ${summary.learnedTotal} trên ${totalWords} từ của HSK 1 đến 3.`}
+          {`Đã học ${summary.learnedTotal} trên ${totalWords} từ của HSK 1 đến 4.`}
         </p>
       ) : null}
     </div>

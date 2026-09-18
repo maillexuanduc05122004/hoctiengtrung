@@ -1,7 +1,7 @@
 # Mỗi Ngày 中文
 
-Ứng dụng web học từ vựng **HSK 3.0 cấp 1 đến cấp 3** dành cho người Việt. Toàn bộ 2.245 từ
-được chia sẵn thành **224 buổi học khoảng 10 từ**, học bằng bốn cách: lật thẻ, gõ đáp án,
+Ứng dụng web học từ vựng **HSK 3.0 cấp 1 đến cấp 4** dành cho người Việt. Toàn bộ 3.245 từ
+được chia sẵn thành **324 buổi học khoảng 10 từ**, học bằng bốn cách: lật thẻ, gõ đáp án,
 nghe chép và luyện nói.
 
 Không cần đăng nhập, không có backend. Tiến độ nằm trên máy người học (IndexedDB) và ứng dụng
@@ -57,7 +57,8 @@ Chi tiết đầy đủ nằm ở trang **Nguồn dữ liệu** trong ứng dụ
 ### Điều cần nói rõ về dữ liệu
 
 - Đây là danh sách **HSK 3.0 công bố năm 2021**. Không phải "HSK 2026".
-- Số từ: HSK 1 có 500 từ, HSK 2 có 772 từ, HSK 3 có 973 từ, tổng cộng 2.245 từ.
+- Số từ: HSK 1 có 500 từ, HSK 2 có 772 từ, HSK 3 có 973 từ, HSK 4 có 1.000 từ, tổng cộng
+  3.245 từ.
 - **Nghĩa tiếng Việt và câu ví dụ là bản dịch máy, chưa qua kiểm duyệt của người bản ngữ.**
   Mỗi từ đều mang `translationStatus: "machine"` và ứng dụng nói rõ điều này ở trang Nguồn
   dữ liệu. Trường này chuyển thành `"reviewed"` khi có người kiểm duyệt thật.
@@ -109,10 +110,10 @@ mục đầu do người học tự chọn nên giữ đến khi chính họ b�
 ### Buổi học
 
 Mỗi cấp được chia thành các buổi khoảng 10 từ: HSK 1 có 50 buổi, HSK 2 có 77 buổi, HSK 3 có
-97 buổi. Danh sách có bộ lọc theo trạng thái (cần ôn, đang học, chưa học, đã lưu), ô nhảy
-thẳng tới buổi số N, và thẻ "học tiếp" đưa về đúng chỗ vừa rời đi. Trang mở lại đúng cấp
-người học đang theo chứ không luôn quay về HSK 1, và quay lại từ một buổi thì rơi đúng chỗ cũ
-trong danh sách.
+97 buổi, HSK 4 có 100 buổi. Danh sách có bộ lọc theo trạng thái (cần ôn, đang học, chưa học,
+đã lưu), ô nhảy thẳng tới buổi số N, và thẻ "học tiếp" đưa về đúng chỗ vừa rời đi. Trang mở lại
+đúng cấp người học đang theo chứ không luôn quay về HSK 1, và quay lại từ một buổi thì rơi
+đúng chỗ cũ trong danh sách.
 
 Mỗi buổi có một hành động chính nói rõ việc sắp làm ("Học 4 từ chưa thuộc", "Ôn 6 từ tới
 hạn"), ba cách luyện còn lại nằm ở hàng phụ.

@@ -1,0 +1,707 @@
+[
+  {
+    "id": "L4-0181",
+    "simplified": "地方",
+    "pinyin": "dì fāng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "region",
+      "regional (away from the central administration)",
+      "local"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0071",
+        "pinyin": "dì fang",
+        "partOfSpeech": [
+          "N"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0182",
+    "simplified": "地面",
+    "pinyin": "dì miàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "floor",
+      "ground",
+      "surface"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0183",
+    "simplified": "地位",
+    "pinyin": "dì wèi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "position",
+      "status",
+      "place",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0184",
+    "simplified": "地下",
+    "pinyin": "dì xià",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "underground",
+      "subterranean",
+      "covert"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0185",
+    "simplified": "地址",
+    "pinyin": "dì zhǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "address",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0186",
+    "simplified": "典型",
+    "pinyin": "diǎn xíng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "model",
+      "typical case",
+      "archetype",
+      "typical",
+      "representative"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0187",
+    "simplified": "点名",
+    "traditional": "點名",
+    "pinyin": "diǎn míng",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "roll call",
+      "to mention sb by name",
+      "(to call or praise or criticize sb) by name"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0188",
+    "simplified": "电灯",
+    "traditional": "電燈",
+    "pinyin": "diàn dēng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "electric light",
+      "CL:盞/盏"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0189",
+    "simplified": "电动车",
+    "traditional": "電動車",
+    "pinyin": "diàn dòng chē",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "electric vehicle (commonly refers to e-bikes, scooters or electric cars)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0190",
+    "simplified": "电梯",
+    "traditional": "電梯",
+    "pinyin": "diàn tī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "elevator",
+      "escalator",
+      "CL:臺/台,部"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0191",
+    "simplified": "电源",
+    "traditional": "電源",
+    "pinyin": "diàn yuán",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "electric power source"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0192",
+    "simplified": "顶",
+    "traditional": "頂",
+    "pinyin": "dǐng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N",
+      "V",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "apex",
+      "crown of the head",
+      "top",
+      "roof",
+      "most",
+      "to carry on the head",
+      "to push to the top",
+      "to go against",
+      "to replace",
+      "to substitute",
+      "to be subjected to (an aerial bombing, hailstorm etc)",
+      "(slang) to \"bump\" a forum thread to raise its profile",
+      "classifier for headwear, hats, veils etc"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0193",
+    "simplified": "定",
+    "pinyin": "dìng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to fix; to set; to make definite",
+      "to subscribe to (a newspaper etc); to book (tickets etc); to order (goods etc)",
+      "to congeal; to coagulate",
+      "(literary) definitely"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0194",
+    "simplified": "冬季",
+    "pinyin": "dōng jì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "winter"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0195",
+    "simplified": "动画片",
+    "traditional": "動畫片",
+    "pinyin": "dòng huà piàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "animated film"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0196",
+    "simplified": "动摇",
+    "traditional": "動搖",
+    "pinyin": "dòng yáo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to sway",
+      "to waver",
+      "to rock",
+      "to rattle",
+      "to destabilize",
+      "to pose a challenge to"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0197",
+    "simplified": "豆腐",
+    "pinyin": "dòu fu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "tofu",
+      "bean curd"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0198",
+    "simplified": "独立",
+    "traditional": "獨立",
+    "pinyin": "dú lì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "independent",
+      "independence",
+      "to stand alone"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0199",
+    "simplified": "独特",
+    "traditional": "獨特",
+    "pinyin": "dú tè",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "unique; distinctive"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0200",
+    "simplified": "独自",
+    "traditional": "獨自",
+    "pinyin": "dú zì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "alone"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0201",
+    "simplified": "堵",
+    "pinyin": "dǔ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to block up (a road, pipe etc)",
+      "to stop up (a hole)",
+      "(fig.) (of a person) choked up with anxiety or stress",
+      "wall (literary)",
+      "(classifier for walls)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0202",
+    "simplified": "堵车",
+    "traditional": "堵車",
+    "pinyin": "dǔ chē",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "traffic jam",
+      "(of traffic) to get congested"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0203",
+    "simplified": "肚子",
+    "pinyin": "dù zi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "belly",
+      "abdomen",
+      "stomach",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0204",
+    "simplified": "度过",
+    "traditional": "度過",
+    "pinyin": "dù guò",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to pass",
+      "to spend (time)",
+      "to survive",
+      "to get through"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0205",
+    "simplified": "锻炼",
+    "traditional": "鍛鍊",
+    "pinyin": "duàn liàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to toughen",
+      "to temper",
+      "to engage in physical exercise",
+      "to work out",
+      "(fig.) to develop one's skills",
+      "to train oneself"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0206",
+    "simplified": "对比",
+    "traditional": "對比",
+    "pinyin": "duì bǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to contrast",
+      "contrast",
+      "ratio",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0207",
+    "simplified": "对付",
+    "traditional": "對付",
+    "pinyin": "duì fu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to handle; to deal with; to tackle",
+      "to get by with; to make do",
+      "(dialect) (usu. used in the negative) to get along with (sb)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0208",
+    "simplified": "对于",
+    "traditional": "對於",
+    "pinyin": "duì yú",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Prep"
+    ],
+    "cedictDefinitions": [
+      "regarding; as far as (sth) is concerned; with regard to"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0209",
+    "simplified": "多次",
+    "pinyin": "duō cì",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "many times",
+      "repeatedly"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0210",
+    "simplified": "多年",
+    "pinyin": "duō nián",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "many years",
+      "for many years",
+      "longstanding"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0211",
+    "simplified": "多样",
+    "traditional": "多樣",
+    "pinyin": "duō yàng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "diverse",
+      "diversity",
+      "manifold"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0212",
+    "simplified": "多种",
+    "traditional": "多種",
+    "pinyin": "duō zhǒng",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "many kinds of; multiple; diverse; multi-"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0213",
+    "simplified": "恶心",
+    "traditional": "噁心",
+    "pinyin": "ě xīn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "variant of 惡心/恶心"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0214",
+    "simplified": "儿童",
+    "traditional": "兒童",
+    "pinyin": "ér tóng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "child"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0215",
+    "simplified": "而",
+    "pinyin": "ér",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "and",
+      "as well as",
+      "and so",
+      "but (not)",
+      "yet (not)",
+      "(indicates causal relation)",
+      "(indicates change of state)",
+      "(indicates contrast)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0216",
+    "simplified": "而是",
+    "pinyin": "ér shì",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "rather"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0217",
+    "simplified": "耳机",
+    "traditional": "耳機",
+    "pinyin": "ěr jī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "headphones",
+      "earphones",
+      "telephone receiver"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0218",
+    "simplified": "二手",
+    "pinyin": "èr shǒu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "indirectly acquired",
+      "second-hand (information, equipment etc)",
+      "assistant"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0219",
+    "simplified": "发挥",
+    "traditional": "發揮",
+    "pinyin": "fā huī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to display",
+      "to exhibit",
+      "to bring out implicit or innate qualities",
+      "to express (a thought or moral)",
+      "to develop (an idea)",
+      "to elaborate (on a theme)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0220",
+    "simplified": "发票",
+    "traditional": "發票",
+    "pinyin": "fā piào",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "invoice; receipt; bill",
+      "uniform invoice (abbr. for 統一發票/统一发票)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0221",
+    "simplified": "发烧",
+    "traditional": "發燒",
+    "pinyin": "fā shāo",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to have a high temperature (from illness); to have a fever",
+      "(fig.) to be fascinated with; to obsess over",
+      "(fig.) flourishing; thriving; popular"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0222",
+    "simplified": "法",
+    "pinyin": "fǎ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "law",
+      "method",
+      "way",
+      "to emulate",
+      "(Buddhism) dharma",
+      "(abbr. for 法家) the Legalists",
+      "(physics) farad (abbr. for 法拉)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0223",
+    "simplified": "法官",
+    "pinyin": "fǎ guān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "judge (in court)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0224",
+    "simplified": "法律",
+    "pinyin": "fǎ lǜ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "law",
+      "CL:條/条, 套, 個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0225",
+    "simplified": "法院",
+    "pinyin": "fǎ yuàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "court of law",
+      "court"
+    ],
+    "needsEnglish": false
+  }
+]

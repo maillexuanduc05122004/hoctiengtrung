@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L4-0766",
+    "vi": ["chán", "nhàm chán", "vô vị"],
+    "viAliases": ["buồn chán", "tẻ nhạt"],
+    "en": ["bored", "boring"],
+    "enSource": "cedict",
+    "example": { "zh": "这个电影太无聊了。", "vi": "Bộ phim này chán quá.", "en": "This movie is so boring." }
+  },
+  {
+    "id": "L4-0767",
+    "vi": ["bất luận", "dù… (cũng)", "bất kể"],
+    "viAliases": ["dù cho", "cho dù"],
+    "en": ["no matter what or how", "regardless of whether..."],
+    "enSource": "cedict",
+    "example": { "zh": "无论多忙，他都坚持锻炼。", "vi": "Dù bận đến đâu, anh ấy vẫn kiên trì tập luyện.", "en": "No matter how busy he is, he keeps exercising." }
+  },
+  {
+    "id": "L4-0768",
+    "vi": ["vô số", "không đếm xuể"],
+    "viAliases": ["rất nhiều", "hàng vạn"],
+    "en": ["countless", "innumerable"],
+    "enSource": "cedict",
+    "example": { "zh": "天上有无数的星星。", "vi": "Trên trời có vô số ngôi sao.", "en": "There are countless stars in the sky." }
+  },
+  {
+    "id": "L4-0769",
+    "vi": ["không sao cả", "sao cũng được", "không quan trọng"],
+    "viAliases": ["thế nào cũng được", "chẳng sao"],
+    "en": ["to be indifferent", "not to matter"],
+    "enSource": "cedict",
+    "example": { "zh": "吃什么我都无所谓。", "vi": "Ăn gì tôi cũng được.", "en": "I don't mind what we eat." }
+  },
+  {
+    "id": "L4-0770",
+    "vi": ["vô hạn", "không giới hạn"],
+    "viAliases": ["vô tận", "vô cùng"],
+    "en": ["unlimited", "unbounded"],
+    "enSource": "cedict",
+    "example": { "zh": "父母对孩子的爱是无限的。", "vi": "Tình yêu của cha mẹ dành cho con là vô hạn.", "en": "Parents' love for their children is unlimited." }
+  },
+  {
+    "id": "L4-0771",
+    "vi": ["đủ màu sắc", "sặc sỡ", "muôn màu"],
+    "viAliases": ["nhiều màu", "rực rỡ"],
+    "en": ["multicolored", "every color under the sun"],
+    "enSource": "cedict",
+    "example": { "zh": "公园里的花五颜六色。", "vi": "Hoa trong công viên đủ màu sắc.", "en": "The flowers in the park are multicolored." }
+  },
+  {
+    "id": "L4-0772",
+    "vi": ["hiểu lầm", "sự hiểu lầm"],
+    "viAliases": ["hiểu nhầm", "ngộ nhận"],
+    "en": ["to misunderstand", "misunderstanding"],
+    "enSource": "cedict",
+    "example": { "zh": "你误会我的意思了。", "vi": "Bạn hiểu lầm ý tôi rồi.", "en": "You misunderstood what I meant." }
+  },
+  {
+    "id": "L4-0773",
+    "vi": ["dưa hấu"],
+    "viAliases": [],
+    "en": ["watermelon"],
+    "enSource": "cedict",
+    "example": { "zh": "夏天我最爱吃西瓜。", "vi": "Mùa hè tôi thích ăn dưa hấu nhất.", "en": "In summer I love eating watermelon the most." }
+  },
+  {
+    "id": "L4-0774",
+    "vi": ["hút", "hít", "hấp thụ"],
+    "viAliases": ["hít vào", "thu hút"],
+    "en": ["to suck in", "to inhale", "to absorb"],
+    "enSource": "cedict",
+    "example": { "zh": "请深深地吸一口气。", "vi": "Hãy hít một hơi thật sâu.", "en": "Please take a deep breath." }
+  },
+  {
+    "id": "L4-0775",
+    "vi": ["ống hút"],
+    "viAliases": [],
+    "en": ["(drinking) straw"],
+    "enSource": "cedict",
+    "example": { "zh": "请给我一根吸管。", "vi": "Cho tôi xin một cái ống hút.", "en": "Please give me a straw." }
+  },
+  {
+    "id": "L4-0776",
+    "vi": ["hấp thụ", "tiếp thu", "thu nhận"],
+    "viAliases": ["hút", "hấp thu"],
+    "en": ["to absorb", "to assimilate", "to recruit"],
+    "enSource": "cedict",
+    "example": { "zh": "植物需要吸收阳光和水。", "vi": "Thực vật cần hấp thụ ánh nắng và nước.", "en": "Plants need to absorb sunlight and water." }
+  },
+  {
+    "id": "L4-0777",
+    "vi": ["hút thuốc"],
+    "viAliases": ["hút thuốc lá"],
+    "en": ["to smoke"],
+    "enSource": "cedict",
+    "example": { "zh": "这里不可以吸烟。", "vi": "Ở đây không được hút thuốc.", "en": "Smoking is not allowed here." }
+  },
+  {
+    "id": "L4-0778",
+    "vi": ["thu hút", "hấp dẫn", "lôi cuốn"],
+    "viAliases": ["cuốn hút"],
+    "en": ["to attract; to appeal to; to fascinate"],
+    "enSource": "cedict",
+    "example": { "zh": "那个地方吸引了很多游客。", "vi": "Nơi đó thu hút rất nhiều du khách.", "en": "That place attracted many tourists." }
+  },
+  {
+    "id": "L4-0779",
+    "vi": ["yêu thích", "ưa thích"],
+    "viAliases": ["thích", "yêu mến"],
+    "en": ["to like", "to love", "to be fond of"],
+    "enSource": "cedict",
+    "example": { "zh": "孩子们都很喜爱这位老师。", "vi": "Bọn trẻ đều rất yêu thích cô giáo này.", "en": "The children are all very fond of this teacher." }
+  },
+  {
+    "id": "L4-0780",
+    "vi": ["loạt", "bộ", "chuỗi"],
+    "viAliases": ["hệ liệt", "series"],
+    "en": ["series", "set"],
+    "enSource": "cedict",
+    "example": { "zh": "我看完了这个系列的电影。", "vi": "Tôi đã xem hết loạt phim này.", "en": "I have finished watching this film series." }
+  },
+  {
+    "id": "L4-0781",
+    "vi": ["hệ thống", "có hệ thống"],
+    "viAliases": ["bộ máy"],
+    "en": ["system"],
+    "enSource": "cedict",
+    "example": { "zh": "电脑系统出了问题。", "vi": "Hệ thống máy tính gặp trục trặc.", "en": "The computer system has a problem." }
+  },
+  {
+    "id": "L4-0782",
+    "vi": ["mảnh", "nhỏ", "mịn"],
+    "viAliases": ["thon", "thanh mảnh"],
+    "en": ["thin or slender", "fine", "delicate"],
+    "enSource": "cedict",
+    "example": { "zh": "她的手指又细又长。", "vi": "Ngón tay cô ấy vừa thon vừa dài.", "en": "Her fingers are slender and long." }
+  },
+  {
+    "id": "L4-0783",
+    "vi": ["chi tiết"],
+    "viAliases": ["tiểu tiết"],
+    "en": ["details; particulars"],
+    "enSource": "cedict",
+    "example": { "zh": "他很注意工作中的细节。", "vi": "Anh ấy rất chú ý đến chi tiết trong công việc.", "en": "He pays close attention to details at work." }
+  },
+  {
+    "id": "L4-0784",
+    "vi": ["tỉ mỉ", "kỹ lưỡng", "cẩn thận"],
+    "viAliases": ["chu đáo", "tinh tế"],
+    "en": ["careful", "meticulous", "painstaking"],
+    "enSource": "cedict",
+    "example": { "zh": "她做事非常细致。", "vi": "Cô ấy làm việc rất tỉ mỉ.", "en": "She does things very meticulously." }
+  },
+  {
+    "id": "L4-0785",
+    "vi": ["tháng sau", "tháng tới"],
+    "viAliases": [],
+    "en": ["next month"],
+    "enSource": "cedict",
+    "example": { "zh": "我下个月去北京出差。", "vi": "Tháng sau tôi đi Bắc Kinh công tác.", "en": "I am going to Beijing on a business trip next month." }
+  },
+  {
+    "id": "L4-0786",
+    "vi": ["giảm xuống", "hạ xuống", "sụt giảm"],
+    "viAliases": ["giảm", "đi xuống"],
+    "en": ["to decline", "to drop", "to decrease"],
+    "enSource": "cedict",
+    "example": { "zh": "这个月的价格下降了。", "vi": "Giá tháng này đã giảm xuống.", "en": "Prices have dropped this month." }
+  },
+  {
+    "id": "L4-0787",
+    "vi": ["xuống lầu", "xuống tầng dưới"],
+    "viAliases": ["xuống nhà"],
+    "en": ["to go downstairs"],
+    "enSource": "cedict",
+    "example": { "zh": "他下楼去买早饭了。", "vi": "Anh ấy xuống lầu đi mua bữa sáng rồi.", "en": "He went downstairs to buy breakfast." }
+  },
+  {
+    "id": "L4-0788",
+    "vi": ["tải xuống", "tải về"],
+    "viAliases": ["download"],
+    "en": ["to download"],
+    "enSource": "cedict",
+    "example": { "zh": "我下载了一个新软件。", "vi": "Tôi đã tải về một phần mềm mới.", "en": "I downloaded a new piece of software." }
+  },
+  {
+    "id": "L4-0789",
+    "vi": ["mùa hè", "mùa hạ"],
+    "viAliases": ["hè"],
+    "en": ["summer"],
+    "enSource": "cedict",
+    "example": { "zh": "夏季的天气非常热。", "vi": "Thời tiết mùa hè rất nóng.", "en": "The weather in summer is very hot." }
+  },
+  {
+    "id": "L4-0790",
+    "vi": ["tươi", "tươi ngon", "ngọt (vị)"],
+    "viAliases": ["tươi mới"],
+    "en": ["fresh", "bright (in color)", "delicious"],
+    "enSource": "cedict",
+    "example": { "zh": "这家店的鱼汤很鲜。", "vi": "Canh cá ở quán này rất tươi ngon.", "en": "The fish soup at this restaurant is very fresh and tasty." }
+  },
+  {
+    "id": "L4-0791",
+    "vi": ["hoa tươi"],
+    "viAliases": ["hoa"],
+    "en": ["fresh flowers", "flower"],
+    "enSource": "cedict",
+    "example": { "zh": "桌子上放着一些鲜花。", "vi": "Trên bàn có đặt vài bông hoa tươi.", "en": "There are some fresh flowers on the table." }
+  },
+  {
+    "id": "L4-0792",
+    "vi": ["rõ rệt", "rõ ràng", "tươi sáng (màu sắc)"],
+    "viAliases": ["nổi bật", "sắc nét"],
+    "en": ["(of colors) bright; fresh and clear", "clear-cut; distinct"],
+    "enSource": "cedict",
+    "example": { "zh": "他的态度非常鲜明。", "vi": "Thái độ của anh ấy rất rõ ràng.", "en": "His attitude is very clear-cut." }
+  },
+  {
+    "id": "L4-0793",
+    "vi": ["mặn"],
+    "viAliases": ["mằn mặn"],
+    "en": ["salty", "salted"],
+    "enSource": "cedict",
+    "example": { "zh": "这个菜太咸了。", "vi": "Món này mặn quá.", "en": "This dish is too salty." }
+  },
+  {
+    "id": "L4-0794",
+    "vi": ["rõ rệt", "đáng kể", "nổi bật"],
+    "viAliases": ["rõ ràng", "đáng chú ý"],
+    "en": ["notable", "remarkable", "outstanding"],
+    "enSource": "cedict",
+    "example": { "zh": "他的成绩有了显著的进步。", "vi": "Thành tích của anh ấy có tiến bộ rõ rệt.", "en": "His grades have improved remarkably." }
+  },
+  {
+    "id": "L4-0795",
+    "vi": ["huyện"],
+    "viAliases": [],
+    "en": ["county"],
+    "enSource": "cedict",
+    "example": { "zh": "我的老家在一个小县里。", "vi": "Quê tôi ở một huyện nhỏ.", "en": "My hometown is in a small county." }
+  },
+  {
+    "id": "L4-0796",
+    "vi": ["hạn chế", "giới hạn", "sự hạn chế"],
+    "viAliases": ["ràng buộc"],
+    "en": ["to restrict", "to limit", "restriction"],
+    "enSource": "cedict",
+    "example": { "zh": "父母限制我玩手机的时间。", "vi": "Bố mẹ hạn chế thời gian tôi dùng điện thoại.", "en": "My parents limit the time I spend on my phone." }
+  },
+  {
+    "id": "L4-0797",
+    "vi": ["chung sống", "hòa hợp", "ở với nhau"],
+    "viAliases": ["cư xử với nhau", "hòa thuận"],
+    "en": ["to get along (well, poorly)", "to interact"],
+    "enSource": "cedict",
+    "example": { "zh": "他很容易和别人相处。", "vi": "Anh ấy rất dễ hòa hợp với người khác.", "en": "He gets along with others easily." }
+  },
+  {
+    "id": "L4-0798",
+    "vi": ["trái ngược", "ngược lại"],
+    "viAliases": ["đối lập", "trái lại"],
+    "en": ["opposite", "contrary"],
+    "enSource": "cedict",
+    "example": { "zh": "我们两个人的看法完全相反。", "vi": "Quan điểm của hai chúng tôi hoàn toàn trái ngược.", "en": "Our two views are completely opposite." }
+  },
+  {
+    "id": "L4-0799",
+    "vi": ["thùng", "hòm (lượng từ)"],
+    "viAliases": ["hộp"],
+    "en": ["box", "chest"],
+    "enSource": "cedict",
+    "example": { "zh": "他买了两箱苹果。", "vi": "Anh ấy mua hai thùng táo.", "en": "He bought two boxes of apples." }
+  },
+  {
+    "id": "L4-0800",
+    "vi": ["va li", "thùng", "hòm"],
+    "viAliases": ["rương", "hộp lớn"],
+    "en": ["suitcase", "box", "chest"],
+    "enSource": "cedict",
+    "example": { "zh": "这个箱子太重了，我拿不动。", "vi": "Cái va li này nặng quá, tôi không xách nổi.", "en": "This suitcase is too heavy; I can't carry it." }
+  },
+  {
+    "id": "L4-0801",
+    "vi": ["nhớ", "nhớ nhung", "mong nhớ"],
+    "viAliases": ["thương nhớ"],
+    "en": ["to miss", "to remember with longing", "to long to see again"],
+    "enSource": "cedict",
+    "example": { "zh": "我非常想念我的家人。", "vi": "Tôi rất nhớ gia đình mình.", "en": "I miss my family very much." }
+  },
+  {
+    "id": "L4-0802",
+    "vi": ["tưởng tượng", "sự tưởng tượng", "trí tưởng tượng"],
+    "viAliases": ["hình dung"],
+    "en": ["to imagine; to envision", "imagination"],
+    "enSource": "cedict",
+    "example": { "zh": "我无法想象没有手机的生活。", "vi": "Tôi không thể tưởng tượng cuộc sống không có điện thoại.", "en": "I can't imagine life without a phone." }
+  },
+  {
+    "id": "L4-0803",
+    "vi": ["hạng mục", "khoản", "điều (lượng từ)"],
+    "viAliases": ["mục"],
+    "en": ["item", "classifier for principles, items, clauses, tasks, research projects etc"],
+    "enSource": "cedict",
+    "example": { "zh": "我们今天有三项任务。", "vi": "Hôm nay chúng tôi có ba nhiệm vụ.", "en": "We have three tasks today." }
+  },
+  {
+    "id": "L4-0804",
+    "vi": ["dự án", "hạng mục", "môn thi đấu"],
+    "viAliases": ["công trình", "đề án"],
+    "en": ["item; project; (sports) event"],
+    "enSource": "cedict",
+    "example": { "zh": "这个项目下个月开始。", "vi": "Dự án này bắt đầu vào tháng sau.", "en": "This project starts next month." }
+  },
+  {
+    "id": "L4-0805",
+    "vi": ["ảnh", "tấm ảnh", "bức ảnh"],
+    "viAliases": ["hình", "ảnh chụp"],
+    "en": ["photograph", "image"],
+    "enSource": "cedict",
+    "example": { "zh": "这张相片是十年前拍的。", "vi": "Tấm ảnh này chụp cách đây mười năm.", "en": "This photo was taken ten years ago." }
+  },
+  {
+    "id": "L4-0806",
+    "vi": ["tiêu hóa", "tiếp thu"],
+    "viAliases": ["hấp thụ"],
+    "en": ["to digest (food)", "(fig.) to absorb (information etc); to assimilate; to process"],
+    "enSource": "cedict",
+    "example": { "zh": "吃太多不容易消化。", "vi": "Ăn quá nhiều thì khó tiêu hóa.", "en": "Eating too much makes it hard to digest." }
+  },
+  {
+    "id": "L4-0807",
+    "vi": ["bán", "tiêu thụ", "bán hàng"],
+    "viAliases": ["bán ra", "phân phối"],
+    "en": ["to sell", "to market"],
+    "enSource": "cedict",
+    "example": { "zh": "这种手机销售得很好。", "vi": "Loại điện thoại này bán rất chạy.", "en": "This kind of phone sells very well." }
+  },
+  {
+    "id": "L4-0808",
+    "vi": ["món ăn vặt", "đồ ăn vặt", "đặc sản đường phố"],
+    "viAliases": ["quà vặt", "ăn vặt"],
+    "en": ["street food; snack"],
+    "enSource": "cedict",
+    "example": { "zh": "北京有很多有名的小吃。", "vi": "Bắc Kinh có rất nhiều món ăn vặt nổi tiếng.", "en": "Beijing has many famous snacks." }
+  },
+  {
+    "id": "L4-0809",
+    "vi": ["chàng trai", "cậu thanh niên", "anh chàng"],
+    "viAliases": ["thanh niên", "cậu trai"],
+    "en": ["(coll.) young man; young fellow; lad"],
+    "enSource": "cedict",
+    "example": { "zh": "这个小伙子真热情。", "vi": "Chàng trai này thật nhiệt tình.", "en": "This young man is really warm-hearted." }
+  },
+  {
+    "id": "L4-0810",
+    "vi": ["cỡ nhỏ", "loại nhỏ", "quy mô nhỏ"],
+    "viAliases": ["nhỏ"],
+    "en": ["small size", "small scale"],
+    "enSource": "cedict",
+    "example": { "zh": "我们开了一个小型会议。", "vi": "Chúng tôi đã tổ chức một cuộc họp nhỏ.", "en": "We held a small meeting." }
+  }
+]

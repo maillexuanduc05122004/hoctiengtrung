@@ -1,0 +1,727 @@
+[
+  {
+    "id": "L4-0136",
+    "simplified": "打败",
+    "traditional": "打敗",
+    "pinyin": "dǎ bài",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to defeat",
+      "to overpower",
+      "to beat",
+      "to be defeated"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0137",
+    "simplified": "打雷",
+    "pinyin": "dǎ léi",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to rumble with thunder",
+      "clap of thunder"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0138",
+    "simplified": "打扫",
+    "traditional": "打掃",
+    "pinyin": "dǎ sǎo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to clean",
+      "to sweep"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0139",
+    "simplified": "打折",
+    "pinyin": "dǎ zhé",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to give a discount"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0140",
+    "simplified": "打针",
+    "traditional": "打針",
+    "pinyin": "dǎ zhēn",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to give or get an injection"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0141",
+    "simplified": "大巴",
+    "pinyin": "dà bā",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(coll.) large bus",
+      "coach",
+      "(abbr. for 大型巴士)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0142",
+    "simplified": "大多",
+    "pinyin": "dà duō",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "for the most part",
+      "many",
+      "most",
+      "the greater part",
+      "mostly"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0143",
+    "simplified": "大方",
+    "pinyin": "dà fang",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "generous",
+      "magnanimous",
+      "stylish",
+      "in good taste",
+      "easy-mannered",
+      "natural and relaxed"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0144",
+    "simplified": "大哥",
+    "pinyin": "dà gē",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "eldest brother",
+      "big brother (polite address for a man of about the same age as oneself)",
+      "gang leader; boss"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0145",
+    "simplified": "大规模",
+    "traditional": "大規模",
+    "pinyin": "dà guī mó",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "large scale",
+      "extensive",
+      "wide scale",
+      "broad scale"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0146",
+    "simplified": "大会",
+    "traditional": "大會",
+    "pinyin": "dà huì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "general assembly",
+      "general meeting",
+      "convention",
+      "CL:個/个,屆/届"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0147",
+    "simplified": "大姐",
+    "pinyin": "dà jiě",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "big sister",
+      "elder sister",
+      "older sister (also polite term of address for a girl or woman slightly older than the speaker)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0148",
+    "simplified": "大楼",
+    "traditional": "大樓",
+    "pinyin": "dà lóu",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "building (a relatively large, multistory one)",
+      "CL:幢,座"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0149",
+    "simplified": "大陆",
+    "traditional": "大陸",
+    "pinyin": "dà lù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "continent; mainland",
+      "CL:塊/块"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0150",
+    "simplified": "大妈",
+    "traditional": "大媽",
+    "pinyin": "dà mā",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "father's elder brother's wife",
+      "aunt (affectionate term for an elderly woman)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0151",
+    "simplified": "大型",
+    "pinyin": "dà xíng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "large",
+      "large-scale"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0152",
+    "simplified": "大爷",
+    "traditional": "大爺",
+    "pinyin": "dà ye",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(coll.) father's older brother",
+      "uncle",
+      "term of respect for older man"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0153",
+    "simplified": "大众",
+    "traditional": "大眾",
+    "pinyin": "dà zhòng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the masses",
+      "the great bulk of the population",
+      "popular (of music, science etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0154",
+    "simplified": "代替",
+    "pinyin": "dài tì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to replace; to take the place of"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0155",
+    "simplified": "待遇",
+    "pinyin": "dài yù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "treatment",
+      "pay",
+      "salary",
+      "status",
+      "rank"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0156",
+    "simplified": "袋",
+    "pinyin": "dài",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "pouch",
+      "bag",
+      "sack",
+      "pocket"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0157",
+    "simplified": "戴",
+    "pinyin": "dài",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to put on or wear (glasses, hat, gloves etc)",
+      "to respect",
+      "to bear",
+      "to support"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0158",
+    "simplified": "担保",
+    "traditional": "擔保",
+    "pinyin": "dān bǎo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to guarantee",
+      "to vouch for"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0159",
+    "simplified": "担任",
+    "traditional": "擔任",
+    "pinyin": "dān rèn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to hold a governmental office or post",
+      "to assume office of",
+      "to take charge of",
+      "to serve as"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0160",
+    "simplified": "担心",
+    "traditional": "擔心",
+    "pinyin": "dān xīn",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "anxious",
+      "worried",
+      "uneasy",
+      "to worry",
+      "to be anxious"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0161",
+    "simplified": "单",
+    "traditional": "單",
+    "pinyin": "dān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "bill",
+      "list",
+      "form",
+      "single",
+      "only",
+      "sole",
+      "odd number",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0162",
+    "simplified": "单纯",
+    "traditional": "單純",
+    "pinyin": "dān chún",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "simple",
+      "pure",
+      "unsophisticated",
+      "merely",
+      "purely"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0163",
+    "simplified": "单调",
+    "traditional": "單調",
+    "pinyin": "dān diào",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "monotonous"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0164",
+    "simplified": "单独",
+    "traditional": "單獨",
+    "pinyin": "dān dú",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "alone",
+      "by oneself",
+      "on one's own"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0165",
+    "simplified": "淡",
+    "pinyin": "dàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "insipid",
+      "diluted",
+      "weak",
+      "mild",
+      "light in color",
+      "tasteless",
+      "indifferent",
+      "(variant of 氮) nitrogen"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0166",
+    "simplified": "导游",
+    "traditional": "導遊",
+    "pinyin": "dǎo yóu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "tour guide",
+      "guidebook",
+      "to conduct a tour"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0167",
+    "simplified": "导致",
+    "traditional": "導致",
+    "pinyin": "dǎo zhì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to lead to; to create; to cause; to bring about"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0168",
+    "simplified": "倒闭",
+    "traditional": "倒閉",
+    "pinyin": "dǎo bì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to go bankrupt",
+      "to close down"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0169",
+    "simplified": "倒车",
+    "traditional": "倒車",
+    "pinyin": "dǎo chē",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to change buses, trains etc"
+    ],
+    "siblings": [
+      {
+        "id": "L4-0170",
+        "pinyin": "dào chē",
+        "partOfSpeech": []
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0170",
+    "simplified": "倒车",
+    "traditional": "倒車",
+    "pinyin": "dào chē",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to reverse (a vehicle)",
+      "to drive backwards"
+    ],
+    "siblings": [
+      {
+        "id": "L4-0169",
+        "pinyin": "dǎo chē",
+        "partOfSpeech": []
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0171",
+    "simplified": "得意",
+    "pinyin": "dé yì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "proud of oneself",
+      "pleased with oneself",
+      "complacent"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0172",
+    "simplified": "得",
+    "pinyin": "děi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to have to",
+      "must",
+      "ought to",
+      "to need to"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0115",
+        "pinyin": "dé",
+        "partOfSpeech": [
+          "V"
+        ]
+      },
+      {
+        "id": "L2-0118",
+        "pinyin": "de",
+        "partOfSpeech": [
+          "Aux"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0173",
+    "simplified": "灯光",
+    "traditional": "燈光",
+    "pinyin": "dēng guāng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(stage) lighting",
+      "light"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0174",
+    "simplified": "登",
+    "pinyin": "dēng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to scale (a height)",
+      "to ascend",
+      "to mount",
+      "to publish or record",
+      "to enter (e.g. in a register)",
+      "to press down with the foot",
+      "to step or tread on",
+      "to put on (shoes or trousers) (dialect)",
+      "to be gathered and taken to the threshing ground (old)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0175",
+    "simplified": "登记",
+    "traditional": "登記",
+    "pinyin": "dēng jì",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to register (one's name)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0176",
+    "simplified": "登录",
+    "traditional": "登錄",
+    "pinyin": "dēng lù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to register",
+      "to log in"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0177",
+    "simplified": "登山",
+    "pinyin": "dēng shān",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to climb a mountain",
+      "climbing",
+      "mountaineering"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0178",
+    "simplified": "的确",
+    "traditional": "的確",
+    "pinyin": "dí què",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "really",
+      "indeed"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0179",
+    "simplified": "敌人",
+    "traditional": "敵人",
+    "pinyin": "dí rén",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "enemy",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0180",
+    "simplified": "底",
+    "pinyin": "dǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "bottom; base",
+      "background; foundation",
+      "copy (of a manuscript or receipt etc) kept as a record",
+      "(suffix) end of a year or month",
+      "(math.) radix; base (abbr. for 底數/底数)"
+    ],
+    "needsEnglish": false
+  }
+]

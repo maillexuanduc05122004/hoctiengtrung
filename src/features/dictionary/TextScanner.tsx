@@ -96,7 +96,7 @@ export function TextScanner({ onSelect }: TextScannerProps) {
       <p
         className="mt-1 text-[0.8125rem] leading-relaxed text-ink-faint"
       >
-        Đoạn văn được tách thành từng từ rồi đối chiếu với bộ HSK 1-3 ngay trong máy. Không có gì
+        Đoạn văn được tách thành từng từ rồi đối chiếu với bộ HSK 1-4 ngay trong máy. Không có gì
         được gửi lên mạng.
       </p>
 
@@ -269,12 +269,12 @@ export function TextScanner({ onSelect }: TextScannerProps) {
               <p
                 className="text-[0.8125rem] font-medium text-ink-soft"
               >
-                {`${result.unknown.length} cụm chưa có trong bộ HSK 1-3`}
+                {`${result.unknown.length} cụm chưa có trong bộ HSK 1-4`}
               </p>
               <p
                 className="mt-0.5 text-[0.8125rem] leading-relaxed text-ink-faint"
               >
-                Bộ dữ liệu của ứng dụng dừng ở cấp 3, nên chữ ngoài phạm vi đó chỉ được hiện lại chứ
+                Bộ dữ liệu của ứng dụng dừng ở cấp 4, nên chữ ngoài phạm vi đó chỉ được hiện lại chứ
                 chưa có nghĩa.
               </p>
               <ul
@@ -379,7 +379,7 @@ function AnnotatedText({ tokens, showPinyin, onSelect }: AnnotatedTextProps) {
           return (
             <span
               key={key}
-              title="Chưa có trong bộ HSK 1-3"
+              title="Chưa có trong bộ HSK 1-4"
               className="han border-b border-dashed border-line-strong text-[1.375rem] text-ink-faint"
             >
               {token.text}

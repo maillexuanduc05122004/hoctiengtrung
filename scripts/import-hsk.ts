@@ -1,14 +1,16 @@
 /**
- * Nhập dữ liệu từ vựng HSK 3.0 (cấp 1-3) và sinh các tệp JSON cục bộ.
+ * Nhập dữ liệu từ vựng HSK 3.0 (các cấp trong `HSK_LEVELS`, hiện là 1-4) và
+ * sinh các tệp JSON cục bộ.
  *
  * Luồng xử lý:
  *   1. Đọc hsk30.csv đã ghim commit và CC-CEDICT từ thư mục cache.
  *   2. Chuẩn hoá chữ giản thể, chữ phồn thể, pinyin, từ loại, nghĩa tiếng Anh.
- *   3. Ghép phần chú giải tiếng Việt và câu ví dụ trong scripts/annotations/out/.
+ *   3. Ghép phần chú giải tiếng Việt và câu ví dụ trong scripts/annotations/out/
+ *      (đọc MỌI tệp *.json trong đó, không phân biệt cấp hay tên tệp).
  *   4. Sinh pinyin cho câu ví dụ bằng pinyin-pro rồi đối chiếu với cách đọc mà
  *      CC-CEDICT ghi nhận cho từng chữ, để phát hiện chỗ đọc sai.
  *   5. Chia mỗi cấp thành các buổi học khoảng 10 từ.
- *   6. Ghi public/data/hsk-1.json, hsk-2.json, hsk-3.json và manifest.json.
+ *   6. Ghi public/data/hsk-<cấp>.json cho từng cấp và manifest.json.
  *
  * Chạy: npm run data:import
  */
@@ -27,12 +29,13 @@ import {
 import { parseCedict, type CedictEntry } from './lib/cedict.ts';
 import { normalizeHsk, splitIntoLessons, type BaseWord } from './lib/hsk.ts';
 import { formatPinyin, parsePinyin, toAsciiPinyin } from '../src/lib/pinyin/index.ts';
-import type {
-  DatasetManifest,
-  HskLevel,
-  Lesson,
-  LevelDataFile,
-  VocabularyWord,
+import {
+  HSK_LEVELS,
+  type DatasetManifest,
+  type HskLevel,
+  type Lesson,
+  type LevelDataFile,
+  type VocabularyWord,
 } from '../src/types/vocabulary.ts';
 
 /** Phiên bản bộ dữ liệu đã chuẩn hoá của ứng dụng. */
@@ -144,7 +147,7 @@ function buildLessons(words: readonly BaseWord[], level: HskLevel): Lesson[] {
 }
 
 function main(): void {
-  console.log('Nhập dữ liệu HSK 3.0 cấp 1-3');
+  console.log(`Nhập dữ liệu HSK 3.0 cấp ${HSK_LEVELS.join(', ')}`);
 
   const hskCsv = readCachedText('hsk30.csv');
   const cedictText = readCachedText('cedict.txt');
@@ -165,7 +168,7 @@ function main(): void {
   const pinyinWarnings: string[] = [];
   const lessonByWord = new Map<string, string>();
 
-  const levels: HskLevel[] = [1, 2, 3];
+  const levels: readonly HskLevel[] = HSK_LEVELS;
   const perLevel: LevelDataFile[] = [];
 
   for (const level of levels) {

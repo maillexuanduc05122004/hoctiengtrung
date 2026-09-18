@@ -1,0 +1,704 @@
+[
+  {
+    "id": "L4-0361",
+    "simplified": "记载",
+    "traditional": "記載",
+    "pinyin": "jì zǎi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to write down",
+      "to record",
+      "written account"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0362",
+    "simplified": "纪律",
+    "traditional": "紀律",
+    "pinyin": "jì lǜ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "discipline"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0363",
+    "simplified": "技巧",
+    "pinyin": "jì qiǎo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "skill",
+      "technique"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0364",
+    "simplified": "系",
+    "traditional": "繫",
+    "pinyin": "jì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to tie",
+      "to fasten",
+      "to button up"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0772",
+        "pinyin": "xì",
+        "partOfSpeech": [
+          "N"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0365",
+    "simplified": "季",
+    "pinyin": "jì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "season",
+      "the last month of a season",
+      "fourth or youngest amongst brothers",
+      "classifier for seasonal crop yields"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0366",
+    "simplified": "季度",
+    "pinyin": "jì dù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "quarter of a year",
+      "season (sports)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0367",
+    "simplified": "季节",
+    "traditional": "季節",
+    "pinyin": "jì jié",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "time",
+      "season",
+      "period",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0368",
+    "simplified": "既",
+    "pinyin": "jì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv",
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "already",
+      "since",
+      "both... (and...)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0369",
+    "simplified": "既然",
+    "pinyin": "jì rán",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "since; as; this being the case"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0370",
+    "simplified": "寄",
+    "pinyin": "jì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to entrust; to place in sb's care",
+      "(bound form) to depend on; to attach oneself to; to reside temporarily",
+      "(bound form) foster (as in 寄女 foster daughter)",
+      "to send by post; to mail"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0371",
+    "simplified": "加班",
+    "pinyin": "jiā bān",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to work overtime"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0372",
+    "simplified": "加入",
+    "pinyin": "jiā rù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to become a member",
+      "to join",
+      "to mix into",
+      "to participate in",
+      "to add in"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0373",
+    "simplified": "加油站",
+    "pinyin": "jiā yóu zhàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "gas station"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0374",
+    "simplified": "家务",
+    "traditional": "家務",
+    "pinyin": "jiā wù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "household duties",
+      "housework"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0375",
+    "simplified": "假如",
+    "pinyin": "jiǎ rú",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "if"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0376",
+    "simplified": "坚固",
+    "traditional": "堅固",
+    "pinyin": "jiān gù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "firm",
+      "firmly",
+      "hard",
+      "stable"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0377",
+    "simplified": "检测",
+    "traditional": "檢測",
+    "pinyin": "jiǎn cè",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to test; to detect"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0378",
+    "simplified": "减",
+    "traditional": "減",
+    "pinyin": "jiǎn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to lower",
+      "to decrease",
+      "to reduce",
+      "to subtract",
+      "to diminish"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0379",
+    "simplified": "减肥",
+    "traditional": "減肥",
+    "pinyin": "jiǎn féi",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to lose weight"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0380",
+    "simplified": "减少",
+    "traditional": "減少",
+    "pinyin": "jiǎn shǎo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to lessen; to decrease; to reduce; to lower"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0381",
+    "simplified": "简历",
+    "traditional": "簡歷",
+    "pinyin": "jiǎn lì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "curriculum vitae (CV)",
+      "résumé",
+      "biographical notes"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0382",
+    "simplified": "健身",
+    "pinyin": "jiàn shēn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to exercise",
+      "to keep fit",
+      "to work out",
+      "physical exercise"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0383",
+    "simplified": "渐渐",
+    "traditional": "漸漸",
+    "pinyin": "jiàn jiàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "gradually"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0384",
+    "simplified": "江",
+    "pinyin": "jiāng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "river",
+      "CL:條/条,道"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0385",
+    "simplified": "讲究",
+    "traditional": "講究",
+    "pinyin": "jiǎng jiu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "to pay particular attention to",
+      "carefully selected for quality",
+      "tastefully chosen"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0386",
+    "simplified": "讲座",
+    "traditional": "講座",
+    "pinyin": "jiǎng zuò",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "course of lectures; lecture series",
+      "chair (academic position)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0387",
+    "simplified": "奖",
+    "traditional": "獎",
+    "pinyin": "jiǎng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "prize; award; bonus; reward",
+      "(bound form) to encourage; to commend; to praise",
+      "to award; to give as a reward"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0388",
+    "simplified": "奖金",
+    "traditional": "獎金",
+    "pinyin": "jiǎng jīn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "premium",
+      "award money",
+      "bonus"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0389",
+    "simplified": "奖学金",
+    "traditional": "獎學金",
+    "pinyin": "jiǎng xué jīn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "scholarship",
+      "CL:筆/笔"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0390",
+    "simplified": "降",
+    "pinyin": "jiàng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to drop",
+      "to fall",
+      "to come down",
+      "to descend"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0391",
+    "simplified": "降低",
+    "pinyin": "jiàng dī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to reduce; to lower; to bring down"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0392",
+    "simplified": "降价",
+    "traditional": "降價",
+    "pinyin": "jiàng jià",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to cut the price",
+      "to drive down the price",
+      "to get cheaper"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0393",
+    "simplified": "降落",
+    "pinyin": "jiàng luò",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to descend",
+      "to land"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0394",
+    "simplified": "降温",
+    "traditional": "降溫",
+    "pinyin": "jiàng wēn",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to become cooler",
+      "to lower the temperature",
+      "cooling",
+      "(of interest, activity etc) to decline"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0395",
+    "simplified": "交换",
+    "traditional": "交換",
+    "pinyin": "jiāo huàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to exchange",
+      "to swap",
+      "to switch (telecom)",
+      "commutative (math)",
+      "to commute"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0396",
+    "simplified": "交际",
+    "traditional": "交際",
+    "pinyin": "jiāo jì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "communication",
+      "social intercourse"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0397",
+    "simplified": "教授",
+    "pinyin": "jiào shòu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "professor"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0398",
+    "simplified": "教训",
+    "traditional": "教訓",
+    "pinyin": "jiào xun",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to provide guidance; to lecture sb; to upbraid",
+      "a talking-to; a bitter lesson",
+      "CL:番,頓/顿"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0399",
+    "simplified": "阶段",
+    "traditional": "階段",
+    "pinyin": "jiē duàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "stage",
+      "section",
+      "phase",
+      "period",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0400",
+    "simplified": "街道",
+    "pinyin": "jiē dào",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "street",
+      "CL:條/条",
+      "subdistrict",
+      "residential district"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0401",
+    "simplified": "节省",
+    "traditional": "節省",
+    "pinyin": "jié shěng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "saving",
+      "to save",
+      "to use sparingly",
+      "to cut down on"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0402",
+    "simplified": "结",
+    "traditional": "結",
+    "pinyin": "jié",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "knot",
+      "sturdy",
+      "bond",
+      "to tie",
+      "to bind",
+      "to check out (of a hotel)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0403",
+    "simplified": "结构",
+    "traditional": "結構",
+    "pinyin": "jié gòu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "structure",
+      "composition",
+      "makeup",
+      "architecture",
+      "CL:座,個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0404",
+    "simplified": "结论",
+    "traditional": "結論",
+    "pinyin": "jié lùn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "conclusion",
+      "verdict",
+      "CL:個/个",
+      "to conclude",
+      "to reach a verdict"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0405",
+    "simplified": "姐妹",
+    "pinyin": "jiě mèi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "sisters",
+      "siblings",
+      "sister (school, city etc)"
+    ],
+    "needsEnglish": false
+  }
+]

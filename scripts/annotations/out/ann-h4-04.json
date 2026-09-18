@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L4-0136",
+    "vi": ["đánh bại", "thắng"],
+    "viAliases": ["đánh thắng", "hạ gục"],
+    "en": ["to defeat", "to beat"],
+    "enSource": "cedict",
+    "example": { "zh": "我们队打败了他们队。", "vi": "Đội chúng tôi đã đánh bại đội của họ.", "en": "Our team defeated their team." }
+  },
+  {
+    "id": "L4-0137",
+    "vi": ["nổi sấm", "có sấm"],
+    "viAliases": ["sấm", "sấm sét"],
+    "en": ["to rumble with thunder"],
+    "enSource": "cedict",
+    "example": { "zh": "外面打雷了，别出去。", "vi": "Bên ngoài có sấm rồi, đừng ra ngoài.", "en": "It's thundering outside, don't go out." }
+  },
+  {
+    "id": "L4-0138",
+    "vi": ["quét dọn", "dọn dẹp"],
+    "viAliases": ["lau dọn", "dọn vệ sinh"],
+    "en": ["to clean", "to sweep"],
+    "enSource": "cedict",
+    "example": { "zh": "周末我打扫房间。", "vi": "Cuối tuần tôi dọn dẹp phòng.", "en": "I clean my room on weekends." }
+  },
+  {
+    "id": "L4-0139",
+    "vi": ["giảm giá", "chiết khấu"],
+    "viAliases": ["hạ giá", "khuyến mãi"],
+    "en": ["to give a discount"],
+    "enSource": "cedict",
+    "example": { "zh": "这家商店今天打折。", "vi": "Cửa hàng này hôm nay giảm giá.", "en": "This shop is offering discounts today." }
+  },
+  {
+    "id": "L4-0140",
+    "vi": ["tiêm", "chích thuốc"],
+    "viAliases": ["tiêm thuốc", "chích"],
+    "en": ["to give or get an injection"],
+    "enSource": "cedict",
+    "example": { "zh": "医生给孩子打针。", "vi": "Bác sĩ tiêm cho đứa trẻ.", "en": "The doctor gives the child an injection." }
+  },
+  {
+    "id": "L4-0141",
+    "vi": ["xe khách", "xe buýt lớn"],
+    "viAliases": ["xe đò", "xe ca"],
+    "en": ["(coll.) large bus", "coach"],
+    "enSource": "cedict",
+    "example": { "zh": "我们坐大巴去北京。", "vi": "Chúng tôi đi xe khách đến Bắc Kinh.", "en": "We take a coach to Beijing." }
+  },
+  {
+    "id": "L4-0142",
+    "vi": ["phần lớn", "đa số"],
+    "viAliases": ["hầu hết", "đa phần"],
+    "en": ["for the most part", "mostly"],
+    "enSource": "cedict",
+    "example": { "zh": "这里的学生大多是女生。", "vi": "Học sinh ở đây phần lớn là nữ.", "en": "Most of the students here are girls." }
+  },
+  {
+    "id": "L4-0143",
+    "vi": ["hào phóng", "rộng rãi", "tự nhiên (phong thái)"],
+    "viAliases": ["rộng lượng", "thoải mái"],
+    "en": ["generous", "natural and relaxed"],
+    "enSource": "cedict",
+    "example": { "zh": "他花钱很大方。", "vi": "Anh ấy tiêu tiền rất hào phóng.", "en": "He is very generous with money." }
+  },
+  {
+    "id": "L4-0144",
+    "vi": ["anh cả", "anh lớn"],
+    "viAliases": ["đại ca", "anh hai"],
+    "en": ["eldest brother", "big brother (polite address for a man of about the same age as oneself)"],
+    "enSource": "cedict",
+    "example": { "zh": "我大哥在上海工作。", "vi": "Anh cả tôi làm việc ở Thượng Hải.", "en": "My eldest brother works in Shanghai." }
+  },
+  {
+    "id": "L4-0145",
+    "vi": ["quy mô lớn", "đại quy mô"],
+    "viAliases": ["rộng lớn"],
+    "en": ["large scale", "extensive"],
+    "enSource": "cedict",
+    "example": { "zh": "工厂大规模生产手机。", "vi": "Nhà máy sản xuất điện thoại với quy mô lớn.", "en": "The factory produces phones on a large scale." }
+  },
+  {
+    "id": "L4-0146",
+    "vi": ["đại hội", "hội nghị lớn"],
+    "viAliases": ["hội nghị", "cuộc họp lớn"],
+    "en": ["general assembly", "general meeting"],
+    "enSource": "cedict",
+    "example": { "zh": "大会明天上午九点开始。", "vi": "Đại hội bắt đầu lúc chín giờ sáng mai.", "en": "The general meeting starts at nine tomorrow morning." }
+  },
+  {
+    "id": "L4-0147",
+    "vi": ["chị cả", "chị lớn"],
+    "viAliases": ["chị hai", "đại tỷ"],
+    "en": ["big sister", "elder sister"],
+    "enSource": "cedict",
+    "example": { "zh": "我大姐比我大五岁。", "vi": "Chị cả tôi hơn tôi năm tuổi.", "en": "My eldest sister is five years older than me." }
+  },
+  {
+    "id": "L4-0148",
+    "vi": ["tòa nhà", "cao ốc"],
+    "viAliases": ["nhà cao tầng", "tòa cao ốc"],
+    "en": ["building (a relatively large, multistory one)"],
+    "enSource": "cedict",
+    "example": { "zh": "这座大楼有三十层。", "vi": "Tòa nhà này có ba mươi tầng.", "en": "This building has thirty floors." }
+  },
+  {
+    "id": "L4-0149",
+    "vi": ["đại lục", "lục địa"],
+    "viAliases": ["đất liền"],
+    "en": ["continent; mainland"],
+    "enSource": "cedict",
+    "example": { "zh": "他是从大陆来的。", "vi": "Anh ấy đến từ đại lục.", "en": "He came from the mainland." }
+  },
+  {
+    "id": "L4-0150",
+    "vi": ["bác gái (vợ của bác)", "bà (gọi thân mật phụ nữ lớn tuổi)"],
+    "viAliases": ["bác", "dì"],
+    "en": ["father's elder brother's wife", "aunt (affectionate term for an elderly woman)"],
+    "enSource": "cedict",
+    "example": { "zh": "大妈们在公园跳舞。", "vi": "Các bà các bác đang nhảy múa trong công viên.", "en": "The aunties are dancing in the park." }
+  },
+  {
+    "id": "L4-0151",
+    "vi": ["cỡ lớn", "quy mô lớn"],
+    "viAliases": ["loại lớn", "đại hình"],
+    "en": ["large", "large-scale"],
+    "enSource": "cedict",
+    "example": { "zh": "这是一家大型超市。", "vi": "Đây là một siêu thị cỡ lớn.", "en": "This is a large supermarket." }
+  },
+  {
+    "id": "L4-0152",
+    "vi": ["bác trai (anh của bố)", "ông (gọi lễ phép người đàn ông lớn tuổi)"],
+    "viAliases": ["bác", "ông bác"],
+    "en": ["(coll.) father's older brother", "term of respect for older man"],
+    "enSource": "cedict",
+    "example": { "zh": "大爷，请问车站怎么走？", "vi": "Bác ơi, cho hỏi đến bến xe đi thế nào ạ?", "en": "Sir, could you tell me how to get to the station?" }
+  },
+  {
+    "id": "L4-0153",
+    "vi": ["đại chúng", "quần chúng"],
+    "viAliases": ["công chúng", "dân chúng"],
+    "en": ["the masses", "the great bulk of the population"],
+    "enSource": "cedict",
+    "example": { "zh": "这种音乐很受大众欢迎。", "vi": "Loại nhạc này rất được đại chúng yêu thích.", "en": "This kind of music is very popular with the masses." }
+  },
+  {
+    "id": "L4-0154",
+    "vi": ["thay thế", "thay cho"],
+    "viAliases": ["thế chỗ", "thay"],
+    "en": ["to replace; to take the place of"],
+    "enSource": "cedict",
+    "example": { "zh": "你能代替我去开会吗？", "vi": "Bạn có thể đi họp thay tôi không?", "en": "Can you go to the meeting in my place?" }
+  },
+  {
+    "id": "L4-0155",
+    "vi": ["đãi ngộ", "chế độ lương thưởng"],
+    "viAliases": ["lương bổng", "phúc lợi"],
+    "en": ["treatment", "pay"],
+    "enSource": "cedict",
+    "example": { "zh": "这家公司的待遇很好。", "vi": "Chế độ đãi ngộ của công ty này rất tốt.", "en": "This company's pay and benefits are very good." }
+  },
+  {
+    "id": "L4-0156",
+    "vi": ["túi", "bao", "túi (lượng từ)"],
+    "viAliases": ["bọc", "bịch"],
+    "en": ["bag", "pouch", "sack"],
+    "enSource": "cedict",
+    "example": { "zh": "我买了一袋苹果。", "vi": "Tôi đã mua một túi táo.", "en": "I bought a bag of apples." }
+  },
+  {
+    "id": "L4-0157",
+    "vi": ["đeo", "đội", "mang (kính, mũ, găng tay)"],
+    "viAliases": ["đeo vào", "đội lên"],
+    "en": ["to put on or wear (glasses, hat, gloves etc)"],
+    "enSource": "cedict",
+    "example": { "zh": "他戴着一副眼镜。", "vi": "Anh ấy đang đeo một cặp kính.", "en": "He is wearing a pair of glasses." }
+  },
+  {
+    "id": "L4-0158",
+    "vi": ["bảo đảm", "bảo lãnh", "sự bảo lãnh"],
+    "viAliases": ["cam đoan", "đảm bảo"],
+    "en": ["to guarantee", "to vouch for"],
+    "enSource": "cedict",
+    "example": { "zh": "我担保他不会迟到。", "vi": "Tôi bảo đảm anh ấy sẽ không đến muộn.", "en": "I guarantee he won't be late." }
+  },
+  {
+    "id": "L4-0159",
+    "vi": ["đảm nhiệm", "giữ chức"],
+    "viAliases": ["đảm nhận", "làm (chức vụ)"],
+    "en": ["to serve as", "to take charge of"],
+    "enSource": "cedict",
+    "example": { "zh": "他担任我们班的班长。", "vi": "Anh ấy đảm nhiệm chức lớp trưởng lớp chúng tôi.", "en": "He serves as the monitor of our class." }
+  },
+  {
+    "id": "L4-0160",
+    "vi": ["lo lắng", "lo"],
+    "viAliases": ["lo âu", "bận tâm"],
+    "en": ["to worry", "worried"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈很担心我的身体。", "vi": "Mẹ rất lo lắng cho sức khỏe của tôi.", "en": "Mom is very worried about my health." }
+  },
+  {
+    "id": "L4-0161",
+    "vi": ["đơn", "lẻ (số)", "chỉ"],
+    "viAliases": ["đơn lẻ", "riêng"],
+    "en": ["single", "only", "sole"],
+    "enSource": "cedict",
+    "example": { "zh": "单靠一个人做不完。", "vi": "Chỉ dựa vào một người thì làm không xong.", "en": "Relying on one person alone, it can't be finished." }
+  },
+  {
+    "id": "L4-0162",
+    "vi": ["đơn thuần", "ngây thơ", "chất phác"],
+    "viAliases": ["thuần khiết", "trong sáng"],
+    "en": ["simple", "pure", "unsophisticated"],
+    "enSource": "cedict",
+    "example": { "zh": "她的想法很单纯。", "vi": "Suy nghĩ của cô ấy rất đơn thuần.", "en": "Her thinking is very simple and pure." }
+  },
+  {
+    "id": "L4-0163",
+    "vi": ["đơn điệu", "tẻ nhạt"],
+    "viAliases": ["nhàm chán", "buồn tẻ"],
+    "en": ["monotonous"],
+    "enSource": "cedict",
+    "example": { "zh": "这里的生活太单调了。", "vi": "Cuộc sống ở đây quá đơn điệu.", "en": "Life here is too monotonous." }
+  },
+  {
+    "id": "L4-0164",
+    "vi": ["một mình", "riêng lẻ"],
+    "viAliases": ["đơn độc", "riêng"],
+    "en": ["alone", "by oneself"],
+    "enSource": "cedict",
+    "example": { "zh": "我想单独跟你谈谈。", "vi": "Tôi muốn nói chuyện riêng với bạn.", "en": "I'd like to talk with you alone." }
+  },
+  {
+    "id": "L4-0165",
+    "vi": ["nhạt", "loãng", "nhạt màu"],
+    "viAliases": ["nhạt nhẽo", "lạt"],
+    "en": ["insipid", "light in color", "weak"],
+    "enSource": "cedict",
+    "example": { "zh": "这个汤太淡了，加点儿盐。", "vi": "Canh này nhạt quá, thêm chút muối đi.", "en": "This soup is too bland, add a little salt." }
+  },
+  {
+    "id": "L4-0166",
+    "vi": ["hướng dẫn viên du lịch", "hướng dẫn tham quan"],
+    "viAliases": ["người dẫn tour", "hướng dẫn viên"],
+    "en": ["tour guide", "to conduct a tour"],
+    "enSource": "cedict",
+    "example": { "zh": "导游带我们参观长城。", "vi": "Hướng dẫn viên dẫn chúng tôi tham quan Vạn Lý Trường Thành.", "en": "The tour guide took us to visit the Great Wall." }
+  },
+  {
+    "id": "L4-0167",
+    "vi": ["dẫn đến", "gây ra"],
+    "viAliases": ["đưa đến", "khiến cho"],
+    "en": ["to lead to; to create; to cause; to bring about"],
+    "enSource": "cedict",
+    "example": { "zh": "大雨导致很多人迟到。", "vi": "Mưa lớn khiến nhiều người đến muộn.", "en": "The heavy rain caused many people to be late." }
+  },
+  {
+    "id": "L4-0168",
+    "vi": ["phá sản", "đóng cửa (doanh nghiệp)"],
+    "viAliases": ["sập tiệm", "vỡ nợ"],
+    "en": ["to go bankrupt", "to close down"],
+    "enSource": "cedict",
+    "example": { "zh": "那家公司去年倒闭了。", "vi": "Công ty đó năm ngoái đã phá sản.", "en": "That company went bankrupt last year." }
+  },
+  {
+    "id": "L4-0169",
+    "vi": ["đổi xe", "chuyển xe (buýt, tàu)"],
+    "viAliases": ["chuyển tuyến", "đổi tàu"],
+    "en": ["to change buses, trains etc"],
+    "enSource": "cedict",
+    "example": { "zh": "我们在下一站倒车。", "vi": "Chúng tôi đổi xe ở bến tiếp theo.", "en": "We change buses at the next stop." }
+  },
+  {
+    "id": "L4-0170",
+    "vi": ["lùi xe", "chạy lùi"],
+    "viAliases": ["đi lùi", "lùi"],
+    "en": ["to reverse (a vehicle)", "to drive backwards"],
+    "enSource": "cedict",
+    "example": { "zh": "倒车的时候要看后面。", "vi": "Khi lùi xe phải nhìn phía sau.", "en": "When reversing the car, you must look behind." }
+  },
+  {
+    "id": "L4-0171",
+    "vi": ["đắc ý", "tự mãn", "hớn hở"],
+    "viAliases": ["tự đắc", "khoái chí"],
+    "en": ["proud of oneself", "pleased with oneself"],
+    "enSource": "cedict",
+    "example": { "zh": "他考了第一，非常得意。", "vi": "Anh ấy thi được hạng nhất, vô cùng đắc ý.", "en": "He came first in the exam and is very pleased with himself." }
+  },
+  {
+    "id": "L4-0172",
+    "vi": ["phải", "cần phải"],
+    "viAliases": ["cần", "nên"],
+    "en": ["to have to", "must", "ought to"],
+    "enSource": "cedict",
+    "example": { "zh": "明天我得早点儿起床。", "vi": "Ngày mai tôi phải dậy sớm một chút.", "en": "Tomorrow I have to get up a bit earlier." }
+  },
+  {
+    "id": "L4-0173",
+    "vi": ["ánh đèn", "ánh sáng đèn"],
+    "viAliases": ["đèn", "ánh sáng"],
+    "en": ["(stage) lighting", "light"],
+    "enSource": "cedict",
+    "example": { "zh": "晚上城市的灯光很漂亮。", "vi": "Buổi tối ánh đèn của thành phố rất đẹp.", "en": "At night, the city lights are very beautiful." }
+  },
+  {
+    "id": "L4-0174",
+    "vi": ["leo", "trèo lên", "đăng (báo)"],
+    "viAliases": ["lên", "trèo"],
+    "en": ["to scale (a height)", "to ascend", "to publish or record"],
+    "enSource": "cedict",
+    "example": { "zh": "我们一起登上了长城。", "vi": "Chúng tôi cùng nhau leo lên Vạn Lý Trường Thành.", "en": "We climbed the Great Wall together." }
+  },
+  {
+    "id": "L4-0175",
+    "vi": ["đăng ký", "ghi danh"],
+    "viAliases": ["ghi tên", "đăng kí"],
+    "en": ["to register (one's name)"],
+    "enSource": "cedict",
+    "example": { "zh": "请先在这里登记。", "vi": "Xin hãy đăng ký ở đây trước.", "en": "Please register here first." }
+  },
+  {
+    "id": "L4-0176",
+    "vi": ["đăng nhập"],
+    "viAliases": ["log in", "đăng nhập tài khoản"],
+    "en": ["to log in", "to register"],
+    "enSource": "cedict",
+    "example": { "zh": "我忘了密码，不能登录。", "vi": "Tôi quên mật khẩu, không đăng nhập được.", "en": "I forgot my password and can't log in." }
+  },
+  {
+    "id": "L4-0177",
+    "vi": ["leo núi"],
+    "viAliases": ["trèo núi", "đi leo núi"],
+    "en": ["to climb a mountain", "mountaineering"],
+    "enSource": "cedict",
+    "example": { "zh": "周末我们去登山吧。", "vi": "Cuối tuần chúng ta đi leo núi nhé.", "en": "Let's go mountain climbing this weekend." }
+  },
+  {
+    "id": "L4-0178",
+    "vi": ["quả thực", "đích thực", "thật sự"],
+    "viAliases": ["thực sự", "đúng là"],
+    "en": ["really", "indeed"],
+    "enSource": "cedict",
+    "example": { "zh": "这个问题的确很难。", "vi": "Vấn đề này quả thực rất khó.", "en": "This question is indeed very difficult." }
+  },
+  {
+    "id": "L4-0179",
+    "vi": ["kẻ thù", "kẻ địch"],
+    "viAliases": ["địch", "quân địch"],
+    "en": ["enemy"],
+    "enSource": "cedict",
+    "example": { "zh": "他们打败了敌人。", "vi": "Họ đã đánh bại kẻ thù.", "en": "They defeated the enemy." }
+  },
+  {
+    "id": "L4-0180",
+    "vi": ["đáy", "cuối (tháng, năm)", "nền tảng"],
+    "viAliases": ["phần dưới cùng", "chân"],
+    "en": ["bottom; base", "(suffix) end of a year or month"],
+    "enSource": "cedict",
+    "example": { "zh": "河底有很多石头。", "vi": "Đáy sông có rất nhiều đá.", "en": "There are many stones at the bottom of the river." }
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L4-0001",
+    "vi": ["dì", "cô (cách gọi phụ nữ ngang tuổi cha mẹ)", "bảo mẫu"],
+    "viAliases": ["dì ruột", "người trông trẻ"],
+    "en": ["maternal aunt", "woman of similar age to one's parents (term of address used by child)", "childcare worker"],
+    "enSource": "cedict",
+    "example": { "zh": "这位阿姨是我妈妈的朋友。", "vi": "Cô này là bạn của mẹ tôi.", "en": "This auntie is my mother's friend." }
+  },
+  {
+    "id": "L4-0002",
+    "vi": ["a", "ồ", "ôi"],
+    "viAliases": ["ơ", "ối"],
+    "en": ["interjection of surprise", "Ah!", "Oh!"],
+    "enSource": "cedict",
+    "example": { "zh": "啊，你怎么来了？", "vi": "Ồ, sao bạn lại đến đây?", "en": "Oh, how come you're here?" }
+  },
+  {
+    "id": "L4-0003",
+    "vi": ["thấp", "lùn"],
+    "viAliases": ["thấp bé", "lùn tịt"],
+    "en": ["(of a person) short", "(of a wall etc) low"],
+    "enSource": "cedict",
+    "example": { "zh": "弟弟比我矮一点儿。", "vi": "Em trai thấp hơn tôi một chút.", "en": "My younger brother is a little shorter than me." }
+  },
+  {
+    "id": "L4-0004",
+    "vi": ["thấp bé", "nhỏ bé"],
+    "viAliases": ["nhỏ con", "bé nhỏ"],
+    "en": ["short and small", "undersized"],
+    "enSource": "cedict",
+    "example": { "zh": "他个子矮小，但是跑得很快。", "vi": "Anh ấy người thấp bé nhưng chạy rất nhanh.", "en": "He is short and small, but he runs very fast." }
+  },
+  {
+    "id": "L4-0005",
+    "vi": ["yêu nước"],
+    "viAliases": ["ái quốc"],
+    "en": ["to love one's country", "patriotic"],
+    "enSource": "cedict",
+    "example": { "zh": "他是一个爱国的年轻人。", "vi": "Anh ấy là một thanh niên yêu nước.", "en": "He is a patriotic young man." }
+  },
+  {
+    "id": "L4-0006",
+    "vi": ["yêu quý và bảo vệ", "giữ gìn", "chăm sóc"],
+    "viAliases": ["bảo vệ", "nâng niu"],
+    "en": ["to cherish", "to take care of", "to love and protect"],
+    "enSource": "cedict",
+    "example": { "zh": "我们要爱护公共环境。", "vi": "Chúng ta phải giữ gìn môi trường công cộng.", "en": "We must take good care of the public environment." }
+  },
+  {
+    "id": "L4-0007",
+    "vi": ["yên ổn, bình an", "lắp, lắp đặt", "làm yên lòng"],
+    "viAliases": ["an toàn", "lắp"],
+    "en": ["safe; secure; in good health", "to calm; to set at ease", "to install; to fix; to fit"],
+    "enSource": "cedict",
+    "example": { "zh": "门上安了一把新锁。", "vi": "Trên cửa đã lắp một cái khóa mới.", "en": "A new lock has been installed on the door." }
+  },
+  {
+    "id": "L4-0008",
+    "vi": ["bố trí (chỗ ở, việc làm)", "sắp xếp ổn thỏa"],
+    "viAliases": ["an trí", "thu xếp"],
+    "en": ["to find a place for", "to help settle down", "to arrange for"],
+    "enSource": "cedict",
+    "example": { "zh": "政府为他们安置了新的住处。", "vi": "Chính phủ đã bố trí chỗ ở mới cho họ.", "en": "The government arranged new housing for them." }
+  },
+  {
+    "id": "L4-0009",
+    "vi": ["đúng giờ", "đúng hạn"],
+    "viAliases": ["đúng thời gian", "kịp thời"],
+    "en": ["on time", "on schedule"],
+    "enSource": "cedict",
+    "example": { "zh": "请大家按时参加会议。", "vi": "Mời mọi người tham dự cuộc họp đúng giờ.", "en": "Please attend the meeting on time, everyone." }
+  },
+  {
+    "id": "L4-0010",
+    "vi": ["tối", "tối tăm", "ngầm, bí mật"],
+    "viAliases": ["u ám", "mờ"],
+    "en": ["dark", "secret; hidden"],
+    "enSource": "cedict",
+    "example": { "zh": "房间里太暗了，请开灯。", "vi": "Trong phòng tối quá, xin hãy bật đèn.", "en": "It's too dark in the room, please turn on the light." }
+  },
+  {
+    "id": "L4-0011",
+    "vi": ["ám chỉ", "ngụ ý", "gợi ý ngầm"],
+    "viAliases": ["nói bóng gió", "ám thị"],
+    "en": ["to hint; to suggest"],
+    "enSource": "cedict",
+    "example": { "zh": "他暗示我应该早点儿离开。", "vi": "Anh ấy ám chỉ rằng tôi nên rời đi sớm một chút.", "en": "He hinted that I should leave a bit early." }
+  },
+  {
+    "id": "L4-0012",
+    "vi": ["xe buýt"],
+    "viAliases": ["xe bus", "xe khách"],
+    "en": ["bus (loanword)", "motor coach"],
+    "enSource": "cedict",
+    "example": { "zh": "我每天坐巴士去上班。", "vi": "Tôi đi làm bằng xe buýt mỗi ngày.", "en": "I take the bus to work every day." }
+  },
+  {
+    "id": "L4-0013",
+    "vi": ["bách hóa", "hàng hóa tổng hợp"],
+    "viAliases": ["tạp hóa"],
+    "en": ["general merchandise"],
+    "enSource": "cedict",
+    "example": { "zh": "这家百货商店的东西很全。", "vi": "Đồ trong cửa hàng bách hóa này rất đầy đủ.", "en": "This department store has a full range of goods." }
+  },
+  {
+    "id": "L4-0014",
+    "vi": ["bày, đặt", "sắp xếp", "lắc, đung đưa"],
+    "viAliases": ["bày biện", "trưng bày"],
+    "en": ["to arrange", "to exhibit", "to move to and fro"],
+    "enSource": "cedict",
+    "example": { "zh": "桌子上摆着几本书。", "vi": "Trên bàn bày mấy quyển sách.", "en": "There are several books laid out on the table." }
+  },
+  {
+    "id": "L4-0015",
+    "vi": ["đung đưa", "lắc lư", "dao động"],
+    "viAliases": ["lay động", "đu đưa"],
+    "en": ["to sway", "to swing", "to move back and forth"],
+    "enSource": "cedict",
+    "example": { "zh": "树枝在风中轻轻摆动。", "vi": "Cành cây khẽ đung đưa trong gió.", "en": "The branches sway gently in the wind." }
+  },
+  {
+    "id": "L4-0016",
+    "vi": ["thoát khỏi", "rũ bỏ", "gạt bỏ"],
+    "viAliases": ["từ bỏ", "vứt bỏ"],
+    "en": ["to break away from", "to get rid of", "to free oneself from"],
+    "enSource": "cedict",
+    "example": { "zh": "他终于摆脱了坏习惯。", "vi": "Cuối cùng anh ấy đã thoát khỏi thói quen xấu.", "en": "He finally got rid of his bad habit." }
+  },
+  {
+    "id": "L4-0017",
+    "vi": ["thua", "bại", "đánh bại"],
+    "viAliases": ["thất bại", "thua cuộc"],
+    "en": ["to lose (to an opponent)", "to defeat", "to fail"],
+    "enSource": "cedict",
+    "example": { "zh": "这场比赛我们败了。", "vi": "Trận đấu này chúng tôi thua rồi.", "en": "We lost this match." }
+  },
+  {
+    "id": "L4-0018",
+    "vi": ["làm việc", "giải quyết công việc", "xử lý việc"],
+    "viAliases": ["giải quyết việc", "lo việc"],
+    "en": ["to handle (affairs)", "to work"],
+    "enSource": "cedict",
+    "example": { "zh": "我下午要去银行办事。", "vi": "Chiều nay tôi phải đến ngân hàng giải quyết công việc.", "en": "This afternoon I have to go to the bank to take care of some business." }
+  },
+  {
+    "id": "L4-0019",
+    "vi": ["bưu kiện, gói hàng", "gói, bọc lại"],
+    "viAliases": ["kiện hàng", "gói đồ"],
+    "en": ["parcel", "package", "to wrap up"],
+    "enSource": "cedict",
+    "example": { "zh": "我今天收到了一个包裹。", "vi": "Hôm nay tôi nhận được một bưu kiện.", "en": "I received a package today." }
+  },
+  {
+    "id": "L4-0020",
+    "vi": ["bao hàm", "chứa đựng", "bao gồm"],
+    "viAliases": ["hàm chứa", "gồm có"],
+    "en": ["to contain", "to include", "to embody"],
+    "enSource": "cedict",
+    "example": { "zh": "这句话包含了很多意思。", "vi": "Câu này chứa đựng rất nhiều ý nghĩa.", "en": "This sentence contains a lot of meaning." }
+  },
+  {
+    "id": "L4-0021",
+    "vi": ["bao gồm", "gồm có", "kể cả"],
+    "viAliases": ["gồm", "bao hàm"],
+    "en": ["to include", "to comprise", "to consist of"],
+    "enSource": "cedict",
+    "example": { "zh": "这个价格包括早餐吗？", "vi": "Giá này có bao gồm bữa sáng không?", "en": "Does this price include breakfast?" }
+  },
+  {
+    "id": "L4-0022",
+    "vi": ["mỏng", "nhạt, lạnh nhạt", "yếu, ít"],
+    "viAliases": ["mỏng manh", "mỏng dính"],
+    "en": ["thin", "weak", "light"],
+    "enSource": "cedict",
+    "example": { "zh": "这件衣服太薄了，不够暖和。", "vi": "Cái áo này mỏng quá, không đủ ấm.", "en": "This piece of clothing is too thin; it's not warm enough." }
+  },
+  {
+    "id": "L4-0023",
+    "vi": ["báu vật", "của quý", "kho báu"],
+    "viAliases": ["bảo bối", "châu báu"],
+    "en": ["treasure", "jewel", "gem"],
+    "enSource": "cedict",
+    "example": { "zh": "这些老照片是妈妈的宝。", "vi": "Những bức ảnh cũ này là báu vật của mẹ.", "en": "These old photos are Mom's treasures." }
+  },
+  {
+    "id": "L4-0024",
+    "vi": ["em bé", "bé yêu", "cục cưng"],
+    "viAliases": ["bé con", "bé"],
+    "en": ["darling; baby"],
+    "enSource": "cedict",
+    "example": { "zh": "宝宝睡着了，别说话。", "vi": "Em bé ngủ rồi, đừng nói chuyện.", "en": "The baby is asleep, don't talk." }
+  },
+  {
+    "id": "L4-0025",
+    "vi": ["bảo bối", "báu vật", "cục cưng"],
+    "viAliases": ["của quý", "bé yêu"],
+    "en": ["treasure", "darling", "baby"],
+    "enSource": "cedict",
+    "example": { "zh": "这块手表是爷爷的宝贝。", "vi": "Chiếc đồng hồ này là bảo bối của ông nội.", "en": "This watch is Grandpa's treasure." }
+  },
+  {
+    "id": "L4-0026",
+    "vi": ["quý báu", "quý giá"],
+    "viAliases": ["đáng quý", "quý"],
+    "en": ["valuable", "precious"],
+    "enSource": "cedict",
+    "example": { "zh": "时间是最宝贵的东西。", "vi": "Thời gian là thứ quý giá nhất.", "en": "Time is the most precious thing." }
+  },
+  {
+    "id": "L4-0027",
+    "vi": ["đá quý", "ngọc"],
+    "viAliases": ["bảo thạch", "châu báu"],
+    "en": ["precious stone; gem"],
+    "enSource": "cedict",
+    "example": { "zh": "这颗宝石非常漂亮。", "vi": "Viên đá quý này vô cùng đẹp.", "en": "This gem is extremely beautiful." }
+  },
+  {
+    "id": "L4-0028",
+    "vi": ["giữ bí mật", "bảo mật"],
+    "viAliases": ["giữ kín"],
+    "en": ["to keep sth confidential", "to maintain secrecy"],
+    "enSource": "cedict",
+    "example": { "zh": "这件事你一定要保密。", "vi": "Chuyện này bạn nhất định phải giữ bí mật.", "en": "You must keep this matter confidential." }
+  },
+  {
+    "id": "L4-0029",
+    "vi": ["bảo thủ", "giữ (bí mật)"],
+    "viAliases": ["cổ hủ", "thủ cựu"],
+    "en": ["conservative", "to guard", "to keep"],
+    "enSource": "cedict",
+    "example": { "zh": "爷爷的想法比较保守。", "vi": "Suy nghĩ của ông nội khá bảo thủ.", "en": "Grandpa's way of thinking is rather conservative." }
+  },
+  {
+    "id": "L4-0030",
+    "vi": ["ôm", "bế", "ấp ủ (hy vọng)"],
+    "viAliases": ["ôm ấp", "bồng"],
+    "en": ["to hug", "to embrace", "to carry (in one's arms)"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈抱着孩子上了车。", "vi": "Mẹ bế con lên xe.", "en": "The mother got on the bus holding the child in her arms." }
+  },
+  {
+    "id": "L4-0031",
+    "vi": ["bối cảnh", "nền, phông nền", "chỗ dựa (thế lực)"],
+    "viAliases": ["hoàn cảnh", "hậu cảnh"],
+    "en": ["background; backdrop; context", "(fig.) powerful backer"],
+    "enSource": "cedict",
+    "example": { "zh": "这张照片的背景是大海。", "vi": "Phông nền của bức ảnh này là biển cả.", "en": "The background of this photo is the sea." }
+  },
+  {
+    "id": "L4-0032",
+    "vi": ["lần (gấp bội)", "gấp"],
+    "viAliases": ["gấp bội", "bội"],
+    "en": ["(two, three etc) -fold", "times (multiplier)"],
+    "enSource": "cedict",
+    "example": { "zh": "今年的价格比去年贵了一倍。", "vi": "Giá năm nay đắt gấp đôi năm ngoái.", "en": "This year's price is double last year's." }
+  },
+  {
+    "id": "L4-0033",
+    "vi": ["bị ép buộc", "buộc phải", "bị bắt buộc"],
+    "viAliases": ["bất đắc dĩ", "bị cưỡng ép"],
+    "en": ["to be compelled; to be forced"],
+    "enSource": "cedict",
+    "example": { "zh": "因为下大雨，比赛被迫停止。", "vi": "Vì mưa to, trận đấu buộc phải dừng lại.", "en": "Because of the heavy rain, the match was forced to stop." }
+  },
+  {
+    "id": "L4-0034",
+    "vi": ["đại học (bậc cử nhân)", "hệ đại học"],
+    "viAliases": ["cử nhân", "đại học"],
+    "en": ["undergraduate course", "undergraduate (attributive)"],
+    "enSource": "cedict",
+    "example": { "zh": "我哥哥正在读本科三年级。", "vi": "Anh trai tôi đang học năm ba đại học.", "en": "My older brother is in his third year of undergraduate studies." }
+  },
+  {
+    "id": "L4-0035",
+    "vi": ["ngốc", "đần", "vụng về"],
+    "viAliases": ["ngu ngốc", "khờ"],
+    "en": ["stupid", "foolish", "clumsy"],
+    "enSource": "cedict",
+    "example": { "zh": "我太笨了，又忘了带钥匙。", "vi": "Tôi ngốc quá, lại quên mang chìa khóa.", "en": "I'm so silly, I forgot to bring my keys again." }
+  },
+  {
+    "id": "L4-0036",
+    "vi": ["tỉ số"],
+    "viAliases": ["điểm số", "kết quả trận đấu"],
+    "en": ["score (of a game or competition)"],
+    "enSource": "cedict",
+    "example": { "zh": "现在的比分是二比一。", "vi": "Tỉ số hiện tại là 2–1.", "en": "The score right now is two to one." }
+  },
+  {
+    "id": "L4-0037",
+    "vi": ["tốt nghiệp", "ra trường"],
+    "viAliases": ["tốt nghiệp ra trường", "lễ tốt nghiệp"],
+    "en": ["to graduate", "to finish school", "graduation"],
+    "enSource": "cedict",
+    "example": { "zh": "我明年六月大学毕业。", "vi": "Tháng sáu năm sau tôi tốt nghiệp đại học.", "en": "I will graduate from university next June." }
+  },
+  {
+    "id": "L4-0038",
+    "vi": ["sinh viên tốt nghiệp", "học sinh tốt nghiệp"],
+    "viAliases": ["người tốt nghiệp", "cựu sinh viên"],
+    "en": ["graduate"],
+    "enSource": "cedict",
+    "example": { "zh": "今年的毕业生找工作不容易。", "vi": "Sinh viên tốt nghiệp năm nay tìm việc không dễ.", "en": "This year's graduates don't find it easy to get a job." }
+  },
+  {
+    "id": "L4-0039",
+    "vi": ["tránh", "né", "lánh"],
+    "viAliases": ["tránh né", "lẩn tránh"],
+    "en": ["to avoid", "to shun", "to keep away from"],
+    "enSource": "cedict",
+    "example": { "zh": "我们先到树下避避雨吧。", "vi": "Chúng ta ra dưới gốc cây tránh mưa một chút đã.", "en": "Let's go under the tree to shelter from the rain for a bit first." }
+  },
+  {
+    "id": "L4-0040",
+    "vi": ["tránh", "phòng tránh", "ngăn ngừa"],
+    "viAliases": ["tránh khỏi", "phòng ngừa"],
+    "en": ["to avoid", "to prevent", "to avert"],
+    "enSource": "cedict",
+    "example": { "zh": "开车时要避免看手机。", "vi": "Khi lái xe phải tránh nhìn điện thoại.", "en": "When driving, you should avoid looking at your phone." }
+  },
+  {
+    "id": "L4-0041",
+    "vi": ["biên soạn, viết", "đan, tết", "bịa đặt"],
+    "viAliases": ["soạn", "bịa"],
+    "en": ["to compile", "to weave", "to make up"],
+    "enSource": "cedict",
+    "example": { "zh": "这个故事是他自己编的。", "vi": "Câu chuyện này là do anh ấy tự bịa ra.", "en": "He made up this story himself." }
+  },
+  {
+    "id": "L4-0042",
+    "vi": ["tranh luận", "biện luận", "cuộc tranh luận"],
+    "viAliases": ["tranh cãi", "bàn cãi"],
+    "en": ["to argue over", "debate", "argument"],
+    "enSource": "cedict",
+    "example": { "zh": "他们为这个问题辩论了很久。", "vi": "Họ đã tranh luận rất lâu về vấn đề này.", "en": "They debated this issue for a long time." }
+  },
+  {
+    "id": "L4-0043",
+    "vi": ["dấu hiệu, biểu tượng", "biển báo", "đánh dấu, tượng trưng cho"],
+    "viAliases": ["ký hiệu", "logo"],
+    "en": ["sign; mark; symbol; logo", "to symbolize; to indicate; to mark"],
+    "enSource": "cedict",
+    "example": { "zh": "路边有一个停车的标志。", "vi": "Bên đường có một biển báo đỗ xe.", "en": "There is a parking sign by the roadside." }
+  },
+  {
+    "id": "L4-0044",
+    "vi": ["nét mặt", "vẻ mặt", "biểu cảm"],
+    "viAliases": ["sắc mặt", "thần sắc"],
+    "en": ["(facial) expression"],
+    "enSource": "cedict",
+    "example": { "zh": "看他的表情，好像很生气。", "vi": "Nhìn vẻ mặt anh ấy, hình như rất tức giận.", "en": "Judging by his expression, he seems very angry." }
+  },
+  {
+    "id": "L4-0045",
+    "vi": ["khen ngợi", "biểu dương", "tuyên dương"],
+    "viAliases": ["khen", "ca ngợi"],
+    "en": ["to praise", "to commend"],
+    "enSource": "cedict",
+    "example": { "zh": "老师表扬了他的进步。", "vi": "Thầy giáo khen ngợi sự tiến bộ của cậu ấy.", "en": "The teacher praised his progress." }
+  }
+]

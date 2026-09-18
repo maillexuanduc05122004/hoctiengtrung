@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L4-0676",
+    "vi": ["đi đầu", "dẫn đầu", "tiên phong"],
+    "viAliases": ["đầu tiên", "trước tiên"],
+    "en": ["to take the lead", "to show initiative"],
+    "enSource": "cedict",
+    "example": { "zh": "他率先举手回答问题。", "vi": "Anh ấy là người đầu tiên giơ tay trả lời câu hỏi.", "en": "He was the first to raise his hand to answer the question." }
+  },
+  {
+    "id": "L4-0677",
+    "vi": ["ngủ thiếp đi", "ngủ được"],
+    "viAliases": ["thiếp đi", "ngủ say"],
+    "en": ["to fall asleep"],
+    "enSource": "cedict",
+    "example": { "zh": "孩子很快就睡着了。", "vi": "Đứa trẻ rất nhanh đã ngủ thiếp đi.", "en": "The child fell asleep very quickly." }
+  },
+  {
+    "id": "L4-0678",
+    "vi": ["thứ tự", "trình tự"],
+    "viAliases": ["trật tự"],
+    "en": ["sequence", "order"],
+    "enSource": "cedict",
+    "example": { "zh": "请按顺序排队上车。", "vi": "Xin xếp hàng lên xe theo thứ tự.", "en": "Please line up and board in order." }
+  },
+  {
+    "id": "L4-0679",
+    "vi": ["có lẽ", "biết đâu", "chưa chắc"],
+    "viAliases": ["có thể", "không chừng"],
+    "en": ["maybe", "can't say for sure"],
+    "enSource": "cedict",
+    "example": { "zh": "明天说不定会下雨。", "vi": "Ngày mai biết đâu sẽ mưa.", "en": "It might rain tomorrow." }
+  },
+  {
+    "id": "L4-0680",
+    "vi": ["thuyết phục"],
+    "viAliases": ["khuyên nhủ"],
+    "en": ["to persuade", "to convince"],
+    "enSource": "cedict",
+    "example": { "zh": "我终于说服了爸爸。", "vi": "Cuối cùng tôi đã thuyết phục được bố.", "en": "I finally persuaded my dad." }
+  },
+  {
+    "id": "L4-0681",
+    "vi": ["suy nghĩ", "tư duy"],
+    "viAliases": ["suy ngẫm", "nghĩ"],
+    "en": ["to reflect on", "to ponder over"],
+    "enSource": "cedict",
+    "example": { "zh": "这个问题需要认真思考。", "vi": "Vấn đề này cần suy nghĩ nghiêm túc.", "en": "This question needs careful thought." }
+  },
+  {
+    "id": "L4-0682",
+    "vi": ["dường như", "hình như"],
+    "viAliases": ["có vẻ", "tựa như"],
+    "en": ["it seems; seemingly; as if"],
+    "enSource": "cedict",
+    "example": { "zh": "他似乎不太高兴。", "vi": "Anh ấy dường như không vui lắm.", "en": "He seems not very happy." }
+  },
+  {
+    "id": "L4-0683",
+    "vi": ["lỏng", "nới lỏng", "thả lỏng"],
+    "viAliases": ["lơi", "thư giãn"],
+    "en": ["loose", "to loosen", "to relax"],
+    "enSource": "cedict",
+    "example": { "zh": "这双鞋有点松。", "vi": "Đôi giày này hơi lỏng.", "en": "This pair of shoes is a bit loose." }
+  },
+  {
+    "id": "L4-0684",
+    "vi": ["cây thông"],
+    "viAliases": ["thông"],
+    "en": ["pine", "pine tree"],
+    "enSource": "cedict",
+    "example": { "zh": "山上有很多松树。", "vi": "Trên núi có rất nhiều cây thông.", "en": "There are many pine trees on the mountain." }
+  },
+  {
+    "id": "L4-0685",
+    "vi": ["nhựa", "chất dẻo"],
+    "viAliases": ["nhựa dẻo"],
+    "en": ["plastic; plastics (general term for synthetic polymer materials)"],
+    "enSource": "cedict",
+    "example": { "zh": "这个杯子是塑料的。", "vi": "Cái cốc này làm bằng nhựa.", "en": "This cup is made of plastic." }
+  },
+  {
+    "id": "L4-0686",
+    "vi": ["túi ni lông", "túi nhựa"],
+    "viAliases": ["bao ni lông"],
+    "en": ["plastic bag"],
+    "enSource": "cedict",
+    "example": { "zh": "请少用塑料袋。", "vi": "Xin hãy dùng ít túi ni lông.", "en": "Please use fewer plastic bags." }
+  },
+  {
+    "id": "L4-0687",
+    "vi": ["chua", "nhức mỏi"],
+    "viAliases": ["chua chua", "ê ẩm"],
+    "en": ["sour", "tart", "sore"],
+    "enSource": "cedict",
+    "example": { "zh": "这个苹果太酸了。", "vi": "Quả táo này chua quá.", "en": "This apple is too sour." }
+  },
+  {
+    "id": "L4-0688",
+    "vi": ["sữa chua"],
+    "viAliases": ["yaourt", "da ua"],
+    "en": ["yogurt"],
+    "enSource": "cedict",
+    "example": { "zh": "我每天早上喝一杯酸奶。", "vi": "Mỗi sáng tôi uống một cốc sữa chua.", "en": "I drink a cup of yogurt every morning." }
+  },
+  {
+    "id": "L4-0689",
+    "vi": ["tiện tay", "sẵn tay"],
+    "viAliases": ["tiện thể", "thuận tay"],
+    "en": ["conveniently", "while doing it", "in passing"],
+    "enSource": "cedict",
+    "example": { "zh": "出门时请随手关门。", "vi": "Khi ra ngoài xin tiện tay đóng cửa.", "en": "Please close the door behind you when you go out." }
+  },
+  {
+    "id": "L4-0690",
+    "vi": ["cháu gái nội", "cháu gái (con của con trai)"],
+    "viAliases": ["cháu gái"],
+    "en": ["granddaughter", "son's daughter"],
+    "enSource": "cedict",
+    "example": { "zh": "奶奶很爱她的孙女。", "vi": "Bà nội rất yêu cháu gái của mình.", "en": "Grandma loves her granddaughter very much." }
+  },
+  {
+    "id": "L4-0691",
+    "vi": ["cháu trai nội", "cháu trai (con của con trai)"],
+    "viAliases": ["cháu trai", "cháu đích tôn"],
+    "en": ["grandson", "son's son"],
+    "enSource": "cedict",
+    "example": { "zh": "爷爷带孙子去公园玩。", "vi": "Ông nội đưa cháu trai đi công viên chơi.", "en": "Grandpa takes his grandson to the park to play." }
+  },
+  {
+    "id": "L4-0692",
+    "vi": ["rút ngắn", "thu ngắn"],
+    "viAliases": ["giảm bớt"],
+    "en": ["to shorten; to reduce; to curtail"],
+    "enSource": "cedict",
+    "example": { "zh": "我们要缩短开会时间。", "vi": "Chúng ta phải rút ngắn thời gian họp.", "en": "We need to shorten the meeting time." }
+  },
+  {
+    "id": "L4-0693",
+    "vi": ["thu nhỏ", "thu hẹp"],
+    "viAliases": ["giảm nhỏ", "co lại"],
+    "en": ["to reduce; to decrease; to shrink"],
+    "enSource": "cedict",
+    "example": { "zh": "请把这张图片缩小一点。", "vi": "Hãy thu nhỏ bức ảnh này một chút.", "en": "Please shrink this picture a little." }
+  },
+  {
+    "id": "L4-0694",
+    "vi": ["bậc thềm", "bậc thang"],
+    "viAliases": ["bậc cấp", "thềm"],
+    "en": ["steps", "flight of steps"],
+    "enSource": "cedict",
+    "example": { "zh": "小心，前面有台阶。", "vi": "Cẩn thận, phía trước có bậc thềm.", "en": "Careful, there are steps ahead." }
+  },
+  {
+    "id": "L4-0695",
+    "vi": ["trên sân khấu", "trên bục"],
+    "viAliases": ["trên đài"],
+    "en": ["on stage"],
+    "enSource": "cedict",
+    "example": { "zh": "台上的演员唱得真好。", "vi": "Diễn viên trên sân khấu hát thật hay.", "en": "The performers on stage sing really well." }
+  },
+  {
+    "id": "L4-0696",
+    "vi": ["nằm"],
+    "viAliases": ["nằm xuống", "ngả lưng"],
+    "en": ["to lie down", "to recline"],
+    "enSource": "cedict",
+    "example": { "zh": "他躺在床上看书。", "vi": "Anh ấy nằm trên giường đọc sách.", "en": "He lies on the bed reading a book." }
+  },
+  {
+    "id": "L4-0697",
+    "vi": ["suất ăn combo", "gói dịch vụ"],
+    "viAliases": ["combo", "gói cước"],
+    "en": ["set meal", "(fig.) product or service package (e.g. for a cell phone subscription)"],
+    "enSource": "cedict",
+    "example": { "zh": "我要一份牛肉套餐。", "vi": "Tôi muốn một suất combo thịt bò.", "en": "I would like a beef set meal." }
+  },
+  {
+    "id": "L4-0698",
+    "vi": ["giá đặc biệt", "giá ưu đãi"],
+    "viAliases": ["giá khuyến mãi", "giảm giá"],
+    "en": ["special price"],
+    "enSource": "cedict",
+    "example": { "zh": "这些衣服今天特价。", "vi": "Những bộ quần áo này hôm nay có giá đặc biệt.", "en": "These clothes are at a special price today." }
+  },
+  {
+    "id": "L4-0699",
+    "vi": ["đặc biệt", "đặc thù"],
+    "viAliases": ["khác thường", "riêng biệt"],
+    "en": ["special", "particular", "unusual"],
+    "enSource": "cedict",
+    "example": { "zh": "今天是一个特殊的日子。", "vi": "Hôm nay là một ngày đặc biệt.", "en": "Today is a special day." }
+  },
+  {
+    "id": "L4-0700",
+    "vi": ["đặc trưng", "đặc điểm"],
+    "viAliases": ["nét đặc trưng", "đặc tính"],
+    "en": ["characteristic", "distinctive feature", "trait"],
+    "enSource": "cedict",
+    "example": { "zh": "这种鸟有什么特征？", "vi": "Loài chim này có đặc trưng gì?", "en": "What are the characteristics of this kind of bird?" }
+  },
+  {
+    "id": "L4-0701",
+    "vi": ["cung cấp", "đưa ra"],
+    "viAliases": ["cung ứng"],
+    "en": ["to offer", "to supply", "to provide"],
+    "enSource": "cedict",
+    "example": { "zh": "这家酒店提供免费早餐。", "vi": "Khách sạn này cung cấp bữa sáng miễn phí.", "en": "This hotel provides free breakfast." }
+  },
+  {
+    "id": "L4-0702",
+    "vi": ["nhắc nhở", "nhắc"],
+    "viAliases": ["lưu ý", "cảnh báo"],
+    "en": ["to remind", "to call attention to"],
+    "enSource": "cedict",
+    "example": { "zh": "请提醒我明天开会。", "vi": "Hãy nhắc tôi ngày mai họp.", "en": "Please remind me about the meeting tomorrow." }
+  },
+  {
+    "id": "L4-0703",
+    "vi": ["thể dục dụng cụ", "thể dục"],
+    "viAliases": ["bài thể dục"],
+    "en": ["gymnastics"],
+    "enSource": "cedict",
+    "example": { "zh": "她从小就学体操。", "vi": "Cô ấy học thể dục dụng cụ từ nhỏ.", "en": "She has learned gymnastics since she was little." }
+  },
+  {
+    "id": "L4-0704",
+    "vi": ["khám sức khỏe", "kiểm tra sức khỏe"],
+    "viAliases": ["khám tổng quát", "khám định kỳ"],
+    "en": ["to have a physical examination", "medical checkup"],
+    "enSource": "written",
+    "example": { "zh": "我明天要去医院体检。", "vi": "Ngày mai tôi phải đến bệnh viện khám sức khỏe.", "en": "Tomorrow I have to go to the hospital for a physical checkup." }
+  },
+  {
+    "id": "L4-0705",
+    "vi": ["cân nặng", "trọng lượng cơ thể"],
+    "viAliases": ["thể trọng"],
+    "en": ["body weight"],
+    "enSource": "cedict",
+    "example": { "zh": "我的体重是六十公斤。", "vi": "Cân nặng của tôi là sáu mươi ki-lô-gam.", "en": "My weight is sixty kilograms." }
+  },
+  {
+    "id": "L4-0706",
+    "vi": ["thay", "thay cho", "giúp"],
+    "viAliases": ["thay mặt", "hộ"],
+    "en": ["to replace", "for", "on behalf of"],
+    "enSource": "cedict",
+    "example": { "zh": "你能替我去开会吗？", "vi": "Bạn có thể đi họp thay tôi không?", "en": "Can you go to the meeting for me?" }
+  },
+  {
+    "id": "L4-0707",
+    "vi": ["thay thế"],
+    "viAliases": ["thế chỗ", "thay"],
+    "en": ["to substitute for", "to replace"],
+    "enSource": "cedict",
+    "example": { "zh": "电脑不能替代老师。", "vi": "Máy tính không thể thay thế giáo viên.", "en": "Computers cannot replace teachers." }
+  },
+  {
+    "id": "L4-0708",
+    "vi": ["ngây thơ", "hồn nhiên"],
+    "viAliases": ["thơ ngây", "trong sáng"],
+    "en": ["naive", "innocent"],
+    "enSource": "cedict",
+    "example": { "zh": "她的想法太天真了。", "vi": "Suy nghĩ của cô ấy quá ngây thơ.", "en": "Her idea is too naive." }
+  },
+  {
+    "id": "L4-0709",
+    "vi": ["điền", "lấp đầy"],
+    "viAliases": ["điền vào", "nhồi"],
+    "en": ["(of a form etc) to fill in", "to fill or stuff"],
+    "enSource": "cedict",
+    "example": { "zh": "请在这里填你的名字。", "vi": "Xin điền tên bạn vào đây.", "en": "Please fill in your name here." }
+  },
+  {
+    "id": "L4-0710",
+    "vi": ["điền vào chỗ trống"],
+    "viAliases": ["điền chỗ trống", "bài điền từ"],
+    "en": ["to fill in a blank (e.g. on a form, questionnaire or exam paper)"],
+    "enSource": "cedict",
+    "example": { "zh": "请根据课文填空。", "vi": "Hãy điền vào chỗ trống theo bài khóa.", "en": "Please fill in the blanks according to the text." }
+  },
+  {
+    "id": "L4-0711",
+    "vi": ["chọn", "lựa", "kén chọn"],
+    "viAliases": ["lựa chọn", "chọn lựa"],
+    "en": ["to choose", "to pick", "to nitpick"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈在超市挑水果。", "vi": "Mẹ đang chọn hoa quả ở siêu thị.", "en": "Mom is picking out fruit at the supermarket." }
+  },
+  {
+    "id": "L4-0712",
+    "vi": ["chọn lựa", "tuyển chọn"],
+    "viAliases": ["lựa chọn", "chọn"],
+    "en": ["to choose", "to select"],
+    "enSource": "cedict",
+    "example": { "zh": "她认真地挑选礼物。", "vi": "Cô ấy chọn lựa quà một cách cẩn thận.", "en": "She carefully selects a gift." }
+  },
+  {
+    "id": "L4-0713",
+    "vi": ["nghịch ngợm", "tinh nghịch"],
+    "viAliases": ["nghịch", "quậy"],
+    "en": ["naughty", "mischievous"],
+    "enSource": "cedict",
+    "example": { "zh": "这个孩子特别调皮。", "vi": "Đứa trẻ này đặc biệt nghịch ngợm.", "en": "This child is especially naughty." }
+  },
+  {
+    "id": "L4-0714",
+    "vi": ["khều", "chọc", "khơi lên"],
+    "viAliases": ["gợi lên", "kích động"],
+    "en": ["to raise", "to poke", "to stir up"],
+    "enSource": "cedict",
+    "example": { "zh": "他用筷子把面条挑起来。", "vi": "Anh ấy dùng đũa khều mì lên.", "en": "He lifts the noodles up with chopsticks." }
+  },
+  {
+    "id": "L4-0715",
+    "vi": ["thách thức", "thử thách"],
+    "viAliases": ["thách đấu", "khiêu chiến"],
+    "en": ["to challenge; to take on a challenge; a challenge"],
+    "enSource": "cedict",
+    "example": { "zh": "这份工作对我是个挑战。", "vi": "Công việc này là một thử thách với tôi.", "en": "This job is a challenge for me." }
+  },
+  {
+    "id": "L4-0716",
+    "vi": ["dán", "áp sát"],
+    "viAliases": ["dán lên", "sát"],
+    "en": ["to stick", "to paste", "to keep close to"],
+    "enSource": "cedict",
+    "example": { "zh": "请把通知贴在门上。", "vi": "Hãy dán thông báo lên cửa.", "en": "Please stick the notice on the door." }
+  },
+  {
+    "id": "L4-0717",
+    "vi": ["dừng lại", "ngừng lại"],
+    "viAliases": ["đứng lại", "ngưng"],
+    "en": ["to stop"],
+    "enSource": "cedict",
+    "example": { "zh": "车在路边停下了。", "vi": "Xe đã dừng lại bên đường.", "en": "The car stopped by the roadside." }
+  },
+  {
+    "id": "L4-0718",
+    "vi": ["ưỡn (ngực)", "vươn thẳng", "gắng chịu"],
+    "viAliases": ["chống chịu", "gắng gượng"],
+    "en": ["to (physically) straighten up", "to stick out (a part of the body)", "to withstand"],
+    "enSource": "cedict",
+    "example": { "zh": "他病了，还是挺着去上班。", "vi": "Anh ấy ốm rồi mà vẫn gắng gượng đi làm.", "en": "He is sick but still forces himself to go to work." }
+  },
+  {
+    "id": "L4-0719",
+    "vi": ["giấy thông báo", "giấy báo"],
+    "viAliases": ["thư thông báo", "giấy báo trúng tuyển"],
+    "en": ["written notice"],
+    "enSource": "cedict",
+    "example": { "zh": "我收到了大学的通知书。", "vi": "Tôi đã nhận được giấy báo của trường đại học.", "en": "I received the notice letter from the university." }
+  },
+  {
+    "id": "L4-0720",
+    "vi": ["đồng cảm", "thông cảm", "thương cảm"],
+    "viAliases": ["cảm thông", "thương hại"],
+    "en": ["to sympathize with"],
+    "enSource": "cedict",
+    "example": { "zh": "大家都很同情他。", "vi": "Mọi người đều rất thông cảm với anh ấy.", "en": "Everyone sympathizes with him." }
+  }
+]

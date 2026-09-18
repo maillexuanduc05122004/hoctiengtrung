@@ -24,9 +24,8 @@ import { pickNextLesson, type NextLesson } from '../lessons/next-lesson.ts';
 import { useSettings } from '../../hooks/settings-context.ts';
 import { useVocabulary } from '../../hooks/vocabulary-context.ts';
 import type { ProgressSummary, StudyMode } from '../../types/study.ts';
-import type { HskLevel } from '../../types/vocabulary.ts';
+import { HSK_LEVELS, type HskLevel } from '../../types/vocabulary.ts';
 
-const LEVELS: readonly HskLevel[] = [1, 2, 3];
 const MODES: readonly StudyMode[] = ['flashcards', 'typing', 'listening', 'speaking'];
 
 /** Số ngày vẽ trên biểu đồ, cũng là số ngày ProgressSummary hứa trả về. */
@@ -56,7 +55,7 @@ export interface ProgressSummaryState {
  *
  * Số từ cần ôn và số từ mới tính trên các cấp người học đang chọn, vì đó chính
  * là tập từ mà nút "Học tiếp" sẽ đưa vào phiên học. Còn tiến độ theo cấp tính
- * trên toàn bộ HSK 1 đến 3 để người học luôn thấy chặng đường còn lại.
+ * trên toàn bộ HSK 1 đến 4 để người học luôn thấy chặng đường còn lại.
  */
 export function useProgressSummary(): ProgressSummaryState {
   const { index, loading: vocabularyLoading } = useVocabulary();
@@ -73,7 +72,7 @@ export function useProgressSummary(): ProgressSummaryState {
 
   const idsByLevel = useMemo(() => {
     const map = new Map<HskLevel, string[]>();
-    for (const level of LEVELS) {
+    for (const level of HSK_LEVELS) {
       map.set(level, []);
     }
     for (const word of index.words) {
@@ -103,7 +102,7 @@ export function useProgressSummary(): ProgressSummaryState {
         ]);
 
       const perLevel = await Promise.all(
-        LEVELS.filter((level) => (idsByLevel.get(level) ?? []).length > 0).map(async (level) => {
+        HSK_LEVELS.filter((level) => (idsByLevel.get(level) ?? []).length > 0).map(async (level) => {
           const ids = idsByLevel.get(level) ?? [];
           return { level, learned: await countLearnedByWordIds(ids), total: ids.length };
         }),

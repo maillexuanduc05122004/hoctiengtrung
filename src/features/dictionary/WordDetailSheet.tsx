@@ -36,7 +36,7 @@ export function WordDetailSheet({ word, onClose }: WordDetailSheetProps) {
   if (word === null) return null;
 
   const starred = card?.starred ?? false;
-  // Rất nhiều từ HSK 1-3 có phồn thể trùng giản thể; lặp lại chỉ làm rối đầu trang.
+  // Rất nhiều từ HSK 1-4 có phồn thể trùng giản thể; lặp lại chỉ làm rối đầu trang.
   const traditional =
     word.traditional !== undefined && word.traditional !== word.simplified
       ? word.traditional

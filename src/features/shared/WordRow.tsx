@@ -50,7 +50,7 @@ export function WordRow({
 }: WordRowProps) {
   const [pinyinRevealed, setPinyinRevealed] = useState(false);
 
-  // Giống mặt chữ của thẻ học: rất nhiều từ HSK 1-3 có phồn thể trùng giản thể,
+  // Giống mặt chữ của thẻ học: rất nhiều từ HSK 1-4 có phồn thể trùng giản thể,
   // lặp lại y hệt chỉ làm rối dòng nên chỉ hiện khi hai cách viết thật sự khác.
   const traditional =
     showTraditional && word.traditional !== undefined && word.traditional !== word.simplified

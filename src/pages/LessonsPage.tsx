@@ -2,7 +2,7 @@
  * Danh sách buổi học.
  *
  * Đây là màn hình người học quay lại nhiều nhất, và cũng là màn hình dài nhất:
- * HSK 3 có 97 buổi. Vì vậy trang được dựng quanh đúng một câu hỏi — "vào buổi
+ * HSK 4 có 100 buổi. Vì vậy trang được dựng quanh đúng một câu hỏi — "vào buổi
  * nào bây giờ" — với ba đường trả lời, xếp theo mức thường dùng:
  *
  * 1. Thẻ "Học tiếp" ở ngay đầu trang, cho việc đi tiếp mạch học.
@@ -37,18 +37,20 @@ import {
 import { useLiveMessage } from '../hooks/useLiveMessage.ts';
 import { useSettings } from '../hooks/settings-context.ts';
 import { useLessons, useVocabulary } from '../hooks/vocabulary-context.ts';
-import type { HskLevel, Lesson } from '../types/vocabulary.ts';
+import { HSK_LEVELS, type HskLevel, type Lesson } from '../types/vocabulary.ts';
 
-type LevelKey = '1' | '2' | '3';
+/** Cấp dưới dạng chuỗi để đặt lên địa chỉ và nhóm nút, ví dụ "4" cho HSK 4. */
+type LevelKey = `${HskLevel}`;
 
-const LEVEL_OPTIONS: readonly SegmentedOption<LevelKey>[] = [
-  { value: '1', label: 'HSK 1' },
-  { value: '2', label: 'HSK 2' },
-  { value: '3', label: 'HSK 3' },
-];
+const LEVEL_OPTIONS: readonly SegmentedOption<LevelKey>[] = HSK_LEVELS.map((level) => ({
+  value: `${level}` as LevelKey,
+  label: `HSK ${level}`,
+}));
 
-const LEVEL_BY_KEY: Record<LevelKey, HskLevel> = { '1': 1, '2': 2, '3': 3 };
-const KEY_BY_LEVEL: Record<HskLevel, LevelKey> = { 1: '1', 2: '2', 3: '3' };
+/** Đọc cấp từ chuỗi trên địa chỉ, chỉ nhận đúng dạng "1", "2", …; chuỗi lạ thì trả `null`. */
+function levelFromKey(raw: string | null): HskLevel | null {
+  return HSK_LEVELS.find((level) => `${level}` === raw) ?? null;
+}
 
 /** Cấp đang xem nằm trong địa chỉ nên quay lại từ một buổi học vẫn đúng cấp cũ. */
 const LEVEL_PARAM = 'cap';
@@ -90,12 +92,8 @@ export function LessonsPage() {
     : null;
   const fallbackLevel: HskLevel =
     lastLesson?.level ?? (settings.activeLevels.length > 0 ? settings.activeLevels[0] : 1);
-  const rawLevel = params.get(LEVEL_PARAM);
-  const levelKey: LevelKey =
-    rawLevel === '1' || rawLevel === '2' || rawLevel === '3'
-      ? rawLevel
-      : KEY_BY_LEVEL[fallbackLevel];
-  const level = LEVEL_BY_KEY[levelKey];
+  const level: HskLevel = levelFromKey(params.get(LEVEL_PARAM)) ?? fallbackLevel;
+  const levelKey: LevelKey = `${level}`;
 
   const rawFilter = params.get(FILTER_PARAM);
   const filterKey: FilterKey =

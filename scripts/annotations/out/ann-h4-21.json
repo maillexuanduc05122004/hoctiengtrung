@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L4-0901",
+    "vi": ["thế là", "vì vậy", "do đó"],
+    "viAliases": ["bởi vậy", "cho nên"],
+    "en": ["thereupon; as a result; consequently; thus; hence"],
+    "enSource": "cedict",
+    "example": { "zh": "天下雨了，于是我们没去公园。", "vi": "Trời mưa, thế là chúng tôi không đi công viên.", "en": "It rained, so we didn't go to the park." }
+  },
+  {
+    "id": "L4-0902",
+    "vi": ["ngữ pháp"],
+    "viAliases": ["văn phạm"],
+    "en": ["grammar"],
+    "enSource": "cedict",
+    "example": { "zh": "汉语的语法不太难。", "vi": "Ngữ pháp tiếng Hán không khó lắm.", "en": "Chinese grammar is not too hard." }
+  },
+  {
+    "id": "L4-0903",
+    "vi": ["ngữ âm", "tin nhắn thoại", "giọng nói"],
+    "viAliases": ["phát âm", "âm thanh"],
+    "en": ["speech sounds", "pronunciation", "voice message"],
+    "enSource": "cedict",
+    "example": { "zh": "他给我发了一条语音。", "vi": "Anh ấy gửi cho tôi một tin nhắn thoại.", "en": "He sent me a voice message." }
+  },
+  {
+    "id": "L4-0904",
+    "vi": ["ngọc", "ngọc bích"],
+    "viAliases": ["đá ngọc"],
+    "en": ["jade"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈送给我一块玉。", "vi": "Mẹ tặng tôi một miếng ngọc.", "en": "Mom gave me a piece of jade." }
+  },
+  {
+    "id": "L4-0905",
+    "vi": ["ngô", "bắp"],
+    "viAliases": ["bắp ngô"],
+    "en": ["corn", "maize"],
+    "enSource": "cedict",
+    "example": { "zh": "我最喜欢吃煮玉米。", "vi": "Tôi thích nhất là ăn ngô luộc.", "en": "I like eating boiled corn the most." }
+  },
+  {
+    "id": "L4-0906",
+    "vi": ["dự đoán", "dự báo"],
+    "viAliases": ["tiên đoán", "đoán trước"],
+    "en": ["to forecast", "to predict"],
+    "enSource": "cedict",
+    "example": { "zh": "没有人能预测明天的天气。", "vi": "Không ai có thể dự đoán được thời tiết ngày mai.", "en": "No one can predict tomorrow's weather." }
+  },
+  {
+    "id": "L4-0907",
+    "vi": ["đặt trước", "đặt chỗ"],
+    "viAliases": ["đặt vé", "đặt phòng"],
+    "en": ["to book ahead", "to place an order"],
+    "enSource": "cedict",
+    "example": { "zh": "我已经预订了两张机票。", "vi": "Tôi đã đặt trước hai vé máy bay.", "en": "I have already booked two plane tickets." }
+  },
+  {
+    "id": "L4-0908",
+    "vi": ["gặp", "gặp phải"],
+    "viAliases": ["gặp gỡ", "đụng phải"],
+    "en": ["(bound form) to encounter; to happen upon; to meet unplanned"],
+    "enSource": "cedict",
+    "example": { "zh": "我在路上遇上了一位老同学。", "vi": "Tôi tình cờ gặp một bạn học cũ trên đường.", "en": "I ran into an old classmate on the road." }
+  },
+  {
+    "id": "L4-0909",
+    "vi": ["gặp phải", "gặp"],
+    "viAliases": ["đụng phải", "vấp phải"],
+    "en": ["to meet; to run into; to come across"],
+    "enSource": "cedict",
+    "example": { "zh": "遇到困难的时候别放弃。", "vi": "Khi gặp khó khăn thì đừng bỏ cuộc.", "en": "Don't give up when you run into difficulties." }
+  },
+  {
+    "id": "L4-0910",
+    "vi": ["gặp", "tình cờ gặp"],
+    "viAliases": ["gặp gỡ", "bắt gặp"],
+    "en": ["to meet"],
+    "enSource": "cedict",
+    "example": { "zh": "我昨天在商店遇见了王老师。", "vi": "Hôm qua tôi gặp thầy Vương ở cửa hàng.", "en": "I ran into Teacher Wang at the store yesterday." }
+  },
+  {
+    "id": "L4-0911",
+    "vi": ["nguyên liệu"],
+    "viAliases": ["nguyên vật liệu", "vật liệu thô"],
+    "en": ["raw material"],
+    "enSource": "cedict",
+    "example": { "zh": "做面包的原料是面粉。", "vi": "Nguyên liệu làm bánh mì là bột mì.", "en": "The raw material for making bread is flour." }
+  },
+  {
+    "id": "L4-0912",
+    "vi": ["nguyên tắc"],
+    "viAliases": ["nguyên lý", "quy tắc"],
+    "en": ["principle", "doctrine"],
+    "enSource": "cedict",
+    "example": { "zh": "他是一个很有原则的人。", "vi": "Anh ấy là một người rất có nguyên tắc.", "en": "He is a person with strong principles." }
+  },
+  {
+    "id": "L4-0913",
+    "vi": ["tròn", "hình tròn"],
+    "viAliases": ["tròn trịa", "vòng tròn"],
+    "en": ["round", "circular", "circle"],
+    "enSource": "cedict",
+    "example": { "zh": "今晚的月亮又大又圆。", "vi": "Trăng tối nay vừa to vừa tròn.", "en": "The moon tonight is big and round." }
+  },
+  {
+    "id": "L4-0914",
+    "vi": ["viên mãn", "trọn vẹn", "tốt đẹp"],
+    "viAliases": ["mỹ mãn", "hoàn hảo"],
+    "en": ["satisfactory; consummate; perfect"],
+    "enSource": "cedict",
+    "example": { "zh": "这次会议开得很圆满。", "vi": "Cuộc họp lần này diễn ra rất tốt đẹp.", "en": "This meeting went off perfectly." }
+  },
+  {
+    "id": "L4-0915",
+    "vi": ["hẹn hò", "cuộc hẹn", "hẹn gặp"],
+    "viAliases": ["hẹn", "buổi hẹn"],
+    "en": ["to arrange to meet", "date", "appointment"],
+    "enSource": "cedict",
+    "example": { "zh": "我今晚和女朋友有个约会。", "vi": "Tối nay tôi có một cuộc hẹn với bạn gái.", "en": "I have a date with my girlfriend tonight." }
+  },
+  {
+    "id": "L4-0916",
+    "vi": ["cuối tháng"],
+    "viAliases": [],
+    "en": ["end of the month"],
+    "enSource": "cedict",
+    "example": { "zh": "月底以前要交作业。", "vi": "Phải nộp bài tập trước cuối tháng.", "en": "Homework must be handed in before the end of the month." }
+  },
+  {
+    "id": "L4-0917",
+    "vi": ["đọc", "đọc hiểu"],
+    "viAliases": ["đọc sách", "xem"],
+    "en": ["to read", "reading"],
+    "enSource": "cedict",
+    "example": { "zh": "我每天晚上都阅读半小时。", "vi": "Mỗi tối tôi đều đọc sách nửa tiếng.", "en": "I read for half an hour every evening." }
+  },
+  {
+    "id": "L4-0918",
+    "vi": ["đại hội thể thao", "hội thao"],
+    "viAliases": ["ngày hội thể thao"],
+    "en": ["sports competition"],
+    "enSource": "cedict",
+    "example": { "zh": "学校下周要开运动会。", "vi": "Tuần sau trường sẽ tổ chức hội thao.", "en": "The school is holding a sports meet next week." }
+  },
+  {
+    "id": "L4-0919",
+    "vi": ["vận động viên"],
+    "viAliases": ["cầu thủ", "tuyển thủ"],
+    "en": ["athlete"],
+    "enSource": "cedict",
+    "example": { "zh": "他是一名有名的运动员。", "vi": "Anh ấy là một vận động viên nổi tiếng.", "en": "He is a famous athlete." }
+  },
+  {
+    "id": "L4-0920",
+    "vi": ["vận may", "may mắn", "vận"],
+    "viAliases": ["số", "hên xui"],
+    "en": ["luck (good or bad)"],
+    "enSource": "cedict",
+    "example": { "zh": "他今天的运气真不错。", "vi": "Hôm nay vận may của anh ấy thật tốt.", "en": "His luck today is really good." }
+  },
+  {
+    "id": "L4-0921",
+    "vi": ["vận dụng", "sử dụng"],
+    "viAliases": ["áp dụng", "ứng dụng"],
+    "en": ["to use", "to put to use"],
+    "enSource": "cedict",
+    "example": { "zh": "要学会运用学过的知识。", "vi": "Phải học cách vận dụng kiến thức đã học.", "en": "You must learn to put the knowledge you have learned to use." }
+  },
+  {
+    "id": "L4-0922",
+    "vi": ["nhiều lần", "hết lần này đến lần khác"],
+    "viAliases": ["lặp đi lặp lại", "năm lần bảy lượt"],
+    "en": ["over and over again", "again and again"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈再三提醒我别忘了带钥匙。", "vi": "Mẹ nhắc đi nhắc lại tôi đừng quên mang chìa khóa.", "en": "Mom reminded me again and again not to forget my keys." }
+  },
+  {
+    "id": "L4-0923",
+    "vi": ["để ý", "quan tâm", "bận tâm"],
+    "viAliases": ["để tâm", "coi trọng"],
+    "en": ["(often used in the negative) to care about"],
+    "enSource": "cedict",
+    "example": { "zh": "他一点儿也不在乎别人的看法。", "vi": "Anh ấy chẳng để ý chút nào đến cách nhìn của người khác.", "en": "He doesn't care at all about what others think." }
+  },
+  {
+    "id": "L4-0924",
+    "vi": ["nằm ở", "là do", "tùy thuộc vào"],
+    "viAliases": ["ở chỗ", "phụ thuộc vào"],
+    "en": ["to rest with; to lie in; to be due to (a certain attribute)", "(of a matter) to be determined by; to be up to (sb)"],
+    "enSource": "cedict",
+    "example": { "zh": "成功的关键在于坚持。", "vi": "Chìa khóa của thành công nằm ở sự kiên trì.", "en": "The key to success lies in persistence." }
+  },
+  {
+    "id": "L4-0925",
+    "vi": ["tán thành", "đồng ý", "ủng hộ"],
+    "viAliases": ["đồng tình", "nhất trí"],
+    "en": ["to approve", "to endorse"],
+    "enSource": "cedict",
+    "example": { "zh": "我完全赞成你的意见。", "vi": "Tôi hoàn toàn tán thành ý kiến của bạn.", "en": "I completely approve of your opinion." }
+  },
+  {
+    "id": "L4-0926",
+    "vi": ["tán thưởng", "khen ngợi", "đánh giá cao"],
+    "viAliases": ["ngợi khen", "ca ngợi"],
+    "en": ["to admire", "to praise", "to appreciate"],
+    "enSource": "cedict",
+    "example": { "zh": "老师很赞赏他的努力。", "vi": "Thầy giáo rất tán thưởng sự nỗ lực của cậu ấy.", "en": "The teacher greatly admires his hard work." }
+  },
+  {
+    "id": "L4-0927",
+    "vi": ["tài trợ", "hỗ trợ"],
+    "viAliases": ["bảo trợ", "giúp đỡ"],
+    "en": ["to sponsor", "to support", "to assist"],
+    "enSource": "cedict",
+    "example": { "zh": "这家公司赞助了我们的比赛。", "vi": "Công ty này đã tài trợ cho cuộc thi của chúng tôi.", "en": "This company sponsored our competition." }
+  },
+  {
+    "id": "L4-0928",
+    "vi": ["tạo hình", "kiểu dáng", "hình dáng"],
+    "viAliases": ["dáng vẻ", "thiết kế"],
+    "en": ["appearance; style; design; form; pose"],
+    "enSource": "cedict",
+    "example": { "zh": "这个杯子的造型很特别。", "vi": "Kiểu dáng của chiếc cốc này rất đặc biệt.", "en": "The design of this cup is very special." }
+  },
+  {
+    "id": "L4-0929",
+    "vi": ["chiến đấu", "trận chiến"],
+    "viAliases": ["đánh nhau", "giao chiến"],
+    "en": ["to fight", "to engage in combat", "battle"],
+    "enSource": "cedict",
+    "example": { "zh": "战士们勇敢地战斗了一整夜。", "vi": "Các chiến sĩ đã dũng cảm chiến đấu suốt cả đêm.", "en": "The soldiers fought bravely all night long." }
+  },
+  {
+    "id": "L4-0930",
+    "vi": ["chiến thắng", "đánh bại", "vượt qua"],
+    "viAliases": ["thắng", "khắc phục"],
+    "en": ["to defeat", "to prevail over", "to surmount"],
+    "enSource": "cedict",
+    "example": { "zh": "我们一定能战胜困难。", "vi": "Chúng ta nhất định có thể chiến thắng khó khăn.", "en": "We can surely overcome the difficulties." }
+  },
+  {
+    "id": "L4-0931",
+    "vi": ["chiến sĩ", "binh sĩ"],
+    "viAliases": ["người lính", "chiến binh"],
+    "en": ["soldier", "fighter", "warrior"],
+    "enSource": "cedict",
+    "example": { "zh": "这些战士保护着我们的国家。", "vi": "Những chiến sĩ này đang bảo vệ đất nước chúng ta.", "en": "These soldiers are protecting our country." }
+  },
+  {
+    "id": "L4-0932",
+    "vi": ["chiến tranh"],
+    "viAliases": ["cuộc chiến", "chiến sự"],
+    "en": ["war; conflict"],
+    "enSource": "cedict",
+    "example": { "zh": "谁都不希望发生战争。", "vi": "Không ai mong muốn chiến tranh xảy ra.", "en": "Nobody wants a war to break out." }
+  },
+  {
+    "id": "L4-0933",
+    "vi": ["chồng"],
+    "viAliases": ["ông xã", "phu quân"],
+    "en": ["husband"],
+    "enSource": "cedict",
+    "example": { "zh": "她的丈夫是一位医生。", "vi": "Chồng của cô ấy là một bác sĩ.", "en": "Her husband is a doctor." }
+  },
+  {
+    "id": "L4-0934",
+    "vi": ["chào hỏi", "gọi", "tiếp đón"],
+    "viAliases": ["chào", "chăm sóc"],
+    "en": ["to greet", "to say hello to", "to call out to"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈在门口热情地招呼客人。", "vi": "Mẹ nhiệt tình chào đón khách ở cửa.", "en": "Mom is warmly greeting the guests at the door." }
+  },
+  {
+    "id": "L4-0935",
+    "vi": ["(bổ ngữ sau động từ) được, trúng, thiếp (đi)", "chạm vào, dính", "bắt lửa, cháy"],
+    "viAliases": ["thiếp đi", "bén lửa"],
+    "en": ["(after a verb) hitting the mark", "(coll.) to fall asleep", "to catch fire"],
+    "enSource": "cedict",
+    "example": { "zh": "我昨晚太累了，很快就睡着了。", "vi": "Tối qua tôi mệt quá nên ngủ thiếp đi rất nhanh.", "en": "I was so tired last night that I fell asleep quickly." }
+  },
+  {
+    "id": "L4-0936",
+    "vi": ["cháy", "bắt lửa", "bốc cháy"],
+    "viAliases": ["bén lửa", "hỏa hoạn"],
+    "en": ["to catch fire"],
+    "enSource": "cedict",
+    "example": { "zh": "厨房着火了，快打电话！", "vi": "Bếp cháy rồi, mau gọi điện đi!", "en": "The kitchen is on fire, call quickly!" }
+  },
+  {
+    "id": "L4-0937",
+    "vi": ["sốt ruột", "lo lắng", "vội"],
+    "viAliases": ["nóng ruột", "cuống"],
+    "en": ["to worry; to feel anxious", "to feel a sense of urgency; to be in a hurry"],
+    "enSource": "cedict",
+    "example": { "zh": "别着急，我们还有时间。", "vi": "Đừng sốt ruột, chúng ta vẫn còn thời gian.", "en": "Don't worry, we still have time." }
+  },
+  {
+    "id": "L4-0938",
+    "vi": ["triệu tập", "tổ chức (họp)", "mở (cuộc họp)"],
+    "viAliases": ["tiến hành họp"],
+    "en": ["to convene (a conference or meeting)", "to call together"],
+    "enSource": "cedict",
+    "example": { "zh": "公司明天召开一个重要会议。", "vi": "Ngày mai công ty triệu tập một cuộc họp quan trọng.", "en": "The company is convening an important meeting tomorrow." }
+  },
+  {
+    "id": "L4-0939",
+    "vi": ["gấp, gập", "bẻ gãy, gãy", "giảm giá"],
+    "viAliases": ["bẻ", "chiết khấu"],
+    "en": ["to fold", "to break", "discount"],
+    "enSource": "cedict",
+    "example": { "zh": "他把纸折成了一只小船。", "vi": "Anh ấy gấp tờ giấy thành một chiếc thuyền nhỏ.", "en": "He folded the paper into a little boat." }
+  },
+  {
+    "id": "L4-0940",
+    "vi": ["kim", "kim tiêm", "mũi tiêm"],
+    "viAliases": ["kim khâu", "châm"],
+    "en": ["needle", "pin", "injection"],
+    "enSource": "cedict",
+    "example": { "zh": "医生给我打了一针。", "vi": "Bác sĩ tiêm cho tôi một mũi.", "en": "The doctor gave me an injection." }
+  },
+  {
+    "id": "L4-0941",
+    "vi": ["nhằm vào", "nhắm vào", "đối với"],
+    "viAliases": ["hướng tới", "căn cứ vào"],
+    "en": ["to target; to focus on; to be aimed at or against; in response to"],
+    "enSource": "cedict",
+    "example": { "zh": "这个课程是针对初学者的。", "vi": "Khóa học này nhằm vào người mới bắt đầu.", "en": "This course is aimed at beginners." }
+  },
+  {
+    "id": "L4-0942",
+    "vi": ["trận, cơn, đợt (lượng từ)", "hồi, lát"],
+    "viAliases": ["cơn", "đợt"],
+    "en": ["classifier for events or states of short duration", "burst", "spell"],
+    "enSource": "cedict",
+    "example": { "zh": "外面突然下了一阵大雨。", "vi": "Bên ngoài bỗng nhiên đổ một trận mưa to.", "en": "Suddenly there was a burst of heavy rain outside." }
+  },
+  {
+    "id": "L4-0943",
+    "vi": ["tranh luận", "tranh cãi"],
+    "viAliases": ["cãi nhau", "bàn cãi"],
+    "en": ["to argue", "to debate", "argument"],
+    "enSource": "cedict",
+    "example": { "zh": "他们为这个问题争论了很久。", "vi": "Họ đã tranh luận rất lâu về vấn đề này.", "en": "They argued about this issue for a long time." }
+  },
+  {
+    "id": "L4-0944",
+    "vi": ["chinh phục", "khuất phục"],
+    "viAliases": ["chế ngự", "thu phục"],
+    "en": ["to conquer", "to subdue"],
+    "enSource": "cedict",
+    "example": { "zh": "他终于征服了这座高山。", "vi": "Cuối cùng anh ấy đã chinh phục được ngọn núi cao này.", "en": "He finally conquered this high mountain." }
+  },
+  {
+    "id": "L4-0945",
+    "vi": ["trưng cầu", "xin (ý kiến)", "lấy (ý kiến)"],
+    "viAliases": ["hỏi ý kiến", "thu thập"],
+    "en": ["to solicit", "to seek", "to request (opinions, feedback etc)"],
+    "enSource": "cedict",
+    "example": { "zh": "老师正在征求大家的意见。", "vi": "Thầy giáo đang trưng cầu ý kiến của mọi người.", "en": "The teacher is seeking everyone's opinions." }
+  }
+]

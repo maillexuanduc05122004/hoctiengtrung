@@ -1,0 +1,738 @@
+[
+  {
+    "id": "L4-0406",
+    "simplified": "解释",
+    "traditional": "解釋",
+    "pinyin": "jiě shì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "explanation",
+      "to explain",
+      "to interpret",
+      "to resolve",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0407",
+    "simplified": "尽快",
+    "traditional": "儘快",
+    "pinyin": "jǐn kuài",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "as quickly as possible; as soon as possible"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0408",
+    "simplified": "紧密",
+    "traditional": "緊密",
+    "pinyin": "jǐn mì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "inseparably close"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0409",
+    "simplified": "尽力",
+    "traditional": "盡力",
+    "pinyin": "jìn lì",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to strive one's hardest; to spare no effort"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0410",
+    "simplified": "进口",
+    "traditional": "進口",
+    "pinyin": "jìn kǒu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to import",
+      "imported",
+      "entrance",
+      "inlet (for the intake of air, water etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0411",
+    "simplified": "近代",
+    "pinyin": "jìn dài",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the not-very-distant past",
+      "modern times, excluding recent decades",
+      "(in the context of Chinese history) the period from the Opium Wars until the May 4th Movement (mid-19th century to 1919)",
+      "capitalist times (pre-1949)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0412",
+    "simplified": "禁止",
+    "pinyin": "jìn zhǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to prohibit",
+      "to forbid",
+      "to ban"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0413",
+    "simplified": "经典",
+    "traditional": "經典",
+    "pinyin": "jīng diǎn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the classics",
+      "scriptures",
+      "classical",
+      "classic (example, case etc)",
+      "typical"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0414",
+    "simplified": "精力",
+    "pinyin": "jīng lì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "energy"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0415",
+    "simplified": "竟然",
+    "pinyin": "jìng rán",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "unexpectedly",
+      "to one's surprise",
+      "in spite of everything",
+      "in that crazy way",
+      "actually",
+      "to go as far as to"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0416",
+    "simplified": "镜头",
+    "traditional": "鏡頭",
+    "pinyin": "jìng tóu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "camera lens",
+      "camera shot (in a movie etc)",
+      "scene"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0417",
+    "simplified": "镜子",
+    "traditional": "鏡子",
+    "pinyin": "jìng zi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "mirror",
+      "CL:面,個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0418",
+    "simplified": "究竟",
+    "pinyin": "jiū jìng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "to go to the bottom of a matter",
+      "after all",
+      "when all is said and done",
+      "(in an interrogative sentence) finally",
+      "outcome",
+      "result"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0419",
+    "simplified": "酒吧",
+    "pinyin": "jiǔ bā",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "bar (place to buy drinks)",
+      "CL:家"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0420",
+    "simplified": "居民",
+    "pinyin": "jū mín",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "resident; inhabitant"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0421",
+    "simplified": "居住",
+    "pinyin": "jū zhù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to reside",
+      "to dwell",
+      "to live in a place",
+      "resident in"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0422",
+    "simplified": "局",
+    "pinyin": "jú",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "office",
+      "situation",
+      "classifier for games: match, set, round etc"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0423",
+    "simplified": "巨大",
+    "pinyin": "jù dà",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "huge; immense; enormous; gigantic"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0424",
+    "simplified": "具备",
+    "traditional": "具備",
+    "pinyin": "jù bèi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to possess",
+      "to have",
+      "equipped with",
+      "able to fulfill (conditions or requirements)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0425",
+    "simplified": "距离",
+    "traditional": "距離",
+    "pinyin": "jù lí",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "distance",
+      "CL:個/个",
+      "to be apart from"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0426",
+    "simplified": "聚",
+    "pinyin": "jù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to assemble; to gather (transitive or intransitive)",
+      "(chemistry) poly-"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0427",
+    "simplified": "聚会",
+    "traditional": "聚會",
+    "pinyin": "jù huì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "party",
+      "gathering",
+      "to meet",
+      "to get together"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0428",
+    "simplified": "卷",
+    "pinyin": "juǎn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to roll up",
+      "(fig.) to sweep up; to engulf; to drag into (a situation)",
+      "(slang) to compete to an unhealthy degree; hypercompetitive",
+      "a roll",
+      "classifier for small rolled-up things (wad of paper money, movie reel etc)",
+      "to sweep up; to carry along",
+      "classifier for rolls, spools etc"
+    ],
+    "siblings": [
+      {
+        "id": "L4-0429",
+        "pinyin": "juàn",
+        "partOfSpeech": [
+          "M"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0429",
+    "simplified": "卷",
+    "pinyin": "juàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "scroll",
+      "book",
+      "volume",
+      "chapter",
+      "examination paper",
+      "classifier for books, paintings: volume, scroll"
+    ],
+    "siblings": [
+      {
+        "id": "L4-0428",
+        "pinyin": "juǎn",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0430",
+    "simplified": "角色",
+    "pinyin": "jué sè",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "role; part (in a play or movie etc)",
+      "also pr."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0431",
+    "simplified": "开花",
+    "traditional": "開花",
+    "pinyin": "kāi huā",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to bloom; to blossom; to flower",
+      "(fig.) to burst; to split open",
+      "(fig.) to burst with joy",
+      "(fig.) to spring up everywhere; to flourish"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0432",
+    "simplified": "开水",
+    "traditional": "開水",
+    "pinyin": "kāi shuǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "boiled water",
+      "boiling water"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0433",
+    "simplified": "看不起",
+    "pinyin": "kàn bu qǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to look down upon",
+      "to despise"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0434",
+    "simplified": "看来",
+    "traditional": "看來",
+    "pinyin": "kàn lai",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "apparently",
+      "it seems that"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0435",
+    "simplified": "看望",
+    "pinyin": "kàn wàng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to pay a visit to; to see (sb)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0436",
+    "simplified": "考察",
+    "pinyin": "kǎo chá",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to inspect",
+      "to observe and study",
+      "on-the-spot investigation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0437",
+    "simplified": "考虑",
+    "traditional": "考慮",
+    "pinyin": "kǎo lǜ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to think over",
+      "to consider",
+      "consideration"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0438",
+    "simplified": "棵",
+    "pinyin": "kē",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "classifier for trees, cabbages, plants etc"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0439",
+    "simplified": "可见",
+    "traditional": "可見",
+    "pinyin": "kě jiàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "it can clearly be seen (that this is the case)",
+      "it is (thus) clear",
+      "clear",
+      "visible"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0440",
+    "simplified": "空间",
+    "traditional": "空間",
+    "pinyin": "kōng jiān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "space; room",
+      "(fig.) scope; leeway",
+      "(astronomy) outer space",
+      "(physics, math.) space"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0441",
+    "simplified": "空",
+    "pinyin": "kòng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "to empty",
+      "vacant",
+      "unoccupied",
+      "space",
+      "leisure",
+      "free time"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0420",
+        "pinyin": "kōng",
+        "partOfSpeech": [
+          "Adj",
+          "Adv"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0442",
+    "simplified": "口袋",
+    "pinyin": "kǒu dài",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "pocket",
+      "bag; sack"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0443",
+    "simplified": "口语",
+    "traditional": "口語",
+    "pinyin": "kǒu yǔ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "colloquial speech",
+      "spoken language",
+      "vernacular language",
+      "slander",
+      "gossip",
+      "CL:門/门"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0444",
+    "simplified": "苦",
+    "pinyin": "kǔ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "bitter",
+      "hardship",
+      "pain",
+      "to suffer",
+      "to bring suffering to",
+      "painstakingly"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0445",
+    "simplified": "会计",
+    "traditional": "會計",
+    "pinyin": "kuài jì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "accountant",
+      "accountancy",
+      "accounting"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0446",
+    "simplified": "快递",
+    "traditional": "快遞",
+    "pinyin": "kuài dì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "express delivery"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0447",
+    "simplified": "宽",
+    "traditional": "寬",
+    "pinyin": "kuān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "wide",
+      "broad",
+      "loose",
+      "relaxed",
+      "lenient"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0448",
+    "simplified": "宽广",
+    "traditional": "寬廣",
+    "pinyin": "kuān guǎng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "wide",
+      "broad",
+      "extensive",
+      "vast"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0449",
+    "simplified": "矿泉水",
+    "traditional": "礦泉水",
+    "pinyin": "kuàng quán shuǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "mineral water",
+      "CL:瓶,杯"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0450",
+    "simplified": "扩大",
+    "traditional": "擴大",
+    "pinyin": "kuò dà",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to expand",
+      "to enlarge",
+      "to broaden one's scope"
+    ],
+    "needsEnglish": false
+  }
+]

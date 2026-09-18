@@ -1,0 +1,730 @@
+[
+  {
+    "id": "L4-0946",
+    "simplified": "政府",
+    "pinyin": "zhèng fǔ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "government",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0947",
+    "simplified": "政治",
+    "pinyin": "zhèng zhì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "politics",
+      "political"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0948",
+    "simplified": "之后",
+    "traditional": "之後",
+    "pinyin": "zhī hòu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "after; behind",
+      "(at the beginning of a sentence) afterwards; since then"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0949",
+    "simplified": "之间",
+    "traditional": "之間",
+    "pinyin": "zhī jiān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(after a noun) between; among; amid",
+      "(used after certain bisyllabic words to form expressions indicating a short period of time, e.g. 彈指之間/弹指之间)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0950",
+    "simplified": "之前",
+    "pinyin": "zhī qián",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "before",
+      "prior to",
+      "ago",
+      "previously",
+      "beforehand"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0951",
+    "simplified": "之一",
+    "pinyin": "zhī yī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "one of (sth)",
+      "one out of a multitude",
+      "one (third, quarter, percent etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0952",
+    "simplified": "支",
+    "pinyin": "zhī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to support",
+      "to sustain",
+      "to erect",
+      "to raise",
+      "branch",
+      "division",
+      "to draw money",
+      "classifier for rods such as pens and guns, for army divisions and for songs or compositions"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0902",
+        "pinyin": "zhī",
+        "partOfSpeech": [
+          "M"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0953",
+    "simplified": "植物",
+    "pinyin": "zhí wù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "plant",
+      "vegetation",
+      "CL:種/种"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0954",
+    "simplified": "指挥",
+    "traditional": "指揮",
+    "pinyin": "zhǐ huī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to conduct",
+      "to command",
+      "to direct",
+      "conductor (of an orchestra)",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0955",
+    "simplified": "制订",
+    "traditional": "制訂",
+    "pinyin": "zhì dìng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to work out",
+      "to formulate"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0956",
+    "simplified": "质量",
+    "traditional": "質量",
+    "pinyin": "zhì liàng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(physics) mass",
+      "quality (i.e. degree of excellence)",
+      "quality and quantity"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0957",
+    "simplified": "治",
+    "pinyin": "zhì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to rule",
+      "to govern",
+      "to manage",
+      "to control",
+      "to harness (a river)",
+      "to treat (a disease)",
+      "to wipe out (a pest)",
+      "to punish",
+      "to research"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0958",
+    "simplified": "治疗",
+    "traditional": "治療",
+    "pinyin": "zhì liáo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to treat (an illness)",
+      "medical treatment",
+      "therapy"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0959",
+    "simplified": "智力",
+    "pinyin": "zhì lì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "intelligence",
+      "intellect"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0960",
+    "simplified": "智能",
+    "pinyin": "zhì néng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "intelligent",
+      "able",
+      "smart (phone, system, bomb etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0961",
+    "simplified": "中介",
+    "pinyin": "zhōng jiè",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to act as intermediary",
+      "to link",
+      "intermediate",
+      "inter-",
+      "agency",
+      "agent"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0962",
+    "simplified": "种类",
+    "traditional": "種類",
+    "pinyin": "zhǒng lèi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "kind",
+      "genus",
+      "type",
+      "category",
+      "variety",
+      "species",
+      "sort",
+      "class"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0963",
+    "simplified": "中奖",
+    "traditional": "中獎",
+    "pinyin": "zhòng jiǎng",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to win a prize (in a lottery etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0964",
+    "simplified": "种",
+    "traditional": "種",
+    "pinyin": "zhòng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to plant",
+      "to grow",
+      "to cultivate"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0931",
+        "pinyin": "zhǒng",
+        "partOfSpeech": [
+          "M"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0965",
+    "simplified": "种植",
+    "traditional": "種植",
+    "pinyin": "zhòng zhí",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to plant; to grow (a crop); to cultivate"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0966",
+    "simplified": "重量",
+    "pinyin": "zhòng liàng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "weight",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0967",
+    "simplified": "逐步",
+    "pinyin": "zhú bù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "progressively",
+      "step by step"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0968",
+    "simplified": "逐渐",
+    "traditional": "逐漸",
+    "pinyin": "zhú jiàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "gradually"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0969",
+    "simplified": "主题",
+    "traditional": "主題",
+    "pinyin": "zhǔ tí",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "theme",
+      "subject"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0970",
+    "simplified": "主席",
+    "pinyin": "zhǔ xí",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "chairperson",
+      "premier",
+      "chairman",
+      "CL:個/个,位"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0971",
+    "simplified": "祝福",
+    "pinyin": "zhù fú",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "blessings",
+      "to wish sb well"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0972",
+    "simplified": "著名",
+    "pinyin": "zhù míng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "famous",
+      "noted",
+      "well-known",
+      "celebrated"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0973",
+    "simplified": "著作",
+    "pinyin": "zhù zuò",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to write",
+      "literary work",
+      "book",
+      "article",
+      "writings",
+      "CL:部"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0974",
+    "simplified": "抓紧",
+    "traditional": "抓緊",
+    "pinyin": "zhuā jǐn",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to keep a firm grip on",
+      "to pay close attention to",
+      "to lose no time in (doing sth)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0975",
+    "simplified": "专心",
+    "traditional": "專心",
+    "pinyin": "zhuān xīn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "to focus one's attention; to concentrate on (doing sth)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0976",
+    "simplified": "转动",
+    "traditional": "轉動",
+    "pinyin": "zhuǎn dòng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to turn sth around",
+      "to swivel"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0977",
+    "simplified": "转告",
+    "traditional": "轉告",
+    "pinyin": "zhuǎn gào",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to pass on",
+      "to communicate",
+      "to transmit"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0978",
+    "simplified": "转身",
+    "traditional": "轉身",
+    "pinyin": "zhuǎn shēn",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "(of a person) to turn round",
+      "to face about",
+      "(of a widow) to remarry (archaic)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0979",
+    "simplified": "转弯",
+    "traditional": "轉彎",
+    "pinyin": "zhuǎn wān",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to turn",
+      "to go around a corner"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0980",
+    "simplified": "转移",
+    "traditional": "轉移",
+    "pinyin": "zhuǎn yí",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to shift; to relocate; to transfer",
+      "(fig.) to shift (attention); to change (the subject etc)",
+      "(medicine) to metastasize"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0981",
+    "simplified": "装修",
+    "traditional": "裝修",
+    "pinyin": "zhuāng xiū",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to decorate",
+      "interior decoration",
+      "to fit up",
+      "to renovate"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0982",
+    "simplified": "装置",
+    "traditional": "裝置",
+    "pinyin": "zhuāng zhì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to install",
+      "installation",
+      "equipment",
+      "system",
+      "unit",
+      "device"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0983",
+    "simplified": "追求",
+    "pinyin": "zhuī qiú",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to pursue (a goal etc) stubbornly",
+      "to seek after",
+      "to woo"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0984",
+    "simplified": "准时",
+    "traditional": "準時",
+    "pinyin": "zhǔn shí",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "on time",
+      "punctual",
+      "on schedule"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0985",
+    "simplified": "资料",
+    "traditional": "資料",
+    "pinyin": "zī liào",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "material",
+      "resources",
+      "data",
+      "information",
+      "profile (Internet)",
+      "CL:份,個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0986",
+    "simplified": "资源",
+    "traditional": "資源",
+    "pinyin": "zī yuán",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "natural resource (such as water or minerals)",
+      "resource (such as manpower or tourism)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0987",
+    "simplified": "自",
+    "pinyin": "zì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Prep"
+    ],
+    "cedictDefinitions": [
+      "(bound form) self; oneself",
+      "from; since",
+      "naturally; as a matter of course"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0988",
+    "simplified": "自信",
+    "pinyin": "zì xìn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to have confidence in oneself",
+      "self-confidence"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0989",
+    "simplified": "字母",
+    "pinyin": "zì mǔ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "letter (of the alphabet)",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0990",
+    "simplified": "综合",
+    "traditional": "綜合",
+    "pinyin": "zōng hé",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "comprehensive",
+      "composite",
+      "synthesized",
+      "mixed",
+      "to sum up",
+      "to integrate",
+      "to synthesize"
+    ],
+    "needsEnglish": false
+  }
+]

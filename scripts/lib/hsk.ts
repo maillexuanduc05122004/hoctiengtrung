@@ -1,5 +1,5 @@
 /**
- * Chuẩn hoá danh sách HSK 3.0 (cấp 1-3) từ kho ivankra/hsk30 và ghép nghĩa
+ * Chuẩn hoá danh sách HSK 3.0 (cấp 1-4) từ kho ivankra/hsk30 và ghép nghĩa
  * tiếng Anh từ CC-CEDICT.
  *
  * Vài chỗ trong danh sách gốc không phải chữ Hán thuần, ví dụ "爸爸|爸" (hai
@@ -11,7 +11,15 @@ import { formatPinyin, formatPinyinPlain, parsePinyin } from '../../src/lib/piny
 import { parseCsvRecords } from './csv.ts';
 import { indexCedict, pickEnglishMeanings, type CedictEntry, type CedictIndex } from './cedict.ts';
 
-export type HskLevel = 1 | 2 | 3;
+/** Phải trùng với `HskLevel` trong src/types/vocabulary.ts. */
+export type HskLevel = 1 | 2 | 3 | 4;
+
+/** Các cấp được nhập từ nguồn, theo thứ tự tăng dần. */
+export const HSK_LEVELS: readonly HskLevel[] = [1, 2, 3, 4];
+
+export function isHskLevel(value: unknown): value is HskLevel {
+  return HSK_LEVELS.some((level) => level === value);
+}
 
 interface RawVariant {
   Simplified: string;
@@ -95,7 +103,10 @@ export interface NormalizeResult {
   warnings: string[];
 }
 
-/** Đọc hsk30.csv và trả về danh sách từ cấp 1-3 đã chuẩn hoá. */
+/**
+ * Đọc hsk30.csv và trả về danh sách từ của các cấp trong `HSK_LEVELS` đã chuẩn
+ * hoá, giữ nguyên thứ tự dòng của nguồn (cấp 1 trước, rồi 2, 3, 4).
+ */
 export function normalizeHsk(
   hskCsv: string,
   cedictEntries: readonly CedictEntry[],
@@ -107,7 +118,7 @@ export function normalizeHsk(
 
   for (const record of records) {
     const level = Number(record.Level);
-    if (level !== 1 && level !== 2 && level !== 3) continue;
+    if (!isHskLevel(level)) continue;
 
     const variants = readVariants(record);
     const real = variants.filter((v) => v.Example !== '1');
@@ -177,7 +188,7 @@ export function normalizeHsk(
       pinyin: display.pinyin,
       pinyinPlain: display.plain,
       pinyinAliases: [...pinyinAliases],
-      hskLevel: level as HskLevel,
+      hskLevel: level,
       partOfSpeech,
       meaningsEn: english.meanings,
       aliasesEn: english.aliases,

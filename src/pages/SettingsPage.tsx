@@ -21,7 +21,7 @@ import {
   type SpeechRate,
   type ThemePreference,
 } from '../types/settings.ts';
-import type { HskLevel } from '../types/vocabulary.ts';
+import { HSK_LEVELS, type HskLevel } from '../types/vocabulary.ts';
 
 const DISPLAY_OPTIONS: readonly SegmentedOption<DisplayMode>[] = [
   { value: 'vi-zh', label: 'Việt + Trung' },
@@ -34,8 +34,6 @@ const THEME_OPTIONS: readonly SegmentedOption<ThemePreference>[] = [
   { value: 'dark', label: 'Tối' },
   { value: 'system', label: 'Theo hệ thống' },
 ];
-
-const LEVELS: readonly HskLevel[] = [1, 2, 3];
 
 const RATE_LABELS: Record<SpeechRate, string> = {
   0.7: '0,7× chậm',
@@ -283,7 +281,7 @@ export function SettingsPage() {
           <div
             className="flex flex-wrap items-center space-x-2"
           >
-            {LEVELS.map((level) => {
+            {HSK_LEVELS.map((level) => {
               const selected = settings.activeLevels.includes(level);
               return (
                 <button

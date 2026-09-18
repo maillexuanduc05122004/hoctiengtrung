@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L4-0091",
+    "vi": ["thừa nhận", "công nhận"],
+    "viAliases": ["nhận", "chấp nhận"],
+    "en": ["to admit", "to concede", "to recognize"],
+    "enSource": "cedict",
+    "example": { "zh": "他承认自己错了。", "vi": "Anh ấy thừa nhận mình đã sai.", "en": "He admitted that he was wrong." }
+  },
+  {
+    "id": "L4-0092",
+    "vi": ["chịu đựng", "gánh chịu"],
+    "viAliases": ["chịu", "chống đỡ"],
+    "en": ["to bear", "to support"],
+    "enSource": "cedict",
+    "example": { "zh": "他承受了很大的压力。", "vi": "Anh ấy đã chịu đựng áp lực rất lớn.", "en": "He has borne a great deal of pressure." }
+  },
+  {
+    "id": "L4-0093",
+    "vi": ["chương trình (máy tính)", "trình tự", "thủ tục"],
+    "viAliases": ["phần mềm", "quy trình"],
+    "en": ["computer program", "procedures", "sequence"],
+    "enSource": "cedict",
+    "example": { "zh": "他会写电脑程序。", "vi": "Anh ấy biết viết chương trình máy tính.", "en": "He can write computer programs." }
+  },
+  {
+    "id": "L4-0094",
+    "vi": ["kinh ngạc", "giật mình", "ngạc nhiên"],
+    "viAliases": ["sửng sốt", "bất ngờ"],
+    "en": ["to be startled", "to be shocked", "to be amazed"],
+    "enSource": "cedict",
+    "example": { "zh": "听到这个消息，我很吃惊。", "vi": "Nghe tin này, tôi rất kinh ngạc.", "en": "Hearing this news, I was very surprised." }
+  },
+  {
+    "id": "L4-0095",
+    "vi": ["đến muộn", "đi trễ"],
+    "viAliases": ["trễ giờ", "muộn"],
+    "en": ["to arrive late"],
+    "enSource": "cedict",
+    "example": { "zh": "他今天上课迟到了。", "vi": "Hôm nay anh ấy đi học muộn.", "en": "He was late for class today." }
+  },
+  {
+    "id": "L4-0096",
+    "vi": ["thước (đơn vị đo, khoảng 1/3 mét)", "cây thước"],
+    "viAliases": ["xích", "thước kẻ"],
+    "en": ["a Chinese foot", "one-third of a meter", "a ruler"],
+    "enSource": "cedict",
+    "example": { "zh": "这张桌子高三尺。", "vi": "Cái bàn này cao ba thước (khoảng một mét).", "en": "This table is three chi (about one meter) tall." }
+  },
+  {
+    "id": "L4-0097",
+    "vi": ["kích cỡ", "kích thước"],
+    "viAliases": ["size", "cỡ"],
+    "en": ["size; dimensions; measurements (esp. of clothes)"],
+    "enSource": "cedict",
+    "example": { "zh": "这件衣服的尺寸不合适。", "vi": "Kích cỡ của bộ quần áo này không vừa.", "en": "The size of this piece of clothing is not right." }
+  },
+  {
+    "id": "L4-0098",
+    "vi": ["thước kẻ", "cây thước"],
+    "viAliases": ["thước"],
+    "en": ["ruler (measuring instrument)"],
+    "enSource": "cedict",
+    "example": { "zh": "请借我一把尺子。", "vi": "Cho tôi mượn một cây thước nhé.", "en": "Please lend me a ruler." }
+  },
+  {
+    "id": "L4-0099",
+    "vi": ["xông", "lao tới", "xả (nước)"],
+    "viAliases": ["pha (trà)", "dội nước"],
+    "en": ["to rush", "to rinse", "to mix with water"],
+    "enSource": "cedict",
+    "example": { "zh": "他冲进了教室。", "vi": "Anh ấy lao vào lớp học.", "en": "He rushed into the classroom." }
+  },
+  {
+    "id": "L4-0100",
+    "vi": ["sạc điện", "sạc pin"],
+    "viAliases": ["nạp điện", "sạc"],
+    "en": ["to recharge (a battery)"],
+    "enSource": "cedict",
+    "example": { "zh": "我的手机需要充电。", "vi": "Điện thoại của tôi cần sạc pin.", "en": "My phone needs charging." }
+  },
+  {
+    "id": "L4-0101",
+    "vi": ["bộ sạc", "cục sạc"],
+    "viAliases": ["dây sạc", "sạc"],
+    "en": ["battery charger"],
+    "enSource": "cedict",
+    "example": { "zh": "你带充电器了吗？", "vi": "Bạn có mang bộ sạc không?", "en": "Did you bring the charger?" }
+  },
+  {
+    "id": "L4-0102",
+    "vi": ["đầy đủ", "dồi dào", "thỏa đáng"],
+    "viAliases": ["đủ", "thích đáng"],
+    "en": ["ample", "sufficient", "adequate"],
+    "enSource": "cedict",
+    "example": { "zh": "我们有充分的时间。", "vi": "Chúng tôi có thời gian dồi dào.", "en": "We have ample time." }
+  },
+  {
+    "id": "L4-0103",
+    "vi": ["con sâu", "côn trùng", "con bọ"],
+    "viAliases": ["sâu bọ", "sâu"],
+    "en": ["insect", "bug", "worm"],
+    "enSource": "cedict",
+    "example": { "zh": "树上有很多虫子。", "vi": "Trên cây có rất nhiều sâu bọ.", "en": "There are many bugs on the tree." }
+  },
+  {
+    "id": "L4-0104",
+    "vi": ["rút ra", "lôi ra", "hút (thuốc)"],
+    "viAliases": ["rút", "trích"],
+    "en": ["to draw out; to pull out from in between", "to remove part of the whole", "to inhale (esp. smoke)"],
+    "enSource": "cedict",
+    "example": { "zh": "他从包里抽出一本书。", "vi": "Anh ấy rút một cuốn sách ra khỏi túi.", "en": "He pulled a book out of his bag." }
+  },
+  {
+    "id": "L4-0105",
+    "vi": ["rút thăm trúng thưởng", "quay số trúng thưởng"],
+    "viAliases": ["bốc thăm", "xổ số"],
+    "en": ["to draw a prize", "a lottery", "a raffle"],
+    "enSource": "cedict",
+    "example": { "zh": "商店今天有抽奖活动。", "vi": "Hôm nay cửa hàng có hoạt động rút thăm trúng thưởng.", "en": "The store has a prize draw event today." }
+  },
+  {
+    "id": "L4-0106",
+    "vi": ["hút thuốc", "hút thuốc lá"],
+    "viAliases": ["phì phèo"],
+    "en": ["to smoke (cigarettes)"],
+    "enSource": "written",
+    "example": { "zh": "这里不能抽烟。", "vi": "Ở đây không được hút thuốc.", "en": "Smoking is not allowed here." }
+  },
+  {
+    "id": "L4-0107",
+    "vi": ["xuất khẩu"],
+    "viAliases": ["bán ra nước ngoài"],
+    "en": ["to export"],
+    "enSource": "cedict",
+    "example": { "zh": "这些水果出口到很多国家。", "vi": "Những loại trái cây này được xuất khẩu sang nhiều nước.", "en": "These fruits are exported to many countries." }
+  },
+  {
+    "id": "L4-0108",
+    "vi": ["xuất sắc", "nổi bật"],
+    "viAliases": ["giỏi", "ưu tú"],
+    "en": ["remarkable; outstanding"],
+    "enSource": "cedict",
+    "example": { "zh": "他是一位出色的老师。", "vi": "Anh ấy là một giáo viên xuất sắc.", "en": "He is an outstanding teacher." }
+  },
+  {
+    "id": "L4-0109",
+    "vi": ["bán", "bán ra"],
+    "viAliases": ["rao bán", "tiêu thụ"],
+    "en": ["to sell", "to offer for sale", "to put on the market"],
+    "enSource": "cedict",
+    "example": { "zh": "这家店出售新鲜水果。", "vi": "Cửa hàng này bán trái cây tươi.", "en": "This shop sells fresh fruit." }
+  },
+  {
+    "id": "L4-0110",
+    "vi": ["tham dự", "có mặt"],
+    "viAliases": ["dự", "tham gia"],
+    "en": ["to attend", "to participate"],
+    "enSource": "cedict",
+    "example": { "zh": "校长出席了今天的会议。", "vi": "Hiệu trưởng đã tham dự cuộc họp hôm nay.", "en": "The principal attended today's meeting." }
+  },
+  {
+    "id": "L4-0111",
+    "vi": ["ở vào (trạng thái, vị trí)", "đang trong"],
+    "viAliases": ["nằm trong", "lâm vào"],
+    "en": ["to be in (some state, position, or condition)"],
+    "enSource": "cedict",
+    "example": { "zh": "公司正处于困难时期。", "vi": "Công ty đang ở vào thời kỳ khó khăn.", "en": "The company is in a difficult period." }
+  },
+  {
+    "id": "L4-0112",
+    "vi": ["nơi", "chỗ", "phòng (ban)"],
+    "viAliases": ["địa điểm", "điểm"],
+    "en": ["(bound form) place; locality", "(bound form) part; aspect", "(bound form) office; department; bureau"],
+    "enSource": "cedict",
+    "example": { "zh": "春天到处都是花。", "vi": "Mùa xuân nơi nào cũng có hoa.", "en": "In spring there are flowers everywhere." }
+  },
+  {
+    "id": "L4-0113",
+    "vi": ["mặc vào", "đi vào (giày, tất)"],
+    "viAliases": ["khoác vào", "mặc"],
+    "en": ["to put on (clothes etc)"],
+    "enSource": "cedict",
+    "example": { "zh": "天冷了，快穿上衣服。", "vi": "Trời lạnh rồi, mau mặc quần áo vào.", "en": "It is cold, put on your clothes quickly." }
+  },
+  {
+    "id": "L4-0114",
+    "vi": ["truyền thống"],
+    "viAliases": ["cổ truyền", "tập tục"],
+    "en": ["tradition; traditional"],
+    "enSource": "cedict",
+    "example": { "zh": "春节是中国的传统节日。", "vi": "Tết Nguyên đán là ngày lễ truyền thống của Trung Quốc.", "en": "Spring Festival is a traditional Chinese festival." }
+  },
+  {
+    "id": "L4-0115",
+    "vi": ["cửa sổ"],
+    "viAliases": ["ô cửa sổ"],
+    "en": ["window"],
+    "enSource": "cedict",
+    "example": { "zh": "请把窗户打开。", "vi": "Xin hãy mở cửa sổ ra.", "en": "Please open the window." }
+  },
+  {
+    "id": "L4-0116",
+    "vi": ["bệ cửa sổ", "gờ cửa sổ"],
+    "viAliases": ["bậu cửa sổ"],
+    "en": ["windowsill; window ledge"],
+    "enSource": "cedict",
+    "example": { "zh": "猫在窗台上睡觉。", "vi": "Con mèo ngủ trên bệ cửa sổ.", "en": "The cat is sleeping on the windowsill." }
+  },
+  {
+    "id": "L4-0117",
+    "vi": ["cửa sổ"],
+    "viAliases": ["ô cửa sổ"],
+    "en": ["window"],
+    "enSource": "cedict",
+    "example": { "zh": "房间的窗子很大。", "vi": "Cửa sổ của căn phòng rất to.", "en": "The room's window is very big." }
+  },
+  {
+    "id": "L4-0118",
+    "vi": ["mùa xuân"],
+    "viAliases": ["xuân", "tiết xuân"],
+    "en": ["springtime"],
+    "enSource": "cedict",
+    "example": { "zh": "春季的天气很暖和。", "vi": "Thời tiết mùa xuân rất ấm áp.", "en": "The weather in spring is very warm." }
+  },
+  {
+    "id": "L4-0119",
+    "vi": ["thuần", "nguyên chất", "thuần khiết"],
+    "viAliases": ["tinh khiết", "không pha"],
+    "en": ["pure", "unmixed", "genuine"],
+    "enSource": "cedict",
+    "example": { "zh": "这是一杯纯果汁。", "vi": "Đây là một cốc nước ép trái cây nguyên chất.", "en": "This is a glass of pure fruit juice." }
+  },
+  {
+    "id": "L4-0120",
+    "vi": ["nước tinh khiết"],
+    "viAliases": ["nước lọc", "nước suối"],
+    "en": ["purified water"],
+    "enSource": "cedict",
+    "example": { "zh": "请给我一瓶纯净水。", "vi": "Cho tôi một chai nước tinh khiết.", "en": "Please give me a bottle of purified water." }
+  },
+  {
+    "id": "L4-0121",
+    "vi": ["từ vựng"],
+    "viAliases": ["vốn từ", "từ ngữ"],
+    "en": ["vocabulary", "list of words (e.g. for language teaching purposes)"],
+    "enSource": "cedict",
+    "example": { "zh": "他的英语词汇很丰富。", "vi": "Vốn từ vựng tiếng Anh của anh ấy rất phong phú.", "en": "His English vocabulary is very rich." }
+  },
+  {
+    "id": "L4-0122",
+    "vi": ["này", "đây", "cái này"],
+    "viAliases": ["thử"],
+    "en": ["this; these"],
+    "enSource": "cedict",
+    "example": { "zh": "此事我已经知道了。", "vi": "Chuyện này tôi đã biết rồi.", "en": "I already know about this matter." }
+  },
+  {
+    "id": "L4-0123",
+    "vi": ["ngoài ra", "hơn nữa", "bên cạnh đó"],
+    "viAliases": ["thêm vào đó", "vả lại"],
+    "en": ["besides; in addition; moreover; furthermore"],
+    "enSource": "cedict",
+    "example": { "zh": "他会英语，此外还会汉语。", "vi": "Anh ấy biết tiếng Anh, ngoài ra còn biết tiếng Trung.", "en": "He speaks English; in addition, he also speaks Chinese." }
+  },
+  {
+    "id": "L4-0124",
+    "vi": ["kém (chất lượng)", "hạng hai", "thứ yếu"],
+    "viAliases": ["tồi", "phụ"],
+    "en": ["inferior quality", "substandard", "secondary"],
+    "enSource": "cedict",
+    "example": { "zh": "这些苹果太次了，别买。", "vi": "Mấy quả táo này kém quá, đừng mua.", "en": "These apples are of too poor quality, don't buy them." }
+  },
+  {
+    "id": "L4-0125",
+    "vi": ["đâm", "chích", "gai"],
+    "viAliases": ["châm", "xương (cá)"],
+    "en": ["to prick", "to stab", "thorn"],
+    "enSource": "cedict",
+    "example": { "zh": "小心，这种花有刺。", "vi": "Cẩn thận, loài hoa này có gai.", "en": "Be careful, this kind of flower has thorns." }
+  },
+  {
+    "id": "L4-0126",
+    "vi": ["kích thích", "kích động", "sự kích thích"],
+    "viAliases": ["khiêu khích", "chọc tức"],
+    "en": ["to provoke; to irritate; to upset; to stimulate; to excite", "irritant"],
+    "enSource": "cedict",
+    "example": { "zh": "别刺激他，他心情不好。", "vi": "Đừng kích động anh ấy, tâm trạng anh ấy đang không tốt.", "en": "Don't provoke him, he is in a bad mood." }
+  },
+  {
+    "id": "L4-0127",
+    "vi": ["từ đó", "từ đó trở đi", "từ nay"],
+    "viAliases": ["kể từ đó", "từ đây"],
+    "en": ["from now on", "since then", "henceforth"],
+    "enSource": "cedict",
+    "example": { "zh": "从此，他再也没有迟到过。", "vi": "Từ đó, anh ấy không bao giờ đi muộn nữa.", "en": "Since then, he has never been late again." }
+  },
+  {
+    "id": "L4-0128",
+    "vi": ["to (vật dài)", "thô", "thô kệch"],
+    "viAliases": ["dày", "cục mịch"],
+    "en": ["(of sth long) wide; thick", "(of sth granular) coarse", "(of sb's manner etc) rough; crude; careless; rude"],
+    "enSource": "cedict",
+    "example": { "zh": "这棵树又高又粗。", "vi": "Cây này vừa cao vừa to.", "en": "This tree is both tall and thick." }
+  },
+  {
+    "id": "L4-0129",
+    "vi": ["bất cẩn", "cẩu thả"],
+    "viAliases": ["lơ đễnh", "hậu đậu"],
+    "en": ["careless", "thoughtless"],
+    "enSource": "cedict",
+    "example": { "zh": "他太粗心，又忘了带钥匙。", "vi": "Anh ấy quá bất cẩn, lại quên mang chìa khóa.", "en": "He is so careless; he forgot his keys again." }
+  },
+  {
+    "id": "L4-0130",
+    "vi": ["thúc đẩy", "xúc tiến"],
+    "viAliases": ["đẩy mạnh", "tăng cường"],
+    "en": ["to promote (an idea or cause); to advance; boost"],
+    "enSource": "cedict",
+    "example": { "zh": "运动能促进身体健康。", "vi": "Vận động có thể thúc đẩy sức khỏe cơ thể.", "en": "Exercise can promote physical health." }
+  },
+  {
+    "id": "L4-0131",
+    "vi": ["thúc đẩy", "khiến cho", "thôi thúc"],
+    "viAliases": ["thúc giục", "buộc"],
+    "en": ["to prompt; to induce; to spur"],
+    "enSource": "cedict",
+    "example": { "zh": "这件事促使他做出改变。", "vi": "Việc này đã thúc đẩy anh ấy thay đổi.", "en": "This matter prompted him to make a change." }
+  },
+  {
+    "id": "L4-0132",
+    "vi": ["khuyến mãi", "thúc đẩy tiêu thụ"],
+    "viAliases": ["giảm giá", "khuyến mại"],
+    "en": ["to promote sales"],
+    "enSource": "cedict",
+    "example": { "zh": "商店正在促销，很便宜。", "vi": "Cửa hàng đang khuyến mãi, rất rẻ.", "en": "The store is running a sales promotion; things are very cheap." }
+  },
+  {
+    "id": "L4-0133",
+    "vi": ["biện pháp"],
+    "viAliases": ["giải pháp", "cách thức"],
+    "en": ["measure", "step"],
+    "enSource": "cedict",
+    "example": { "zh": "这些措施非常有效。", "vi": "Những biện pháp này rất hiệu quả.", "en": "These measures are very effective." }
+  },
+  {
+    "id": "L4-0134",
+    "vi": ["tá (12 cái)"],
+    "viAliases": ["một tá"],
+    "en": ["(loanword) dozen"],
+    "enSource": "cedict",
+    "example": { "zh": "我买了一打鸡蛋。", "vi": "Tôi đã mua một tá trứng gà.", "en": "I bought a dozen eggs." }
+  },
+  {
+    "id": "L4-0135",
+    "vi": ["đáp án", "câu trả lời", "lời giải"],
+    "viAliases": ["kết quả", "giải đáp"],
+    "en": ["answer", "solution"],
+    "enSource": "cedict",
+    "example": { "zh": "这道题的答案是什么？", "vi": "Đáp án của bài này là gì?", "en": "What is the answer to this question?" }
+  }
+]

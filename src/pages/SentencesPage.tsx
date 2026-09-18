@@ -4,7 +4,7 @@
  * Tách hẳn khỏi phần còn lại của ứng dụng vì nó chạy trên MỘT VỐN TỪ KHÁC: những
  * từ người học khai là mình đã học, chứ không phải bộ HSK 3.0 chia buổi sẵn.
  * Trộn hai thứ vào nhau thì mất cả hai — bộ HSK mất tính chuẩn, còn danh sách
- * riêng thì lạc giữa 2.245 từ.
+ * riêng thì lạc giữa 3.245 từ.
  *
  * Đây cũng là phần DUY NHẤT của ứng dụng cần máy chủ: vốn từ và câu nằm trên
  * đó để AI viết câu mới từ đúng những từ đã học. Chưa đăng nhập thì trang chỉ

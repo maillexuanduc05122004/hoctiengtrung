@@ -1,0 +1,729 @@
+[
+  {
+    "id": "L4-0901",
+    "simplified": "于是",
+    "traditional": "於是",
+    "pinyin": "yú shì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "thereupon; as a result; consequently; thus; hence"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0902",
+    "simplified": "语法",
+    "traditional": "語法",
+    "pinyin": "yǔ fǎ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "grammar",
+      "(computing) syntax"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0903",
+    "simplified": "语音",
+    "traditional": "語音",
+    "pinyin": "yǔ yīn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "speech sounds",
+      "pronunciation",
+      "colloquial (rather than literary) pronunciation of a Chinese character",
+      "phonetic",
+      "audio",
+      "voice",
+      "(Internet) to voice chat",
+      "voice message"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0904",
+    "simplified": "玉",
+    "pinyin": "yù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "jade"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0905",
+    "simplified": "玉米",
+    "pinyin": "yù mǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "corn",
+      "maize",
+      "CL:粒"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0906",
+    "simplified": "预测",
+    "traditional": "預測",
+    "pinyin": "yù cè",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to forecast",
+      "to predict"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0907",
+    "simplified": "预订",
+    "traditional": "預訂",
+    "pinyin": "yù dìng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to place an order",
+      "to book ahead"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0908",
+    "simplified": "遇",
+    "pinyin": "yù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "(bound form) to encounter; to happen upon; to meet unplanned",
+      "(bound form) to treat; to receive"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0909",
+    "simplified": "遇到",
+    "pinyin": "yù dào",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to meet; to run into; to come across"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0910",
+    "simplified": "遇见",
+    "traditional": "遇見",
+    "pinyin": "yù jiàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to meet"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0911",
+    "simplified": "原料",
+    "pinyin": "yuán liào",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "raw material"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0912",
+    "simplified": "原则",
+    "traditional": "原則",
+    "pinyin": "yuán zé",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "principle",
+      "doctrine",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0913",
+    "simplified": "圆",
+    "traditional": "圓",
+    "pinyin": "yuán",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "circle",
+      "round",
+      "circular",
+      "spherical",
+      "(of the moon) full",
+      "unit of Chinese currency (yuan)",
+      "tactful",
+      "to make consistent and whole (the narrative of a dream or a lie)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0914",
+    "simplified": "圆满",
+    "traditional": "圓滿",
+    "pinyin": "yuán mǎn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "satisfactory; consummate; perfect"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0915",
+    "simplified": "约会",
+    "traditional": "約會",
+    "pinyin": "yuē huì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "appointment",
+      "engagement",
+      "date",
+      "CL:次,個/个",
+      "to arrange to meet"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0916",
+    "simplified": "月底",
+    "pinyin": "yuè dǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "end of the month"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0917",
+    "simplified": "阅读",
+    "traditional": "閱讀",
+    "pinyin": "yuè dú",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to read",
+      "reading"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0918",
+    "simplified": "运动会",
+    "traditional": "運動會",
+    "pinyin": "yùn dòng huì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "sports competition",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0919",
+    "simplified": "运动员",
+    "traditional": "運動員",
+    "pinyin": "yùn dòng yuán",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "athlete",
+      "CL:名,個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0920",
+    "simplified": "运气",
+    "traditional": "運氣",
+    "pinyin": "yùn qi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "luck (good or bad)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0921",
+    "simplified": "运用",
+    "traditional": "運用",
+    "pinyin": "yùn yòng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to use",
+      "to put to use"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0922",
+    "simplified": "再三",
+    "pinyin": "zài sān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "over and over again",
+      "again and again"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0923",
+    "simplified": "在乎",
+    "pinyin": "zài hu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to rest with; to lie in; to be due to (a certain attribute)",
+      "(often used in the negative) to care about"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0924",
+    "simplified": "在于",
+    "traditional": "在於",
+    "pinyin": "zài yú",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to rest with; to lie in; to be due to (a certain attribute)",
+      "(of a matter) to be determined by; to be up to (sb)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0925",
+    "simplified": "赞成",
+    "traditional": "贊成",
+    "pinyin": "zàn chéng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to approve",
+      "to endorse",
+      "(literary) to assist"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0926",
+    "simplified": "赞赏",
+    "traditional": "讚賞",
+    "pinyin": "zàn shǎng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to admire",
+      "to praise",
+      "to appreciate"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0927",
+    "simplified": "赞助",
+    "traditional": "贊助",
+    "pinyin": "zàn zhù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to support",
+      "to assist",
+      "to sponsor"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0928",
+    "simplified": "造型",
+    "pinyin": "zào xíng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to model; to shape",
+      "appearance; style; design; form; pose"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0929",
+    "simplified": "战斗",
+    "traditional": "戰鬥",
+    "pinyin": "zhàn dòu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to fight",
+      "to engage in combat",
+      "struggle",
+      "battle",
+      "CL:場/场,次"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0930",
+    "simplified": "战胜",
+    "traditional": "戰勝",
+    "pinyin": "zhàn shèng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to prevail over",
+      "to defeat",
+      "to surmount"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0931",
+    "simplified": "战士",
+    "traditional": "戰士",
+    "pinyin": "zhàn shì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "fighter",
+      "soldier",
+      "warrior",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0932",
+    "simplified": "战争",
+    "traditional": "戰爭",
+    "pinyin": "zhàn zhēng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "war; conflict",
+      "CL:場/场,次"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0933",
+    "simplified": "丈夫",
+    "pinyin": "zhàng fu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "husband"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0934",
+    "simplified": "招呼",
+    "pinyin": "zhāo hu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to call out to",
+      "to greet",
+      "to say hello to",
+      "to inform",
+      "to take care of",
+      "to take care that one does not"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0935",
+    "simplified": "着",
+    "traditional": "著",
+    "pinyin": "zháo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to touch",
+      "to come in contact with",
+      "to feel",
+      "to be affected by",
+      "to catch fire",
+      "to burn",
+      "(coll.) to fall asleep",
+      "(after a verb) hitting the mark",
+      "succeeding in"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0469",
+        "pinyin": "zhe",
+        "partOfSpeech": [
+          "Aux"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0936",
+    "simplified": "着火",
+    "traditional": "著火",
+    "pinyin": "zháo huǒ",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to catch fire"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0937",
+    "simplified": "着急",
+    "traditional": "著急",
+    "pinyin": "zháo jí",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to worry; to feel anxious",
+      "to feel a sense of urgency; to be in a hurry",
+      "Taiwan pr."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0938",
+    "simplified": "召开",
+    "traditional": "召開",
+    "pinyin": "zhào kāi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to convene (a conference or meeting)",
+      "to convoke",
+      "to call together"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0939",
+    "simplified": "折",
+    "pinyin": "zhé",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to break",
+      "to fracture",
+      "to snap",
+      "to suffer loss",
+      "to bend",
+      "to twist",
+      "to turn",
+      "to change direction",
+      "convinced",
+      "to convert into (currency)",
+      "discount",
+      "rebate",
+      "tenth (in price)",
+      "classifier for theatrical scenes",
+      "to fold",
+      "accounts book"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0940",
+    "simplified": "针",
+    "traditional": "針",
+    "pinyin": "zhēn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "needle",
+      "pin",
+      "injection",
+      "stitch",
+      "CL:根,支"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0941",
+    "simplified": "针对",
+    "traditional": "針對",
+    "pinyin": "zhēn duì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to target; to focus on; to be aimed at or against; in response to"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0942",
+    "simplified": "阵",
+    "traditional": "陣",
+    "pinyin": "zhèn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "disposition of troops",
+      "wave",
+      "spate",
+      "burst",
+      "spell",
+      "short period of time",
+      "classifier for events or states of short duration"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0943",
+    "simplified": "争论",
+    "traditional": "爭論",
+    "pinyin": "zhēng lùn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to argue",
+      "to debate",
+      "to contend",
+      "argument",
+      "contention",
+      "controversy",
+      "debate",
+      "CL:次,場/场"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0944",
+    "simplified": "征服",
+    "pinyin": "zhēng fú",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to conquer",
+      "to subdue",
+      "to vanquish"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0945",
+    "simplified": "征求",
+    "traditional": "徵求",
+    "pinyin": "zhēng qiú",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to solicit",
+      "to seek",
+      "to request (opinions, feedback etc)",
+      "to petition"
+    ],
+    "needsEnglish": false
+  }
+]

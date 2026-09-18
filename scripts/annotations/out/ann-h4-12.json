@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L4-0496",
+    "vi": ["tàu thủy"],
+    "viAliases": ["tàu biển", "tàu hơi nước"],
+    "en": ["steamship; steamer; steamboat"],
+    "enSource": "cedict",
+    "example": { "zh": "我们坐轮船去上海。", "vi": "Chúng tôi đi tàu thủy đến Thượng Hải.", "en": "We are taking a steamship to Shanghai." }
+  },
+  {
+    "id": "L4-0497",
+    "vi": ["xe lăn"],
+    "viAliases": [],
+    "en": ["wheelchair"],
+    "enSource": "cedict",
+    "example": { "zh": "爷爷现在需要坐轮椅。", "vi": "Ông nội bây giờ cần ngồi xe lăn.", "en": "Grandpa needs to use a wheelchair now." }
+  },
+  {
+    "id": "L4-0498",
+    "vi": ["bánh xe"],
+    "viAliases": [],
+    "en": ["wheel"],
+    "enSource": "cedict",
+    "example": { "zh": "自行车的轮子坏了。", "vi": "Bánh xe đạp bị hỏng rồi.", "en": "The bicycle's wheel is broken." }
+  },
+  {
+    "id": "L4-0499",
+    "vi": ["luận văn", "bài báo khoa học"],
+    "viAliases": ["luận án", "khóa luận"],
+    "en": ["paper", "thesis"],
+    "enSource": "cedict",
+    "example": { "zh": "他正在写毕业论文。", "vi": "Anh ấy đang viết luận văn tốt nghiệp.", "en": "He is writing his graduation thesis." }
+  },
+  {
+    "id": "L4-0500",
+    "vi": ["rơi", "rụng", "lặn (mặt trời)"],
+    "viAliases": ["rớt", "hạ xuống"],
+    "en": ["to fall or drop", "(of the sun) to set", "to lag or fall behind"],
+    "enSource": "cedict",
+    "example": { "zh": "秋天到了，树叶都落了。", "vi": "Mùa thu đến rồi, lá cây đều rụng hết.", "en": "Autumn has come, and the leaves have all fallen." }
+  },
+  {
+    "id": "L4-0501",
+    "vi": ["khăn mặt", "khăn bông"],
+    "viAliases": ["khăn lau", "khăn tắm"],
+    "en": ["towel"],
+    "enSource": "cedict",
+    "example": { "zh": "请给我一条干净的毛巾。", "vi": "Xin đưa cho tôi một chiếc khăn mặt sạch.", "en": "Please give me a clean towel." }
+  },
+  {
+    "id": "L4-0502",
+    "vi": ["áo len"],
+    "viAliases": ["áo ấm"],
+    "en": ["(wool) sweater"],
+    "enSource": "cedict",
+    "example": { "zh": "天冷了，穿上毛衣吧。", "vi": "Trời lạnh rồi, mặc áo len vào đi.", "en": "It's getting cold, put on a sweater." }
+  },
+  {
+    "id": "L4-0503",
+    "vi": ["mũ", "nón"],
+    "viAliases": ["mũ nón"],
+    "en": ["hat", "cap"],
+    "enSource": "cedict",
+    "example": { "zh": "他戴着一顶红帽子。", "vi": "Anh ấy đội một chiếc mũ đỏ.", "en": "He is wearing a red hat." }
+  },
+  {
+    "id": "L4-0504",
+    "vi": ["đúng vậy", "không sai"],
+    "viAliases": ["chính xác", "đúng rồi"],
+    "en": ["that's right", "can't go wrong"],
+    "enSource": "cedict",
+    "example": { "zh": "没错，他就是我们的老师。", "vi": "Đúng vậy, anh ấy chính là thầy giáo của chúng tôi.", "en": "That's right, he is our teacher." }
+  },
+  {
+    "id": "L4-0505",
+    "vi": ["không có cách nào", "không thể nào"],
+    "viAliases": ["hết cách", "chịu thôi"],
+    "en": ["(coll.) can't do anything about it", "(coll.) there's no way that ...; it's simply not credible that ..."],
+    "enSource": "cedict",
+    "example": { "zh": "下这么大的雨，我没法儿出门。", "vi": "Mưa to thế này, tôi không có cách nào ra ngoài.", "en": "With rain this heavy, there's no way I can go out." }
+  },
+  {
+    "id": "L4-0506",
+    "vi": ["không ngờ", "không nghĩ tới"],
+    "viAliases": ["chẳng ngờ", "bất ngờ"],
+    "en": ["didn't expect"],
+    "enSource": "cedict",
+    "example": { "zh": "没想到你也来了。", "vi": "Không ngờ bạn cũng đến.", "en": "I didn't expect you to come too." }
+  },
+  {
+    "id": "L4-0507",
+    "vi": ["đô la Mỹ"],
+    "viAliases": ["đô Mỹ", "USD"],
+    "en": ["American dollar; US dollar"],
+    "enSource": "cedict",
+    "example": { "zh": "这件衣服要一百美金。", "vi": "Chiếc áo này giá một trăm đô la Mỹ.", "en": "This piece of clothing costs one hundred US dollars." }
+  },
+  {
+    "id": "L4-0508",
+    "vi": ["mỹ nữ", "người đẹp"],
+    "viAliases": ["cô gái xinh đẹp", "gái đẹp"],
+    "en": ["beautiful woman"],
+    "enSource": "cedict",
+    "example": { "zh": "她是我们班的美女。", "vi": "Cô ấy là người đẹp của lớp chúng tôi.", "en": "She is the beauty of our class." }
+  },
+  {
+    "id": "L4-0509",
+    "vi": ["giấc mơ", "mơ"],
+    "viAliases": ["mộng", "chiêm bao"],
+    "en": ["dream (CL:場/场)", "(bound form) to dream"],
+    "enSource": "cedict",
+    "example": { "zh": "昨晚我做了一个奇怪的梦。", "vi": "Tối qua tôi mơ một giấc mơ kỳ lạ.", "en": "Last night I had a strange dream." }
+  },
+  {
+    "id": "L4-0510",
+    "vi": ["mơ thấy", "nằm mơ thấy"],
+    "viAliases": ["chiêm bao thấy"],
+    "en": ["to dream about (sth or sb)", "to see in a dream"],
+    "enSource": "cedict",
+    "example": { "zh": "我昨天梦见了我的奶奶。", "vi": "Hôm qua tôi mơ thấy bà nội của mình.", "en": "Yesterday I dreamed about my grandmother." }
+  },
+  {
+    "id": "L4-0511",
+    "vi": ["ước mơ", "mơ ước"],
+    "viAliases": ["giấc mơ", "hoài bão"],
+    "en": ["(fig.) to dream of", "dream"],
+    "enSource": "cedict",
+    "example": { "zh": "我的梦想是当一名医生。", "vi": "Ước mơ của tôi là trở thành một bác sĩ.", "en": "My dream is to become a doctor." }
+  },
+  {
+    "id": "L4-0512",
+    "vi": ["bí mật"],
+    "viAliases": ["kín", "riêng tư"],
+    "en": ["secret; private; confidential; clandestine", "a secret"],
+    "enSource": "cedict",
+    "example": { "zh": "这是我们两个人的秘密。", "vi": "Đây là bí mật của hai chúng ta.", "en": "This is a secret between the two of us." }
+  },
+  {
+    "id": "L4-0513",
+    "vi": ["thư ký"],
+    "viAliases": ["trợ lý"],
+    "en": ["secretary"],
+    "enSource": "cedict",
+    "example": { "zh": "她是经理的秘书。", "vi": "Cô ấy là thư ký của giám đốc.", "en": "She is the manager's secretary." }
+  },
+  {
+    "id": "L4-0514",
+    "vi": ["dày", "rậm rạp", "thân mật"],
+    "viAliases": ["dày đặc", "khít"],
+    "en": ["dense; close; thick", "intimate; close"],
+    "enSource": "cedict",
+    "example": { "zh": "这里的树长得很密。", "vi": "Cây ở đây mọc rất dày.", "en": "The trees here grow very densely." }
+  },
+  {
+    "id": "L4-0515",
+    "vi": ["mật khẩu", "mật mã"],
+    "viAliases": ["mã PIN", "mã bí mật"],
+    "en": ["password; PIN", "cipher; secret code"],
+    "enSource": "cedict",
+    "example": { "zh": "我忘了银行卡的密码。", "vi": "Tôi quên mật khẩu thẻ ngân hàng rồi.", "en": "I forgot the PIN of my bank card." }
+  },
+  {
+    "id": "L4-0516",
+    "vi": ["mật thiết", "chặt chẽ", "thắt chặt (quan hệ)"],
+    "viAliases": ["gần gũi", "khăng khít"],
+    "en": ["close; intimate", "to strengthen (ties, cooperation etc)"],
+    "enSource": "cedict",
+    "example": { "zh": "他们两家的关系很密切。", "vi": "Quan hệ giữa hai nhà họ rất mật thiết.", "en": "The relationship between their two families is very close." }
+  },
+  {
+    "id": "L4-0517",
+    "vi": ["miễn phí"],
+    "viAliases": ["không mất tiền", "không tính phí"],
+    "en": ["free (of charge)"],
+    "enSource": "cedict",
+    "example": { "zh": "学生可以免费进公园。", "vi": "Học sinh có thể vào công viên miễn phí.", "en": "Students can enter the park for free." }
+  },
+  {
+    "id": "L4-0518",
+    "vi": ["đối mặt với", "đứng trước"],
+    "viAliases": ["đương đầu", "gặp phải"],
+    "en": ["to face sth; to be confronted with"],
+    "enSource": "cedict",
+    "example": { "zh": "公司正面临很大的困难。", "vi": "Công ty đang đối mặt với khó khăn rất lớn.", "en": "The company is facing great difficulties." }
+  },
+  {
+    "id": "L4-0519",
+    "vi": ["phỏng vấn"],
+    "viAliases": ["phỏng vấn xin việc"],
+    "en": ["to be interviewed (as a candidate)", "interview"],
+    "enSource": "cedict",
+    "example": { "zh": "我明天去那家公司面试。", "vi": "Ngày mai tôi đến công ty đó phỏng vấn.", "en": "Tomorrow I am going to that company for an interview." }
+  },
+  {
+    "id": "L4-0520",
+    "vi": ["miêu tả", "mô tả"],
+    "viAliases": ["tả", "diễn tả"],
+    "en": ["to describe"],
+    "enSource": "cedict",
+    "example": { "zh": "请你描述一下那个人。", "vi": "Bạn hãy mô tả một chút về người đó.", "en": "Please describe that person." }
+  },
+  {
+    "id": "L4-0521",
+    "vi": ["miêu tả", "khắc họa"],
+    "viAliases": ["mô tả", "tả"],
+    "en": ["to describe; to depict; to portray"],
+    "enSource": "cedict",
+    "example": { "zh": "这篇文章描写了春天的景色。", "vi": "Bài văn này miêu tả cảnh sắc mùa xuân.", "en": "This article describes the scenery of spring." }
+  },
+  {
+    "id": "L4-0522",
+    "vi": ["hàng hiệu", "thương hiệu nổi tiếng"],
+    "viAliases": ["đồ hiệu", "nhãn hiệu nổi tiếng"],
+    "en": ["famous brand", "brand-name (product)"],
+    "enSource": "written",
+    "example": { "zh": "他只穿名牌儿的衣服。", "vi": "Anh ấy chỉ mặc quần áo hàng hiệu.", "en": "He only wears brand-name clothes." }
+  },
+  {
+    "id": "L4-0523",
+    "vi": ["danh thiếp"],
+    "viAliases": ["card visit"],
+    "en": ["(business) card"],
+    "enSource": "cedict",
+    "example": { "zh": "这是我的名片，请收好。", "vi": "Đây là danh thiếp của tôi, xin hãy giữ lấy.", "en": "This is my business card, please keep it." }
+  },
+  {
+    "id": "L4-0524",
+    "vi": ["người nổi tiếng", "danh nhân"],
+    "viAliases": ["nhân vật nổi tiếng"],
+    "en": ["celebrity", "personage"],
+    "enSource": "cedict",
+    "example": { "zh": "他现在是一位名人了。", "vi": "Bây giờ anh ấy đã là một người nổi tiếng.", "en": "He is a celebrity now." }
+  },
+  {
+    "id": "L4-0525",
+    "vi": ["sờ", "vuốt", "mò"],
+    "viAliases": ["chạm", "xoa"],
+    "en": ["to touch", "to feel with the hand", "to stroke"],
+    "enSource": "cedict",
+    "example": { "zh": "她轻轻地摸了摸孩子的头。", "vi": "Cô ấy nhẹ nhàng vuốt đầu đứa trẻ.", "en": "She gently stroked the child's head." }
+  },
+  {
+    "id": "L4-0526",
+    "vi": ["người mẫu"],
+    "viAliases": ["mẫu"],
+    "en": ["(fashion) model (loanword)"],
+    "enSource": "cedict",
+    "example": { "zh": "她的梦想是当模特儿。", "vi": "Ước mơ của cô ấy là làm người mẫu.", "en": "Her dream is to be a model." }
+  },
+  {
+    "id": "L4-0527",
+    "vi": ["mô hình"],
+    "viAliases": ["mẫu", "khuôn mẫu"],
+    "en": ["model", "pattern"],
+    "enSource": "cedict",
+    "example": { "zh": "弟弟喜欢做飞机模型。", "vi": "Em trai thích làm mô hình máy bay.", "en": "My little brother likes making model airplanes." }
+  },
+  {
+    "id": "L4-0528",
+    "vi": ["cuối", "phần cuối", "bột"],
+    "viAliases": ["đuôi", "kết thúc"],
+    "en": ["end", "final stage", "powder"],
+    "enSource": "cedict",
+    "example": { "zh": "这个月末我要去北京。", "vi": "Cuối tháng này tôi phải đi Bắc Kinh.", "en": "At the end of this month I am going to Beijing." }
+  },
+  {
+    "id": "L4-0529",
+    "vi": ["lặng lẽ", "âm thầm"],
+    "viAliases": ["im lặng", "thầm lặng"],
+    "en": ["in silence; not speaking"],
+    "enSource": "cedict",
+    "example": { "zh": "他默默地看着窗外。", "vi": "Anh ấy lặng lẽ nhìn ra ngoài cửa sổ.", "en": "He silently looked out the window." }
+  },
+  {
+    "id": "L4-0530",
+    "vi": ["cho dù", "dù cho", "dẫu"],
+    "viAliases": ["dù", "mặc dù"],
+    "en": ["even if", "even though", "no matter how"],
+    "enSource": "cedict",
+    "example": { "zh": "哪怕下雨，我也要去。", "vi": "Cho dù trời mưa, tôi cũng phải đi.", "en": "Even if it rains, I will still go." }
+  },
+  {
+    "id": "L4-0531",
+    "vi": ["đấy (trợ từ cuối câu, biến thể của 啊 sau vần -n)", "nhé"],
+    "viAliases": [],
+    "en": ["(emphatic sentence-final particle, used instead of 啊 after a word ending in \"n\")"],
+    "enSource": "cedict",
+    "example": { "zh": "这个问题真难哪！", "vi": "Câu hỏi này khó thật đấy!", "en": "This question is really hard!" }
+  },
+  {
+    "id": "L4-0532",
+    "vi": ["nam nữ", "nam và nữ"],
+    "viAliases": ["trai gái", "đàn ông và phụ nữ"],
+    "en": ["male and female"],
+    "enSource": "cedict",
+    "example": { "zh": "男女都可以参加比赛。", "vi": "Nam nữ đều có thể tham gia cuộc thi.", "en": "Both men and women can take part in the competition." }
+  },
+  {
+    "id": "L4-0533",
+    "vi": ["quý ông", "đàn ông"],
+    "viAliases": ["nam giới", "người đàn ông"],
+    "en": ["gentleman", "man"],
+    "enSource": "cedict",
+    "example": { "zh": "这家店只卖男士的衣服。", "vi": "Cửa hàng này chỉ bán quần áo nam.", "en": "This shop only sells men's clothes." }
+  },
+  {
+    "id": "L4-0534",
+    "vi": ["khó tránh khỏi", "không tránh khỏi"],
+    "viAliases": ["tất yếu", "khó tránh"],
+    "en": ["hard to avoid", "will inevitably"],
+    "enSource": "cedict",
+    "example": { "zh": "第一次做，难免会出错。", "vi": "Lần đầu làm, khó tránh khỏi sai sót.", "en": "Doing it for the first time, mistakes are hard to avoid." }
+  },
+  {
+    "id": "L4-0535",
+    "vi": ["đầu", "cái đầu", "đầu óc"],
+    "viAliases": ["não", "trí óc"],
+    "en": ["head", "brains"],
+    "enSource": "cedict",
+    "example": { "zh": "我的脑袋有点儿疼。", "vi": "Đầu tôi hơi đau.", "en": "My head hurts a little." }
+  },
+  {
+    "id": "L4-0536",
+    "vi": ["ồn ào", "làm ầm ĩ", "quậy phá"],
+    "viAliases": ["náo loạn", "gây rối"],
+    "en": ["noisy", "to make noise", "to disturb"],
+    "enSource": "cedict",
+    "example": { "zh": "别闹了，妈妈在休息。", "vi": "Đừng quậy nữa, mẹ đang nghỉ ngơi.", "en": "Stop making a fuss, mom is resting." }
+  },
+  {
+    "id": "L4-0537",
+    "vi": ["đồng hồ báo thức"],
+    "viAliases": ["báo thức"],
+    "en": ["alarm clock"],
+    "enSource": "cedict",
+    "example": { "zh": "闹钟响了，快起床吧！", "vi": "Đồng hồ báo thức reo rồi, mau dậy đi!", "en": "The alarm clock is ringing, get up quickly!" }
+  },
+  {
+    "id": "L4-0538",
+    "vi": ["nội bộ", "bên trong"],
+    "viAliases": ["phía trong", "trong nội bộ"],
+    "en": ["interior", "inside (part, section)", "internal"],
+    "enSource": "cedict",
+    "example": { "zh": "这是公司内部的消息。", "vi": "Đây là tin tức nội bộ của công ty.", "en": "This is internal company news." }
+  },
+  {
+    "id": "L4-0539",
+    "vi": ["khoa nội", "nội khoa"],
+    "viAliases": [],
+    "en": ["internal medicine; general medicine"],
+    "enSource": "cedict",
+    "example": { "zh": "他是医院内科的医生。", "vi": "Anh ấy là bác sĩ khoa nội của bệnh viện.", "en": "He is a doctor in the hospital's internal medicine department." }
+  },
+  {
+    "id": "L4-0540",
+    "vi": ["giỏi giang", "có năng lực", "tháo vát"],
+    "viAliases": ["giỏi", "đảm đang"],
+    "en": ["capable", "competent"],
+    "enSource": "cedict",
+    "example": { "zh": "她是一个很能干的人。", "vi": "Cô ấy là một người rất giỏi giang.", "en": "She is a very capable person." }
+  }
+]

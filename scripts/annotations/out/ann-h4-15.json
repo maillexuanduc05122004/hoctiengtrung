@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L4-0631",
+    "vi": ["sâu sắc", "sâu đậm", "thâm hậu"],
+    "viAliases": ["sâu nặng", "đậm đà"],
+    "en": ["deep; profound"],
+    "enSource": "cedict",
+    "example": { "zh": "他们的友谊很深厚。", "vi": "Tình bạn của họ rất sâu đậm.", "en": "Their friendship is very deep." }
+  },
+  {
+    "id": "L4-0632",
+    "vi": ["thần thoại", "truyện thần thoại"],
+    "viAliases": ["huyền thoại", "truyền thuyết"],
+    "en": ["myth", "mythology", "legend"],
+    "enSource": "cedict",
+    "example": { "zh": "我小时候很喜欢读神话。", "vi": "Hồi nhỏ tôi rất thích đọc thần thoại.", "en": "When I was little, I loved reading myths." }
+  },
+  {
+    "id": "L4-0633",
+    "vi": ["thần bí", "bí ẩn", "huyền bí"],
+    "viAliases": ["bí hiểm", "kỳ bí"],
+    "en": ["mysterious"],
+    "enSource": "cedict",
+    "example": { "zh": "这个地方很神秘。", "vi": "Nơi này rất bí ẩn.", "en": "This place is very mysterious." }
+  },
+  {
+    "id": "L4-0634",
+    "vi": ["thậm chí", "ngay cả"],
+    "viAliases": ["đến cả", "đến nỗi"],
+    "en": ["even; so much so that"],
+    "enSource": "cedict",
+    "example": { "zh": "他很忙，甚至没时间吃饭。", "vi": "Anh ấy rất bận, thậm chí không có thời gian ăn cơm.", "en": "He is so busy that he doesn't even have time to eat." }
+  },
+  {
+    "id": "L4-0635",
+    "vi": ["thất bại", "thua"],
+    "viAliases": ["thua cuộc", "không thành công"],
+    "en": ["to fail (e.g. experiments)", "to be defeated", "failure"],
+    "enSource": "cedict",
+    "example": { "zh": "这次比赛他们失败了。", "vi": "Trận đấu lần này họ đã thất bại.", "en": "They lost this match." }
+  },
+  {
+    "id": "L4-0636",
+    "vi": ["thất vọng"],
+    "viAliases": ["chán nản", "mất hy vọng"],
+    "en": ["disappointed", "to lose hope"],
+    "enSource": "cedict",
+    "example": { "zh": "听到这个消息，我很失望。", "vi": "Nghe tin này, tôi rất thất vọng.", "en": "I was very disappointed to hear this news." }
+  },
+  {
+    "id": "L4-0637",
+    "vi": ["thất nghiệp", "mất việc"],
+    "viAliases": ["không có việc làm"],
+    "en": ["to lose one's job", "unemployment"],
+    "enSource": "cedict",
+    "example": { "zh": "他失业以后一直在找工作。", "vi": "Sau khi thất nghiệp, anh ấy vẫn luôn đi tìm việc.", "en": "Since losing his job, he has been looking for work." }
+  },
+  {
+    "id": "L4-0638",
+    "vi": ["thơ", "bài thơ"],
+    "viAliases": ["thi ca", "thơ ca"],
+    "en": ["poem", "poetry"],
+    "enSource": "cedict",
+    "example": { "zh": "他写了一首很美的诗。", "vi": "Anh ấy đã viết một bài thơ rất đẹp.", "en": "He wrote a very beautiful poem." }
+  },
+  {
+    "id": "L4-0639",
+    "vi": ["nhà thơ", "thi sĩ"],
+    "viAliases": ["thi nhân"],
+    "en": ["poet"],
+    "enSource": "cedict",
+    "example": { "zh": "李白是中国有名的诗人。", "vi": "Lý Bạch là nhà thơ nổi tiếng của Trung Quốc.", "en": "Li Bai is a famous Chinese poet." }
+  },
+  {
+    "id": "L4-0640",
+    "vi": ["ướt", "ẩm"],
+    "viAliases": ["ẩm ướt", "ướt át"],
+    "en": ["wet", "moist"],
+    "enSource": "cedict",
+    "example": { "zh": "下雨了，我的衣服都湿了。", "vi": "Trời mưa, quần áo của tôi ướt hết rồi.", "en": "It rained, and my clothes got all wet." }
+  },
+  {
+    "id": "L4-0641",
+    "vi": ["thực thi", "thực hiện", "thi hành"],
+    "viAliases": ["triển khai", "áp dụng"],
+    "en": ["to implement", "to carry out"],
+    "enSource": "cedict",
+    "example": { "zh": "这个计划下个月开始实施。", "vi": "Kế hoạch này bắt đầu được thực thi vào tháng sau.", "en": "This plan will be implemented starting next month." }
+  },
+  {
+    "id": "L4-0642",
+    "vi": ["thiết thực", "thực dụng", "hữu dụng"],
+    "viAliases": ["tiện dụng", "có ích"],
+    "en": ["practical; functional; pragmatic; applied (science)"],
+    "enSource": "cedict",
+    "example": { "zh": "这本书的内容很实用。", "vi": "Nội dung cuốn sách này rất thiết thực.", "en": "The content of this book is very practical." }
+  },
+  {
+    "id": "L4-0643",
+    "vi": ["nhà ăn", "căng tin"],
+    "viAliases": ["nhà ăn tập thể", "bếp ăn"],
+    "en": ["dining hall; cafeteria"],
+    "enSource": "cedict",
+    "example": { "zh": "我们中午在食堂吃饭。", "vi": "Buổi trưa chúng tôi ăn cơm ở nhà ăn.", "en": "We eat lunch in the cafeteria." }
+  },
+  {
+    "id": "L4-0644",
+    "vi": ["dùng sức", "ra sức", "gắng sức"],
+    "viAliases": ["cố sức", "lấy hết sức"],
+    "en": ["to exert all one's strength"],
+    "enSource": "cedict",
+    "example": { "zh": "他使劲把门推开了。", "vi": "Anh ấy dùng hết sức đẩy cửa ra.", "en": "He pushed the door open with all his strength." }
+  },
+  {
+    "id": "L4-0645",
+    "vi": ["binh sĩ", "lính", "người lính"],
+    "viAliases": ["binh lính", "quân nhân"],
+    "en": ["soldier"],
+    "enSource": "cedict",
+    "example": { "zh": "士兵们每天早上都要跑步。", "vi": "Các binh sĩ sáng nào cũng phải chạy bộ.", "en": "The soldiers have to run every morning." }
+  },
+  {
+    "id": "L4-0646",
+    "vi": ["nội thành", "khu vực thành phố", "trung tâm thành phố"],
+    "viAliases": ["nội đô", "trung tâm"],
+    "en": ["urban district", "downtown", "city center"],
+    "enSource": "cedict",
+    "example": { "zh": "他家住在市区，上班很方便。", "vi": "Nhà anh ấy ở nội thành, đi làm rất tiện.", "en": "He lives downtown, so commuting to work is very convenient." }
+  },
+  {
+    "id": "L4-0647",
+    "vi": ["như", "giống như", "tựa như"],
+    "viAliases": ["như thể", "y như"],
+    "en": ["seems as if", "rather like"],
+    "enSource": "cedict",
+    "example": { "zh": "她高兴得像孩子似的。", "vi": "Cô ấy vui như trẻ con vậy.", "en": "She was as happy as a child." }
+  },
+  {
+    "id": "L4-0648",
+    "vi": ["sự vật", "sự việc"],
+    "viAliases": ["vật", "điều"],
+    "en": ["thing; object"],
+    "enSource": "cedict",
+    "example": { "zh": "孩子对新事物都很感兴趣。", "vi": "Trẻ con đều rất hứng thú với những sự vật mới.", "en": "Children are interested in all new things." }
+  },
+  {
+    "id": "L4-0649",
+    "vi": ["trước", "từ trước", "sẵn trước"],
+    "viAliases": ["trước đó", "trước khi xảy ra"],
+    "en": ["in advance", "beforehand"],
+    "enSource": "cedict",
+    "example": { "zh": "这件事你应该事先告诉我。", "vi": "Việc này bạn nên nói với tôi từ trước.", "en": "You should have told me about this in advance." }
+  },
+  {
+    "id": "L4-0650",
+    "vi": ["đề thi", "bài thi", "tờ đề thi"],
+    "viAliases": ["bài kiểm tra", "giấy thi"],
+    "en": ["examination paper", "test paper"],
+    "enSource": "cedict",
+    "example": { "zh": "老师把试卷发给了大家。", "vi": "Cô giáo đã phát đề thi cho mọi người.", "en": "The teacher handed out the test papers to everyone." }
+  },
+  {
+    "id": "L4-0651",
+    "vi": ["có hay không", "liệu có", "phải chăng"],
+    "viAliases": ["có... không", "liệu"],
+    "en": ["whether (or not)", "if"],
+    "enSource": "cedict",
+    "example": { "zh": "我不知道他是否会来。", "vi": "Tôi không biết liệu anh ấy có đến hay không.", "en": "I don't know whether he will come." }
+  },
+  {
+    "id": "L4-0652",
+    "vi": ["thu hồi", "rút lại", "lấy lại"],
+    "viAliases": ["thu lại", "đòi lại"],
+    "en": ["to take back", "to withdraw", "to regain"],
+    "enSource": "cedict",
+    "example": { "zh": "他收回了自己说过的话。", "vi": "Anh ấy đã rút lại những lời mình từng nói.", "en": "He took back what he had said." }
+  },
+  {
+    "id": "L4-0653",
+    "vi": ["thu hoạch", "thu được", "thành quả"],
+    "viAliases": ["gặt hái", "kết quả"],
+    "en": ["to harvest", "to gain", "harvest"],
+    "enSource": "cedict",
+    "example": { "zh": "这次旅行我收获很大。", "vi": "Chuyến đi này tôi thu hoạch được rất nhiều.", "en": "I gained a lot from this trip." }
+  },
+  {
+    "id": "L4-0654",
+    "vi": ["lợi nhuận", "thu nhập", "lợi ích thu được"],
+    "viAliases": ["lãi", "lợi tức"],
+    "en": ["earnings", "profit"],
+    "enSource": "cedict",
+    "example": { "zh": "今年公司的收益比去年高。", "vi": "Lợi nhuận của công ty năm nay cao hơn năm ngoái.", "en": "The company's earnings this year are higher than last year's." }
+  },
+  {
+    "id": "L4-0655",
+    "vi": ["thủ công", "làm bằng tay", "đồ thủ công"],
+    "viAliases": ["làm tay", "thủ công mỹ nghệ"],
+    "en": ["handwork", "manual"],
+    "enSource": "cedict",
+    "example": { "zh": "这件衣服是手工做的。", "vi": "Bộ quần áo này được làm thủ công.", "en": "This piece of clothing was made by hand." }
+  },
+  {
+    "id": "L4-0656",
+    "vi": ["trong tay", "ở trong tay"],
+    "viAliases": ["trên tay", "cầm trong tay"],
+    "en": ["in hand", "(a situation is) in sb's hands"],
+    "enSource": "cedict",
+    "example": { "zh": "她手里拿着一本书。", "vi": "Cô ấy đang cầm một cuốn sách trong tay.", "en": "She is holding a book in her hand." }
+  },
+  {
+    "id": "L4-0657",
+    "vi": ["phẫu thuật", "ca mổ"],
+    "viAliases": ["mổ", "giải phẫu"],
+    "en": ["(surgical) operation", "surgery"],
+    "enSource": "cedict",
+    "example": { "zh": "爷爷的手术很成功。", "vi": "Ca phẫu thuật của ông rất thành công.", "en": "Grandpa's surgery was very successful." }
+  },
+  {
+    "id": "L4-0658",
+    "vi": ["găng tay", "bao tay"],
+    "viAliases": ["găng"],
+    "en": ["glove", "mitten"],
+    "enSource": "cedict",
+    "example": { "zh": "天冷了，别忘了戴手套。", "vi": "Trời lạnh rồi, đừng quên đeo găng tay.", "en": "It's getting cold, don't forget to wear gloves." }
+  },
+  {
+    "id": "L4-0659",
+    "vi": ["giữ", "canh giữ", "tuân thủ"],
+    "viAliases": ["bảo vệ", "trông coi"],
+    "en": ["to guard", "to keep watch", "to observe (rules or ritual)"],
+    "enSource": "cedict",
+    "example": { "zh": "晚上有人守在门口。", "vi": "Buổi tối có người canh ở cửa.", "en": "Someone keeps watch at the door at night." }
+  },
+  {
+    "id": "L4-0660",
+    "vi": ["bài (lượng từ cho thơ, bài hát)"],
+    "viAliases": ["bài"],
+    "en": ["classifier for poems, songs etc"],
+    "enSource": "cedict",
+    "example": { "zh": "我们一起唱一首歌吧！", "vi": "Chúng ta cùng hát một bài hát nhé!", "en": "Let's sing a song together!" }
+  },
+  {
+    "id": "L4-0661",
+    "vi": ["chịu không nổi", "không chịu được"],
+    "viAliases": ["không chịu nổi", "không thể chịu đựng"],
+    "en": ["can't stand", "unable to endure"],
+    "enSource": "cedict",
+    "example": { "zh": "这里太热了，我受不了。", "vi": "Ở đây nóng quá, tôi chịu không nổi.", "en": "It's too hot here, I can't stand it." }
+  },
+  {
+    "id": "L4-0662",
+    "vi": ["nhân viên bán hàng", "người bán hàng"],
+    "viAliases": ["nhân viên cửa hàng", "người bán"],
+    "en": ["sales clerk; sales associate; retail salesperson"],
+    "enSource": "cedict",
+    "example": { "zh": "售货员对客人很热情。", "vi": "Nhân viên bán hàng rất nhiệt tình với khách.", "en": "The sales clerk is very warm to the customers." }
+  },
+  {
+    "id": "L4-0663",
+    "vi": ["chú (em trai của bố)", "chú (cách gọi đàn ông lớn tuổi hơn)"],
+    "viAliases": ["chú"],
+    "en": ["father's younger brother; paternal uncle", "form of address used by children for a male one generation older"],
+    "enSource": "cedict",
+    "example": { "zh": "叔叔送给我一个礼物。", "vi": "Chú tặng tôi một món quà.", "en": "My uncle gave me a gift." }
+  },
+  {
+    "id": "L4-0664",
+    "vi": ["thoải mái", "dễ chịu", "ấm cúng"],
+    "viAliases": ["tiện nghi", "êm ái"],
+    "en": ["cozy", "snug"],
+    "enSource": "cedict",
+    "example": { "zh": "这家酒店的房间很舒适。", "vi": "Phòng của khách sạn này rất thoải mái.", "en": "The rooms at this hotel are very comfortable." }
+  },
+  {
+    "id": "L4-0665",
+    "vi": ["thành thạo", "thuần thục", "lành nghề"],
+    "viAliases": ["thạo", "điêu luyện"],
+    "en": ["proficient", "skilled", "practiced"],
+    "enSource": "cedict",
+    "example": { "zh": "她能熟练地使用电脑。", "vi": "Cô ấy có thể sử dụng máy tính một cách thành thạo.", "en": "She can use a computer proficiently." }
+  },
+  {
+    "id": "L4-0666",
+    "vi": ["kỳ nghỉ hè", "nghỉ hè"],
+    "viAliases": ["kỳ nghỉ mùa hè"],
+    "en": ["summer vacation"],
+    "enSource": "cedict",
+    "example": { "zh": "暑假我打算去北京旅行。", "vi": "Nghỉ hè tôi định đi du lịch Bắc Kinh.", "en": "I plan to travel to Beijing during summer vacation." }
+  },
+  {
+    "id": "L4-0667",
+    "vi": ["rừng cây", "khu rừng"],
+    "viAliases": ["rừng", "cánh rừng"],
+    "en": ["woods", "grove", "forest"],
+    "enSource": "cedict",
+    "example": { "zh": "我们在树林里散步。", "vi": "Chúng tôi đi dạo trong rừng cây.", "en": "We took a walk in the woods." }
+  },
+  {
+    "id": "L4-0668",
+    "vi": ["lá cây"],
+    "viAliases": ["lá"],
+    "en": ["tree leaves"],
+    "enSource": "cedict",
+    "example": { "zh": "秋天到了，树叶都黄了。", "vi": "Mùa thu đến rồi, lá cây đều vàng cả.", "en": "Autumn has come, and the leaves have all turned yellow." }
+  },
+  {
+    "id": "L4-0669",
+    "vi": ["dữ liệu", "số liệu"],
+    "viAliases": ["thông số", "con số"],
+    "en": ["data"],
+    "enSource": "cedict",
+    "example": { "zh": "这些数据是从哪里来的？", "vi": "Những dữ liệu này lấy từ đâu vậy?", "en": "Where did this data come from?" }
+  },
+  {
+    "id": "L4-0670",
+    "vi": ["kỹ thuật số", "con số", "chữ số"],
+    "viAliases": ["số hóa", "digital"],
+    "en": ["digital", "number", "numerals"],
+    "enSource": "cedict",
+    "example": { "zh": "我想买一台数码相机。", "vi": "Tôi muốn mua một chiếc máy ảnh kỹ thuật số.", "en": "I want to buy a digital camera." }
+  },
+  {
+    "id": "L4-0671",
+    "vi": ["chải", "cọ rửa", "quẹt (thẻ)"],
+    "viAliases": ["đánh (răng)", "lướt (điện thoại)"],
+    "en": ["to brush; to scrub", "to swipe (a card)", "to scroll on (a phone)"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈正在厨房里刷碗。", "vi": "Mẹ đang cọ rửa bát đĩa trong bếp.", "en": "Mom is scrubbing the dishes in the kitchen." }
+  },
+  {
+    "id": "L4-0672",
+    "vi": ["đánh răng", "chải răng"],
+    "viAliases": [],
+    "en": ["to brush one's teeth"],
+    "enSource": "cedict",
+    "example": { "zh": "我每天早晚都刷牙。", "vi": "Tôi đánh răng mỗi sáng và tối.", "en": "I brush my teeth every morning and evening." }
+  },
+  {
+    "id": "L4-0673",
+    "vi": ["bàn chải", "cái cọ"],
+    "viAliases": ["chổi cọ", "cọ quét"],
+    "en": ["brush", "scrub"],
+    "enSource": "cedict",
+    "example": { "zh": "这把刷子是刷鞋用的。", "vi": "Cái bàn chải này dùng để chải giày.", "en": "This brush is for cleaning shoes." }
+  },
+  {
+    "id": "L4-0674",
+    "vi": ["đẹp trai", "bảnh bao", "ngầu"],
+    "viAliases": ["điển trai", "phong độ"],
+    "en": ["handsome; graceful; dashing; elegant", "(coll.) cool!; sweet!"],
+    "enSource": "cedict",
+    "example": { "zh": "你今天穿得真帅！", "vi": "Hôm nay bạn mặc đẹp trai thật!", "en": "You look really handsome today!" }
+  },
+  {
+    "id": "L4-0675",
+    "vi": ["anh đẹp trai", "trai đẹp"],
+    "viAliases": ["soái ca", "chàng trai điển trai"],
+    "en": ["handsome guy", "handsome (form of address)"],
+    "enSource": "cedict",
+    "example": { "zh": "那个帅哥是我的同学。", "vi": "Anh chàng đẹp trai kia là bạn học của tôi.", "en": "That handsome guy is my classmate." }
+  }
+]

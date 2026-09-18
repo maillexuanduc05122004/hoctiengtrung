@@ -1,7 +1,7 @@
 import { useId } from 'react';
 import { usePoolCounts } from './usePoolCounts.ts';
 import type { PoolKind } from '../../hooks/useStudySession.ts';
-import type { HskLevel } from '../../types/vocabulary.ts';
+import { HSK_LEVELS, type HskLevel } from '../../types/vocabulary.ts';
 
 export interface StudyOptionsValue {
   levels: HskLevel[];
@@ -15,8 +15,6 @@ export interface StudyOptionsProps {
   lessonLabel?: string;
   lessonId?: string;
 }
-
-const LEVELS: readonly HskLevel[] = [1, 2, 3];
 
 interface PoolOption {
   value: Exclude<PoolKind, 'lesson'>;
@@ -92,7 +90,7 @@ export function StudyOptions({ value, onChange, lessonLabel, lessonId }: StudyOp
           <div
             className="flex flex-wrap items-center space-x-2"
           >
-            {LEVELS.map((level) => {
+            {HSK_LEVELS.map((level) => {
               const selected = value.levels.includes(level);
               // Cấp cuối cùng còn lại bị khoá hẳn thay vì im lặng không phản
               // ứng: một nút bấm không làm gì và không nói gì là một nút hỏng.

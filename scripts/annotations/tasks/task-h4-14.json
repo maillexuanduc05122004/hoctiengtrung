@@ -1,0 +1,706 @@
+[
+  {
+    "id": "L4-0586",
+    "simplified": "轻易",
+    "traditional": "輕易",
+    "pinyin": "qīng yì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "easy; simple",
+      "rashly; offhandedly"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0587",
+    "simplified": "清醒",
+    "pinyin": "qīng xǐng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "clear-headed",
+      "sober",
+      "awake"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0588",
+    "simplified": "情景",
+    "pinyin": "qíng jǐng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "scene; spectacle",
+      "circumstances; situation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0589",
+    "simplified": "穷",
+    "traditional": "窮",
+    "pinyin": "qióng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "poor",
+      "destitute",
+      "to use up",
+      "to exhaust",
+      "thoroughly",
+      "extremely",
+      "(coll.) persistently and pointlessly"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0590",
+    "simplified": "穷人",
+    "traditional": "窮人",
+    "pinyin": "qióng rén",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "poor people",
+      "the poor"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0591",
+    "simplified": "秋季",
+    "pinyin": "qiū jì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "autumn",
+      "fall"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0592",
+    "simplified": "趋势",
+    "traditional": "趨勢",
+    "pinyin": "qū shì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "trend; tendency"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0593",
+    "simplified": "圈",
+    "pinyin": "quān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "circle; ring; loop",
+      "(fig.) social circle; niche group; community; fandom",
+      "classifier for loops, orbits, laps",
+      "to surround; to encircle",
+      "to circle (sth); to mark with a circle"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0594",
+    "simplified": "权利",
+    "traditional": "權利",
+    "pinyin": "quán lì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "right (i.e. an entitlement to sth)",
+      "(classical) power and wealth"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0595",
+    "simplified": "却",
+    "traditional": "卻",
+    "pinyin": "què",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "but",
+      "yet",
+      "however",
+      "while",
+      "to go back",
+      "to decline",
+      "to retreat",
+      "nevertheless",
+      "even though"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0596",
+    "simplified": "确认",
+    "traditional": "確認",
+    "pinyin": "què rèn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to confirm",
+      "to verify",
+      "confirmation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0597",
+    "simplified": "然而",
+    "pinyin": "rán ér",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "however; but; yet"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0598",
+    "simplified": "燃料",
+    "pinyin": "rán liào",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "fuel"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0599",
+    "simplified": "燃烧",
+    "traditional": "燃燒",
+    "pinyin": "rán shāo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to ignite",
+      "to combust",
+      "to burn",
+      "combustion",
+      "flaming"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0600",
+    "simplified": "热闹",
+    "traditional": "熱鬧",
+    "pinyin": "rè nao",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "bustling with noise and excitement",
+      "lively"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0601",
+    "simplified": "热心",
+    "traditional": "熱心",
+    "pinyin": "rè xīn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "enthusiastic; ardent; zealous"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0602",
+    "simplified": "人家",
+    "pinyin": "rén jia",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "other people",
+      "sb else",
+      "he, she or they",
+      "I, me (referring to oneself as \"one\" or \"people\")"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0603",
+    "simplified": "日记",
+    "traditional": "日記",
+    "pinyin": "rì jì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "diary",
+      "CL:則/则,本,篇"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0604",
+    "simplified": "日历",
+    "traditional": "日曆",
+    "pinyin": "rì lì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "calendar",
+      "CL:張/张,本"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0605",
+    "simplified": "如今",
+    "pinyin": "rú jīn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "nowadays; now"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0606",
+    "simplified": "弱",
+    "pinyin": "ruò",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "weak; feeble",
+      "young",
+      "inferior; not as good as",
+      "(following a decimal or fraction) slightly less than"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0607",
+    "simplified": "伞",
+    "traditional": "傘",
+    "pinyin": "sǎn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "umbrella",
+      "parasol",
+      "CL:把"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0608",
+    "simplified": "散",
+    "pinyin": "sàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to scatter",
+      "to break up (a meeting etc)",
+      "to disperse",
+      "to disseminate",
+      "to dispel",
+      "(coll.) to sack"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0609",
+    "simplified": "扫",
+    "traditional": "掃",
+    "pinyin": "sǎo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to sweep (with a brush or broom)",
+      "to sweep away; to wipe out; to get rid of",
+      "to sweep (one's eyes etc) over; to scan"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0610",
+    "simplified": "色",
+    "pinyin": "sè",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "color",
+      "CL:種/种",
+      "look",
+      "appearance",
+      "sex"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0611",
+    "simplified": "色彩",
+    "pinyin": "sè cǎi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "tint; coloring; coloration",
+      "(fig.) flavor; character"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0612",
+    "simplified": "森林",
+    "pinyin": "sēn lín",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "forest",
+      "CL:片"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0613",
+    "simplified": "晒",
+    "traditional": "曬",
+    "pinyin": "shài",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "(of the sun) to shine on",
+      "to bask in (the sunshine)",
+      "to dry (clothes, grain etc) in the sun",
+      "(fig.) to expose and share (one's experiences and thoughts) on the Web (loanword from \"share\")",
+      "(coll.) to give the cold shoulder to"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0614",
+    "simplified": "闪",
+    "traditional": "閃",
+    "pinyin": "shǎn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to dodge",
+      "to duck out of the way",
+      "to beat it",
+      "shaken (by a fall)",
+      "to sprain",
+      "to pull a muscle",
+      "lightning",
+      "spark",
+      "a flash",
+      "to flash (across one's mind)",
+      "to leave behind",
+      "(Internet slang) (of a display of affection) \"dazzlingly\" saccharine"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0615",
+    "simplified": "闪电",
+    "traditional": "閃電",
+    "pinyin": "shǎn diàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "lightning",
+      "CL:道"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0616",
+    "simplified": "善良",
+    "pinyin": "shàn liáng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "good and honest",
+      "kindhearted"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0617",
+    "simplified": "善于",
+    "traditional": "善於",
+    "pinyin": "shàn yú",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to be good at; to be adept at"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0618",
+    "simplified": "伤害",
+    "traditional": "傷害",
+    "pinyin": "shāng hài",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to injure; to harm"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0619",
+    "simplified": "商务",
+    "traditional": "商務",
+    "pinyin": "shāng wù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "commercial affairs",
+      "commercial",
+      "commerce",
+      "business"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0620",
+    "simplified": "赏",
+    "traditional": "賞",
+    "pinyin": "shǎng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to bestow (a reward)",
+      "to give (to an inferior)",
+      "to hand down",
+      "a reward (bestowed by a superior)",
+      "to appreciate (beauty)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0621",
+    "simplified": "上个月",
+    "traditional": "上個月",
+    "pinyin": "shàng gè yuè",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "last month"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0622",
+    "simplified": "上楼",
+    "traditional": "上樓",
+    "pinyin": "shàng lóu",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to go upstairs"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0623",
+    "simplified": "上门",
+    "traditional": "上門",
+    "pinyin": "shàng mén",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to drop in",
+      "to visit",
+      "to lock a door",
+      "(of a shop) to close",
+      "to go and live with one's wife's family, in effect becoming a member of her family"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0624",
+    "simplified": "烧",
+    "traditional": "燒",
+    "pinyin": "shāo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to burn; to set on fire",
+      "to heat (over a fire); to boil (water, tea etc)",
+      "to braise",
+      "to cook; to prepare food",
+      "to run a fever",
+      "fever",
+      "(coll.) to become full of oneself; to get carried away"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0625",
+    "simplified": "设施",
+    "traditional": "設施",
+    "pinyin": "shè shī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "facilities",
+      "installation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0626",
+    "simplified": "设置",
+    "traditional": "設置",
+    "pinyin": "shè zhì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to set up; to install"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0627",
+    "simplified": "申请",
+    "traditional": "申請",
+    "pinyin": "shēn qǐng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to apply for sth",
+      "application form (CL:份)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0628",
+    "simplified": "身材",
+    "pinyin": "shēn cái",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "stature",
+      "build (height and weight)",
+      "figure"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0629",
+    "simplified": "身份",
+    "pinyin": "shēn fèn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "identity; aspect of one's identity (e.g. mayor, father, permanent resident); role; capacity (as in \"in his capacity as ...\" 以 + ... + 的身份); status (social, legal etc); position; rank"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0630",
+    "simplified": "身高",
+    "pinyin": "shēn gāo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(a person's) height"
+    ],
+    "needsEnglish": false
+  }
+]

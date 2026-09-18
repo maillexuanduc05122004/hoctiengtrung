@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L4-0226",
+    "vi": ["lật", "giở (sách, trang)", "dịch (ngôn ngữ)"],
+    "viAliases": ["lật lại", "trèo qua"],
+    "en": ["to turn over", "to flip over", "to translate"],
+    "enSource": "cedict",
+    "example": { "zh": "请把书翻到第十页。", "vi": "Hãy lật sách đến trang mười.", "en": "Please turn the book to page ten." }
+  },
+  {
+    "id": "L4-0227",
+    "vi": ["dịch", "phiên dịch", "người phiên dịch"],
+    "viAliases": ["biên dịch", "thông dịch"],
+    "en": ["to translate", "to interpret", "translator"],
+    "enSource": "cedict",
+    "example": { "zh": "请你把这句话翻译成中文。", "vi": "Xin bạn dịch câu này sang tiếng Trung.", "en": "Please translate this sentence into Chinese." }
+  },
+  {
+    "id": "L4-0228",
+    "vi": ["phiền", "bực bội", "làm phiền"],
+    "viAliases": ["khó chịu", "phiền lòng"],
+    "en": ["to feel vexed", "to bother", "to trouble"],
+    "enSource": "cedict",
+    "example": { "zh": "这件事让我很烦。", "vi": "Chuyện này làm tôi rất phiền.", "en": "This matter makes me really annoyed." }
+  },
+  {
+    "id": "L4-0229",
+    "vi": ["ngược", "trái", "phản đối"],
+    "viAliases": ["đảo ngược", "chống lại"],
+    "en": ["contrary", "in reverse", "to oppose"],
+    "enSource": "cedict",
+    "example": { "zh": "你把衣服穿反了。", "vi": "Bạn mặc áo ngược rồi.", "en": "You put your clothes on inside out." }
+  },
+  {
+    "id": "L4-0230",
+    "vi": ["trái lại", "ngược lại"],
+    "viAliases": ["lại còn", "thế mà"],
+    "en": ["on the contrary; instead"],
+    "enSource": "cedict",
+    "example": { "zh": "吃了药，他反而更难受了。", "vi": "Uống thuốc rồi, anh ấy trái lại càng khó chịu hơn.", "en": "After taking the medicine, he felt even worse instead." }
+  },
+  {
+    "id": "L4-0231",
+    "vi": ["phản ánh", "sự phản ánh"],
+    "viAliases": ["phản chiếu", "báo cáo"],
+    "en": ["to reflect", "to mirror", "reflection"],
+    "enSource": "cedict",
+    "example": { "zh": "这本书反映了当时的生活。", "vi": "Cuốn sách này phản ánh cuộc sống thời đó.", "en": "This book reflects life at that time." }
+  },
+  {
+    "id": "L4-0232",
+    "vi": ["vuông", "phương hướng", "bên"],
+    "viAliases": ["phía", "hình vuông"],
+    "en": ["square", "direction", "side"],
+    "enSource": "cedict",
+    "example": { "zh": "这张桌子是方的。", "vi": "Cái bàn này hình vuông.", "en": "This table is square." }
+  },
+  {
+    "id": "L4-0233",
+    "vi": ["phương án", "kế hoạch"],
+    "viAliases": ["đề án", "giải pháp"],
+    "en": ["plan", "program (for action etc)", "proposal"],
+    "enSource": "cedict",
+    "example": { "zh": "我们讨论了三个方案。", "vi": "Chúng tôi đã thảo luận ba phương án.", "en": "We discussed three plans." }
+  },
+  {
+    "id": "L4-0234",
+    "vi": ["phương châm", "đường lối"],
+    "viAliases": ["chính sách", "chủ trương"],
+    "en": ["policy", "guidelines"],
+    "enSource": "cedict",
+    "example": { "zh": "公司有新的发展方针。", "vi": "Công ty có phương châm phát triển mới.", "en": "The company has a new development policy." }
+  },
+  {
+    "id": "L4-0235",
+    "vi": ["thư giãn", "nới lỏng"],
+    "viAliases": ["thả lỏng", "nghỉ ngơi"],
+    "en": ["to relax; to slacken; to loosen"],
+    "enSource": "cedict",
+    "example": { "zh": "周末我想在家放松一下。", "vi": "Cuối tuần tôi muốn thư giãn ở nhà một chút.", "en": "On the weekend I want to relax at home a bit." }
+  },
+  {
+    "id": "L4-0236",
+    "vi": ["không phải", "phi", "nhất định (非…不可)"],
+    "viAliases": ["chẳng phải", "buộc phải"],
+    "en": ["to not be; not", "non-; un-; in-; de-", "(coll.) to insist on; simply must"],
+    "enSource": "cedict",
+    "example": { "zh": "这件事你非做不可。", "vi": "Việc này bạn nhất định phải làm.", "en": "You simply must do this." }
+  },
+  {
+    "id": "L4-0237",
+    "vi": ["béo (thịt, động vật)", "màu mỡ", "rộng (quần áo)"],
+    "viAliases": ["mập", "béo ngậy"],
+    "en": ["fat", "fertile", "loose-fitting or large"],
+    "enSource": "cedict",
+    "example": { "zh": "这块肉太肥了。", "vi": "Miếng thịt này béo quá.", "en": "This piece of meat is too fatty." }
+  },
+  {
+    "id": "L4-0238",
+    "vi": ["phân bố", "rải rác ở"],
+    "viAliases": ["phân bổ", "trải khắp"],
+    "en": ["to be distributed (over an area etc)", "to distribute"],
+    "enSource": "cedict",
+    "example": { "zh": "这种植物分布在中国南方。", "vi": "Loài cây này phân bố ở miền nam Trung Quốc.", "en": "This plant is distributed in southern China." }
+  },
+  {
+    "id": "L4-0239",
+    "vi": ["phân tán", "làm phân tán", "rải rác"],
+    "viAliases": ["tản ra", "tán loạn"],
+    "en": ["to scatter", "to disperse", "to distribute"],
+    "enSource": "cedict",
+    "example": { "zh": "上课时别分散注意力。", "vi": "Khi học đừng để phân tán sự chú ý.", "en": "Don't get distracted in class." }
+  },
+  {
+    "id": "L4-0240",
+    "vi": ["chia tay", "chia tay (người yêu)"],
+    "viAliases": ["chia ly", "chia lìa"],
+    "en": ["to break up", "to split up", "to part company"],
+    "enSource": "cedict",
+    "example": { "zh": "他们上个月分手了。", "vi": "Họ đã chia tay tháng trước.", "en": "They broke up last month." }
+  },
+  {
+    "id": "L4-0241",
+    "vi": ["chia thành", "phân thành"],
+    "viAliases": ["chia làm", "phân làm"],
+    "en": ["to divide sth into (parts); to subdivide"],
+    "enSource": "cedict",
+    "example": { "zh": "这本书分为五个部分。", "vi": "Cuốn sách này chia thành năm phần.", "en": "This book is divided into five parts." }
+  },
+  {
+    "id": "L4-0242",
+    "vi": ["phần (dùng trong phân số)"],
+    "viAliases": ["phân số", "phần trăm"],
+    "en": ["(indicating a fraction)"],
+    "enSource": "cedict",
+    "example": { "zh": "三分之一的学生没来。", "vi": "Một phần ba học sinh không đến.", "en": "One third of the students did not come." }
+  },
+  {
+    "id": "L4-0243",
+    "vi": ["tới tấp", "lần lượt", "rối rít"],
+    "viAliases": ["liên tiếp", "nườm nượp"],
+    "en": ["one after another", "in succession", "continuously"],
+    "enSource": "cedict",
+    "example": { "zh": "大家纷纷表示同意。", "vi": "Mọi người lần lượt bày tỏ đồng ý.", "en": "Everyone expressed agreement one after another." }
+  },
+  {
+    "id": "L4-0244",
+    "vi": ["phấn đấu", "nỗ lực"],
+    "viAliases": ["cố gắng", "đấu tranh"],
+    "en": ["to strive; to struggle"],
+    "enSource": "cedict",
+    "example": { "zh": "他为了理想努力奋斗。", "vi": "Anh ấy nỗ lực phấn đấu vì lý tưởng.", "en": "He strives hard for his ideals." }
+  },
+  {
+    "id": "L4-0245",
+    "vi": ["phong cách"],
+    "viAliases": ["kiểu cách", "lối"],
+    "en": ["style"],
+    "enSource": "cedict",
+    "example": { "zh": "她穿衣服的风格很简单。", "vi": "Phong cách ăn mặc của cô ấy rất đơn giản.", "en": "Her style of dressing is very simple." }
+  },
+  {
+    "id": "L4-0246",
+    "vi": ["phong cảnh", "cảnh vật"],
+    "viAliases": ["cảnh đẹp", "cảnh sắc"],
+    "en": ["scenery; landscape"],
+    "enSource": "cedict",
+    "example": { "zh": "这里的风景真美！", "vi": "Phong cảnh ở đây thật đẹp!", "en": "The scenery here is really beautiful!" }
+  },
+  {
+    "id": "L4-0247",
+    "vi": ["phong tục", "tập quán"],
+    "viAliases": ["tục lệ", "lề thói"],
+    "en": ["social custom"],
+    "enSource": "cedict",
+    "example": { "zh": "每个地方都有自己的风俗。", "vi": "Mỗi nơi đều có phong tục riêng của mình.", "en": "Every place has its own customs." }
+  },
+  {
+    "id": "L4-0248",
+    "vi": ["đóng kín", "phong tỏa", "khép kín"],
+    "viAliases": ["bịt kín", "cô lập"],
+    "en": ["to close; to seal off", "closed (i.e. isolated from outside input)"],
+    "enSource": "cedict",
+    "example": { "zh": "这条路已经被封闭了。", "vi": "Con đường này đã bị phong tỏa rồi.", "en": "This road has already been closed off." }
+  },
+  {
+    "id": "L4-0249",
+    "vi": ["nếu không", "bằng không"],
+    "viAliases": ["không thì", "kẻo"],
+    "en": ["otherwise; if not; or (else)"],
+    "enSource": "cedict",
+    "example": { "zh": "快点走，否则要迟到了。", "vi": "Đi nhanh lên, nếu không sẽ muộn đấy.", "en": "Hurry up, otherwise we will be late." }
+  },
+  {
+    "id": "L4-0250",
+    "vi": ["vợ chồng", "cặp vợ chồng"],
+    "viAliases": ["phu phụ", "đôi vợ chồng"],
+    "en": ["a (married) couple", "husband and wife"],
+    "enSource": "cedict",
+    "example": { "zh": "这对夫妇有两个孩子。", "vi": "Cặp vợ chồng này có hai đứa con.", "en": "This couple has two children." }
+  },
+  {
+    "id": "L4-0251",
+    "vi": ["vợ chồng", "phu thê"],
+    "viAliases": ["đôi vợ chồng", "hai vợ chồng"],
+    "en": ["husband and wife; married couple"],
+    "enSource": "cedict",
+    "example": { "zh": "他们夫妻两个都是老师。", "vi": "Hai vợ chồng họ đều là giáo viên.", "en": "The two of them, husband and wife, are both teachers." }
+  },
+  {
+    "id": "L4-0252",
+    "vi": ["phu nhân", "bà (kính xưng vợ người khác)"],
+    "viAliases": ["quý bà", "bà"],
+    "en": ["lady", "madam", "Mrs."],
+    "enSource": "cedict",
+    "example": { "zh": "王先生和夫人一起来了。", "vi": "Ông Vương và phu nhân cùng đến.", "en": "Mr. Wang and his wife came together." }
+  },
+  {
+    "id": "L4-0253",
+    "vi": ["ký hiệu", "dấu hiệu"],
+    "viAliases": ["biểu tượng", "dấu"],
+    "en": ["symbol; mark; sign"],
+    "enSource": "cedict",
+    "example": { "zh": "这个符号是什么意思？", "vi": "Ký hiệu này có nghĩa là gì?", "en": "What does this symbol mean?" }
+  },
+  {
+    "id": "L4-0254",
+    "vi": ["phù hợp", "đúng với"],
+    "viAliases": ["hợp với", "khớp với"],
+    "en": ["in accordance with; to agree with; to conform to; to meet (a requirement)"],
+    "enSource": "cedict",
+    "example": { "zh": "他的条件符合我们的要求。", "vi": "Điều kiện của anh ấy phù hợp với yêu cầu của chúng tôi.", "en": "His qualifications meet our requirements." }
+  },
+  {
+    "id": "L4-0255",
+    "vi": ["bỏ ra", "trả giá", "cống hiến"],
+    "viAliases": ["dốc sức", "hy sinh"],
+    "en": ["to pay; to expend; to invest (energy or time)"],
+    "enSource": "cedict",
+    "example": { "zh": "为了成功，他付出了很多。", "vi": "Để thành công, anh ấy đã bỏ ra rất nhiều.", "en": "To succeed, he has given a lot." }
+  },
+  {
+    "id": "L4-0256",
+    "vi": ["gánh vác", "gánh nặng", "chịu (chi phí)"],
+    "viAliases": ["gánh chịu", "trách nhiệm"],
+    "en": ["to bear (an expense, a responsibility etc)", "burden"],
+    "enSource": "cedict",
+    "example": { "zh": "学费是家里很大的负担。", "vi": "Học phí là gánh nặng rất lớn của gia đình.", "en": "Tuition fees are a heavy burden on the family." }
+  },
+  {
+    "id": "L4-0257",
+    "vi": ["lân cận", "vùng lân cận", "quanh đây"],
+    "viAliases": ["gần đây", "phụ cận"],
+    "en": ["nearby; neighboring", "(in the) vicinity (of); neighborhood"],
+    "enSource": "cedict",
+    "example": { "zh": "附近有一家很好的饭馆。", "vi": "Quanh đây có một nhà hàng rất ngon.", "en": "There is a very good restaurant nearby." }
+  },
+  {
+    "id": "L4-0258",
+    "vi": ["sao chép", "nhân bản"],
+    "viAliases": ["copy", "chép lại"],
+    "en": ["to copy", "to duplicate", "to reproduce"],
+    "enSource": "cedict",
+    "example": { "zh": "请把这个文件复制一份。", "vi": "Hãy sao chép tập tin này một bản.", "en": "Please make a copy of this file." }
+  },
+  {
+    "id": "L4-0259",
+    "vi": ["cải thiện"],
+    "viAliases": ["làm tốt hơn", "cải tiến"],
+    "en": ["to make better; to improve"],
+    "enSource": "cedict",
+    "example": { "zh": "他的生活条件改善了很多。", "vi": "Điều kiện sống của anh ấy đã cải thiện nhiều.", "en": "His living conditions have improved a lot." }
+  },
+  {
+    "id": "L4-0260",
+    "vi": ["sửa chữa", "sửa lại (lỗi)"],
+    "viAliases": ["chỉnh sửa", "sửa sai"],
+    "en": ["to correct", "to amend", "to put right"],
+    "enSource": "cedict",
+    "example": { "zh": "请改正这些错误。", "vi": "Hãy sửa những lỗi này.", "en": "Please correct these mistakes." }
+  },
+  {
+    "id": "L4-0261",
+    "vi": ["đậy", "xây (nhà)", "phủ"],
+    "viAliases": ["che", "cất (nhà)"],
+    "en": ["to cover", "to conceal", "to build"],
+    "enSource": "cedict",
+    "example": { "zh": "他们在这里盖了一座新房子。", "vi": "Họ đã xây một ngôi nhà mới ở đây.", "en": "They built a new house here." }
+  },
+  {
+    "id": "L4-0262",
+    "vi": ["khái quát", "tóm tắt"],
+    "viAliases": ["tổng kết", "tóm lược"],
+    "en": ["to summarize; to generalize", "briefly; in broad outline"],
+    "enSource": "cedict",
+    "example": { "zh": "请用一句话概括这篇文章。", "vi": "Hãy dùng một câu khái quát bài văn này.", "en": "Please summarize this article in one sentence." }
+  },
+  {
+    "id": "L4-0263",
+    "vi": ["cảm thấy hứng thú", "quan tâm"],
+    "viAliases": ["thích thú", "hứng thú"],
+    "en": ["to be interested (in sth)"],
+    "enSource": "cedict",
+    "example": { "zh": "我对中国历史很感兴趣。", "vi": "Tôi rất hứng thú với lịch sử Trung Quốc.", "en": "I am very interested in Chinese history." }
+  },
+  {
+    "id": "L4-0264",
+    "vi": ["cao trào", "đỉnh điểm", "triều cường"],
+    "viAliases": ["đỉnh cao", "cực điểm"],
+    "en": ["climax (of a story, a competition etc)", "upsurge; peak of activity", "high tide; high water"],
+    "enSource": "cedict",
+    "example": { "zh": "电影的高潮部分很精彩。", "vi": "Phần cao trào của bộ phim rất đặc sắc.", "en": "The climax of the movie is wonderful." }
+  },
+  {
+    "id": "L4-0265",
+    "vi": ["giá cao"],
+    "viAliases": ["giá đắt", "giá đắt đỏ"],
+    "en": ["high price"],
+    "enSource": "cedict",
+    "example": { "zh": "他用高价买了这辆车。", "vi": "Anh ấy đã mua chiếc xe này với giá cao.", "en": "He bought this car at a high price." }
+  },
+  {
+    "id": "L4-0266",
+    "vi": ["cao thượng", "cao quý"],
+    "viAliases": ["cao cả", "thanh cao"],
+    "en": ["noble", "lofty", "refined"],
+    "enSource": "cedict",
+    "example": { "zh": "他是一个高尚的人。", "vi": "Anh ấy là một người cao thượng.", "en": "He is a noble person." }
+  },
+  {
+    "id": "L4-0267",
+    "vi": ["tàu cao tốc", "đường sắt cao tốc"],
+    "viAliases": ["tàu nhanh", "tàu điện cao tốc"],
+    "en": ["high speed rail"],
+    "enSource": "cedict",
+    "example": { "zh": "我坐高铁去北京。", "vi": "Tôi đi tàu cao tốc đến Bắc Kinh.", "en": "I take the high-speed train to Beijing." }
+  },
+  {
+    "id": "L4-0268",
+    "vi": ["đặc biệt", "vô cùng", "hết sức"],
+    "viAliases": ["hơn thường lệ", "khác thường"],
+    "en": ["especially; particularly; even more than usual"],
+    "enSource": "cedict",
+    "example": { "zh": "今天的天气格外好。", "vi": "Thời tiết hôm nay đặc biệt đẹp.", "en": "The weather today is especially nice." }
+  },
+  {
+    "id": "L4-0269",
+    "vi": ["ngăn cách", "cách (một khoảng)"],
+    "viAliases": ["ngăn", "cách nhau"],
+    "en": ["to separate", "to partition", "at a distance from"],
+    "enSource": "cedict",
+    "example": { "zh": "我家和学校只隔一条街。", "vi": "Nhà tôi và trường chỉ cách nhau một con phố.", "en": "My house and the school are only one street apart." }
+  },
+  {
+    "id": "L4-0270",
+    "vi": ["ngăn ra", "tách ra"],
+    "viAliases": ["chia cách", "ngăn cách"],
+    "en": ["to separate"],
+    "enSource": "cedict",
+    "example": { "zh": "一条河把两个城市隔开了。", "vi": "Một con sông ngăn cách hai thành phố.", "en": "A river separates the two cities." }
+  }
+]

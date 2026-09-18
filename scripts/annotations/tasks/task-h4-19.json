@@ -1,0 +1,676 @@
+[
+  {
+    "id": "L4-0811",
+    "simplified": "效率",
+    "pinyin": "xiào lǜ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "efficiency"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0812",
+    "simplified": "些",
+    "pinyin": "xiē",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "classifier indicating a small amount or small number greater than 1: some, a few, several"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0813",
+    "simplified": "心理",
+    "pinyin": "xīn lǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "psychology; mentality"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0814",
+    "simplified": "新郎",
+    "pinyin": "xīn láng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "bridegroom; groom"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0815",
+    "simplified": "新娘",
+    "pinyin": "xīn niáng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "bride"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0816",
+    "simplified": "新鲜",
+    "traditional": "新鮮",
+    "pinyin": "xīn xiān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "fresh (experience, food etc)",
+      "freshness",
+      "novel",
+      "uncommon"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0817",
+    "simplified": "新型",
+    "pinyin": "xīn xíng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "new type; new kind"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0818",
+    "simplified": "兴奋",
+    "traditional": "興奮",
+    "pinyin": "xīng fèn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "excited",
+      "excitement",
+      "(physiology) excitation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0819",
+    "simplified": "形容",
+    "pinyin": "xíng róng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to describe",
+      "(literary) countenance; appearance"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0820",
+    "simplified": "形势",
+    "traditional": "形勢",
+    "pinyin": "xíng shì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "circumstances",
+      "situation",
+      "terrain",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0821",
+    "simplified": "型",
+    "pinyin": "xíng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "mold",
+      "type",
+      "style",
+      "model"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0822",
+    "simplified": "型号",
+    "traditional": "型號",
+    "pinyin": "xíng hào",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "model (particular version of a manufactured article)",
+      "type (product specification in terms of color, size etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0823",
+    "simplified": "醒",
+    "pinyin": "xǐng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to wake up",
+      "to be awake",
+      "to become aware",
+      "to sober up",
+      "to come to"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0824",
+    "simplified": "兴趣",
+    "traditional": "興趣",
+    "pinyin": "xìng qù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "interest (desire to know about sth)",
+      "interest (thing in which one is interested); hobby"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0825",
+    "simplified": "性质",
+    "traditional": "性質",
+    "pinyin": "xìng zhì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "nature",
+      "characteristic",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0826",
+    "simplified": "兄弟",
+    "pinyin": "xiōng dì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "brothers",
+      "younger brother",
+      "CL:個/个",
+      "I, me (humble term used by men in public speech)",
+      "brotherly",
+      "fraternal"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0827",
+    "simplified": "胸部",
+    "pinyin": "xiōng bù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "chest",
+      "bosom"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0828",
+    "simplified": "修理",
+    "pinyin": "xiū lǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to repair",
+      "to fix",
+      "to prune",
+      "to trim",
+      "(coll.) to sort sb out",
+      "to fix sb"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0829",
+    "simplified": "选择",
+    "traditional": "選擇",
+    "pinyin": "xuǎn zé",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to select; to pick",
+      "choice; option; alternative"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0830",
+    "simplified": "学分",
+    "traditional": "學分",
+    "pinyin": "xué fēn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "course credit"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0831",
+    "simplified": "学年",
+    "traditional": "學年",
+    "pinyin": "xué nián",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "academic year"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0832",
+    "simplified": "学时",
+    "traditional": "學時",
+    "pinyin": "xué shí",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "class hour",
+      "period"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0833",
+    "simplified": "学术",
+    "traditional": "學術",
+    "pinyin": "xué shù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "learning",
+      "science",
+      "academic",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0834",
+    "simplified": "学问",
+    "traditional": "學問",
+    "pinyin": "xué wèn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "learning; knowledge; scholarship",
+      "a body of specialized knowledge (CL:門/门); (fig.) any activity that demands expertise, skill or experience (e.g. gathering forensic evidence, selecting clothing, managing relationships)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0835",
+    "simplified": "寻找",
+    "traditional": "尋找",
+    "pinyin": "xún zhǎo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to seek; to look for"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0836",
+    "simplified": "迅速",
+    "pinyin": "xùn sù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "rapid",
+      "speedy",
+      "fast"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0837",
+    "simplified": "牙",
+    "pinyin": "yá",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "tooth",
+      "ivory",
+      "CL:顆/颗"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0838",
+    "simplified": "牙刷",
+    "pinyin": "yá shuā",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "toothbrush",
+      "CL:把"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0839",
+    "simplified": "亚运会",
+    "traditional": "亞運會",
+    "pinyin": "yà yùn huì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "Asian Games"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0840",
+    "simplified": "呀",
+    "pinyin": "ya",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Aux"
+    ],
+    "cedictDefinitions": [
+      "(particle equivalent to 啊 after a vowel, expressing surprise or doubt)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0841",
+    "simplified": "延长",
+    "traditional": "延長",
+    "pinyin": "yán cháng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to prolong",
+      "to extend",
+      "to delay"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0842",
+    "simplified": "延期",
+    "pinyin": "yán qī",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to delay",
+      "to extend",
+      "to postpone",
+      "to defer"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0843",
+    "simplified": "延续",
+    "traditional": "延續",
+    "pinyin": "yán xù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to continue",
+      "to go on",
+      "to last"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0844",
+    "simplified": "严",
+    "traditional": "嚴",
+    "pinyin": "yán",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "tight (closely sealed)",
+      "stern",
+      "strict",
+      "rigorous",
+      "severe",
+      "father"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0845",
+    "simplified": "严格",
+    "traditional": "嚴格",
+    "pinyin": "yán gé",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "strict; stringent; tight; rigorous"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0846",
+    "simplified": "严重",
+    "traditional": "嚴重",
+    "pinyin": "yán zhòng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "grave; serious; severe; critical"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0847",
+    "simplified": "研究",
+    "pinyin": "yán jiū",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "research",
+      "a study",
+      "CL:項/项",
+      "to research",
+      "to look into"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0848",
+    "simplified": "研究生",
+    "pinyin": "yán jiū shēng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "graduate student",
+      "postgraduate student",
+      "research student"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0849",
+    "simplified": "研制",
+    "traditional": "研製",
+    "pinyin": "yán zhì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to research and manufacture; to research and to develop"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0850",
+    "simplified": "盐",
+    "traditional": "鹽",
+    "pinyin": "yán",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "salt",
+      "CL:粒"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0851",
+    "simplified": "眼镜",
+    "traditional": "眼鏡",
+    "pinyin": "yǎn jìng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "spectacles",
+      "eyeglasses",
+      "CL:副"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0852",
+    "simplified": "眼泪",
+    "traditional": "眼淚",
+    "pinyin": "yǎn lèi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "tear; teardrop",
+      "CL:滴"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0853",
+    "simplified": "眼里",
+    "traditional": "眼裡",
+    "pinyin": "yǎn li",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [],
+    "needsEnglish": true
+  },
+  {
+    "id": "L4-0854",
+    "simplified": "演讲",
+    "traditional": "演講",
+    "pinyin": "yǎn jiǎng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to give a lecture; to make a speech"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0855",
+    "simplified": "阳台",
+    "traditional": "陽臺",
+    "pinyin": "yáng tái",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "balcony",
+      "porch"
+    ],
+    "needsEnglish": false
+  }
+]

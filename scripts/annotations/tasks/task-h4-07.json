@@ -1,0 +1,716 @@
+[
+  {
+    "id": "L4-0271",
+    "simplified": "个别",
+    "traditional": "個別",
+    "pinyin": "gè bié",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "individually; one by one",
+      "just one or two; exceptional; rare"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0272",
+    "simplified": "个体",
+    "traditional": "個體",
+    "pinyin": "gè tǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "an individual",
+      "self-employed individual; small business operator (abbr. for 個體戶/个体户)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0273",
+    "simplified": "各个",
+    "traditional": "各個",
+    "pinyin": "gè gè",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Pron",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "every",
+      "various",
+      "separately, one by one"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0274",
+    "simplified": "根",
+    "pinyin": "gēn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "M",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "root",
+      "basis",
+      "classifier for long slender objects, e.g. cigarettes, guitar strings",
+      "CL:條/条",
+      "radical (chemistry)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0275",
+    "simplified": "根据",
+    "traditional": "根據",
+    "pinyin": "gēn jù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "Prep",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "according to",
+      "based on",
+      "basis",
+      "foundation",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0276",
+    "simplified": "工程",
+    "pinyin": "gōng chéng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "engineering",
+      "an engineering project",
+      "project",
+      "undertaking",
+      "CL:個/个,項/项"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0277",
+    "simplified": "公元",
+    "pinyin": "gōng yuán",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "CE (Common Era)",
+      "Christian Era",
+      "AD (Anno Domini)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0278",
+    "simplified": "供应",
+    "traditional": "供應",
+    "pinyin": "gōng yìng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to supply; to provide (goods, services etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0279",
+    "simplified": "共",
+    "pinyin": "gòng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "common",
+      "general",
+      "to share",
+      "together",
+      "total",
+      "altogether",
+      "abbr. for 共產黨/共产党, Communist party"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0280",
+    "simplified": "构成",
+    "traditional": "構成",
+    "pinyin": "gòu chéng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to constitute",
+      "to form",
+      "to compose",
+      "to make up",
+      "to configure (computing)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0281",
+    "simplified": "构造",
+    "traditional": "構造",
+    "pinyin": "gòu zào",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "structure",
+      "composition",
+      "tectonic (geology)",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0282",
+    "simplified": "购买",
+    "traditional": "購買",
+    "pinyin": "gòu mǎi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to purchase; to buy"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0283",
+    "simplified": "购物",
+    "traditional": "購物",
+    "pinyin": "gòu wù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "shopping"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0284",
+    "simplified": "骨头",
+    "traditional": "骨頭",
+    "pinyin": "gǔ tou",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "bone",
+      "CL:根,塊/块",
+      "moral character",
+      "bitterness",
+      "Taiwan pr."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0285",
+    "simplified": "固定",
+    "pinyin": "gù dìng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to fix",
+      "to fasten",
+      "to set rigidly in place",
+      "fixed",
+      "set",
+      "regular"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0286",
+    "simplified": "瓜",
+    "pinyin": "guā",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "melon; gourd; squash",
+      "(slang) a piece of gossip"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0287",
+    "simplified": "怪",
+    "pinyin": "guài",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "odd; strange; uncanny",
+      "(bound form) monster; supernatural being",
+      "to find strange; to regard as odd",
+      "to blame",
+      "(coll.) somewhat; rather"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0288",
+    "simplified": "关",
+    "traditional": "關",
+    "pinyin": "guān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "mountain pass",
+      "to close; to shut; to turn off",
+      "to confine; to lock (sb) up; to shut (sb in a room, a bird in a cage etc)",
+      "to concern; to involve"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0125",
+        "pinyin": "guān",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0289",
+    "simplified": "关闭",
+    "traditional": "關閉",
+    "pinyin": "guān bì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to close; to shut (a window etc)",
+      "(of a shop, school etc) to shut down"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0290",
+    "simplified": "关于",
+    "traditional": "關於",
+    "pinyin": "guān yú",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Prep"
+    ],
+    "cedictDefinitions": [
+      "pertaining to",
+      "concerning",
+      "with regard to",
+      "about",
+      "a matter of"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0291",
+    "simplified": "官",
+    "pinyin": "guān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "government official",
+      "governmental",
+      "official",
+      "public",
+      "organ of the body",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0292",
+    "simplified": "官方",
+    "pinyin": "guān fāng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "government",
+      "official (approved or issued by an authority)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0293",
+    "simplified": "光临",
+    "traditional": "光臨",
+    "pinyin": "guāng lín",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "(formal) to honor with one's presence",
+      "to attend"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0294",
+    "simplified": "光盘",
+    "traditional": "光盤",
+    "pinyin": "guāng pán",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "compact disc (CD); DVD; CD-ROM",
+      "CL:片,張/张"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0295",
+    "simplified": "逛",
+    "pinyin": "guàng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to stroll",
+      "to visit"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0296",
+    "simplified": "归",
+    "traditional": "歸",
+    "pinyin": "guī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to return",
+      "to go back to",
+      "to give back to",
+      "(of a responsibility) to be taken care of by",
+      "to belong to",
+      "to gather together",
+      "(used between two identical verbs) despite",
+      "to marry (of a woman) (old)",
+      "division on the abacus with a one-digit divisor"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0297",
+    "simplified": "规律",
+    "traditional": "規律",
+    "pinyin": "guī lǜ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "rule (e.g. of science)",
+      "law of behavior",
+      "regular pattern",
+      "rhythm",
+      "discipline"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0298",
+    "simplified": "规模",
+    "traditional": "規模",
+    "pinyin": "guī mó",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "scale; scope; extent"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0299",
+    "simplified": "规则",
+    "traditional": "規則",
+    "pinyin": "guī zé",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "rule; regulation",
+      "regular; orderly; fixed"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0300",
+    "simplified": "果实",
+    "traditional": "果實",
+    "pinyin": "guǒ shí",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "fruit (produced by a plant)",
+      "(fig.) fruits (of success etc)",
+      "results",
+      "gains"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0301",
+    "simplified": "过分",
+    "traditional": "過分",
+    "pinyin": "guò fèn",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "excessive; undue",
+      "unduly; overly"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0302",
+    "simplified": "海水",
+    "pinyin": "hǎi shuǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "seawater"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0303",
+    "simplified": "海鲜",
+    "traditional": "海鮮",
+    "pinyin": "hǎi xiān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "seafood"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0304",
+    "simplified": "含",
+    "pinyin": "hán",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to keep in the mouth",
+      "to contain"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0305",
+    "simplified": "含量",
+    "pinyin": "hán liàng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "content",
+      "quantity contained"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0306",
+    "simplified": "含义",
+    "traditional": "含義",
+    "pinyin": "hán yì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "meaning (implicit in a phrase)",
+      "implied meaning",
+      "hidden meaning",
+      "hint",
+      "connotation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0307",
+    "simplified": "含有",
+    "pinyin": "hán yǒu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to contain",
+      "including"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0308",
+    "simplified": "寒假",
+    "pinyin": "hán jià",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "winter vacation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0309",
+    "simplified": "寒冷",
+    "pinyin": "hán lěng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "cold (climate)",
+      "frigid",
+      "very cold"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0310",
+    "simplified": "行业",
+    "traditional": "行業",
+    "pinyin": "háng yè",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "trade; profession; industry; business"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0311",
+    "simplified": "航班",
+    "pinyin": "háng bān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(scheduled) flight; (scheduled) sailing"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0312",
+    "simplified": "航空",
+    "pinyin": "háng kōng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "aviation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0313",
+    "simplified": "毫米",
+    "pinyin": "háo mǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "millimeter"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0314",
+    "simplified": "毫升",
+    "pinyin": "háo shēng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "milliliter"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0315",
+    "simplified": "好友",
+    "pinyin": "hǎo yǒu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "close friend",
+      "pal",
+      "(social networking website) friend",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  }
+]

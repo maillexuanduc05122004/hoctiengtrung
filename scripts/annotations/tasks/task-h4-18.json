@@ -1,0 +1,701 @@
+[
+  {
+    "id": "L4-0766",
+    "simplified": "无聊",
+    "traditional": "無聊",
+    "pinyin": "wú liáo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "bored",
+      "boring",
+      "senseless"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0767",
+    "simplified": "无论",
+    "traditional": "無論",
+    "pinyin": "wú lùn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "no matter what or how",
+      "regardless of whether..."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0768",
+    "simplified": "无数",
+    "traditional": "無數",
+    "pinyin": "wú shù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "countless",
+      "numberless",
+      "innumerable"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0769",
+    "simplified": "无所谓",
+    "traditional": "無所謂",
+    "pinyin": "wú suǒ wèi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to be indifferent",
+      "not to matter",
+      "cannot be said to be"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0770",
+    "simplified": "无限",
+    "traditional": "無限",
+    "pinyin": "wú xiàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "unlimited",
+      "unbounded"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0771",
+    "simplified": "五颜六色",
+    "traditional": "五顏六色",
+    "pinyin": "wǔ yán liù sè",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "multicolored",
+      "every color under the sun"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0772",
+    "simplified": "误会",
+    "traditional": "誤會",
+    "pinyin": "wù huì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to misunderstand",
+      "to mistake",
+      "misunderstanding",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0773",
+    "simplified": "西瓜",
+    "pinyin": "xī guā",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "watermelon",
+      "CL:顆/颗"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0774",
+    "simplified": "吸",
+    "pinyin": "xī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to breathe",
+      "to suck in",
+      "to absorb",
+      "to inhale"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0775",
+    "simplified": "吸管",
+    "pinyin": "xī guǎn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(drinking) straw",
+      "pipette",
+      "eyedropper",
+      "snorkel",
+      "CL:支"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0776",
+    "simplified": "吸收",
+    "pinyin": "xī shōu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to absorb",
+      "to assimilate",
+      "to ingest",
+      "to recruit"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0777",
+    "simplified": "吸烟",
+    "traditional": "吸煙",
+    "pinyin": "xī yān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to smoke"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0778",
+    "simplified": "吸引",
+    "pinyin": "xī yǐn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to attract; to appeal to; to fascinate"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0779",
+    "simplified": "喜爱",
+    "traditional": "喜愛",
+    "pinyin": "xǐ ài",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to like",
+      "to love",
+      "to be fond of",
+      "favorite"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0780",
+    "simplified": "系列",
+    "pinyin": "xì liè",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "series",
+      "set"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0781",
+    "simplified": "系统",
+    "traditional": "系統",
+    "pinyin": "xì tǒng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "system",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0782",
+    "simplified": "细",
+    "traditional": "細",
+    "pinyin": "xì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "thin or slender",
+      "finely particulate",
+      "thin and soft",
+      "fine",
+      "delicate",
+      "trifling",
+      "(of a sound) quiet",
+      "frugal"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0783",
+    "simplified": "细节",
+    "traditional": "細節",
+    "pinyin": "xì jié",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "details; particulars"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0784",
+    "simplified": "细致",
+    "traditional": "細緻",
+    "pinyin": "xì zhì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "delicate",
+      "fine",
+      "careful",
+      "meticulous",
+      "painstaking"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0785",
+    "simplified": "下个月",
+    "traditional": "下個月",
+    "pinyin": "xià gè yuè",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "next month"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0786",
+    "simplified": "下降",
+    "pinyin": "xià jiàng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to decline",
+      "to drop",
+      "to fall",
+      "to go down",
+      "to decrease"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0787",
+    "simplified": "下楼",
+    "traditional": "下樓",
+    "pinyin": "xià lóu",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to go downstairs"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0788",
+    "simplified": "下载",
+    "traditional": "下載",
+    "pinyin": "xià zǎi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to download",
+      "also pr."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0789",
+    "simplified": "夏季",
+    "pinyin": "xià jì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "summer"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0790",
+    "simplified": "鲜",
+    "traditional": "鮮",
+    "pinyin": "xiān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "fresh",
+      "bright (in color)",
+      "delicious",
+      "tasty",
+      "delicacy",
+      "aquatic foods"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0791",
+    "simplified": "鲜花",
+    "traditional": "鮮花",
+    "pinyin": "xiān huā",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "flower",
+      "fresh flowers",
+      "CL:朵"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0792",
+    "simplified": "鲜明",
+    "traditional": "鮮明",
+    "pinyin": "xiān míng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "(of colors) bright; fresh and clear",
+      "clear-cut; distinct"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0793",
+    "simplified": "咸",
+    "traditional": "鹹",
+    "pinyin": "xián",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "salted",
+      "salty",
+      "stingy",
+      "miserly"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0794",
+    "simplified": "显著",
+    "traditional": "顯著",
+    "pinyin": "xiǎn zhù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "outstanding",
+      "notable",
+      "remarkable",
+      "statistically significant"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0795",
+    "simplified": "县",
+    "traditional": "縣",
+    "pinyin": "xiàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "county",
+      "(Japan) prefecture"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0796",
+    "simplified": "限制",
+    "pinyin": "xiàn zhì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to restrict",
+      "to limit",
+      "to confine",
+      "restriction",
+      "limit",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0797",
+    "simplified": "相处",
+    "traditional": "相處",
+    "pinyin": "xiāng chǔ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to be in contact (with sb)",
+      "to associate",
+      "to interact",
+      "to get along (well, poorly)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0798",
+    "simplified": "相反",
+    "pinyin": "xiāng fǎn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj",
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "opposite",
+      "contrary"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0799",
+    "simplified": "箱",
+    "pinyin": "xiāng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "box",
+      "trunk",
+      "chest"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0800",
+    "simplified": "箱子",
+    "pinyin": "xiāng zi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "suitcase",
+      "chest",
+      "box",
+      "case",
+      "trunk",
+      "CL:隻/只,個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0801",
+    "simplified": "想念",
+    "pinyin": "xiǎng niàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to miss",
+      "to remember with longing",
+      "to long to see again"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0802",
+    "simplified": "想象",
+    "pinyin": "xiǎng xiàng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to imagine; to envision",
+      "imagination"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0803",
+    "simplified": "项",
+    "traditional": "項",
+    "pinyin": "xiàng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "back of neck",
+      "item",
+      "thing",
+      "term (in a mathematical formula)",
+      "sum (of money)",
+      "classifier for principles, items, clauses, tasks, research projects etc"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0804",
+    "simplified": "项目",
+    "traditional": "項目",
+    "pinyin": "xiàng mù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "item; project; (sports) event"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0805",
+    "simplified": "相片",
+    "pinyin": "xiàng piàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "image",
+      "photograph",
+      "CL:張/张"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0806",
+    "simplified": "消化",
+    "pinyin": "xiāo huà",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to digest (food)",
+      "(fig.) to absorb (information etc); to assimilate; to process"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0807",
+    "simplified": "销售",
+    "traditional": "銷售",
+    "pinyin": "xiāo shòu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to sell",
+      "to market",
+      "sales (representative, agreement etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0808",
+    "simplified": "小吃",
+    "pinyin": "xiǎo chī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "street food; snack"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0809",
+    "simplified": "小伙子",
+    "pinyin": "xiǎo huǒ zi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(coll.) young man; young fellow; lad"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0810",
+    "simplified": "小型",
+    "pinyin": "xiǎo xíng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "small scale",
+      "small size"
+    ],
+    "needsEnglish": false
+  }
+]

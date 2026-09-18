@@ -33,7 +33,7 @@ const TRADITIONAL_SIZES: Record<WordFaceSize, string> = {
  * không bị bọc trong khung nào cả: khoảng trắng quanh nó đã đủ làm nổi bật.
  */
 export function WordFace({ word, size = 'lg', showTraditional = false, className = '' }: WordFaceProps) {
-  // Rất nhiều từ HSK 1-3 có chữ phồn thể trùng chữ giản thể; lặp lại y hệt chỉ
+  // Rất nhiều từ HSK 1-4 có chữ phồn thể trùng chữ giản thể; lặp lại y hệt chỉ
   // làm rối mắt nên chỉ hiện khi hai cách viết thật sự khác nhau.
   const traditional =
     showTraditional && word.traditional !== undefined && word.traditional !== word.simplified

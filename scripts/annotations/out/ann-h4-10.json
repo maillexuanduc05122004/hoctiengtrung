@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L4-0406",
+    "vi": ["giải thích", "lý giải"],
+    "viAliases": ["cắt nghĩa", "giảng giải"],
+    "en": ["to explain", "to interpret"],
+    "enSource": "cedict",
+    "example": { "zh": "请你解释一下这个词的意思。", "vi": "Xin bạn giải thích một chút ý nghĩa của từ này.", "en": "Please explain the meaning of this word." }
+  },
+  {
+    "id": "L4-0407",
+    "vi": ["càng nhanh càng tốt", "sớm nhất có thể"],
+    "viAliases": ["nhanh chóng", "gấp"],
+    "en": ["as quickly as possible; as soon as possible"],
+    "enSource": "cedict",
+    "example": { "zh": "请你尽快给我回电话。", "vi": "Xin bạn gọi lại cho tôi càng sớm càng tốt.", "en": "Please call me back as soon as possible." }
+  },
+  {
+    "id": "L4-0408",
+    "vi": ["chặt chẽ", "khăng khít"],
+    "viAliases": ["mật thiết", "gắn bó"],
+    "en": ["inseparably close"],
+    "enSource": "cedict",
+    "example": { "zh": "他们两个人的关系很紧密。", "vi": "Quan hệ của hai người họ rất khăng khít.", "en": "The relationship between the two of them is very close." }
+  },
+  {
+    "id": "L4-0409",
+    "vi": ["cố gắng hết sức", "dốc sức"],
+    "viAliases": ["nỗ lực", "gắng sức"],
+    "en": ["to strive one's hardest; to spare no effort"],
+    "enSource": "cedict",
+    "example": { "zh": "我会尽力帮助你的。", "vi": "Tôi sẽ cố gắng hết sức giúp bạn.", "en": "I will do my best to help you." }
+  },
+  {
+    "id": "L4-0410",
+    "vi": ["nhập khẩu", "lối vào"],
+    "viAliases": ["cửa vào", "nhập cảng"],
+    "en": ["to import", "imported", "entrance"],
+    "enSource": "cedict",
+    "example": { "zh": "这些水果都是从国外进口的。", "vi": "Những hoa quả này đều nhập khẩu từ nước ngoài.", "en": "These fruits are all imported from abroad." }
+  },
+  {
+    "id": "L4-0411",
+    "vi": ["cận đại", "thời cận đại"],
+    "viAliases": ["thời kỳ cận đại"],
+    "en": ["modern times, excluding recent decades", "the not-very-distant past"],
+    "enSource": "cedict",
+    "example": { "zh": "他在研究中国近代历史。", "vi": "Anh ấy đang nghiên cứu lịch sử cận đại Trung Quốc.", "en": "He is studying the modern history of China." }
+  },
+  {
+    "id": "L4-0412",
+    "vi": ["cấm", "nghiêm cấm"],
+    "viAliases": ["cấm đoán", "ngăn cấm"],
+    "en": ["to prohibit", "to forbid", "to ban"],
+    "enSource": "cedict",
+    "example": { "zh": "这里禁止吸烟。", "vi": "Ở đây cấm hút thuốc.", "en": "Smoking is prohibited here." }
+  },
+  {
+    "id": "L4-0413",
+    "vi": ["kinh điển", "tác phẩm kinh điển"],
+    "viAliases": ["cổ điển", "mẫu mực"],
+    "en": ["the classics", "classic (example, case etc)"],
+    "enSource": "cedict",
+    "example": { "zh": "这部电影已经成了经典。", "vi": "Bộ phim này đã trở thành kinh điển.", "en": "This movie has already become a classic." }
+  },
+  {
+    "id": "L4-0414",
+    "vi": ["tinh lực", "sức lực"],
+    "viAliases": ["năng lượng", "sức"],
+    "en": ["energy"],
+    "enSource": "cedict",
+    "example": { "zh": "他把精力都放在工作上了。", "vi": "Anh ấy dồn hết sức lực vào công việc.", "en": "He put all his energy into his work." }
+  },
+  {
+    "id": "L4-0415",
+    "vi": ["không ngờ lại", "thế mà lại", "vậy mà"],
+    "viAliases": ["ngờ đâu", "lại"],
+    "en": ["unexpectedly", "to one's surprise"],
+    "enSource": "cedict",
+    "example": { "zh": "他竟然忘了自己的生日。", "vi": "Anh ấy vậy mà lại quên sinh nhật của chính mình.", "en": "He unexpectedly forgot his own birthday." }
+  },
+  {
+    "id": "L4-0416",
+    "vi": ["ống kính", "cảnh quay"],
+    "viAliases": ["thấu kính máy ảnh", "cảnh phim"],
+    "en": ["camera lens", "camera shot (in a movie etc)"],
+    "enSource": "cedict",
+    "example": { "zh": "这个镜头拍得非常美。", "vi": "Cảnh quay này quay rất đẹp.", "en": "This shot was filmed very beautifully." }
+  },
+  {
+    "id": "L4-0417",
+    "vi": ["gương", "cái gương"],
+    "viAliases": ["kính soi"],
+    "en": ["mirror"],
+    "enSource": "cedict",
+    "example": { "zh": "她站在镜子前面看了很久。", "vi": "Cô ấy đứng trước gương nhìn rất lâu.", "en": "She stood in front of the mirror looking for a long time." }
+  },
+  {
+    "id": "L4-0418",
+    "vi": ["rốt cuộc", "cuối cùng thì"],
+    "viAliases": ["rốt cục", "suy cho cùng"],
+    "en": ["after all", "(in an interrogative sentence) finally"],
+    "enSource": "cedict",
+    "example": { "zh": "你究竟想去哪儿？", "vi": "Rốt cuộc bạn muốn đi đâu?", "en": "Where on earth do you want to go?" }
+  },
+  {
+    "id": "L4-0419",
+    "vi": ["quán bar", "quán rượu"],
+    "viAliases": ["bar"],
+    "en": ["bar (place to buy drinks)"],
+    "enSource": "cedict",
+    "example": { "zh": "周末我们去酒吧喝一杯吧。", "vi": "Cuối tuần chúng ta đi quán bar uống một ly nhé.", "en": "Let's go to the bar for a drink this weekend." }
+  },
+  {
+    "id": "L4-0420",
+    "vi": ["cư dân", "dân cư"],
+    "viAliases": ["người dân", "dân"],
+    "en": ["resident; inhabitant"],
+    "enSource": "cedict",
+    "example": { "zh": "这里的居民都很热情。", "vi": "Cư dân ở đây đều rất nhiệt tình.", "en": "The residents here are all very warm." }
+  },
+  {
+    "id": "L4-0421",
+    "vi": ["cư trú", "sinh sống"],
+    "viAliases": ["ở", "định cư"],
+    "en": ["to reside", "to live in a place"],
+    "enSource": "cedict",
+    "example": { "zh": "他在北京居住了十年。", "vi": "Anh ấy đã sinh sống ở Bắc Kinh mười năm.", "en": "He has lived in Beijing for ten years." }
+  },
+  {
+    "id": "L4-0422",
+    "vi": ["cục", "sở", "cục diện"],
+    "viAliases": ["cơ quan", "tình thế"],
+    "en": ["office", "situation"],
+    "enSource": "cedict",
+    "example": { "zh": "他在公安局工作。", "vi": "Anh ấy làm việc ở cục công an.", "en": "He works at the public security bureau." }
+  },
+  {
+    "id": "L4-0423",
+    "vi": ["to lớn", "khổng lồ"],
+    "viAliases": ["cực lớn", "vĩ đại"],
+    "en": ["huge; immense; enormous; gigantic"],
+    "enSource": "cedict",
+    "example": { "zh": "这个城市发生了巨大的变化。", "vi": "Thành phố này đã có sự thay đổi to lớn.", "en": "This city has undergone enormous changes." }
+  },
+  {
+    "id": "L4-0424",
+    "vi": ["có đủ", "có được", "hội đủ"],
+    "viAliases": ["sở hữu", "trang bị"],
+    "en": ["to possess", "to have", "able to fulfill (conditions or requirements)"],
+    "enSource": "cedict",
+    "example": { "zh": "他具备做老师的条件。", "vi": "Anh ấy có đủ điều kiện để làm giáo viên.", "en": "He possesses the qualifications to be a teacher." }
+  },
+  {
+    "id": "L4-0425",
+    "vi": ["khoảng cách", "cách"],
+    "viAliases": ["cự ly", "cách xa"],
+    "en": ["distance", "to be apart from"],
+    "enSource": "cedict",
+    "example": { "zh": "我家距离学校只有一公里。", "vi": "Nhà tôi cách trường chỉ một ki-lô-mét.", "en": "My home is only one kilometer from the school." }
+  },
+  {
+    "id": "L4-0426",
+    "vi": ["tụ tập", "tụ họp", "gom lại"],
+    "viAliases": ["tập hợp", "sum họp"],
+    "en": ["to assemble; to gather (transitive or intransitive)"],
+    "enSource": "cedict",
+    "example": { "zh": "春节的时候全家人聚在一起。", "vi": "Vào dịp Tết cả nhà tụ họp cùng nhau.", "en": "During Spring Festival the whole family gathers together." }
+  },
+  {
+    "id": "L4-0427",
+    "vi": ["tụ họp", "họp mặt", "buổi họp mặt"],
+    "viAliases": ["liên hoan", "gặp mặt"],
+    "en": ["gathering", "party", "to get together"],
+    "enSource": "cedict",
+    "example": { "zh": "明天晚上有一个同学聚会。", "vi": "Tối mai có một buổi họp mặt bạn học.", "en": "There is a classmate gathering tomorrow evening." }
+  },
+  {
+    "id": "L4-0428",
+    "vi": ["cuộn", "cuốn lại"],
+    "viAliases": ["cuộn tròn", "quấn"],
+    "en": ["to roll up", "to sweep up; to carry along"],
+    "enSource": "cedict",
+    "example": { "zh": "他把地图卷起来放进包里。", "vi": "Anh ấy cuộn bản đồ lại rồi bỏ vào túi.", "en": "He rolled up the map and put it in his bag." }
+  },
+  {
+    "id": "L4-0429",
+    "vi": ["quyển", "cuốn", "tập"],
+    "viAliases": ["bài thi", "cuộn tranh"],
+    "en": ["classifier for books, paintings: volume, scroll", "volume"],
+    "enSource": "cedict",
+    "example": { "zh": "这套书一共有五卷。", "vi": "Bộ sách này tổng cộng có năm quyển.", "en": "This set of books has five volumes in total." }
+  },
+  {
+    "id": "L4-0430",
+    "vi": ["vai", "vai diễn", "nhân vật"],
+    "viAliases": ["vai trò"],
+    "en": ["role; part (in a play or movie etc)"],
+    "enSource": "cedict",
+    "example": { "zh": "她在这部电影里演什么角色？", "vi": "Cô ấy đóng vai gì trong bộ phim này?", "en": "What role does she play in this movie?" }
+  },
+  {
+    "id": "L4-0431",
+    "vi": ["nở hoa", "ra hoa"],
+    "viAliases": ["trổ hoa", "nở"],
+    "en": ["to bloom; to blossom; to flower"],
+    "enSource": "cedict",
+    "example": { "zh": "春天到了，花园里的树都开花了。", "vi": "Mùa xuân đến rồi, cây trong vườn đều nở hoa.", "en": "Spring has arrived, and the trees in the garden are all blooming." }
+  },
+  {
+    "id": "L4-0432",
+    "vi": ["nước sôi", "nước đun sôi"],
+    "viAliases": ["nước nóng"],
+    "en": ["boiled water", "boiling water"],
+    "enSource": "cedict",
+    "example": { "zh": "请给我一杯开水。", "vi": "Cho tôi xin một cốc nước sôi.", "en": "Please give me a cup of boiled water." }
+  },
+  {
+    "id": "L4-0433",
+    "vi": ["coi thường", "khinh thường"],
+    "viAliases": ["xem thường", "khinh"],
+    "en": ["to look down upon", "to despise"],
+    "enSource": "cedict",
+    "example": { "zh": "你不应该看不起别人。", "vi": "Bạn không nên coi thường người khác.", "en": "You should not look down on others." }
+  },
+  {
+    "id": "L4-0434",
+    "vi": ["xem ra", "có vẻ như"],
+    "viAliases": ["hình như", "dường như"],
+    "en": ["apparently", "it seems that"],
+    "enSource": "cedict",
+    "example": { "zh": "看来今天不会下雨了。", "vi": "Xem ra hôm nay sẽ không mưa nữa.", "en": "It seems it will not rain today." }
+  },
+  {
+    "id": "L4-0435",
+    "vi": ["thăm", "đến thăm"],
+    "viAliases": ["thăm hỏi", "thăm viếng"],
+    "en": ["to pay a visit to; to see (sb)"],
+    "enSource": "cedict",
+    "example": { "zh": "周末我要去看望奶奶。", "vi": "Cuối tuần tôi sẽ đi thăm bà.", "en": "This weekend I am going to visit my grandmother." }
+  },
+  {
+    "id": "L4-0436",
+    "vi": ["khảo sát", "thị sát", "chuyến khảo sát"],
+    "viAliases": ["nghiên cứu thực địa", "xem xét"],
+    "en": ["to inspect", "to observe and study", "on-the-spot investigation"],
+    "enSource": "cedict",
+    "example": { "zh": "他们去农村考察了一个星期。", "vi": "Họ đi khảo sát ở nông thôn một tuần.", "en": "They went to the countryside for a week of field study." }
+  },
+  {
+    "id": "L4-0437",
+    "vi": ["suy nghĩ", "cân nhắc", "xem xét"],
+    "viAliases": ["suy xét", "tính toán"],
+    "en": ["to think over", "to consider"],
+    "enSource": "cedict",
+    "example": { "zh": "这件事我要考虑一下。", "vi": "Việc này tôi cần suy nghĩ một chút.", "en": "I need to think this matter over." }
+  },
+  {
+    "id": "L4-0438",
+    "vi": ["cây (lượng từ cho cây cối)"],
+    "viAliases": ["gốc"],
+    "en": ["classifier for trees, cabbages, plants etc"],
+    "enSource": "cedict",
+    "example": { "zh": "我家门口有一棵大树。", "vi": "Trước cửa nhà tôi có một cây to.", "en": "There is a big tree in front of my house." }
+  },
+  {
+    "id": "L4-0439",
+    "vi": ["có thể thấy", "đủ thấy", "qua đó thấy rằng"],
+    "viAliases": ["rõ ràng là"],
+    "en": ["it can clearly be seen (that this is the case)", "it is (thus) clear"],
+    "enSource": "cedict",
+    "example": { "zh": "他天天练习，可见他很努力。", "vi": "Anh ấy luyện tập mỗi ngày, có thể thấy anh ấy rất chăm chỉ.", "en": "He practices every day; clearly he is very hardworking." }
+  },
+  {
+    "id": "L4-0440",
+    "vi": ["không gian", "chỗ trống"],
+    "viAliases": ["khoảng trống", "khoảng không"],
+    "en": ["space; room", "(fig.) scope; leeway"],
+    "enSource": "cedict",
+    "example": { "zh": "这个房间的空间很大。", "vi": "Không gian của căn phòng này rất rộng.", "en": "This room has a lot of space." }
+  },
+  {
+    "id": "L4-0441",
+    "vi": ["trống", "còn trống", "để trống"],
+    "viAliases": ["rảnh", "bỏ trống"],
+    "en": ["vacant", "unoccupied", "to empty"],
+    "enSource": "cedict",
+    "example": { "zh": "教室里还有空座位吗？", "vi": "Trong lớp còn chỗ ngồi trống không?", "en": "Are there still vacant seats in the classroom?" }
+  },
+  {
+    "id": "L4-0442",
+    "vi": ["túi", "túi áo", "túi quần"],
+    "viAliases": ["bao", "túi vải"],
+    "en": ["pocket", "bag; sack"],
+    "enSource": "cedict",
+    "example": { "zh": "他从口袋里拿出了手机。", "vi": "Anh ấy lấy điện thoại từ trong túi ra.", "en": "He took his phone out of his pocket." }
+  },
+  {
+    "id": "L4-0443",
+    "vi": ["khẩu ngữ", "văn nói"],
+    "viAliases": ["ngôn ngữ nói", "tiếng nói"],
+    "en": ["spoken language", "colloquial speech"],
+    "enSource": "cedict",
+    "example": { "zh": "我想提高我的汉语口语。", "vi": "Tôi muốn nâng cao khẩu ngữ tiếng Trung của mình.", "en": "I want to improve my spoken Chinese." }
+  },
+  {
+    "id": "L4-0444",
+    "vi": ["đắng", "khổ", "cực khổ"],
+    "viAliases": ["cay đắng", "vất vả"],
+    "en": ["bitter"],
+    "enSource": "cedict",
+    "example": { "zh": "这个药太苦了，我不想喝。", "vi": "Thuốc này đắng quá, tôi không muốn uống.", "en": "This medicine is too bitter; I do not want to drink it." }
+  },
+  {
+    "id": "L4-0445",
+    "vi": ["kế toán", "nhân viên kế toán"],
+    "viAliases": ["kế toán viên"],
+    "en": ["accountant", "accounting"],
+    "enSource": "cedict",
+    "example": { "zh": "我姐姐在一家公司当会计。", "vi": "Chị tôi làm kế toán ở một công ty.", "en": "My older sister works as an accountant at a company." }
+  },
+  {
+    "id": "L4-0446",
+    "vi": ["chuyển phát nhanh", "hàng chuyển phát nhanh"],
+    "viAliases": ["giao hàng nhanh", "bưu kiện"],
+    "en": ["express delivery"],
+    "enSource": "cedict",
+    "example": { "zh": "你的快递已经到了。", "vi": "Bưu kiện chuyển phát nhanh của bạn đã đến rồi.", "en": "Your express delivery has arrived." }
+  },
+  {
+    "id": "L4-0447",
+    "vi": ["rộng", "rộng rãi"],
+    "viAliases": ["rộng lớn", "khoan dung"],
+    "en": ["wide", "broad"],
+    "enSource": "cedict",
+    "example": { "zh": "这条路很宽，可以开车。", "vi": "Con đường này rất rộng, có thể lái xe.", "en": "This road is very wide; you can drive on it." }
+  },
+  {
+    "id": "L4-0448",
+    "vi": ["rộng lớn", "bao la", "mênh mông"],
+    "viAliases": ["rộng rãi", "bát ngát"],
+    "en": ["wide", "broad", "vast"],
+    "enSource": "cedict",
+    "example": { "zh": "我们的国家有宽广的土地。", "vi": "Đất nước chúng ta có vùng đất rộng lớn.", "en": "Our country has vast land." }
+  },
+  {
+    "id": "L4-0449",
+    "vi": ["nước khoáng", "nước suối"],
+    "viAliases": ["nước khoáng đóng chai"],
+    "en": ["mineral water"],
+    "enSource": "cedict",
+    "example": { "zh": "请给我一瓶矿泉水。", "vi": "Cho tôi xin một chai nước khoáng.", "en": "Please give me a bottle of mineral water." }
+  },
+  {
+    "id": "L4-0450",
+    "vi": ["mở rộng", "làm lớn thêm"],
+    "viAliases": ["khuếch trương", "bành trướng"],
+    "en": ["to expand", "to enlarge"],
+    "enSource": "cedict",
+    "example": { "zh": "公司打算明年扩大生产。", "vi": "Công ty dự định năm sau mở rộng sản xuất.", "en": "The company plans to expand production next year." }
+  }
+]

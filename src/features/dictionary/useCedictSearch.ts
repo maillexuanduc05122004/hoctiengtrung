@@ -1,7 +1,7 @@
 /**
  * Tra "từ điển lớn" CC-CEDICT trên máy chủ, dùng cho hộp tra từ.
  *
- * Bộ HSK trên máy chỉ có 2.245 từ; gặp một chữ ngoài bộ đó (hay muốn tra
+ * Bộ HSK trên máy chỉ có 3.245 từ; gặp một chữ ngoài bộ đó (hay muốn tra
  * ngược từ tiếng Anh) thì phải hỏi máy chủ. Máy chủ ở xa hơn IndexedDB rất
  * nhiều, nên truy vấn được hoãn 300 mili giây và mỗi phím mới huỷ luôn yêu cầu
  * đang bay: gõ "học" thì chỉ có "học" được gửi đi, không phải cả "h", "ho".

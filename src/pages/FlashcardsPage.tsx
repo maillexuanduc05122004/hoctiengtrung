@@ -12,13 +12,9 @@ import type { StudyOptionsValue } from '../features/shared/StudyOptions.tsx';
 import { useSettings } from '../hooks/settings-context.ts';
 import { useVocabulary } from '../hooks/vocabulary-context.ts';
 import type { PoolKind } from '../hooks/useStudySession.ts';
-import type { HskLevel } from '../types/vocabulary.ts';
+import { isHskLevel, type HskLevel } from '../types/vocabulary.ts';
 
 const POOLS: readonly PoolKind[] = ['due', 'new', 'starred', 'mixed', 'lesson'];
-
-function isHskLevel(value: number): value is HskLevel {
-  return value === 1 || value === 2 || value === 3;
-}
 
 /** Đọc "1,2" trên địa chỉ thành danh sách cấp, bỏ qua mọi giá trị lạ. */
 function parseLevels(raw: string | null, fallback: readonly HskLevel[]): HskLevel[] {

@@ -2,7 +2,7 @@
  * Danh sách từ người học đã học, lấy từ máy chủ.
  *
  * Nạp một lần khi dựng và mỗi khi `reload()` được gọi (sau khi thêm hay bỏ
- * từ). Kích thước trang 500 là đủ cho một vốn từ HSK 1–3 mà không phải phân
+ * từ). Kích thước trang 500 là đủ cho một vốn từ HSK 1–4 mà không phải phân
  * trang trên giao diện — bảng từ vựng vốn hiện hết một lượt.
  *
  * `loading` suy ra từ việc kết quả đã nạp có khớp lần thử hiện tại hay chưa,

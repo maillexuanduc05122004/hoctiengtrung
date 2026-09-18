@@ -1,0 +1,723 @@
+[
+  {
+    "id": "L4-0091",
+    "simplified": "承认",
+    "traditional": "承認",
+    "pinyin": "chéng rèn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to admit",
+      "to concede",
+      "to recognize",
+      "recognition (diplomatic, artistic etc)",
+      "to acknowledge"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0092",
+    "simplified": "承受",
+    "pinyin": "chéng shòu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to bear",
+      "to support",
+      "to inherit"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0093",
+    "simplified": "程序",
+    "pinyin": "chéng xù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "procedures",
+      "sequence",
+      "order",
+      "computer program"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0094",
+    "simplified": "吃惊",
+    "traditional": "吃驚",
+    "pinyin": "chī jīng",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to be startled",
+      "to be shocked",
+      "to be amazed"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0095",
+    "simplified": "迟到",
+    "traditional": "遲到",
+    "pinyin": "chí dào",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to arrive late"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0096",
+    "simplified": "尺",
+    "pinyin": "chǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "a Chinese foot",
+      "one-third of a meter",
+      "a ruler",
+      "a tape-measure",
+      "one of the three acupoints for measuring pulse in Chinese medicine",
+      "CL:支,把"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0097",
+    "simplified": "尺寸",
+    "pinyin": "chǐ cun",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "size; dimensions; measurements (esp. of clothes)",
+      "(coll.) propriety"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0098",
+    "simplified": "尺子",
+    "pinyin": "chǐ zi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "ruler (measuring instrument)",
+      "CL:把"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0099",
+    "simplified": "冲",
+    "traditional": "衝",
+    "pinyin": "chōng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "thoroughfare",
+      "to go straight ahead",
+      "to rush",
+      "to clash",
+      "(of water) to dash against",
+      "to mix with water",
+      "to infuse",
+      "to rinse",
+      "to flush",
+      "to develop (a film)",
+      "to rise in the air",
+      "to collide with"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0100",
+    "simplified": "充电",
+    "traditional": "充電",
+    "pinyin": "chōng diàn",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to recharge (a battery)",
+      "(fig.) to recharge one's batteries (through leisure)",
+      "to update one's skills and knowledge"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0101",
+    "simplified": "充电器",
+    "traditional": "充電器",
+    "pinyin": "chōng diàn qì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "battery charger"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0102",
+    "simplified": "充分",
+    "pinyin": "chōng fèn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "ample",
+      "sufficient",
+      "adequate",
+      "full",
+      "fully",
+      "to the full"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0103",
+    "simplified": "虫子",
+    "traditional": "蟲子",
+    "pinyin": "chóng zi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "insect",
+      "bug",
+      "worm",
+      "CL:條/条,隻/只"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0104",
+    "simplified": "抽",
+    "pinyin": "chōu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to draw out; to pull out from in between",
+      "to remove part of the whole",
+      "to inhale (esp. smoke)",
+      "(of fabric etc) to shrink",
+      "(of certain plants) to sprout; to bud",
+      "to whip; to thrash",
+      "classifier for sheets (of tissues, wet wipes etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0105",
+    "simplified": "抽奖",
+    "traditional": "抽獎",
+    "pinyin": "chōu jiǎng",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to draw a prize",
+      "a lottery",
+      "a raffle"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0106",
+    "simplified": "抽烟",
+    "traditional": "抽煙",
+    "pinyin": "chōu yān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "variant of 抽菸/抽烟"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0107",
+    "simplified": "出口",
+    "pinyin": "chū kǒu",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "an exit",
+      "CL:個/个",
+      "to speak",
+      "to export",
+      "(of a ship) to leave port"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0070",
+        "pinyin": "chū kǒu",
+        "partOfSpeech": [
+          "N"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0108",
+    "simplified": "出色",
+    "pinyin": "chū sè",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "remarkable; outstanding"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0109",
+    "simplified": "出售",
+    "pinyin": "chū shòu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to sell",
+      "to offer for sale",
+      "to put on the market"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0110",
+    "simplified": "出席",
+    "pinyin": "chū xí",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to attend",
+      "to participate",
+      "present"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0111",
+    "simplified": "处于",
+    "traditional": "處於",
+    "pinyin": "chǔ yú",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to be in (some state, position, or condition)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0112",
+    "simplified": "处",
+    "traditional": "處",
+    "pinyin": "chù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(bound form) place; locality",
+      "(bound form) part; aspect",
+      "(bound form) office; department; bureau",
+      "classifier for locations: spot, point"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0113",
+    "simplified": "穿上",
+    "pinyin": "chuān shang",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to put on (clothes etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0114",
+    "simplified": "传统",
+    "traditional": "傳統",
+    "pinyin": "chuán tǒng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "tradition; traditional"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0115",
+    "simplified": "窗户",
+    "traditional": "窗戶",
+    "pinyin": "chuāng hu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "window",
+      "CL:個/个,扇"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0116",
+    "simplified": "窗台",
+    "traditional": "窗臺",
+    "pinyin": "chuāng tái",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "windowsill; window ledge"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0117",
+    "simplified": "窗子",
+    "pinyin": "chuāng zi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "window"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0118",
+    "simplified": "春季",
+    "pinyin": "chūn jì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "springtime"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0119",
+    "simplified": "纯",
+    "traditional": "純",
+    "pinyin": "chún",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "pure",
+      "simple",
+      "unmixed",
+      "genuine"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0120",
+    "simplified": "纯净水",
+    "traditional": "純淨水",
+    "pinyin": "chún jìng shuǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "purified water"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0121",
+    "simplified": "词汇",
+    "traditional": "詞彙",
+    "pinyin": "cí huì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "vocabulary",
+      "list of words (e.g. for language teaching purposes)",
+      "word"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0122",
+    "simplified": "此",
+    "pinyin": "cǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "this; these"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0123",
+    "simplified": "此外",
+    "pinyin": "cǐ wài",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "besides; in addition; moreover; furthermore"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0124",
+    "simplified": "次",
+    "pinyin": "cì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "next in sequence",
+      "second",
+      "the second (day, time etc)",
+      "secondary",
+      "vice-",
+      "sub-",
+      "infra-",
+      "inferior quality",
+      "substandard",
+      "order",
+      "sequence",
+      "hypo- (chemistry)",
+      "classifier for enumerated events: time"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0053",
+        "pinyin": "cì",
+        "partOfSpeech": [
+          "M"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0125",
+    "simplified": "刺",
+    "pinyin": "cì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "thorn",
+      "sting",
+      "thrust",
+      "to prick",
+      "to pierce",
+      "to stab",
+      "to assassinate",
+      "to murder"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0126",
+    "simplified": "刺激",
+    "pinyin": "cì jī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to provoke; to irritate; to upset; to stimulate; to excite",
+      "irritant"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0127",
+    "simplified": "从此",
+    "traditional": "從此",
+    "pinyin": "cóng cǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "from now on",
+      "since then",
+      "henceforth"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0128",
+    "simplified": "粗",
+    "pinyin": "cū",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "(of sth long) wide; thick",
+      "(of sth granular) coarse",
+      "(of a voice) gruff",
+      "(of sb's manner etc) rough; crude; careless; rude"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0129",
+    "simplified": "粗心",
+    "pinyin": "cū xīn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "careless",
+      "thoughtless"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0130",
+    "simplified": "促进",
+    "traditional": "促進",
+    "pinyin": "cù jìn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to promote (an idea or cause); to advance; boost"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0131",
+    "simplified": "促使",
+    "pinyin": "cù shǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to prompt; to induce; to spur"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0132",
+    "simplified": "促销",
+    "traditional": "促銷",
+    "pinyin": "cù xiāo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to promote sales"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0133",
+    "simplified": "措施",
+    "pinyin": "cuò shī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "measure",
+      "step",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0134",
+    "simplified": "打",
+    "pinyin": "dá",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "(loanword) dozen",
+      "Taiwan pr."
+    ],
+    "siblings": [
+      {
+        "id": "L1-0056",
+        "pinyin": "dǎ",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0135",
+    "simplified": "答案",
+    "pinyin": "dá àn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "answer",
+      "solution",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  }
+]

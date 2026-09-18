@@ -23,7 +23,7 @@ import {
   type PoolKind,
   type SubmitInput,
 } from '../hooks/useStudySession.ts';
-import type { HskLevel } from '../types/vocabulary.ts';
+import { isHskLevel, type HskLevel } from '../types/vocabulary.ts';
 
 /** Một phiên nói ngắn hơn phiên gõ: đọc thành tiếng mệt hơn gõ phím nhiều. */
 const SESSION_LIMIT = 12;
@@ -39,10 +39,6 @@ const EMPTY_HINTS: Record<PoolKind, string> = {
   lesson: 'Buổi học này chưa có từ nào.',
 };
 
-function isHskLevel(value: number): value is HskLevel {
-  return value === 1 || value === 2 || value === 3;
-}
-
 /**
  * Đọc danh sách cấp từ địa chỉ, ví dụ `?level=1,2`.
  * Tham số hỏng hay thiếu thì lấy các cấp đang bật trong cài đặt.
@@ -52,7 +48,7 @@ function parseLevels(raw: string, fallback: string): HskLevel[] {
     const found = text
       .split(',')
       .map((part) => Number.parseInt(part.trim(), 10))
-      .filter((value): value is HskLevel => isHskLevel(value));
+      .filter(isHskLevel);
     return [...new Set(found)].sort((a, b) => a - b);
   };
   const wanted = read(raw);

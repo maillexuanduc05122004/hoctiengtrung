@@ -1,0 +1,771 @@
+[
+  {
+    "id": "L4-0046",
+    "simplified": "别",
+    "traditional": "別",
+    "pinyin": "bié",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to leave; to part (from)",
+      "(literary) to differentiate; to distinguish",
+      "(dialect) to turn away; to turn aside; to avert (one's face, gaze etc)",
+      "(bound form) other; another; different",
+      "don't ...!",
+      "to fasten with a pin or clip",
+      "to stick in; to insert (in order to hinder movement)",
+      "(noun suffix) category (as in 性別/性别, 派別/派别)"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0025",
+        "pinyin": "bié",
+        "partOfSpeech": [
+          "Adv"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0047",
+    "simplified": "冰",
+    "pinyin": "bīng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "ice",
+      "CL:塊/块",
+      "to chill sth",
+      "(of an object or substance) to feel cold",
+      "(of a person) cold",
+      "unfriendly",
+      "(slang) methamphetamine"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0048",
+    "simplified": "冰箱",
+    "pinyin": "bīng xiāng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "refrigerator",
+      "(old) icebox"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0049",
+    "simplified": "冰雪",
+    "pinyin": "bīng xuě",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "ice and snow"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0050",
+    "simplified": "兵",
+    "pinyin": "bīng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "soldiers",
+      "a force",
+      "an army",
+      "weapons",
+      "arms",
+      "military",
+      "warlike",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0051",
+    "simplified": "并",
+    "traditional": "並",
+    "pinyin": "bìng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "and",
+      "furthermore",
+      "also",
+      "together with",
+      "(not) at all",
+      "simultaneously",
+      "to combine",
+      "to join",
+      "to merge"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0052",
+        "pinyin": "bìng",
+        "partOfSpeech": [
+          "Adv",
+          "Conj"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0052",
+    "simplified": "不要紧",
+    "traditional": "不要緊",
+    "pinyin": "bù yào jǐn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "unimportant",
+      "not serious",
+      "it doesn't matter",
+      "never mind",
+      "it looks all right, but"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0053",
+    "simplified": "不在乎",
+    "pinyin": "bù zài hu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "not to care"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0054",
+    "simplified": "不管",
+    "pinyin": "bù guǎn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "not to be concerned",
+      "regardless of",
+      "no matter"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0055",
+    "simplified": "不然",
+    "pinyin": "bù rán",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "not so",
+      "no",
+      "or else",
+      "otherwise",
+      "if not",
+      "How about ...?"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0056",
+    "simplified": "布置",
+    "traditional": "佈置",
+    "pinyin": "bù zhì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to arrange; to set up; to lay out",
+      "to assign (tasks, homework etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0057",
+    "simplified": "步行",
+    "pinyin": "bù xíng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to go on foot",
+      "to walk"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0058",
+    "simplified": "擦",
+    "pinyin": "cā",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to rub; to scratch",
+      "to wipe; to polish",
+      "to apply (lipstick, lotion etc)",
+      "to brush (past)",
+      "to shred (a vegetable etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0059",
+    "simplified": "才",
+    "pinyin": "cái",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "ability; talent",
+      "sb of a certain type",
+      "a capable individual",
+      "then and only then",
+      "just now",
+      "(before an expression of quantity) only",
+      "(emphatic, esp. in contrast or correction) really; actually"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0046",
+        "pinyin": "cái",
+        "partOfSpeech": [
+          "Adv"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0060",
+    "simplified": "材料",
+    "pinyin": "cái liào",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(raw) material",
+      "data",
+      "(fig.) person who has the potential to do the job"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0061",
+    "simplified": "财产",
+    "traditional": "財產",
+    "pinyin": "cái chǎn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "property",
+      "assets",
+      "estate",
+      "CL:筆/笔"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0062",
+    "simplified": "财富",
+    "traditional": "財富",
+    "pinyin": "cái fù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "wealth",
+      "riches"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0063",
+    "simplified": "采访",
+    "traditional": "採訪",
+    "pinyin": "cǎi fǎng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to interview",
+      "to gather news",
+      "to hunt for and collect",
+      "to cover"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0064",
+    "simplified": "参考",
+    "traditional": "參考",
+    "pinyin": "cān kǎo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "consultation",
+      "reference",
+      "to consult",
+      "to refer"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0065",
+    "simplified": "参与",
+    "traditional": "參與",
+    "pinyin": "cān yù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to participate (in sth)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0066",
+    "simplified": "操场",
+    "traditional": "操場",
+    "pinyin": "cāo chǎng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "playground",
+      "sports field",
+      "drill ground",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0067",
+    "simplified": "操作",
+    "pinyin": "cāo zuò",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to work",
+      "to operate",
+      "to manipulate"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0068",
+    "simplified": "测",
+    "traditional": "測",
+    "pinyin": "cè",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to survey",
+      "to measure",
+      "to conjecture"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0069",
+    "simplified": "测量",
+    "traditional": "測量",
+    "pinyin": "cè liáng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "survey",
+      "to measure",
+      "to gauge",
+      "to determine"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0070",
+    "simplified": "测试",
+    "traditional": "測試",
+    "pinyin": "cè shì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to test (machinery etc)",
+      "to test (a person's skill in a particular area)",
+      "a test",
+      "(computing) beta (version of software)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0071",
+    "simplified": "曾",
+    "pinyin": "céng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "once",
+      "already",
+      "ever (in the past)",
+      "former",
+      "previously",
+      "(past tense marker used before verb or clause)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0072",
+    "simplified": "茶叶",
+    "traditional": "茶葉",
+    "pinyin": "chá yè",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "tea",
+      "tea leaves",
+      "CL:盒,罐,包,片"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0073",
+    "simplified": "产品",
+    "traditional": "產品",
+    "pinyin": "chǎn pǐn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "goods",
+      "merchandise",
+      "product",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0074",
+    "simplified": "长途",
+    "traditional": "長途",
+    "pinyin": "cháng tú",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "long distance",
+      "long-distance phone call (abbr. for 長途電話/长途电话)",
+      "long-distance coach (abbr. for 長途汽車/长途汽车)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0075",
+    "simplified": "常识",
+    "traditional": "常識",
+    "pinyin": "cháng shí",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "common sense; general knowledge"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0076",
+    "simplified": "唱片",
+    "pinyin": "chàng piàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "gramophone record",
+      "LP",
+      "music CD",
+      "musical album",
+      "CL:張/张"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0077",
+    "simplified": "抄",
+    "pinyin": "chāo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to make a copy",
+      "to plagiarize",
+      "to search and seize",
+      "to raid",
+      "to grab",
+      "to go off with",
+      "to take a shortcut",
+      "to make a turning move",
+      "to fold one's arms"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0078",
+    "simplified": "抄写",
+    "traditional": "抄寫",
+    "pinyin": "chāo xiě",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to copy",
+      "to transcribe"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0079",
+    "simplified": "潮",
+    "pinyin": "cháo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "tide",
+      "damp; moist; humid",
+      "fashionable; trendy",
+      "(coll.) inferior; substandard"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0080",
+    "simplified": "潮流",
+    "pinyin": "cháo liú",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "tide",
+      "current",
+      "trend"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0081",
+    "simplified": "潮湿",
+    "traditional": "潮濕",
+    "pinyin": "cháo shī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "damp",
+      "moist"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0082",
+    "simplified": "彻底",
+    "traditional": "徹底",
+    "pinyin": "chè dǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "thorough",
+      "thoroughly",
+      "complete"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0083",
+    "simplified": "沉",
+    "pinyin": "chén",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "to submerge",
+      "to immerse",
+      "to sink",
+      "to keep down",
+      "to lower",
+      "to drop",
+      "deep",
+      "profound",
+      "heavy"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0084",
+    "simplified": "沉默",
+    "pinyin": "chén mò",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "taciturn",
+      "uncommunicative",
+      "silent"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0085",
+    "simplified": "沉重",
+    "pinyin": "chén zhòng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "heavy",
+      "hard",
+      "serious",
+      "critical"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0086",
+    "simplified": "称赞",
+    "traditional": "稱讚",
+    "pinyin": "chēng zàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to praise; to commend; to compliment"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0087",
+    "simplified": "成人",
+    "pinyin": "chéng rén",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to reach adulthood",
+      "an adult"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0088",
+    "simplified": "诚实",
+    "traditional": "誠實",
+    "pinyin": "chéng shí",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "honest"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0089",
+    "simplified": "诚信",
+    "traditional": "誠信",
+    "pinyin": "chéng xìn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "honesty; trustworthiness; good faith"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0090",
+    "simplified": "承担",
+    "traditional": "承擔",
+    "pinyin": "chéng dān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to undertake",
+      "to assume (responsibility etc)"
+    ],
+    "needsEnglish": false
+  }
+]

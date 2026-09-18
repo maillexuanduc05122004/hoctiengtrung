@@ -1,0 +1,983 @@
+[
+  {
+    "id": "L4-0046",
+    "vi": [
+      "chia tay",
+      "rời xa",
+      "cài (ghim, kẹp)"
+    ],
+    "viAliases": [
+      "từ biệt",
+      "ghim"
+    ],
+    "en": [
+      "to leave; to part (from)",
+      "to fasten with a pin or clip"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "她把花别在头发上。",
+      "vi": "Cô ấy cài bông hoa lên tóc.",
+      "en": "She pinned the flower in her hair."
+    }
+  },
+  {
+    "id": "L4-0047",
+    "vi": [
+      "băng",
+      "nước đá"
+    ],
+    "viAliases": [
+      "đá lạnh",
+      "đá"
+    ],
+    "en": [
+      "ice"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "请给我一杯加冰的水。",
+      "vi": "Cho tôi một cốc nước có đá.",
+      "en": "Please give me a glass of water with ice."
+    }
+  },
+  {
+    "id": "L4-0048",
+    "vi": [
+      "tủ lạnh"
+    ],
+    "viAliases": [
+      "tủ đá"
+    ],
+    "en": [
+      "refrigerator"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "牛奶放在冰箱里。",
+      "vi": "Sữa để trong tủ lạnh.",
+      "en": "The milk is in the refrigerator."
+    }
+  },
+  {
+    "id": "L4-0049",
+    "vi": [
+      "băng tuyết"
+    ],
+    "viAliases": [
+      "tuyết băng"
+    ],
+    "en": [
+      "ice and snow"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "山上到处都是冰雪。",
+      "vi": "Trên núi khắp nơi đều là băng tuyết.",
+      "en": "The mountain is covered in ice and snow."
+    }
+  },
+  {
+    "id": "L4-0050",
+    "vi": [
+      "binh lính",
+      "lính",
+      "quân đội"
+    ],
+    "viAliases": [
+      "bộ đội",
+      "quân"
+    ],
+    "en": [
+      "soldiers",
+      "an army",
+      "military"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他哥哥去当兵了。",
+      "vi": "Anh trai anh ấy đi lính rồi.",
+      "en": "His older brother went off to be a soldier."
+    }
+  },
+  {
+    "id": "L4-0051",
+    "vi": [
+      "gộp",
+      "sáp nhập",
+      "hợp lại"
+    ],
+    "viAliases": [
+      "ghép",
+      "hợp nhất"
+    ],
+    "en": [
+      "to combine",
+      "to join",
+      "to merge"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这两个班并成了一个班。",
+      "vi": "Hai lớp này được gộp thành một lớp.",
+      "en": "These two classes were merged into one class."
+    }
+  },
+  {
+    "id": "L4-0052",
+    "vi": [
+      "không sao",
+      "không quan trọng",
+      "không nghiêm trọng"
+    ],
+    "viAliases": [
+      "không hề gì",
+      "chẳng sao"
+    ],
+    "en": [
+      "unimportant",
+      "not serious",
+      "it doesn't matter"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "你晚点儿来也不要紧。",
+      "vi": "Bạn đến muộn một chút cũng không sao.",
+      "en": "It doesn't matter if you come a little late."
+    }
+  },
+  {
+    "id": "L4-0053",
+    "vi": [
+      "không quan tâm",
+      "không để ý",
+      "không bận tâm"
+    ],
+    "viAliases": [
+      "bất chấp",
+      "mặc kệ"
+    ],
+    "en": [
+      "not to care"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他不在乎别人怎么说。",
+      "vi": "Anh ấy không quan tâm người khác nói gì.",
+      "en": "He doesn't care what other people say."
+    }
+  },
+  {
+    "id": "L4-0054",
+    "vi": [
+      "bất kể",
+      "dù",
+      "cho dù"
+    ],
+    "viAliases": [
+      "bất luận",
+      "dù cho"
+    ],
+    "en": [
+      "regardless of",
+      "no matter"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "不管多忙，他都会来。",
+      "vi": "Bất kể bận thế nào, anh ấy cũng sẽ đến.",
+      "en": "No matter how busy he is, he will come."
+    }
+  },
+  {
+    "id": "L4-0055",
+    "vi": [
+      "nếu không",
+      "bằng không"
+    ],
+    "viAliases": [
+      "không thì",
+      "kẻo"
+    ],
+    "en": [
+      "or else",
+      "otherwise",
+      "if not"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "快走吧，不然要迟到了。",
+      "vi": "Đi nhanh lên, nếu không sẽ muộn đấy.",
+      "en": "Hurry up, otherwise we'll be late."
+    }
+  },
+  {
+    "id": "L4-0056",
+    "vi": [
+      "bố trí",
+      "sắp đặt",
+      "giao (bài tập)"
+    ],
+    "viAliases": [
+      "trang trí",
+      "sắp xếp"
+    ],
+    "en": [
+      "to arrange; to set up; to lay out",
+      "to assign (tasks, homework etc)"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "老师布置了很多作业。",
+      "vi": "Thầy giáo giao rất nhiều bài tập.",
+      "en": "The teacher assigned a lot of homework."
+    }
+  },
+  {
+    "id": "L4-0057",
+    "vi": [
+      "đi bộ"
+    ],
+    "viAliases": [
+      "cuốc bộ",
+      "đi bằng chân"
+    ],
+    "en": [
+      "to go on foot",
+      "to walk"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我每天步行去上班。",
+      "vi": "Tôi đi bộ đi làm mỗi ngày.",
+      "en": "I walk to work every day."
+    }
+  },
+  {
+    "id": "L4-0058",
+    "vi": [
+      "lau",
+      "chùi",
+      "bôi (kem, son)"
+    ],
+    "viAliases": [
+      "lau chùi",
+      "cọ"
+    ],
+    "en": [
+      "to wipe; to polish",
+      "to rub; to scratch",
+      "to apply (lipstick, lotion etc)"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "请把桌子擦干净。",
+      "vi": "Hãy lau sạch cái bàn.",
+      "en": "Please wipe the table clean."
+    }
+  },
+  {
+    "id": "L4-0059",
+    "vi": [
+      "tài năng",
+      "tài",
+      "người tài"
+    ],
+    "viAliases": [
+      "năng lực",
+      "nhân tài"
+    ],
+    "en": [
+      "ability; talent",
+      "a capable individual"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这个孩子很有才。",
+      "vi": "Đứa trẻ này rất có tài.",
+      "en": "This child is very talented."
+    }
+  },
+  {
+    "id": "L4-0060",
+    "vi": [
+      "vật liệu",
+      "nguyên liệu",
+      "tài liệu"
+    ],
+    "viAliases": [
+      "chất liệu",
+      "tư liệu"
+    ],
+    "en": [
+      "(raw) material",
+      "data"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "做这个菜需要什么材料？",
+      "vi": "Làm món này cần những nguyên liệu gì?",
+      "en": "What ingredients are needed to make this dish?"
+    }
+  },
+  {
+    "id": "L4-0061",
+    "vi": [
+      "tài sản",
+      "của cải"
+    ],
+    "viAliases": [
+      "gia sản",
+      "tài vật"
+    ],
+    "en": [
+      "property",
+      "assets",
+      "estate"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这些房子都是他的财产。",
+      "vi": "Những ngôi nhà này đều là tài sản của ông ấy.",
+      "en": "These houses are all his property."
+    }
+  },
+  {
+    "id": "L4-0062",
+    "vi": [
+      "của cải",
+      "tài sản",
+      "sự giàu có"
+    ],
+    "viAliases": [
+      "tiền của",
+      "phú quý"
+    ],
+    "en": [
+      "wealth",
+      "riches"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "健康是最大的财富。",
+      "vi": "Sức khỏe là của cải lớn nhất.",
+      "en": "Health is the greatest wealth."
+    }
+  },
+  {
+    "id": "L4-0063",
+    "vi": [
+      "phỏng vấn",
+      "đưa tin",
+      "cuộc phỏng vấn"
+    ],
+    "viAliases": [
+      "lấy tin",
+      "săn tin"
+    ],
+    "en": [
+      "to interview",
+      "to gather news"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "记者采访了这位老师。",
+      "vi": "Phóng viên đã phỏng vấn thầy giáo này.",
+      "en": "The reporter interviewed this teacher."
+    }
+  },
+  {
+    "id": "L4-0064",
+    "vi": [
+      "tham khảo",
+      "tra cứu"
+    ],
+    "viAliases": [
+      "tham chiếu",
+      "xem thêm"
+    ],
+    "en": [
+      "to consult",
+      "to refer"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "写作文时可以参考这本书。",
+      "vi": "Khi viết văn có thể tham khảo cuốn sách này.",
+      "en": "You can refer to this book when writing an essay."
+    }
+  },
+  {
+    "id": "L4-0065",
+    "vi": [
+      "tham gia",
+      "tham dự"
+    ],
+    "viAliases": [
+      "góp mặt",
+      "dự"
+    ],
+    "en": [
+      "to participate (in sth)"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "很多学生参与了这个活动。",
+      "vi": "Rất nhiều học sinh đã tham gia hoạt động này.",
+      "en": "Many students participated in this activity."
+    }
+  },
+  {
+    "id": "L4-0066",
+    "vi": [
+      "sân vận động",
+      "sân tập",
+      "sân trường"
+    ],
+    "viAliases": [
+      "sân thể thao",
+      "sân chơi"
+    ],
+    "en": [
+      "playground",
+      "sports field"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "学生们在操场上跑步。",
+      "vi": "Các học sinh đang chạy bộ trên sân trường.",
+      "en": "The students are running on the sports field."
+    }
+  },
+  {
+    "id": "L4-0067",
+    "vi": [
+      "thao tác",
+      "vận hành",
+      "điều khiển"
+    ],
+    "viAliases": [
+      "sử dụng",
+      "làm"
+    ],
+    "en": [
+      "to operate",
+      "to work",
+      "to manipulate"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这台机器很容易操作。",
+      "vi": "Cái máy này rất dễ thao tác.",
+      "en": "This machine is very easy to operate."
+    }
+  },
+  {
+    "id": "L4-0068",
+    "vi": [
+      "đo",
+      "đo lường",
+      "phỏng đoán"
+    ],
+    "viAliases": [
+      "đo đạc",
+      "trắc"
+    ],
+    "en": [
+      "to measure",
+      "to survey",
+      "to conjecture"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "医生给我测了体温。",
+      "vi": "Bác sĩ đã đo thân nhiệt cho tôi.",
+      "en": "The doctor measured my body temperature."
+    }
+  },
+  {
+    "id": "L4-0069",
+    "vi": [
+      "đo đạc",
+      "đo lường"
+    ],
+    "viAliases": [
+      "trắc lượng",
+      "khảo sát"
+    ],
+    "en": [
+      "to measure",
+      "to gauge",
+      "to determine"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他们在测量这条路的长度。",
+      "vi": "Họ đang đo chiều dài của con đường này.",
+      "en": "They are measuring the length of this road."
+    }
+  },
+  {
+    "id": "L4-0070",
+    "vi": [
+      "kiểm tra",
+      "thử nghiệm",
+      "bài kiểm tra"
+    ],
+    "viAliases": [
+      "thi thử",
+      "test"
+    ],
+    "en": [
+      "to test (machinery etc)",
+      "to test (a person's skill in a particular area)",
+      "a test"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "明天我们有一个英语测试。",
+      "vi": "Ngày mai chúng tôi có một bài kiểm tra tiếng Anh.",
+      "en": "Tomorrow we have an English test."
+    }
+  },
+  {
+    "id": "L4-0071",
+    "vi": [
+      "từng",
+      "đã từng"
+    ],
+    "viAliases": [
+      "đã",
+      "có lần"
+    ],
+    "en": [
+      "once",
+      "ever (in the past)",
+      "previously"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我曾在北京住过两年。",
+      "vi": "Tôi từng sống ở Bắc Kinh hai năm.",
+      "en": "I once lived in Beijing for two years."
+    }
+  },
+  {
+    "id": "L4-0072",
+    "vi": [
+      "lá trà",
+      "trà (khô)"
+    ],
+    "viAliases": [
+      "chè",
+      "trà"
+    ],
+    "en": [
+      "tea leaves",
+      "tea"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这种茶叶很香。",
+      "vi": "Loại trà này rất thơm.",
+      "en": "This kind of tea is very fragrant."
+    }
+  },
+  {
+    "id": "L4-0073",
+    "vi": [
+      "sản phẩm",
+      "hàng hóa"
+    ],
+    "viAliases": [
+      "mặt hàng",
+      "sản vật"
+    ],
+    "en": [
+      "product",
+      "goods",
+      "merchandise"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这家公司的产品质量很好。",
+      "vi": "Sản phẩm của công ty này chất lượng rất tốt.",
+      "en": "This company's products are of very good quality."
+    }
+  },
+  {
+    "id": "L4-0074",
+    "vi": [
+      "đường dài",
+      "cuộc gọi đường dài",
+      "xe khách đường dài"
+    ],
+    "viAliases": [
+      "xa",
+      "liên tỉnh"
+    ],
+    "en": [
+      "long distance",
+      "long-distance phone call (abbr. for 長途電話/长途电话)",
+      "long-distance coach (abbr. for 長途汽車/长途汽车)"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我坐长途汽车去上海。",
+      "vi": "Tôi đi xe khách đường dài đến Thượng Hải.",
+      "en": "I take a long-distance bus to Shanghai."
+    }
+  },
+  {
+    "id": "L4-0075",
+    "vi": [
+      "kiến thức phổ thông",
+      "lẽ thường",
+      "thường thức"
+    ],
+    "viAliases": [
+      "kiến thức cơ bản",
+      "hiểu biết chung"
+    ],
+    "en": [
+      "common sense; general knowledge"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这是生活中的基本常识。",
+      "vi": "Đây là kiến thức phổ thông cơ bản trong cuộc sống.",
+      "en": "This is basic common knowledge in daily life."
+    }
+  },
+  {
+    "id": "L4-0076",
+    "vi": [
+      "đĩa hát",
+      "đĩa nhạc",
+      "album"
+    ],
+    "viAliases": [
+      "đĩa than",
+      "băng đĩa"
+    ],
+    "en": [
+      "gramophone record",
+      "music CD",
+      "musical album"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "爷爷喜欢听老唱片。",
+      "vi": "Ông nội thích nghe đĩa hát cũ.",
+      "en": "Grandpa likes listening to old records."
+    }
+  },
+  {
+    "id": "L4-0077",
+    "vi": [
+      "chép",
+      "sao chép",
+      "quay cóp"
+    ],
+    "viAliases": [
+      "chép lại",
+      "cóp"
+    ],
+    "en": [
+      "to make a copy",
+      "to plagiarize"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "请把这段话抄在本子上。",
+      "vi": "Hãy chép đoạn văn này vào vở.",
+      "en": "Please copy this passage into your notebook."
+    }
+  },
+  {
+    "id": "L4-0078",
+    "vi": [
+      "chép",
+      "sao chép",
+      "chép lại"
+    ],
+    "viAliases": [
+      "viết lại",
+      "chép tay"
+    ],
+    "en": [
+      "to copy",
+      "to transcribe"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "老师让我们抄写生词。",
+      "vi": "Thầy giáo bảo chúng tôi chép từ mới.",
+      "en": "The teacher had us copy out the new words."
+    }
+  },
+  {
+    "id": "L4-0079",
+    "vi": [
+      "thủy triều",
+      "ẩm ướt",
+      "thời thượng"
+    ],
+    "viAliases": [
+      "triều",
+      "mốt"
+    ],
+    "en": [
+      "tide",
+      "damp; moist; humid",
+      "fashionable; trendy"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "下雨天，屋里很潮。",
+      "vi": "Ngày mưa, trong nhà rất ẩm.",
+      "en": "On rainy days, the room is very damp."
+    }
+  },
+  {
+    "id": "L4-0080",
+    "vi": [
+      "trào lưu",
+      "xu hướng",
+      "dòng chảy"
+    ],
+    "viAliases": [
+      "xu thế",
+      "mốt"
+    ],
+    "en": [
+      "trend",
+      "tide",
+      "current"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "年轻人喜欢跟着潮流走。",
+      "vi": "Người trẻ thích chạy theo trào lưu.",
+      "en": "Young people like to follow the trends."
+    }
+  },
+  {
+    "id": "L4-0081",
+    "vi": [
+      "ẩm ướt",
+      "ẩm"
+    ],
+    "viAliases": [
+      "ướt át",
+      "ẩm thấp"
+    ],
+    "en": [
+      "damp",
+      "moist"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "南方的夏天又热又潮湿。",
+      "vi": "Mùa hè ở miền Nam vừa nóng vừa ẩm ướt.",
+      "en": "Summer in the south is both hot and humid."
+    }
+  },
+  {
+    "id": "L4-0082",
+    "vi": [
+      "triệt để",
+      "hoàn toàn",
+      "tận gốc"
+    ],
+    "viAliases": [
+      "toàn diện",
+      "hẳn"
+    ],
+    "en": [
+      "thorough",
+      "complete",
+      "thoroughly"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我把房间彻底打扫了一遍。",
+      "vi": "Tôi đã dọn dẹp phòng một lượt thật triệt để.",
+      "en": "I gave the room a thorough cleaning."
+    }
+  },
+  {
+    "id": "L4-0083",
+    "vi": [
+      "chìm",
+      "lặn xuống",
+      "nặng"
+    ],
+    "viAliases": [
+      "chìm xuống",
+      "trầm"
+    ],
+    "en": [
+      "to sink",
+      "to submerge",
+      "heavy"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "船慢慢沉到了水里。",
+      "vi": "Con thuyền từ từ chìm xuống nước.",
+      "en": "The boat slowly sank into the water."
+    }
+  },
+  {
+    "id": "L4-0084",
+    "vi": [
+      "im lặng",
+      "trầm mặc",
+      "ít nói"
+    ],
+    "viAliases": [
+      "lặng thinh",
+      "câm lặng"
+    ],
+    "en": [
+      "silent",
+      "taciturn",
+      "uncommunicative"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "听到这个消息，大家都沉默了。",
+      "vi": "Nghe tin này, mọi người đều im lặng.",
+      "en": "Hearing this news, everyone fell silent."
+    }
+  },
+  {
+    "id": "L4-0085",
+    "vi": [
+      "nặng nề",
+      "nặng",
+      "trầm trọng"
+    ],
+    "viAliases": [
+      "nặng trĩu",
+      "nghiêm trọng"
+    ],
+    "en": [
+      "heavy",
+      "serious",
+      "critical"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他的心情很沉重。",
+      "vi": "Tâm trạng anh ấy rất nặng nề.",
+      "en": "He is in a very heavy mood."
+    }
+  },
+  {
+    "id": "L4-0086",
+    "vi": [
+      "khen ngợi",
+      "ca ngợi",
+      "tán dương"
+    ],
+    "viAliases": [
+      "khen",
+      "tán thưởng"
+    ],
+    "en": [
+      "to praise; to commend; to compliment"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "老师称赞他学习努力。",
+      "vi": "Thầy giáo khen ngợi cậu ấy học hành chăm chỉ.",
+      "en": "The teacher praised him for studying hard."
+    }
+  },
+  {
+    "id": "L4-0087",
+    "vi": [
+      "người lớn",
+      "người trưởng thành"
+    ],
+    "viAliases": [
+      "người thành niên",
+      "người đã trưởng thành"
+    ],
+    "en": [
+      "an adult"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这部电影只有成人才能看。",
+      "vi": "Bộ phim này chỉ người lớn mới được xem.",
+      "en": "Only adults can watch this movie."
+    }
+  },
+  {
+    "id": "L4-0088",
+    "vi": [
+      "thành thật",
+      "trung thực",
+      "thật thà"
+    ],
+    "viAliases": [
+      "chân thật",
+      "ngay thẳng"
+    ],
+    "en": [
+      "honest"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他是一个很诚实的孩子。",
+      "vi": "Cậu ấy là một đứa trẻ rất thật thà.",
+      "en": "He is a very honest child."
+    }
+  },
+  {
+    "id": "L4-0089",
+    "vi": [
+      "thành tín",
+      "trung thực đáng tin",
+      "giữ chữ tín"
+    ],
+    "viAliases": [
+      "uy tín",
+      "đáng tin cậy"
+    ],
+    "en": [
+      "honesty; trustworthiness; good faith"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这家公司很诚信。",
+      "vi": "Công ty này rất giữ chữ tín.",
+      "en": "This company is very trustworthy."
+    }
+  },
+  {
+    "id": "L4-0090",
+    "vi": [
+      "gánh vác",
+      "đảm nhận",
+      "chịu (trách nhiệm)"
+    ],
+    "viAliases": [
+      "gánh chịu",
+      "đảm đương"
+    ],
+    "en": [
+      "to undertake",
+      "to assume (responsibility etc)"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他愿意承担这个责任。",
+      "vi": "Anh ấy sẵn sàng gánh vác trách nhiệm này.",
+      "en": "He is willing to take on this responsibility."
+    }
+  }
+]

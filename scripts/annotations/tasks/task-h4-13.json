@@ -1,0 +1,712 @@
+[
+  {
+    "id": "L4-0541",
+    "simplified": "宁静",
+    "traditional": "寧靜",
+    "pinyin": "níng jìng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "tranquil",
+      "tranquility",
+      "serenity"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0542",
+    "simplified": "浓",
+    "traditional": "濃",
+    "pinyin": "nóng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "concentrated",
+      "dense",
+      "strong (smell etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0543",
+    "simplified": "女士",
+    "pinyin": "nǚ shì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "lady",
+      "madam",
+      "CL:個/个,位",
+      "Miss",
+      "Ms"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0544",
+    "simplified": "暖气",
+    "traditional": "暖氣",
+    "pinyin": "nuǎn qì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "central heating",
+      "heater",
+      "warm air"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0545",
+    "simplified": "拍照",
+    "pinyin": "pāi zhào",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to take a picture"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0546",
+    "simplified": "排列",
+    "pinyin": "pái liè",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to arrange in order",
+      "(math.) permutation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0547",
+    "simplified": "牌",
+    "pinyin": "pái",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "signboard; plaque; plate; tablet (CL:塊/块)",
+      "brand; trademark",
+      "mahjong tile; domino; playing card (CL:張/张)",
+      "(bound form) fixed pattern for lyrics or set melody in classical poetry or music (used in 詞牌/词牌 and 曲牌)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0548",
+    "simplified": "盘",
+    "traditional": "盤",
+    "pinyin": "pán",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "tray; plate; dish",
+      "(finance) (bound form) market prices",
+      "(computing) (bound form) disk",
+      "to coil (a rope, pigtail etc)",
+      "to check; to examine; to investigate",
+      "to transfer; to sell (property)",
+      "to shift; to move (sth big and heavy)",
+      "classifier for things resembling a plate or dish",
+      "classifier for coils",
+      "classifier for games or matches (chess, table tennis etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0549",
+    "simplified": "盘子",
+    "traditional": "盤子",
+    "pinyin": "pán zi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "tray",
+      "plate",
+      "dish",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0550",
+    "simplified": "胖子",
+    "pinyin": "pàng zi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "fat person",
+      "fatty"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0551",
+    "simplified": "培训",
+    "traditional": "培訓",
+    "pinyin": "péi xùn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to cultivate",
+      "to train",
+      "to groom",
+      "training"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0552",
+    "simplified": "培训班",
+    "traditional": "培訓班",
+    "pinyin": "péi xùn bān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "training class"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0553",
+    "simplified": "培养",
+    "traditional": "培養",
+    "pinyin": "péi yǎng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to cultivate",
+      "to breed",
+      "to foster",
+      "to nurture",
+      "to educate",
+      "to groom (for a position)",
+      "education",
+      "fostering",
+      "culture (biology)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0554",
+    "simplified": "培育",
+    "pinyin": "péi yù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to train",
+      "to breed"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0555",
+    "simplified": "批",
+    "pinyin": "pī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to ascertain",
+      "to act on",
+      "to criticize",
+      "to pass on",
+      "classifier for batches, lots, military flights",
+      "tier (for the ranking of universities and colleges)"
+    ],
+    "siblings": [
+      {
+        "id": "L4-0556",
+        "pinyin": "pī",
+        "partOfSpeech": [
+          "M"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0556",
+    "simplified": "批",
+    "pinyin": "pī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "to ascertain",
+      "to act on",
+      "to criticize",
+      "to pass on",
+      "classifier for batches, lots, military flights",
+      "tier (for the ranking of universities and colleges)"
+    ],
+    "siblings": [
+      {
+        "id": "L4-0555",
+        "pinyin": "pī",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0557",
+    "simplified": "片面",
+    "pinyin": "piàn miàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "unilateral",
+      "one-sided"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0558",
+    "simplified": "品质",
+    "traditional": "品質",
+    "pinyin": "pǐn zhì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "character",
+      "intrinsic quality (of a person)",
+      "quality (of a product or service, or as in \"quality of life\", \"air quality\" etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0559",
+    "simplified": "平方",
+    "pinyin": "píng fāng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N",
+      "M"
+    ],
+    "cedictDefinitions": [
+      "square (as in square foot, square mile, square root)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0560",
+    "simplified": "平静",
+    "traditional": "平靜",
+    "pinyin": "píng jìng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "calm; tranquil; serene"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0561",
+    "simplified": "平均",
+    "pinyin": "píng jūn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "average; on average",
+      "evenly; in equal proportions"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0562",
+    "simplified": "平稳",
+    "traditional": "平穩",
+    "pinyin": "píng wěn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "smooth; steady"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0563",
+    "simplified": "迫切",
+    "pinyin": "pò qiè",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "urgent; pressing"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0564",
+    "simplified": "破产",
+    "traditional": "破產",
+    "pinyin": "pò chǎn",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to go bankrupt",
+      "to become impoverished",
+      "bankruptcy"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0565",
+    "simplified": "妻子",
+    "pinyin": "qī zi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "wife"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0566",
+    "simplified": "期待",
+    "pinyin": "qī dài",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to look forward to",
+      "to await",
+      "expectation"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0567",
+    "simplified": "期间",
+    "traditional": "期間",
+    "pinyin": "qī jiān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "period of time",
+      "time",
+      "time period",
+      "period",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0568",
+    "simplified": "期末",
+    "pinyin": "qī mò",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the end of a term or semester (in school)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0569",
+    "simplified": "期限",
+    "pinyin": "qī xiàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "time limit",
+      "deadline",
+      "allotted time"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0570",
+    "simplified": "期中",
+    "pinyin": "qī zhōng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "interim",
+      "midterm"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0571",
+    "simplified": "其余",
+    "traditional": "其餘",
+    "pinyin": "qí yú",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Pron"
+    ],
+    "cedictDefinitions": [
+      "the rest",
+      "the others",
+      "remaining",
+      "remainder",
+      "apart from them"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0572",
+    "simplified": "企业",
+    "traditional": "企業",
+    "pinyin": "qǐ yè",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "company; firm; enterprise; corporation",
+      "CL:家"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0573",
+    "simplified": "气球",
+    "traditional": "氣球",
+    "pinyin": "qì qiú",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "balloon"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0574",
+    "simplified": "汽水",
+    "pinyin": "qì shuǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "soda pop; carbonated soft drink"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0575",
+    "simplified": "汽油",
+    "pinyin": "qì yóu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "gasoline"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0576",
+    "simplified": "器官",
+    "pinyin": "qì guān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(physiology) organ; apparatus"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0577",
+    "simplified": "前头",
+    "traditional": "前頭",
+    "pinyin": "qián tou",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "in front",
+      "at the head",
+      "ahead",
+      "above"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0578",
+    "simplified": "前途",
+    "pinyin": "qián tú",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "prospects",
+      "future outlook",
+      "journey"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0579",
+    "simplified": "浅",
+    "traditional": "淺",
+    "pinyin": "qiǎn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "shallow",
+      "light (color)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0580",
+    "simplified": "巧克力",
+    "pinyin": "qiǎo kè lì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(loanword) chocolate",
+      "CL:塊/块"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0581",
+    "simplified": "切",
+    "pinyin": "qiē",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to cut; to slice; to carve",
+      "(math.) tangential"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0582",
+    "simplified": "亲爱",
+    "traditional": "親愛",
+    "pinyin": "qīn ài",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "dear",
+      "beloved",
+      "darling"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0583",
+    "simplified": "亲密",
+    "traditional": "親密",
+    "pinyin": "qīn mì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "intimate",
+      "close"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0584",
+    "simplified": "青春",
+    "pinyin": "qīng chūn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "youth",
+      "youthfulness"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0585",
+    "simplified": "轻松",
+    "traditional": "輕鬆",
+    "pinyin": "qīng sōng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "light",
+      "gentle",
+      "relaxed",
+      "effortless",
+      "uncomplicated",
+      "to relax",
+      "to take things less seriously"
+    ],
+    "needsEnglish": false
+  }
+]

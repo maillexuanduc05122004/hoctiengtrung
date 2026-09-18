@@ -1,0 +1,707 @@
+[
+  {
+    "id": "L4-0856",
+    "simplified": "养成",
+    "traditional": "養成",
+    "pinyin": "yǎng chéng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to cultivate",
+      "to raise",
+      "to form (a habit)",
+      "to acquire"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0857",
+    "simplified": "腰",
+    "pinyin": "yāo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "the waist and lower back",
+      "(bound form) kidney of an animal (as food)",
+      "the waist of trousers or a skirt",
+      "(metonym) money pouch; pocket",
+      "(bound form) the middle section of an upright object (mountain, bottle etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0858",
+    "simplified": "摇",
+    "traditional": "搖",
+    "pinyin": "yáo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to shake",
+      "to rock",
+      "to row",
+      "to crank"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0859",
+    "simplified": "药物",
+    "traditional": "藥物",
+    "pinyin": "yào wù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "medicaments",
+      "pharmaceuticals",
+      "medication",
+      "medicine",
+      "drug"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0860",
+    "simplified": "要",
+    "pinyin": "yào",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "to want; to need; to ask for",
+      "will; shall; about to",
+      "need to; should",
+      "if (same as 要是)",
+      "(bound form) important"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0423",
+        "pinyin": "yào",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0861",
+    "simplified": "业余",
+    "traditional": "業餘",
+    "pinyin": "yè yú",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "in one's spare time",
+      "outside working hours",
+      "amateur (historian etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0862",
+    "simplified": "叶子",
+    "traditional": "葉子",
+    "pinyin": "yè zi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "leaf (CL:片)",
+      "(slang) marijuana"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0863",
+    "simplified": "医疗",
+    "traditional": "醫療",
+    "pinyin": "yī liáo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "medical treatment"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0864",
+    "simplified": "医学",
+    "traditional": "醫學",
+    "pinyin": "yī xué",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "medicine",
+      "medical science",
+      "study of medicine"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0865",
+    "simplified": "依靠",
+    "pinyin": "yī kào",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to rely on; to depend on"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0866",
+    "simplified": "依然",
+    "pinyin": "yī rán",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "still; as before"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0867",
+    "simplified": "一律",
+    "pinyin": "yī lǜ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "same; identical",
+      "uniformly; all; without exception"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0868",
+    "simplified": "一再",
+    "pinyin": "yī zài",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "repeatedly"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0869",
+    "simplified": "一致",
+    "pinyin": "yī zhì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "consistent; unanimous; in agreement",
+      "together; in unison"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0870",
+    "simplified": "移",
+    "pinyin": "yí",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to move",
+      "to shift",
+      "to change",
+      "to alter",
+      "to remove"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0871",
+    "simplified": "移动",
+    "traditional": "移動",
+    "pinyin": "yí dòng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to move",
+      "movement",
+      "migration",
+      "mobile",
+      "portable"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0872",
+    "simplified": "移民",
+    "pinyin": "yí mín",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to immigrate",
+      "to migrate",
+      "emigrant",
+      "immigrant"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0873",
+    "simplified": "遗产",
+    "traditional": "遺產",
+    "pinyin": "yí chǎn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "heritage",
+      "legacy",
+      "inheritance",
+      "bequest",
+      "CL:筆/笔"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0874",
+    "simplified": "遗传",
+    "traditional": "遺傳",
+    "pinyin": "yí chuán",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "heredity",
+      "to inherit (a trait)",
+      "to pass on (to one's offspring)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0875",
+    "simplified": "疑问",
+    "traditional": "疑問",
+    "pinyin": "yí wèn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "question",
+      "interrogation",
+      "doubt"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0876",
+    "simplified": "以及",
+    "pinyin": "yǐ jí",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "and; as well as"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0877",
+    "simplified": "以内",
+    "traditional": "以內",
+    "pinyin": "yǐ nèi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "within",
+      "less than"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0878",
+    "simplified": "一般来说",
+    "traditional": "一般來說",
+    "pinyin": "yī bān lái shuō",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "generally speaking"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0879",
+    "simplified": "义务",
+    "traditional": "義務",
+    "pinyin": "yì wù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "duty; obligation (CL:項/项)",
+      "volunteer (work etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0880",
+    "simplified": "议论",
+    "traditional": "議論",
+    "pinyin": "yì lùn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to comment",
+      "to talk about",
+      "to discuss",
+      "discussion",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0881",
+    "simplified": "引",
+    "pinyin": "yǐn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to draw (e.g. a bow)",
+      "to pull",
+      "to stretch sth",
+      "to extend",
+      "to lengthen",
+      "to involve or implicate in",
+      "to attract",
+      "to lead",
+      "to guide",
+      "to leave",
+      "to provide evidence or justification for",
+      "old unit of distance equal to 10 丈, one-thirtieth of a km or 33.33 meters"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0882",
+    "simplified": "引导",
+    "traditional": "引導",
+    "pinyin": "yǐn dǎo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to guide",
+      "to lead (around)",
+      "to conduct",
+      "to boot",
+      "introduction",
+      "primer"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0883",
+    "simplified": "引进",
+    "traditional": "引進",
+    "pinyin": "yǐn jìn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to recommend",
+      "to introduce (from outside)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0884",
+    "simplified": "引起",
+    "pinyin": "yǐn qǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to give rise to; to lead to; to cause; to arouse"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0885",
+    "simplified": "应",
+    "traditional": "應",
+    "pinyin": "yīng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to agree (to do sth)",
+      "should",
+      "ought to",
+      "must",
+      "(legal) shall"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0886",
+    "simplified": "英勇",
+    "pinyin": "yīng yǒng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "heroic",
+      "gallant",
+      "valiant"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0887",
+    "simplified": "营业",
+    "traditional": "營業",
+    "pinyin": "yíng yè",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to do business",
+      "to trade"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0888",
+    "simplified": "赢得",
+    "traditional": "贏得",
+    "pinyin": "yíng dé",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to win",
+      "to gain"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0889",
+    "simplified": "影子",
+    "pinyin": "yǐng zi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "shadow",
+      "reflection",
+      "(fig.) hint",
+      "indication",
+      "influence",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0890",
+    "simplified": "勇敢",
+    "pinyin": "yǒng gǎn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "brave; courageous"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0891",
+    "simplified": "勇气",
+    "traditional": "勇氣",
+    "pinyin": "yǒng qì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "courage"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0892",
+    "simplified": "用途",
+    "pinyin": "yòng tú",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "use; application"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0893",
+    "simplified": "优良",
+    "traditional": "優良",
+    "pinyin": "yōu liáng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "fine",
+      "good",
+      "first-rate"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0894",
+    "simplified": "优美",
+    "traditional": "優美",
+    "pinyin": "yōu měi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "graceful",
+      "fine",
+      "elegant"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0895",
+    "simplified": "优秀",
+    "traditional": "優秀",
+    "pinyin": "yōu xiù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "outstanding; excellent"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0896",
+    "simplified": "邮局",
+    "traditional": "郵局",
+    "pinyin": "yóu jú",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "post office",
+      "CL:家,個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0897",
+    "simplified": "有劲儿",
+    "traditional": "有勁兒",
+    "pinyin": "yǒu jìnr",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [],
+    "needsEnglish": true
+  },
+  {
+    "id": "L4-0898",
+    "simplified": "有趣",
+    "pinyin": "yǒu qù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "interesting; fascinating; amusing"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0899",
+    "simplified": "有限",
+    "pinyin": "yǒu xiàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "limited; finite"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0900",
+    "simplified": "幼儿园",
+    "traditional": "幼兒園",
+    "pinyin": "yòu ér yuán",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "kindergarten",
+      "nursery school"
+    ],
+    "needsEnglish": false
+  }
+]

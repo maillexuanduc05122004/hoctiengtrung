@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { EXPECTED_PER_LEVEL, EXPECTED_TOTAL, summarize, verifyDataset } from './verify.ts';
 import { splitIntoLessons } from './hsk.ts';
-import type { HskLevel, LevelDataFile, VocabularyWord } from '../../src/types/vocabulary.ts';
+import { HSK_LEVELS, type HskLevel, type LevelDataFile, type VocabularyWord } from '../../src/types/vocabulary.ts';
 
 function makeWord(id: string, level: HskLevel, simplified: string): VocabularyWord {
   return {
@@ -34,9 +34,9 @@ function hanCode(value: number): string {
   return out;
 }
 
-/** Dựng một bộ dữ liệu hợp lệ đúng số lượng thật của HSK 3.0 cấp 1-3. */
+/** Dựng một bộ dữ liệu hợp lệ đúng số lượng thật của HSK 3.0 cho mọi cấp đang hỗ trợ. */
 function makeDataset(): LevelDataFile[] {
-  return ([1, 2, 3] as const).map((level) => {
+  return HSK_LEVELS.map((level) => {
     const words = Array.from({ length: EXPECTED_PER_LEVEL[level] }, (_, i) =>
       makeWord(`L${level}-${String(i + 1).padStart(4, '0')}`, level, hanCode(level * 10000 + i)),
     );
@@ -68,16 +68,25 @@ describe('verifyDataset', () => {
     expect(summarize(results).failed).toBe(0);
   });
 
-  it('đếm đúng tổng số từ cấp 1 đến 3', () => {
+  it('đếm đúng tổng số từ cấp 1 đến 4', () => {
     const files = makeDataset();
     const total = files.reduce((sum, f) => sum + f.words.length, 0);
     expect(total).toBe(EXPECTED_TOTAL);
-    expect(total).toBe(2245);
+    expect(total).toBe(3245);
   });
 
   it('đếm đúng số từ từng cấp', () => {
     const files = makeDataset();
-    expect(files.map((f) => f.words.length)).toEqual([500, 772, 973]);
+    expect(files.map((f) => f.level)).toEqual([1, 2, 3, 4]);
+    expect(files.map((f) => f.words.length)).toEqual([500, 772, 973, 1000]);
+  });
+
+  it('phát hiện thiếu hẳn một cấp', () => {
+    const files = makeDataset().filter((f) => f.level !== 4);
+    const names = failures(files);
+    expect(names).toContain('Đủ các cấp HSK');
+    expect(names).toContain('Số từ HSK 4');
+    expect(names).toContain('Tổng số từ');
   });
 
   it('phát hiện ID bị trùng', () => {
@@ -91,7 +100,7 @@ describe('verifyDataset', () => {
     files[1].words = files[1].words.slice(0, 700);
     const names = failures(files);
     expect(names).toContain('Số từ HSK 2');
-    expect(names).toContain('Tổng số từ cấp 1-3');
+    expect(names).toContain('Tổng số từ');
   });
 
   it('phát hiện thiếu pinyin', () => {

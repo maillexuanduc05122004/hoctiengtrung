@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L4-0181",
+    "vi": ["địa phương"],
+    "viAliases": ["vùng miền", "khu vực"],
+    "en": ["region", "local"],
+    "enSource": "cedict",
+    "example": { "zh": "地方政府很支持这个计划。", "vi": "Chính quyền địa phương rất ủng hộ kế hoạch này.", "en": "The local government strongly supports this plan." }
+  },
+  {
+    "id": "L4-0182",
+    "vi": ["mặt đất", "nền nhà"],
+    "viAliases": ["mặt sàn"],
+    "en": ["ground", "floor", "surface"],
+    "enSource": "cedict",
+    "example": { "zh": "下雨了，地面上都是水。", "vi": "Trời mưa rồi, mặt đất toàn là nước.", "en": "It is raining; the ground is covered with water." }
+  },
+  {
+    "id": "L4-0183",
+    "vi": ["địa vị", "vị thế"],
+    "viAliases": ["vị trí xã hội", "thân phận"],
+    "en": ["position", "status"],
+    "enSource": "cedict",
+    "example": { "zh": "他在公司里的地位很高。", "vi": "Địa vị của anh ấy trong công ty rất cao.", "en": "His position in the company is very high." }
+  },
+  {
+    "id": "L4-0184",
+    "vi": ["dưới lòng đất", "ngầm"],
+    "viAliases": ["dưới đất"],
+    "en": ["underground", "subterranean"],
+    "enSource": "cedict",
+    "example": { "zh": "车停在地下停车场。", "vi": "Xe đậu ở bãi đỗ xe ngầm.", "en": "The car is parked in the underground parking lot." }
+  },
+  {
+    "id": "L4-0185",
+    "vi": ["địa chỉ"],
+    "viAliases": [],
+    "en": ["address"],
+    "enSource": "cedict",
+    "example": { "zh": "请把你的地址写在这里。", "vi": "Xin hãy viết địa chỉ của bạn vào đây.", "en": "Please write your address here." }
+  },
+  {
+    "id": "L4-0186",
+    "vi": ["điển hình", "tiêu biểu"],
+    "viAliases": ["mẫu mực", "đặc trưng"],
+    "en": ["typical", "representative", "typical case"],
+    "enSource": "cedict",
+    "example": { "zh": "这是一个典型的例子。", "vi": "Đây là một ví dụ điển hình.", "en": "This is a typical example." }
+  },
+  {
+    "id": "L4-0187",
+    "vi": ["điểm danh", "nêu tên"],
+    "viAliases": ["gọi tên"],
+    "en": ["roll call", "to mention sb by name"],
+    "enSource": "cedict",
+    "example": { "zh": "老师每天上课都要点名。", "vi": "Thầy giáo mỗi ngày lên lớp đều điểm danh.", "en": "The teacher takes roll call every day in class." }
+  },
+  {
+    "id": "L4-0188",
+    "vi": ["đèn điện"],
+    "viAliases": ["bóng đèn", "đèn"],
+    "en": ["electric light"],
+    "enSource": "cedict",
+    "example": { "zh": "天黑了，请把电灯打开。", "vi": "Trời tối rồi, hãy bật đèn điện lên.", "en": "It is dark, please turn on the light." }
+  },
+  {
+    "id": "L4-0189",
+    "vi": ["xe điện", "xe máy điện"],
+    "viAliases": ["xe đạp điện"],
+    "en": ["electric vehicle (commonly refers to e-bikes, scooters or electric cars)"],
+    "enSource": "cedict",
+    "example": { "zh": "他每天骑电动车上班。", "vi": "Mỗi ngày anh ấy đi xe máy điện đi làm.", "en": "He rides an electric scooter to work every day." }
+  },
+  {
+    "id": "L4-0190",
+    "vi": ["thang máy"],
+    "viAliases": ["thang cuốn"],
+    "en": ["elevator", "escalator"],
+    "enSource": "cedict",
+    "example": { "zh": "请坐电梯到八楼。", "vi": "Hãy đi thang máy lên tầng tám.", "en": "Please take the elevator to the eighth floor." }
+  },
+  {
+    "id": "L4-0191",
+    "vi": ["nguồn điện"],
+    "viAliases": ["nguồn"],
+    "en": ["electric power source"],
+    "enSource": "cedict",
+    "example": { "zh": "离开前请关掉电源。", "vi": "Trước khi rời đi hãy tắt nguồn điện.", "en": "Please turn off the power before leaving." }
+  },
+  {
+    "id": "L4-0192",
+    "vi": ["đỉnh", "đội (trên đầu)", "chiếc (lượng từ cho mũ)"],
+    "viAliases": ["nóc", "chóp", "ngọn"],
+    "en": ["top", "to carry on the head", "classifier for headwear, hats, veils etc"],
+    "enSource": "cedict",
+    "example": { "zh": "他买了一顶新帽子。", "vi": "Anh ấy mua một chiếc mũ mới.", "en": "He bought a new hat." }
+  },
+  {
+    "id": "L4-0193",
+    "vi": ["định", "quyết định", "đặt (vé, chỗ)"],
+    "viAliases": ["ấn định", "cố định"],
+    "en": ["to fix; to set; to make definite", "to subscribe to (a newspaper etc); to book (tickets etc); to order (goods etc)"],
+    "enSource": "cedict",
+    "example": { "zh": "会议时间定在下周一。", "vi": "Thời gian họp được định vào thứ Hai tuần sau.", "en": "The meeting time is set for next Monday." }
+  },
+  {
+    "id": "L4-0194",
+    "vi": ["mùa đông"],
+    "viAliases": ["mùa lạnh"],
+    "en": ["winter"],
+    "enSource": "cedict",
+    "example": { "zh": "北京的冬季非常冷。", "vi": "Mùa đông ở Bắc Kinh vô cùng lạnh.", "en": "Winter in Beijing is extremely cold." }
+  },
+  {
+    "id": "L4-0195",
+    "vi": ["phim hoạt hình"],
+    "viAliases": ["hoạt hình"],
+    "en": ["animated film"],
+    "enSource": "cedict",
+    "example": { "zh": "孩子们都喜欢看动画片。", "vi": "Bọn trẻ đều thích xem phim hoạt hình.", "en": "Children all love watching cartoons." }
+  },
+  {
+    "id": "L4-0196",
+    "vi": ["dao động", "lung lay"],
+    "viAliases": ["lay chuyển", "nao núng"],
+    "en": ["to waver", "to sway", "to destabilize"],
+    "enSource": "cedict",
+    "example": { "zh": "不管别人说什么，他都不动摇。", "vi": "Dù người khác nói gì, anh ấy cũng không dao động.", "en": "No matter what others say, he does not waver." }
+  },
+  {
+    "id": "L4-0197",
+    "vi": ["đậu phụ"],
+    "viAliases": ["đậu hũ", "tàu hũ"],
+    "en": ["tofu", "bean curd"],
+    "enSource": "cedict",
+    "example": { "zh": "我妈妈做的豆腐很好吃。", "vi": "Đậu phụ mẹ tôi làm rất ngon.", "en": "The tofu my mom makes is delicious." }
+  },
+  {
+    "id": "L4-0198",
+    "vi": ["độc lập", "tự lập"],
+    "viAliases": ["tự chủ"],
+    "en": ["independent", "to stand alone", "independence"],
+    "enSource": "cedict",
+    "example": { "zh": "他大学毕业后就独立生活了。", "vi": "Sau khi tốt nghiệp đại học, anh ấy đã sống tự lập.", "en": "After graduating from university, he lived independently." }
+  },
+  {
+    "id": "L4-0199",
+    "vi": ["độc đáo", "đặc biệt"],
+    "viAliases": ["riêng biệt", "khác lạ"],
+    "en": ["unique; distinctive"],
+    "enSource": "cedict",
+    "example": { "zh": "这个城市有独特的文化。", "vi": "Thành phố này có nền văn hóa độc đáo.", "en": "This city has a unique culture." }
+  },
+  {
+    "id": "L4-0200",
+    "vi": ["một mình", "tự mình"],
+    "viAliases": ["đơn độc"],
+    "en": ["alone"],
+    "enSource": "cedict",
+    "example": { "zh": "她独自一人去了北京。", "vi": "Cô ấy một mình đi Bắc Kinh.", "en": "She went to Beijing alone." }
+  },
+  {
+    "id": "L4-0201",
+    "vi": ["chặn", "bịt", "tắc"],
+    "viAliases": ["ngăn", "lấp"],
+    "en": ["to block up (a road, pipe etc)", "to stop up (a hole)"],
+    "enSource": "cedict",
+    "example": { "zh": "前面的路被堵住了。", "vi": "Con đường phía trước bị chặn rồi.", "en": "The road ahead is blocked." }
+  },
+  {
+    "id": "L4-0202",
+    "vi": ["tắc đường", "kẹt xe"],
+    "viAliases": ["ùn tắc"],
+    "en": ["traffic jam", "(of traffic) to get congested"],
+    "enSource": "cedict",
+    "example": { "zh": "早上上班的时候经常堵车。", "vi": "Buổi sáng lúc đi làm thường hay tắc đường.", "en": "There are often traffic jams during the morning commute." }
+  },
+  {
+    "id": "L4-0203",
+    "vi": ["bụng"],
+    "viAliases": ["bụng dạ"],
+    "en": ["belly", "abdomen", "stomach"],
+    "enSource": "cedict",
+    "example": { "zh": "我肚子疼，不想吃饭。", "vi": "Tôi đau bụng, không muốn ăn cơm.", "en": "My stomach hurts, I do not want to eat." }
+  },
+  {
+    "id": "L4-0204",
+    "vi": ["trải qua", "vượt qua"],
+    "viAliases": ["sống qua"],
+    "en": ["to spend (time)", "to get through", "to survive"],
+    "enSource": "cedict",
+    "example": { "zh": "我们一起度过了快乐的假期。", "vi": "Chúng tôi đã cùng nhau trải qua kỳ nghỉ vui vẻ.", "en": "We spent a happy holiday together." }
+  },
+  {
+    "id": "L4-0205",
+    "vi": ["rèn luyện", "tập luyện"],
+    "viAliases": ["tập thể dục", "luyện tập"],
+    "en": ["to engage in physical exercise", "to work out", "to train oneself"],
+    "enSource": "cedict",
+    "example": { "zh": "他每天早上都去公园锻炼。", "vi": "Mỗi sáng anh ấy đều đi công viên tập thể dục.", "en": "He goes to the park to exercise every morning." }
+  },
+  {
+    "id": "L4-0206",
+    "vi": ["đối chiếu", "so sánh", "sự tương phản"],
+    "viAliases": ["đối sánh"],
+    "en": ["to contrast", "contrast"],
+    "enSource": "cedict",
+    "example": { "zh": "我们对比了两家公司的价格。", "vi": "Chúng tôi đã đối chiếu giá của hai công ty.", "en": "We compared the prices of the two companies." }
+  },
+  {
+    "id": "L4-0207",
+    "vi": ["đối phó", "ứng phó", "tạm dùng"],
+    "viAliases": ["xử lý", "đối đầu"],
+    "en": ["to handle; to deal with; to tackle", "to get by with; to make do"],
+    "enSource": "cedict",
+    "example": { "zh": "这个问题不好对付。", "vi": "Vấn đề này không dễ đối phó.", "en": "This problem is not easy to deal with." }
+  },
+  {
+    "id": "L4-0208",
+    "vi": ["đối với", "về"],
+    "viAliases": ["về phía"],
+    "en": ["regarding; as far as (sth) is concerned; with regard to"],
+    "enSource": "cedict",
+    "example": { "zh": "对于这个问题，我没有意见。", "vi": "Đối với vấn đề này, tôi không có ý kiến.", "en": "Regarding this issue, I have no opinion." }
+  },
+  {
+    "id": "L4-0209",
+    "vi": ["nhiều lần"],
+    "viAliases": ["lặp đi lặp lại"],
+    "en": ["many times", "repeatedly"],
+    "enSource": "cedict",
+    "example": { "zh": "我多次提醒过他，但他不听。", "vi": "Tôi đã nhắc anh ấy nhiều lần, nhưng anh ấy không nghe.", "en": "I reminded him many times, but he did not listen." }
+  },
+  {
+    "id": "L4-0210",
+    "vi": ["nhiều năm"],
+    "viAliases": ["lâu năm"],
+    "en": ["many years", "for many years"],
+    "enSource": "cedict",
+    "example": { "zh": "他们是多年的老朋友了。", "vi": "Họ là bạn cũ nhiều năm rồi.", "en": "They have been old friends for many years." }
+  },
+  {
+    "id": "L4-0211",
+    "vi": ["đa dạng", "nhiều kiểu"],
+    "viAliases": ["phong phú"],
+    "en": ["diverse", "manifold"],
+    "enSource": "cedict",
+    "example": { "zh": "这家商店的商品种类多样。", "vi": "Chủng loại hàng hóa của cửa hàng này rất đa dạng.", "en": "The goods in this shop come in diverse varieties." }
+  },
+  {
+    "id": "L4-0212",
+    "vi": ["nhiều loại", "nhiều kiểu"],
+    "viAliases": ["đa dạng"],
+    "en": ["many kinds of; multiple; diverse; multi-"],
+    "enSource": "cedict",
+    "example": { "zh": "这个问题有多种解决方法。", "vi": "Vấn đề này có nhiều cách giải quyết.", "en": "This problem has multiple solutions." }
+  },
+  {
+    "id": "L4-0213",
+    "vi": ["buồn nôn", "ghê tởm", "kinh tởm"],
+    "viAliases": ["nôn nao", "tởm"],
+    "en": ["to feel sick", "nauseating", "disgust"],
+    "enSource": "cedict",
+    "example": { "zh": "我吃坏了肚子，有点儿恶心。", "vi": "Tôi ăn phải đồ hỏng, hơi buồn nôn.", "en": "I ate something bad and feel a bit nauseous." }
+  },
+  {
+    "id": "L4-0214",
+    "vi": ["trẻ em", "nhi đồng"],
+    "viAliases": ["thiếu nhi", "trẻ con"],
+    "en": ["child"],
+    "enSource": "cedict",
+    "example": { "zh": "这本书很适合儿童阅读。", "vi": "Cuốn sách này rất phù hợp cho trẻ em đọc.", "en": "This book is very suitable for children to read." }
+  },
+  {
+    "id": "L4-0215",
+    "vi": ["mà", "và", "nhưng"],
+    "viAliases": ["còn"],
+    "en": ["and", "but (not)", "(indicates contrast)"],
+    "enSource": "cedict",
+    "example": { "zh": "他喜欢安静，而我喜欢热闹。", "vi": "Anh ấy thích yên tĩnh, còn tôi thích náo nhiệt.", "en": "He likes quiet, while I like liveliness." }
+  },
+  {
+    "id": "L4-0216",
+    "vi": ["mà là"],
+    "viAliases": ["mà"],
+    "en": ["rather"],
+    "enSource": "cedict",
+    "example": { "zh": "他不是老师，而是学生。", "vi": "Anh ấy không phải giáo viên, mà là học sinh.", "en": "He is not a teacher, but rather a student." }
+  },
+  {
+    "id": "L4-0217",
+    "vi": ["tai nghe"],
+    "viAliases": ["headphone"],
+    "en": ["headphones", "earphones"],
+    "enSource": "cedict",
+    "example": { "zh": "他戴着耳机听音乐。", "vi": "Anh ấy đeo tai nghe nghe nhạc.", "en": "He is listening to music with headphones on." }
+  },
+  {
+    "id": "L4-0218",
+    "vi": ["cũ", "đã qua sử dụng"],
+    "viAliases": ["đồ cũ", "second-hand"],
+    "en": ["second-hand (information, equipment etc)"],
+    "enSource": "cedict",
+    "example": { "zh": "我买了一辆二手汽车。", "vi": "Tôi mua một chiếc ô tô cũ.", "en": "I bought a second-hand car." }
+  },
+  {
+    "id": "L4-0219",
+    "vi": ["phát huy", "thể hiện"],
+    "viAliases": ["vận dụng"],
+    "en": ["to display", "to bring out implicit or innate qualities", "to develop (an idea)"],
+    "enSource": "cedict",
+    "example": { "zh": "希望你能发挥自己的能力。", "vi": "Hy vọng bạn có thể phát huy năng lực của mình.", "en": "I hope you can bring your abilities into full play." }
+  },
+  {
+    "id": "L4-0220",
+    "vi": ["hóa đơn"],
+    "viAliases": ["biên lai"],
+    "en": ["invoice; receipt; bill"],
+    "enSource": "cedict",
+    "example": { "zh": "请给我开一张发票。", "vi": "Xin hãy xuất cho tôi một tờ hóa đơn.", "en": "Please issue me an invoice." }
+  },
+  {
+    "id": "L4-0221",
+    "vi": ["sốt", "phát sốt"],
+    "viAliases": ["bị sốt", "lên cơn sốt"],
+    "en": ["to have a high temperature (from illness); to have a fever"],
+    "enSource": "cedict",
+    "example": { "zh": "孩子发烧了，快去医院吧。", "vi": "Con bị sốt rồi, mau đi bệnh viện đi.", "en": "The child has a fever, let's hurry to the hospital." }
+  },
+  {
+    "id": "L4-0222",
+    "vi": ["pháp luật", "phương pháp", "cách"],
+    "viAliases": ["luật", "phép"],
+    "en": ["law", "method", "way"],
+    "enSource": "cedict",
+    "example": { "zh": "这件事我没法帮你。", "vi": "Việc này tôi không có cách nào giúp bạn.", "en": "There is no way I can help you with this." }
+  },
+  {
+    "id": "L4-0223",
+    "vi": ["thẩm phán", "quan tòa"],
+    "viAliases": ["chánh án"],
+    "en": ["judge (in court)"],
+    "enSource": "cedict",
+    "example": { "zh": "他的理想是当一名法官。", "vi": "Lý tưởng của anh ấy là làm thẩm phán.", "en": "His dream is to become a judge." }
+  },
+  {
+    "id": "L4-0224",
+    "vi": ["pháp luật", "luật pháp"],
+    "viAliases": ["luật", "luật lệ"],
+    "en": ["law"],
+    "enSource": "cedict",
+    "example": { "zh": "他在大学学习法律。", "vi": "Anh ấy học luật ở trường đại học.", "en": "He studies law at university." }
+  },
+  {
+    "id": "L4-0225",
+    "vi": ["tòa án"],
+    "viAliases": ["tòa"],
+    "en": ["court of law", "court"],
+    "enSource": "cedict",
+    "example": { "zh": "他们决定去法院解决问题。", "vi": "Họ quyết định ra tòa án để giải quyết vấn đề.", "en": "They decided to go to court to resolve the issue." }
+  }
+]

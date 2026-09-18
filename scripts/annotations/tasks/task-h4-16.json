@@ -1,0 +1,714 @@
+[
+  {
+    "id": "L4-0676",
+    "simplified": "率先",
+    "pinyin": "shuài xiān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "to take the lead",
+      "to show initiative"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0677",
+    "simplified": "睡着",
+    "traditional": "睡著",
+    "pinyin": "shuì zháo",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to fall asleep"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0678",
+    "simplified": "顺序",
+    "traditional": "順序",
+    "pinyin": "shùn xù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "sequence",
+      "order"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0679",
+    "simplified": "说不定",
+    "traditional": "說不定",
+    "pinyin": "shuō bu dìng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "can't say for sure",
+      "maybe"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0680",
+    "simplified": "说服",
+    "traditional": "說服",
+    "pinyin": "shuō fú",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to persuade",
+      "to convince",
+      "to talk sb over",
+      "Taiwan pr."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0681",
+    "simplified": "思考",
+    "pinyin": "sī kǎo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to reflect on",
+      "to ponder over"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0682",
+    "simplified": "似乎",
+    "pinyin": "sì hū",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "it seems; seemingly; as if"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0683",
+    "simplified": "松",
+    "traditional": "鬆",
+    "pinyin": "sōng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "loose",
+      "to loosen",
+      "to relax",
+      "floss (dry, fluffy food product made from shredded, seasoned meat or fish, used as a topping or filling)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0684",
+    "simplified": "松树",
+    "traditional": "松樹",
+    "pinyin": "sōng shù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "pine",
+      "pine tree",
+      "CL:棵"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0685",
+    "simplified": "塑料",
+    "pinyin": "sù liào",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "plastic; plastics (general term for synthetic polymer materials)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0686",
+    "simplified": "塑料袋",
+    "pinyin": "sù liào dài",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "plastic bag"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0687",
+    "simplified": "酸",
+    "pinyin": "suān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "sour",
+      "tart",
+      "sick at heart",
+      "grieved",
+      "sore",
+      "aching",
+      "pedantic",
+      "impractical",
+      "to make sarcastic remarks about sb",
+      "an acid"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0688",
+    "simplified": "酸奶",
+    "pinyin": "suān nǎi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "yogurt"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0689",
+    "simplified": "随手",
+    "traditional": "隨手",
+    "pinyin": "suí shǒu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "conveniently",
+      "without extra trouble",
+      "while doing it",
+      "in passing"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0690",
+    "simplified": "孙女",
+    "traditional": "孫女",
+    "pinyin": "sūn nǚ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "son's daughter",
+      "granddaughter"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0691",
+    "simplified": "孙子",
+    "traditional": "孫子",
+    "pinyin": "sūn zi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "grandson",
+      "son's son"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0692",
+    "simplified": "缩短",
+    "traditional": "縮短",
+    "pinyin": "suō duǎn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to shorten; to reduce; to curtail"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0693",
+    "simplified": "缩小",
+    "traditional": "縮小",
+    "pinyin": "suō xiǎo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to reduce; to decrease; to shrink"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0694",
+    "simplified": "台阶",
+    "traditional": "臺階",
+    "pinyin": "tái jiē",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "steps",
+      "flight of steps",
+      "step (over obstacle)",
+      "fig. way out of an embarrassing situation",
+      "bench (geology)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0695",
+    "simplified": "台上",
+    "traditional": "臺上",
+    "pinyin": "tái shàng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "on stage"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0696",
+    "simplified": "躺",
+    "pinyin": "tǎng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to recline",
+      "to lie down"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0697",
+    "simplified": "套餐",
+    "pinyin": "tào cān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "set meal",
+      "(fig.) product or service package (e.g. for a cell phone subscription)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0698",
+    "simplified": "特价",
+    "traditional": "特價",
+    "pinyin": "tè jià",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "special price"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0699",
+    "simplified": "特殊",
+    "pinyin": "tè shū",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "special",
+      "particular",
+      "unusual",
+      "extraordinary"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0700",
+    "simplified": "特征",
+    "traditional": "特徵",
+    "pinyin": "tè zhēng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "characteristic",
+      "diagnostic property",
+      "distinctive feature",
+      "trait"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0701",
+    "simplified": "提供",
+    "pinyin": "tí gōng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to offer",
+      "to supply",
+      "to provide",
+      "to furnish"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0702",
+    "simplified": "提醒",
+    "pinyin": "tí xǐng",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to remind",
+      "to call attention to",
+      "to warn of"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0703",
+    "simplified": "体操",
+    "traditional": "體操",
+    "pinyin": "tǐ cāo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "gymnastic",
+      "gymnastics"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0704",
+    "simplified": "体检",
+    "traditional": "體檢",
+    "pinyin": "tǐ jiǎn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "abbr. for 體格檢查/体格检查"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0705",
+    "simplified": "体重",
+    "traditional": "體重",
+    "pinyin": "tǐ zhòng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "body weight"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0706",
+    "simplified": "替",
+    "pinyin": "tì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "Prep"
+    ],
+    "cedictDefinitions": [
+      "to substitute for",
+      "to take the place of",
+      "to replace",
+      "for",
+      "on behalf of",
+      "to stand in for"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0707",
+    "simplified": "替代",
+    "pinyin": "tì dài",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to substitute for",
+      "to replace",
+      "to supersede"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0708",
+    "simplified": "天真",
+    "pinyin": "tiān zhēn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "naive",
+      "innocent",
+      "artless"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0709",
+    "simplified": "填",
+    "pinyin": "tián",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to fill or stuff",
+      "(of a form etc) to fill in"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0710",
+    "simplified": "填空",
+    "pinyin": "tián kòng",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to fill a job vacancy",
+      "to fill in a blank (e.g. on a form, questionnaire or exam paper)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0711",
+    "simplified": "挑",
+    "pinyin": "tiāo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to carry on a shoulder pole",
+      "to choose",
+      "to pick",
+      "to nitpick"
+    ],
+    "siblings": [
+      {
+        "id": "L4-0714",
+        "pinyin": "tiǎo",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0712",
+    "simplified": "挑选",
+    "traditional": "挑選",
+    "pinyin": "tiāo xuǎn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to choose",
+      "to select"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0713",
+    "simplified": "调皮",
+    "traditional": "調皮",
+    "pinyin": "tiáo pí",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "naughty",
+      "mischievous",
+      "unruly"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0714",
+    "simplified": "挑",
+    "pinyin": "tiǎo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to raise",
+      "to dig up",
+      "to poke",
+      "to prick",
+      "to incite",
+      "to stir up"
+    ],
+    "siblings": [
+      {
+        "id": "L4-0711",
+        "pinyin": "tiāo",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0715",
+    "simplified": "挑战",
+    "traditional": "挑戰",
+    "pinyin": "tiǎo zhàn",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to challenge; to take on a challenge; a challenge"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0716",
+    "simplified": "贴",
+    "traditional": "貼",
+    "pinyin": "tiē",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to stick",
+      "to paste",
+      "to post (e.g. on a blog)",
+      "to keep close to",
+      "to fit snugly",
+      "to subsidize",
+      "allowance (e.g. money for food or housing)",
+      "sticker",
+      "classifier for sticking plaster: strip"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0717",
+    "simplified": "停下",
+    "pinyin": "tíng xià",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to stop"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0718",
+    "simplified": "挺",
+    "pinyin": "tǐng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "straight",
+      "erect",
+      "to stick out (a part of the body)",
+      "to (physically) straighten up",
+      "to support",
+      "to withstand",
+      "outstanding",
+      "(coll.) quite",
+      "very",
+      "classifier for machine guns"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0541",
+        "pinyin": "tǐng",
+        "partOfSpeech": [
+          "Adv"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0719",
+    "simplified": "通知书",
+    "traditional": "通知書",
+    "pinyin": "tōng zhī shū",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "written notice"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0720",
+    "simplified": "同情",
+    "pinyin": "tóng qíng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to sympathize with",
+      "sympathy"
+    ],
+    "needsEnglish": false
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "L4-0991",
+    "vi": ["tổng cộng", "tất cả"],
+    "viAliases": ["cả thảy", "toàn bộ"],
+    "en": ["altogether; in sum; in all; in total"],
+    "enSource": "cedict",
+    "example": { "zh": "我们班总共有三十个学生。", "vi": "Lớp chúng tôi tổng cộng có ba mươi học sinh.", "en": "Our class has thirty students in total." }
+  },
+  {
+    "id": "L4-0992",
+    "vi": ["thủ tướng"],
+    "viAliases": ["tổng lý"],
+    "en": ["premier", "prime minister"],
+    "enSource": "cedict",
+    "example": { "zh": "总理今天来我们城市了。", "vi": "Hôm nay thủ tướng đã đến thành phố chúng tôi.", "en": "The premier came to our city today." }
+  },
+  {
+    "id": "L4-0993",
+    "vi": ["tổng thống"],
+    "viAliases": [],
+    "en": ["president (of a country)"],
+    "enSource": "cedict",
+    "example": { "zh": "他是这个国家的总统。", "vi": "Ông ấy là tổng thống của đất nước này.", "en": "He is the president of this country." }
+  },
+  {
+    "id": "L4-0994",
+    "vi": ["tóm lại", "nói chung"],
+    "viAliases": ["tóm lại là", "nhìn chung"],
+    "en": ["in a word", "in short", "in brief"],
+    "enSource": "cedict",
+    "example": { "zh": "总之，我们必须马上出发。", "vi": "Tóm lại, chúng ta phải xuất phát ngay.", "en": "In short, we must set off right away." }
+  },
+  {
+    "id": "L4-0995",
+    "vi": ["ngăn cản", "ngăn chặn"],
+    "viAliases": ["cản trở", "chặn lại"],
+    "en": ["to prevent", "to block"],
+    "enSource": "cedict",
+    "example": { "zh": "没有人能阻止他去北京。", "vi": "Không ai có thể ngăn cản anh ấy đi Bắc Kinh.", "en": "No one can stop him from going to Beijing." }
+  },
+  {
+    "id": "L4-0996",
+    "vi": ["miệng", "mồm"],
+    "viAliases": ["cái miệng"],
+    "en": ["mouth (CL:張/张)"],
+    "enSource": "cedict",
+    "example": { "zh": "她的嘴巴很小，很好看。", "vi": "Miệng cô ấy rất nhỏ, rất đẹp.", "en": "Her mouth is very small and very pretty." }
+  },
+  {
+    "id": "L4-0997",
+    "vi": ["ban đầu", "lúc đầu"],
+    "viAliases": ["thoạt đầu", "khởi đầu"],
+    "en": ["at first", "initially", "originally"],
+    "enSource": "cedict",
+    "example": { "zh": "最初我不喜欢这个城市。", "vi": "Ban đầu tôi không thích thành phố này.", "en": "At first I did not like this city." }
+  },
+  {
+    "id": "L4-0998",
+    "vi": ["đưa ra", "làm ra"],
+    "viAliases": ["thực hiện", "đề ra"],
+    "en": ["to make (a choice, decision, proposal, response, comment etc)", "to come up with", "to draw (conclusion)"],
+    "enSource": "cedict",
+    "example": { "zh": "他很快就作出了决定。", "vi": "Anh ấy rất nhanh đã đưa ra quyết định.", "en": "He quickly made a decision." }
+  },
+  {
+    "id": "L4-0999",
+    "vi": ["với tư cách là", "làm", "coi là"],
+    "viAliases": ["là", "xem như"],
+    "en": ["as (in the capacity of)", "to act as", "to view as"],
+    "enSource": "cedict",
+    "example": { "zh": "作为老师，我应该帮助学生。", "vi": "Với tư cách là giáo viên, tôi nên giúp đỡ học sinh.", "en": "As a teacher, I should help my students." }
+  },
+  {
+    "id": "L4-1000",
+    "vi": ["nằm mơ", "mơ mộng"],
+    "viAliases": ["mơ", "mơ tưởng"],
+    "en": ["to dream; to have a dream; (fig.) to indulge in wishful thinking"],
+    "enSource": "cedict",
+    "example": { "zh": "我常常在睡觉的时候做梦。", "vi": "Tôi thường hay nằm mơ khi ngủ.", "en": "I often dream while sleeping." }
+  }
+]

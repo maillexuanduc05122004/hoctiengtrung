@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L4-0946",
+    "vi": ["chính phủ"],
+    "viAliases": ["nhà nước"],
+    "en": ["government"],
+    "enSource": "cedict",
+    "example": { "zh": "政府很关心老人的生活。", "vi": "Chính phủ rất quan tâm đến cuộc sống của người già.", "en": "The government cares a lot about the lives of the elderly." }
+  },
+  {
+    "id": "L4-0947",
+    "vi": ["chính trị"],
+    "viAliases": [],
+    "en": ["politics"],
+    "enSource": "cedict",
+    "example": { "zh": "他对政治很感兴趣。", "vi": "Anh ấy rất hứng thú với chính trị.", "en": "He is very interested in politics." }
+  },
+  {
+    "id": "L4-0948",
+    "vi": ["sau", "sau đó", "sau khi"],
+    "viAliases": ["về sau"],
+    "en": ["after; behind", "(at the beginning of a sentence) afterwards; since then"],
+    "enSource": "cedict",
+    "example": { "zh": "下课之后我们去打球吧。", "vi": "Sau khi tan học chúng ta đi chơi bóng nhé.", "en": "Let's go play ball after class." }
+  },
+  {
+    "id": "L4-0949",
+    "vi": ["giữa", "ở giữa"],
+    "viAliases": ["khoảng giữa"],
+    "en": ["(after a noun) between; among; amid"],
+    "enSource": "cedict",
+    "example": { "zh": "朋友之间应该互相帮助。", "vi": "Giữa bạn bè với nhau nên giúp đỡ lẫn nhau.", "en": "Friends should help each other." }
+  },
+  {
+    "id": "L4-0950",
+    "vi": ["trước", "trước đây", "trước khi"],
+    "viAliases": ["trước kia"],
+    "en": ["before", "prior to", "previously"],
+    "enSource": "cedict",
+    "example": { "zh": "睡觉之前不要喝咖啡。", "vi": "Trước khi ngủ đừng uống cà phê.", "en": "Don't drink coffee before going to bed." }
+  },
+  {
+    "id": "L4-0951",
+    "vi": ["một trong", "một trong những"],
+    "viAliases": [],
+    "en": ["one of (sth)", "one out of a multitude"],
+    "enSource": "cedict",
+    "example": { "zh": "北京是中国最大的城市之一。", "vi": "Bắc Kinh là một trong những thành phố lớn nhất Trung Quốc.", "en": "Beijing is one of the largest cities in China." }
+  },
+  {
+    "id": "L4-0952",
+    "vi": ["chống", "đỡ", "rút (tiền)"],
+    "viAliases": ["chống đỡ"],
+    "en": ["to support", "to sustain", "to erect"],
+    "enSource": "cedict",
+    "example": { "zh": "他用手支着头，一直在想问题。", "vi": "Anh ấy lấy tay chống đầu, cứ mãi suy nghĩ.", "en": "He propped his head on his hand, thinking the whole time." }
+  },
+  {
+    "id": "L4-0953",
+    "vi": ["thực vật", "cây cối"],
+    "viAliases": ["cây"],
+    "en": ["plant", "vegetation"],
+    "enSource": "cedict",
+    "example": { "zh": "这种植物需要很多水。", "vi": "Loại thực vật này cần rất nhiều nước.", "en": "This kind of plant needs a lot of water." }
+  },
+  {
+    "id": "L4-0954",
+    "vi": ["chỉ huy", "điều khiển", "người chỉ huy"],
+    "viAliases": ["nhạc trưởng"],
+    "en": ["to command", "to direct", "conductor (of an orchestra)"],
+    "enSource": "cedict",
+    "example": { "zh": "老师指挥同学们唱歌。", "vi": "Cô giáo chỉ huy các bạn học sinh hát.", "en": "The teacher conducts the students as they sing." }
+  },
+  {
+    "id": "L4-0955",
+    "vi": ["lập ra", "đặt ra", "soạn thảo"],
+    "viAliases": ["xây dựng (kế hoạch)"],
+    "en": ["to work out", "to formulate"],
+    "enSource": "cedict",
+    "example": { "zh": "我们要制订一个学习计划。", "vi": "Chúng ta phải lập một kế hoạch học tập.", "en": "We need to draw up a study plan." }
+  },
+  {
+    "id": "L4-0956",
+    "vi": ["chất lượng", "khối lượng (vật lý)"],
+    "viAliases": ["phẩm chất"],
+    "en": ["quality (i.e. degree of excellence)", "(physics) mass"],
+    "enSource": "cedict",
+    "example": { "zh": "这家商店的东西质量很好。", "vi": "Đồ ở cửa hàng này chất lượng rất tốt.", "en": "The goods in this shop are of very good quality." }
+  },
+  {
+    "id": "L4-0957",
+    "vi": ["chữa (bệnh)", "trị", "quản lý"],
+    "viAliases": ["chữa trị", "cai trị"],
+    "en": ["to treat (a disease)", "to govern", "to manage"],
+    "enSource": "cedict",
+    "example": { "zh": "这位医生治好了我的病。", "vi": "Vị bác sĩ này đã chữa khỏi bệnh cho tôi.", "en": "This doctor cured my illness." }
+  },
+  {
+    "id": "L4-0958",
+    "vi": ["chữa trị", "điều trị"],
+    "viAliases": ["chữa bệnh", "trị liệu"],
+    "en": ["to treat (an illness)", "medical treatment"],
+    "enSource": "cedict",
+    "example": { "zh": "他的病需要马上治疗。", "vi": "Bệnh của anh ấy cần được điều trị ngay.", "en": "His illness needs to be treated right away." }
+  },
+  {
+    "id": "L4-0959",
+    "vi": ["trí lực", "trí tuệ", "trí thông minh"],
+    "viAliases": ["trí óc"],
+    "en": ["intelligence", "intellect"],
+    "enSource": "cedict",
+    "example": { "zh": "这个游戏可以提高孩子的智力。", "vi": "Trò chơi này có thể nâng cao trí lực của trẻ.", "en": "This game can improve children's intelligence." }
+  },
+  {
+    "id": "L4-0960",
+    "vi": ["trí năng", "trí tuệ", "thông minh (máy móc)"],
+    "viAliases": ["trí thông minh"],
+    "en": ["intelligent", "smart (phone, system, bomb etc)"],
+    "enSource": "cedict",
+    "example": { "zh": "现在很多人都用智能手机。", "vi": "Bây giờ rất nhiều người dùng điện thoại thông minh.", "en": "Nowadays many people use smartphones." }
+  },
+  {
+    "id": "L4-0961",
+    "vi": ["trung gian", "môi giới"],
+    "viAliases": ["người môi giới", "công ty môi giới"],
+    "en": ["agency", "agent", "intermediate"],
+    "enSource": "cedict",
+    "example": { "zh": "我通过中介找到了这套房子。", "vi": "Tôi tìm được căn nhà này thông qua môi giới.", "en": "I found this apartment through an agent." }
+  },
+  {
+    "id": "L4-0962",
+    "vi": ["chủng loại", "loại", "kiểu"],
+    "viAliases": ["loại hình"],
+    "en": ["kind", "type", "category"],
+    "enSource": "cedict",
+    "example": { "zh": "这里水果的种类很多。", "vi": "Chủng loại hoa quả ở đây rất nhiều.", "en": "There are many kinds of fruit here." }
+  },
+  {
+    "id": "L4-0963",
+    "vi": ["trúng thưởng", "trúng số"],
+    "viAliases": ["trúng giải"],
+    "en": ["to win a prize (in a lottery etc)"],
+    "enSource": "cedict",
+    "example": { "zh": "听说你中奖了，真是太好了！", "vi": "Nghe nói bạn trúng thưởng rồi, thật là tốt quá!", "en": "I heard you won a prize, that's wonderful!" }
+  },
+  {
+    "id": "L4-0964",
+    "vi": ["trồng", "gieo"],
+    "viAliases": ["trồng trọt", "gieo trồng"],
+    "en": ["to plant", "to grow", "to cultivate"],
+    "enSource": "cedict",
+    "example": { "zh": "爷爷在门前种了很多花。", "vi": "Ông nội trồng rất nhiều hoa trước cửa.", "en": "Grandpa planted many flowers in front of the door." }
+  },
+  {
+    "id": "L4-0965",
+    "vi": ["trồng trọt", "trồng", "canh tác"],
+    "viAliases": ["gieo trồng"],
+    "en": ["to plant; to grow (a crop); to cultivate"],
+    "enSource": "cedict",
+    "example": { "zh": "这里的人主要种植水果。", "vi": "Người ở đây chủ yếu trồng hoa quả.", "en": "People here mainly grow fruit." }
+  },
+  {
+    "id": "L4-0966",
+    "vi": ["trọng lượng", "cân nặng"],
+    "viAliases": ["sức nặng"],
+    "en": ["weight"],
+    "enSource": "cedict",
+    "example": { "zh": "这个箱子的重量是二十公斤。", "vi": "Trọng lượng của chiếc hộp này là hai mươi ki-lô-gam.", "en": "The weight of this box is twenty kilograms." }
+  },
+  {
+    "id": "L4-0967",
+    "vi": ["từng bước", "dần dần"],
+    "viAliases": ["dần"],
+    "en": ["progressively", "step by step"],
+    "enSource": "cedict",
+    "example": { "zh": "他的汉语水平逐步提高了。", "vi": "Trình độ tiếng Trung của anh ấy từng bước nâng cao.", "en": "His Chinese level has improved step by step." }
+  },
+  {
+    "id": "L4-0968",
+    "vi": ["dần dần", "từ từ"],
+    "viAliases": ["dần"],
+    "en": ["gradually"],
+    "enSource": "cedict",
+    "example": { "zh": "天气逐渐变冷了。", "vi": "Thời tiết dần dần trở lạnh.", "en": "The weather is gradually getting colder." }
+  },
+  {
+    "id": "L4-0969",
+    "vi": ["chủ đề", "đề tài"],
+    "viAliases": ["nội dung chính"],
+    "en": ["theme", "subject"],
+    "enSource": "cedict",
+    "example": { "zh": "今天会议的主题是环境保护。", "vi": "Chủ đề của cuộc họp hôm nay là bảo vệ môi trường.", "en": "The theme of today's meeting is environmental protection." }
+  },
+  {
+    "id": "L4-0970",
+    "vi": ["chủ tịch"],
+    "viAliases": ["chủ tọa"],
+    "en": ["chairperson", "chairman"],
+    "enSource": "cedict",
+    "example": { "zh": "主席在会议上讲了话。", "vi": "Chủ tịch đã phát biểu tại cuộc họp.", "en": "The chairman gave a speech at the meeting." }
+  },
+  {
+    "id": "L4-0971",
+    "vi": ["chúc phúc", "cầu chúc"],
+    "viAliases": ["chúc"],
+    "en": ["to wish sb well", "blessings"],
+    "enSource": "cedict",
+    "example": { "zh": "我祝福你们永远幸福。", "vi": "Tôi chúc phúc cho hai bạn mãi mãi hạnh phúc.", "en": "I wish you both happiness forever." }
+  },
+  {
+    "id": "L4-0972",
+    "vi": ["nổi tiếng", "trứ danh"],
+    "viAliases": ["có tiếng", "lừng danh"],
+    "en": ["famous", "well-known", "celebrated"],
+    "enSource": "cedict",
+    "example": { "zh": "他是一位著名的作家。", "vi": "Ông ấy là một nhà văn nổi tiếng.", "en": "He is a famous writer." }
+  },
+  {
+    "id": "L4-0973",
+    "vi": ["tác phẩm", "trước tác", "sách"],
+    "viAliases": ["công trình (sách)"],
+    "en": ["literary work", "book", "writings"],
+    "enSource": "cedict",
+    "example": { "zh": "这位教授写了很多著作。", "vi": "Vị giáo sư này đã viết rất nhiều tác phẩm.", "en": "This professor has written many works." }
+  },
+  {
+    "id": "L4-0974",
+    "vi": ["nắm chặt", "tranh thủ", "khẩn trương"],
+    "viAliases": ["gấp rút"],
+    "en": ["to keep a firm grip on", "to lose no time in (doing sth)"],
+    "enSource": "cedict",
+    "example": { "zh": "你要抓紧时间复习。", "vi": "Bạn phải tranh thủ thời gian ôn tập.", "en": "You must make the most of your time to review." }
+  },
+  {
+    "id": "L4-0975",
+    "vi": ["chuyên tâm", "tập trung", "chăm chú"],
+    "viAliases": ["chú tâm"],
+    "en": ["to focus one's attention; to concentrate on (doing sth)"],
+    "enSource": "cedict",
+    "example": { "zh": "他学习的时候非常专心。", "vi": "Anh ấy rất chuyên tâm khi học.", "en": "He is very focused when he studies." }
+  },
+  {
+    "id": "L4-0976",
+    "vi": ["xoay", "quay", "xoay tròn"],
+    "viAliases": ["xoay chuyển"],
+    "en": ["to turn sth around", "to swivel"],
+    "enSource": "cedict",
+    "example": { "zh": "他慢慢转动着手里的杯子。", "vi": "Anh ấy chầm chậm xoay chiếc cốc trong tay.", "en": "He slowly turned the cup in his hand." }
+  },
+  {
+    "id": "L4-0977",
+    "vi": ["chuyển lời", "nhắn lại"],
+    "viAliases": ["truyền đạt"],
+    "en": ["to pass on", "to communicate", "to transmit"],
+    "enSource": "cedict",
+    "example": { "zh": "请你转告他明天开会。", "vi": "Xin bạn chuyển lời cho anh ấy là ngày mai họp.", "en": "Please tell him that there is a meeting tomorrow." }
+  },
+  {
+    "id": "L4-0978",
+    "vi": ["quay người", "xoay người"],
+    "viAliases": ["quay lại"],
+    "en": ["(of a person) to turn round", "to face about"],
+    "enSource": "cedict",
+    "example": { "zh": "他转身走出了房间。", "vi": "Anh ấy quay người bước ra khỏi phòng.", "en": "He turned around and walked out of the room." }
+  },
+  {
+    "id": "L4-0979",
+    "vi": ["rẽ", "ngoặt", "quẹo"],
+    "viAliases": ["rẽ hướng"],
+    "en": ["to turn", "to go around a corner"],
+    "enSource": "cedict",
+    "example": { "zh": "汽车在前面慢慢转弯。", "vi": "Chiếc ô tô từ từ rẽ ở phía trước.", "en": "The car slowly turns the corner up ahead." }
+  },
+  {
+    "id": "L4-0980",
+    "vi": ["chuyển", "di chuyển", "chuyển dời"],
+    "viAliases": ["dịch chuyển"],
+    "en": ["to shift; to relocate; to transfer", "(fig.) to shift (attention); to change (the subject etc)"],
+    "enSource": "cedict",
+    "example": { "zh": "医生把病人转移到了别的医院。", "vi": "Bác sĩ đã chuyển bệnh nhân sang bệnh viện khác.", "en": "The doctor transferred the patient to another hospital." }
+  },
+  {
+    "id": "L4-0981",
+    "vi": ["trang trí (nội thất)", "sửa sang", "tu sửa"],
+    "viAliases": ["trang hoàng"],
+    "en": ["to renovate", "to decorate", "interior decoration"],
+    "enSource": "cedict",
+    "example": { "zh": "他们打算把新房子装修一下。", "vi": "Họ dự định sửa sang lại căn nhà mới.", "en": "They plan to renovate the new house." }
+  },
+  {
+    "id": "L4-0982",
+    "vi": ["thiết bị", "cơ cấu", "lắp đặt"],
+    "viAliases": ["trang thiết bị"],
+    "en": ["device", "equipment", "to install"],
+    "enSource": "cedict",
+    "example": { "zh": "这个装置可以节约用水。", "vi": "Thiết bị này có thể tiết kiệm nước.", "en": "This device can save water." }
+  },
+  {
+    "id": "L4-0983",
+    "vi": ["theo đuổi", "mưu cầu", "tán tỉnh"],
+    "viAliases": ["đeo đuổi"],
+    "en": ["to pursue (a goal etc) stubbornly", "to seek after", "to woo"],
+    "enSource": "cedict",
+    "example": { "zh": "每个人都在追求自己的梦想。", "vi": "Mỗi người đều đang theo đuổi ước mơ của mình.", "en": "Everyone is pursuing their own dream." }
+  },
+  {
+    "id": "L4-0984",
+    "vi": ["đúng giờ"],
+    "viAliases": ["đúng hẹn"],
+    "en": ["on time", "punctual", "on schedule"],
+    "enSource": "cedict",
+    "example": { "zh": "他每天都准时上班。", "vi": "Anh ấy ngày nào cũng đi làm đúng giờ.", "en": "He goes to work on time every day." }
+  },
+  {
+    "id": "L4-0985",
+    "vi": ["tài liệu", "tư liệu", "dữ liệu"],
+    "viAliases": ["thông tin"],
+    "en": ["material", "data", "information"],
+    "enSource": "cedict",
+    "example": { "zh": "我在网上找了很多资料。", "vi": "Tôi đã tìm rất nhiều tài liệu trên mạng.", "en": "I found a lot of material online." }
+  },
+  {
+    "id": "L4-0986",
+    "vi": ["tài nguyên", "nguồn lực"],
+    "viAliases": ["nguồn tài nguyên"],
+    "en": ["natural resource (such as water or minerals)", "resource (such as manpower or tourism)"],
+    "enSource": "cedict",
+    "example": { "zh": "我们应该节约水资源。", "vi": "Chúng ta nên tiết kiệm tài nguyên nước.", "en": "We should conserve water resources." }
+  },
+  {
+    "id": "L4-0987",
+    "vi": ["từ", "kể từ"],
+    "viAliases": ["tự"],
+    "en": ["from; since"],
+    "enSource": "cedict",
+    "example": { "zh": "这个商店自明天起开始打折。", "vi": "Cửa hàng này bắt đầu giảm giá kể từ ngày mai.", "en": "This shop starts offering discounts from tomorrow." }
+  },
+  {
+    "id": "L4-0988",
+    "vi": ["tự tin", "tin vào bản thân"],
+    "viAliases": ["lòng tự tin"],
+    "en": ["to have confidence in oneself", "self-confidence"],
+    "enSource": "cedict",
+    "example": { "zh": "她对自己的能力很自信。", "vi": "Cô ấy rất tự tin vào năng lực của mình.", "en": "She is very confident in her own ability." }
+  },
+  {
+    "id": "L4-0989",
+    "vi": ["chữ cái"],
+    "viAliases": ["mẫu tự"],
+    "en": ["letter (of the alphabet)"],
+    "enSource": "cedict",
+    "example": { "zh": "英语一共有二十六个字母。", "vi": "Tiếng Anh có tất cả hai mươi sáu chữ cái.", "en": "English has twenty-six letters in total." }
+  },
+  {
+    "id": "L4-0990",
+    "vi": ["tổng hợp", "tổng hòa"],
+    "viAliases": ["gộp lại"],
+    "en": ["to sum up", "to integrate", "to synthesize"],
+    "enSource": "cedict",
+    "example": { "zh": "老师综合了大家的意见。", "vi": "Cô giáo đã tổng hợp ý kiến của mọi người.", "en": "The teacher integrated everyone's opinions." }
+  }
+]

@@ -1,7 +1,7 @@
 import { db } from './database.ts';
 import { DEFAULT_SETTINGS, SPEECH_RATES } from '../types/settings.ts';
 import type { AppSettings, DisplayMode, ThemePreference } from '../types/settings.ts';
-import type { HskLevel } from '../types/vocabulary.ts';
+import { HSK_LEVELS, isHskLevel } from '../types/vocabulary.ts';
 import type {
   AnswerVerdict,
   CardState,
@@ -45,7 +45,6 @@ const PHASES: readonly CardState['phase'][] = ['new', 'learning', 'review', 'rel
 const MODES: readonly StudyMode[] = ['flashcards', 'typing', 'listening', 'speaking'];
 const VERDICTS: readonly AnswerVerdict[] = ['correct', 'close', 'wrong'];
 const RATINGS: readonly Rating[] = [1, 2, 3, 4];
-const LEVELS: readonly HskLevel[] = [1, 2, 3];
 const DISPLAY_MODES: readonly DisplayMode[] = ['vi-zh', 'en-zh', 'vi-en-zh'];
 const THEMES: readonly ThemePreference[] = ['light', 'dark', 'system'];
 const LOOKUP_SOURCES: readonly LookupSource[] = ['search', 'scan'];
@@ -72,10 +71,6 @@ function booleanOr(value: unknown, fallback: boolean): boolean {
 /** Số lượng từ và mục tiêu ngày phải hữu hạn và không âm, nếu không giao diện chia cho NaN. */
 function countOr(value: unknown, fallback: number): number {
   return typeof value === 'number' && Number.isFinite(value) && value >= 0 ? value : fallback;
-}
-
-function isHskLevel(value: unknown): value is HskLevel {
-  return LEVELS.some((level) => level === value);
 }
 
 /**
@@ -401,7 +396,7 @@ function optionalArray<T>(
 function toSettings(value: unknown): AppSettings {
   const raw = requireRecord(value, 'settings');
   const levels = requireArray(raw.activeLevels, 'settings.activeLevels').map((level, index) =>
-    requireOneOf(level, LEVELS, `settings.activeLevels[${index}]`),
+    requireOneOf(level, HSK_LEVELS, `settings.activeLevels[${index}]`),
   );
   return {
     displayMode: requireOneOf(raw.displayMode, DISPLAY_MODES, 'settings.displayMode'),

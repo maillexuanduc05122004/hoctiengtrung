@@ -1,0 +1,542 @@
+[
+  {
+    "id": "L4-0811",
+    "vi": ["hiệu suất", "hiệu quả"],
+    "viAliases": ["năng suất"],
+    "en": ["efficiency"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他的工作效率很高。",
+      "vi": "Hiệu suất làm việc của anh ấy rất cao.",
+      "en": "His work efficiency is very high."
+    }
+  },
+  {
+    "id": "L4-0812",
+    "vi": ["một số", "một vài", "một ít"],
+    "viAliases": ["vài", "mấy"],
+    "en": ["classifier indicating a small amount or small number greater than 1: some, a few, several"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我买了一些水果。",
+      "vi": "Tôi đã mua một ít hoa quả.",
+      "en": "I bought some fruit."
+    }
+  },
+  {
+    "id": "L4-0813",
+    "vi": ["tâm lý"],
+    "viAliases": ["tâm trạng", "tinh thần"],
+    "en": ["psychology; mentality"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他的心理压力很大。",
+      "vi": "Áp lực tâm lý của anh ấy rất lớn.",
+      "en": "He is under a lot of psychological pressure."
+    }
+  },
+  {
+    "id": "L4-0814",
+    "vi": ["chú rể"],
+    "viAliases": ["tân lang"],
+    "en": ["bridegroom; groom"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "新郎今天穿得很帅。",
+      "vi": "Hôm nay chú rể mặc rất bảnh bao.",
+      "en": "The groom is dressed very handsomely today."
+    }
+  },
+  {
+    "id": "L4-0815",
+    "vi": ["cô dâu"],
+    "viAliases": ["tân nương"],
+    "en": ["bride"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "新娘今天特别漂亮。",
+      "vi": "Hôm nay cô dâu đặc biệt xinh đẹp.",
+      "en": "The bride looks especially beautiful today."
+    }
+  },
+  {
+    "id": "L4-0816",
+    "vi": ["tươi", "tươi mới", "mới lạ"],
+    "viAliases": ["tươi ngon", "trong lành"],
+    "en": ["fresh (experience, food etc)", "novel"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这些水果很新鲜。",
+      "vi": "Những hoa quả này rất tươi.",
+      "en": "These fruits are very fresh."
+    }
+  },
+  {
+    "id": "L4-0817",
+    "vi": ["kiểu mới", "loại mới"],
+    "viAliases": ["đời mới"],
+    "en": ["new type; new kind"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这是一种新型的手机。",
+      "vi": "Đây là một loại điện thoại kiểu mới.",
+      "en": "This is a new type of mobile phone."
+    }
+  },
+  {
+    "id": "L4-0818",
+    "vi": ["hưng phấn", "phấn khích"],
+    "viAliases": ["hào hứng", "kích động"],
+    "en": ["excited"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "听到这个消息，我很兴奋。",
+      "vi": "Nghe tin này, tôi rất phấn khích.",
+      "en": "I was very excited to hear this news."
+    }
+  },
+  {
+    "id": "L4-0819",
+    "vi": ["miêu tả", "diễn tả", "hình dung"],
+    "viAliases": ["mô tả"],
+    "en": ["to describe"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我不知道怎么形容这种感觉。",
+      "vi": "Tôi không biết miêu tả cảm giác này thế nào.",
+      "en": "I don't know how to describe this feeling."
+    }
+  },
+  {
+    "id": "L4-0820",
+    "vi": ["tình hình", "tình thế", "cục diện"],
+    "viAliases": ["tình trạng"],
+    "en": ["circumstances", "situation"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "现在的经济形势很好。",
+      "vi": "Tình hình kinh tế hiện nay rất tốt.",
+      "en": "The current economic situation is very good."
+    }
+  },
+  {
+    "id": "L4-0821",
+    "vi": ["kiểu", "loại", "mẫu"],
+    "viAliases": ["hình", "dạng"],
+    "en": ["type", "style", "model"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "你知道自己的血型吗？",
+      "vi": "Bạn có biết nhóm máu của mình không?",
+      "en": "Do you know your own blood type?"
+    }
+  },
+  {
+    "id": "L4-0822",
+    "vi": ["mã sản phẩm", "đời máy", "kiểu máy"],
+    "viAliases": ["model", "mẫu mã"],
+    "en": ["model (particular version of a manufactured article)", "type (product specification in terms of color, size etc)"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "你的手机是什么型号？",
+      "vi": "Điện thoại của bạn là đời máy nào?",
+      "en": "What model is your phone?"
+    }
+  },
+  {
+    "id": "L4-0823",
+    "vi": ["tỉnh", "tỉnh dậy", "tỉnh giấc"],
+    "viAliases": ["thức dậy", "tỉnh táo"],
+    "en": ["to wake up", "to be awake", "to sober up"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我今天早上六点就醒了。",
+      "vi": "Sáng nay tôi đã tỉnh giấc lúc sáu giờ.",
+      "en": "I woke up at six this morning."
+    }
+  },
+  {
+    "id": "L4-0824",
+    "vi": ["hứng thú", "sở thích"],
+    "viAliases": ["niềm hứng thú", "đam mê"],
+    "en": ["interest (desire to know about sth)", "interest (thing in which one is interested); hobby"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我对音乐很感兴趣。",
+      "vi": "Tôi rất có hứng thú với âm nhạc.",
+      "en": "I am very interested in music."
+    }
+  },
+  {
+    "id": "L4-0825",
+    "vi": ["tính chất", "bản chất"],
+    "viAliases": ["đặc tính"],
+    "en": ["nature", "characteristic"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这两个问题的性质不同。",
+      "vi": "Tính chất của hai vấn đề này khác nhau.",
+      "en": "The nature of these two problems is different."
+    }
+  },
+  {
+    "id": "L4-0826",
+    "vi": ["anh em (trai)", "em trai"],
+    "viAliases": ["huynh đệ", "anh em ruột"],
+    "en": ["brothers", "younger brother"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他们两个是兄弟。",
+      "vi": "Hai người họ là anh em.",
+      "en": "The two of them are brothers."
+    }
+  },
+  {
+    "id": "L4-0827",
+    "vi": ["ngực", "phần ngực"],
+    "viAliases": ["lồng ngực"],
+    "en": ["chest", "bosom"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他觉得胸部有点儿疼。",
+      "vi": "Anh ấy thấy ngực hơi đau.",
+      "en": "He feels a little pain in his chest."
+    }
+  },
+  {
+    "id": "L4-0828",
+    "vi": ["sửa chữa", "sửa"],
+    "viAliases": ["tu sửa", "chữa"],
+    "en": ["to repair", "to fix"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我的自行车需要修理。",
+      "vi": "Xe đạp của tôi cần sửa chữa.",
+      "en": "My bicycle needs repairing."
+    }
+  },
+  {
+    "id": "L4-0829",
+    "vi": ["lựa chọn", "chọn", "sự lựa chọn"],
+    "viAliases": ["chọn lựa", "tuyển chọn"],
+    "en": ["to select; to pick", "choice; option; alternative"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "你可以选择坐火车去。",
+      "vi": "Bạn có thể chọn đi bằng tàu hỏa.",
+      "en": "You can choose to go by train."
+    }
+  },
+  {
+    "id": "L4-0830",
+    "vi": ["tín chỉ"],
+    "viAliases": ["điểm tín chỉ"],
+    "en": ["course credit"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这门课有三个学分。",
+      "vi": "Môn học này có ba tín chỉ.",
+      "en": "This course is worth three credits."
+    }
+  },
+  {
+    "id": "L4-0831",
+    "vi": ["năm học"],
+    "viAliases": ["niên học", "niên khóa"],
+    "en": ["academic year"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "新学年九月开始。",
+      "vi": "Năm học mới bắt đầu vào tháng chín.",
+      "en": "The new academic year starts in September."
+    }
+  },
+  {
+    "id": "L4-0832",
+    "vi": ["tiết học", "giờ học"],
+    "viAliases": ["giờ lên lớp"],
+    "en": ["class hour", "period"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这门课一共有四十个学时。",
+      "vi": "Môn học này tổng cộng có bốn mươi tiết.",
+      "en": "This course has a total of forty class hours."
+    }
+  },
+  {
+    "id": "L4-0833",
+    "vi": ["học thuật"],
+    "viAliases": ["khoa học", "nghiên cứu học thuật"],
+    "en": ["learning", "academic"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他参加了一个学术会议。",
+      "vi": "Anh ấy đã tham dự một hội nghị học thuật.",
+      "en": "He attended an academic conference."
+    }
+  },
+  {
+    "id": "L4-0834",
+    "vi": ["học vấn", "kiến thức", "học thức"],
+    "viAliases": ["tri thức", "hiểu biết"],
+    "en": ["learning; knowledge; scholarship"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "王老师很有学问。",
+      "vi": "Thầy Vương rất có học vấn.",
+      "en": "Teacher Wang is very learned."
+    }
+  },
+  {
+    "id": "L4-0835",
+    "vi": ["tìm kiếm", "tìm"],
+    "viAliases": ["kiếm tìm", "truy tìm"],
+    "en": ["to seek; to look for"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他正在寻找新的工作。",
+      "vi": "Anh ấy đang tìm kiếm công việc mới.",
+      "en": "He is looking for a new job."
+    }
+  },
+  {
+    "id": "L4-0836",
+    "vi": ["nhanh chóng", "mau lẹ"],
+    "viAliases": ["mau chóng", "nhanh"],
+    "en": ["rapid", "speedy", "fast"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这个城市发展得很迅速。",
+      "vi": "Thành phố này phát triển rất nhanh chóng.",
+      "en": "This city is developing very rapidly."
+    }
+  },
+  {
+    "id": "L4-0837",
+    "vi": ["răng"],
+    "viAliases": [],
+    "en": ["tooth"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我的牙有点儿疼。",
+      "vi": "Răng tôi hơi đau.",
+      "en": "My tooth hurts a little."
+    }
+  },
+  {
+    "id": "L4-0838",
+    "vi": ["bàn chải đánh răng"],
+    "viAliases": ["bàn chải răng"],
+    "en": ["toothbrush"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我要买一把新牙刷。",
+      "vi": "Tôi muốn mua một chiếc bàn chải đánh răng mới.",
+      "en": "I want to buy a new toothbrush."
+    }
+  },
+  {
+    "id": "L4-0839",
+    "vi": ["Đại hội Thể thao châu Á", "Á vận hội"],
+    "viAliases": ["ASIAD"],
+    "en": ["Asian Games"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "亚运会每四年举行一次。",
+      "vi": "Đại hội Thể thao châu Á được tổ chức bốn năm một lần.",
+      "en": "The Asian Games are held once every four years."
+    }
+  },
+  {
+    "id": "L4-0840",
+    "vi": ["à (trợ từ cuối câu)", "nhỉ", "nha"],
+    "viAliases": ["ạ", "ơi"],
+    "en": ["(particle equivalent to 啊 after a vowel, expressing surprise or doubt)"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "你怎么还不睡呀？",
+      "vi": "Sao bạn vẫn chưa ngủ à?",
+      "en": "Why aren't you asleep yet?"
+    }
+  },
+  {
+    "id": "L4-0841",
+    "vi": ["kéo dài", "gia hạn"],
+    "viAliases": ["nối dài", "kéo thêm"],
+    "en": ["to prolong", "to extend"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "会议延长了一个小时。",
+      "vi": "Cuộc họp đã kéo dài thêm một tiếng.",
+      "en": "The meeting was extended by an hour."
+    }
+  },
+  {
+    "id": "L4-0842",
+    "vi": ["hoãn lại", "dời lại", "gia hạn"],
+    "viAliases": ["lùi lại", "trì hoãn"],
+    "en": ["to postpone", "to delay", "to extend"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "比赛因为下雨延期了。",
+      "vi": "Trận đấu bị hoãn lại vì trời mưa.",
+      "en": "The match was postponed because of rain."
+    }
+  },
+  {
+    "id": "L4-0843",
+    "vi": ["kéo dài", "tiếp diễn", "tiếp nối"],
+    "viAliases": ["duy trì", "tiếp tục"],
+    "en": ["to continue", "to go on", "to last"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这种习惯延续了很多年。",
+      "vi": "Thói quen này đã kéo dài nhiều năm.",
+      "en": "This habit has continued for many years."
+    }
+  },
+  {
+    "id": "L4-0844",
+    "vi": ["nghiêm", "nghiêm khắc", "chặt chẽ"],
+    "viAliases": ["khắt khe"],
+    "en": ["stern", "strict", "rigorous"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我们老师对学生很严。",
+      "vi": "Thầy giáo của chúng tôi rất nghiêm với học sinh.",
+      "en": "Our teacher is very strict with the students."
+    }
+  },
+  {
+    "id": "L4-0845",
+    "vi": ["nghiêm khắc", "nghiêm ngặt", "chặt chẽ"],
+    "viAliases": ["khắt khe", "gắt gao"],
+    "en": ["strict; stringent; tight; rigorous"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这个学校的要求很严格。",
+      "vi": "Yêu cầu của trường này rất nghiêm ngặt.",
+      "en": "This school's requirements are very strict."
+    }
+  },
+  {
+    "id": "L4-0846",
+    "vi": ["nghiêm trọng", "trầm trọng"],
+    "viAliases": ["nặng", "nguy kịch"],
+    "en": ["grave; serious; severe; critical"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他的病很严重。",
+      "vi": "Bệnh của anh ấy rất nghiêm trọng.",
+      "en": "His illness is very serious."
+    }
+  },
+  {
+    "id": "L4-0847",
+    "vi": ["nghiên cứu", "xem xét"],
+    "viAliases": ["tìm hiểu", "khảo cứu"],
+    "en": ["to research", "to look into"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他在研究中国历史。",
+      "vi": "Anh ấy đang nghiên cứu lịch sử Trung Quốc.",
+      "en": "He is researching Chinese history."
+    }
+  },
+  {
+    "id": "L4-0848",
+    "vi": ["học viên cao học", "nghiên cứu sinh"],
+    "viAliases": ["sinh viên sau đại học"],
+    "en": ["graduate student", "postgraduate student"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我姐姐是一名研究生。",
+      "vi": "Chị tôi là học viên cao học.",
+      "en": "My older sister is a graduate student."
+    }
+  },
+  {
+    "id": "L4-0849",
+    "vi": ["nghiên cứu chế tạo", "nghiên cứu phát triển"],
+    "viAliases": ["chế tạo", "phát triển"],
+    "en": ["to research and manufacture; to research and to develop"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这种新药是他们研制的。",
+      "vi": "Loại thuốc mới này do họ nghiên cứu chế tạo.",
+      "en": "This new medicine was developed by them."
+    }
+  },
+  {
+    "id": "L4-0850",
+    "vi": ["muối"],
+    "viAliases": ["muối ăn"],
+    "en": ["salt"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这个菜放的盐太多了。",
+      "vi": "Món này cho quá nhiều muối.",
+      "en": "This dish has too much salt in it."
+    }
+  },
+  {
+    "id": "L4-0851",
+    "vi": ["kính (đeo mắt)", "mắt kính"],
+    "viAliases": ["kính mắt", "kính cận"],
+    "en": ["spectacles", "eyeglasses"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他戴着一副黑色的眼镜。",
+      "vi": "Anh ấy đeo một cặp kính màu đen.",
+      "en": "He is wearing a pair of black glasses."
+    }
+  },
+  {
+    "id": "L4-0852",
+    "vi": ["nước mắt", "lệ"],
+    "viAliases": ["giọt lệ"],
+    "en": ["tear; teardrop"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "她的眼泪流了下来。",
+      "vi": "Nước mắt cô ấy chảy xuống.",
+      "en": "Her tears flowed down."
+    }
+  },
+  {
+    "id": "L4-0853",
+    "vi": ["trong mắt", "trong con mắt (của ai)"],
+    "viAliases": ["theo cách nhìn"],
+    "en": ["in one's eyes", "in one's view"],
+    "enSource": "written",
+    "example": {
+      "zh": "在妈妈眼里，我永远是孩子。",
+      "vi": "Trong mắt mẹ, tôi mãi mãi là đứa trẻ.",
+      "en": "In my mother's eyes, I will always be a child."
+    }
+  },
+  {
+    "id": "L4-0854",
+    "vi": ["diễn thuyết", "phát biểu", "thuyết trình"],
+    "viAliases": ["nói chuyện trước đám đông"],
+    "en": ["to give a lecture; to make a speech"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他明天要在学校演讲。",
+      "vi": "Ngày mai anh ấy sẽ diễn thuyết ở trường.",
+      "en": "He is going to give a speech at school tomorrow."
+    }
+  },
+  {
+    "id": "L4-0855",
+    "vi": ["ban công"],
+    "viAliases": [],
+    "en": ["balcony"],
+    "enSource": "cedict",
+    "example": {
+      "zh": "阳台上放着很多花。",
+      "vi": "Trên ban công đặt rất nhiều hoa.",
+      "en": "There are many flowers on the balcony."
+    }
+  }
+]

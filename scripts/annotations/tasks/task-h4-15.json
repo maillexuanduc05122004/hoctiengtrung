@@ -1,0 +1,692 @@
+[
+  {
+    "id": "L4-0631",
+    "simplified": "深厚",
+    "pinyin": "shēn hòu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "deep; profound"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0632",
+    "simplified": "神话",
+    "traditional": "神話",
+    "pinyin": "shén huà",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "legend",
+      "fairy tale",
+      "myth",
+      "mythology"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0633",
+    "simplified": "神秘",
+    "pinyin": "shén mì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "mysterious",
+      "mystery"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0634",
+    "simplified": "甚至",
+    "pinyin": "shèn zhì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "even; so much so that"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0635",
+    "simplified": "失败",
+    "traditional": "失敗",
+    "pinyin": "shī bài",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "to be defeated",
+      "to lose",
+      "to fail (e.g. experiments)",
+      "failure",
+      "defeat",
+      "CL:次"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0636",
+    "simplified": "失望",
+    "pinyin": "shī wàng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "disappointed",
+      "to lose hope",
+      "to despair"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0637",
+    "simplified": "失业",
+    "traditional": "失業",
+    "pinyin": "shī yè",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "unemployment",
+      "to lose one's job"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0638",
+    "simplified": "诗",
+    "traditional": "詩",
+    "pinyin": "shī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "poem",
+      "CL:首",
+      "poetry",
+      "verse"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0639",
+    "simplified": "诗人",
+    "traditional": "詩人",
+    "pinyin": "shī rén",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "bard",
+      "poet"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0640",
+    "simplified": "湿",
+    "traditional": "濕",
+    "pinyin": "shī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "moist",
+      "wet"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0641",
+    "simplified": "实施",
+    "traditional": "實施",
+    "pinyin": "shí shī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to implement",
+      "to carry out"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0642",
+    "simplified": "实用",
+    "traditional": "實用",
+    "pinyin": "shí yòng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "to apply in practice",
+      "practical; functional; pragmatic; applied (science)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0643",
+    "simplified": "食堂",
+    "pinyin": "shí táng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "dining hall; cafeteria",
+      "CL:個/个,間/间"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0644",
+    "simplified": "使劲",
+    "traditional": "使勁",
+    "pinyin": "shǐ jìn",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to exert all one's strength"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0645",
+    "simplified": "士兵",
+    "pinyin": "shì bīng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "soldier",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0646",
+    "simplified": "市区",
+    "traditional": "市區",
+    "pinyin": "shì qū",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "urban district",
+      "downtown",
+      "city center"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0647",
+    "simplified": "似的",
+    "pinyin": "shì de",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Aux"
+    ],
+    "cedictDefinitions": [
+      "seems as if",
+      "rather like",
+      "Taiwan pr."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0648",
+    "simplified": "事物",
+    "pinyin": "shì wù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "thing; object"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0649",
+    "simplified": "事先",
+    "pinyin": "shì xiān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "in advance",
+      "before the event",
+      "beforehand",
+      "prior"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0650",
+    "simplified": "试卷",
+    "traditional": "試卷",
+    "pinyin": "shì juàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "examination paper",
+      "test paper",
+      "CL:份,張/张"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0651",
+    "simplified": "是否",
+    "pinyin": "shì fǒu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "whether (or not)",
+      "if",
+      "is or isn't"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0652",
+    "simplified": "收回",
+    "pinyin": "shōu huí",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to regain",
+      "to retake",
+      "to take back",
+      "to withdraw",
+      "to revoke"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0653",
+    "simplified": "收获",
+    "traditional": "收穫",
+    "pinyin": "shōu huò",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to harvest",
+      "to reap",
+      "to gain",
+      "crop",
+      "harvest",
+      "profit",
+      "gain",
+      "bonus",
+      "reward"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0654",
+    "simplified": "收益",
+    "pinyin": "shōu yì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "earnings",
+      "profit"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0655",
+    "simplified": "手工",
+    "pinyin": "shǒu gōng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "handwork",
+      "manual"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0656",
+    "simplified": "手里",
+    "traditional": "手裡",
+    "pinyin": "shǒu lǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "in hand",
+      "(a situation is) in sb's hands"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0657",
+    "simplified": "手术",
+    "traditional": "手術",
+    "pinyin": "shǒu shù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(surgical) operation",
+      "surgery",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0658",
+    "simplified": "手套",
+    "pinyin": "shǒu tào",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "glove",
+      "mitten",
+      "CL:雙/双,隻/只"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0659",
+    "simplified": "守",
+    "pinyin": "shǒu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to guard",
+      "to defend",
+      "to keep watch",
+      "to abide by the law",
+      "to observe (rules or ritual)",
+      "nearby",
+      "adjoining"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0660",
+    "simplified": "首",
+    "pinyin": "shǒu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "head",
+      "chief",
+      "first (occasion, thing etc)",
+      "classifier for poems, songs etc"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0661",
+    "simplified": "受不了",
+    "pinyin": "shòu bù liǎo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "unbearable",
+      "unable to endure",
+      "can't stand"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0662",
+    "simplified": "售货员",
+    "traditional": "售貨員",
+    "pinyin": "shòu huò yuán",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "sales clerk; sales associate; retail salesperson"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0663",
+    "simplified": "叔叔",
+    "pinyin": "shū shu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "father's younger brother; paternal uncle",
+      "form of address used by children for a male one generation older"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0664",
+    "simplified": "舒适",
+    "traditional": "舒適",
+    "pinyin": "shū shì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "cozy",
+      "snug"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0665",
+    "simplified": "熟练",
+    "traditional": "熟練",
+    "pinyin": "shú liàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "practiced",
+      "proficient",
+      "skilled",
+      "skillful"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0666",
+    "simplified": "暑假",
+    "pinyin": "shǔ jià",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "summer vacation",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0667",
+    "simplified": "树林",
+    "traditional": "樹林",
+    "pinyin": "shù lín",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "woods",
+      "grove",
+      "forest"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0668",
+    "simplified": "树叶",
+    "traditional": "樹葉",
+    "pinyin": "shù yè",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "tree leaves"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0669",
+    "simplified": "数据",
+    "traditional": "數據",
+    "pinyin": "shù jù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "data"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0670",
+    "simplified": "数码",
+    "traditional": "數碼",
+    "pinyin": "shù mǎ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "number",
+      "numerals",
+      "figures",
+      "digital",
+      "amount",
+      "numerical code"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0671",
+    "simplified": "刷",
+    "pinyin": "shuā",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "a brush",
+      "to paint; to daub",
+      "to brush; to scrub",
+      "(fig.) to remove; to eliminate (from a contest); to fire (from a job)",
+      "(onom.) swish; rustle",
+      "to swipe (a card)",
+      "to scroll on (a phone)",
+      "(gaming) to grind; to farm (for experience points, equipment, levels etc)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0672",
+    "simplified": "刷牙",
+    "pinyin": "shuā yá",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to brush one's teeth"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0673",
+    "simplified": "刷子",
+    "pinyin": "shuā zi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "brush",
+      "scrub",
+      "CL:把"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0674",
+    "simplified": "帅",
+    "traditional": "帥",
+    "pinyin": "shuài",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "(bound form) commander-in-chief",
+      "(bound form) to lead; to command",
+      "handsome; graceful; dashing; elegant",
+      "(coll.) cool!; sweet!",
+      "(Chinese chess) general (on the red side, equivalent to a king in Western chess)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0675",
+    "simplified": "帅哥",
+    "traditional": "帥哥",
+    "pinyin": "shuài gē",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "handsome guy",
+      "lady-killer",
+      "handsome (form of address)"
+    ],
+    "needsEnglish": false
+  }
+]

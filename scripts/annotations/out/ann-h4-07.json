@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L4-0271",
+    "vi": ["cá biệt", "riêng lẻ", "số ít"],
+    "viAliases": ["đơn lẻ", "một vài"],
+    "en": ["just one or two; exceptional; rare", "individually; one by one"],
+    "enSource": "cedict",
+    "example": { "zh": "个别学生没有来上课。", "vi": "Một số ít học sinh không đến lớp.", "en": "A few individual students did not come to class." }
+  },
+  {
+    "id": "L4-0272",
+    "vi": ["cá thể", "cá nhân"],
+    "viAliases": ["hộ cá thể"],
+    "en": ["an individual", "self-employed individual; small business operator (abbr. for 個體戶/个体户)"],
+    "enSource": "cedict",
+    "example": { "zh": "每个个体都是不同的。", "vi": "Mỗi cá thể đều khác nhau.", "en": "Every individual is different." }
+  },
+  {
+    "id": "L4-0273",
+    "vi": ["từng", "mỗi", "các"],
+    "viAliases": ["mọi", "lần lượt từng cái"],
+    "en": ["every", "various", "separately, one by one"],
+    "enSource": "cedict",
+    "example": { "zh": "各个国家的文化都不一样。", "vi": "Văn hóa của từng nước đều không giống nhau.", "en": "The culture of every country is different." }
+  },
+  {
+    "id": "L4-0274",
+    "vi": ["rễ", "gốc rễ", "sợi, cây, chiếc (lượng từ cho vật dài, mảnh)"],
+    "viAliases": ["căn", "nguồn gốc"],
+    "en": ["root", "basis", "classifier for long slender objects, e.g. cigarettes, guitar strings"],
+    "enSource": "cedict",
+    "example": { "zh": "我发现了一根白头发。", "vi": "Tôi phát hiện một sợi tóc bạc.", "en": "I found a white hair." }
+  },
+  {
+    "id": "L4-0275",
+    "vi": ["căn cứ vào", "theo", "căn cứ"],
+    "viAliases": ["dựa vào", "dựa theo"],
+    "en": ["according to", "based on", "basis"],
+    "enSource": "cedict",
+    "example": { "zh": "请根据课文回答问题。", "vi": "Hãy căn cứ vào bài khóa để trả lời câu hỏi.", "en": "Please answer the questions according to the text." }
+  },
+  {
+    "id": "L4-0276",
+    "vi": ["công trình", "dự án xây dựng", "kỹ thuật (ngành)"],
+    "viAliases": ["công trình xây dựng"],
+    "en": ["engineering", "an engineering project", "project"],
+    "enSource": "cedict",
+    "example": { "zh": "这个工程明年才能完成。", "vi": "Công trình này sang năm mới có thể hoàn thành.", "en": "This project can only be completed next year." }
+  },
+  {
+    "id": "L4-0277",
+    "vi": ["Công nguyên", "sau Công nguyên"],
+    "viAliases": ["CN", "SCN"],
+    "en": ["CE (Common Era)", "AD (Anno Domini)"],
+    "enSource": "cedict",
+    "example": { "zh": "现在是公元二十一世纪。", "vi": "Bây giờ là thế kỷ hai mươi mốt sau Công nguyên.", "en": "It is now the twenty-first century CE." }
+  },
+  {
+    "id": "L4-0278",
+    "vi": ["cung ứng", "cung cấp"],
+    "viAliases": ["cấp"],
+    "en": ["to supply; to provide (goods, services etc)"],
+    "enSource": "cedict",
+    "example": { "zh": "这家公司供应新鲜的水果。", "vi": "Công ty này cung ứng hoa quả tươi.", "en": "This company supplies fresh fruit." }
+  },
+  {
+    "id": "L4-0279",
+    "vi": ["tổng cộng", "cùng", "chung"],
+    "viAliases": ["tất cả", "cả thảy"],
+    "en": ["altogether", "total", "together"],
+    "enSource": "cedict",
+    "example": { "zh": "我们班共有三十个学生。", "vi": "Lớp chúng tôi có tổng cộng ba mươi học sinh.", "en": "Our class has thirty students in total." }
+  },
+  {
+    "id": "L4-0280",
+    "vi": ["cấu thành", "tạo thành", "hình thành"],
+    "viAliases": ["hợp thành"],
+    "en": ["to constitute", "to form", "to make up"],
+    "enSource": "cedict",
+    "example": { "zh": "很多小问题构成了大问题。", "vi": "Nhiều vấn đề nhỏ tạo thành vấn đề lớn.", "en": "Many small problems form a big problem." }
+  },
+  {
+    "id": "L4-0281",
+    "vi": ["cấu tạo", "cấu trúc"],
+    "viAliases": ["kết cấu"],
+    "en": ["structure", "composition"],
+    "enSource": "cedict",
+    "example": { "zh": "这台机器的构造很复杂。", "vi": "Cấu tạo của chiếc máy này rất phức tạp.", "en": "The structure of this machine is very complex." }
+  },
+  {
+    "id": "L4-0282",
+    "vi": ["mua", "mua sắm"],
+    "viAliases": ["sắm", "tậu"],
+    "en": ["to purchase; to buy"],
+    "enSource": "cedict",
+    "example": { "zh": "你可以在网上购买这本书。", "vi": "Bạn có thể mua cuốn sách này trên mạng.", "en": "You can buy this book online." }
+  },
+  {
+    "id": "L4-0283",
+    "vi": ["mua sắm", "đi mua đồ"],
+    "viAliases": ["sắm đồ", "shopping"],
+    "en": ["shopping"],
+    "enSource": "cedict",
+    "example": { "zh": "周末我喜欢和朋友去购物。", "vi": "Cuối tuần tôi thích đi mua sắm với bạn bè.", "en": "On weekends I like to go shopping with friends." }
+  },
+  {
+    "id": "L4-0284",
+    "vi": ["xương"],
+    "viAliases": ["cốt", "xương cốt"],
+    "en": ["bone"],
+    "enSource": "cedict",
+    "example": { "zh": "小狗喜欢吃骨头。", "vi": "Chó con thích ăn xương.", "en": "Puppies like to eat bones." }
+  },
+  {
+    "id": "L4-0285",
+    "vi": ["cố định", "gắn chặt", "định sẵn"],
+    "viAliases": ["không đổi", "đều đặn"],
+    "en": ["fixed", "regular", "to fix"],
+    "enSource": "cedict",
+    "example": { "zh": "他每天有固定的学习时间。", "vi": "Mỗi ngày anh ấy có thời gian học cố định.", "en": "He has a fixed study time every day." }
+  },
+  {
+    "id": "L4-0286",
+    "vi": ["dưa", "bầu, bí, mướp (các loại quả họ bầu bí)"],
+    "viAliases": ["quả dưa"],
+    "en": ["melon; gourd; squash"],
+    "enSource": "cedict",
+    "example": { "zh": "夏天的瓜又甜又好吃。", "vi": "Dưa mùa hè vừa ngọt vừa ngon.", "en": "Summer melons are sweet and delicious." }
+  },
+  {
+    "id": "L4-0287",
+    "vi": ["lạ", "kỳ quái", "khá, hơi (khẩu ngữ)"],
+    "viAliases": ["kỳ lạ", "quái lạ"],
+    "en": ["odd; strange; uncanny", "(coll.) somewhat; rather"],
+    "enSource": "cedict",
+    "example": { "zh": "他今天的样子有点儿怪。", "vi": "Dáng vẻ hôm nay của anh ấy hơi lạ.", "en": "He looks a bit strange today." }
+  },
+  {
+    "id": "L4-0288",
+    "vi": ["cửa ải", "cửa khẩu", "khâu khó khăn"],
+    "viAliases": ["quan ải", "ải"],
+    "en": ["mountain pass"],
+    "enSource": "cedict",
+    "example": { "zh": "我们终于过了这一关。", "vi": "Cuối cùng chúng tôi đã vượt qua cửa ải này.", "en": "We finally got through this hurdle." }
+  },
+  {
+    "id": "L4-0289",
+    "vi": ["đóng", "đóng cửa", "tắt"],
+    "viAliases": ["khép", "ngừng hoạt động"],
+    "en": ["to close; to shut (a window etc)", "(of a shop, school etc) to shut down"],
+    "enSource": "cedict",
+    "example": { "zh": "这家商店已经关闭了。", "vi": "Cửa hàng này đã đóng cửa rồi.", "en": "This shop has already closed down." }
+  },
+  {
+    "id": "L4-0290",
+    "vi": ["về", "liên quan đến"],
+    "viAliases": ["đối với", "nói về"],
+    "en": ["about", "concerning", "with regard to"],
+    "enSource": "cedict",
+    "example": { "zh": "这是一本关于中国历史的书。", "vi": "Đây là một cuốn sách về lịch sử Trung Quốc.", "en": "This is a book about Chinese history." }
+  },
+  {
+    "id": "L4-0291",
+    "vi": ["quan", "quan chức", "cơ quan (bộ phận cơ thể)"],
+    "viAliases": ["quan lại", "viên chức"],
+    "en": ["government official", "official", "organ of the body"],
+    "enSource": "cedict",
+    "example": { "zh": "他爷爷以前是个大官。", "vi": "Ông nội anh ấy trước đây là một quan lớn.", "en": "His grandfather used to be a high official." }
+  },
+  {
+    "id": "L4-0292",
+    "vi": ["chính quyền", "phía nhà nước", "chính thức"],
+    "viAliases": ["nhà chức trách", "quan phương"],
+    "en": ["government", "official (approved or issued by an authority)"],
+    "enSource": "cedict",
+    "example": { "zh": "这是学校的官方网站。", "vi": "Đây là trang web chính thức của trường.", "en": "This is the school's official website." }
+  },
+  {
+    "id": "L4-0293",
+    "vi": ["quang lâm", "ghé thăm (kính ngữ)"],
+    "viAliases": ["đến thăm", "ghé qua"],
+    "en": ["(formal) to honor with one's presence", "to attend"],
+    "enSource": "cedict",
+    "example": { "zh": "欢迎光临我们的饭店！", "vi": "Hoan nghênh quý khách ghé thăm nhà hàng chúng tôi!", "en": "Welcome to our restaurant!" }
+  },
+  {
+    "id": "L4-0294",
+    "vi": ["đĩa CD", "đĩa quang"],
+    "viAliases": ["đĩa DVD", "đĩa"],
+    "en": ["compact disc (CD); DVD; CD-ROM"],
+    "enSource": "cedict",
+    "example": { "zh": "这张光盘里有很多歌。", "vi": "Trong chiếc đĩa CD này có rất nhiều bài hát.", "en": "There are many songs on this CD." }
+  },
+  {
+    "id": "L4-0295",
+    "vi": ["dạo", "đi dạo", "đi chơi (dạo phố, dạo chợ)"],
+    "viAliases": ["lượn", "rong chơi"],
+    "en": ["to stroll", "to visit"],
+    "enSource": "cedict",
+    "example": { "zh": "下午我们去逛商店吧。", "vi": "Chiều nay chúng ta đi dạo cửa hàng nhé.", "en": "Let's go browse the shops this afternoon." }
+  },
+  {
+    "id": "L4-0296",
+    "vi": ["trở về", "thuộc về", "trả lại"],
+    "viAliases": ["quy về", "quay về"],
+    "en": ["to return", "to go back to", "to belong to"],
+    "enSource": "cedict",
+    "example": { "zh": "这些钱都归你了。", "vi": "Số tiền này đều thuộc về bạn rồi.", "en": "This money all belongs to you now." }
+  },
+  {
+    "id": "L4-0297",
+    "vi": ["quy luật", "nền nếp"],
+    "viAliases": ["quy tắc", "định luật"],
+    "en": ["rule (e.g. of science)", "law of behavior", "regular pattern"],
+    "enSource": "cedict",
+    "example": { "zh": "他的生活很有规律。", "vi": "Cuộc sống của anh ấy rất có nền nếp.", "en": "His life is very regular." }
+  },
+  {
+    "id": "L4-0298",
+    "vi": ["quy mô"],
+    "viAliases": ["tầm cỡ", "phạm vi"],
+    "en": ["scale; scope; extent"],
+    "enSource": "cedict",
+    "example": { "zh": "这家公司的规模越来越大。", "vi": "Quy mô của công ty này ngày càng lớn.", "en": "The scale of this company is getting bigger and bigger." }
+  },
+  {
+    "id": "L4-0299",
+    "vi": ["quy tắc", "luật lệ", "đều đặn, có trật tự"],
+    "viAliases": ["nội quy", "quy định"],
+    "en": ["rule; regulation", "regular; orderly; fixed"],
+    "enSource": "cedict",
+    "example": { "zh": "每个游戏都有自己的规则。", "vi": "Mỗi trò chơi đều có quy tắc riêng của mình.", "en": "Every game has its own rules." }
+  },
+  {
+    "id": "L4-0300",
+    "vi": ["quả", "trái", "thành quả"],
+    "viAliases": ["hoa quả", "kết quả"],
+    "en": ["fruit (produced by a plant)", "(fig.) fruits (of success etc)"],
+    "enSource": "cedict",
+    "example": { "zh": "树上的果实已经红了。", "vi": "Quả trên cây đã đỏ rồi.", "en": "The fruit on the tree has already turned red." }
+  },
+  {
+    "id": "L4-0301",
+    "vi": ["quá đáng", "quá mức"],
+    "viAliases": ["thái quá", "quá lố"],
+    "en": ["excessive; undue", "unduly; overly"],
+    "enSource": "cedict",
+    "example": { "zh": "你这样说太过分了。", "vi": "Bạn nói như vậy là quá đáng rồi.", "en": "It is going too far for you to say that." }
+  },
+  {
+    "id": "L4-0302",
+    "vi": ["nước biển"],
+    "viAliases": [],
+    "en": ["seawater"],
+    "enSource": "cedict",
+    "example": { "zh": "海水又蓝又干净。", "vi": "Nước biển vừa xanh vừa sạch.", "en": "The seawater is blue and clean." }
+  },
+  {
+    "id": "L4-0303",
+    "vi": ["hải sản"],
+    "viAliases": ["đồ biển"],
+    "en": ["seafood"],
+    "enSource": "cedict",
+    "example": { "zh": "我最喜欢吃海鲜。", "vi": "Tôi thích ăn hải sản nhất.", "en": "I like eating seafood the most." }
+  },
+  {
+    "id": "L4-0304",
+    "vi": ["ngậm", "chứa", "hàm chứa"],
+    "viAliases": ["bao gồm", "có chứa"],
+    "en": ["to keep in the mouth", "to contain"],
+    "enSource": "cedict",
+    "example": { "zh": "孩子嘴里含着一块糖。", "vi": "Đứa trẻ ngậm một viên kẹo trong miệng.", "en": "The child has a piece of candy in his mouth." }
+  },
+  {
+    "id": "L4-0305",
+    "vi": ["hàm lượng"],
+    "viAliases": ["lượng chứa"],
+    "en": ["content", "quantity contained"],
+    "enSource": "cedict",
+    "example": { "zh": "这种茶的糖含量很低。", "vi": "Hàm lượng đường của loại trà này rất thấp.", "en": "The sugar content of this tea is very low." }
+  },
+  {
+    "id": "L4-0306",
+    "vi": ["hàm ý", "ý nghĩa", "ngụ ý"],
+    "viAliases": ["nghĩa hàm ẩn"],
+    "en": ["meaning (implicit in a phrase)", "implied meaning", "connotation"],
+    "enSource": "cedict",
+    "example": { "zh": "这个词有两种不同的含义。", "vi": "Từ này có hai nghĩa khác nhau.", "en": "This word has two different meanings." }
+  },
+  {
+    "id": "L4-0307",
+    "vi": ["chứa", "có chứa", "bao gồm"],
+    "viAliases": ["hàm chứa"],
+    "en": ["to contain", "including"],
+    "enSource": "cedict",
+    "example": { "zh": "这本书含有很多有用的信息。", "vi": "Cuốn sách này chứa nhiều thông tin hữu ích.", "en": "This book contains a lot of useful information." }
+  },
+  {
+    "id": "L4-0308",
+    "vi": ["kỳ nghỉ đông"],
+    "viAliases": ["nghỉ đông", "nghỉ Tết"],
+    "en": ["winter vacation"],
+    "enSource": "cedict",
+    "example": { "zh": "寒假我打算回老家。", "vi": "Kỳ nghỉ đông tôi dự định về quê.", "en": "I plan to go back to my hometown during the winter vacation." }
+  },
+  {
+    "id": "L4-0309",
+    "vi": ["lạnh giá", "rét buốt", "giá lạnh"],
+    "viAliases": ["lạnh lẽo", "rét"],
+    "en": ["cold (climate)", "frigid", "very cold"],
+    "enSource": "cedict",
+    "example": { "zh": "北方的冬天非常寒冷。", "vi": "Mùa đông ở miền Bắc vô cùng lạnh giá.", "en": "Winters in the north are extremely cold." }
+  },
+  {
+    "id": "L4-0310",
+    "vi": ["ngành nghề", "ngành", "lĩnh vực"],
+    "viAliases": ["nghề", "ngành công nghiệp"],
+    "en": ["trade; profession; industry; business"],
+    "enSource": "cedict",
+    "example": { "zh": "你在哪个行业工作？", "vi": "Bạn làm việc trong ngành nào?", "en": "Which industry do you work in?" }
+  },
+  {
+    "id": "L4-0311",
+    "vi": ["chuyến bay"],
+    "viAliases": ["chuyến"],
+    "en": ["(scheduled) flight; (scheduled) sailing"],
+    "enSource": "cedict",
+    "example": { "zh": "我的航班下午三点起飞。", "vi": "Chuyến bay của tôi cất cánh lúc ba giờ chiều.", "en": "My flight takes off at three in the afternoon." }
+  },
+  {
+    "id": "L4-0312",
+    "vi": ["hàng không"],
+    "viAliases": ["ngành hàng không"],
+    "en": ["aviation"],
+    "enSource": "cedict",
+    "example": { "zh": "我在一家航空公司工作。", "vi": "Tôi làm việc ở một công ty hàng không.", "en": "I work at an airline company." }
+  },
+  {
+    "id": "L4-0313",
+    "vi": ["milimét", "mm"],
+    "viAliases": ["li"],
+    "en": ["millimeter"],
+    "enSource": "cedict",
+    "example": { "zh": "这张纸有一毫米厚。", "vi": "Tờ giấy này dày một milimét.", "en": "This sheet of paper is one millimeter thick." }
+  },
+  {
+    "id": "L4-0314",
+    "vi": ["mililít", "ml"],
+    "viAliases": [],
+    "en": ["milliliter"],
+    "enSource": "cedict",
+    "example": { "zh": "这瓶水有五百毫升。", "vi": "Chai nước này có năm trăm mililít.", "en": "This bottle of water holds five hundred milliliters." }
+  },
+  {
+    "id": "L4-0315",
+    "vi": ["bạn thân", "bạn tốt", "bạn bè (trên mạng xã hội)"],
+    "viAliases": ["bạn hữu", "bạn thiết"],
+    "en": ["close friend", "pal", "(social networking website) friend"],
+    "enSource": "cedict",
+    "example": { "zh": "他是我多年的好友。", "vi": "Anh ấy là bạn thân nhiều năm của tôi.", "en": "He is my close friend of many years." }
+  }
+]

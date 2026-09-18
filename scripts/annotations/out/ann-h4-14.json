@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L4-0586",
+    "vi": ["dễ dàng", "tùy tiện", "khinh suất"],
+    "viAliases": ["dễ", "qua loa"],
+    "en": ["easy; simple", "rashly; offhandedly"],
+    "enSource": "cedict",
+    "example": { "zh": "他不会轻易放弃的。", "vi": "Anh ấy sẽ không dễ dàng từ bỏ đâu.", "en": "He won't give up easily." }
+  },
+  {
+    "id": "L4-0587",
+    "vi": ["tỉnh táo", "minh mẫn", "tỉnh (rượu, ngủ)"],
+    "viAliases": ["sáng suốt", "tỉnh"],
+    "en": ["clear-headed", "sober", "awake"],
+    "enSource": "cedict",
+    "example": { "zh": "喝了咖啡以后，我清醒多了。", "vi": "Sau khi uống cà phê, tôi tỉnh táo hơn nhiều.", "en": "After drinking coffee, I feel much more clear-headed." }
+  },
+  {
+    "id": "L4-0588",
+    "vi": ["cảnh tượng", "tình cảnh"],
+    "viAliases": ["cảnh", "tình huống"],
+    "en": ["scene; spectacle", "circumstances; situation"],
+    "enSource": "cedict",
+    "example": { "zh": "那天的情景我还记得。", "vi": "Cảnh tượng ngày hôm đó tôi vẫn còn nhớ.", "en": "I still remember the scene from that day." }
+  },
+  {
+    "id": "L4-0589",
+    "vi": ["nghèo", "nghèo khó"],
+    "viAliases": ["nghèo khổ", "túng thiếu"],
+    "en": ["poor", "destitute"],
+    "enSource": "cedict",
+    "example": { "zh": "他家以前很穷。", "vi": "Nhà anh ấy trước đây rất nghèo.", "en": "His family used to be very poor." }
+  },
+  {
+    "id": "L4-0590",
+    "vi": ["người nghèo"],
+    "viAliases": ["dân nghèo", "người nghèo khổ"],
+    "en": ["poor people", "the poor"],
+    "enSource": "cedict",
+    "example": { "zh": "政府应该帮助穷人。", "vi": "Chính phủ nên giúp đỡ người nghèo.", "en": "The government should help the poor." }
+  },
+  {
+    "id": "L4-0591",
+    "vi": ["mùa thu"],
+    "viAliases": ["thu"],
+    "en": ["autumn", "fall"],
+    "enSource": "cedict",
+    "example": { "zh": "北京的秋季很凉快。", "vi": "Mùa thu ở Bắc Kinh rất mát mẻ.", "en": "Autumn in Beijing is very cool." }
+  },
+  {
+    "id": "L4-0592",
+    "vi": ["xu thế", "xu hướng"],
+    "viAliases": ["khuynh hướng", "chiều hướng"],
+    "en": ["trend; tendency"],
+    "enSource": "cedict",
+    "example": { "zh": "现在网上购物是一种趋势。", "vi": "Bây giờ mua sắm trên mạng là một xu thế.", "en": "Nowadays shopping online is a trend." }
+  },
+  {
+    "id": "L4-0593",
+    "vi": ["vòng tròn", "vòng", "khoanh tròn"],
+    "viAliases": ["vòng vây", "khoanh"],
+    "en": ["circle; ring; loop", "to surround; to encircle", "to circle (sth); to mark with a circle"],
+    "enSource": "cedict",
+    "example": { "zh": "他在纸上画了一个圈。", "vi": "Anh ấy vẽ một vòng tròn trên giấy.", "en": "He drew a circle on the paper." }
+  },
+  {
+    "id": "L4-0594",
+    "vi": ["quyền lợi", "quyền"],
+    "viAliases": [],
+    "en": ["right (i.e. an entitlement to sth)"],
+    "enSource": "cedict",
+    "example": { "zh": "每个人都有休息的权利。", "vi": "Mỗi người đều có quyền nghỉ ngơi.", "en": "Everyone has the right to rest." }
+  },
+  {
+    "id": "L4-0595",
+    "vi": ["lại", "nhưng lại", "thế mà"],
+    "viAliases": ["nhưng", "vậy mà"],
+    "en": ["but", "yet", "however"],
+    "enSource": "cedict",
+    "example": { "zh": "他很聪明，却不努力。", "vi": "Anh ấy rất thông minh, nhưng lại không chăm chỉ.", "en": "He is very smart, yet he doesn't work hard." }
+  },
+  {
+    "id": "L4-0596",
+    "vi": ["xác nhận", "xác minh"],
+    "viAliases": ["khẳng định", "kiểm tra lại"],
+    "en": ["to confirm", "to verify"],
+    "enSource": "cedict",
+    "example": { "zh": "请确认一下你的电话号码。", "vi": "Xin hãy xác nhận lại số điện thoại của bạn.", "en": "Please confirm your phone number." }
+  },
+  {
+    "id": "L4-0597",
+    "vi": ["tuy nhiên", "nhưng", "thế nhưng"],
+    "viAliases": ["song", "nhưng mà"],
+    "en": ["however; but; yet"],
+    "enSource": "cedict",
+    "example": { "zh": "他很努力，然而没有成功。", "vi": "Anh ấy rất cố gắng, tuy nhiên không thành công.", "en": "He tried very hard; however, he did not succeed." }
+  },
+  {
+    "id": "L4-0598",
+    "vi": ["nhiên liệu"],
+    "viAliases": ["chất đốt"],
+    "en": ["fuel"],
+    "enSource": "cedict",
+    "example": { "zh": "汽车需要燃料才能开。", "vi": "Ô tô cần nhiên liệu mới chạy được.", "en": "A car needs fuel to run." }
+  },
+  {
+    "id": "L4-0599",
+    "vi": ["cháy", "đốt cháy", "bốc cháy"],
+    "viAliases": ["thiêu đốt", "bùng cháy"],
+    "en": ["to burn", "to ignite", "to combust"],
+    "enSource": "cedict",
+    "example": { "zh": "干的木头容易燃烧。", "vi": "Gỗ khô dễ cháy.", "en": "Dry wood burns easily." }
+  },
+  {
+    "id": "L4-0600",
+    "vi": ["náo nhiệt", "nhộn nhịp", "tưng bừng"],
+    "viAliases": ["sôi động", "đông vui"],
+    "en": ["bustling with noise and excitement", "lively"],
+    "enSource": "cedict",
+    "example": { "zh": "春节的时候街上很热闹。", "vi": "Dịp Tết, trên phố rất náo nhiệt.", "en": "During Spring Festival, the streets are very lively." }
+  },
+  {
+    "id": "L4-0601",
+    "vi": ["nhiệt tình", "nhiệt tâm", "sốt sắng"],
+    "viAliases": ["nhiệt huyết", "hăng hái"],
+    "en": ["enthusiastic; ardent; zealous"],
+    "enSource": "cedict",
+    "example": { "zh": "她是个热心的人，常常帮助别人。", "vi": "Cô ấy là người nhiệt tình, thường xuyên giúp đỡ người khác.", "en": "She is an enthusiastic person who often helps others." }
+  },
+  {
+    "id": "L4-0602",
+    "vi": ["người ta", "người khác", "họ"],
+    "viAliases": ["thiên hạ", "kẻ khác"],
+    "en": ["other people", "sb else", "he, she or they"],
+    "enSource": "cedict",
+    "example": { "zh": "人家都走了，你怎么还在这儿？", "vi": "Người ta đều đi hết rồi, sao bạn vẫn còn ở đây?", "en": "Everyone else has left; why are you still here?" }
+  },
+  {
+    "id": "L4-0603",
+    "vi": ["nhật ký"],
+    "viAliases": ["sổ nhật ký"],
+    "en": ["diary"],
+    "enSource": "cedict",
+    "example": { "zh": "她每天晚上都写日记。", "vi": "Mỗi tối cô ấy đều viết nhật ký.", "en": "She writes in her diary every night." }
+  },
+  {
+    "id": "L4-0604",
+    "vi": ["lịch", "tờ lịch"],
+    "viAliases": ["lịch ngày", "lịch treo tường"],
+    "en": ["calendar"],
+    "enSource": "cedict",
+    "example": { "zh": "墙上挂着一本日历。", "vi": "Trên tường treo một cuốn lịch.", "en": "A calendar hangs on the wall." }
+  },
+  {
+    "id": "L4-0605",
+    "vi": ["ngày nay", "hiện nay", "bây giờ"],
+    "viAliases": ["hiện giờ", "thời nay"],
+    "en": ["nowadays; now"],
+    "enSource": "cedict",
+    "example": { "zh": "如今很多人用手机付钱。", "vi": "Ngày nay nhiều người dùng điện thoại để trả tiền.", "en": "Nowadays many people pay with their phones." }
+  },
+  {
+    "id": "L4-0606",
+    "vi": ["yếu", "yếu ớt", "kém"],
+    "viAliases": ["yếu đuối", "suy yếu"],
+    "en": ["weak; feeble", "inferior; not as good as"],
+    "enSource": "cedict",
+    "example": { "zh": "他生病以后身体很弱。", "vi": "Sau khi ốm, cơ thể anh ấy rất yếu.", "en": "After being sick, his body is very weak." }
+  },
+  {
+    "id": "L4-0607",
+    "vi": ["ô", "dù"],
+    "viAliases": ["cái ô", "cây dù"],
+    "en": ["umbrella", "parasol"],
+    "enSource": "cedict",
+    "example": { "zh": "外面下雨了，你带伞了吗？", "vi": "Bên ngoài mưa rồi, bạn mang ô chưa?", "en": "It's raining outside; did you bring an umbrella?" }
+  },
+  {
+    "id": "L4-0608",
+    "vi": ["tan", "giải tán", "tản ra"],
+    "viAliases": ["phân tán", "tan rã"],
+    "en": ["to scatter", "to break up (a meeting etc)", "to disperse"],
+    "enSource": "cedict",
+    "example": { "zh": "会议一散，大家就回家了。", "vi": "Cuộc họp vừa tan, mọi người liền về nhà.", "en": "As soon as the meeting broke up, everyone went home." }
+  },
+  {
+    "id": "L4-0609",
+    "vi": ["quét", "quét dọn"],
+    "viAliases": ["dọn dẹp", "quét sạch"],
+    "en": ["to sweep (with a brush or broom)", "to sweep away; to wipe out; to get rid of"],
+    "enSource": "cedict",
+    "example": { "zh": "请你把房间扫一下。", "vi": "Bạn hãy quét phòng một chút.", "en": "Please sweep the room." }
+  },
+  {
+    "id": "L4-0610",
+    "vi": ["màu", "màu sắc", "sắc"],
+    "viAliases": ["sắc màu", "vẻ"],
+    "en": ["color", "look", "appearance"],
+    "enSource": "cedict",
+    "example": { "zh": "她最喜欢蓝色的衣服。", "vi": "Cô ấy thích nhất là quần áo màu xanh lam.", "en": "She likes blue clothes the most." }
+  },
+  {
+    "id": "L4-0611",
+    "vi": ["màu sắc", "sắc thái"],
+    "viAliases": ["sắc màu", "gam màu"],
+    "en": ["tint; coloring; coloration", "(fig.) flavor; character"],
+    "enSource": "cedict",
+    "example": { "zh": "这张画的色彩很丰富。", "vi": "Màu sắc của bức tranh này rất phong phú.", "en": "The colors of this painting are very rich." }
+  },
+  {
+    "id": "L4-0612",
+    "vi": ["rừng", "rừng rậm"],
+    "viAliases": ["rừng cây", "khu rừng"],
+    "en": ["forest"],
+    "enSource": "cedict",
+    "example": { "zh": "森林里有很多动物。", "vi": "Trong rừng có rất nhiều động vật.", "en": "There are many animals in the forest." }
+  },
+  {
+    "id": "L4-0613",
+    "vi": ["phơi", "phơi nắng", "chiếu (nắng)"],
+    "viAliases": ["hong nắng", "tắm nắng"],
+    "en": ["to dry (clothes, grain etc) in the sun", "to bask in (the sunshine)", "(of the sun) to shine on"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈把衣服拿到外面去晒。", "vi": "Mẹ đem quần áo ra ngoài phơi.", "en": "Mom took the clothes outside to dry in the sun." }
+  },
+  {
+    "id": "L4-0614",
+    "vi": ["né", "tránh", "lóe lên"],
+    "viAliases": ["né tránh", "lóe sáng"],
+    "en": ["to dodge", "to duck out of the way", "to flash (across one's mind)"],
+    "enSource": "cedict",
+    "example": { "zh": "车来了，你快闪开！", "vi": "Xe đến rồi, bạn mau tránh ra!", "en": "A car is coming, quickly get out of the way!" }
+  },
+  {
+    "id": "L4-0615",
+    "vi": ["tia chớp", "sét"],
+    "viAliases": ["chớp", "sấm sét"],
+    "en": ["lightning"],
+    "enSource": "cedict",
+    "example": { "zh": "天上出现了一道闪电。", "vi": "Trên trời xuất hiện một tia chớp.", "en": "A flash of lightning appeared in the sky." }
+  },
+  {
+    "id": "L4-0616",
+    "vi": ["lương thiện", "hiền lành", "tốt bụng"],
+    "viAliases": ["nhân hậu", "hiền"],
+    "en": ["kindhearted", "good and honest"],
+    "enSource": "cedict",
+    "example": { "zh": "她是一个善良的女孩。", "vi": "Cô ấy là một cô gái hiền lành.", "en": "She is a kindhearted girl." }
+  },
+  {
+    "id": "L4-0617",
+    "vi": ["giỏi về", "thạo", "có sở trường"],
+    "viAliases": ["giỏi", "thành thạo"],
+    "en": ["to be good at; to be adept at"],
+    "enSource": "cedict",
+    "example": { "zh": "他善于和别人交流。", "vi": "Anh ấy giỏi giao tiếp với người khác.", "en": "He is good at communicating with others." }
+  },
+  {
+    "id": "L4-0618",
+    "vi": ["làm tổn thương", "gây hại", "làm hại"],
+    "viAliases": ["tổn hại", "hại"],
+    "en": ["to injure; to harm"],
+    "enSource": "cedict",
+    "example": { "zh": "抽烟会伤害你的身体。", "vi": "Hút thuốc sẽ làm hại cơ thể của bạn.", "en": "Smoking will harm your body." }
+  },
+  {
+    "id": "L4-0619",
+    "vi": ["thương mại", "thương vụ", "công việc kinh doanh"],
+    "viAliases": ["kinh doanh", "buôn bán"],
+    "en": ["commercial affairs", "commerce", "business"],
+    "enSource": "cedict",
+    "example": { "zh": "现在电子商务发展得很快。", "vi": "Hiện nay thương mại điện tử phát triển rất nhanh.", "en": "E-commerce is developing very fast now." }
+  },
+  {
+    "id": "L4-0620",
+    "vi": ["thưởng thức", "ngắm", "ban thưởng"],
+    "viAliases": ["thưởng ngoạn", "khen thưởng"],
+    "en": ["to appreciate (beauty)", "to bestow (a reward)"],
+    "enSource": "cedict",
+    "example": { "zh": "中秋节我们一起赏月。", "vi": "Tết Trung thu chúng tôi cùng nhau ngắm trăng.", "en": "At Mid-Autumn Festival we admire the moon together." }
+  },
+  {
+    "id": "L4-0621",
+    "vi": ["tháng trước"],
+    "viAliases": ["tháng vừa rồi"],
+    "en": ["last month"],
+    "enSource": "cedict",
+    "example": { "zh": "上个月我去了一趟上海。", "vi": "Tháng trước tôi đã đi Thượng Hải một chuyến.", "en": "Last month I took a trip to Shanghai." }
+  },
+  {
+    "id": "L4-0622",
+    "vi": ["lên lầu", "lên tầng trên"],
+    "viAliases": ["lên gác"],
+    "en": ["to go upstairs"],
+    "enSource": "cedict",
+    "example": { "zh": "他上楼去拿东西了。", "vi": "Anh ấy lên lầu lấy đồ rồi.", "en": "He went upstairs to get something." }
+  },
+  {
+    "id": "L4-0623",
+    "vi": ["đến tận nhà", "tới nhà", "ghé thăm"],
+    "viAliases": ["tận nơi", "đến nhà"],
+    "en": ["to drop in", "to visit"],
+    "enSource": "cedict",
+    "example": { "zh": "这家公司可以上门修电脑。", "vi": "Công ty này có thể đến tận nhà sửa máy tính.", "en": "This company can come to your home to repair computers." }
+  },
+  {
+    "id": "L4-0624",
+    "vi": ["đốt", "đun", "nấu"],
+    "viAliases": ["thiêu", "sốt"],
+    "en": ["to burn; to set on fire", "to heat (over a fire); to boil (water, tea etc)", "to cook; to prepare food"],
+    "enSource": "cedict",
+    "example": { "zh": "我去烧点儿水，你等一下。", "vi": "Tôi đi đun chút nước, bạn đợi một chút.", "en": "I'll go boil some water; wait a moment." }
+  },
+  {
+    "id": "L4-0625",
+    "vi": ["cơ sở vật chất", "thiết bị", "trang thiết bị"],
+    "viAliases": ["cơ sở hạ tầng", "tiện nghi"],
+    "en": ["facilities", "installation"],
+    "enSource": "cedict",
+    "example": { "zh": "这个学校的设施很好。", "vi": "Cơ sở vật chất của trường này rất tốt.", "en": "The facilities of this school are very good." }
+  },
+  {
+    "id": "L4-0626",
+    "vi": ["cài đặt", "thiết lập", "bố trí"],
+    "viAliases": ["thiết đặt", "lắp đặt"],
+    "en": ["to set up; to install"],
+    "enSource": "cedict",
+    "example": { "zh": "你可以自己设置手机密码。", "vi": "Bạn có thể tự cài đặt mật khẩu điện thoại.", "en": "You can set your phone password yourself." }
+  },
+  {
+    "id": "L4-0627",
+    "vi": ["xin", "đăng ký", "nộp đơn xin"],
+    "viAliases": ["xin cấp", "đề nghị"],
+    "en": ["to apply for sth"],
+    "enSource": "cedict",
+    "example": { "zh": "我想申请去中国留学。", "vi": "Tôi muốn xin đi du học Trung Quốc.", "en": "I want to apply to study abroad in China." }
+  },
+  {
+    "id": "L4-0628",
+    "vi": ["vóc dáng", "dáng người", "thân hình"],
+    "viAliases": ["dáng", "vóc người"],
+    "en": ["figure", "build (height and weight)", "stature"],
+    "enSource": "cedict",
+    "example": { "zh": "他经常运动，身材很好。", "vi": "Anh ấy thường xuyên vận động, vóc dáng rất đẹp.", "en": "He exercises often and has a good build." }
+  },
+  {
+    "id": "L4-0629",
+    "vi": ["thân phận", "danh tính", "địa vị"],
+    "viAliases": ["tư cách", "vai trò"],
+    "en": ["identity; aspect of one's identity (e.g. mayor, father, permanent resident); role; capacity (as in \"in his capacity as ...\" 以 + ... + 的身份); status (social, legal etc); position; rank"],
+    "enSource": "cedict",
+    "example": { "zh": "他不想告诉别人自己的身份。", "vi": "Anh ấy không muốn nói cho người khác biết thân phận của mình.", "en": "He doesn't want to tell others his identity." }
+  },
+  {
+    "id": "L4-0630",
+    "vi": ["chiều cao"],
+    "viAliases": ["chiều cao cơ thể", "cao"],
+    "en": ["(a person's) height"],
+    "enSource": "cedict",
+    "example": { "zh": "他的身高是一米八。", "vi": "Chiều cao của anh ấy là một mét tám.", "en": "His height is 1.8 meters." }
+  }
+]

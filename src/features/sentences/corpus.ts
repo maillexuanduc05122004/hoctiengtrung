@@ -2,7 +2,7 @@
  * Vốn từ riêng của người học và những câu ghép từ chính vốn từ đó.
  *
  * Đây KHÔNG phải bộ dữ liệu HSK trong `public/data/`. Bộ kia là danh sách chuẩn
- * 2.245 từ, chia buổi sẵn cho mọi người dùng. Chỗ này là danh sách người học
+ * 3.245 từ, chia buổi sẵn cho mọi người dùng. Chỗ này là danh sách người học
  * khai là mình đã học rồi — gộp từ hai nguồn họ đưa: bảng 79 từ họ tự liệt kê và
  * tệp PDF "HSK1 toàn bộ từ vựng đã học". Hai nguồn lệch nhau 10 từ, nên bản gộp
  * có 89 mục và nhóm `them` ghi rõ 10 từ chỉ có trong PDF.

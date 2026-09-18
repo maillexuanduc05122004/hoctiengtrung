@@ -1,0 +1,728 @@
+[
+  {
+    "id": "L4-0226",
+    "simplified": "翻",
+    "pinyin": "fān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to turn over",
+      "to flip over",
+      "to overturn",
+      "to rummage through",
+      "to translate",
+      "to decode",
+      "to double",
+      "to climb over or into",
+      "to cross"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0227",
+    "simplified": "翻译",
+    "traditional": "翻譯",
+    "pinyin": "fān yì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to translate",
+      "to interpret",
+      "translator",
+      "interpreter",
+      "translation",
+      "interpretation",
+      "CL:個/个,位,名"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0228",
+    "simplified": "烦",
+    "traditional": "煩",
+    "pinyin": "fán",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to feel vexed",
+      "to bother",
+      "to trouble",
+      "superfluous and confusing",
+      "edgy"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0229",
+    "simplified": "反",
+    "pinyin": "fǎn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj",
+      "V",
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "contrary",
+      "in reverse",
+      "inside out or upside down",
+      "to reverse",
+      "to return",
+      "to oppose",
+      "opposite",
+      "against",
+      "anti-",
+      "to rebel",
+      "to use analogy",
+      "instead",
+      "abbr. for 反切 phonetic system"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0230",
+    "simplified": "反而",
+    "pinyin": "fǎn ér",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "on the contrary; instead"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0231",
+    "simplified": "反映",
+    "pinyin": "fǎn yìng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to mirror",
+      "to reflect",
+      "mirror image",
+      "reflection",
+      "(fig.) to report",
+      "to make known",
+      "to render"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0232",
+    "simplified": "方",
+    "pinyin": "fāng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "square",
+      "power or involution (math.)",
+      "upright",
+      "honest",
+      "fair and square",
+      "direction",
+      "side",
+      "party (to a contract, dispute etc)",
+      "place",
+      "method",
+      "prescription (medicine)",
+      "just when",
+      "only or just",
+      "classifier for square things",
+      "abbr. for square or cubic meter"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0233",
+    "simplified": "方案",
+    "pinyin": "fāng àn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "plan",
+      "program (for action etc)",
+      "proposal",
+      "proposed bill",
+      "CL:個/个,套"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0234",
+    "simplified": "方针",
+    "traditional": "方針",
+    "pinyin": "fāng zhēn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "policy",
+      "guidelines",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0235",
+    "simplified": "放松",
+    "traditional": "放鬆",
+    "pinyin": "fàng sōng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to relax; to slacken; to loosen"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0236",
+    "simplified": "非",
+    "pinyin": "fēi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "to not be; not",
+      "wrong; incorrect",
+      "non-; un-; in-; de-",
+      "to reproach; to blame",
+      "(coll.) to insist on; simply must"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0237",
+    "simplified": "肥",
+    "pinyin": "féi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "fat",
+      "fertile",
+      "loose-fitting or large",
+      "to fertilize",
+      "to become rich by illegal means",
+      "fertilizer",
+      "manure"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0238",
+    "simplified": "分布",
+    "traditional": "分佈",
+    "pinyin": "fēn bù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to scatter",
+      "to distribute",
+      "to be distributed (over an area etc)",
+      "(statistical, geographic) distribution"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0239",
+    "simplified": "分散",
+    "pinyin": "fēn sàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "to scatter",
+      "to disperse",
+      "to distribute"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0240",
+    "simplified": "分手",
+    "pinyin": "fēn shǒu",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to part company",
+      "to split up",
+      "to break up"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0241",
+    "simplified": "分为",
+    "traditional": "分為",
+    "pinyin": "fēn wéi",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to divide sth into (parts); to subdivide"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0242",
+    "simplified": "分之",
+    "pinyin": "fēn zhī",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "(indicating a fraction)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0243",
+    "simplified": "纷纷",
+    "traditional": "紛紛",
+    "pinyin": "fēn fēn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "one after another",
+      "in succession",
+      "one by one",
+      "continuously",
+      "diverse",
+      "in profusion",
+      "numerous and confused",
+      "pell-mell"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0244",
+    "simplified": "奋斗",
+    "traditional": "奮鬥",
+    "pinyin": "fèn dòu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to strive; to struggle"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0245",
+    "simplified": "风格",
+    "traditional": "風格",
+    "pinyin": "fēng gé",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "style"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0246",
+    "simplified": "风景",
+    "traditional": "風景",
+    "pinyin": "fēng jǐng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "scenery; landscape"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0247",
+    "simplified": "风俗",
+    "traditional": "風俗",
+    "pinyin": "fēng sú",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "social custom",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0248",
+    "simplified": "封闭",
+    "traditional": "封閉",
+    "pinyin": "fēng bì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "to close; to seal off",
+      "to close down (an illegal venue)",
+      "closed (i.e. isolated from outside input)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0249",
+    "simplified": "否则",
+    "traditional": "否則",
+    "pinyin": "fǒu zé",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "otherwise; if not; or (else)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0250",
+    "simplified": "夫妇",
+    "traditional": "夫婦",
+    "pinyin": "fū fù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "a (married) couple",
+      "husband and wife",
+      "CL:對/对"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0251",
+    "simplified": "夫妻",
+    "pinyin": "fū qī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "husband and wife; married couple"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0252",
+    "simplified": "夫人",
+    "pinyin": "fū ren",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "lady",
+      "madam",
+      "Mrs.",
+      "CL:位"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0253",
+    "simplified": "符号",
+    "traditional": "符號",
+    "pinyin": "fú hào",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "symbol; mark; sign"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0254",
+    "simplified": "符合",
+    "pinyin": "fú hé",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "in accordance with; to agree with; to conform to; to meet (a requirement)",
+      "(physics) coincidence"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0255",
+    "simplified": "付出",
+    "pinyin": "fù chū",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to pay; to expend; to invest (energy or time)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0256",
+    "simplified": "负担",
+    "traditional": "負擔",
+    "pinyin": "fù dān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to bear (an expense, a responsibility etc)",
+      "burden"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0257",
+    "simplified": "附近",
+    "pinyin": "fù jìn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "nearby; neighboring",
+      "(in the) vicinity (of); neighborhood"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0258",
+    "simplified": "复制",
+    "traditional": "複製",
+    "pinyin": "fù zhì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to duplicate",
+      "to make a copy of",
+      "to copy",
+      "to reproduce",
+      "to clone"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0259",
+    "simplified": "改善",
+    "pinyin": "gǎi shàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to make better; to improve"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0260",
+    "simplified": "改正",
+    "pinyin": "gǎi zhèng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to correct",
+      "to amend",
+      "to put right",
+      "correction",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0261",
+    "simplified": "盖",
+    "traditional": "蓋",
+    "pinyin": "gài",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "lid",
+      "top",
+      "cover",
+      "canopy",
+      "to cover",
+      "to conceal",
+      "to build"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0262",
+    "simplified": "概括",
+    "pinyin": "gài kuò",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "to summarize; to generalize",
+      "briefly; in broad outline"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0263",
+    "simplified": "感兴趣",
+    "traditional": "感興趣",
+    "pinyin": "gǎn xìng qù",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to be interested (in sth)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0264",
+    "simplified": "高潮",
+    "pinyin": "gāo cháo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "high tide; high water",
+      "upsurge; peak of activity",
+      "climax (of a story, a competition etc)",
+      "to have an orgasm"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0265",
+    "simplified": "高价",
+    "traditional": "高價",
+    "pinyin": "gāo jià",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "high price"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0266",
+    "simplified": "高尚",
+    "pinyin": "gāo shàng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "noble",
+      "lofty",
+      "refined",
+      "exquisite"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0267",
+    "simplified": "高铁",
+    "traditional": "高鐵",
+    "pinyin": "gāo tiě",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "high speed rail"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0268",
+    "simplified": "格外",
+    "pinyin": "gé wài",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "especially; particularly; even more than usual",
+      "extra; additional"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0269",
+    "simplified": "隔",
+    "pinyin": "gé",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to separate",
+      "to partition",
+      "to stand or lie between",
+      "at a distance from",
+      "after or at an interval of"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0270",
+    "simplified": "隔开",
+    "traditional": "隔開",
+    "pinyin": "gé kāi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to separate"
+    ],
+    "needsEnglish": false
+  }
+]

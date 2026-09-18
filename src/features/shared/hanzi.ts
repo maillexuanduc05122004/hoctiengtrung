@@ -1,4 +1,4 @@
-/** Khoảng mã của chữ Hán thông dụng, đủ cho toàn bộ từ vựng HSK 1-3. */
+/** Khoảng mã của chữ Hán thông dụng, đủ cho toàn bộ từ vựng HSK 1-4. */
 const HANZI_PATTERN = /[\u4e00-\u9fff\u3400-\u4dbf]/;
 
 /**

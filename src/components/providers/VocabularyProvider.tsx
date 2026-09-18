@@ -1,14 +1,12 @@
 import { useCallback, useEffect, useMemo, useState, type ReactNode } from 'react';
 import { buildIndex, EMPTY_INDEX, loadLevels, type VocabularyIndex } from '../../lib/vocabulary/store.ts';
 import { VocabularyContext, type VocabularyContextValue } from '../../hooks/vocabulary-context.ts';
-import type { HskLevel } from '../../types/vocabulary.ts';
-
-const ALL_LEVELS: readonly HskLevel[] = [1, 2, 3];
+import { HSK_LEVELS } from '../../types/vocabulary.ts';
 
 /**
- * Nạp toàn bộ từ vựng cấp 1 đến 3 một lần khi mở ứng dụng.
+ * Nạp toàn bộ từ vựng của mọi cấp trong `HSK_LEVELS` một lần khi mở ứng dụng.
  *
- * Nạp cả ba cấp thay vì nạp dần vì hộp tra từ phải tìm được mọi từ, và vì dữ
+ * Nạp cả các cấp thay vì nạp dần vì hộp tra từ phải tìm được mọi từ, và vì dữ
  * liệu đã nằm sẵn trong gói cài đặt nên lần sau service worker phục vụ ngay từ
  * bộ nhớ đệm, không cần mạng.
  *
@@ -22,7 +20,7 @@ export function VocabularyProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     let active = true;
-    loadLevels(ALL_LEVELS)
+    loadLevels(HSK_LEVELS)
       .then((files) => {
         if (active) setLoaded({ attempt, index: buildIndex(files) });
       })

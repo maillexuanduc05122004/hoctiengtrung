@@ -1,0 +1,709 @@
+[
+  {
+    "id": "L4-0721",
+    "simplified": "童话",
+    "traditional": "童話",
+    "pinyin": "tóng huà",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "children's fairy tales"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0722",
+    "simplified": "童年",
+    "pinyin": "tóng nián",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "childhood"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0723",
+    "simplified": "统计",
+    "traditional": "統計",
+    "pinyin": "tǒng jì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "statistics",
+      "to count",
+      "to add up"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0724",
+    "simplified": "统一",
+    "traditional": "統一",
+    "pinyin": "tǒng yī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "to unify; to integrate",
+      "unified; integrated"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0725",
+    "simplified": "痛快",
+    "pinyin": "tòng kuài",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "delighted",
+      "to one's heart's content",
+      "straightforward",
+      "also pr."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0726",
+    "simplified": "投",
+    "pinyin": "tóu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to throw (sth in a specific direction: ball, javelin, grenade etc)",
+      "to cast (a ballot)",
+      "to cast (a glance, a shadow etc)",
+      "to put in (money for investment, a coin to operate a slot machine)",
+      "to send (a letter, a manuscript etc)",
+      "to throw oneself into (a river, a well etc to commit suicide)",
+      "to go to; to seek refuge; to place oneself into the hands of",
+      "(coll.) to rinse (clothes) in water"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0727",
+    "simplified": "投入",
+    "pinyin": "tóu rù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to throw into",
+      "to put into",
+      "to throw oneself into",
+      "to participate in",
+      "to invest in",
+      "absorbed",
+      "engrossed"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0728",
+    "simplified": "投诉",
+    "traditional": "投訴",
+    "pinyin": "tóu sù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to lodge a complaint"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0729",
+    "simplified": "投资",
+    "traditional": "投資",
+    "pinyin": "tóu zī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "investment",
+      "to invest"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0730",
+    "simplified": "透",
+    "pinyin": "tòu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "(bound form) to penetrate; to seep through",
+      "to tell secretly; to leak",
+      "thoroughly; through and through",
+      "to appear; to show"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0731",
+    "simplified": "透明",
+    "pinyin": "tòu míng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "transparent",
+      "(fig.) transparent; open to scrutiny"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0732",
+    "simplified": "图案",
+    "traditional": "圖案",
+    "pinyin": "tú àn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "design; pattern"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0733",
+    "simplified": "途中",
+    "pinyin": "tú zhōng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "en route"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0734",
+    "simplified": "土地",
+    "pinyin": "tǔ dì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "land",
+      "soil",
+      "territory",
+      "CL:片,塊/块"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0735",
+    "simplified": "推迟",
+    "traditional": "推遲",
+    "pinyin": "tuī chí",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to postpone",
+      "to put off",
+      "to defer"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0736",
+    "simplified": "推销",
+    "traditional": "推銷",
+    "pinyin": "tuī xiāo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to market",
+      "to sell"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0737",
+    "simplified": "脱",
+    "traditional": "脫",
+    "pinyin": "tuō",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to shed",
+      "to take off",
+      "to escape",
+      "to get away from"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0738",
+    "simplified": "袜子",
+    "traditional": "襪子",
+    "pinyin": "wà zi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "socks",
+      "stockings",
+      "CL:隻/只,對/对,雙/双"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0739",
+    "simplified": "外汇",
+    "traditional": "外匯",
+    "pinyin": "wài huì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "foreign (currency) exchange"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0740",
+    "simplified": "外交官",
+    "pinyin": "wài jiāo guān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "diplomat"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0741",
+    "simplified": "外套",
+    "pinyin": "wài tào",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "outer garment; jacket; coat",
+      "CL:件"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0742",
+    "simplified": "弯",
+    "traditional": "彎",
+    "pinyin": "wān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to bend",
+      "bent",
+      "a bend; a turn (in a road etc)",
+      "CL:道"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0743",
+    "simplified": "晚点",
+    "traditional": "晚點",
+    "pinyin": "wǎn diǎn",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "(of trains etc) late",
+      "delayed",
+      "behind schedule",
+      "light dinner"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0744",
+    "simplified": "万一",
+    "traditional": "萬一",
+    "pinyin": "wàn yī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N",
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "just in case",
+      "if by any chance",
+      "contingency"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0745",
+    "simplified": "王",
+    "pinyin": "wáng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "king or monarch",
+      "best or strongest of its type",
+      "grand",
+      "great"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0746",
+    "simplified": "网络",
+    "traditional": "網絡",
+    "pinyin": "wǎng luò",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "network",
+      "Internet"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0747",
+    "simplified": "网址",
+    "traditional": "網址",
+    "pinyin": "wǎng zhǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "web address; URL"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0748",
+    "simplified": "微笑",
+    "pinyin": "wēi xiào",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "smile",
+      "CL:個/个,絲/丝",
+      "to smile"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0749",
+    "simplified": "微信",
+    "pinyin": "wēi xìn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "Weixin or WeChat (mobile text and voice messaging service developed by Tencent 騰訊/腾讯)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0750",
+    "simplified": "围巾",
+    "traditional": "圍巾",
+    "pinyin": "wéi jīn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "scarf",
+      "shawl",
+      "CL:條/条"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0751",
+    "simplified": "维持",
+    "traditional": "維持",
+    "pinyin": "wéi chí",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to keep; to maintain; to preserve"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0752",
+    "simplified": "维护",
+    "traditional": "維護",
+    "pinyin": "wéi hù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to defend",
+      "to safeguard",
+      "to protect",
+      "to uphold",
+      "to maintain"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0753",
+    "simplified": "维修",
+    "traditional": "維修",
+    "pinyin": "wéi xiū",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "maintenance (of equipment)",
+      "to protect and maintain"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0754",
+    "simplified": "尾巴",
+    "pinyin": "wěi ba",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "tail",
+      "colloquial pr."
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0755",
+    "simplified": "未必",
+    "pinyin": "wèi bì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "not necessarily",
+      "maybe not"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0756",
+    "simplified": "未来",
+    "traditional": "未來",
+    "pinyin": "wèi lái",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "future",
+      "tomorrow",
+      "CL:個/个",
+      "approaching",
+      "coming",
+      "pending"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0757",
+    "simplified": "位于",
+    "traditional": "位於",
+    "pinyin": "wèi yú",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to be located at",
+      "to be situated at",
+      "to lie"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0758",
+    "simplified": "位置",
+    "pinyin": "wèi zhi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "position",
+      "place",
+      "seat",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0759",
+    "simplified": "味儿",
+    "traditional": "味兒",
+    "pinyin": "wèir",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "taste"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0760",
+    "simplified": "喂",
+    "traditional": "餵",
+    "pinyin": "wèi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to feed"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0574",
+        "pinyin": "wèi",
+        "partOfSpeech": [
+          "Intj"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0761",
+    "simplified": "稳",
+    "traditional": "穩",
+    "pinyin": "wěn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "settled; steady; stable"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0762",
+    "simplified": "稳定",
+    "traditional": "穩定",
+    "pinyin": "wěn dìng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "steady",
+      "stable",
+      "stability",
+      "to stabilize",
+      "to pacify"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0763",
+    "simplified": "问候",
+    "traditional": "問候",
+    "pinyin": "wèn hòu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to give one's respects",
+      "to send a greeting",
+      "(fig.) (coll.) to make offensive reference to (somebody dear to the person to whom one is speaking)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0764",
+    "simplified": "无",
+    "traditional": "無",
+    "pinyin": "wú",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "not to have",
+      "no",
+      "none",
+      "not",
+      "to lack",
+      "un-",
+      "-less"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0765",
+    "simplified": "无法",
+    "traditional": "無法",
+    "pinyin": "wú fǎ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "unable to; incapable of"
+    ],
+    "needsEnglish": false
+  }
+]

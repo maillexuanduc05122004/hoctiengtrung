@@ -10,6 +10,7 @@ export type {
   WordExample,
   WordMeanings,
 } from './vocabulary.ts';
+export { HSK_LEVELS, isHskLevel } from './vocabulary.ts';
 
 export type {
   AnswerKind,

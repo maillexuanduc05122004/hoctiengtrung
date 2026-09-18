@@ -9,7 +9,7 @@ import { TypingRound } from '../features/typing/index.ts';
 import { useSettings } from '../hooks/settings-context.ts';
 import { useStudySession, type PoolKind } from '../hooks/useStudySession.ts';
 import { useVocabulary } from '../hooks/vocabulary-context.ts';
-import type { HskLevel } from '../types/vocabulary.ts';
+import { isHskLevel, type HskLevel } from '../types/vocabulary.ts';
 
 /** Số từ tối đa của một phiên gõ; gõ mệt hơn lật thẻ nên phiên ngắn hơn. */
 const SESSION_LIMIT = 20;
@@ -24,10 +24,6 @@ const EMPTY_HINT: Record<PoolKind, string> = {
 };
 
 const POOLS: readonly PoolKind[] = ['due', 'new', 'starred', 'mixed', 'lesson'];
-
-function isHskLevel(value: number): value is HskLevel {
-  return value === 1 || value === 2 || value === 3;
-}
 
 /** Đọc "1,2" trên địa chỉ thành danh sách cấp, bỏ qua mọi giá trị lạ. */
 function parseLevels(raw: string | null, fallback: readonly HskLevel[]): HskLevel[] {

@@ -15,7 +15,7 @@ import { useVocabulary } from '../../hooks/vocabulary-context.ts';
 import { LookupHistory } from './LookupHistory.tsx';
 import { SearchField } from './SearchField.tsx';
 import { useDictionarySearch, useSuggestedWords, type LevelFilter } from './useDictionarySearch.ts';
-import type { VocabularyWord } from '../../types/vocabulary.ts';
+import { HSK_LEVELS, type VocabularyWord } from '../../types/vocabulary.ts';
 
 /** Số kết quả tối đa hiện trên trang; nhiều hơn thì cuộn mãi cũng không ai đọc. */
 const RESULT_LIMIT = 40;
@@ -23,18 +23,9 @@ const RESULT_LIMIT = 40;
 /** Lịch sử dài hơn từng này thì phần gợi ý bên dưới bị đẩy khuất khỏi màn hình đầu tiên. */
 const HISTORY_LIMIT = 8;
 
-/** Đổi giá trị của nhóm nút thành bộ lọc cấp mà không cần ép kiểu. */
+/** Đổi giá trị của nhóm nút thành bộ lọc cấp mà không cần ép kiểu; giá trị lạ là "all". */
 function toLevelFilter(value: string): LevelFilter {
-  switch (value) {
-    case '1':
-      return 1;
-    case '2':
-      return 2;
-    case '3':
-      return 3;
-    default:
-      return 'all';
-  }
+  return HSK_LEVELS.find((level) => `${level}` === value) ?? 'all';
 }
 
 export interface DictionarySearchProps {

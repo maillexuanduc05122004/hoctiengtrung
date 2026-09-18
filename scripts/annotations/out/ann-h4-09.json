@@ -1,0 +1,944 @@
+[
+  {
+    "id": "L4-0361",
+    "vi": [
+      "ghi chép",
+      "ghi lại"
+    ],
+    "viAliases": [
+      "ghi",
+      "chép lại"
+    ],
+    "en": [
+      "to write down",
+      "to record"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这本书记载了很多历史故事。",
+      "vi": "Cuốn sách này ghi chép nhiều câu chuyện lịch sử.",
+      "en": "This book records many historical stories."
+    }
+  },
+  {
+    "id": "L4-0362",
+    "vi": [
+      "kỷ luật"
+    ],
+    "viAliases": [
+      "nề nếp",
+      "quy củ"
+    ],
+    "en": [
+      "discipline"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这个班的纪律很好。",
+      "vi": "Kỷ luật của lớp này rất tốt.",
+      "en": "This class's discipline is very good."
+    }
+  },
+  {
+    "id": "L4-0363",
+    "vi": [
+      "kỹ xảo",
+      "kỹ thuật",
+      "mẹo"
+    ],
+    "viAliases": [
+      "kỹ năng",
+      "bí quyết"
+    ],
+    "en": [
+      "skill",
+      "technique"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "学习也需要一些技巧。",
+      "vi": "Học tập cũng cần một vài kỹ xảo.",
+      "en": "Studying also needs some techniques."
+    }
+  },
+  {
+    "id": "L4-0364",
+    "vi": [
+      "buộc",
+      "thắt",
+      "cài"
+    ],
+    "viAliases": [
+      "cột",
+      "thắt lại"
+    ],
+    "en": [
+      "to tie",
+      "to fasten",
+      "to button up"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "开车前请系好安全带。",
+      "vi": "Trước khi lái xe hãy thắt dây an toàn.",
+      "en": "Please fasten your seat belt before driving."
+    }
+  },
+  {
+    "id": "L4-0365",
+    "vi": [
+      "mùa",
+      "quý"
+    ],
+    "viAliases": [
+      "mùa vụ"
+    ],
+    "en": [
+      "season"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "一年有春夏秋冬四季。",
+      "vi": "Một năm có bốn mùa xuân, hạ, thu, đông.",
+      "en": "A year has four seasons: spring, summer, autumn and winter."
+    }
+  },
+  {
+    "id": "L4-0366",
+    "vi": [
+      "quý (ba tháng của năm)"
+    ],
+    "viAliases": [
+      "quý"
+    ],
+    "en": [
+      "quarter of a year"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "第一季度我们的工作很忙。",
+      "vi": "Quý đầu tiên, công việc của chúng tôi rất bận.",
+      "en": "In the first quarter our work was very busy."
+    }
+  },
+  {
+    "id": "L4-0367",
+    "vi": [
+      "mùa"
+    ],
+    "viAliases": [
+      "thời vụ",
+      "mùa vụ"
+    ],
+    "en": [
+      "season"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "秋天是我最喜欢的季节。",
+      "vi": "Mùa thu là mùa tôi thích nhất.",
+      "en": "Autumn is my favorite season."
+    }
+  },
+  {
+    "id": "L4-0368",
+    "vi": [
+      "vừa... (vừa...)",
+      "đã"
+    ],
+    "viAliases": [
+      "vừa",
+      "đã... lại"
+    ],
+    "en": [
+      "both... (and...)",
+      "already"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这个菜既好吃又便宜。",
+      "vi": "Món này vừa ngon vừa rẻ.",
+      "en": "This dish is both delicious and cheap."
+    }
+  },
+  {
+    "id": "L4-0369",
+    "vi": [
+      "đã... thì",
+      "một khi đã"
+    ],
+    "viAliases": [
+      "vì đã",
+      "bởi vì"
+    ],
+    "en": [
+      "since; as; this being the case"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "既然你累了，就早点休息吧。",
+      "vi": "Bạn đã mệt rồi thì đi nghỉ sớm đi.",
+      "en": "Since you're tired, go rest early."
+    }
+  },
+  {
+    "id": "L4-0370",
+    "vi": [
+      "gửi (qua bưu điện)",
+      "gửi thư"
+    ],
+    "viAliases": [
+      "gửi",
+      "ký gửi"
+    ],
+    "en": [
+      "to send by post; to mail"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我想给妈妈寄一封信。",
+      "vi": "Tôi muốn gửi cho mẹ một bức thư.",
+      "en": "I want to mail a letter to my mother."
+    }
+  },
+  {
+    "id": "L4-0371",
+    "vi": [
+      "làm thêm giờ",
+      "tăng ca"
+    ],
+    "viAliases": [
+      "làm ngoài giờ",
+      "làm quá giờ"
+    ],
+    "en": [
+      "to work overtime"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他昨天晚上加班到十点。",
+      "vi": "Tối qua anh ấy tăng ca đến mười giờ.",
+      "en": "He worked overtime until ten o'clock last night."
+    }
+  },
+  {
+    "id": "L4-0372",
+    "vi": [
+      "gia nhập",
+      "tham gia",
+      "thêm vào"
+    ],
+    "viAliases": [
+      "vào",
+      "góp mặt"
+    ],
+    "en": [
+      "to join",
+      "to become a member",
+      "to add in"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我想加入学校的足球队。",
+      "vi": "Tôi muốn gia nhập đội bóng đá của trường.",
+      "en": "I want to join the school's football team."
+    }
+  },
+  {
+    "id": "L4-0373",
+    "vi": [
+      "trạm xăng",
+      "cây xăng"
+    ],
+    "viAliases": [
+      "trạm đổ xăng",
+      "trạm nhiên liệu"
+    ],
+    "en": [
+      "gas station"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "前面有一个加油站。",
+      "vi": "Phía trước có một trạm xăng.",
+      "en": "There is a gas station ahead."
+    }
+  },
+  {
+    "id": "L4-0374",
+    "vi": [
+      "việc nhà",
+      "công việc nhà"
+    ],
+    "viAliases": [
+      "nội trợ",
+      "việc gia đình"
+    ],
+    "en": [
+      "housework",
+      "household duties"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "周末我常常帮妈妈做家务。",
+      "vi": "Cuối tuần tôi thường giúp mẹ làm việc nhà.",
+      "en": "On weekends I often help my mom with housework."
+    }
+  },
+  {
+    "id": "L4-0375",
+    "vi": [
+      "giả sử",
+      "nếu như"
+    ],
+    "viAliases": [
+      "nếu",
+      "giả dụ"
+    ],
+    "en": [
+      "if"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "假如明天下雨，我们就不去了。",
+      "vi": "Nếu như ngày mai trời mưa thì chúng ta không đi nữa.",
+      "en": "If it rains tomorrow, we won't go."
+    }
+  },
+  {
+    "id": "L4-0376",
+    "vi": [
+      "kiên cố",
+      "chắc chắn",
+      "vững chắc"
+    ],
+    "viAliases": [
+      "bền chắc",
+      "cứng cáp"
+    ],
+    "en": [
+      "firm",
+      "stable"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这个房子非常坚固。",
+      "vi": "Ngôi nhà này rất kiên cố.",
+      "en": "This house is very sturdy."
+    }
+  },
+  {
+    "id": "L4-0377",
+    "vi": [
+      "kiểm tra",
+      "kiểm định",
+      "xét nghiệm"
+    ],
+    "viAliases": [
+      "đo kiểm",
+      "phát hiện"
+    ],
+    "en": [
+      "to test; to detect"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我们要检测一下水的质量。",
+      "vi": "Chúng ta cần kiểm tra chất lượng nước.",
+      "en": "We need to test the water quality."
+    }
+  },
+  {
+    "id": "L4-0378",
+    "vi": [
+      "giảm",
+      "trừ",
+      "bớt"
+    ],
+    "viAliases": [
+      "giảm bớt",
+      "cắt giảm"
+    ],
+    "en": [
+      "to reduce",
+      "to subtract",
+      "to decrease"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "商店把价格减了一半。",
+      "vi": "Cửa hàng đã giảm giá một nửa.",
+      "en": "The store cut the price by half."
+    }
+  },
+  {
+    "id": "L4-0379",
+    "vi": [
+      "giảm cân",
+      "giảm béo"
+    ],
+    "viAliases": [
+      "ăn kiêng",
+      "giữ dáng"
+    ],
+    "en": [
+      "to lose weight"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "她每天跑步减肥。",
+      "vi": "Cô ấy chạy bộ mỗi ngày để giảm cân.",
+      "en": "She runs every day to lose weight."
+    }
+  },
+  {
+    "id": "L4-0380",
+    "vi": [
+      "giảm bớt",
+      "giảm",
+      "cắt giảm"
+    ],
+    "viAliases": [
+      "bớt đi",
+      "giảm thiểu"
+    ],
+    "en": [
+      "to lessen; to decrease; to reduce; to lower"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他想减少上网的时间。",
+      "vi": "Anh ấy muốn giảm bớt thời gian lên mạng.",
+      "en": "He wants to reduce his time online."
+    }
+  },
+  {
+    "id": "L4-0381",
+    "vi": [
+      "sơ yếu lý lịch",
+      "hồ sơ xin việc"
+    ],
+    "viAliases": [
+      "CV",
+      "lý lịch"
+    ],
+    "en": [
+      "curriculum vitae (CV)",
+      "résumé"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "请把你的简历发给我。",
+      "vi": "Hãy gửi sơ yếu lý lịch của bạn cho tôi.",
+      "en": "Please send me your résumé."
+    }
+  },
+  {
+    "id": "L4-0382",
+    "vi": [
+      "tập thể hình",
+      "tập gym",
+      "rèn luyện thân thể"
+    ],
+    "viAliases": [
+      "tập thể dục",
+      "gym"
+    ],
+    "en": [
+      "to work out",
+      "to keep fit",
+      "to exercise"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他每天早上去健身。",
+      "vi": "Anh ấy đi tập gym mỗi sáng.",
+      "en": "He goes to work out every morning."
+    }
+  },
+  {
+    "id": "L4-0383",
+    "vi": [
+      "dần dần",
+      "từ từ"
+    ],
+    "viAliases": [
+      "dần",
+      "từng bước"
+    ],
+    "en": [
+      "gradually"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "天气渐渐暖和了。",
+      "vi": "Thời tiết dần dần ấm lên.",
+      "en": "The weather is gradually getting warmer."
+    }
+  },
+  {
+    "id": "L4-0384",
+    "vi": [
+      "sông",
+      "sông lớn"
+    ],
+    "viAliases": [
+      "giang",
+      "dòng sông"
+    ],
+    "en": [
+      "river"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我家住在江边。",
+      "vi": "Nhà tôi ở bên bờ sông.",
+      "en": "My home is by the river."
+    }
+  },
+  {
+    "id": "L4-0385",
+    "vi": [
+      "chú trọng",
+      "cầu kỳ",
+      "kỹ lưỡng"
+    ],
+    "viAliases": [
+      "coi trọng",
+      "kỹ tính"
+    ],
+    "en": [
+      "to pay particular attention to",
+      "tastefully chosen"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他对吃的东西很讲究。",
+      "vi": "Anh ấy rất kỹ tính về đồ ăn.",
+      "en": "He is very particular about food."
+    }
+  },
+  {
+    "id": "L4-0386",
+    "vi": [
+      "bài giảng chuyên đề",
+      "buổi nói chuyện chuyên đề",
+      "buổi thuyết giảng"
+    ],
+    "viAliases": [
+      "hội thảo",
+      "tọa đàm",
+      "buổi thuyết trình"
+    ],
+    "en": [
+      "course of lectures; lecture series"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "明天学校有一个讲座。",
+      "vi": "Ngày mai trường có một buổi nói chuyện chuyên đề.",
+      "en": "There is a lecture at school tomorrow."
+    }
+  },
+  {
+    "id": "L4-0387",
+    "vi": [
+      "giải thưởng",
+      "phần thưởng",
+      "khen thưởng"
+    ],
+    "viAliases": [
+      "giải",
+      "thưởng"
+    ],
+    "en": [
+      "prize; award; bonus; reward",
+      "to award; to give as a reward"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他在比赛中得了一个奖。",
+      "vi": "Anh ấy đã giành được một giải trong cuộc thi.",
+      "en": "He won a prize in the competition."
+    }
+  },
+  {
+    "id": "L4-0388",
+    "vi": [
+      "tiền thưởng",
+      "tiền giải thưởng"
+    ],
+    "viAliases": [
+      "thưởng",
+      "tiền thưởng thêm"
+    ],
+    "en": [
+      "bonus",
+      "award money"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "公司给他发了奖金。",
+      "vi": "Công ty đã phát tiền thưởng cho anh ấy.",
+      "en": "The company gave him a bonus."
+    }
+  },
+  {
+    "id": "L4-0389",
+    "vi": [
+      "học bổng"
+    ],
+    "viAliases": [
+      "suất học bổng"
+    ],
+    "en": [
+      "scholarship"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "她今年拿到了奖学金。",
+      "vi": "Năm nay cô ấy đã nhận được học bổng.",
+      "en": "She got a scholarship this year."
+    }
+  },
+  {
+    "id": "L4-0390",
+    "vi": [
+      "hạ",
+      "giảm",
+      "rơi xuống"
+    ],
+    "viAliases": [
+      "hạ xuống",
+      "xuống"
+    ],
+    "en": [
+      "to drop",
+      "to fall",
+      "to come down"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "明天温度会降到五度。",
+      "vi": "Ngày mai nhiệt độ sẽ hạ xuống năm độ.",
+      "en": "The temperature will drop to five degrees tomorrow."
+    }
+  },
+  {
+    "id": "L4-0391",
+    "vi": [
+      "hạ thấp",
+      "giảm bớt",
+      "giảm"
+    ],
+    "viAliases": [
+      "làm giảm",
+      "hạ"
+    ],
+    "en": [
+      "to reduce; to lower; to bring down"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这家商店降低了价格。",
+      "vi": "Cửa hàng này đã hạ giá.",
+      "en": "This store lowered its prices."
+    }
+  },
+  {
+    "id": "L4-0392",
+    "vi": [
+      "giảm giá",
+      "hạ giá"
+    ],
+    "viAliases": [
+      "xuống giá",
+      "khuyến mãi"
+    ],
+    "en": [
+      "to cut the price",
+      "to get cheaper"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这种手机最近降价了。",
+      "vi": "Loại điện thoại này gần đây đã giảm giá.",
+      "en": "This kind of phone has gotten cheaper recently."
+    }
+  },
+  {
+    "id": "L4-0393",
+    "vi": [
+      "hạ cánh",
+      "hạ xuống",
+      "đáp xuống"
+    ],
+    "viAliases": [
+      "đáp",
+      "tiếp đất"
+    ],
+    "en": [
+      "to land",
+      "to descend"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "飞机安全地降落了。",
+      "vi": "Máy bay đã hạ cánh an toàn.",
+      "en": "The plane landed safely."
+    }
+  },
+  {
+    "id": "L4-0394",
+    "vi": [
+      "hạ nhiệt",
+      "hạ nhiệt độ",
+      "trở lạnh"
+    ],
+    "viAliases": [
+      "lạnh đi",
+      "mát xuống"
+    ],
+    "en": [
+      "to become cooler",
+      "to lower the temperature"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "明天要降温，多穿点儿衣服。",
+      "vi": "Ngày mai trời trở lạnh, mặc thêm áo nhé.",
+      "en": "It's getting colder tomorrow, wear more clothes."
+    }
+  },
+  {
+    "id": "L4-0395",
+    "vi": [
+      "trao đổi",
+      "đổi",
+      "hoán đổi"
+    ],
+    "viAliases": [
+      "đổi chác",
+      "giao đổi"
+    ],
+    "en": [
+      "to exchange",
+      "to swap"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "我们交换了一下电话号码。",
+      "vi": "Chúng tôi đã trao đổi số điện thoại.",
+      "en": "We exchanged phone numbers."
+    }
+  },
+  {
+    "id": "L4-0396",
+    "vi": [
+      "giao tiếp",
+      "giao thiệp",
+      "xã giao"
+    ],
+    "viAliases": [
+      "quan hệ xã hội",
+      "giao lưu"
+    ],
+    "en": [
+      "communication",
+      "social intercourse"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "他很会交际，朋友很多。",
+      "vi": "Anh ấy rất giỏi giao tiếp, có nhiều bạn.",
+      "en": "He is very good at socializing and has many friends."
+    }
+  },
+  {
+    "id": "L4-0397",
+    "vi": [
+      "giáo sư"
+    ],
+    "viAliases": [
+      "GS"
+    ],
+    "en": [
+      "professor"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "王教授的课很有意思。",
+      "vi": "Tiết học của giáo sư Vương rất thú vị.",
+      "en": "Professor Wang's class is very interesting."
+    }
+  },
+  {
+    "id": "L4-0398",
+    "vi": [
+      "bài học (kinh nghiệm)",
+      "dạy bảo",
+      "răn dạy"
+    ],
+    "viAliases": [
+      "bài học",
+      "giáo huấn"
+    ],
+    "en": [
+      "a talking-to; a bitter lesson",
+      "to provide guidance; to lecture sb; to upbraid"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这次失败给了他一个教训。",
+      "vi": "Lần thất bại này đã cho anh ấy một bài học.",
+      "en": "This failure taught him a lesson."
+    }
+  },
+  {
+    "id": "L4-0399",
+    "vi": [
+      "giai đoạn",
+      "thời kỳ"
+    ],
+    "viAliases": [
+      "bước",
+      "chặng"
+    ],
+    "en": [
+      "stage",
+      "phase",
+      "period"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "学习汉语可以分几个阶段。",
+      "vi": "Học tiếng Trung có thể chia thành mấy giai đoạn.",
+      "en": "Learning Chinese can be divided into several stages."
+    }
+  },
+  {
+    "id": "L4-0400",
+    "vi": [
+      "đường phố",
+      "phố"
+    ],
+    "viAliases": [
+      "con phố",
+      "phố xá"
+    ],
+    "en": [
+      "street"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这条街道非常干净。",
+      "vi": "Con phố này rất sạch sẽ.",
+      "en": "This street is very clean."
+    }
+  },
+  {
+    "id": "L4-0401",
+    "vi": [
+      "tiết kiệm",
+      "dè sẻn"
+    ],
+    "viAliases": [
+      "tằn tiện",
+      "để dành"
+    ],
+    "en": [
+      "to save",
+      "to use sparingly",
+      "to cut down on"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "坐地铁可以节省很多时间。",
+      "vi": "Đi tàu điện ngầm có thể tiết kiệm nhiều thời gian.",
+      "en": "Taking the subway can save a lot of time."
+    }
+  },
+  {
+    "id": "L4-0402",
+    "vi": [
+      "thắt",
+      "kết",
+      "nút"
+    ],
+    "viAliases": [
+      "buộc",
+      "nút thắt"
+    ],
+    "en": [
+      "to tie",
+      "knot",
+      "to bind"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这个结太紧了，我打不开。",
+      "vi": "Cái nút này chặt quá, tôi không mở được.",
+      "en": "This knot is too tight, I can't undo it."
+    }
+  },
+  {
+    "id": "L4-0403",
+    "vi": [
+      "kết cấu",
+      "cấu trúc"
+    ],
+    "viAliases": [
+      "cơ cấu",
+      "cấu tạo"
+    ],
+    "en": [
+      "structure",
+      "composition"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "这篇文章的结构很清楚。",
+      "vi": "Cấu trúc của bài văn này rất rõ ràng.",
+      "en": "The structure of this article is very clear."
+    }
+  },
+  {
+    "id": "L4-0404",
+    "vi": [
+      "kết luận"
+    ],
+    "viAliases": [
+      "kết quả cuối cùng",
+      "lời kết"
+    ],
+    "en": [
+      "conclusion",
+      "verdict"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "讨论了很久，我们还没有结论。",
+      "vi": "Thảo luận rất lâu rồi mà chúng tôi vẫn chưa có kết luận.",
+      "en": "We discussed for a long time but still have no conclusion."
+    }
+  },
+  {
+    "id": "L4-0405",
+    "vi": [
+      "chị em gái",
+      "chị em"
+    ],
+    "viAliases": [
+      "tỷ muội"
+    ],
+    "en": [
+      "sisters"
+    ],
+    "enSource": "cedict",
+    "example": {
+      "zh": "她们两个是姐妹。",
+      "vi": "Hai người họ là chị em.",
+      "en": "The two of them are sisters."
+    }
+  }
+]

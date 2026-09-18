@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L4-0451",
+    "vi": ["mở rộng", "phát triển thêm"],
+    "viAliases": ["khuếch trương", "nới rộng"],
+    "en": ["to extend", "to expand"],
+    "enSource": "cedict",
+    "example": { "zh": "学校打算扩展图书馆。", "vi": "Trường dự định mở rộng thư viện.", "en": "The school plans to expand the library." }
+  },
+  {
+    "id": "L4-0452",
+    "vi": ["dấu ngoặc", "dấu ngoặc đơn"],
+    "viAliases": ["ngoặc"],
+    "en": ["parentheses; brackets"],
+    "enSource": "cedict",
+    "example": { "zh": "请把答案写在括号里。", "vi": "Hãy viết đáp án vào trong dấu ngoặc.", "en": "Please write the answer inside the brackets." }
+  },
+  {
+    "id": "L4-0453",
+    "vi": ["rác", "rác thải"],
+    "viAliases": ["rác rưởi"],
+    "en": ["trash", "garbage"],
+    "enSource": "cedict",
+    "example": { "zh": "别把垃圾扔在地上。", "vi": "Đừng vứt rác xuống đất.", "en": "Don't throw trash on the ground." }
+  },
+  {
+    "id": "L4-0454",
+    "vi": ["kéo ra", "kéo mở"],
+    "viAliases": ["mở ra"],
+    "en": ["to pull open", "to pull apart"],
+    "enSource": "cedict",
+    "example": { "zh": "他拉开门走了进去。", "vi": "Anh ấy kéo cửa ra rồi đi vào.", "en": "He pulled the door open and walked in." }
+  },
+  {
+    "id": "L4-0455",
+    "vi": ["cay"],
+    "viAliases": ["cay nồng"],
+    "en": ["hot (spicy)", "pungent"],
+    "enSource": "cedict",
+    "example": { "zh": "这个菜太辣了，我不能吃。", "vi": "Món này cay quá, tôi không ăn được.", "en": "This dish is too spicy, I can't eat it." }
+  },
+  {
+    "id": "L4-0456",
+    "vi": ["không kịp"],
+    "viAliases": ["không còn kịp", "quá muộn"],
+    "en": ["there's not enough time (to do sth); it's too late"],
+    "enSource": "cedict",
+    "example": { "zh": "现在去已经来不及了。", "vi": "Bây giờ đi thì đã không kịp rồi.", "en": "It's already too late to go now." }
+  },
+  {
+    "id": "L4-0457",
+    "vi": ["còn kịp", "kịp"],
+    "viAliases": ["vẫn kịp"],
+    "en": ["to have enough time; can do it in time; can still make it"],
+    "enSource": "cedict",
+    "example": { "zh": "别急，我们还来得及。", "vi": "Đừng vội, chúng ta vẫn còn kịp.", "en": "Don't rush, we can still make it." }
+  },
+  {
+    "id": "L4-0458",
+    "vi": ["nguồn", "nguồn gốc"],
+    "viAliases": ["xuất xứ"],
+    "en": ["source (of information etc)", "origin"],
+    "enSource": "cedict",
+    "example": { "zh": "这个消息的来源是哪里？", "vi": "Nguồn của tin này là ở đâu?", "en": "Where is the source of this news?" }
+  },
+  {
+    "id": "L4-0459",
+    "vi": ["chồng"],
+    "viAliases": ["ông xã", "anh xã"],
+    "en": ["(coll.) husband"],
+    "enSource": "cedict",
+    "example": { "zh": "我老公每天都做饭。", "vi": "Chồng tôi ngày nào cũng nấu cơm.", "en": "My husband cooks every day." }
+  },
+  {
+    "id": "L4-0460",
+    "vi": ["quê", "quê nhà"],
+    "viAliases": ["quê hương", "quê quán"],
+    "en": ["native place", "place of origin"],
+    "enSource": "cedict",
+    "example": { "zh": "春节我要回老家看父母。", "vi": "Tết tôi sẽ về quê thăm bố mẹ.", "en": "I'm going back to my hometown to see my parents for Spring Festival." }
+  },
+  {
+    "id": "L4-0461",
+    "vi": ["vợ"],
+    "viAliases": ["bà xã"],
+    "en": ["(coll.) wife"],
+    "enSource": "cedict",
+    "example": { "zh": "我老婆做的菜很好吃。", "vi": "Món vợ tôi nấu rất ngon.", "en": "The food my wife cooks is delicious." }
+  },
+  {
+    "id": "L4-0462",
+    "vi": ["thật thà", "ngoan ngoãn", "khờ khạo"],
+    "viAliases": ["thành thật", "chất phác"],
+    "en": ["honest; sincere", "well-behaved", "naive; gullible"],
+    "enSource": "cedict",
+    "example": { "zh": "他是个老实人，从来不骗人。", "vi": "Anh ấy là người thật thà, chưa bao giờ lừa ai.", "en": "He is an honest person and never deceives anyone." }
+  },
+  {
+    "id": "L4-0463",
+    "vi": ["niềm vui", "thú vui"],
+    "viAliases": ["sự thú vị", "hứng thú"],
+    "en": ["delight; pleasure; joy"],
+    "enSource": "cedict",
+    "example": { "zh": "读书是我生活中的乐趣。", "vi": "Đọc sách là niềm vui trong cuộc sống của tôi.", "en": "Reading is a pleasure in my life." }
+  },
+  {
+    "id": "L4-0464",
+    "vi": ["nước mắt", "lệ"],
+    "viAliases": ["giọt lệ"],
+    "en": ["(bound form) tears; teardrops"],
+    "enSource": "cedict",
+    "example": { "zh": "她眼里有泪，但是没哭。", "vi": "Trong mắt cô ấy có nước mắt, nhưng không khóc.", "en": "There were tears in her eyes, but she didn't cry." }
+  },
+  {
+    "id": "L4-0465",
+    "vi": ["nước mắt"],
+    "viAliases": ["lệ", "giọt lệ"],
+    "en": ["teardrop", "tears"],
+    "enSource": "cedict",
+    "example": { "zh": "听到这话，她的泪水流了下来。", "vi": "Nghe câu này, nước mắt cô ấy tuôn rơi.", "en": "Hearing this, her tears streamed down." }
+  },
+  {
+    "id": "L4-0466",
+    "vi": ["loại hình", "kiểu", "loại"],
+    "viAliases": ["thể loại", "dạng"],
+    "en": ["type; kind; category"],
+    "enSource": "cedict",
+    "example": { "zh": "你喜欢什么类型的电影？", "vi": "Bạn thích thể loại phim gì?", "en": "What type of movies do you like?" }
+  },
+  {
+    "id": "L4-0467",
+    "vi": ["bình tĩnh", "điềm tĩnh"],
+    "viAliases": ["tỉnh táo", "trầm tĩnh"],
+    "en": ["calm; cool-headed; dispassionate"],
+    "enSource": "cedict",
+    "example": { "zh": "遇到问题的时候要冷静。", "vi": "Khi gặp vấn đề phải bình tĩnh.", "en": "When you run into a problem, you need to stay calm." }
+  },
+  {
+    "id": "L4-0468",
+    "vi": ["xen-ti-mét", "cm"],
+    "viAliases": ["phân"],
+    "en": ["centimeter"],
+    "enSource": "cedict",
+    "example": { "zh": "这张桌子长一百厘米。", "vi": "Cái bàn này dài một trăm xen-ti-mét.", "en": "This table is one hundred centimeters long." }
+  },
+  {
+    "id": "L4-0469",
+    "vi": ["không thể rời", "không thể thiếu"],
+    "viAliases": ["gắn liền với", "không tách rời"],
+    "en": ["inseparable", "inevitably linked to"],
+    "enSource": "cedict",
+    "example": { "zh": "现在的人离不开手机。", "vi": "Người thời nay không thể rời điện thoại.", "en": "People nowadays can't do without their phones." }
+  },
+  {
+    "id": "L4-0470",
+    "vi": ["sức lực", "sức"],
+    "viAliases": ["sức mạnh", "hơi sức"],
+    "en": ["physical strength"],
+    "enSource": "cedict",
+    "example": { "zh": "他力气很大，能搬这张桌子。", "vi": "Anh ấy rất khỏe, có thể khiêng cái bàn này.", "en": "He is very strong and can carry this table." }
+  },
+  {
+    "id": "L4-0471",
+    "vi": ["lịch sử"],
+    "viAliases": ["sử"],
+    "en": ["history"],
+    "enSource": "cedict",
+    "example": { "zh": "我对中国历史很感兴趣。", "vi": "Tôi rất hứng thú với lịch sử Trung Quốc.", "en": "I am very interested in Chinese history." }
+  },
+  {
+    "id": "L4-0472",
+    "vi": ["lập tức", "ngay lập tức"],
+    "viAliases": ["ngay", "tức khắc"],
+    "en": ["immediately"],
+    "enSource": "cedict",
+    "example": { "zh": "收到消息后，他立即出发了。", "vi": "Sau khi nhận được tin, anh ấy lập tức lên đường.", "en": "After receiving the news, he set off immediately." }
+  },
+  {
+    "id": "L4-0473",
+    "vi": ["lãi", "tiền lãi"],
+    "viAliases": ["lợi tức"],
+    "en": ["interest (on a loan)"],
+    "enSource": "cedict",
+    "example": { "zh": "把钱存在银行有利息。", "vi": "Gửi tiền ở ngân hàng thì có lãi.", "en": "Depositing money in the bank earns interest." }
+  },
+  {
+    "id": "L4-0474",
+    "vi": ["lợi ích", "quyền lợi"],
+    "viAliases": ["lợi lộc", "ích lợi"],
+    "en": ["benefit", "(in sb's) interest"],
+    "enSource": "cedict",
+    "example": { "zh": "我们要考虑大家的利益。", "vi": "Chúng ta phải cân nhắc lợi ích của mọi người.", "en": "We must consider everyone's interests." }
+  },
+  {
+    "id": "L4-0475",
+    "vi": ["hai (người, cái)", "cả hai"],
+    "viAliases": ["hai đứa", "đôi"],
+    "en": ["two (colloquial equivalent of 兩個/两个)", "both"],
+    "enSource": "cedict",
+    "example": { "zh": "我们俩是好朋友。", "vi": "Hai chúng tôi là bạn tốt.", "en": "The two of us are good friends." }
+  },
+  {
+    "id": "L4-0476",
+    "vi": ["tốt", "tốt đẹp"],
+    "viAliases": ["tốt lành", "khả quan"],
+    "en": ["good", "favorable", "fine"],
+    "enSource": "cedict",
+    "example": { "zh": "他有良好的学习习惯。", "vi": "Anh ấy có thói quen học tập tốt.", "en": "He has good study habits." }
+  },
+  {
+    "id": "L4-0477",
+    "vi": ["đo", "đo lường"],
+    "viAliases": ["đo đạc"],
+    "en": ["to measure"],
+    "enSource": "cedict",
+    "example": { "zh": "请帮我量一下身高。", "vi": "Hãy đo chiều cao giúp tôi.", "en": "Please measure my height for me." }
+  },
+  {
+    "id": "L4-0478",
+    "vi": ["lương thực", "ngũ cốc"],
+    "viAliases": ["thóc gạo", "lúa gạo"],
+    "en": ["foodstuff", "cereals"],
+    "enSource": "cedict",
+    "example": { "zh": "我们要节约粮食。", "vi": "Chúng ta phải tiết kiệm lương thực.", "en": "We must save food." }
+  },
+  {
+    "id": "L4-0479",
+    "vi": ["hai bên", "hai phía"],
+    "viAliases": ["đôi bên", "cả hai bên"],
+    "en": ["either side; both sides"],
+    "enSource": "cedict",
+    "example": { "zh": "路的两边都是树。", "vi": "Hai bên đường đều là cây.", "en": "There are trees on both sides of the road." }
+  },
+  {
+    "id": "L4-0480",
+    "vi": ["điều dưỡng", "an dưỡng"],
+    "viAliases": ["dưỡng bệnh", "tĩnh dưỡng"],
+    "en": ["to recuperate", "to convalesce"],
+    "enSource": "cedict",
+    "example": { "zh": "医生让他去海边疗养。", "vi": "Bác sĩ bảo anh ấy đi an dưỡng ở bờ biển.", "en": "The doctor told him to go to the seaside to recuperate." }
+  },
+  {
+    "id": "L4-0481",
+    "vi": ["tuyệt vời", "giỏi giang", "phi thường"],
+    "viAliases": ["xuất sắc", "ghê gớm"],
+    "en": ["amazing", "terrific", "extraordinary"],
+    "enSource": "cedict",
+    "example": { "zh": "他能说五种语言，真了不起！", "vi": "Anh ấy nói được năm thứ tiếng, thật tuyệt vời!", "en": "He can speak five languages, that's amazing!" }
+  },
+  {
+    "id": "L4-0482",
+    "vi": ["hiểu rõ", "tìm hiểu"],
+    "viAliases": ["nắm rõ", "am hiểu"],
+    "en": ["to understand; to know about", "to learn about; to find out"],
+    "enSource": "cedict",
+    "example": { "zh": "我很了解他的性格。", "vi": "Tôi rất hiểu tính cách của anh ấy.", "en": "I understand his personality very well." }
+  },
+  {
+    "id": "L4-0483",
+    "vi": ["liệt kê", "xếp thành hàng", "đoàn (lượng từ cho tàu)"],
+    "viAliases": ["kê ra", "sắp xếp"],
+    "en": ["to arrange", "to line up", "file"],
+    "enSource": "cedict",
+    "example": { "zh": "请把要买的东西列出来。", "vi": "Hãy liệt kê những thứ cần mua ra.", "en": "Please list the things you need to buy." }
+  },
+  {
+    "id": "L4-0484",
+    "vi": ["đoàn tàu", "tàu hỏa"],
+    "viAliases": ["xe lửa", "tàu"],
+    "en": ["(railway) train"],
+    "enSource": "cedict",
+    "example": { "zh": "列车马上就要开了。", "vi": "Đoàn tàu sắp chạy rồi.", "en": "The train is about to leave." }
+  },
+  {
+    "id": "L4-0485",
+    "vi": ["đưa vào (danh sách)", "liệt vào"],
+    "viAliases": ["xếp vào"],
+    "en": ["to include on a list"],
+    "enSource": "cedict",
+    "example": { "zh": "这个问题已经列入计划。", "vi": "Vấn đề này đã được đưa vào kế hoạch.", "en": "This issue has already been included in the plan." }
+  },
+  {
+    "id": "L4-0486",
+    "vi": ["được xếp là", "được liệt vào loại"],
+    "viAliases": ["xếp vào", "coi là"],
+    "en": ["to be classified as"],
+    "enSource": "cedict",
+    "example": { "zh": "这个公园被列为国家公园。", "vi": "Công viên này được xếp là công viên quốc gia.", "en": "This park has been classified as a national park." }
+  },
+  {
+    "id": "L4-0487",
+    "vi": ["tạm thời", "lâm thời", "đột xuất"],
+    "viAliases": ["tạm", "bất ngờ"],
+    "en": ["temporary", "at the last moment", "interim"],
+    "enSource": "cedict",
+    "example": { "zh": "他临时有事，不能来了。", "vi": "Anh ấy đột xuất có việc, không đến được nữa.", "en": "Something came up for him at the last moment, so he can't come." }
+  },
+  {
+    "id": "L4-0488",
+    "vi": ["đồ ăn vặt", "quà vặt"],
+    "viAliases": ["snack", "đồ ăn nhẹ"],
+    "en": ["snack; nibbles"],
+    "enSource": "cedict",
+    "example": { "zh": "孩子们都喜欢吃零食。", "vi": "Bọn trẻ đều thích ăn đồ ăn vặt.", "en": "Kids all like to eat snacks." }
+  },
+  {
+    "id": "L4-0489",
+    "vi": ["lưu truyền", "truyền bá"],
+    "viAliases": ["lan truyền", "truyền lại"],
+    "en": ["to spread; to circulate; to hand down"],
+    "enSource": "cedict",
+    "example": { "zh": "这个故事流传了几百年。", "vi": "Câu chuyện này đã được lưu truyền mấy trăm năm.", "en": "This story has been passed down for hundreds of years." }
+  },
+  {
+    "id": "L4-0490",
+    "vi": ["cầu thang"],
+    "viAliases": ["thang gác", "bậc thang"],
+    "en": ["stair", "staircase"],
+    "enSource": "cedict",
+    "example": { "zh": "电梯坏了，我们走楼梯吧。", "vi": "Thang máy hỏng rồi, chúng ta đi cầu thang bộ nhé.", "en": "The elevator is broken, let's take the stairs." }
+  },
+  {
+    "id": "L4-0491",
+    "vi": ["đất liền", "lục địa"],
+    "viAliases": ["đất", "bờ"],
+    "en": ["dry land (as opposed to the sea)"],
+    "enSource": "cedict",
+    "example": { "zh": "我们终于看到陆地了。", "vi": "Cuối cùng chúng tôi cũng nhìn thấy đất liền.", "en": "We finally saw land." }
+  },
+  {
+    "id": "L4-0492",
+    "vi": ["lần lượt", "liên tiếp", "lục tục"],
+    "viAliases": ["nối tiếp nhau", "dần dần"],
+    "en": ["successively", "one after the other"],
+    "enSource": "cedict",
+    "example": { "zh": "客人们陆续到了。", "vi": "Các vị khách lần lượt đến.", "en": "The guests arrived one after another." }
+  },
+  {
+    "id": "L4-0493",
+    "vi": ["tuyển", "nhận vào (trường)"],
+    "viAliases": ["trúng tuyển", "tuyển chọn"],
+    "en": ["to admit (a student)", "to hire (a job candidate)"],
+    "enSource": "cedict",
+    "example": { "zh": "她被北京大学录取了。", "vi": "Cô ấy đã được Đại học Bắc Kinh nhận vào.", "en": "She was admitted to Peking University." }
+  },
+  {
+    "id": "L4-0494",
+    "vi": ["luật sư"],
+    "viAliases": ["trạng sư"],
+    "en": ["lawyer"],
+    "enSource": "cedict",
+    "example": { "zh": "我哥哥是一名律师。", "vi": "Anh trai tôi là một luật sư.", "en": "My older brother is a lawyer." }
+  },
+  {
+    "id": "L4-0495",
+    "vi": ["bánh xe", "luân phiên", "vòng (lượt)"],
+    "viAliases": ["đến lượt", "lượt"],
+    "en": ["wheel; disk; ring", "to take turns; to rotate", "classifier for big round objects: disk, or recurring events: round, turn"],
+    "enSource": "cedict",
+    "example": { "zh": "今天轮到我做饭了。", "vi": "Hôm nay đến lượt tôi nấu cơm.", "en": "Today it's my turn to cook." }
+  }
+]

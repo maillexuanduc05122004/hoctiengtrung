@@ -1,0 +1,738 @@
+[
+  {
+    "id": "L4-0001",
+    "simplified": "阿姨",
+    "pinyin": "ā yí",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "maternal aunt",
+      "step-mother",
+      "childcare worker",
+      "nursemaid",
+      "woman of similar age to one's parents (term of address used by child)",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0002",
+    "simplified": "啊",
+    "pinyin": "ā",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Intj"
+    ],
+    "cedictDefinitions": [
+      "interjection of surprise",
+      "Ah!",
+      "Oh!"
+    ],
+    "siblings": [
+      {
+        "id": "L2-0001",
+        "pinyin": "a",
+        "partOfSpeech": [
+          "Aux"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0003",
+    "simplified": "矮",
+    "pinyin": "ǎi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "(of a person) short",
+      "(of a wall etc) low",
+      "(of rank) inferior (to); lower (than)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0004",
+    "simplified": "矮小",
+    "pinyin": "ǎi xiǎo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "short and small",
+      "low and small",
+      "undersized"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0005",
+    "simplified": "爱国",
+    "traditional": "愛國",
+    "pinyin": "ài guó",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to love one's country",
+      "patriotic"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0006",
+    "simplified": "爱护",
+    "traditional": "愛護",
+    "pinyin": "ài hù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to cherish",
+      "to treasure",
+      "to take care of",
+      "to love and protect"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0007",
+    "simplified": "安",
+    "pinyin": "ān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "(bound form) calm; peaceful",
+      "to calm; to set at ease",
+      "safe; secure; in good health",
+      "content; satisfied (as in 安於/安于)",
+      "to place (sb) in a suitable position (job)",
+      "to install; to fix; to fit",
+      "to bring (a charge against sb)",
+      "to harbor (certain intentions)",
+      "ampere (abbr. for 安培)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0008",
+    "simplified": "安置",
+    "pinyin": "ān zhì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to find a place for",
+      "to help settle down",
+      "to arrange for",
+      "to get into bed",
+      "placement"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0009",
+    "simplified": "按时",
+    "traditional": "按時",
+    "pinyin": "àn shí",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "on time",
+      "before deadline",
+      "on schedule"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0010",
+    "simplified": "暗",
+    "pinyin": "àn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "dark",
+      "to turn dark",
+      "secret; hidden",
+      "(literary) confused; ignorant"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0011",
+    "simplified": "暗示",
+    "pinyin": "àn shì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to hint; to suggest",
+      "hint; suggestion"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0012",
+    "simplified": "巴士",
+    "pinyin": "bā shì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "bus (loanword)",
+      "motor coach"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0013",
+    "simplified": "百货",
+    "traditional": "百貨",
+    "pinyin": "bǎi huò",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "general merchandise"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0014",
+    "simplified": "摆",
+    "traditional": "擺",
+    "pinyin": "bǎi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to arrange",
+      "to exhibit",
+      "to move to and fro",
+      "a pendulum"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0015",
+    "simplified": "摆动",
+    "traditional": "擺動",
+    "pinyin": "bǎi dòng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to sway",
+      "to swing",
+      "to move back and forth",
+      "to oscillate"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0016",
+    "simplified": "摆脱",
+    "traditional": "擺脫",
+    "pinyin": "bǎi tuō",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to break away from",
+      "to cast off (old ideas etc)",
+      "to get rid of",
+      "to break away (from)",
+      "to break out (of)",
+      "to free oneself from",
+      "to extricate oneself"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0017",
+    "simplified": "败",
+    "traditional": "敗",
+    "pinyin": "bài",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to defeat",
+      "to damage",
+      "to lose (to an opponent)",
+      "to fail",
+      "to wither"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0018",
+    "simplified": "办事",
+    "traditional": "辦事",
+    "pinyin": "bàn shì",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to handle (affairs)",
+      "to work"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0019",
+    "simplified": "包裹",
+    "pinyin": "bāo guǒ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to wrap up",
+      "to bind up",
+      "bundle",
+      "parcel",
+      "package",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0020",
+    "simplified": "包含",
+    "pinyin": "bāo hán",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to contain",
+      "to embody",
+      "to include"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0021",
+    "simplified": "包括",
+    "pinyin": "bāo kuò",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to comprise",
+      "to include",
+      "to involve",
+      "to incorporate",
+      "to consist of"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0022",
+    "simplified": "薄",
+    "pinyin": "báo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "thin",
+      "cold in manner",
+      "indifferent",
+      "weak",
+      "light",
+      "infertile"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0023",
+    "simplified": "宝",
+    "traditional": "寶",
+    "pinyin": "bǎo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "jewel",
+      "gem",
+      "treasure",
+      "precious"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0024",
+    "simplified": "宝宝",
+    "traditional": "寶寶",
+    "pinyin": "bǎo bao",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "darling; baby"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0025",
+    "simplified": "宝贝",
+    "traditional": "寶貝",
+    "pinyin": "bǎo bèi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "treasured object",
+      "treasure",
+      "darling",
+      "baby",
+      "cowry",
+      "good-for-nothing or queer character"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0026",
+    "simplified": "宝贵",
+    "traditional": "寶貴",
+    "pinyin": "bǎo guì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "valuable",
+      "precious",
+      "to value",
+      "to treasure",
+      "to set store by"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0027",
+    "simplified": "宝石",
+    "traditional": "寶石",
+    "pinyin": "bǎo shí",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "precious stone; gem",
+      "CL:枚,顆/颗"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0028",
+    "simplified": "保密",
+    "pinyin": "bǎo mì",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to keep sth confidential",
+      "to maintain secrecy"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0029",
+    "simplified": "保守",
+    "pinyin": "bǎo shǒu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "conservative",
+      "to guard",
+      "to keep"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0030",
+    "simplified": "抱",
+    "pinyin": "bào",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to hold",
+      "to carry (in one's arms)",
+      "to hug",
+      "to embrace",
+      "to surround",
+      "to cherish",
+      "(coll.) (of clothes) to fit nicely"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0031",
+    "simplified": "背景",
+    "pinyin": "bèi jǐng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "background; backdrop; context",
+      "(fig.) powerful backer"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0032",
+    "simplified": "倍",
+    "pinyin": "bèi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "(two, three etc) -fold",
+      "times (multiplier)",
+      "double",
+      "to increase or multiply"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0033",
+    "simplified": "被迫",
+    "pinyin": "bèi pò",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to be compelled; to be forced"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0034",
+    "simplified": "本科",
+    "pinyin": "běn kē",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "undergraduate course",
+      "undergraduate (attributive)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0035",
+    "simplified": "笨",
+    "pinyin": "bèn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "stupid",
+      "foolish",
+      "silly",
+      "slow-witted",
+      "clumsy"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0036",
+    "simplified": "比分",
+    "pinyin": "bǐ fēn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "score (of a game or competition)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0037",
+    "simplified": "毕业",
+    "traditional": "畢業",
+    "pinyin": "bì yè",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "graduation",
+      "to graduate",
+      "to finish school"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0038",
+    "simplified": "毕业生",
+    "traditional": "畢業生",
+    "pinyin": "bì yè shēng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "graduate"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0039",
+    "simplified": "避",
+    "pinyin": "bì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to avoid",
+      "to shun",
+      "to flee",
+      "to escape",
+      "to keep away from",
+      "to leave",
+      "to hide from"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0040",
+    "simplified": "避免",
+    "pinyin": "bì miǎn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to avert",
+      "to prevent",
+      "to avoid",
+      "to refrain from"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0041",
+    "simplified": "编",
+    "traditional": "編",
+    "pinyin": "biān",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to weave",
+      "to plait",
+      "to organize",
+      "to group",
+      "to arrange",
+      "to edit",
+      "to compile",
+      "to write",
+      "to compose",
+      "to fabricate",
+      "to make up"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0042",
+    "simplified": "辩论",
+    "traditional": "辯論",
+    "pinyin": "biàn lùn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "debate",
+      "argument",
+      "to argue over",
+      "CL:場/场,次"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0043",
+    "simplified": "标志",
+    "traditional": "標誌",
+    "pinyin": "biāo zhì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "sign; mark; symbol; logo",
+      "to symbolize; to indicate; to mark"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0044",
+    "simplified": "表情",
+    "pinyin": "biǎo qíng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(facial) expression",
+      "to express one's feelings"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0045",
+    "simplified": "表扬",
+    "traditional": "表揚",
+    "pinyin": "biǎo yáng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to praise",
+      "to commend"
+    ],
+    "needsEnglish": false
+  }
+]

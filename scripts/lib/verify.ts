@@ -2,7 +2,14 @@
  * Bộ kiểm tra dữ liệu sau khi nhập. Tách riêng khỏi phần đọc tệp để chạy được
  * trong Vitest với dữ liệu dựng sẵn.
  */
-import type { DatasetManifest, LevelDataFile, VocabularyWord } from '../../src/types/vocabulary.ts';
+import {
+  HSK_LEVELS,
+  isHskLevel,
+  type DatasetManifest,
+  type HskLevel,
+  type LevelDataFile,
+  type VocabularyWord,
+} from '../../src/types/vocabulary.ts';
 
 export interface CheckResult {
   name: string;
@@ -10,9 +17,11 @@ export interface CheckResult {
   detail: string;
 }
 
-/** Tổng số từ HSK 3.0 cấp 1-3 theo danh sách chính thức công bố năm 2021. */
-export const EXPECTED_TOTAL = 2245;
-export const EXPECTED_PER_LEVEL: Record<1 | 2 | 3, number> = { 1: 500, 2: 772, 3: 973 };
+/** Số từ từng cấp HSK 3.0 theo danh sách chính thức công bố năm 2021. */
+export const EXPECTED_PER_LEVEL: Record<HskLevel, number> = { 1: 500, 2: 772, 3: 973, 4: 1000 };
+
+/** Tổng số từ của mọi cấp trong `HSK_LEVELS`, suy ra từ bảng trên. */
+export const EXPECTED_TOTAL: number = HSK_LEVELS.reduce((sum, level) => sum + EXPECTED_PER_LEVEL[level], 0);
 
 /** Sai lệch cho phép so với tổng số từ mong đợi. */
 const TOLERANCE = 5;
@@ -36,18 +45,30 @@ export function verifyDataset(
   const results: CheckResult[] = [];
   const words: VocabularyWord[] = files.flatMap((f) => f.words);
 
-  // 1. Tổng số từ
+  // 1. Đủ mọi cấp và tổng số từ
+  const presentLevels = files.map((f) => f.level);
+  const missingLevels = HSK_LEVELS.filter((level) => !presentLevels.includes(level));
+  results.push(
+    check(
+      'Đủ các cấp HSK',
+      missingLevels.length === 0,
+      missingLevels.length === 0
+        ? `cấp ${HSK_LEVELS.join(', ')}`
+        : `thiếu cấp ${missingLevels.join(', ')}`,
+    ),
+  );
+
   const diff = Math.abs(words.length - EXPECTED_TOTAL);
   results.push(
     check(
-      'Tổng số từ cấp 1-3',
+      'Tổng số từ',
       diff <= TOLERANCE,
       `${words.length} từ (mong đợi khoảng ${EXPECTED_TOTAL})`,
     ),
   );
 
   // 2. Số từ từng cấp
-  for (const level of [1, 2, 3] as const) {
+  for (const level of HSK_LEVELS) {
     const count = words.filter((w) => w.hskLevel === level).length;
     results.push(
       check(
@@ -82,7 +103,7 @@ export function verifyDataset(
   results.push(check('Không thiếu pinyin không dấu', missingPlain.length === 0, list(missingPlain) || 'đủ'));
 
   // 6. Không thiếu cấp HSK
-  const badLevel = words.filter((w) => ![1, 2, 3].includes(w.hskLevel)).map((w) => w.id);
+  const badLevel = words.filter((w) => !isHskLevel(w.hskLevel)).map((w) => w.id);
   results.push(check('Không thiếu cấp HSK', badLevel.length === 0, list(badLevel) || 'đủ'));
 
   // 7. Mọi từ phải có nghĩa tiếng Anh

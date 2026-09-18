@@ -1,0 +1,700 @@
+[
+  {
+    "id": "L4-0496",
+    "simplified": "轮船",
+    "traditional": "輪船",
+    "pinyin": "lún chuán",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "steamship; steamer; steamboat",
+      "CL:艘"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0497",
+    "simplified": "轮椅",
+    "traditional": "輪椅",
+    "pinyin": "lún yǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "wheelchair"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0498",
+    "simplified": "轮子",
+    "traditional": "輪子",
+    "pinyin": "lún zi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "wheel",
+      "(derog.) Falun Gong practitioner",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0499",
+    "simplified": "论文",
+    "traditional": "論文",
+    "pinyin": "lùn wén",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "paper",
+      "treatise",
+      "thesis",
+      "CL:篇",
+      "to discuss a paper or thesis (old)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0500",
+    "simplified": "落",
+    "pinyin": "luò",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to fall or drop",
+      "(of the sun) to set",
+      "(of a tide) to go out",
+      "to lower",
+      "to decline or sink",
+      "to lag or fall behind",
+      "to fall onto",
+      "to rest with",
+      "to get or receive",
+      "to write down",
+      "whereabouts",
+      "settlement"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0501",
+    "simplified": "毛巾",
+    "pinyin": "máo jīn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "towel",
+      "CL:條/条"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0502",
+    "simplified": "毛衣",
+    "pinyin": "máo yī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(wool) sweater",
+      "CL:件"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0503",
+    "simplified": "帽子",
+    "pinyin": "mào zi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "hat",
+      "cap",
+      "(fig.) label",
+      "bad name",
+      "CL:頂/顶"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0504",
+    "simplified": "没错",
+    "traditional": "沒錯",
+    "pinyin": "méi cuò",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "that's right",
+      "sure!",
+      "rest assured!",
+      "that's good",
+      "can't go wrong"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0505",
+    "simplified": "没法儿",
+    "traditional": "沒法兒",
+    "pinyin": "méi fǎr",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "(coll.) can't do anything about it",
+      "(coll.) there's no way that ...; it's simply not credible that ...",
+      "(coll.) couldn't be (better) (i.e. simply wonderful)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0506",
+    "simplified": "没想到",
+    "traditional": "沒想到",
+    "pinyin": "méi xiǎng dào",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "didn't expect"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0507",
+    "simplified": "美金",
+    "pinyin": "měi jīn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "American dollar; US dollar"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0508",
+    "simplified": "美女",
+    "pinyin": "měi nǚ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "beautiful woman"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0509",
+    "simplified": "梦",
+    "traditional": "夢",
+    "pinyin": "mèng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "dream (CL:場/场)",
+      "(bound form) to dream"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0510",
+    "simplified": "梦见",
+    "traditional": "夢見",
+    "pinyin": "mèng jiàn",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to dream about (sth or sb)",
+      "to see in a dream"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0511",
+    "simplified": "梦想",
+    "traditional": "夢想",
+    "pinyin": "mèng xiǎng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(fig.) to dream of",
+      "dream"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0512",
+    "simplified": "秘密",
+    "pinyin": "mì mì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "secret; private; confidential; clandestine",
+      "a secret"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0513",
+    "simplified": "秘书",
+    "traditional": "秘書",
+    "pinyin": "mì shū",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "secretary"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0514",
+    "simplified": "密",
+    "pinyin": "mì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "dense; close; thick",
+      "intimate; close",
+      "(bound form) secret; confidential",
+      "(Internet slang) to send a private message to (sb); to DM"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0515",
+    "simplified": "密码",
+    "traditional": "密碼",
+    "pinyin": "mì mǎ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "cipher; secret code",
+      "password; PIN"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0516",
+    "simplified": "密切",
+    "pinyin": "mì qiè",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "close; intimate",
+      "to strengthen (ties, cooperation etc)",
+      "closely; intently; carefully",
+      "(math.) to osculate"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0517",
+    "simplified": "免费",
+    "traditional": "免費",
+    "pinyin": "miǎn fèi",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "free (of charge)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0518",
+    "simplified": "面临",
+    "traditional": "面臨",
+    "pinyin": "miàn lín",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to face sth; to be confronted with"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0519",
+    "simplified": "面试",
+    "traditional": "面試",
+    "pinyin": "miàn shì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to be interviewed (as a candidate)",
+      "interview"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0520",
+    "simplified": "描述",
+    "pinyin": "miáo shù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to describe",
+      "description"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0521",
+    "simplified": "描写",
+    "traditional": "描寫",
+    "pinyin": "miáo xiě",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to describe; to depict; to portray",
+      "depiction; portrayal"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0522",
+    "simplified": "名牌儿",
+    "traditional": "名牌兒",
+    "pinyin": "míng páir",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "erhua form of 名牌"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0523",
+    "simplified": "名片",
+    "pinyin": "míng piàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(business) card"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0524",
+    "simplified": "名人",
+    "pinyin": "míng rén",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "personage",
+      "celebrity"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0525",
+    "simplified": "摸",
+    "pinyin": "mō",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to feel with the hand",
+      "to touch",
+      "to stroke",
+      "to grope",
+      "to steal",
+      "to abstract"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0526",
+    "simplified": "模特儿",
+    "traditional": "模特兒",
+    "pinyin": "mó tèr",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "(fashion) model (loanword)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0527",
+    "simplified": "模型",
+    "pinyin": "mó xíng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "model",
+      "mold",
+      "matrix",
+      "pattern"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0528",
+    "simplified": "末",
+    "pinyin": "mò",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "tip",
+      "end",
+      "final stage",
+      "latter part",
+      "inessential detail",
+      "powder",
+      "dust",
+      "opera role of old man"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0529",
+    "simplified": "默默",
+    "pinyin": "mò mò",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "in silence; not speaking"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0530",
+    "simplified": "哪怕",
+    "pinyin": "nǎ pà",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "even",
+      "even if",
+      "even though",
+      "no matter how"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0531",
+    "simplified": "哪",
+    "pinyin": "na",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Aux"
+    ],
+    "cedictDefinitions": [
+      "(emphatic sentence-final particle, used instead of 啊 after a word ending in \"n\")"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0250",
+        "pinyin": "nǎ",
+        "partOfSpeech": [
+          "Pron"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0532",
+    "simplified": "男女",
+    "pinyin": "nán nǚ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "male-female",
+      "male and female"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0533",
+    "simplified": "男士",
+    "pinyin": "nán shì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "man",
+      "gentleman"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0534",
+    "simplified": "难免",
+    "traditional": "難免",
+    "pinyin": "nán miǎn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "hard to avoid",
+      "difficult to escape from",
+      "will inevitably"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0535",
+    "simplified": "脑袋",
+    "traditional": "腦袋",
+    "pinyin": "nǎo dai",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "head",
+      "skull",
+      "brains",
+      "mental capability",
+      "CL:顆/颗,個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0536",
+    "simplified": "闹",
+    "traditional": "鬧",
+    "pinyin": "nào",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "noisy",
+      "cacophonous",
+      "to make noise",
+      "to disturb",
+      "to vent (feelings)",
+      "to fall ill",
+      "to have an attack (of sickness)",
+      "to go in (for some activity)",
+      "to joke"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0537",
+    "simplified": "闹钟",
+    "traditional": "鬧鐘",
+    "pinyin": "nào zhōng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "alarm clock"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0538",
+    "simplified": "内部",
+    "traditional": "內部",
+    "pinyin": "nèi bù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "interior",
+      "inside (part, section)",
+      "internal"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0539",
+    "simplified": "内科",
+    "traditional": "內科",
+    "pinyin": "nèi kē",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "internal medicine; general medicine"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0540",
+    "simplified": "能干",
+    "traditional": "能幹",
+    "pinyin": "néng gàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "capable",
+      "competent"
+    ],
+    "needsEnglish": false
+  }
+]

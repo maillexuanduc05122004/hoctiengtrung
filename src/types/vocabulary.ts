@@ -1,5 +1,17 @@
 /** Cấp độ HSK 3.0 mà ứng dụng hỗ trợ trong phiên bản này. */
-export type HskLevel = 1 | 2 | 3;
+export type HskLevel = 1 | 2 | 3 | 4;
+
+/**
+ * Mọi cấp đang có dữ liệu, theo thứ tự tăng dần. Đây là chỗ DUY NHẤT liệt kê
+ * các cấp: thêm cấp mới thì sửa kiểu `HskLevel` và mảng này, còn mọi bộ lọc,
+ * bảng chọn cấp và bước kiểm tra dữ liệu đều lấy từ đây.
+ */
+export const HSK_LEVELS: readonly HskLevel[] = [1, 2, 3, 4];
+
+/** Giá trị lạ (từ địa chỉ, IndexedDB, tệp sao lưu) có phải là một cấp HSK hợp lệ không. */
+export function isHskLevel(value: unknown): value is HskLevel {
+  return HSK_LEVELS.some((level) => level === value);
+}
 
 /** Nghĩa tiếng Việt đến từ bản dịch máy hay đã được người kiểm duyệt. */
 export type TranslationStatus = 'reviewed' | 'machine';

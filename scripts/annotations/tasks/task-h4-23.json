@@ -1,0 +1,165 @@
+[
+  {
+    "id": "L4-0991",
+    "simplified": "总共",
+    "traditional": "總共",
+    "pinyin": "zǒng gòng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "altogether; in sum; in all; in total"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0992",
+    "simplified": "总理",
+    "traditional": "總理",
+    "pinyin": "zǒng lǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "premier",
+      "prime minister",
+      "CL:個/个,位,名"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0993",
+    "simplified": "总统",
+    "traditional": "總統",
+    "pinyin": "zǒng tǒng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "president (of a country)",
+      "CL:個/个,位,名,屆/届"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0994",
+    "simplified": "总之",
+    "traditional": "總之",
+    "pinyin": "zǒng zhī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Conj"
+    ],
+    "cedictDefinitions": [
+      "in a word",
+      "in short",
+      "in brief"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0995",
+    "simplified": "阻止",
+    "pinyin": "zǔ zhǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to prevent",
+      "to block"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0996",
+    "simplified": "嘴巴",
+    "pinyin": "zuǐ ba",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "mouth (CL:張/张)",
+      "slap in the face"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0997",
+    "simplified": "最初",
+    "pinyin": "zuì chū",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "first",
+      "primary",
+      "initial",
+      "original",
+      "at first",
+      "initially",
+      "originally"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0998",
+    "simplified": "作出",
+    "pinyin": "zuò chū",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to put out",
+      "to come up with",
+      "to make (a choice, decision, proposal, response, comment etc)",
+      "to issue (a permit, statement, explanation, apology, reassurance to the public etc)",
+      "to draw (conclusion)",
+      "to deliver (speech, judgment)",
+      "to devise (explanation)",
+      "to extract"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0999",
+    "simplified": "作为",
+    "traditional": "作為",
+    "pinyin": "zuò wéi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Prep",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "one's conduct",
+      "deed",
+      "activity",
+      "accomplishment",
+      "achievement",
+      "to act as",
+      "as (in the capacity of)",
+      "qua",
+      "to view as",
+      "to look upon (sth as)",
+      "to take sth to be"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-1000",
+    "simplified": "做梦",
+    "traditional": "做夢",
+    "pinyin": "zuò mèng",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to dream; to have a dream; (fig.) to indulge in wishful thinking"
+    ],
+    "needsEnglish": false
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L4-0541",
+    "vi": ["yên tĩnh", "thanh bình", "tĩnh lặng"],
+    "viAliases": ["yên ả", "êm đềm"],
+    "en": ["tranquil"],
+    "enSource": "cedict",
+    "example": { "zh": "夜晚的湖边非常宁静。", "vi": "Bờ hồ ban đêm vô cùng yên tĩnh.", "en": "The lakeside at night is very tranquil." }
+  },
+  {
+    "id": "L4-0542",
+    "vi": ["đậm", "đặc", "nồng"],
+    "viAliases": ["đậm đặc", "dày đặc"],
+    "en": ["concentrated", "dense", "strong (smell etc)"],
+    "enSource": "cedict",
+    "example": { "zh": "这杯咖啡太浓了。", "vi": "Cốc cà phê này đậm quá.", "en": "This cup of coffee is too strong." }
+  },
+  {
+    "id": "L4-0543",
+    "vi": ["quý bà", "quý cô"],
+    "viAliases": ["bà", "cô"],
+    "en": ["lady", "madam", "Ms"],
+    "enSource": "cedict",
+    "example": { "zh": "女士们，先生们，晚上好！", "vi": "Thưa quý bà và quý ông, xin chào buổi tối!", "en": "Ladies and gentlemen, good evening!" }
+  },
+  {
+    "id": "L4-0544",
+    "vi": ["lò sưởi", "hệ thống sưởi", "hơi ấm"],
+    "viAliases": ["máy sưởi"],
+    "en": ["central heating", "heater"],
+    "enSource": "cedict",
+    "example": { "zh": "冬天房间里有暖气，很暖和。", "vi": "Mùa đông trong phòng có lò sưởi, rất ấm.", "en": "In winter the room has heating, so it is very warm." }
+  },
+  {
+    "id": "L4-0545",
+    "vi": ["chụp ảnh", "chụp hình"],
+    "viAliases": ["chụp"],
+    "en": ["to take a picture"],
+    "enSource": "cedict",
+    "example": { "zh": "我们在公园里拍照吧。", "vi": "Chúng ta chụp ảnh ở trong công viên đi.", "en": "Let's take pictures in the park." }
+  },
+  {
+    "id": "L4-0546",
+    "vi": ["sắp xếp", "xếp theo thứ tự"],
+    "viAliases": ["bố trí", "xếp đặt"],
+    "en": ["to arrange in order"],
+    "enSource": "cedict",
+    "example": { "zh": "请把这些书按大小排列。", "vi": "Hãy sắp xếp những cuốn sách này theo kích cỡ.", "en": "Please arrange these books by size." }
+  },
+  {
+    "id": "L4-0547",
+    "vi": ["biển hiệu", "nhãn hiệu", "bài (chơi)"],
+    "viAliases": ["bảng hiệu", "thương hiệu", "quân bài"],
+    "en": ["signboard; plaque; plate; tablet (CL:塊/块)", "brand; trademark", "mahjong tile; domino; playing card (CL:張/张)"],
+    "enSource": "cedict",
+    "example": { "zh": "周末我们常在家打牌。", "vi": "Cuối tuần chúng tôi thường chơi bài ở nhà.", "en": "On weekends we often play cards at home." }
+  },
+  {
+    "id": "L4-0548",
+    "vi": ["mâm", "đĩa", "ván (cờ, trận đấu)"],
+    "viAliases": ["khay", "đĩa lớn"],
+    "en": ["tray; plate; dish", "classifier for things resembling a plate or dish", "classifier for games or matches (chess, table tennis etc)"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈做了一盘鱼和一盘菜。", "vi": "Mẹ nấu một đĩa cá và một đĩa rau.", "en": "Mom made a plate of fish and a plate of vegetables." }
+  },
+  {
+    "id": "L4-0549",
+    "vi": ["cái đĩa", "đĩa", "khay"],
+    "viAliases": ["dĩa", "mâm"],
+    "en": ["plate", "dish", "tray"],
+    "enSource": "cedict",
+    "example": { "zh": "吃完饭，请把盘子洗干净。", "vi": "Ăn cơm xong, hãy rửa sạch đĩa.", "en": "After eating, please wash the plates clean." }
+  },
+  {
+    "id": "L4-0550",
+    "vi": ["người béo", "người mập"],
+    "viAliases": ["người mập mạp"],
+    "en": ["fat person", "fatty"],
+    "enSource": "cedict",
+    "example": { "zh": "他小时候是个小胖子。", "vi": "Hồi nhỏ cậu ấy là một cậu bé mập.", "en": "When he was little, he was a little fatty." }
+  },
+  {
+    "id": "L4-0551",
+    "vi": ["đào tạo", "huấn luyện", "bồi dưỡng"],
+    "viAliases": ["tập huấn", "dạy nghề"],
+    "en": ["to train", "to cultivate"],
+    "enSource": "cedict",
+    "example": { "zh": "公司每年都培训新员工。", "vi": "Công ty mỗi năm đều đào tạo nhân viên mới.", "en": "The company trains new employees every year." }
+  },
+  {
+    "id": "L4-0552",
+    "vi": ["lớp đào tạo", "lớp tập huấn", "khóa huấn luyện"],
+    "viAliases": ["lớp bồi dưỡng", "khóa học"],
+    "en": ["training class"],
+    "enSource": "cedict",
+    "example": { "zh": "我报名参加了英语培训班。", "vi": "Tôi đã đăng ký tham gia lớp đào tạo tiếng Anh.", "en": "I signed up for an English training class." }
+  },
+  {
+    "id": "L4-0553",
+    "vi": ["bồi dưỡng", "nuôi dưỡng", "đào tạo"],
+    "viAliases": ["rèn luyện", "vun đắp"],
+    "en": ["to cultivate", "to foster", "to nurture"],
+    "enSource": "cedict",
+    "example": { "zh": "父母应该培养孩子的好习惯。", "vi": "Cha mẹ nên bồi dưỡng thói quen tốt cho con.", "en": "Parents should cultivate good habits in their children." }
+  },
+  {
+    "id": "L4-0554",
+    "vi": ["gây giống", "nuôi trồng", "ươm mầm"],
+    "viAliases": ["vun trồng", "nhân giống", "lai tạo"],
+    "en": ["to breed", "to train"],
+    "enSource": "cedict",
+    "example": { "zh": "科学家培育出了一种新水果。", "vi": "Các nhà khoa học đã lai tạo ra một loại trái cây mới.", "en": "Scientists have bred a new kind of fruit." }
+  },
+  {
+    "id": "L4-0555",
+    "vi": ["phê duyệt", "phê bình", "phê chuẩn"],
+    "viAliases": ["duyệt", "chấp thuận"],
+    "en": ["to act on", "to criticize", "to pass on"],
+    "enSource": "cedict",
+    "example": { "zh": "经理批了我三天假。", "vi": "Quản lý đã duyệt cho tôi ba ngày nghỉ.", "en": "The manager approved three days of leave for me." }
+  },
+  {
+    "id": "L4-0556",
+    "vi": ["lô", "đợt", "loạt"],
+    "viAliases": ["nhóm", "tốp"],
+    "en": ["classifier for batches, lots, military flights"],
+    "enSource": "cedict",
+    "example": { "zh": "第一批学生已经到了。", "vi": "Đợt học sinh đầu tiên đã đến rồi.", "en": "The first batch of students has already arrived." }
+  },
+  {
+    "id": "L4-0557",
+    "vi": ["phiến diện", "một chiều"],
+    "viAliases": ["thiên lệch", "không toàn diện"],
+    "en": ["one-sided", "unilateral"],
+    "enSource": "cedict",
+    "example": { "zh": "你的看法太片面了。", "vi": "Cách nhìn của bạn phiến diện quá.", "en": "Your view is too one-sided." }
+  },
+  {
+    "id": "L4-0558",
+    "vi": ["phẩm chất", "chất lượng"],
+    "viAliases": ["phẩm hạnh", "tính chất"],
+    "en": ["character", "intrinsic quality (of a person)", "quality (of a product or service, or as in \"quality of life\", \"air quality\" etc)"],
+    "enSource": "cedict",
+    "example": { "zh": "诚实是一种好品质。", "vi": "Thành thật là một phẩm chất tốt.", "en": "Honesty is a good quality." }
+  },
+  {
+    "id": "L4-0559",
+    "vi": ["bình phương", "mét vuông (đơn vị diện tích)"],
+    "viAliases": ["mét vuông", "vuông"],
+    "en": ["square (as in square foot, square mile, square root)"],
+    "enSource": "cedict",
+    "example": { "zh": "这个房间有二十平方。", "vi": "Căn phòng này rộng hai mươi mét vuông.", "en": "This room is twenty square meters." }
+  },
+  {
+    "id": "L4-0560",
+    "vi": ["bình tĩnh", "yên bình", "êm ả"],
+    "viAliases": ["bình lặng", "yên ắng"],
+    "en": ["calm; tranquil; serene"],
+    "enSource": "cedict",
+    "example": { "zh": "听了这个消息，她很平静。", "vi": "Nghe tin này, cô ấy rất bình tĩnh.", "en": "After hearing this news, she was very calm." }
+  },
+  {
+    "id": "L4-0561",
+    "vi": ["trung bình", "bình quân", "chia đều"],
+    "viAliases": ["đồng đều", "đều nhau"],
+    "en": ["average; on average", "evenly; in equal proportions"],
+    "enSource": "cedict",
+    "example": { "zh": "我们班的平均成绩是八十分。", "vi": "Điểm trung bình của lớp chúng tôi là tám mươi điểm.", "en": "Our class's average score is eighty points." }
+  },
+  {
+    "id": "L4-0562",
+    "vi": ["ổn định", "vững vàng", "êm"],
+    "viAliases": ["bình ổn", "vững chắc"],
+    "en": ["smooth; steady"],
+    "enSource": "cedict",
+    "example": { "zh": "汽车开得很平稳。", "vi": "Xe chạy rất êm.", "en": "The car drives very smoothly." }
+  },
+  {
+    "id": "L4-0563",
+    "vi": ["cấp bách", "cấp thiết", "bức thiết"],
+    "viAliases": ["khẩn cấp", "gấp gáp"],
+    "en": ["urgent; pressing"],
+    "enSource": "cedict",
+    "example": { "zh": "我们迫切需要更多的医生。", "vi": "Chúng tôi cấp thiết cần thêm nhiều bác sĩ.", "en": "We urgently need more doctors." }
+  },
+  {
+    "id": "L4-0564",
+    "vi": ["phá sản", "vỡ nợ"],
+    "viAliases": ["sập tiệm"],
+    "en": ["to go bankrupt", "bankruptcy"],
+    "enSource": "cedict",
+    "example": { "zh": "那家公司去年破产了。", "vi": "Công ty đó năm ngoái đã phá sản.", "en": "That company went bankrupt last year." }
+  },
+  {
+    "id": "L4-0565",
+    "vi": ["vợ", "người vợ"],
+    "viAliases": ["bà xã", "phu nhân"],
+    "en": ["wife"],
+    "enSource": "cedict",
+    "example": { "zh": "他和妻子一起去旅行了。", "vi": "Anh ấy cùng vợ đi du lịch rồi.", "en": "He went traveling together with his wife." }
+  },
+  {
+    "id": "L4-0566",
+    "vi": ["mong đợi", "trông đợi", "kỳ vọng"],
+    "viAliases": ["mong chờ", "chờ mong"],
+    "en": ["to look forward to", "to await"],
+    "enSource": "cedict",
+    "example": { "zh": "我很期待明天的比赛。", "vi": "Tôi rất mong đợi trận đấu ngày mai.", "en": "I am really looking forward to tomorrow's match." }
+  },
+  {
+    "id": "L4-0567",
+    "vi": ["khoảng thời gian", "trong thời gian", "thời kỳ"],
+    "viAliases": ["giai đoạn", "trong lúc"],
+    "en": ["period of time", "time period", "period"],
+    "enSource": "cedict",
+    "example": { "zh": "放假期间，我去了北京。", "vi": "Trong thời gian nghỉ, tôi đã đi Bắc Kinh.", "en": "During the holiday, I went to Beijing." }
+  },
+  {
+    "id": "L4-0568",
+    "vi": ["cuối kỳ", "cuối học kỳ"],
+    "viAliases": ["cuối khóa", "hết kỳ"],
+    "en": ["the end of a term or semester (in school)"],
+    "enSource": "cedict",
+    "example": { "zh": "期末考试下个星期开始。", "vi": "Kỳ thi cuối kỳ bắt đầu vào tuần sau.", "en": "The final exams start next week." }
+  },
+  {
+    "id": "L4-0569",
+    "vi": ["thời hạn", "kỳ hạn", "hạn chót"],
+    "viAliases": ["hạn", "hạn định"],
+    "en": ["time limit", "deadline", "allotted time"],
+    "enSource": "cedict",
+    "example": { "zh": "交作业的期限是星期五。", "vi": "Thời hạn nộp bài tập là thứ Sáu.", "en": "The deadline for handing in the homework is Friday." }
+  },
+  {
+    "id": "L4-0570",
+    "vi": ["giữa kỳ", "giữa học kỳ"],
+    "viAliases": ["giữa khóa"],
+    "en": ["midterm", "interim"],
+    "enSource": "cedict",
+    "example": { "zh": "期中考试我考得不错。", "vi": "Kỳ thi giữa kỳ tôi làm bài khá tốt.", "en": "I did quite well on the midterm exam." }
+  },
+  {
+    "id": "L4-0571",
+    "vi": ["còn lại", "những cái khác", "số còn lại"],
+    "viAliases": ["phần còn lại", "ngoài ra"],
+    "en": ["the rest", "the others", "remaining"],
+    "enSource": "cedict",
+    "example": { "zh": "两个人留下，其余的人先走。", "vi": "Hai người ở lại, những người còn lại đi trước.", "en": "Two people stay; the rest go first." }
+  },
+  {
+    "id": "L4-0572",
+    "vi": ["doanh nghiệp", "xí nghiệp", "công ty"],
+    "viAliases": ["hãng", "cơ sở kinh doanh"],
+    "en": ["company; firm; enterprise; corporation"],
+    "enSource": "cedict",
+    "example": { "zh": "这家企业有一千多名员工。", "vi": "Doanh nghiệp này có hơn một nghìn nhân viên.", "en": "This enterprise has more than a thousand employees." }
+  },
+  {
+    "id": "L4-0573",
+    "vi": ["bóng bay", "bong bóng"],
+    "viAliases": ["quả bóng bay", "khinh khí cầu"],
+    "en": ["balloon"],
+    "enSource": "cedict",
+    "example": { "zh": "孩子手里拿着一个红气球。", "vi": "Đứa trẻ cầm trong tay một quả bóng bay màu đỏ.", "en": "The child is holding a red balloon in their hand." }
+  },
+  {
+    "id": "L4-0574",
+    "vi": ["nước ngọt có ga", "nước có ga", "nước sô-đa"],
+    "viAliases": ["nước ngọt", "sô đa"],
+    "en": ["soda pop; carbonated soft drink"],
+    "enSource": "cedict",
+    "example": { "zh": "天气热，我想喝一瓶汽水。", "vi": "Trời nóng, tôi muốn uống một chai nước ngọt có ga.", "en": "It's hot, I want to drink a bottle of soda." }
+  },
+  {
+    "id": "L4-0575",
+    "vi": ["xăng", "xăng dầu"],
+    "viAliases": ["nhiên liệu", "xăng xe"],
+    "en": ["gasoline"],
+    "enSource": "cedict",
+    "example": { "zh": "车没有汽油了，我们去加油吧。", "vi": "Xe hết xăng rồi, chúng ta đi đổ xăng đi.", "en": "The car is out of gas; let's go fill up." }
+  },
+  {
+    "id": "L4-0576",
+    "vi": ["cơ quan (trong cơ thể)", "bộ phận cơ thể"],
+    "viAliases": ["nội tạng", "tạng"],
+    "en": ["(physiology) organ; apparatus"],
+    "enSource": "cedict",
+    "example": { "zh": "眼睛是很重要的器官。", "vi": "Mắt là cơ quan rất quan trọng của cơ thể.", "en": "The eyes are a very important organ." }
+  },
+  {
+    "id": "L4-0577",
+    "vi": ["phía trước", "đằng trước", "trước"],
+    "viAliases": ["phía trên", "mặt trước"],
+    "en": ["in front", "ahead", "at the head"],
+    "enSource": "cedict",
+    "example": { "zh": "他坐在教室的前头。", "vi": "Anh ấy ngồi ở phía trước lớp học.", "en": "He sits at the front of the classroom." }
+  },
+  {
+    "id": "L4-0578",
+    "vi": ["tiền đồ", "tương lai", "triển vọng"],
+    "viAliases": ["triển vọng tương lai"],
+    "en": ["prospects", "future outlook"],
+    "enSource": "cedict",
+    "example": { "zh": "这个年轻人很有前途。", "vi": "Người trẻ này rất có tiền đồ.", "en": "This young person has great prospects." }
+  },
+  {
+    "id": "L4-0579",
+    "vi": ["nông", "cạn", "nhạt (màu)"],
+    "viAliases": ["nhạt", "không sâu"],
+    "en": ["shallow", "light (color)"],
+    "enSource": "cedict",
+    "example": { "zh": "这条河很浅，孩子可以过去。", "vi": "Con sông này rất nông, trẻ con có thể đi qua.", "en": "This river is very shallow; children can cross it." }
+  },
+  {
+    "id": "L4-0580",
+    "vi": ["sô-cô-la", "socola"],
+    "viAliases": ["sôcôla", "kẹo sô-cô-la"],
+    "en": ["(loanword) chocolate"],
+    "enSource": "cedict",
+    "example": { "zh": "我送给她一盒巧克力。", "vi": "Tôi tặng cô ấy một hộp sô-cô-la.", "en": "I gave her a box of chocolates." }
+  },
+  {
+    "id": "L4-0581",
+    "vi": ["cắt", "thái", "xắt"],
+    "viAliases": ["chặt", "cắt lát"],
+    "en": ["to cut; to slice; to carve"],
+    "enSource": "cedict",
+    "example": { "zh": "请把西瓜切成小块。", "vi": "Hãy cắt dưa hấu thành miếng nhỏ.", "en": "Please cut the watermelon into small pieces." }
+  },
+  {
+    "id": "L4-0582",
+    "vi": ["thân yêu", "thân mến", "yêu quý"],
+    "viAliases": ["yêu dấu", "thân thương"],
+    "en": ["dear", "beloved", "darling"],
+    "enSource": "cedict",
+    "example": { "zh": "亲爱的妈妈，我很想你。", "vi": "Mẹ thân yêu, con rất nhớ mẹ.", "en": "Dear Mom, I miss you very much." }
+  },
+  {
+    "id": "L4-0583",
+    "vi": ["thân mật", "thân thiết", "gần gũi"],
+    "viAliases": ["khăng khít", "mật thiết"],
+    "en": ["intimate", "close"],
+    "enSource": "cedict",
+    "example": { "zh": "他们两个是亲密的朋友。", "vi": "Hai người họ là bạn thân thiết.", "en": "The two of them are close friends." }
+  },
+  {
+    "id": "L4-0584",
+    "vi": ["tuổi trẻ", "thanh xuân", "tuổi thanh xuân"],
+    "viAliases": ["tuổi xuân", "thời trẻ"],
+    "en": ["youth", "youthfulness"],
+    "enSource": "cedict",
+    "example": { "zh": "青春是人生最美的时候。", "vi": "Thanh xuân là quãng thời gian đẹp nhất của đời người.", "en": "Youth is the most beautiful time of life." }
+  },
+  {
+    "id": "L4-0585",
+    "vi": ["thoải mái", "nhẹ nhàng", "thư thái"],
+    "viAliases": ["thảnh thơi", "dễ dàng"],
+    "en": ["relaxed", "effortless", "light"],
+    "enSource": "cedict",
+    "example": { "zh": "考完试，我感到很轻松。", "vi": "Thi xong, tôi cảm thấy rất thoải mái.", "en": "After the exam, I feel very relaxed." }
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "L4-0316",
+    "vi": ["số", "mã số"],
+    "viAliases": ["số hiệu", "con số"],
+    "en": ["number"],
+    "enSource": "cedict",
+    "example": { "zh": "请告诉我你的电话号码。", "vi": "Xin hãy cho tôi biết số điện thoại của bạn.", "en": "Please tell me your phone number." }
+  },
+  {
+    "id": "L4-0317",
+    "vi": ["ham", "thích", "ưa"],
+    "viAliases": ["hiếu", "hay"],
+    "en": ["to be fond of; to have a tendency to; to be prone to"],
+    "enSource": "cedict",
+    "example": { "zh": "我姐姐从小就好学。", "vi": "Chị tôi từ nhỏ đã ham học.", "en": "My older sister has been fond of studying since she was little." }
+  },
+  {
+    "id": "L4-0318",
+    "vi": ["hợp đồng"],
+    "viAliases": ["khế ước", "giao kèo"],
+    "en": ["contract; agreement"],
+    "enSource": "cedict",
+    "example": { "zh": "我们已经签了合同。", "vi": "Chúng tôi đã ký hợp đồng rồi.", "en": "We have already signed the contract." }
+  },
+  {
+    "id": "L4-0319",
+    "vi": ["tối tăm", "đen tối"],
+    "viAliases": ["u tối", "tối"],
+    "en": ["dark"],
+    "enSource": "cedict",
+    "example": { "zh": "这条路晚上很黑暗。", "vi": "Con đường này buổi tối rất tối tăm.", "en": "This road is very dark at night." }
+  },
+  {
+    "id": "L4-0320",
+    "vi": ["bao lì xì", "phong bì đỏ"],
+    "viAliases": ["lì xì", "tiền mừng tuổi"],
+    "en": ["money wrapped in red as a gift", "bonus payment"],
+    "enSource": "cedict",
+    "example": { "zh": "过年时爷爷给我红包。", "vi": "Dịp Tết ông nội cho tôi bao lì xì.", "en": "At New Year, Grandpa gives me a red envelope." }
+  },
+  {
+    "id": "L4-0321",
+    "vi": ["phía sau", "đằng sau", "sau này"],
+    "viAliases": ["sau", "phía đằng sau"],
+    "en": ["behind", "the back", "later"],
+    "enSource": "cedict",
+    "example": { "zh": "学校后头有一个公园。", "vi": "Đằng sau trường có một công viên.", "en": "There is a park behind the school." }
+  },
+  {
+    "id": "L4-0322",
+    "vi": ["dày", "sâu đậm", "hậu hĩnh"],
+    "viAliases": ["dày dặn", "nồng hậu"],
+    "en": ["thick", "deep or profound", "generous"],
+    "enSource": "cedict",
+    "example": { "zh": "这本书太厚了，我看不完。", "vi": "Cuốn sách này dày quá, tôi đọc không hết.", "en": "This book is too thick; I can't finish it." }
+  },
+  {
+    "id": "L4-0323",
+    "vi": ["hít thở", "thở"],
+    "viAliases": ["hô hấp"],
+    "en": ["to breathe"],
+    "enSource": "cedict",
+    "example": { "zh": "我们去公园呼吸新鲜空气。", "vi": "Chúng ta đi công viên hít thở không khí trong lành.", "en": "Let's go to the park to breathe some fresh air." }
+  },
+  {
+    "id": "L4-0324",
+    "vi": ["bỏ qua", "xem nhẹ", "coi thường"],
+    "viAliases": ["lơ là", "phớt lờ"],
+    "en": ["to neglect; to overlook; to disregard; to ignore"],
+    "enSource": "cedict",
+    "example": { "zh": "我们不能忽视这个问题。", "vi": "Chúng ta không thể xem nhẹ vấn đề này.", "en": "We cannot ignore this problem." }
+  },
+  {
+    "id": "L4-0325",
+    "vi": ["hộ", "nhà (lượng từ đếm hộ gia đình)"],
+    "viAliases": ["hộ gia đình", "hộ dân"],
+    "en": ["a household", "family"],
+    "enSource": "cedict",
+    "example": { "zh": "这个村子有一百户人家。", "vi": "Ngôi làng này có một trăm hộ dân.", "en": "This village has one hundred households." }
+  },
+  {
+    "id": "L4-0326",
+    "vi": ["y tá"],
+    "viAliases": ["điều dưỡng", "hộ lý"],
+    "en": ["nurse"],
+    "enSource": "cedict",
+    "example": { "zh": "我姐姐在医院当护士。", "vi": "Chị gái tôi làm y tá ở bệnh viện.", "en": "My older sister works as a nurse at the hospital." }
+  },
+  {
+    "id": "L4-0327",
+    "vi": ["sặc sỡ", "có hoa văn", "hoa (mắt)"],
+    "viAliases": ["lòe loẹt", "nhiều màu"],
+    "en": ["fancy pattern", "florid"],
+    "enSource": "cedict",
+    "example": { "zh": "她穿了一条花裙子。", "vi": "Cô ấy mặc một chiếc váy hoa.", "en": "She wore a floral skirt." }
+  },
+  {
+    "id": "L4-0328",
+    "vi": ["chèo (thuyền)", "rạch", "quẹt (diêm)"],
+    "viAliases": ["bơi (thuyền)", "cào"],
+    "en": ["to row", "to paddle", "to scratch (cut into the surface of sth)"],
+    "enSource": "cedict",
+    "example": { "zh": "我们去湖上划船吧。", "vi": "Chúng ta đi chèo thuyền trên hồ nhé.", "en": "Let's go rowing on the lake." }
+  },
+  {
+    "id": "L4-0329",
+    "vi": ["vạch", "kẻ (đường)", "hoạch định"],
+    "viAliases": ["gạch", "phân chia"],
+    "en": ["to draw (a line)", "to delimit", "to plan"],
+    "enSource": "cedict",
+    "example": { "zh": "请在正确答案下面划线。", "vi": "Hãy gạch dưới đáp án đúng.", "en": "Please underline the correct answer." }
+  },
+  {
+    "id": "L4-0330",
+    "vi": ["nhớ", "hoài niệm", "tưởng nhớ"],
+    "viAliases": ["nhớ nhung", "nhớ về"],
+    "en": ["to cherish the memory of", "to think of", "to reminisce"],
+    "enSource": "cedict",
+    "example": { "zh": "我很怀念大学的生活。", "vi": "Tôi rất nhớ cuộc sống thời đại học.", "en": "I really miss my university life." }
+  },
+  {
+    "id": "L4-0331",
+    "vi": ["nghi ngờ", "hoài nghi"],
+    "viAliases": ["ngờ vực", "nghi"],
+    "en": ["to doubt (sth); to be skeptical of", "to have one's doubts; to harbor suspicions; to suspect that"],
+    "enSource": "cedict",
+    "example": { "zh": "我怀疑他没有说真话。", "vi": "Tôi nghi ngờ anh ấy không nói thật.", "en": "I suspect he did not tell the truth." }
+  },
+  {
+    "id": "L4-0332",
+    "vi": ["giảm bớt", "làm dịu", "xoa dịu"],
+    "viAliases": ["giảm nhẹ", "hòa hoãn"],
+    "en": ["to bring relief", "to alleviate (a crisis)", "to dull (a pain)"],
+    "enSource": "cedict",
+    "example": { "zh": "这种药可以缓解头疼。", "vi": "Loại thuốc này có thể làm dịu cơn đau đầu.", "en": "This medicine can relieve headaches." }
+  },
+  {
+    "id": "L4-0333",
+    "vi": ["dưa chuột", "dưa leo"],
+    "viAliases": [],
+    "en": ["cucumber"],
+    "enSource": "cedict",
+    "example": { "zh": "妈妈买了两根黄瓜。", "vi": "Mẹ đã mua hai quả dưa chuột.", "en": "Mom bought two cucumbers." }
+  },
+  {
+    "id": "L4-0334",
+    "vi": ["vàng", "hoàng kim"],
+    "viAliases": ["vàng ròng", "kim loại vàng"],
+    "en": ["gold", "golden (opportunity)", "prime (time)"],
+    "enSource": "cedict",
+    "example": { "zh": "黄金的价格越来越高。", "vi": "Giá vàng ngày càng cao.", "en": "The price of gold is getting higher and higher." }
+  },
+  {
+    "id": "L4-0335",
+    "vi": ["trả lời", "hồi đáp", "phục hồi"],
+    "viAliases": ["phản hồi", "đáp lại"],
+    "en": ["to reply; to respond", "to recover; to return to (a normal condition)"],
+    "enSource": "written",
+    "example": { "zh": "我明天再回复你的邮件。", "vi": "Ngày mai tôi sẽ trả lời email của bạn.", "en": "I will reply to your email tomorrow." }
+  },
+  {
+    "id": "L4-0336",
+    "vi": ["chuyển tiền", "gửi tiền", "hội tụ"],
+    "viAliases": ["chuyển khoản", "đổ về"],
+    "en": ["to remit", "to converge (of rivers)", "to exchange"],
+    "enSource": "cedict",
+    "example": { "zh": "我每个月都给家里汇钱。", "vi": "Mỗi tháng tôi đều gửi tiền về nhà.", "en": "I remit money to my family every month." }
+  },
+  {
+    "id": "L4-0337",
+    "vi": ["báo cáo", "bản báo cáo"],
+    "viAliases": ["trình báo", "tường trình"],
+    "en": ["to report", "to give an account of", "report"],
+    "enSource": "cedict",
+    "example": { "zh": "他向经理汇报了工作情况。", "vi": "Anh ấy đã báo cáo tình hình công việc với giám đốc.", "en": "He reported the work situation to the manager." }
+  },
+  {
+    "id": "L4-0338",
+    "vi": ["tỷ giá", "tỷ giá hối đoái"],
+    "viAliases": ["tỉ giá"],
+    "en": ["exchange rate"],
+    "enSource": "cedict",
+    "example": { "zh": "今天的汇率是多少？", "vi": "Tỷ giá hôm nay là bao nhiêu?", "en": "What is today's exchange rate?" }
+  },
+  {
+    "id": "L4-0339",
+    "vi": ["lễ cưới", "đám cưới", "hôn lễ"],
+    "viAliases": ["tiệc cưới"],
+    "en": ["wedding ceremony", "wedding"],
+    "enSource": "cedict",
+    "example": { "zh": "他们的婚礼在周末举行。", "vi": "Lễ cưới của họ được tổ chức vào cuối tuần.", "en": "Their wedding will be held on the weekend." }
+  },
+  {
+    "id": "L4-0340",
+    "vi": ["nổi đình đám", "ăn khách", "đắt hàng"],
+    "viAliases": ["hot", "thịnh hành"],
+    "en": ["hot (popular)", "fiery or flaming", "urgent"],
+    "enSource": "cedict",
+    "example": { "zh": "这家餐厅最近很火。", "vi": "Nhà hàng này gần đây rất ăn khách.", "en": "This restaurant has been very popular lately." }
+  },
+  {
+    "id": "L4-0341",
+    "vi": ["nhóm", "bọn", "toán"],
+    "viAliases": ["đám", "lũ"],
+    "en": ["classifier for groups of people", "group"],
+    "enSource": "cedict",
+    "example": { "zh": "一伙年轻人在公园里唱歌。", "vi": "Một nhóm thanh niên đang hát trong công viên.", "en": "A group of young people are singing in the park." }
+  },
+  {
+    "id": "L4-0342",
+    "vi": ["bạn", "đối tác", "bạn đồng hành"],
+    "viAliases": ["cộng sự", "bạn bè"],
+    "en": ["partner", "companion"],
+    "enSource": "written",
+    "example": { "zh": "他是我最好的合作伙伴。", "vi": "Anh ấy là đối tác hợp tác tốt nhất của tôi.", "en": "He is my best business partner." }
+  },
+  {
+    "id": "L4-0343",
+    "vi": ["có lẽ", "có thể", "biết đâu"],
+    "viAliases": ["có khi", "chắc là"],
+    "en": ["perhaps; maybe"],
+    "enSource": "cedict",
+    "example": { "zh": "他或许已经知道了。", "vi": "Có lẽ anh ấy đã biết rồi.", "en": "Perhaps he already knows." }
+  },
+  {
+    "id": "L4-0344",
+    "vi": ["hàng", "hàng hóa"],
+    "viAliases": ["đồ", "sản phẩm"],
+    "en": ["goods", "commodity"],
+    "enSource": "cedict",
+    "example": { "zh": "你要的货已经到了。", "vi": "Hàng bạn cần đã đến rồi.", "en": "The goods you wanted have arrived." }
+  },
+  {
+    "id": "L4-0345",
+    "vi": ["đạt được", "giành được", "bắt được"],
+    "viAliases": ["thu được", "nhận được"],
+    "en": ["(literary) to get; to obtain; to win", "(literary) to catch; to capture"],
+    "enSource": "cedict",
+    "example": { "zh": "她在比赛中获第一名。", "vi": "Cô ấy giành hạng nhất trong cuộc thi.", "en": "She won first place in the competition." }
+  },
+  {
+    "id": "L4-0346",
+    "vi": ["giành được", "đạt được", "nhận được"],
+    "viAliases": ["thu được", "có được"],
+    "en": ["to obtain; to receive; to get"],
+    "enSource": "cedict",
+    "example": { "zh": "他获得了大家的支持。", "vi": "Anh ấy đã nhận được sự ủng hộ của mọi người.", "en": "He gained everyone's support." }
+  },
+  {
+    "id": "L4-0347",
+    "vi": ["đoạt giải", "được giải"],
+    "viAliases": ["giành giải", "trúng giải"],
+    "en": ["to win an award"],
+    "enSource": "cedict",
+    "example": { "zh": "她的作品在比赛中获奖了。", "vi": "Tác phẩm của cô ấy đã đoạt giải trong cuộc thi.", "en": "Her work won an award in the competition." }
+  },
+  {
+    "id": "L4-0348",
+    "vi": ["thu được", "lấy được", "tiếp nhận"],
+    "viAliases": ["có được", "thu thập"],
+    "en": ["to gain; to get; to acquire"],
+    "enSource": "cedict",
+    "example": { "zh": "我们可以从网上获取信息。", "vi": "Chúng ta có thể lấy thông tin từ trên mạng.", "en": "We can get information from the internet." }
+  },
+  {
+    "id": "L4-0349",
+    "vi": ["hầu như", "gần như", "suýt"],
+    "viAliases": ["gần", "cơ hồ"],
+    "en": ["almost; nearly; practically"],
+    "enSource": "cedict",
+    "example": { "zh": "他几乎每天都去跑步。", "vi": "Anh ấy hầu như ngày nào cũng đi chạy bộ.", "en": "He goes running almost every day." }
+  },
+  {
+    "id": "L4-0350",
+    "vi": ["cơ quan", "tổ chức", "cơ cấu"],
+    "viAliases": ["đơn vị", "thiết chế"],
+    "en": ["organization", "agency", "institution"],
+    "enSource": "cedict",
+    "example": { "zh": "这是一家教育机构。", "vi": "Đây là một tổ chức giáo dục.", "en": "This is an educational institution." }
+  },
+  {
+    "id": "L4-0351",
+    "vi": ["cơ hội", "thời cơ", "vận may"],
+    "viAliases": ["dịp may", "cơ may"],
+    "en": ["opportunity; favorable turn of events; stroke of luck"],
+    "enSource": "cedict",
+    "example": { "zh": "这是一个很好的机遇。", "vi": "Đây là một cơ hội rất tốt.", "en": "This is a very good opportunity." }
+  },
+  {
+    "id": "L4-0352",
+    "vi": ["tích lũy", "tích góp"],
+    "viAliases": ["gom góp", "dành dụm"],
+    "en": ["to accumulate"],
+    "enSource": "cedict",
+    "example": { "zh": "学习需要慢慢积累经验。", "vi": "Học tập cần dần dần tích lũy kinh nghiệm.", "en": "Learning requires gradually accumulating experience." }
+  },
+  {
+    "id": "L4-0353",
+    "vi": ["xúc động", "kích động", "phấn khích"],
+    "viAliases": ["cảm động", "hồi hộp"],
+    "en": ["to move emotionally", "to stir up (emotions)", "to excite"],
+    "enSource": "cedict",
+    "example": { "zh": "听到这个消息，她激动得哭了。", "vi": "Nghe tin này, cô ấy xúc động đến phát khóc.", "en": "Hearing this news, she was so moved that she cried." }
+  },
+  {
+    "id": "L4-0354",
+    "vi": ["kịch liệt", "gay gắt", "khốc liệt"],
+    "viAliases": ["dữ dội", "quyết liệt"],
+    "en": ["(of competition or fighting) intense", "fierce", "vehement"],
+    "enSource": "cedict",
+    "example": { "zh": "今天的比赛非常激烈。", "vi": "Trận đấu hôm nay vô cùng quyết liệt.", "en": "Today's match was extremely intense." }
+  },
+  {
+    "id": "L4-0355",
+    "vi": ["đạt (kỳ thi)", "đỗ", "đạt yêu cầu"],
+    "viAliases": ["đậu", "qua môn"],
+    "en": ["to pass an exam or a test", "to meet a minimum standard"],
+    "enSource": "cedict",
+    "example": { "zh": "这次考试我终于及格了。", "vi": "Kỳ thi lần này cuối cùng tôi cũng đạt rồi.", "en": "I finally passed the exam this time." }
+  },
+  {
+    "id": "L4-0356",
+    "vi": ["cực kỳ", "vô cùng", "hết sức"],
+    "viAliases": ["cực", "rất"],
+    "en": ["extremely", "utmost"],
+    "enSource": "cedict",
+    "example": { "zh": "这里的风景美极了。", "vi": "Phong cảnh ở đây đẹp cực kỳ.", "en": "The scenery here is extremely beautiful." }
+  },
+  {
+    "id": "L4-0357",
+    "vi": ["cực kỳ", "hết sức", "vô cùng"],
+    "viAliases": ["rất mực", "cực"],
+    "en": ["extremely"],
+    "enSource": "cedict",
+    "example": { "zh": "这个问题极其重要。", "vi": "Vấn đề này cực kỳ quan trọng.", "en": "This issue is extremely important." }
+  },
+  {
+    "id": "L4-0358",
+    "vi": ["sắp", "sắp sửa", "sắp tới"],
+    "viAliases": ["gần", "chẳng mấy chốc"],
+    "en": ["about to; on the point of; soon"],
+    "enSource": "cedict",
+    "example": { "zh": "新的学期即将开始。", "vi": "Học kỳ mới sắp bắt đầu.", "en": "The new semester is about to begin." }
+  },
+  {
+    "id": "L4-0359",
+    "vi": ["vội vàng", "vội vã", "hối hả"],
+    "viAliases": ["gấp gáp", "vội"],
+    "en": ["hastily"],
+    "enSource": "cedict",
+    "example": { "zh": "他急忙跑出了教室。", "vi": "Anh ấy vội vàng chạy ra khỏi lớp học.", "en": "He hurriedly ran out of the classroom." }
+  },
+  {
+    "id": "L4-0360",
+    "vi": ["tập hợp", "tập trung", "tụ tập"],
+    "viAliases": ["tập kết", "họp lại"],
+    "en": ["to gather; to assemble"],
+    "enSource": "cedict",
+    "example": { "zh": "明天早上八点在校门口集合。", "vi": "Sáng mai tám giờ tập trung ở cổng trường.", "en": "Gather at the school gate at eight tomorrow morning." }
+  }
+]

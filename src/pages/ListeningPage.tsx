@@ -20,7 +20,7 @@ import { useLiveMessage } from '../hooks/useLiveMessage.ts';
 import { useSettings } from '../hooks/settings-context.ts';
 import { useStudySession, type PoolKind } from '../hooks/useStudySession.ts';
 import { useVocabulary } from '../hooks/vocabulary-context.ts';
-import type { HskLevel } from '../types/vocabulary.ts';
+import { isHskLevel, type HskLevel } from '../types/vocabulary.ts';
 
 /** Số từ mỗi phiên; nghe lâu hơn gõ nên phiên để ngắn cho vừa sức. */
 const SESSION_LIMIT = 15;
@@ -38,7 +38,7 @@ function parseLevels(raw: string | null, fallback: readonly HskLevel[]): HskLeve
   const parsed = (raw ?? '')
     .split(',')
     .map((part) => Number(part.trim()))
-    .filter((value): value is HskLevel => value === 1 || value === 2 || value === 3);
+    .filter(isHskLevel);
   const unique = [...new Set(parsed)].sort((a, b) => a - b);
   if (unique.length > 0) return unique;
   return fallback.length > 0 ? [...fallback] : [1];

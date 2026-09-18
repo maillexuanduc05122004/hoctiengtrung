@@ -14,7 +14,7 @@ export default defineConfig({
       manifest: {
         name: 'Mỗi Ngày 中文',
         short_name: 'Mỗi Ngày',
-        description: 'Học từ vựng HSK 3.0 cấp 1-3 mỗi ngày, dùng được khi ngoại tuyến.',
+        description: 'Học từ vựng HSK 3.0 cấp 1-4 mỗi ngày, dùng được khi ngoại tuyến.',
         lang: 'vi',
         dir: 'ltr',
         start_url: '/',

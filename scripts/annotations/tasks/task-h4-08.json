@@ -1,0 +1,771 @@
+[
+  {
+    "id": "L4-0316",
+    "simplified": "号码",
+    "traditional": "號碼",
+    "pinyin": "hào mǎ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "number",
+      "CL:堆,個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0317",
+    "simplified": "好",
+    "pinyin": "hào",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to be fond of; to have a tendency to; to be prone to"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0138",
+        "pinyin": "hǎo",
+        "partOfSpeech": [
+          "Adj"
+        ]
+      },
+      {
+        "id": "L2-0214",
+        "pinyin": "hǎo",
+        "partOfSpeech": [
+          "Adv"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0318",
+    "simplified": "合同",
+    "pinyin": "hé tong",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "contract; agreement",
+      "CL:份"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0319",
+    "simplified": "黑暗",
+    "pinyin": "hēi àn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "dark",
+      "darkly",
+      "darkness"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0320",
+    "simplified": "红包",
+    "traditional": "紅包",
+    "pinyin": "hóng bāo",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "money wrapped in red as a gift",
+      "bonus payment",
+      "kickback",
+      "bribe"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0321",
+    "simplified": "后头",
+    "traditional": "後頭",
+    "pinyin": "hòu tou",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "behind",
+      "the back",
+      "the rear",
+      "later",
+      "afterwards",
+      "(in) the future"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0322",
+    "simplified": "厚",
+    "pinyin": "hòu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "thick",
+      "deep or profound",
+      "kind",
+      "generous",
+      "rich or strong in flavor",
+      "to favor",
+      "to stress"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0323",
+    "simplified": "呼吸",
+    "pinyin": "hū xī",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to breathe"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0324",
+    "simplified": "忽视",
+    "traditional": "忽視",
+    "pinyin": "hū shì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to neglect; to overlook; to disregard; to ignore"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0325",
+    "simplified": "户",
+    "traditional": "戶",
+    "pinyin": "hù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "a household",
+      "door",
+      "family"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0326",
+    "simplified": "护士",
+    "traditional": "護士",
+    "pinyin": "hù shi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "nurse"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0327",
+    "simplified": "花",
+    "pinyin": "huā",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "flower",
+      "blossom",
+      "CL:朵,支,束,把,盆,簇",
+      "fancy pattern",
+      "florid",
+      "to spend (money, time)",
+      "(coll.) lecherous",
+      "lustful"
+    ],
+    "siblings": [
+      {
+        "id": "L1-0150",
+        "pinyin": "huā",
+        "partOfSpeech": [
+          "N"
+        ]
+      },
+      {
+        "id": "L2-0232",
+        "pinyin": "huā",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0328",
+    "simplified": "划",
+    "pinyin": "huá",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to row",
+      "to paddle",
+      "profitable",
+      "worth (the effort)",
+      "it pays (to do sth)",
+      "to cut",
+      "to slash",
+      "to scratch (cut into the surface of sth)",
+      "to strike (a match)"
+    ],
+    "siblings": [
+      {
+        "id": "L4-0329",
+        "pinyin": "huà",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0329",
+    "simplified": "划",
+    "traditional": "劃",
+    "pinyin": "huà",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to delimit",
+      "to transfer",
+      "to assign",
+      "to plan",
+      "to draw (a line)",
+      "stroke of a Chinese character"
+    ],
+    "siblings": [
+      {
+        "id": "L4-0328",
+        "pinyin": "huá",
+        "partOfSpeech": [
+          "V"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0330",
+    "simplified": "怀念",
+    "traditional": "懷念",
+    "pinyin": "huái niàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to cherish the memory of",
+      "to think of",
+      "to reminisce"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0331",
+    "simplified": "怀疑",
+    "traditional": "懷疑",
+    "pinyin": "huái yí",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to doubt (sth); to be skeptical of",
+      "to have one's doubts; to harbor suspicions; to suspect that"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0332",
+    "simplified": "缓解",
+    "traditional": "緩解",
+    "pinyin": "huǎn jiě",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to bring relief",
+      "to alleviate (a crisis)",
+      "to dull (a pain)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0333",
+    "simplified": "黄瓜",
+    "traditional": "黃瓜",
+    "pinyin": "huáng guā",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "cucumber",
+      "CL:條/条"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0334",
+    "simplified": "黄金",
+    "traditional": "黃金",
+    "pinyin": "huáng jīn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "gold",
+      "golden (opportunity)",
+      "prime (time)"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0335",
+    "simplified": "回复",
+    "traditional": "回復",
+    "pinyin": "huí fù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to recover; to revert; to return to (good health, normal condition etc)",
+      "variant of 回覆"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0336",
+    "simplified": "汇",
+    "traditional": "匯",
+    "pinyin": "huì",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to remit",
+      "to converge (of rivers)",
+      "to exchange"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0337",
+    "simplified": "汇报",
+    "traditional": "匯報",
+    "pinyin": "huì bào",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V",
+      "N"
+    ],
+    "cedictDefinitions": [
+      "to report",
+      "to give an account of",
+      "to collect information and report back",
+      "report"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0338",
+    "simplified": "汇率",
+    "traditional": "匯率",
+    "pinyin": "huì lǜ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "exchange rate"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0339",
+    "simplified": "婚礼",
+    "traditional": "婚禮",
+    "pinyin": "hūn lǐ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "wedding ceremony",
+      "wedding",
+      "CL:場/场"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0340",
+    "simplified": "火",
+    "pinyin": "huǒ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "fire",
+      "urgent",
+      "ammunition",
+      "fiery or flaming",
+      "internal heat (Chinese medicine)",
+      "hot (popular)",
+      "classifier for military units (old)",
+      "Kangxi radical 86"
+    ],
+    "siblings": [
+      {
+        "id": "L3-0311",
+        "pinyin": "huǒ",
+        "partOfSpeech": [
+          "N"
+        ]
+      }
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0341",
+    "simplified": "伙",
+    "traditional": "夥",
+    "pinyin": "huǒ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "M"
+    ],
+    "cedictDefinitions": [
+      "companion",
+      "partner",
+      "group",
+      "classifier for groups of people",
+      "to combine",
+      "together"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0342",
+    "simplified": "伙伴",
+    "pinyin": "huǒ bàn",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "variant of 夥伴/伙伴"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0343",
+    "simplified": "或许",
+    "traditional": "或許",
+    "pinyin": "huò xǔ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "perhaps; maybe"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0344",
+    "simplified": "货",
+    "traditional": "貨",
+    "pinyin": "huò",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "goods",
+      "money",
+      "commodity",
+      "CL:個/个"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0345",
+    "simplified": "获",
+    "traditional": "獲",
+    "pinyin": "huò",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "(literary) to catch; to capture",
+      "(literary) to get; to obtain; to win"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0346",
+    "simplified": "获得",
+    "traditional": "獲得",
+    "pinyin": "huò dé",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to obtain; to receive; to get"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0347",
+    "simplified": "获奖",
+    "traditional": "獲獎",
+    "pinyin": "huò jiǎng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to win an award"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0348",
+    "simplified": "获取",
+    "traditional": "獲取",
+    "pinyin": "huò qǔ",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to gain; to get; to acquire"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0349",
+    "simplified": "几乎",
+    "traditional": "幾乎",
+    "pinyin": "jī hū",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "almost; nearly; practically"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0350",
+    "simplified": "机构",
+    "traditional": "機構",
+    "pinyin": "jī gòu",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "mechanism",
+      "structure",
+      "organization",
+      "agency",
+      "institution",
+      "CL:所"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0351",
+    "simplified": "机遇",
+    "traditional": "機遇",
+    "pinyin": "jī yù",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "N"
+    ],
+    "cedictDefinitions": [
+      "opportunity; favorable turn of events; stroke of luck"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0352",
+    "simplified": "积累",
+    "traditional": "積累",
+    "pinyin": "jī lěi",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to accumulate",
+      "accumulation",
+      "cumulative",
+      "cumulatively"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0353",
+    "simplified": "激动",
+    "traditional": "激動",
+    "pinyin": "jī dòng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj",
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to move emotionally",
+      "to stir up (emotions)",
+      "to excite"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0354",
+    "simplified": "激烈",
+    "pinyin": "jī liè",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adj"
+    ],
+    "cedictDefinitions": [
+      "(of competition or fighting) intense",
+      "fierce",
+      "(of pain) acute",
+      "(of an expression of opinion) impassioned",
+      "vehement",
+      "(of a course of action) drastic",
+      "extreme"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0355",
+    "simplified": "及格",
+    "pinyin": "jí gé",
+    "hskLevel": 4,
+    "partOfSpeech": [],
+    "cedictDefinitions": [
+      "to pass an exam or a test",
+      "to meet a minimum standard"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0356",
+    "simplified": "极",
+    "traditional": "極",
+    "pinyin": "jí",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "extremely",
+      "pole (geography, physics)",
+      "utmost",
+      "top"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0357",
+    "simplified": "极其",
+    "traditional": "極其",
+    "pinyin": "jí qí",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "extremely"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0358",
+    "simplified": "即将",
+    "traditional": "即將",
+    "pinyin": "jí jiāng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "about to; on the point of; soon"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0359",
+    "simplified": "急忙",
+    "pinyin": "jí máng",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "Adv"
+    ],
+    "cedictDefinitions": [
+      "hastily"
+    ],
+    "needsEnglish": false
+  },
+  {
+    "id": "L4-0360",
+    "simplified": "集合",
+    "pinyin": "jí hé",
+    "hskLevel": 4,
+    "partOfSpeech": [
+      "V"
+    ],
+    "cedictDefinitions": [
+      "to gather; to assemble",
+      "(math.) set"
+    ],
+    "needsEnglish": false
+  }
+]

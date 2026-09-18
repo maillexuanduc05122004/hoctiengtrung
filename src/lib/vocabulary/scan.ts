@@ -10,7 +10,7 @@
  */
 import type { VocabularyWord } from '../../types/vocabulary.ts';
 
-/** Khoảng mã chữ Hán thông dụng, đủ cho bộ từ HSK 1-3. Đều nằm trong BMP nên cắt chuỗi theo mã đơn vị là an toàn. */
+/** Khoảng mã chữ Hán thông dụng, đủ cho bộ từ HSK 1-4. Đều nằm trong BMP nên cắt chuỗi theo mã đơn vị là an toàn. */
 const HANZI = /[一-鿿㐀-䶿]/;
 
 export interface ScanIndex {

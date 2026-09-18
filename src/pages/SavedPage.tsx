@@ -28,11 +28,12 @@ import { saveWordMessage } from '../features/shared/index.ts';
 import { useLiveMessage } from '../hooks/useLiveMessage.ts';
 import { useVocabulary } from '../hooks/vocabulary-context.ts';
 import type { SavedSort } from '../features/saved/index.ts';
-import type { HskLevel, Lesson, VocabularyWord } from '../types/vocabulary.ts';
+import { HSK_LEVELS, type HskLevel, type Lesson, type VocabularyWord } from '../types/vocabulary.ts';
 
 type Tab = 'tu' | 'buoi' | 'vua-tra';
 
-type LevelKey = 'all' | '1' | '2' | '3';
+/** Giá trị của nhóm nút lọc cấp: "all" hoặc cấp dưới dạng chuỗi, ví dụ "4". */
+type LevelKey = 'all' | `${HskLevel}`;
 
 const SORT_OPTIONS: readonly SegmentedOption<SavedSort>[] = [
   { value: 'moi-luu', label: 'Mới lưu' },
@@ -40,12 +41,10 @@ const SORT_OPTIONS: readonly SegmentedOption<SavedSort>[] = [
   { value: 'theo-cap', label: 'Theo cấp' },
 ];
 
-const LEVEL_BY_KEY: Record<LevelKey, HskLevel | 'all'> = {
-  all: 'all',
-  '1': 1,
-  '2': 2,
-  '3': 3,
-};
+/** Đổi giá trị của nhóm nút về cấp để lọc sổ tay; "all" là không lọc. */
+function levelOfKey(key: LevelKey): HskLevel | 'all' {
+  return HSK_LEVELS.find((level) => `${level}` === key) ?? 'all';
+}
 
 /** Số dòng lịch sử tra từ hiện trên trang này. Đủ để nhìn lại vài ngày gần đây. */
 const LOOKUP_ROWS = 30;
@@ -59,7 +58,7 @@ export function SavedPage() {
   const [sort, setSort] = useState<SavedSort>('moi-luu');
   const [selected, setSelected] = useState<VocabularyWord | null>(null);
 
-  const saved = useSavedWords({ level: LEVEL_BY_KEY[levelKey], sort });
+  const saved = useSavedWords({ level: levelOfKey(levelKey), sort });
   const { rows: savedLessons, loading: lessonsLoading } = useSavedLessonRows();
   // Đọc riêng số dòng lịch sử để biết nên vẽ danh sách hay lời mời tra từ.
   const lookupCount = useLiveQuery(countLookups, [], 0);
@@ -106,15 +105,14 @@ export function SavedPage() {
   );
 
   const levelOptions = useMemo<readonly SegmentedOption<LevelKey>[]>(() => {
-    const levels: readonly LevelKey[] = ['1', '2', '3'];
     return [
       { value: 'all' as LevelKey, label: 'Tất cả', srLabel: 'Tất cả các cấp' },
-      ...levels.map((key) => {
-        const count = saved.byLevel.get(LEVEL_BY_KEY[key] as HskLevel) ?? 0;
+      ...HSK_LEVELS.map((level) => {
+        const count = saved.byLevel.get(level) ?? 0;
         return {
-          value: key,
-          label: `HSK ${key} ${count}`,
-          srLabel: `HSK ${key}, ${count} từ`,
+          value: `${level}` as LevelKey,
+          label: `HSK ${level} ${count}`,
+          srLabel: `HSK ${level}, ${count} từ`,
         };
       }),
     ];
