@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import type { UserWord } from '../../lib/api/types.ts';
 import { inferLevel, toSentenceInputs } from './manual.ts';
-import { groupWords, matchesWord, NEWEST_GROUP_SIZE } from './words.ts';
+import { groupWords, matchesWord, NEWEST_GROUP_SIZE, newestWords } from './words.ts';
 
 function word(id: number, simplified: string, pinyin: string, vi: string, hskLevel = 1): UserWord {
   return {
@@ -16,6 +16,22 @@ function word(id: number, simplified: string, pinyin: string, vi: string, hskLev
     learnedAt: new Date(Date.UTC(2026, 0, 1, 0, id)).toISOString(),
   };
 }
+
+describe('newestWords', () => {
+  it('lấy tối đa mười từ học muộn nhất, muộn nhất đứng trước', () => {
+    const words = Array.from({ length: 12 }, (_, i) => word(i + 1, `字${i + 1}`, 'zì', `nghĩa ${i + 1}`));
+    expect(newestWords(words).map((item) => item.id)).toEqual([12, 11, 10, 9, 8, 7, 6, 5, 4, 3]);
+  });
+
+  it('cùng thời điểm học thì mã lớn hơn đứng trước; danh sách rỗng cho mảng rỗng', () => {
+    const same = [word(1, '一', 'yī', 'một'), word(2, '二', 'èr', 'hai')].map((item) => ({
+      ...item,
+      learnedAt: '2026-01-01T00:00:00.000Z',
+    }));
+    expect(newestWords(same).map((item) => item.id)).toEqual([2, 1]);
+    expect(newestWords([])).toEqual([]);
+  });
+});
 
 describe('groupWords', () => {
   it('nhóm mới nhất đứng đầu, không lặp lại ở nhóm cấp, cấp xếp tăng dần', () => {

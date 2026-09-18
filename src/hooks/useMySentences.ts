@@ -6,6 +6,10 @@
  * vừa đỡ một lượt mạng, vừa để bộ câu đang nghe không bị rút lại chỉ vì xoá
  * một câu. Lỗi được ném ra nguyên vẹn để nơi gọi tự quyết định nói gì với
  * người học; hook này không nuốt lỗi.
+ *
+ * Lần nạp gần nhất được chụp lại (`snapshot.ts`) để mở trang lần sau có câu để
+ * nghe ngay trong lúc máy chủ thức dậy; mọi thao tác ghi cũng cập nhật bản chụp
+ * cho khớp với danh sách đang hiện.
  */
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { describeApiError } from '../lib/api/client.ts';
@@ -24,6 +28,10 @@ import type {
   SentenceInput,
   SentenceSource,
 } from '../lib/api/types.ts';
+import { readSnapshot, writeSnapshot } from '../lib/storage/snapshot.ts';
+
+/** Tên bản chụp trong localStorage. */
+export const MY_SENTENCES_SNAPSHOT = 'my-sentences';
 
 export interface UseMySentencesResult {
   sentences: Sentence[];
@@ -50,13 +58,18 @@ function merge(current: readonly Sentence[], incoming: readonly Sentence[]): Sen
 
 export function useMySentences(): UseMySentencesResult {
   const [attempt, setAttempt] = useState(0);
-  const [loaded, setLoaded] = useState<{ attempt: number; sentences: Sentence[] } | null>(null);
+  // Bản chụp mang attempt -1: có câu để nghe ngay nhưng `loading` vẫn đúng tới khi máy chủ trả lời.
+  const [loaded, setLoaded] = useState<{ attempt: number; sentences: Sentence[] } | null>(() => {
+    const cached = readSnapshot<Sentence[]>(MY_SENTENCES_SNAPSHOT);
+    return Array.isArray(cached) ? { attempt: -1, sentences: cached } : null;
+  });
   const [failure, setFailure] = useState<{ attempt: number; message: string } | null>(null);
 
   useEffect(() => {
     let active = true;
     listSentences()
       .then((sentences) => {
+        writeSnapshot(MY_SENTENCES_SNAPSHOT, sentences);
         if (active) setLoaded({ attempt, sentences });
       })
       .catch((cause: unknown) => {
@@ -75,11 +88,12 @@ export function useMySentences(): UseMySentencesResult {
    * đúng sự thật.
    */
   const patch = useCallback((update: (current: readonly Sentence[]) => Sentence[]) => {
-    setLoaded((previous) =>
-      previous === null
-        ? previous
-        : { attempt: previous.attempt, sentences: update(previous.sentences) },
-    );
+    setLoaded((previous) => {
+      if (previous === null) return previous;
+      const sentences = update(previous.sentences);
+      writeSnapshot(MY_SENTENCES_SNAPSHOT, sentences);
+      return { attempt: previous.attempt, sentences };
+    });
   }, []);
 
   const add = useCallback(

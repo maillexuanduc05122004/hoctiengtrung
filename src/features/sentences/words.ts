@@ -6,8 +6,21 @@ import type { UserWord } from '../../lib/api/types.ts';
 import { pinyinSearchKey } from '../../lib/pinyin/index.ts';
 import { searchKey } from '../../lib/text/vietnamese.ts';
 
-/** Cỡ nhóm "mới nhất"; khớp với số từ AI được dặn lặp nhiều hơn. */
+/** Cỡ nhóm "mới nhất"; khớp với số từ AI được dặn ưu tiên khi viết câu. */
 export const NEWEST_GROUP_SIZE = 10;
+
+/**
+ * Những từ học gần đây nhất, mới nhất đứng trước (tối đa `NEWEST_GROUP_SIZE`).
+ *
+ * Đây cũng là nhóm từ AI được dặn ưu tiên khi viết câu: người học vừa thêm từ
+ * thì muốn nghe ngay câu có từ đó, ghép với vốn từ cũ. Cùng `learnedAt` (một
+ * lô nhập cùng lúc) thì lấy id lớn hơn trước để thứ tự ổn định.
+ */
+export function newestWords(words: readonly UserWord[]): UserWord[] {
+  return [...words]
+    .sort((a, b) => b.learnedAt.localeCompare(a.learnedAt) || b.id - a.id)
+    .slice(0, NEWEST_GROUP_SIZE);
+}
 
 export interface WordGroup {
   key: string;
@@ -43,9 +56,7 @@ export function matchesWord(word: UserWord, query: string): boolean {
  * tăng dần, bỏ nhóm rỗng. Một từ chỉ nằm ở một nhóm.
  */
 export function groupWords(words: readonly UserWord[]): WordGroup[] {
-  const newest = [...words]
-    .sort((a, b) => b.learnedAt.localeCompare(a.learnedAt) || b.id - a.id)
-    .slice(0, NEWEST_GROUP_SIZE);
+  const newest = newestWords(words);
   const newestIds = new Set(newest.map((word) => word.id));
 
   const byLevel = new Map<number, UserWord[]>();

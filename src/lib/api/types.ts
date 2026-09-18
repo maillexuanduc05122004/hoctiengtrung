@@ -177,6 +177,14 @@ export interface ImportConfirmResponse {
   errors: ImportRowError[];
 }
 
+/** AI điền chữ Hán / pinyin / nghĩa cho nội dung thô rồi duyệt trước y như `/preview`. */
+export interface ImportAiResponse {
+  model: string;
+  /** Số từ AI trả về, trước khi duyệt. */
+  aiWords: number;
+  preview: ImportPreviewResponse;
+}
+
 // ---- Câu của tôi và AI ----
 
 export type SentenceSource = 'BUILTIN' | 'MANUAL' | 'AI';
@@ -217,6 +225,8 @@ export interface GenerateSentencesResponse {
   generated: number;
   rejected: number;
   duplicates: number;
+  /** Câu chỉ là câu đã có (hoặc câu khác trong đợt) đổi chỗ chữ — máy chủ loại vì không phải câu mới. */
+  reordered: number;
   sentences: Sentence[];
   rejectedSamples: string[];
   model: string;

@@ -3,6 +3,8 @@
  *
  * Đang đăng nhập thì hiện tên, tên đăng nhập và nút đăng xuất; chưa thì nhúng
  * thẳng ô đăng nhập — ô đó đã liệt kê sẵn hai tài khoản kèm nút vào một-bấm.
+ * Đăng nhập là tuỳ chọn: phần "Câu của tôi" chạy sẵn bằng tài khoản chủ trang
+ * (máy chủ tự điền), nên mục này chỉ để đổi sang tài khoản khác.
  * Không có gì khác: hồ sơ, đổi mật khẩu đều không cần cho hai tài khoản dựng sẵn.
  */
 import { useState } from 'react';
@@ -14,8 +16,8 @@ import { describeApiError } from '../../lib/api/client.ts';
 import { LoginCard } from './LoginCard.tsx';
 
 const LOGIN_DESCRIPTION =
-  'Đăng nhập để dùng phần Câu của tôi: từ đã học và câu luyện nghe được lưu trên máy chủ. ' +
-  'Chọn một tài khoản có sẵn bên dưới, hoặc gõ tài khoản khác. ' +
+  'Không bắt buộc: phần Câu của tôi đã dùng sẵn tài khoản chủ trang, không cần đăng nhập. ' +
+  'Chỉ đăng nhập khi muốn dùng tài khoản khác. ' +
   'Mọi phần khác vẫn chạy ngoại tuyến, không cần tài khoản.';
 
 export function AccountSection() {

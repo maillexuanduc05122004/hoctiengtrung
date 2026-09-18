@@ -10,10 +10,12 @@
  * đó để AI viết câu mới từ đúng những từ đã học. Mọi phần khác của ứng dụng
  * vẫn chạy ngoại tuyến như cũ.
  *
- * Không bắt ai gõ tài khoản: mở trang khi chưa đăng nhập thì tự vào bằng tài
- * khoản khách (`ACCOUNTS.guest`) đúng một lần cho mỗi lần dựng trang. Chỉ khi
- * không vào được mới hiện ô đăng nhập — ô đó liệt kê sẵn cả hai tài khoản. Chủ
- * trang đang ở tài khoản khách thì có một nút để chuyển sang tài khoản của mình.
+ * KHÔNG có bước đăng nhập. Đây là site một người dùng: bản trước tự đăng nhập
+ * bằng tài khoản khách rồi mới nạp dữ liệu, tức là thêm một vòng mạng (và một
+ * lần băm mật khẩu) trước khi thấy gì — mà không bảo vệ được gì. Giờ trang nạp
+ * từ và câu ngay; máy chủ tự chạy request không mang token dưới tài khoản chủ
+ * trang (`DefaultAccountFilter` ở backend). Còn một phiên khách cũ lưu trong
+ * máy từ bản trước thì bỏ đi, nếu không dữ liệu hiện ra sẽ là của khách.
  *
  * Ba thẻ theo đúng nhịp dùng: xem lại vốn từ, nghe câu ghép từ vốn từ đó, rồi
  * khi thêm từ mới hay nghe hết câu thì sang thẻ thứ ba.
@@ -22,19 +24,18 @@
  * hơn nhiều so với nghe một từ, mà đổi cài đặt chung thì ảnh hưởng cả bốn chế độ
  * luyện tập kia.
  */
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Button, IconButton } from '../components/ui/Button.tsx';
 import { Segmented, type SegmentedOption } from '../components/ui/Controls.tsx';
 import { Notice, Spinner } from '../components/ui/Feedback.tsx';
 import { LiveMessage } from '../components/ui/LiveMessage.tsx';
 import { ACCOUNTS } from '../features/account/accounts.ts';
-import { LoginCard } from '../features/account/LoginCard.tsx';
-import { describeLoginError } from '../features/account/login-error.ts';
 import { SearchField } from '../features/dictionary/SearchField.tsx';
 import { SentenceDrill } from '../features/sentences/SentenceDrill.tsx';
 import { SentenceImport } from '../features/sentences/SentenceImport.tsx';
 import { WordImport } from '../features/sentences/WordImport.tsx';
 import { WordTable } from '../features/sentences/WordTable.tsx';
+import { newestWords } from '../features/sentences/words.ts';
 import { useAuth } from '../hooks/useAuth.ts';
 import { useLiveMessage } from '../hooks/useLiveMessage.ts';
 import { useMySentences } from '../hooks/useMySentences.ts';
@@ -65,15 +66,8 @@ const RATES: readonly SegmentedOption<string>[] = [
   { value: '1', label: '1×' },
 ];
 
-/** Nút AI trong phần nghe không hỏi gì thêm: xin đúng một bộ, trộn cả ba cấp. */
+/** Nút AI trong phần nghe không hỏi gì thêm: xin đúng một bộ, trộn cả ba cấp, ưu tiên từ mới nhất. */
 const DRILL_GENERATE_COUNT = 20;
-
-const LOGIN_DESCRIPTION =
-  'Phần này lưu từ bạn đã học trên máy chủ và dùng AI viết câu mới, nên cần đăng nhập.';
-
-const GUEST_NOTICE =
-  `Bạn đang dùng tài khoản khách (${ACCOUNTS.guest.username}) — ` +
-  'từ và câu ở đây dùng chung với mọi khách.';
 
 const NO_IDS: readonly number[] = [];
 
@@ -82,16 +76,20 @@ interface PageNotice {
   tone: 'info' | 'warn' | 'error';
   title?: string;
   lines: string[];
-  /** Những câu AI bị loại, kèm chữ lạ — để người học thấy bộ lọc đã chặn ở đâu. */
+  /** Những câu AI bị loại, kèm lý do — để người học thấy bộ lọc đã chặn ở đâu. */
   samples?: string[];
 }
 
 function describeGeneration(result: GenerateSentencesResponse): PageNotice {
+  const filtered: string[] = [];
+  if (result.rejected > 0) filtered.push(`${result.rejected} câu bị loại vì dùng chữ chưa học.`);
+  if (result.duplicates > 0) filtered.push(`${result.duplicates} câu trùng.`);
+  if (result.reordered > 0) filtered.push(`${result.reordered} câu chỉ là câu cũ đổi chỗ nên bỏ.`);
   return {
     tone: result.generated > 0 ? 'info' : 'warn',
     title: `Đã thêm ${result.generated} câu.`,
     lines: [
-      `${result.rejected} câu bị loại vì dùng chữ chưa học. ${result.duplicates} câu trùng.`,
+      ...(filtered.length > 0 ? [filtered.join(' ')] : []),
       ...(result.model ? [`Mô hình: ${result.model}.`] : []),
     ],
     samples: result.rejectedSamples,
@@ -99,39 +97,18 @@ function describeGeneration(result: GenerateSentencesResponse): PageNotice {
 }
 
 export function SentencesPage() {
-  const { status, user, login, logout } = useAuth();
-  // Tự vào bằng tài khoản khách đúng một lần cho mỗi lần dựng trang. Ref chứ
-  // không phải state: StrictMode chạy effect hai lần nhưng ref thì giữ nguyên.
-  const guestTried = useRef(false);
-  const [authError, setAuthError] = useState<string | null>(null);
-  const [switching, setSwitching] = useState(false);
+  const { user, logout } = useAuth();
 
+  // Phiên khách còn sót từ bản cũ (trang từng tự vào bằng 1111): bỏ đi để
+  // request không mang token và máy chủ dùng tài khoản chủ trang. Chỉ phiên
+  // khách; người học tự đăng nhập tài khoản khác ở Cài đặt thì giữ nguyên.
   useEffect(() => {
-    if (status !== 'anonymous' || guestTried.current) return;
-    guestTried.current = true;
-    login(ACCOUNTS.guest.username, ACCOUNTS.guest.password).catch((cause: unknown) => {
-      setAuthError(describeLoginError(cause));
-    });
-  }, [login, status]);
-
-  const switchToOwner = async (): Promise<void> => {
-    if (switching) return;
-    // Đăng xuất làm trang về trạng thái chưa đăng nhập; đánh dấu để effect
-    // trên không nhảy vào tranh đăng nhập lại bằng tài khoản khách.
-    guestTried.current = true;
-    setSwitching(true);
-    setAuthError(null);
-    try {
-      await logout();
-      await login(ACCOUNTS.owner.username, ACCOUNTS.owner.password);
-    } catch (cause: unknown) {
-      setAuthError(describeLoginError(cause));
-    } finally {
-      setSwitching(false);
+    if (user !== null && user.username === ACCOUNTS.guest.username) {
+      logout().catch(() => {
+        // Máy chủ không nhận được đăng xuất cũng không sao: token đã xoá khỏi máy.
+      });
     }
-  };
-
-  const isGuest = user !== null && user.username === ACCOUNTS.guest.username;
+  }, [logout, user]);
 
   return (
     <div
@@ -142,65 +119,12 @@ export function SentencesPage() {
       >
         Câu của tôi
       </h1>
-
-      {status === 'anonymous' ? (
-        authError === null ? (
-          <Spinner
-            label={
-              switching
-                ? `Đang chuyển sang tài khoản ${ACCOUNTS.owner.username}`
-                : 'Đang vào bằng tài khoản khách'
-            }
-          />
-        ) : (
-          <div
-            className="mt-4 max-w-[28rem]"
-          >
-            <div
-              className="mb-4"
-            >
-              <Notice
-                tone="error"
-                title="Không tự đăng nhập được"
-              >
-                {authError}
-              </Notice>
-            </div>
-            <LoginCard description={LOGIN_DESCRIPTION} />
-          </div>
-        )
-      ) : (
-        <>
-          {isGuest ? (
-            <div
-              className="mt-3"
-            >
-              <Notice
-                tone="info"
-              >
-                <p>{GUEST_NOTICE}</p>
-                <div
-                  className="mt-2"
-                >
-                  <Button
-                    variant="secondary"
-                    disabled={switching}
-                    onClick={() => void switchToOwner()}
-                  >
-                    {`Dùng tài khoản của tôi (${ACCOUNTS.owner.username})`}
-                  </Button>
-                </div>
-              </Notice>
-            </div>
-          ) : null}
-          <Workspace />
-        </>
-      )}
+      <Workspace />
     </div>
   );
 }
 
-/** Phần trang dành cho người đã đăng nhập; tách riêng để hook dữ liệu chỉ chạy khi cần. */
+/** Phần trang làm việc với máy chủ; tách riêng để hook dữ liệu gọn trong một chỗ. */
 function Workspace() {
   const [tab, setTab] = useState<Tab>('words');
   const [rate, setRate] = useState('0.75');
@@ -255,9 +179,18 @@ function Workspace() {
     [generate],
   );
 
+  const words = myWords.words;
+
+  // Nút AI ở phần nghe cũng ưu tiên từ mới nhất, giống mặc định của thẻ thêm câu:
+  // người học vừa thêm từ rồi sang nghe thì câu mới phải có từ đó.
+  const newestHanzi = useMemo(() => newestWords(words).map((word) => word.simplified), [words]);
+
   const generateFromDrill = useCallback(() => {
-    if (!generating) void runGenerate({ count: DRILL_GENERATE_COUNT });
-  }, [generating, runGenerate]);
+    if (generating) return;
+    const request: GenerateSentencesRequest = { count: DRILL_GENERATE_COUNT };
+    if (newestHanzi.length > 0) request.focusWords = newestHanzi;
+    void runGenerate(request);
+  }, [generating, newestHanzi, runGenerate]);
 
   const handleAdd = useCallback(
     async (inputs: SentenceInput[]): Promise<boolean> => {
@@ -303,7 +236,7 @@ function Workspace() {
 
   const handleRemoveWord = useCallback(
     (wordId: number) => {
-      const word = myWords.words.find((item) => item.wordId === wordId);
+      const word = words.find((item) => item.wordId === wordId);
       deleteMyWord(wordId)
         .then(() => {
           announce(
@@ -313,7 +246,7 @@ function Workspace() {
         })
         .catch((cause: unknown) => setNotice({ tone: 'error', lines: [describeApiError(cause)] }));
     },
-    [announce, myWords.words, reloadWords],
+    [announce, words, reloadWords],
   );
 
   const handleImported = useCallback(() => {
@@ -355,9 +288,9 @@ function Workspace() {
     return <Spinner label="Đang lấy từ và câu của bạn" />;
   }
 
-  const words = myWords.words;
   const sentences = mySentences.sentences;
   const laterError = myWords.error ?? mySentences.error;
+  const refreshing = myWords.loading || mySentences.loading;
 
   return (
     <>
@@ -366,6 +299,13 @@ function Workspace() {
       >
         {words.length} từ bạn đã học và {sentences.length} câu ghép từ chính những từ đó.
         {ai?.enabled ? ` · AI: ${ai.model}` : ''}
+        {refreshing ? (
+          <span
+            className="ml-2 text-[0.8125rem] text-ink-faint"
+          >
+            Đang cập nhật từ máy chủ…
+          </span>
+        ) : null}
       </p>
 
       <div
@@ -499,7 +439,10 @@ function Workspace() {
 
       {tab === 'add' ? (
         <>
-          <WordImport onImported={handleImported} />
+          <WordImport
+            ai={ai}
+            onImported={handleImported}
+          />
           <SentenceImport
             words={words}
             sentences={sentences}

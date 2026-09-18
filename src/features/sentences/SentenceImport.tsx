@@ -2,9 +2,12 @@
  * Phần B của thẻ "Thêm từ & câu": thêm câu luyện nghe.
  *
  * Đường chính: máy chủ gọi AI viết câu từ đúng vốn từ đã học, lọc bỏ mọi câu
- * dùng chữ lạ rồi mới lưu — người học bấm một nút là có câu mới. Đường phụ
- * giữ lại từ bản cũ: chép câu lệnh sang một trợ lý khác rồi dán kết quả về,
- * cho lúc máy chủ chưa cấu hình khoá AI hoặc người học muốn dùng trợ lý quen.
+ * dùng chữ lạ — và mọi câu chỉ là câu cũ đổi chỗ chữ — rồi mới lưu; người học
+ * bấm một nút là có câu mới. Mặc định AI được dặn ưu tiên nhóm từ mới nhất
+ * (`newestWords`), vì người học vừa thêm từ thì muốn nghe ngay câu ghép từ đó
+ * với vốn từ cũ; chọn "Mọi từ" thì AI trộn đều cả vốn từ. Đường phụ giữ lại từ
+ * bản cũ: chép câu lệnh sang một trợ lý khác rồi dán kết quả về, cho lúc máy
+ * chủ chưa cấu hình khoá AI hoặc người học muốn dùng trợ lý quen.
  *
  * Thành phần này không tự gọi API: nó dựng yêu cầu và giao cho trang, vì kết
  * quả (thông báo, chuyển sang thẻ nghe, mục "câu vừa tạo") thuộc về trang chứ
@@ -25,9 +28,11 @@ import type {
 import { toSentenceInputs } from './manual.ts';
 import { parseSentences } from './parse.ts';
 import { buildExistingList, buildPrompt } from './prompt.ts';
+import { newestWords } from './words.ts';
 
 type CountChoice = '10' | '20' | '30' | '50';
 type LevelChoice = 'mix' | '1' | '2' | '3';
+type FocusChoice = 'newest' | 'all';
 
 const COUNT_OPTIONS: readonly SegmentedOption<CountChoice>[] = [
   { value: '10', label: '10' },
@@ -41,6 +46,11 @@ const LEVEL_OPTIONS: readonly SegmentedOption<LevelChoice>[] = [
   { value: '1', label: '1', srLabel: 'Cấp 1' },
   { value: '2', label: '2', srLabel: 'Cấp 2' },
   { value: '3', label: '3', srLabel: 'Cấp 3' },
+];
+
+const FOCUS_OPTIONS: readonly SegmentedOption<FocusChoice>[] = [
+  { value: 'newest', label: 'Ưu tiên từ mới' },
+  { value: 'all', label: 'Mọi từ' },
 ];
 
 /** Số câu hay xin ở trợ lý ngoài; người học nhắc tới 30, 50 và 90. */
@@ -76,6 +86,7 @@ export function SentenceImport({
 }: SentenceImportProps) {
   const [count, setCount] = useState<CountChoice>('20');
   const [level, setLevel] = useState<LevelChoice>('mix');
+  const [focus, setFocus] = useState<FocusChoice>('newest');
   const [promptCount, setPromptCount] = useState<number>(50);
   const [draft, setDraft] = useState('');
   const [copied, setCopied] = useState<CopyState>('idle');
@@ -91,6 +102,7 @@ export function SentenceImport({
   );
   const preview = useMemo(() => parseSentences(draft), [draft]);
   const batch = useMemo(() => toSentenceInputs(preview.sentences), [preview]);
+  const newest = useMemo(() => newestWords(words), [words]);
 
   const aiCount = sentences.filter((sentence) => sentence.source === 'AI').length;
   const manualCount = sentences.filter((sentence) => sentence.source === 'MANUAL').length;
@@ -108,10 +120,11 @@ export function SentenceImport({
   };
 
   const generate = (): void => {
-    const request: GenerateSentencesRequest =
-      level === 'mix'
-        ? { count: Number(count) }
-        : { count: Number(count), level: Number(level) as 1 | 2 | 3 };
+    const request: GenerateSentencesRequest = { count: Number(count) };
+    if (level !== 'mix') request.level = Number(level) as 1 | 2 | 3;
+    if (focus === 'newest' && newest.length > 0) {
+      request.focusWords = newest.map((word) => word.simplified);
+    }
     void onGenerate(request);
   };
 
@@ -160,8 +173,9 @@ export function SentenceImport({
             <p
               className="mb-3 text-[0.9375rem] leading-relaxed text-ink-soft"
             >
-              AI trên máy chủ ({ai.model}) viết câu chỉ bằng {words.length} từ bạn đã học; câu nào
-              lỡ dùng chữ chưa học sẽ bị loại trước khi lưu.
+              AI trên máy chủ ({ai.model}) ghép {words.length} từ bạn đã học thành câu mới — mỗi câu
+              là một cách ghép khác, không phải câu cũ đổi chỗ. Câu dùng chữ chưa học, hay chỉ đổi chỗ
+              câu đã có, bị loại trước khi lưu.
             </p>
             <div
               className="mb-2 flex flex-wrap items-end"
@@ -186,6 +200,18 @@ export function SentenceImport({
                   onChange={setLevel}
                 />
               </span>
+              {newest.length > 0 ? (
+                <span
+                  className="mr-4 mb-2"
+                >
+                  <Segmented
+                    legend="Từ"
+                    options={FOCUS_OPTIONS}
+                    value={focus}
+                    onChange={setFocus}
+                  />
+                </span>
+              ) : null}
               <span
                 className="mb-2"
               >
@@ -199,6 +225,20 @@ export function SentenceImport({
                 </Button>
               </span>
             </div>
+            {focus === 'newest' && newest.length > 0 ? (
+              <p
+                className="mb-2 text-[0.875rem] leading-relaxed text-ink-soft"
+              >
+                Mỗi câu sẽ có ít nhất một trong {newest.length} từ mới nhất:{' '}
+                <span
+                  lang="zh-CN"
+                  className="han text-ink"
+                >
+                  {newest.map((word) => word.simplified).join('、')}
+                </span>
+                .
+              </p>
+            ) : null}
             {enoughWords ? null : (
               <p
                 className="mb-2 text-[0.875rem] text-partial"

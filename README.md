@@ -134,11 +134,18 @@ Ba phần trong tab:
    phát**: không chữ Hán, không pinyin, không nghĩa. Ba nút Hán / Pinyin / Nghĩa mở riêng
    từng phần cho riêng câu đó. Tốc độ 0,6× đến 1×. Phím ↓ ↑ chuyển câu và Enter phát câu
    đang chọn.
-3. **Thêm câu** — ứng dụng không gọi API AI nào (không có backend, và nhúng khoá vào trang
-   tĩnh thì ai cũng lấy được). Thay vào đó nó dựng sẵn câu lệnh kèm cả 89 từ để chép sang một
-   trợ lý bất kỳ, rồi đọc kết quả dán ngược về. Bộ đọc nhận dạng ba cột `汉字 | pinyin |
-   nghĩa`, và tha thứ cho số thứ tự đầu dòng, tab, gạch ngang lẫn bảng Markdown. Câu trùng
-   bị bỏ, và câu đã thêm nằm ở localStorage nên không mất khi đặt lại tiến độ.
+3. **Thêm từ & câu** — hai phần trên cùng một thẻ.
+   - *Thêm từ mới*: dán mỗi dòng một từ (`chữ Hán pinyin nghĩa`) rồi **Kiểm tra** — máy chủ
+     tra CC-CEDICT, đối chiếu kho từ, và người học duyệt từng dòng trước khi thêm. Khi máy chủ
+     có AI thì có thêm nút **Điền bằng AI**: gõ đại — chỉ tiếng Việt, chỉ pinyin không dấu, hay
+     một câu "gợi ý 10 từ về đồ ăn" — AI điền chữ Hán, pinyin, nghĩa Việt, nghĩa Anh rồi đưa
+     qua đúng bảng duyệt ấy. AI chỉ gõ hộ; bảng duyệt vẫn là nơi quyết định.
+   - *Thêm câu*: máy chủ nhờ AI **ghép các từ đã học thành câu mới** — mỗi câu là một cách ghép
+     khác của 2–3 từ trở lên, không phải câu cũ đổi chỗ. Máy chủ loại câu dùng chữ chưa học, câu
+     trùng, và câu chỉ là câu đã có xáo lại thứ tự chữ (so theo túi chữ). Mặc định AI được dặn
+     **ưu tiên 10 từ mới nhất** để vừa thêm từ là có câu dùng từ đó ghép với vốn cũ; chọn "Mọi
+     từ" thì trộn đều. Vẫn giữ đường phụ: chép câu lệnh kèm cả vốn từ sang trợ lý khác rồi dán
+     kết quả về (`汉字 | pinyin | nghĩa`, tha thứ số thứ tự, tab, bảng Markdown).
 
 Ô tìm dính ở mép trên khi cuộn, dùng chung cho cả từ lẫn câu: gõ chữ Hán, pinyin có hoặc
 không dấu, tiếng Việt có hoặc không dấu. Đang tìm thì phần câu hiện mọi câu khớp thay vì bộ
@@ -147,10 +154,16 @@ ngẫu nhiên, nhưng vẫn không lộ nội dung — muốn xem chữ vẫn ph
 Mọi chữ Hán trong 90 câu đều nằm trong 89 từ đó, trừ `去` và `车` tách ra từ `去哪儿` và
 `开车`. Có test canh điều này, nên thêm câu mới mà lỡ dùng chữ chưa học là hỏng ngay.
 
-Máy chủ có sẵn hai tài khoản, mật khẩu hiện luôn trên mọi ô đăng nhập (khối "Tài khoản có sẵn"):
-`2222` / `2222` là chủ trang ("Của tôi", quản trị, giữ danh sách từ đã học) và `1111` / `1111` là
-khách ("Khách", dùng chung, cũng được nạp sẵn 89 từ / 90 câu). Mở tab này khi chưa đăng nhập thì
-ứng dụng tự vào bằng tài khoản khách; đang là khách thì có nút "Dùng tài khoản của tôi (2222)".
+**Không cần đăng nhập.** Đây là site một người dùng: tab này gọi máy chủ không kèm token và máy
+chủ tự chạy request dưới tài khoản chủ trang (`2222`; xem `DefaultAccountFilter` phía backend).
+Bản trước tự đăng nhập bằng tài khoản khách `1111` trước khi nạp gì — thêm một vòng mạng vô ích
+và làm phần "Thêm từ mới" bị 403 (khách không có quyền nhập từ). Phiên khách còn sót trong máy
+được tab này tự bỏ. Ô đăng nhập chỉ còn ở Cài đặt → Tài khoản, cho lúc muốn dùng tài khoản khác;
+hai tài khoản dựng sẵn vẫn hiện kèm mật khẩu ở đó.
+
+Để mở nhanh dù máy chủ miễn phí (Render) đang ngủ: lần nạp gần nhất được chụp vào localStorage
+(`moingay.snapshot.v1.*`) và lần mở sau hiện ngay, kèm dòng "Đang cập nhật từ máy chủ…" cho tới
+khi máy chủ trả lời và ghi đè.
 
 ### Tra từ
 
@@ -255,10 +268,10 @@ Kho đã có `vercel.json` cấu hình sẵn cho SPA. Trên Vercel chỉ cần t
 ## Kết nối máy chủ và triển khai phần "Câu của tôi"
 
 Phần **Câu của tôi** lưu từ đã học và câu luyện nghe trên máy chủ Spring Boot
-(`bewebtiengtrung`) và dùng AI trên máy chủ để viết câu mới, nên **phần này cần đăng nhập**
-(mục Tài khoản trong Cài đặt, hoặc ngay trên trang). Mọi phần còn lại — buổi học, lật thẻ, gõ,
-nghe, nói, sổ tay, tra từ, tiến độ — vẫn nằm trên máy và chạy ngoại tuyến như trước, không cần
-tài khoản.
+(`bewebtiengtrung`) và dùng AI trên máy chủ để viết câu mới và điền từ. **Không cần đăng nhập**:
+máy chủ tự chạy request không mang token dưới tài khoản chủ trang (`DEFAULT_ACCOUNT`, mặc định
+`2222`). Mọi phần còn lại — buổi học, lật thẻ, gõ, nghe, nói, sổ tay, tra từ, tiến độ — vẫn nằm
+trên máy và chạy ngoại tuyến như trước.
 
 Ứng dụng đọc địa chỉ máy chủ từ biến môi trường `VITE_API_URL` (xem `.env.example`); bỏ trống
 thì dùng `http://localhost:8080`. Biến này được nhúng vào lúc build, nên đổi giá trị là phải
@@ -273,9 +286,11 @@ Khi đưa lên Vercel:
    `https://moi-ngay-zhongwen.vercel.app` (nhiều domain cách nhau bằng dấu phẩy; thêm cả domain
    preview nếu cần thử trước). Thiếu bước này thì trình duyệt chặn mọi request và ô đăng nhập
    báo "Không kết nối được máy chủ".
-3. Muốn có nút "Tạo câu mới bằng AI" thì máy chủ cần thêm `ANTHROPIC_API_KEY`; không có, phần
-   còn lại của trang vẫn hoạt động và ứng dụng nói rõ là AI chưa được cấu hình.
+3. Muốn có nút "Tạo câu mới bằng AI" và "Điền bằng AI" thì máy chủ cần `GEMINI_API_KEY` (miễn
+   phí) hoặc `ANTHROPIC_API_KEY`; không có, phần còn lại của trang vẫn hoạt động và ứng dụng nói
+   rõ là AI chưa được cấu hình.
 
-Phiên đăng nhập nằm trong `localStorage` (`moingay.auth.v1`); access token hết hạn sẽ được tự làm
-mới bằng refresh token, và khi refresh token bị thu hồi thì ứng dụng tự về trạng thái chưa đăng
-nhập chứ không hiện lỗi mập mờ.
+Nếu có đăng nhập (Cài đặt → Tài khoản), phiên nằm trong `localStorage` (`moingay.auth.v1`); access
+token hết hạn sẽ được tự làm mới bằng refresh token, và khi refresh token bị thu hồi thì ứng dụng
+tự về trạng thái chưa đăng nhập chứ không hiện lỗi mập mờ — phần Câu của tôi khi đó lại dùng tài
+khoản chủ trang như thường.

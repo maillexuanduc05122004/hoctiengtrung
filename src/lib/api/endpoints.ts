@@ -10,6 +10,7 @@ import type {
   DictionaryEntry,
   GenerateSentencesRequest,
   GenerateSentencesResponse,
+  ImportAiResponse,
   ImportConfirmResponse,
   ImportConfirmRow,
   ImportPreviewResponse,
@@ -80,14 +81,25 @@ export function deleteMyWord(wordId: number): Promise<void> {
   return apiFetch<void>(`/me/words/${wordId}`, { method: 'DELETE' });
 }
 
-// ---- Nhập từ có duyệt (chỉ quản trị viên) ----
+// ---- Nhập từ có duyệt vào sổ từ của mình ----
 
 export function previewImport(body: {
   defaultHskLevel: number;
   defaultTopicIds?: number[];
   rows: ImportRowInput[];
 }): Promise<ImportPreviewResponse> {
-  return apiFetch<ImportPreviewResponse>('/admin/words/import/preview', {
+  return apiFetch<ImportPreviewResponse>('/me/words/import/preview', {
+    method: 'POST',
+    body: json(body),
+  });
+}
+
+/** AI điền phần còn thiếu cho nội dung thô rồi trả về bảng duyệt như `previewImport`. */
+export function completeImportWithAi(body: {
+  text: string;
+  defaultHskLevel: number;
+}): Promise<ImportAiResponse> {
+  return apiFetch<ImportAiResponse>('/me/words/import/ai', {
     method: 'POST',
     body: json(body),
   });
@@ -97,7 +109,7 @@ export function confirmImport(body: {
   markAsLearned: boolean;
   rows: ImportConfirmRow[];
 }): Promise<ImportConfirmResponse> {
-  return apiFetch<ImportConfirmResponse>('/admin/words/import/confirm', {
+  return apiFetch<ImportConfirmResponse>('/me/words/import/confirm', {
     method: 'POST',
     body: json(body),
   });

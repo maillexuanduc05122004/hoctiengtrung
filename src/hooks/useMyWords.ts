@@ -8,11 +8,19 @@
  * `loading` suy ra từ việc kết quả đã nạp có khớp lần thử hiện tại hay chưa,
  * nên effect chỉ đặt trạng thái trong nhánh bất đồng bộ (cùng cách với
  * `VocabularyProvider`).
+ *
+ * Lần nạp gần nhất được chụp lại (`snapshot.ts`): mở trang lần sau thì bảng
+ * hiện ngay với `ready = true` và `loading = true`, rồi lượt nạp thật ghi đè
+ * khi máy chủ trả lời — máy chủ miễn phí thức dậy chậm không còn chặn màn hình.
  */
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { describeApiError } from '../lib/api/client.ts';
 import { listMyWords } from '../lib/api/endpoints.ts';
 import type { UserWord } from '../lib/api/types.ts';
+import { readSnapshot, writeSnapshot } from '../lib/storage/snapshot.ts';
+
+/** Tên bản chụp trong localStorage. */
+export const MY_WORDS_SNAPSHOT = 'my-words';
 
 /** Cỡ trang xin máy chủ; vượt mức này thì bảng từ cũng không còn đọc nổi. */
 export const MY_WORDS_PAGE_SIZE = 500;
@@ -31,13 +39,19 @@ const EMPTY: UserWord[] = [];
 
 export function useMyWords(): UseMyWordsResult {
   const [attempt, setAttempt] = useState(0);
-  const [loaded, setLoaded] = useState<{ attempt: number; words: UserWord[] } | null>(null);
+  // Bản chụp mang attempt -1: có dữ liệu để vẽ nhưng chưa khớp lần thử nào,
+  // nên `loading` vẫn đúng cho tới khi máy chủ trả lời.
+  const [loaded, setLoaded] = useState<{ attempt: number; words: UserWord[] } | null>(() => {
+    const cached = readSnapshot<UserWord[]>(MY_WORDS_SNAPSHOT);
+    return Array.isArray(cached) ? { attempt: -1, words: cached } : null;
+  });
   const [failure, setFailure] = useState<{ attempt: number; message: string } | null>(null);
 
   useEffect(() => {
     let active = true;
     listMyWords({ size: MY_WORDS_PAGE_SIZE })
       .then((page) => {
+        writeSnapshot(MY_WORDS_SNAPSHOT, page.content);
         if (active) setLoaded({ attempt, words: page.content });
       })
       .catch((cause: unknown) => {

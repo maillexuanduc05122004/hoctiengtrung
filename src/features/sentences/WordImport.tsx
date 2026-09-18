@@ -6,6 +6,12 @@
  * thanh điệu hay một chữ Hán gõ nhầm sẽ nằm trong vốn từ mãi, và AI sẽ viết
  * câu bằng đúng cái lỗi đó.
  *
+ * Bước đầu có hai cửa. "Kiểm tra" đọc từng dòng theo dạng `chữ Hán pinyin nghĩa`
+ * rồi hỏi từ điển. "Điền bằng AI" nhận bất cứ gì — chỉ tiếng Việt, chỉ pinyin
+ * không dấu, hay một câu "gợi ý 10 từ về đồ ăn" — máy chủ nhờ AI điền đủ bốn
+ * phần rồi đưa qua ĐÚNG bước đối chiếu từ điển ấy. AI chỉ gõ hộ; bảng duyệt
+ * vẫn là nơi quyết định, nên AI bịa chữ hay sai thanh điệu thì người học thấy.
+ *
  * Bảng duyệt sửa được tại chỗ. Bấm "Thêm" thì đối chiếu lại một lần nữa bằng
  * đúng nội dung đã sửa rồi mới ghi — nên chữ Hán hay pinyin sửa sau khi kiểm
  * tra không bao giờ đi vào kho mà chưa qua từ điển, và người học không phải
@@ -16,8 +22,9 @@ import { Button } from '../../components/ui/Button.tsx';
 import { Chip, Segmented, type SegmentedOption } from '../../components/ui/Controls.tsx';
 import { Notice, Spinner } from '../../components/ui/Feedback.tsx';
 import { describeApiError } from '../../lib/api/client.ts';
-import { confirmImport, previewImport } from '../../lib/api/endpoints.ts';
+import { completeImportWithAi, confirmImport, previewImport } from '../../lib/api/endpoints.ts';
 import type {
+  AiStatus,
   ImportAction,
   ImportCandidate,
   ImportConfirmResponse,
@@ -59,7 +66,10 @@ const ACTION_LABELS: Record<ImportAction, string> = {
 /** Những hành động đưa một từ vào danh sách đã học. */
 const ADDING_ACTIONS: ReadonlySet<ImportAction> = new Set(['CREATE', 'UPDATE', 'LINK']);
 
-type Phase = 'idle' | 'checking' | 'review' | 'confirming';
+type Phase = 'idle' | 'checking' | 'ai' | 'review' | 'confirming';
+
+/** Máy chủ từ chối nội dung dài hơn mức này khi nhờ AI điền. */
+export const MAX_AI_TEXT = 4000;
 
 /** Một dòng trong bảng duyệt: kết quả đối chiếu cộng phần người học đã sửa. */
 interface ReviewRow {
@@ -133,23 +143,33 @@ function resultLine(result: ImportConfirmResponse): string {
 }
 
 export interface WordImportProps {
+  /** Trạng thái AI trên máy chủ; `null` khi chưa hỏi xong. Tắt thì nút AI ẩn, đường "Kiểm tra" vẫn còn. */
+  ai: AiStatus | null;
   /** Gọi sau khi máy chủ đã ghi xong, để bảng từ nạp lại. */
   onImported: (result: ImportConfirmResponse) => void;
 }
 
-export function WordImport({ onImported }: WordImportProps) {
+export function WordImport({ ai, onImported }: WordImportProps) {
   const textareaId = useId();
   const [draft, setDraft] = useState('');
   const [hsk, setHsk] = useState<HskChoice>('1');
   const [phase, setPhase] = useState<Phase>('idle');
   const [rows, setRows] = useState<ReviewRow[] | null>(null);
   const [summary, setSummary] = useState<ImportPreviewSummary | null>(null);
+  /** Dòng "AI (model) đọc được N từ" — chỉ có sau lần điền bằng AI gần nhất. */
+  const [aiNote, setAiNote] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [result, setResult] = useState<ImportConfirmResponse | null>(null);
 
   const parsed = useMemo(() => parseWordLines(draft), [draft]);
-  const busy = phase === 'checking' || phase === 'confirming';
+  const busy = phase === 'checking' || phase === 'ai' || phase === 'confirming';
   const hskLevel = Number(hsk);
+  const aiEnabled = ai?.enabled === true;
+  const draftText = draft.trim();
+  // Toàn dòng chỉ có nghĩa (gõ tiếng Việt suông): "Kiểm tra" sẽ chỉ trả về lỗi
+  // thiếu chữ Hán — đây đúng là việc của nút AI, nên nói thẳng.
+  const onlyMeanings =
+    parsed.length > 0 && parsed.every((row) => row.simplified === undefined && row.pinyin === undefined);
 
   /** Đối chiếu một danh sách dòng, giữ lại lựa chọn hành động người học đã đổi. */
   const runPreview = async (
@@ -168,8 +188,35 @@ export function WordImport({ onImported }: WordImportProps) {
     setPhase('checking');
     setError(null);
     setResult(null);
+    setAiNote(null);
     try {
       await runPreview(parsed, null);
+      setPhase('review');
+    } catch (cause: unknown) {
+      setError(describeApiError(cause));
+      setPhase(rows === null ? 'idle' : 'review');
+    }
+  };
+
+  /**
+   * Nhờ AI điền phần thiếu rồi nhận luôn bảng duyệt. Không đi qua `parseWordLines`:
+   * chính những dòng bộ đọc ấy không hiểu (chỉ tiếng Việt, câu yêu cầu) là lý do có nút này.
+   */
+  const fillWithAi = async (): Promise<void> => {
+    if (draftText === '' || busy || !aiEnabled) return;
+    setPhase('ai');
+    setError(null);
+    setResult(null);
+    setAiNote(null);
+    try {
+      const response = await completeImportWithAi({
+        text: draftText.slice(0, MAX_AI_TEXT),
+        defaultHskLevel: hskLevel,
+      });
+      const next = response.preview.rows.map((row, i) => fromPreview(row, i));
+      setRows(next);
+      setSummary(response.preview.summary);
+      setAiNote(`AI (${response.model}) đọc được ${response.aiWords} từ — duyệt lại từng dòng rồi mới thêm.`);
       setPhase('review');
     } catch (cause: unknown) {
       setError(describeApiError(cause));
@@ -258,6 +305,7 @@ export function WordImport({ onImported }: WordImportProps) {
       });
       setRows(remaining.length === 0 ? null : remaining);
       setSummary(null);
+      setAiNote(null);
       setDraft('');
       setPhase(remaining.length === 0 ? 'idle' : 'review');
     } catch (cause: unknown) {
@@ -283,6 +331,14 @@ export function WordImport({ onImported }: WordImportProps) {
       >
         Mỗi dòng một từ: chữ Hán, pinyin, nghĩa — cách nhau bằng khoảng trắng, tab hoặc |. Không có
         chữ Hán cũng được, hệ thống sẽ gợi ý.
+        {aiEnabled ? (
+          <>
+            {' '}
+            Hoặc gõ đại — chỉ tiếng Việt, chỉ pinyin không dấu, hay <em>gợi ý 10 từ về đồ ăn</em> — rồi
+            bấm <strong>Điền bằng AI</strong>: AI điền chữ Hán, pinyin, nghĩa; bạn vẫn duyệt từng dòng
+            trước khi thêm.
+          </>
+        ) : null}
       </p>
 
       <label
@@ -296,7 +352,7 @@ export function WordImport({ onImported }: WordImportProps) {
         value={draft}
         onChange={(event) => setDraft(event.target.value)}
         rows={6}
-        placeholder="学习 xuéxí học"
+        placeholder={aiEnabled ? 'học\nxin chào\n吃饭\ngợi ý 5 từ về gia đình' : '学习 xuéxí học'}
         spellCheck={false}
         disabled={busy}
         className="w-full border border-line rounded-[0.375rem] bg-surface p-2.5 font-mono text-[0.875rem] leading-relaxed text-ink placeholder:text-ink-faint"
@@ -315,11 +371,25 @@ export function WordImport({ onImported }: WordImportProps) {
             onChange={setHsk}
           />
         </span>
+        {aiEnabled ? (
+          <span
+            className="mr-3 mb-2"
+          >
+            <Button
+              variant="primary"
+              icon="lightbulb"
+              disabled={busy || draftText === ''}
+              onClick={() => void fillWithAi()}
+            >
+              Điền bằng AI
+            </Button>
+          </span>
+        ) : null}
         <span
           className="mr-3 mb-2"
         >
           <Button
-            variant="primary"
+            variant={aiEnabled ? 'secondary' : 'primary'}
             icon="check"
             disabled={busy || parsed.length === 0}
             onClick={() => void check()}
@@ -330,17 +400,22 @@ export function WordImport({ onImported }: WordImportProps) {
         <span
           className="mb-2 text-[0.875rem] text-ink-soft"
         >
-          {draft.trim() === ''
+          {draftText === ''
             ? ''
             : parsed.length === 0
-              ? 'Chưa đọc được dòng nào.'
+              ? aiEnabled
+                ? 'Chưa đọc được dòng nào theo dạng chữ Hán · pinyin · nghĩa — bấm Điền bằng AI.'
+                : 'Chưa đọc được dòng nào.'
               : parsed.length >= MAX_WORD_ROWS
                 ? `Chỉ lấy ${MAX_WORD_ROWS} dòng đầu.`
-                : `Đọc được ${parsed.length} dòng.`}
+                : aiEnabled && onlyMeanings
+                  ? `Đọc được ${parsed.length} dòng, chưa có chữ Hán hay pinyin — bấm Điền bằng AI.`
+                  : `Đọc được ${parsed.length} dòng.`}
         </span>
       </div>
 
       {phase === 'checking' ? <Spinner label="Đang đối chiếu với từ điển…" /> : null}
+      {phase === 'ai' ? <Spinner label="AI đang điền chữ Hán, pinyin và nghĩa…" /> : null}
       {phase === 'confirming' ? <Spinner label="Đang thêm vào danh sách đã học…" /> : null}
 
       {error !== null ? (
@@ -355,6 +430,13 @@ export function WordImport({ onImported }: WordImportProps) {
         <div
           className="mt-4"
         >
+          {aiNote !== null ? (
+            <p
+              className="mb-1 text-[0.875rem] text-teal"
+            >
+              {aiNote}
+            </p>
+          ) : null}
           {summary !== null ? (
             <p
               role="status"
