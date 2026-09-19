@@ -4,10 +4,13 @@
  * Trọng tâm vẫn là lời hứa dễ vỡ nhất của trang: mở phần nghe thì KHÔNG được
  * thấy chữ Hán, pinyin hay nghĩa — chỉ có nút phát. Cộng thêm các lời hứa kể
  * từ khi trang nối máy chủ: KHÔNG có bước đăng nhập — trang nạp từ và câu ngay,
- * phiên khách còn sót từ bản cũ thì tự bỏ; lần mở sau hiện ngay bản chụp lần
- * trước trong lúc chờ máy chủ; nút AI khoá khi máy chủ chưa bật AI; bấm "Tạo
- * bằng AI" thì gửi đúng số câu, đúng cấp và nhóm từ mới nhất để AI ưu tiên; và
- * "Điền bằng AI" ở phần thêm từ đổ thẳng kết quả vào bảng duyệt.
+ * phiên khách còn sót từ bản cũ thì tự bỏ; KHÔNG BAO GIỜ chờ máy chủ để hiện
+ * màn hình đầu — lần mở đầu hiện bộ 89 từ / 90 câu đóng gói sẵn, lần sau hiện
+ * bản chụp lần trước, và trong lúc đó mọi nút ghi (xoá, thêm, AI) bị giấu hay
+ * khoá kèm lời giải thích cho tới khi máy chủ trả lời; máy chủ đang dậy (lỗi
+ * mạng) thì tự gọi lại chứ không bắt bấm tay; nút AI khoá khi máy chủ chưa bật
+ * AI; bấm "Tạo bằng AI" thì gửi đúng số câu, đúng cấp và nhóm từ mới nhất để
+ * AI ưu tiên; và "Điền bằng AI" ở phần thêm từ đổ thẳng kết quả vào bảng duyệt.
  *
  * `endpoints.ts` được giả lập nguyên tệp nên không có yêu cầu mạng nào; dữ liệu
  * mẫu lấy từ `corpus.ts` (89 từ, 90 câu) để bộ câu ngẫu nhiên có cùng kích cỡ
@@ -28,7 +31,10 @@ import userEvent from '@testing-library/user-event';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { SentencesPage } from './SentencesPage.tsx';
 import { MY_SENTENCES, MY_WORDS } from '../features/sentences/corpus.ts';
+import { WAITING_HINT } from '../features/sentences/SentenceDrill.tsx';
 import type { AuthUser } from '../lib/api/auth.ts';
+import { ApiError } from '../lib/api/client.ts';
+import type * as Retry from '../lib/api/retry.ts';
 import type {
   AiStatus,
   ImportAiResponse,
@@ -110,6 +116,18 @@ const api = vi.hoisted(() => ({
 }));
 
 vi.mock('../lib/api/endpoints.ts', () => api);
+
+// Vòng tự thử lại giữ nguyên logic nhưng không chờ thật giữa hai lần — lịch
+// chờ 2 s… 15 s đã được `retry.test.ts` kiểm riêng; ở đây chỉ cần biết trang
+// có gọi lại hay không.
+vi.mock('../lib/api/retry.ts', async (importOriginal) => {
+  const actual = await importOriginal<typeof Retry>();
+  return {
+    ...actual,
+    withRetry: <T,>(task: (signal?: AbortSignal) => Promise<T>, options = {}) =>
+      actual.withRetry(task, { ...options, delays: [0, 0] }),
+  };
+});
 
 /** 89 từ mẫu, học cách nhau một phút để nhóm "mới nhất" có thứ tự xác định. */
 const WORDS: UserWord[] = MY_WORDS.map((word, i) => ({
@@ -203,7 +221,7 @@ describe('trang Câu của tôi — không cần đăng nhập', () => {
     expect(screen.getByRole('heading', { level: 1, name: 'Câu của tôi' })).toBeInTheDocument();
     expect(screen.queryByRole('heading', { name: 'Đăng nhập' })).not.toBeInTheDocument();
     await screen.findByText(/89 từ bạn đã học và 90 câu ghép từ chính những từ đó\./);
-    expect(api.listMyWords).toHaveBeenCalledWith({ size: 500 });
+    expect(api.listMyWords).toHaveBeenCalledWith({ size: 500 }, expect.any(AbortSignal));
     expect(api.listSentences).toHaveBeenCalledTimes(1);
     expect(api.aiStatus).toHaveBeenCalledTimes(1);
     expect(auth.login).not.toHaveBeenCalled();
@@ -238,7 +256,8 @@ describe('trang Câu của tôi — không cần đăng nhập', () => {
     await screen.findByText(/89 từ bạn đã học và 90 câu/);
     first.unmount();
 
-    // Lần 2: máy chủ chậm (treo) — trang vẫn hiện 89 từ / 90 câu ngay lập tức.
+    // Lần 2: máy chủ chậm (treo) — trang vẫn hiện 89 từ / 90 câu ngay lập tức,
+    // nói rõ đây là dữ liệu lần trước và chưa ghi được.
     let finish: (value: Sentence[]) => void = () => undefined;
     api.listSentences.mockImplementationOnce(
       () =>
@@ -248,26 +267,146 @@ describe('trang Câu của tôi — không cần đăng nhập', () => {
     );
     render(<SentencesPage />);
     expect(screen.getByText(/89 từ bạn đã học và 90 câu/)).toBeInTheDocument();
-    expect(screen.getByText('Đang cập nhật từ máy chủ…')).toBeInTheDocument();
+    expect(screen.getByText('Máy chủ đang thức dậy…')).toBeInTheDocument();
+    expect(screen.getByText(/Đang hiện dữ liệu của lần mở trước\./)).toBeInTheDocument();
     expect(screen.queryByText('Đang lấy từ và câu của bạn')).not.toBeInTheDocument();
 
-    // Máy chủ về tới với một câu mới: số câu đổi và dấu "đang cập nhật" biến mất.
+    // Máy chủ về tới với một câu mới: số câu đổi và khung "đang thức dậy" biến mất.
     act(() => finish([...SENTENCES, aiSentence(501, '我在家喝茶。', 'Wǒ zài jiā hē chá.', 'Tôi uống trà ở nhà.')]));
     await screen.findByText(/89 từ bạn đã học và 91 câu/);
     await waitFor(() => {
-      expect(screen.queryByText('Đang cập nhật từ máy chủ…')).not.toBeInTheDocument();
+      expect(screen.queryByText('Máy chủ đang thức dậy…')).not.toBeInTheDocument();
     });
   });
+});
 
-  it('báo lỗi kèm nút thử lại khi máy chủ không trả lời và chưa có bản chụp', async () => {
-    api.listSentences.mockRejectedValueOnce(new TypeError('fetch failed'));
+describe('trang Câu của tôi — bộ dự phòng khi chưa có máy chủ', () => {
+  it('lần mở đầu (chưa có bản chụp) hiện ngay 89 từ / 90 câu đóng gói sẵn, khoá mọi nút ghi tới khi máy chủ trả lời', async () => {
+    let finishWords: (value: unknown) => void = () => undefined;
+    let finishSentences: (value: Sentence[]) => void = () => undefined;
+    api.listMyWords.mockImplementationOnce(
+      () =>
+        new Promise((resolve) => {
+          finishWords = resolve;
+        }),
+    );
+    api.listSentences.mockImplementationOnce(
+      () =>
+        new Promise<Sentence[]>((resolve) => {
+          finishSentences = resolve;
+        }),
+    );
     const user = userEvent.setup();
     render(<SentencesPage />);
 
-    expect(await screen.findByText('Không lấy được từ và câu của bạn')).toBeInTheDocument();
+    // Không vòng chờ: bảng từ hiện đủ, đúng nhóm mới nhất của corpus đứng đầu.
+    expect(screen.getByText(/89 từ bạn đã học và 90 câu/)).toBeInTheDocument();
+    expect(screen.queryByText('Đang lấy từ và câu của bạn')).not.toBeInTheDocument();
+    expect(screen.getByText('Máy chủ đang thức dậy…')).toBeInTheDocument();
+    expect(screen.getByText(/Đang hiện bộ từ và câu có sẵn trong ứng dụng\./)).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: /10 từ mới nhất/ })).toBeInTheDocument();
+    expect(screen.getByText('现在')).toBeInTheDocument();
+    expect(screen.getByText('水果')).toBeInTheDocument();
+
+    // Mã dự phòng là mã giả: không có nút bỏ từ để không gửi mã đó lên máy chủ.
+    expect(screen.queryByRole('button', { name: 'Bỏ khỏi danh sách đã học' })).not.toBeInTheDocument();
+
+    // Phần nghe: có câu để nghe, nút AI khoá với lý do "đang thức dậy" chứ không phải "chưa có AI".
+    await user.click(screen.getByRole('radio', { name: 'Nghe câu' }));
+    expect(screen.getAllByRole('article').length).toBeGreaterThan(0);
+    const generate = screen.getByRole('button', { name: 'Tạo câu mới bằng AI' });
+    expect(generate).toBeDisabled();
+    expect(generate).toHaveAttribute('title', WAITING_HINT);
+
+    // Thẻ thêm chỉ có lời nhắc, không có ô dán.
+    await user.click(screen.getByRole('radio', { name: 'Thêm từ & câu' }));
+    expect(screen.getByText('Phần thêm từ và câu cần máy chủ')).toBeInTheDocument();
+    expect(screen.queryByRole('button', { name: 'Kiểm tra' })).not.toBeInTheDocument();
+
+    // Máy chủ trả lời cả hai: dữ liệu thật thay vào, mọi thứ mở ra.
+    act(() => {
+      finishWords({
+        content: WORDS,
+        page: 0,
+        size: 500,
+        totalElements: WORDS.length,
+        totalPages: 1,
+        first: true,
+        last: true,
+      });
+      finishSentences([...SENTENCES, aiSentence(501, '我在家喝茶。', 'Wǒ zài jiā hē chá.', 'Tôi uống trà ở nhà.')]);
+    });
+    await screen.findByText(/89 từ bạn đã học và 91 câu/);
+    expect(screen.queryByText('Máy chủ đang thức dậy…')).not.toBeInTheDocument();
+    expect(screen.queryByText('Phần thêm từ và câu cần máy chủ')).not.toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'Kiểm tra' })).toBeInTheDocument();
+
+    await user.click(screen.getByRole('radio', { name: 'Nghe câu' }));
+    expect(screen.getByRole('button', { name: 'Tạo câu mới bằng AI' })).toBeEnabled();
+
+    await user.click(screen.getByRole('radio', { name: 'Từ vựng' }));
+    expect(screen.getAllByRole('button', { name: 'Bỏ khỏi danh sách đã học' }).length).toBeGreaterThan(0);
+    expect(api.deleteMyWord).not.toHaveBeenCalled();
+    // Test này dựng đủ 89 từ lẫn 90 câu rồi đi qua ba thẻ hai lượt; chạy song song
+    // với 35 tệp khác thì vượt hạn 5 giây mặc định nên cần hạn rộng hơn.
+  }, 15_000);
+
+  it('máy chủ đang dậy (lỗi mạng, rồi 503) thì tự gọi lại, không bắt bấm tay', async () => {
+    api.listSentences
+      .mockRejectedValueOnce(new TypeError('fetch failed'))
+      .mockRejectedValueOnce(new ApiError(503));
+    render(<SentencesPage />);
+
+    expect(screen.getByText(/89 từ bạn đã học và 90 câu/)).toBeInTheDocument();
+    expect(screen.getByText('Máy chủ đang thức dậy…')).toBeInTheDocument();
+    expect(screen.queryByRole('button', { name: 'Thử lại' })).not.toBeInTheDocument();
+
+    await waitFor(() => {
+      expect(screen.queryByText('Máy chủ đang thức dậy…')).not.toBeInTheDocument();
+    });
+    expect(api.listSentences).toHaveBeenCalledTimes(3);
+    expect(screen.queryByText('Chưa lấy được từ và câu từ máy chủ')).not.toBeInTheDocument();
+  });
+
+  it('hết lượt tự thử lại mà máy chủ vẫn im thì mới báo lỗi và đưa nút thử lại', async () => {
+    // Lịch giả có 2 khoảng chờ ⇒ 3 lần gọi rồi chịu thua.
+    api.listSentences.mockRejectedValue(new TypeError('fetch failed'));
+    const user = userEvent.setup();
+    render(<SentencesPage />);
+
+    expect(await screen.findByText('Chưa lấy được từ và câu từ máy chủ')).toBeInTheDocument();
+    expect(screen.getByText('Không kết nối được máy chủ')).toBeInTheDocument();
+    expect(api.listSentences).toHaveBeenCalledTimes(3);
+    // Vẫn đang hiện bộ dự phòng để nghe được, chỉ không ghi được.
+    expect(screen.getByText(/89 từ bạn đã học và 90 câu/)).toBeInTheDocument();
+    expect(screen.getByText(/Đang hiện bộ từ và câu có sẵn trong ứng dụng\./)).toBeInTheDocument();
+    expect(screen.queryByRole('button', { name: 'Bỏ khỏi danh sách đã học' })).not.toBeInTheDocument();
+
+    api.listSentences.mockResolvedValue(SENTENCES);
     await user.click(screen.getByRole('button', { name: 'Thử lại' }));
-    await screen.findByText(/89 từ bạn đã học và 90 câu/);
+    await waitFor(() => {
+      expect(screen.queryByText('Chưa lấy được từ và câu từ máy chủ')).not.toBeInTheDocument();
+    });
+    expect(screen.getAllByRole('button', { name: 'Bỏ khỏi danh sách đã học' }).length).toBeGreaterThan(0);
+  });
+
+  it('máy chủ trả lời lỗi thật thì báo ngay trên nền dữ liệu dự phòng, kèm nút thử lại', async () => {
+    api.listSentences.mockRejectedValueOnce(new ApiError(500, { detail: 'Lỗi máy chủ nội bộ' }));
+    const user = userEvent.setup();
+    render(<SentencesPage />);
+
+    expect(await screen.findByText('Chưa lấy được từ và câu từ máy chủ')).toBeInTheDocument();
+    expect(screen.getByText('Lỗi máy chủ nội bộ')).toBeInTheDocument();
+    expect(screen.getByText(/89 từ bạn đã học và 90 câu/)).toBeInTheDocument();
+    expect(api.listSentences).toHaveBeenCalledTimes(1);
+
+    await user.click(screen.getByRole('button', { name: 'Thử lại' }));
+    await waitFor(() => {
+      expect(screen.queryByText('Chưa lấy được từ và câu từ máy chủ')).not.toBeInTheDocument();
+    });
     expect(api.listSentences).toHaveBeenCalledTimes(2);
+    // Máy chủ đã trả lời cả hai phía: xoá từ mở lại.
+    expect(screen.getAllByRole('button', { name: 'Bỏ khỏi danh sách đã học' }).length).toBeGreaterThan(0);
   });
 });
 

@@ -17,6 +17,14 @@
  * trang (`DefaultAccountFilter` ở backend). Còn một phiên khách cũ lưu trong
  * máy từ bản trước thì bỏ đi, nếu không dữ liệu hiện ra sẽ là của khách.
  *
+ * Máy chủ miễn phí (Render) dậy chậm, nên trang KHÔNG BAO GIỜ chờ máy chủ để
+ * hiện màn hình đầu: hook đưa ngay bản chụp lần trước, hoặc bộ 89 từ / 90 câu
+ * đóng gói sẵn nếu chưa có bản chụp, rồi tự thử lại cho tới khi máy chủ trả
+ * lời và ghi đè. Trong lúc đó chỉ ĐỌC được: bộ dự phòng mang mã giả, gửi lên
+ * máy chủ là sai; và thêm từ, thêm câu, AI đằng nào cũng cần máy chủ. Nên các
+ * nút ghi bị giấu hoặc khoá kèm một dòng giải thích, và mở ra ngay khi cả từ
+ * lẫn câu đều đã về từ máy chủ (`serverAlive`).
+ *
  * Ba thẻ theo đúng nhịp dùng: xem lại vốn từ, nghe câu ghép từ vốn từ đó, rồi
  * khi thêm từ mới hay nghe hết câu thì sang thẻ thứ ba.
  *
@@ -27,7 +35,7 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Button, IconButton } from '../components/ui/Button.tsx';
 import { Segmented, type SegmentedOption } from '../components/ui/Controls.tsx';
-import { Notice, Spinner } from '../components/ui/Feedback.tsx';
+import { Notice } from '../components/ui/Feedback.tsx';
 import { LiveMessage } from '../components/ui/LiveMessage.tsx';
 import { ACCOUNTS } from '../features/account/accounts.ts';
 import { SearchField } from '../features/dictionary/SearchField.tsx';
@@ -42,6 +50,7 @@ import { useMySentences } from '../hooks/useMySentences.ts';
 import { useMyWords } from '../hooks/useMyWords.ts';
 import { describeApiError } from '../lib/api/client.ts';
 import { aiStatus, deleteMyWord } from '../lib/api/endpoints.ts';
+import { withRetry } from '../lib/api/retry.ts';
 import type {
   AiStatus,
   GenerateSentencesRequest,
@@ -49,6 +58,7 @@ import type {
   SentenceInput,
   SentenceSource,
 } from '../lib/api/types.ts';
+import type { DataOrigin } from '../lib/storage/snapshot.ts';
 
 type Tab = 'words' | 'drill' | 'add';
 
@@ -70,6 +80,15 @@ const RATES: readonly SegmentedOption<string>[] = [
 const DRILL_GENERATE_COUNT = 20;
 
 const NO_IDS: readonly number[] = [];
+
+/** Câu nói dữ liệu đang hiện đến từ đâu khi máy chủ chưa trả lời; `server` không cần nói. */
+const ORIGIN_NOTE: Record<Exclude<DataOrigin, 'server'>, string> = {
+  builtin: 'Đang hiện bộ từ và câu có sẵn trong ứng dụng.',
+  snapshot: 'Đang hiện dữ liệu của lần mở trước.',
+};
+
+/** Nhắc chung cho mọi chỗ ghi bị khoá trong lúc chờ. */
+const WRITES_LOCKED = 'Thêm, xoá và AI sẽ mở ngay khi máy chủ trả lời.';
 
 /** Thông báo kết quả của một thao tác dài, đứng lại cho đến khi người học đóng. */
 interface PageNotice {
@@ -145,20 +164,21 @@ function Workspace() {
   const [freshIds, setFreshIds] = useState<readonly number[]>(NO_IDS);
   const { message: liveMessage, token: liveToken, announce } = useLiveMessage();
 
-  // Hỏi máy chủ về AI đúng một lần. Không hỏi được thì coi như tắt và nói rõ
-  // lý do, chứ không để nút tạo câu bấm được rồi báo lỗi.
+  // Hỏi máy chủ về AI đúng một lần, kiên nhẫn như hai lượt nạp kia trong lúc
+  // máy chủ thức dậy. Không hỏi được thì coi như tắt và nói rõ lý do, chứ
+  // không để nút tạo câu bấm được rồi báo lỗi.
   useEffect(() => {
-    let active = true;
-    aiStatus()
+    const controller = new AbortController();
+    withRetry((signal) => aiStatus(signal), { signal: controller.signal })
       .then((result) => {
-        if (active) setAi(result);
+        if (!controller.signal.aborted) setAi(result);
       })
       .catch((cause: unknown) => {
-        if (active) setAi({ enabled: false, model: '', reason: describeApiError(cause) });
+        if (!controller.signal.aborted) {
+          setAi({ enabled: false, model: '', reason: describeApiError(cause) });
+        }
       });
-    return () => {
-      active = false;
-    };
+    return () => controller.abort();
   }, []);
 
   const runGenerate = useCallback(
@@ -253,44 +273,25 @@ function Workspace() {
     reloadWords();
   }, [reloadWords]);
 
-  const ready = myWords.ready && mySentences.ready;
-  const initialError = !ready ? (myWords.error ?? mySentences.error) : null;
-
-  if (!ready) {
-    if (initialError !== null) {
-      return (
-        <div
-          className="mt-4"
-        >
-          <Notice
-            tone="error"
-            title="Không lấy được từ và câu của bạn"
-          >
-            {initialError}
-          </Notice>
-          <div
-            className="mt-3"
-          >
-            <Button
-              variant="secondary"
-              icon="refresh"
-              onClick={() => {
-                myWords.reload();
-                mySentences.reload();
-              }}
-            >
-              Thử lại
-            </Button>
-          </div>
-        </div>
-      );
-    }
-    return <Spinner label="Đang lấy từ và câu của bạn" />;
-  }
+  const reloadSentences = mySentences.reload;
+  const reloadAll = useCallback(() => {
+    reloadWords();
+    reloadSentences();
+  }, [reloadSentences, reloadWords]);
 
   const sentences = mySentences.sentences;
-  const laterError = myWords.error ?? mySentences.error;
+  const loadError = myWords.error ?? mySentences.error;
   const refreshing = myWords.loading || mySentences.loading;
+  // Cả từ lẫn câu đều đã về từ máy chủ trong phiên này: mã là mã thật, ghi được.
+  const serverAlive = myWords.origin === 'server' && mySentences.origin === 'server';
+  // Nguồn đang hiện khi chưa có máy chủ. Hai hook có thể lệch nhau (một bên đã
+  // về); lấy bên chưa về để câu giải thích đúng với thứ còn đang là bản tạm.
+  const shownOrigin: Exclude<DataOrigin, 'server'> | null =
+    myWords.origin !== 'server'
+      ? myWords.origin
+      : mySentences.origin !== 'server'
+        ? mySentences.origin
+        : null;
 
   return (
     <>
@@ -299,7 +300,7 @@ function Workspace() {
       >
         {words.length} từ bạn đã học và {sentences.length} câu ghép từ chính những từ đó.
         {ai?.enabled ? ` · AI: ${ai.model}` : ''}
-        {refreshing ? (
+        {refreshing && serverAlive ? (
           <span
             className="ml-2 text-[0.8125rem] text-ink-faint"
           >
@@ -307,6 +308,47 @@ function Workspace() {
           </span>
         ) : null}
       </p>
+
+      {/*
+        Chưa có máy chủ thì nói thẳng đang hiện gì và vì sao chưa ghi được,
+        thay vì để nút xoá biến mất không lời. Lỗi hẳn (hết lượt tự thử lại)
+        thì đổi giọng và đưa nút thử lại ngay trong khung.
+      */}
+      {shownOrigin !== null ? (
+        <div
+          className="mb-4"
+        >
+          {loadError !== null ? (
+            <Notice
+              tone="error"
+              title="Chưa lấy được từ và câu từ máy chủ"
+            >
+              <p>{loadError}</p>
+              <p>
+                {ORIGIN_NOTE[shownOrigin]} {WRITES_LOCKED}
+              </p>
+              <div
+                className="mt-2"
+              >
+                <Button
+                  variant="secondary"
+                  icon="refresh"
+                  onClick={reloadAll}
+                >
+                  Thử lại
+                </Button>
+              </div>
+            </Notice>
+          ) : (
+            <Notice
+              tone="info"
+              title="Máy chủ đang thức dậy…"
+            >
+              {ORIGIN_NOTE[shownOrigin]} {WRITES_LOCKED}
+            </Notice>
+          )}
+        </div>
+      ) : null}
 
       <div
         className="mb-4 flex flex-wrap items-end justify-between"
@@ -341,11 +383,24 @@ function Workspace() {
         token={liveToken}
       />
 
-      {laterError !== null ? (
+      {serverAlive && loadError !== null ? (
         <div
           className="mb-4"
         >
-          <Notice tone="error">{laterError}</Notice>
+          <Notice tone="error">
+            <p>{loadError}</p>
+            <div
+              className="mt-2"
+            >
+              <Button
+                variant="secondary"
+                icon="refresh"
+                onClick={reloadAll}
+              >
+                Thử lại
+              </Button>
+            </div>
+          </Notice>
         </div>
       ) : null}
 
@@ -420,7 +475,7 @@ function Workspace() {
           words={words}
           rate={Number(rate)}
           query={query}
-          onRemove={handleRemoveWord}
+          onRemove={serverAlive ? handleRemoveWord : undefined}
         />
       ) : null}
 
@@ -431,13 +486,24 @@ function Workspace() {
           query={query}
           onRemove={handleRemoveSentence}
           aiEnabled={ai?.enabled === true}
+          waiting={!serverAlive}
           onGenerate={generateFromDrill}
           generating={generating}
           freshIds={freshIds}
         />
       ) : null}
 
-      {tab === 'add' ? (
+      {tab === 'add' && !serverAlive ? (
+        <Notice
+          tone="info"
+          title="Phần thêm từ và câu cần máy chủ"
+        >
+          Máy chủ miễn phí đang thức dậy — thường mất dưới một phút. Phần này tự mở khi máy chủ
+          trả lời; trong lúc chờ vẫn xem từ và nghe câu được.
+        </Notice>
+      ) : null}
+
+      {tab === 'add' && serverAlive ? (
         <>
           <WordImport
             ai={ai}

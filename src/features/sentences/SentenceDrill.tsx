@@ -74,6 +74,8 @@ const SOURCE_CHIP: Record<SentenceSource, string | null> = {
 };
 
 const AI_DISABLED_HINT = 'Chưa cấu hình AI trên máy chủ';
+/** Lời giải thích khi nút AI khoá vì máy chủ chưa trả lời, không phải vì thiếu AI. */
+export const WAITING_HINT = 'Máy chủ đang thức dậy, chờ chút rồi thử lại';
 
 const NO_IDS: readonly number[] = [];
 
@@ -87,6 +89,12 @@ export interface SentenceDrillProps {
   onRemove: (id: number) => void;
   /** Máy chủ đã cấu hình AI chưa; chưa thì nút tạo câu bị khoá kèm lời giải thích. */
   aiEnabled: boolean;
+  /**
+   * Máy chủ chưa trả lời trong phiên này: câu đang hiện là bản chụp hay bộ dự
+   * phòng, mã có thể là mã giả. Giấu nút xoá và khoá nút AI với lời giải thích
+   * riêng, cho tới khi nơi gọi bỏ cờ này.
+   */
+  waiting?: boolean;
   onGenerate: () => void;
   generating: boolean;
   /**
@@ -122,10 +130,13 @@ export function SentenceDrill({
   query,
   onRemove,
   aiEnabled,
+  waiting = false,
   onGenerate,
   generating,
   freshIds = NO_IDS,
 }: SentenceDrillProps) {
+  const canGenerate = aiEnabled && !waiting;
+  const generateHint = waiting ? WAITING_HINT : aiEnabled ? undefined : AI_DISABLED_HINT;
   const [mode, setMode] = useState<RevealMode>('audio');
   const [overrides, setOverrides] = useState<Record<string, Partial<Record<Field, boolean>>>>({});
   const [currentId, setCurrentId] = useState<string | null>(null);
@@ -383,14 +394,14 @@ export function SentenceDrill({
             span bọc ngoài, vì nút bị khoá không nhận sự kiện chuột ở vài trình duyệt.
           */}
           <span
-            title={aiEnabled ? undefined : AI_DISABLED_HINT}
+            title={generateHint}
             className="mb-2"
           >
             <Button
               variant="primary"
               icon="refresh"
-              disabled={!aiEnabled || generating}
-              title={aiEnabled ? undefined : AI_DISABLED_HINT}
+              disabled={!canGenerate || generating}
+              title={generateHint}
               onClick={onGenerate}
             >
               {generating ? 'AI đang viết câu…' : 'Tạo câu mới bằng AI'}
@@ -456,7 +467,9 @@ export function SentenceDrill({
                   onToggleField={toggleField}
                   onRegister={register}
                   onRemove={
-                    sentence.source === 'BUILTIN' ? undefined : () => onRemove(sentence.id)
+                    sentence.source === 'BUILTIN' || waiting
+                      ? undefined
+                      : () => onRemove(sentence.id)
                   }
                 />
               </li>

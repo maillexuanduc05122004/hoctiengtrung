@@ -28,4 +28,6 @@ export {
   type StoredAuth,
 } from './auth.ts';
 export * from './endpoints.ts';
+export { isTransientError, RETRY_DELAYS_MS, withRetry, type RetryOptions } from './retry.ts';
+export { healthUrl, wakeServer } from './wake.ts';
 export type * from './types.ts';

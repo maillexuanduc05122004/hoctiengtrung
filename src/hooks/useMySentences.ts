@@ -7,11 +7,15 @@
  * một câu. Lỗi được ném ra nguyên vẹn để nơi gọi tự quyết định nói gì với
  * người học; hook này không nuốt lỗi.
  *
- * Lần nạp gần nhất được chụp lại (`snapshot.ts`) để mở trang lần sau có câu để
- * nghe ngay trong lúc máy chủ thức dậy; mọi thao tác ghi cũng cập nhật bản chụp
- * cho khớp với danh sách đang hiện.
+ * Luôn có câu để nghe ngay: bản chụp lần nạp trước (`snapshot.ts`), hoặc chưa
+ * có bản chụp thì bộ 90 câu đóng gói sẵn (`fallback.ts`). `origin` cho biết
+ * đang hiện nguồn nào; bộ dự phòng mang mã giả nên trang giấu nút xoá cho tới
+ * khi máy chủ trả lời. Lượt nạp thật tự thử lại trong lúc máy chủ thức dậy
+ * (`retry.ts`); mọi thao tác ghi cũng cập nhật bản chụp cho khớp danh sách
+ * đang hiện.
  */
 import { useCallback, useEffect, useMemo, useState } from 'react';
+import { FALLBACK_SENTENCES } from '../features/sentences/fallback.ts';
 import { describeApiError } from '../lib/api/client.ts';
 import {
   addSentences,
@@ -20,6 +24,7 @@ import {
   generateSentences,
   listSentences,
 } from '../lib/api/endpoints.ts';
+import { withRetry } from '../lib/api/retry.ts';
 import type {
   BulkSentenceResponse,
   GenerateSentencesRequest,
@@ -28,17 +33,18 @@ import type {
   SentenceInput,
   SentenceSource,
 } from '../lib/api/types.ts';
-import { readSnapshot, writeSnapshot } from '../lib/storage/snapshot.ts';
+import { readSnapshot, writeSnapshot, type DataOrigin } from '../lib/storage/snapshot.ts';
 
 /** Tên bản chụp trong localStorage. */
 export const MY_SENTENCES_SNAPSHOT = 'my-sentences';
 
 export interface UseMySentencesResult {
   sentences: Sentence[];
-  /** Đang có một lượt nạp chờ máy chủ (kể cả nạp lại). */
+  /** Dữ liệu đang hiện đến từ đâu; `server` nghĩa là máy chủ đã trả lời trong phiên này. */
+  origin: DataOrigin;
+  /** Đang có một lượt nạp chờ máy chủ (kể cả nạp lại và các lần tự thử lại). */
   loading: boolean;
-  /** Đã nạp thành công ít nhất một lần; nạp lại thất bại vẫn giữ `true`. */
-  ready: boolean;
+  /** Lượt nạp gần nhất thất bại hẳn (đã hết lượt thử lại, hoặc lỗi không tạm thời). */
   error: string | null;
   reload: () => void;
   add: (inputs: SentenceInput[]) => Promise<BulkSentenceResponse>;
@@ -47,7 +53,19 @@ export interface UseMySentencesResult {
   generate: (request: GenerateSentencesRequest) => Promise<GenerateSentencesResponse>;
 }
 
-const EMPTY: Sentence[] = [];
+interface Loaded {
+  /** `-1` cho bản chụp hay bộ dự phòng: có câu để nghe nhưng chưa khớp lần thử nào. */
+  attempt: number;
+  origin: DataOrigin;
+  sentences: Sentence[];
+}
+
+function initialLoaded(): Loaded {
+  const cached = readSnapshot<Sentence[]>(MY_SENTENCES_SNAPSHOT);
+  return Array.isArray(cached)
+    ? { attempt: -1, origin: 'snapshot', sentences: cached }
+    : { attempt: -1, origin: 'builtin', sentences: [...FALLBACK_SENTENCES] };
+}
 
 /** Gộp câu mới vào danh sách, bỏ câu đã có cùng mã (máy chủ có thể trả lại câu cũ). */
 function merge(current: readonly Sentence[], incoming: readonly Sentence[]): Sentence[] {
@@ -58,41 +76,35 @@ function merge(current: readonly Sentence[], incoming: readonly Sentence[]): Sen
 
 export function useMySentences(): UseMySentencesResult {
   const [attempt, setAttempt] = useState(0);
-  // Bản chụp mang attempt -1: có câu để nghe ngay nhưng `loading` vẫn đúng tới khi máy chủ trả lời.
-  const [loaded, setLoaded] = useState<{ attempt: number; sentences: Sentence[] } | null>(() => {
-    const cached = readSnapshot<Sentence[]>(MY_SENTENCES_SNAPSHOT);
-    return Array.isArray(cached) ? { attempt: -1, sentences: cached } : null;
-  });
+  const [loaded, setLoaded] = useState<Loaded>(initialLoaded);
   const [failure, setFailure] = useState<{ attempt: number; message: string } | null>(null);
 
   useEffect(() => {
-    let active = true;
-    listSentences()
+    const controller = new AbortController();
+    withRetry((signal) => listSentences(signal), { signal: controller.signal })
       .then((sentences) => {
+        if (controller.signal.aborted) return;
         writeSnapshot(MY_SENTENCES_SNAPSHOT, sentences);
-        if (active) setLoaded({ attempt, sentences });
+        setLoaded({ attempt, origin: 'server', sentences });
       })
       .catch((cause: unknown) => {
-        if (active) setFailure({ attempt, message: describeApiError(cause) });
+        if (controller.signal.aborted) return;
+        setFailure({ attempt, message: describeApiError(cause) });
       });
-    return () => {
-      active = false;
-    };
+    return () => controller.abort();
   }, [attempt]);
 
   const reload = useCallback(() => setAttempt((n) => n + 1), []);
 
   /**
-   * Sửa danh sách đang có mà không đụng tới lần thử — dùng sau mỗi thao tác ghi.
-   * Chưa nạp xong lần nào thì không có gì để sửa; lần nạp đang chờ sẽ mang về
-   * đúng sự thật.
+   * Sửa danh sách đang có mà không đụng tới lần thử hay nguồn — dùng sau mỗi
+   * thao tác ghi. Lần nạp đang chờ (nếu có) sẽ mang về đúng sự thật.
    */
   const patch = useCallback((update: (current: readonly Sentence[]) => Sentence[]) => {
     setLoaded((previous) => {
-      if (previous === null) return previous;
       const sentences = update(previous.sentences);
       writeSnapshot(MY_SENTENCES_SNAPSHOT, sentences);
-      return { attempt: previous.attempt, sentences };
+      return { ...previous, sentences };
     });
   }, []);
 
@@ -132,12 +144,12 @@ export function useMySentences(): UseMySentencesResult {
   );
 
   return useMemo(() => {
-    const current = loaded?.attempt === attempt;
+    const current = loaded.attempt === attempt;
     const failed = failure?.attempt === attempt;
     return {
-      sentences: current ? loaded.sentences : (loaded?.sentences ?? EMPTY),
+      sentences: loaded.sentences,
+      origin: loaded.origin,
       loading: !current && !failed,
-      ready: loaded !== null,
       error: failed ? failure.message : null,
       reload,
       add,

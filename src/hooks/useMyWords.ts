@@ -9,15 +9,20 @@
  * nên effect chỉ đặt trạng thái trong nhánh bất đồng bộ (cùng cách với
  * `VocabularyProvider`).
  *
- * Lần nạp gần nhất được chụp lại (`snapshot.ts`): mở trang lần sau thì bảng
- * hiện ngay với `ready = true` và `loading = true`, rồi lượt nạp thật ghi đè
- * khi máy chủ trả lời — máy chủ miễn phí thức dậy chậm không còn chặn màn hình.
+ * Luôn có gì đó để vẽ ngay, không bao giờ chờ máy chủ để hiện màn hình đầu:
+ * bản chụp của lần nạp trước (`snapshot.ts`), hoặc — chưa có bản chụp — bộ dự
+ * phòng đóng gói sẵn (`fallback.ts`). `origin` nói dữ liệu đang hiện đến từ
+ * đâu; chỉ khi là `server` thì mã từ mới là mã thật để xoá được. Lượt nạp thật
+ * chạy nền, tự thử lại trong lúc máy chủ miễn phí thức dậy (`retry.ts`), và
+ * ghi đè khi về tới.
  */
 import { useCallback, useEffect, useMemo, useState } from 'react';
+import { FALLBACK_WORDS } from '../features/sentences/fallback.ts';
 import { describeApiError } from '../lib/api/client.ts';
 import { listMyWords } from '../lib/api/endpoints.ts';
+import { withRetry } from '../lib/api/retry.ts';
 import type { UserWord } from '../lib/api/types.ts';
-import { readSnapshot, writeSnapshot } from '../lib/storage/snapshot.ts';
+import { readSnapshot, writeSnapshot, type DataOrigin } from '../lib/storage/snapshot.ts';
 
 /** Tên bản chụp trong localStorage. */
 export const MY_WORDS_SNAPSHOT = 'my-words';
@@ -27,51 +32,61 @@ export const MY_WORDS_PAGE_SIZE = 500;
 
 export interface UseMyWordsResult {
   words: UserWord[];
-  /** Đang có một lượt nạp chờ máy chủ (kể cả nạp lại). */
+  /** Dữ liệu đang hiện đến từ đâu; `server` nghĩa là máy chủ đã trả lời trong phiên này. */
+  origin: DataOrigin;
+  /** Đang có một lượt nạp chờ máy chủ (kể cả nạp lại và các lần tự thử lại). */
   loading: boolean;
-  /** Đã nạp thành công ít nhất một lần; nạp lại thất bại vẫn giữ `true`. */
-  ready: boolean;
+  /** Lượt nạp gần nhất thất bại hẳn (đã hết lượt thử lại, hoặc lỗi không tạm thời). */
   error: string | null;
   reload: () => void;
 }
 
-const EMPTY: UserWord[] = [];
+interface Loaded {
+  /** `-1` cho bản chụp hay bộ dự phòng: có dữ liệu để vẽ nhưng chưa khớp lần thử nào. */
+  attempt: number;
+  origin: DataOrigin;
+  words: UserWord[];
+}
+
+function initialLoaded(): Loaded {
+  const cached = readSnapshot<UserWord[]>(MY_WORDS_SNAPSHOT);
+  return Array.isArray(cached)
+    ? { attempt: -1, origin: 'snapshot', words: cached }
+    : { attempt: -1, origin: 'builtin', words: [...FALLBACK_WORDS] };
+}
 
 export function useMyWords(): UseMyWordsResult {
   const [attempt, setAttempt] = useState(0);
-  // Bản chụp mang attempt -1: có dữ liệu để vẽ nhưng chưa khớp lần thử nào,
-  // nên `loading` vẫn đúng cho tới khi máy chủ trả lời.
-  const [loaded, setLoaded] = useState<{ attempt: number; words: UserWord[] } | null>(() => {
-    const cached = readSnapshot<UserWord[]>(MY_WORDS_SNAPSHOT);
-    return Array.isArray(cached) ? { attempt: -1, words: cached } : null;
-  });
+  const [loaded, setLoaded] = useState<Loaded>(initialLoaded);
   const [failure, setFailure] = useState<{ attempt: number; message: string } | null>(null);
 
   useEffect(() => {
-    let active = true;
-    listMyWords({ size: MY_WORDS_PAGE_SIZE })
+    const controller = new AbortController();
+    withRetry((signal) => listMyWords({ size: MY_WORDS_PAGE_SIZE }, signal), {
+      signal: controller.signal,
+    })
       .then((page) => {
+        if (controller.signal.aborted) return;
         writeSnapshot(MY_WORDS_SNAPSHOT, page.content);
-        if (active) setLoaded({ attempt, words: page.content });
+        setLoaded({ attempt, origin: 'server', words: page.content });
       })
       .catch((cause: unknown) => {
-        if (active) setFailure({ attempt, message: describeApiError(cause) });
+        if (controller.signal.aborted) return;
+        setFailure({ attempt, message: describeApiError(cause) });
       });
-    return () => {
-      active = false;
-    };
+    return () => controller.abort();
   }, [attempt]);
 
   const reload = useCallback(() => setAttempt((n) => n + 1), []);
 
   return useMemo(() => {
-    const current = loaded?.attempt === attempt;
+    const current = loaded.attempt === attempt;
     const failed = failure?.attempt === attempt;
     return {
       // Đang nạp lại thì vẫn giữ danh sách cũ, để bảng không nháy về rỗng.
-      words: current ? loaded.words : (loaded?.words ?? EMPTY),
+      words: loaded.words,
+      origin: loaded.origin,
       loading: !current && !failed,
-      ready: loaded !== null,
       error: failed ? failure.message : null,
       reload,
     };

@@ -13,11 +13,23 @@
  * trang), để đổi tài khoản không thấy thoáng qua dữ liệu của người khác.
  *
  * localStorage có thể bị chặn (chế độ riêng tư, hết chỗ); khi đó mọi hàm ở
- * đây lặng lẽ không làm gì và trang chạy như không có bản chụp.
+ * đây lặng lẽ không làm gì và trang chạy như không có bản chụp — lúc đó tới
+ * lượt bộ dự phòng đóng gói sẵn (`features/sentences/fallback.ts`). Ba nguồn
+ * xếp theo độ tin cậy tăng dần: dự phòng → bản chụp → máy chủ; `DataOrigin`
+ * cho hook nói với trang dữ liệu đang hiện đến từ đâu.
  */
 import { loadAuth } from '../api/token-store.ts';
 
 const PREFIX = 'moingay.snapshot.v1';
+
+/**
+ * Nguồn của dữ liệu đang hiện trên trang.
+ *
+ * - `builtin`: bộ dự phòng đóng gói sẵn — chưa từng nói chuyện với máy chủ trên máy này.
+ * - `snapshot`: bản chụp lần nạp trước — mã thật nhưng có thể đã cũ.
+ * - `server`: máy chủ vừa trả lời trong phiên này — nguồn sự thật.
+ */
+export type DataOrigin = 'builtin' | 'snapshot' | 'server';
 
 /** Khoá đầy đủ cho một loại dữ liệu, theo người dùng hiện tại. */
 export function snapshotKey(name: string): string {

@@ -161,9 +161,25 @@ và làm phần "Thêm từ mới" bị 403 (khách không có quyền nhập t�
 được tab này tự bỏ. Ô đăng nhập chỉ còn ở Cài đặt → Tài khoản, cho lúc muốn dùng tài khoản khác;
 hai tài khoản dựng sẵn vẫn hiện kèm mật khẩu ở đó.
 
-Để mở nhanh dù máy chủ miễn phí (Render) đang ngủ: lần nạp gần nhất được chụp vào localStorage
-(`moingay.snapshot.v1.*`) và lần mở sau hiện ngay, kèm dòng "Đang cập nhật từ máy chủ…" cho tới
-khi máy chủ trả lời và ghi đè.
+**Không bao giờ chờ máy chủ để hiện màn hình đầu.** Máy chủ miễn phí (Render) ngủ sau vài phút
+không ai gọi và mất nửa phút tới một phút để dậy, nên tab này xếp ba nguồn dữ liệu theo độ tin cậy
+tăng dần:
+
+1. **Bộ dự phòng đóng gói sẵn** (`features/sentences/fallback.ts`): 89 từ và 90 câu trong
+   `corpus.ts` — chính bộ máy chủ được seed lúc dựng. Dùng cho lần mở đầu trên một máy, hay sau
+   khi xoá dữ liệu trình duyệt. Mã là số âm để không lẫn với mã máy chủ.
+2. **Bản chụp lần nạp trước** (`lib/storage/snapshot.ts`, localStorage `moingay.snapshot.v1.*`):
+   có từ lần mở thứ hai, mã thật nhưng có thể đã cũ.
+3. **Máy chủ**: lượt nạp thật chạy nền ngay khi mở tab, **tự gọi lại** khi gặp lỗi mạng hay
+   502/503/504 (`lib/api/retry.ts`, thưa dần, tổng khoảng hai phút) rồi ghi đè hai nguồn trên.
+
+Trong lúc máy chủ chưa trả lời, trang hiện khung "Máy chủ đang thức dậy…" nói rõ đang hiện nguồn
+nào, và **chỉ đọc được**: nút bỏ từ và xoá câu được giấu, nút AI khoá với lý do "đang thức dậy",
+thẻ "Thêm từ & câu" thay bằng một lời nhắc. Cả từ lẫn câu về từ máy chủ thì mọi thứ tự mở ra.
+Hết lượt tự thử lại (hoặc máy chủ trả lỗi thật như 500) thì khung đổi sang màu lỗi kèm nút
+"Thử lại"; từ và câu dự phòng vẫn nghe được. Ngoài ra `main.tsx` gọi `/actuator/health` một lần
+ngay khi mở ứng dụng (`lib/api/wake.ts`, `no-cors`) để máy chủ bắt đầu dậy từ lúc người học còn
+ở trang chủ.
 
 ### Tra từ
 
