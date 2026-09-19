@@ -13,7 +13,10 @@
  *
  * Hết câu lạ thì bấm "Tạo câu mới bằng AI": máy chủ viết câu từ đúng vốn từ đã
  * học rồi trả về; những câu vừa tạo được xếp thành mục riêng ở đầu bộ đang xem
- * cho đến khi người học đổi bộ, để nghe thử ngay lúc còn mới.
+ * cho đến khi người học đổi bộ, để nghe thử ngay lúc còn mới. Bộ AI mới THAY bộ
+ * AI cũ (trang gửi `replaceAi`): người học bấm nút này khi đã nghe chán bộ đang
+ * có, nên kho không phình ra toàn câu đã nghe — câu AI cũ biến khỏi danh sách
+ * ngay khi bộ mới về.
  *
  * Thanh "Mặc định hiện" đổi trạng thái ban đầu của cả bộ. Đổi nó — hay đổi bộ
  * câu — thì xoá luôn các lần mở lẻ, vì giữ lại sẽ thành một trạng thái không
@@ -247,7 +250,7 @@ export function SentenceDrill({
         {
           key: 'ai',
           title: 'Câu AI tạo',
-          note: 'AI viết từ vốn từ của bạn ở những lần trước.',
+          note: 'Bộ AI gần nhất; bấm "Tạo câu mới bằng AI" là bộ khác thế chỗ.',
           pick: (s) => !fresh.has(s.key) && s.source === 'AI',
         },
         {

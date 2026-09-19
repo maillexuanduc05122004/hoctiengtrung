@@ -76,7 +76,11 @@ const RATES: readonly SegmentedOption<string>[] = [
   { value: '1', label: '1×' },
 ];
 
-/** Nút AI trong phần nghe không hỏi gì thêm: xin đúng một bộ, trộn cả ba cấp, ưu tiên từ mới nhất. */
+/**
+ * Nút AI trong phần nghe không hỏi gì thêm: xin đúng một bộ, trộn cả ba cấp, ưu
+ * tiên từ mới nhất, và THAY bộ AI cũ — người học bấm nó khi đã nghe chán bộ đang
+ * có, nên bộ mới thế chỗ chứ không chất thêm vào kho cho tới khi kho toàn câu cũ.
+ */
 const DRILL_GENERATE_COUNT = 20;
 
 const NO_IDS: readonly number[] = [];
@@ -104,10 +108,12 @@ function describeGeneration(result: GenerateSentencesResponse): PageNotice {
   if (result.rejected > 0) filtered.push(`${result.rejected} câu bị loại vì dùng chữ chưa học.`);
   if (result.duplicates > 0) filtered.push(`${result.duplicates} câu trùng.`);
   if (result.reordered > 0) filtered.push(`${result.reordered} câu chỉ là câu cũ đổi chỗ nên bỏ.`);
+  const replaced = result.replaced > 0 ? `Đã bỏ ${result.replaced} câu AI cũ để thay bằng bộ này.` : null;
   return {
     tone: result.generated > 0 ? 'info' : 'warn',
     title: `Đã thêm ${result.generated} câu.`,
     lines: [
+      ...(replaced !== null ? [replaced] : []),
       ...(filtered.length > 0 ? [filtered.join(' ')] : []),
       ...(result.model ? [`Mô hình: ${result.model}.`] : []),
     ],
@@ -207,7 +213,7 @@ function Workspace() {
 
   const generateFromDrill = useCallback(() => {
     if (generating) return;
-    const request: GenerateSentencesRequest = { count: DRILL_GENERATE_COUNT };
+    const request: GenerateSentencesRequest = { count: DRILL_GENERATE_COUNT, replaceAi: true };
     if (newestHanzi.length > 0) request.focusWords = newestHanzi;
     void runGenerate(request);
   }, [generating, newestHanzi, runGenerate]);

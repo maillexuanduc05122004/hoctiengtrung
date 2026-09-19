@@ -218,6 +218,11 @@ export interface GenerateSentencesRequest {
   count: number;
   level?: SentenceLevel;
   focusWords?: string[];
+  /**
+   * Bộ AI mới THAY bộ AI cũ: máy chủ xoá mọi câu AI đang có trong cùng giao
+   * dịch lưu bộ mới (chỉ khi bộ mới có ít nhất một câu). Bỏ trống = cộng thêm.
+   */
+  replaceAi?: boolean;
 }
 
 export interface GenerateSentencesResponse {
@@ -227,6 +232,8 @@ export interface GenerateSentencesResponse {
   duplicates: number;
   /** Câu chỉ là câu đã có (hoặc câu khác trong đợt) đổi chỗ chữ — máy chủ loại vì không phải câu mới. */
   reordered: number;
+  /** Số câu AI cũ máy chủ đã bỏ để nhường chỗ cho bộ mới (0 khi không yêu cầu thay). */
+  replaced: number;
   sentences: Sentence[];
   rejectedSamples: string[];
   model: string;

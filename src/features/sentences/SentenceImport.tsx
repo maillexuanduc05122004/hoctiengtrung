@@ -5,7 +5,10 @@
  * dùng chữ lạ — và mọi câu chỉ là câu cũ đổi chỗ chữ — rồi mới lưu; người học
  * bấm một nút là có câu mới. Mặc định AI được dặn ưu tiên nhóm từ mới nhất
  * (`newestWords`), vì người học vừa thêm từ thì muốn nghe ngay câu ghép từ đó
- * với vốn từ cũ; chọn "Mọi từ" thì AI trộn đều cả vốn từ. Đường phụ giữ lại từ
+ * với vốn từ cũ; chọn "Mọi từ" thì AI trộn đều cả vốn từ. Mặc định bộ mới THAY
+ * bộ AI cũ (máy chủ xoá câu AI cũ ngay khi lưu bộ mới): người học muốn phần nghe
+ * là bộ vừa tạo, không phải một kho cứ phình ra toàn câu đã nghe; chọn "Giữ"
+ * khi muốn gom nhiều đợt. Đường phụ giữ lại từ
  * bản cũ: chép câu lệnh sang một trợ lý khác rồi dán kết quả về, cho lúc máy
  * chủ chưa cấu hình khoá AI hoặc người học muốn dùng trợ lý quen.
  *
@@ -33,6 +36,7 @@ import { newestWords } from './words.ts';
 type CountChoice = '10' | '20' | '30' | '50';
 type LevelChoice = 'mix' | '1' | '2' | '3';
 type FocusChoice = 'newest' | 'all';
+type OldAiChoice = 'replace' | 'keep';
 
 const COUNT_OPTIONS: readonly SegmentedOption<CountChoice>[] = [
   { value: '10', label: '10' },
@@ -51,6 +55,11 @@ const LEVEL_OPTIONS: readonly SegmentedOption<LevelChoice>[] = [
 const FOCUS_OPTIONS: readonly SegmentedOption<FocusChoice>[] = [
   { value: 'newest', label: 'Ưu tiên từ mới' },
   { value: 'all', label: 'Mọi từ' },
+];
+
+const OLD_AI_OPTIONS: readonly SegmentedOption<OldAiChoice>[] = [
+  { value: 'replace', label: 'Thay' },
+  { value: 'keep', label: 'Giữ' },
 ];
 
 /** Số câu hay xin ở trợ lý ngoài; người học nhắc tới 30, 50 và 90. */
@@ -87,6 +96,7 @@ export function SentenceImport({
   const [count, setCount] = useState<CountChoice>('20');
   const [level, setLevel] = useState<LevelChoice>('mix');
   const [focus, setFocus] = useState<FocusChoice>('newest');
+  const [oldAi, setOldAi] = useState<OldAiChoice>('replace');
   const [promptCount, setPromptCount] = useState<number>(50);
   const [draft, setDraft] = useState('');
   const [copied, setCopied] = useState<CopyState>('idle');
@@ -125,6 +135,7 @@ export function SentenceImport({
     if (focus === 'newest' && newest.length > 0) {
       request.focusWords = newest.map((word) => word.simplified);
     }
+    if (oldAi === 'replace') request.replaceAi = true;
     void onGenerate(request);
   };
 
@@ -175,7 +186,8 @@ export function SentenceImport({
             >
               AI trên máy chủ ({ai.model}) ghép {words.length} từ bạn đã học thành câu mới — mỗi câu
               là một cách ghép khác, không phải câu cũ đổi chỗ. Câu dùng chữ chưa học, hay chỉ đổi chỗ
-              câu đã có, bị loại trước khi lưu.
+              câu đã có, bị loại trước khi lưu. Bộ mới <strong>thay</strong> {aiCount > 0 ? `${aiCount} câu AI đang có` : 'câu AI cũ'} để
+              phần nghe luôn là câu mới; chọn <strong>Giữ</strong> nếu muốn gom thêm.
             </p>
             <div
               className="mb-2 flex flex-wrap items-end"
@@ -212,6 +224,16 @@ export function SentenceImport({
                   />
                 </span>
               ) : null}
+              <span
+                className="mr-4 mb-2"
+              >
+                <Segmented
+                  legend="Câu AI cũ"
+                  options={OLD_AI_OPTIONS}
+                  value={oldAi}
+                  onChange={setOldAi}
+                />
+              </span>
               <span
                 className="mb-2"
               >

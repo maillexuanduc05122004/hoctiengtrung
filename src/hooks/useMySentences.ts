@@ -137,7 +137,17 @@ export function useMySentences(): UseMySentencesResult {
   const generate = useCallback(
     async (request: GenerateSentencesRequest) => {
       const result = await generateSentences(request);
-      if (result.sentences.length > 0) patch((current) => merge(current, result.sentences));
+      if (result.sentences.length > 0) {
+        // Máy chủ đã bỏ bộ AI cũ khi được yêu cầu thay (và chỉ khi có bộ mới),
+        // nên danh sách tại chỗ cũng bỏ đúng những câu đó trước khi gộp bộ mới.
+        const replaced = request.replaceAi === true;
+        patch((current) =>
+          merge(
+            replaced ? current.filter((sentence) => sentence.source !== 'AI') : current,
+            result.sentences,
+          ),
+        );
+      }
       return result;
     },
     [patch],

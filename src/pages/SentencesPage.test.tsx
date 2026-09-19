@@ -566,6 +566,8 @@ describe('trang Câu của tôi — AI', () => {
       generated: 0,
       rejected: 0,
       duplicates: 0,
+      reordered: 0,
+      replaced: 0,
       sentences: [],
       rejectedSamples: [],
       model: 'claude-opus-5',
@@ -582,7 +584,51 @@ describe('trang Câu của tôi — AI', () => {
       .sort((a, b) => b.learnedAt.localeCompare(a.learnedAt))
       .slice(0, 10)
       .map((word) => word.simplified);
-    expect(api.generateSentences).toHaveBeenCalledWith({ count: 20, focusWords: newest });
+    // Bộ mới THAY bộ AI cũ: bấm nút này là đã nghe chán bộ đang có.
+    expect(api.generateSentences).toHaveBeenCalledWith({
+      count: 20,
+      focusWords: newest,
+      replaceAi: true,
+    });
+  });
+
+  it('bộ AI mới thay bộ AI cũ: câu AI cũ biến khỏi phần nghe, thông báo nói rõ đã bỏ bao nhiêu', async () => {
+    api.listSentences.mockResolvedValue([
+      ...SENTENCES,
+      aiSentence(501, '我在家喝茶。', 'Wǒ zài jiā hē chá.', 'Tôi uống trà ở nhà.'),
+    ]);
+    api.generateSentences.mockResolvedValue({
+      requested: 20,
+      generated: 1,
+      rejected: 0,
+      duplicates: 0,
+      reordered: 0,
+      replaced: 1,
+      sentences: [aiSentence(601, '妈妈在喝茶。', 'Māma zài hē chá.', 'Mẹ đang uống trà.')],
+      rejectedSamples: [],
+      model: 'gemini-3.6-flash',
+    });
+    const user = userEvent.setup();
+    render(<SentencesPage />);
+    await screen.findByText(/89 từ bạn đã học và 91 câu/);
+    await user.click(screen.getByRole('radio', { name: 'Nghe câu' }));
+    const button = screen.getByRole('button', { name: 'Tạo câu mới bằng AI' });
+    await waitFor(() => expect(button).toBeEnabled());
+    await user.click(button);
+
+    expect(await screen.findByText('Đã thêm 1 câu.')).toBeInTheDocument();
+    expect(screen.getByText('Đã bỏ 1 câu AI cũ để thay bằng bộ này.')).toBeInTheDocument();
+    // 90 câu có sẵn − 1 AI cũ + 1 AI mới = 91: kho không phình ra.
+    expect(screen.getByText(/89 từ bạn đã học và 91 câu/)).toBeInTheDocument();
+    // Câu AI cũ không còn đâu để tìm; câu AI mới thì có.
+    const search = screen.getByRole('searchbox', { name: 'Tìm câu' });
+    await user.type(search, '我在家喝茶');
+    expect(screen.queryAllByRole('article')).toHaveLength(0);
+    await user.clear(search);
+    await user.type(search, '妈妈在喝茶');
+    expect(screen.getAllByRole('article')).toHaveLength(1);
+    await user.click(screen.getByRole('button', { name: 'Hiện Chữ Hán' }));
+    expect(shownHanzi()).toEqual(new Set(['妈妈在喝茶。']));
   });
 
   it('"Tạo bằng AI" gửi đúng số câu và cấp đã chọn, rồi đưa câu mới lên đầu phần nghe', async () => {
@@ -596,6 +642,7 @@ describe('trang Câu của tôi — AI', () => {
       rejected: 1,
       duplicates: 3,
       reordered: 2,
+      replaced: 0,
       sentences: created,
       rejectedSamples: ['他很高兴。 (lạ: 高兴)', '学生是我。 (đổi chỗ câu đã có)'],
       model: 'claude-opus-5',
@@ -612,6 +659,9 @@ describe('trang Câu của tôi — AI', () => {
     await user.click(screen.getByRole('radio', { name: '10' }));
     await user.click(screen.getByRole('radio', { name: 'Cấp 2' }));
     await user.click(screen.getByRole('radio', { name: 'Mọi từ' }));
+    // Mặc định "Thay" bộ AI cũ; chọn "Giữ" thì không gửi cờ thay.
+    expect(screen.getByRole('radio', { name: 'Thay' })).toBeChecked();
+    await user.click(screen.getByRole('radio', { name: 'Giữ' }));
     await user.click(screen.getByRole('button', { name: 'Tạo bằng AI' }));
 
     expect(api.generateSentences).toHaveBeenCalledWith({ count: 10, level: 2 });
