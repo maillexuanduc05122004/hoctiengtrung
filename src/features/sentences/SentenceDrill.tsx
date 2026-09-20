@@ -11,12 +11,21 @@
  * qua 90 câu mỗi sáng thì đến câu 40 người học đã biết câu 41 là gì; rút ngẫu
  * nhiên thì không đoán trước được, đúng tinh thần luyện nghe.
  *
- * Hết câu lạ thì bấm "Tạo câu mới bằng AI": máy chủ viết câu từ đúng vốn từ đã
- * học rồi trả về; những câu vừa tạo được xếp thành mục riêng ở đầu bộ đang xem
- * cho đến khi người học đổi bộ, để nghe thử ngay lúc còn mới. Bộ AI mới THAY bộ
- * AI cũ (trang gửi `replaceAi`): người học bấm nút này khi đã nghe chán bộ đang
- * có, nên kho không phình ra toàn câu đã nghe — câu AI cũ biến khỏi danh sách
- * ngay khi bộ mới về.
+ * Câu AI KHÔNG BAO GIỜ nằm trong bộ rút ngẫu nhiên: chỉ câu có sẵn và câu tự
+ * thêm mới được rút, còn MỌI câu AI luôn hiện đủ trong một mục riêng đặt đầu
+ * tiên. Lý do nằm ở cơ chế thay bộ: "Tạo câu mới bằng AI" gửi `replaceAi`, máy
+ * chủ bỏ bộ AI cũ rồi lưu bộ mới, nên kho AI chỉ còn đúng bộ gần nhất (~20
+ * câu). Hiện đủ bộ đó thì sau F5 người học vẫn thấy nguyên bộ vừa tạo; nếu để
+ * chúng lẫn vào bộ ngẫu nhiên thì chỉ vài câu lẻ lọt ra, người học tưởng "AI
+ * không lưu" hay "câu mới giống câu cũ". Mục này mang tên "Câu AI vừa tạo" khi
+ * bộ vừa về và người học chưa đổi bộ, còn lại là "Câu AI tạo"; khi bộ mới về
+ * thì phần nghe tự cuộn lên đầu và đóng mọi phần đã mở, để người học thấy ngay
+ * bộ mới ở trạng thái "chưa mở gì".
+ *
+ * Bộ đang xem luôn khớp kho: kho đổi (máy chủ trả mã thật thay bộ dự phòng mã
+ * âm, hay người học xoá một câu) thì bỏ những mã không còn; trống hẳn mới rút
+ * lại, hụt vài câu thì giữ nguyên chứ không rút bù, để bộ không đổi bất ngờ
+ * giữa lúc đang nghe.
  *
  * Thanh "Mặc định hiện" đổi trạng thái ban đầu của cả bộ. Đổi nó — hay đổi bộ
  * câu — thì xoá luôn các lần mở lẻ, vì giữ lại sẽ thành một trạng thái không
@@ -101,10 +110,12 @@ export interface SentenceDrillProps {
   onGenerate: () => void;
   generating: boolean;
   /**
-   * Mã các câu AI vừa tạo ở lần bấm gần nhất. Chúng được đưa vào bộ đang xem
-   * thành mục riêng ở đầu, cho đến khi người học đổi bộ hay đổi cỡ bộ. Nơi gọi
-   * phải giữ nguyên tham chiếu mảng giữa hai lần tạo, vì "đã đổi bộ" được ghi
-   * nhớ theo tham chiếu.
+   * Mã các câu AI vừa tạo ở lần bấm gần nhất. Mọi câu AI đằng nào cũng hiện đủ
+   * ở mục đầu; mảng này chỉ quyết định mục đó mang tên "vừa tạo" (cho đến khi
+   * người học đổi bộ hay đổi cỡ bộ) và, khi đổi sang một mảng MỚI không rỗng,
+   * kéo phần nghe lên đầu ở trạng thái chưa mở gì. Nơi gọi phải giữ nguyên
+   * tham chiếu mảng giữa hai lần tạo, vì cả "đã đổi bộ" lẫn "bộ mới về" đều
+   * được nhận ra theo tham chiếu.
    */
   freshIds?: readonly number[];
 }
@@ -163,29 +174,54 @@ export function SentenceDrill({
     [sentences],
   );
   const poolIds = useMemo(() => pool.map((sentence) => sentence.key), [pool]);
-
-  const fresh = useMemo(
-    () => new Set(dismissedFresh === freshIds ? [] : freshIds.map(String)),
-    [dismissedFresh, freshIds],
+  /**
+   * Chỉ câu KHÔNG phải AI mới được rút vào bộ ngẫu nhiên. Câu AI luôn hiện đủ
+   * ở mục riêng (xem đầu tệp), nên rút trúng chúng thì bộ hụt đi một câu mà
+   * người học không hiểu vì sao — đây là nguồn duy nhất cho `drawBatch`.
+   */
+  const drawableIds = useMemo(
+    () => pool.filter((sentence) => sentence.source !== 'AI').map((sentence) => sentence.key),
+    [pool],
   );
+  const aiCount = pool.length - drawableIds.length;
+
+  // Bộ AI vừa về mà người học chưa đổi bộ: mục AI mang tên "vừa tạo".
+  const showingFresh = dismissedFresh !== freshIds && freshIds.length > 0;
 
   // Rút bộ đầu tiên ngay lúc dựng, để lần vẽ đầu đã có câu chứ không nháy rỗng.
-  // Câu AI vừa tạo luôn hiện ở mục riêng, nên không rút chúng vào bộ: rút trúng
-  // thì bộ hụt đi một câu mà người học không hiểu vì sao.
   const [batch, setBatch] = useState<Set<string>>(() =>
-    drawBatch(
-      poolIds.filter((id) => !fresh.has(id)),
-      Number(DEFAULT_SIZE),
-    ),
+    drawBatch(drawableIds, Number(DEFAULT_SIZE)),
   );
+
+  /*
+    Giữ bộ đang xem khớp với kho. Kho đổi dưới chân bộ ở hai tình huống thật:
+    máy chủ trả lời trong lúc đang hiện bộ dự phòng (mã âm bị thay bằng mã
+    thật — không mã nào còn, nếu không rút lại thì bộ đang xem thành rỗng và
+    màn hình nói "Không có câu nào khớp." dù kho có 90 câu), và người học xoá
+    một câu (hụt đúng một mã). Trống hẳn thì rút lại; hụt vài câu thì chỉ bỏ
+    mã đã mất, KHÔNG rút bù — rút bù là bộ đổi bất ngờ giữa lúc đang nghe.
+
+    Làm ngay trong lúc vẽ chứ không trong effect: đây là "điều chỉnh state khi
+    prop đổi" theo đúng mẫu React khuyên (dự án cũng cấm setState trong
+    effect), và nhờ vậy không có một lần vẽ rỗng chớp lên trước khi bộ được
+    rút lại. Chỉ đặt lại khi có mã thật sự mất, nên lần vẽ lại kế tiếp thấy
+    mọi mã còn nguyên và dừng — không thành vòng lặp.
+  */
+  const poolIdSet = useMemo(() => new Set(poolIds), [poolIds]);
+  if (size !== 'all') {
+    const kept = [...batch].filter((id) => poolIdSet.has(id));
+    if (kept.length !== batch.size) {
+      setBatch(kept.length === 0 ? drawBatch(drawableIds, Number(size)) : new Set(kept));
+    }
+  }
 
   const searching = query.trim() !== '';
 
   const visible = useMemo(() => {
     if (searching) return pool.filter((sentence) => matchesQuery(sentence, query));
     if (size === 'all') return pool;
-    return pool.filter((sentence) => batch.has(sentence.key) || fresh.has(sentence.key));
-  }, [batch, fresh, pool, query, searching, size]);
+    return pool.filter((sentence) => sentence.source === 'AI' || batch.has(sentence.key));
+  }, [batch, pool, query, searching, size]);
 
   /** Về trạng thái "chưa mở gì, chưa chọn gì" — dùng mỗi khi danh sách đổi hẳn. */
   const resetReveal = useCallback(() => {
@@ -193,24 +229,50 @@ export function SentenceDrill({
     setCurrentId(null);
   }, []);
 
+  /*
+    Bộ AI mới về (một mảng `freshIds` MỚI, không rỗng) thì người học phải thấy
+    nó ngay: đóng mọi phần đã mở — câu mới cũng phải đoán trước rồi mới xem —
+    và kéo lên đầu, nơi mục AI đứng. So theo tham chiếu mảng chứ không theo
+    rỗng/không rỗng: hai lần tạo liên tiếp đều cho mảng không rỗng và vẫn phải
+    làm cả hai lần. Mảng rỗng (tạo không ra câu nào) thì không có gì để xem
+    nên đứng yên.
+
+    Hai việc tách hai chỗ: đóng phần đã mở là đổi state nên làm ngay trong lúc
+    vẽ (mẫu "điều chỉnh state khi prop đổi", nhớ mảng trước bằng state); cuộn
+    là thao tác DOM nên phải chờ commit, tức là trong effect, nhớ mảng trước
+    bằng ref. Lúc mới dựng thì cả hai đều đứng yên: không có "mảng trước" để
+    so, và người học vừa mở thẻ nghe thì đang ở chỗ mình vừa bấm.
+  */
+  const [seenFresh, setSeenFresh] = useState(freshIds);
+  if (seenFresh !== freshIds) {
+    setSeenFresh(freshIds);
+    if (freshIds.length > 0) resetReveal();
+  }
+  const scrolledFresh = useRef(freshIds);
+  useEffect(() => {
+    if (scrolledFresh.current === freshIds) return;
+    scrolledFresh.current = freshIds;
+    if (freshIds.length > 0) top.current?.scrollIntoView({ block: 'start' });
+  }, [freshIds]);
+
   const reload = useCallback(() => {
     if (size === 'all') return;
-    setBatch(drawBatch(poolIds, Number(size), batch));
+    setBatch(drawBatch(drawableIds, Number(size), batch));
     setDismissedFresh(freshIds);
     resetReveal();
     // Bấm từ nút cuối danh sách thì phải đưa người học lên đầu bộ mới, nếu không
     // họ đứng ở cuối và tưởng nút không có tác dụng.
     top.current?.scrollIntoView({ block: 'start' });
-  }, [batch, freshIds, poolIds, resetReveal, size]);
+  }, [batch, drawableIds, freshIds, resetReveal, size]);
 
   const changeSize = useCallback(
     (next: BatchSize) => {
       setSize(next);
-      if (next !== 'all') setBatch(drawBatch(poolIds, Number(next)));
+      if (next !== 'all') setBatch(drawBatch(drawableIds, Number(next)));
       setDismissedFresh(freshIds);
       resetReveal();
     },
-    [freshIds, poolIds, resetReveal],
+    [drawableIds, freshIds, resetReveal],
   );
 
   const changeMode = useCallback((next: RevealMode) => {
@@ -226,38 +288,34 @@ export function SentenceDrill({
   }, []);
 
   /**
-   * Chia câu đang hiện thành các mục: câu AI vừa tạo (nếu có), ba cấp của bộ
-   * có sẵn, rồi câu AI đã tạo từ trước và câu tự thêm. Số thứ tự đánh liên
-   * tục qua mọi mục theo đúng thứ tự trên màn hình — người học nói "câu 7" là
-   * một câu duy nhất trong bộ đang nghe, không phải câu thứ 7 của một cấp.
+   * Chia câu đang hiện thành các mục: MỌI câu AI ở một mục đầu tiên (mang tên
+   * "vừa tạo" khi bộ mới về và chưa đổi bộ), ba cấp của bộ có sẵn, rồi câu tự
+   * thêm. Số thứ tự đánh liên tục qua mọi mục theo đúng thứ tự trên màn hình —
+   * người học nói "câu 7" là một câu duy nhất trong bộ đang nghe, không phải
+   * câu thứ 7 của một cấp.
    */
   const sections = useMemo<Section[]>(() => {
     const defs: { key: string; title: string; note: string; pick: (s: DrillSentence) => boolean }[] =
       [
         {
-          key: 'fresh',
-          title: 'Câu AI vừa tạo',
-          note: 'Vừa viết từ đúng những từ bạn đã học. Ở đây cho đến khi bạn đổi bộ.',
-          pick: (s) => fresh.has(s.key),
+          key: 'ai',
+          title: showingFresh ? 'Câu AI vừa tạo' : 'Câu AI tạo',
+          note: showingFresh
+            ? 'Vừa viết từ đúng những từ bạn đã học.'
+            : 'Bộ AI gần nhất; bấm "Tạo câu mới bằng AI" là bộ khác thế chỗ.',
+          pick: (s) => s.source === 'AI',
         },
         ...LEVELS.map((level) => ({
           key: `level-${level.level}`,
           title: level.title,
           note: level.note,
-          pick: (s: DrillSentence) =>
-            !fresh.has(s.key) && s.source === 'BUILTIN' && s.level === level.level,
+          pick: (s: DrillSentence) => s.source === 'BUILTIN' && s.level === level.level,
         })),
-        {
-          key: 'ai',
-          title: 'Câu AI tạo',
-          note: 'Bộ AI gần nhất; bấm "Tạo câu mới bằng AI" là bộ khác thế chỗ.',
-          pick: (s) => !fresh.has(s.key) && s.source === 'AI',
-        },
         {
           key: 'manual',
           title: 'Câu bạn tự thêm',
           note: 'Bạn dán vào từ một trợ lý khác.',
-          pick: (s) => !fresh.has(s.key) && s.source === 'MANUAL',
+          pick: (s) => s.source === 'MANUAL',
         },
       ];
     let number = 0;
@@ -272,7 +330,7 @@ export function SentenceDrill({
         }),
       }))
       .filter((section) => section.items.length > 0);
-  }, [fresh, visible]);
+  }, [showingFresh, visible]);
 
   /** Thứ tự phẳng dùng cho phím ↑ ↓, đúng thứ tự đang hiện trên màn hình. */
   const order = useMemo(
@@ -348,6 +406,14 @@ export function SentenceDrill({
 
   const canReload = !searching && size !== 'all';
 
+  // Nói đúng cách bộ được dựng: phần rút ngẫu nhiên chỉ lấy từ câu không phải
+  // AI, còn câu AI thì hiện đủ — kẻo người học đếm 40 thẻ trong "bộ 20 câu"
+  // rồi tưởng lỗi. Số câu rút = số đang hiện trừ câu AI (khi không tìm, mọi
+  // câu AI đều đang hiện).
+  const batchSummary =
+    `Bộ ${visible.length - aiCount} câu rút ngẫu nhiên từ ${drawableIds.length} câu có sẵn` +
+    (aiCount > 0 ? `, cộng ${aiCount} câu AI luôn hiện đủ.` : '.');
+
   return (
     <div
       ref={top}
@@ -418,7 +484,7 @@ export function SentenceDrill({
             ? `Đang tìm — hiện mọi câu khớp trong ${pool.length} câu.`
             : size === 'all'
               ? `Hiện cả ${pool.length} câu.`
-              : `Bộ ${visible.length} câu rút ngẫu nhiên từ ${pool.length} câu.`}{' '}
+              : batchSummary}{' '}
           ↓ câu sau · ↑ câu trước · Enter phát câu đang chọn. Bấm vào một câu để chọn.
         </p>
       </div>

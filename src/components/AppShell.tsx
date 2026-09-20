@@ -3,6 +3,7 @@ import { NavLink, Outlet, useLocation } from 'react-router';
 import { MAIN_NAV, SECONDARY_NAV, STUDY_NAV, type NavItem } from './navigation.ts';
 import { QuickLookupButton } from './QuickLookupButton.tsx';
 import { Icon } from './ui/Icon.tsx';
+import { UpdateBanner } from './UpdateBanner.tsx';
 
 /**
  * Khung ứng dụng.
@@ -199,6 +200,13 @@ export function AppShell() {
           </NavLink>
         ))}
       </nav>
+
+      {/*
+        Nằm ở khung chứ không ở trang nào: bản mới có thể tới lúc đang ở bất kỳ
+        đâu, và thanh phải sống qua các lần đổi trang (Outlet dựng lại theo
+        đường dẫn) thì mới không bị mất giữa chừng.
+      */}
+      <UpdateBanner />
     </div>
   );
 }

@@ -137,10 +137,15 @@ export function useMySentences(): UseMySentencesResult {
   const generate = useCallback(
     async (request: GenerateSentencesRequest) => {
       const result = await generateSentences(request);
-      if (result.sentences.length > 0) {
-        // Máy chủ đã bỏ bộ AI cũ khi được yêu cầu thay (và chỉ khi có bộ mới),
-        // nên danh sách tại chỗ cũng bỏ đúng những câu đó trước khi gộp bộ mới.
-        const replaced = request.replaceAi === true;
+      // Bỏ bộ AI cũ khỏi danh sách tại chỗ theo XÁC NHẬN của máy chủ
+      // (`replaced` > 0), không phải theo cờ `replaceAi` mình gửi đi. Danh
+      // sách đang hiện phải khớp DB: máy chủ bản cũ không biết cờ đó, chỉ cộng
+      // thêm bộ mới và không trả `replaced` — nếu trang tự lọc theo cờ thì
+      // màn hình mất bộ cũ trong khi DB vẫn giữ, và F5 lại thấy chúng "quay
+      // về". Ngược lại, máy chủ đã bỏ bộ cũ thì phải bỏ ở đây ngay, kể cả
+      // trong trường hợp lạ là bộ mới rỗng, để không hiện câu DB không còn.
+      const replaced = (result.replaced ?? 0) > 0;
+      if (replaced || result.sentences.length > 0) {
         patch((current) =>
           merge(
             replaced ? current.filter((sentence) => sentence.source !== 'AI') : current,

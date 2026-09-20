@@ -29,7 +29,7 @@
 import { act, render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
-import { SentencesPage } from './SentencesPage.tsx';
+import { OUTDATED_SERVER_LINE, SentencesPage } from './SentencesPage.tsx';
 import { MY_SENTENCES, MY_WORDS } from '../features/sentences/corpus.ts';
 import { WAITING_HINT } from '../features/sentences/SentenceDrill.tsx';
 import type { AuthUser } from '../lib/api/auth.ts';
@@ -618,6 +618,8 @@ describe('trang Câu của tôi — AI', () => {
 
     expect(await screen.findByText('Đã thêm 1 câu.')).toBeInTheDocument();
     expect(screen.getByText('Đã bỏ 1 câu AI cũ để thay bằng bộ này.')).toBeInTheDocument();
+    // Máy chủ đã xác nhận thay (`replaced` có mặt) nên không có lời cảnh báo bản cũ.
+    expect(screen.queryByText(OUTDATED_SERVER_LINE)).not.toBeInTheDocument();
     // 90 câu có sẵn − 1 AI cũ + 1 AI mới = 91: kho không phình ra.
     expect(screen.getByText(/89 từ bạn đã học và 91 câu/)).toBeInTheDocument();
     // Câu AI cũ không còn đâu để tìm; câu AI mới thì có.
@@ -629,6 +631,42 @@ describe('trang Câu của tôi — AI', () => {
     expect(screen.getAllByRole('article')).toHaveLength(1);
     await user.click(screen.getByRole('button', { name: 'Hiện Chữ Hán' }));
     expect(shownHanzi()).toEqual(new Set(['妈妈在喝茶。']));
+  });
+
+  it('máy chủ bản cũ (không trả `replaced`) thì giữ nguyên câu AI cũ và cảnh báo, dù đã xin thay', async () => {
+    api.listSentences.mockResolvedValue([
+      ...SENTENCES,
+      aiSentence(501, '我在家喝茶。', 'Wǒ zài jiā hē chá.', 'Tôi uống trà ở nhà.'),
+    ]);
+    // Bản cũ không biết `replaceAi` lẫn `replaced`: chỉ cộng thêm bộ mới.
+    api.generateSentences.mockResolvedValue({
+      requested: 20,
+      generated: 1,
+      rejected: 0,
+      duplicates: 0,
+      reordered: 0,
+      sentences: [aiSentence(601, '妈妈在喝茶。', 'Māma zài hē chá.', 'Mẹ đang uống trà.')],
+      rejectedSamples: [],
+      model: 'gemini-3.6-flash',
+    });
+    const user = userEvent.setup();
+    render(<SentencesPage />);
+    await screen.findByText(/89 từ bạn đã học và 91 câu/);
+    await user.click(screen.getByRole('radio', { name: 'Nghe câu' }));
+    const button = screen.getByRole('button', { name: 'Tạo câu mới bằng AI' });
+    await waitFor(() => expect(button).toBeEnabled());
+    await user.click(button);
+
+    // Nói thẳng máy chủ cần cập nhật, bằng giọng cảnh báo, chứ không im lặng
+    // để người học tưởng nút hỏng.
+    expect(await screen.findByText('Đã thêm 1 câu.')).toBeInTheDocument();
+    const warning = screen.getByText(OUTDATED_SERVER_LINE);
+    expect(warning.closest('[role="status"]')).toHaveClass('bg-partial-soft');
+    expect(screen.queryByText(/Đã bỏ .* câu AI cũ/)).not.toBeInTheDocument();
+    // UI khớp DB: 90 có sẵn + 1 AI cũ + 1 AI mới = 92, bộ cũ vẫn tìm thấy.
+    expect(screen.getByText(/89 từ bạn đã học và 92 câu/)).toBeInTheDocument();
+    await user.type(screen.getByRole('searchbox', { name: 'Tìm câu' }), 'uong tra o nha');
+    expect(screen.getAllByRole('article')).toHaveLength(1);
   });
 
   it('"Tạo bằng AI" gửi đúng số câu và cấp đã chọn, rồi đưa câu mới lên đầu phần nghe', async () => {
@@ -671,7 +709,7 @@ describe('trang Câu của tôi — AI', () => {
     expect(await screen.findByText('Đã thêm 2 câu.')).toBeInTheDocument();
     expect(
       screen.getByText(
-        '1 câu bị loại vì dùng chữ chưa học. 3 câu trùng. 2 câu chỉ là câu cũ đổi chỗ nên bỏ.',
+        '1 câu bị loại vì dùng chữ chưa học. 3 câu trùng. 2 câu chỉ là câu cũ đổi chỗ hay thay một chữ nên bỏ.',
       ),
     ).toBeInTheDocument();
     expect(screen.getByText('学生是我。 (đổi chỗ câu đã có)')).toBeInTheDocument();

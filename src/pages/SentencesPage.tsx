@@ -103,16 +103,33 @@ interface PageNotice {
   samples?: string[];
 }
 
-function describeGeneration(result: GenerateSentencesResponse): PageNotice {
+/** Lời báo khi trang xin thay bộ AI mà máy chủ không xác nhận: chỉ máy chủ bản cũ mới thế. */
+export const OUTDATED_SERVER_LINE =
+  'Máy chủ đang chạy bản cũ, chưa biết thay bộ AI — bộ mới chỉ được cộng thêm. Cần cập nhật máy chủ.';
+
+/**
+ * Dựng thông báo kết quả tạo câu. `wantedReplace` là cờ `replaceAi` trang đã
+ * gửi: máy chủ bản mới luôn trả `replaced` (kể cả 0), nên xin thay mà không
+ * nhận được trường đó nghĩa là máy chủ bản cũ đã bỏ qua cờ và chỉ cộng thêm.
+ * Phải nói thẳng điều đó — im lặng thì người học thấy bộ cũ vẫn còn, tưởng
+ * nút hỏng, trong khi lỗi nằm ở máy chủ chưa cập nhật.
+ */
+function describeGeneration(result: GenerateSentencesResponse, wantedReplace: boolean): PageNotice {
   const filtered: string[] = [];
   if (result.rejected > 0) filtered.push(`${result.rejected} câu bị loại vì dùng chữ chưa học.`);
   if (result.duplicates > 0) filtered.push(`${result.duplicates} câu trùng.`);
-  if (result.reordered > 0) filtered.push(`${result.reordered} câu chỉ là câu cũ đổi chỗ nên bỏ.`);
-  const replaced = result.replaced > 0 ? `Đã bỏ ${result.replaced} câu AI cũ để thay bằng bộ này.` : null;
+  if (result.reordered > 0) {
+    filtered.push(`${result.reordered} câu chỉ là câu cũ đổi chỗ hay thay một chữ nên bỏ.`);
+  }
+  // `== null` vì trường tuỳ chọn có thể về `null` lẫn thiếu hẳn (xem `types.ts`).
+  const outdated = wantedReplace && result.replaced == null;
+  const replaced =
+    (result.replaced ?? 0) > 0 ? `Đã bỏ ${result.replaced} câu AI cũ để thay bằng bộ này.` : null;
   return {
-    tone: result.generated > 0 ? 'info' : 'warn',
+    tone: outdated || result.generated === 0 ? 'warn' : 'info',
     title: `Đã thêm ${result.generated} câu.`,
     lines: [
+      ...(outdated ? [OUTDATED_SERVER_LINE] : []),
       ...(replaced !== null ? [replaced] : []),
       ...(filtered.length > 0 ? [filtered.join(' ')] : []),
       ...(result.model ? [`Mô hình: ${result.model}.`] : []),
@@ -194,7 +211,7 @@ function Workspace() {
       try {
         const result = await generate(request);
         setFreshIds(result.sentences.map((sentence) => sentence.id));
-        setNotice(describeGeneration(result));
+        setNotice(describeGeneration(result, request.replaceAi === true));
         setTab('drill');
       } catch (cause: unknown) {
         setNotice({ tone: 'error', lines: [describeApiError(cause)] });

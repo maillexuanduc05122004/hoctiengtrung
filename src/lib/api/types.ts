@@ -230,10 +230,18 @@ export interface GenerateSentencesResponse {
   generated: number;
   rejected: number;
   duplicates: number;
-  /** Câu chỉ là câu đã có (hoặc câu khác trong đợt) đổi chỗ chữ — máy chủ loại vì không phải câu mới. */
+  /**
+   * Câu chỉ là câu đã có (hoặc câu khác trong đợt) đổi chỗ chữ, hay thay đúng
+   * một chữ — máy chủ loại vì không phải câu mới.
+   */
   reordered: number;
-  /** Số câu AI cũ máy chủ đã bỏ để nhường chỗ cho bộ mới (0 khi không yêu cầu thay). */
-  replaced: number;
+  /**
+   * Số câu AI cũ máy chủ đã bỏ để nhường chỗ cho bộ mới (0 khi không yêu cầu
+   * thay). Máy chủ BẢN CŨ không có trường này: nhận về `undefined` nghĩa là
+   * máy chủ đã bỏ qua cờ `replaceAi` và bộ AI cũ vẫn còn nguyên trong DB —
+   * trang phải coi đó là "chưa thay", không được đoán theo cờ mình gửi đi.
+   */
+  replaced?: number;
   sentences: Sentence[];
   rejectedSamples: string[];
   model: string;
