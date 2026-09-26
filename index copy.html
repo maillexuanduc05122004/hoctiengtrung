@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f7ff">
+  <title>100 số đếm — Luyện phản xạ tiếng Trung</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --navy: #0d315f;
+      --blue: #1671b9;
+      --blue-dark: #0c5f9f;
+      --blue-soft: #eaf4ff;
+      --border: #d6e2f1;
+      --muted: #728199;
+      --surface: #ffffff;
+      --background: #f4f7ff;
+      --shadow: 0 18px 45px rgba(13, 49, 95, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      min-width: 320px;
+      min-height: 100vh;
+      color: #10233f;
+      background: radial-gradient(circle at 90% 0, rgba(42, 139, 214, 0.1), transparent 28rem), var(--background);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    button { font: inherit; }
+    button:focus-visible { outline: 3px solid rgba(22, 113, 185, 0.25); outline-offset: 3px; }
+
+    .page {
+      width: min(1080px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 54px 0 80px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin: 0 0 10px;
+      color: var(--blue);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--blue);
+      box-shadow: 0 0 0 5px rgba(22, 113, 185, 0.12);
+      content: "";
+    }
+
+    h1 {
+      margin: 0;
+      color: var(--navy);
+      font-size: clamp(32px, 5vw, 48px);
+      line-height: 1.12;
+      letter-spacing: -0.035em;
+    }
+
+    .subtitle {
+      max-width: 720px;
+      margin: 14px 0 28px;
+      color: #55667d;
+      font-size: 17px;
+      line-height: 1.65;
+    }
+
+    .guide {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 12px 24px;
+      padding: 18px 20px;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.82);
+      box-shadow: 0 8px 30px rgba(13, 49, 95, 0.04);
+      backdrop-filter: blur(12px);
+    }
+
+    .guide__main { flex: 1 1 420px; margin: 0; line-height: 1.55; }
+    .shortcuts { display: flex; flex-wrap: wrap; gap: 8px; color: var(--muted); font-size: 13px; }
+
+    kbd {
+      padding: 4px 8px;
+      border: 1px solid #cad8e8;
+      border-bottom-width: 2px;
+      border-radius: 7px;
+      color: #42546c;
+      background: #f8fbff;
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .toolbar { display: flex; flex-wrap: wrap; gap: 10px; margin: 18px 0 28px; }
+
+    .button {
+      display: inline-flex;
+      min-height: 48px;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 11px 16px;
+      border: 1px solid #bfd2e8;
+      border-radius: 13px;
+      color: #25476d;
+      background: var(--surface);
+      cursor: pointer;
+      font-weight: 700;
+      transition: transform 160ms ease, border-color 160ms ease, background 160ms ease, box-shadow 160ms ease;
+    }
+
+    .button:hover {
+      border-color: #87b4dc;
+      background: #fafdff;
+      box-shadow: 0 8px 18px rgba(13, 49, 95, 0.08);
+      transform: translateY(-1px);
+    }
+
+    .button:active { transform: translateY(0); }
+    .button--primary { border-color: var(--blue); color: #fff; background: var(--blue); }
+    .button--primary:hover { border-color: var(--blue-dark); background: var(--blue-dark); }
+    .button[disabled] { opacity: 0.42; cursor: not-allowed; box-shadow: none; transform: none; }
+    .button__icon { font-size: 16px; line-height: 1; }
+
+    .status {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      margin-bottom: 10px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .progress { height: 7px; margin-bottom: 18px; overflow: hidden; border-radius: 99px; background: #dfe9f5; }
+    .progress__bar { width: 1%; height: 100%; border-radius: inherit; background: linear-gradient(90deg, #1671b9, #39a2e4); transition: width 240ms ease; }
+    .cards { display: grid; gap: 16px; }
+
+    .card {
+      position: relative;
+      min-height: 220px;
+      overflow: hidden;
+      padding: 26px 28px;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.88);
+      transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+    }
+
+    .card::after {
+      position: absolute;
+      top: -80px;
+      right: -70px;
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      background: rgba(22, 113, 185, 0.04);
+      content: "";
+      pointer-events: none;
+    }
+
+    .card.active { border: 3px solid var(--blue); padding: 24px 26px; box-shadow: var(--shadow); }
+
+    .card__meta {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .card__badge {
+      display: none;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 9px;
+      border-radius: 999px;
+      color: var(--blue-dark);
+      background: var(--blue-soft);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .active .card__badge { display: inline-flex; }
+
+    .answer {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      min-height: 110px;
+      place-content: center;
+      padding: 8px 0;
+      text-align: center;
+    }
+
+    .answer__hidden { display: flex; align-items: center; gap: 8px; color: #91a0b4; font-size: 18px; }
+    .answer__content { display: none; }
+    .card.revealed .answer__hidden { display: none; }
+    .card.revealed .answer__content { display: block; animation: reveal 180ms ease-out; }
+    .answer__number { color: var(--navy); font-size: 48px; font-weight: 850; letter-spacing: -0.04em; line-height: 1; }
+    .answer__hanzi { margin-top: 8px; color: #17283f; font-family: "Noto Sans SC", "Microsoft YaHei", sans-serif; font-size: 32px; font-weight: 700; line-height: 1.25; }
+    .answer__pinyin { margin-top: 3px; color: #405b7e; font-size: 18px; }
+
+    .card__actions { position: relative; z-index: 1; display: flex; flex-wrap: wrap; gap: 9px; margin-top: 8px; }
+    .card .button { min-height: 43px; padding: 9px 14px; font-size: 14px; }
+
+    .toast {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      z-index: 10;
+      max-width: min(360px, calc(100vw - 40px));
+      padding: 13px 16px;
+      border-radius: 12px;
+      color: #fff;
+      background: #17365d;
+      box-shadow: 0 12px 35px rgba(13, 49, 95, 0.25);
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(12px);
+      transition: opacity 180ms ease, transform 180ms ease;
+    }
+
+    .toast.show { opacity: 1; transform: translateY(0); }
+
+    @keyframes reveal {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 680px) {
+      .page { width: min(100% - 24px, 1080px); padding-top: 28px; }
+      .subtitle { font-size: 15px; }
+      .guide { padding: 15px; }
+      .shortcuts { display: none; }
+      .toolbar { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .toolbar .button--primary, .toolbar .button--wide { grid-column: 1 / -1; }
+      .card, .card.active { min-height: 240px; padding: 20px; }
+      .answer { min-height: 125px; }
+      .card__actions .button { flex: 1 1 125px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <p class="eyebrow">Nghe · Đoán · Kiểm tra</p>
+      <h1>100 số đếm — Luyện phản xạ tiếng Trung</h1>
+      <p class="subtitle">Nghe cách đọc, tự đoán con số rồi mở đáp án. Luyện lần lượt hoặc trộn ngẫu nhiên để tăng phản xạ.</p>
+    </header>
+
+    <section class="guide" aria-label="Hướng dẫn sử dụng">
+      <p class="guide__main">🎯 Chọn <strong>Phát số hiện tại</strong> → tự đoán → <strong>Hiện đáp án</strong>.</p>
+      <div class="shortcuts" aria-label="Phím tắt">
+        <span><kbd>↑</kbd> trước</span>
+        <span><kbd>↓</kbd> tiếp</span>
+        <span><kbd>Enter</kbd> nghe</span>
+        <span><kbd>Space</kbd> đáp án</span>
+      </div>
+    </section>
+
+    <nav class="toolbar" aria-label="Điều khiển bài luyện">
+      <button class="button" id="previousButton" type="button"><span class="button__icon">↑</span> Số trước</button>
+      <button class="button" id="nextButton" type="button"><span class="button__icon">↓</span> Số tiếp</button>
+      <button class="button button--primary" id="playButton" type="button"><span class="button__icon">🔊</span> Phát số hiện tại</button>
+      <button class="button" id="answerButton" type="button"><span class="button__icon">◉</span> Hiện đáp án</button>
+      <button class="button button--wide" id="shuffleButton" type="button"><span class="button__icon">↝</span> Trộn thứ tự</button>
+    </nav>
+
+    <div class="status" aria-live="polite">
+      <span id="positionText">Số 1 / 100</span>
+      <span id="modeText">Thứ tự: 1 → 100</span>
+    </div>
+    <div class="progress" role="progressbar" aria-label="Tiến độ" aria-valuemin="1" aria-valuemax="100" aria-valuenow="1">
+      <div class="progress__bar" id="progressBar"></div>
+    </div>
+    <section class="cards" id="cards" aria-label="Danh sách 100 số đếm"></section>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script>
+    const DIGITS = [
+      null,
+      { hanzi: "一", pinyin: "yī" },
+      { hanzi: "二", pinyin: "èr" },
+      { hanzi: "三", pinyin: "sān" },
+      { hanzi: "四", pinyin: "sì" },
+      { hanzi: "五", pinyin: "wǔ" },
+      { hanzi: "六", pinyin: "liù" },
+      { hanzi: "七", pinyin: "qī" },
+      { hanzi: "八", pinyin: "bā" },
+      { hanzi: "九", pinyin: "jiǔ" }
+    ];
+
+    function chineseNumber(value) {
+      if (value === 100) return { hanzi: "一百", pinyin: "yì bǎi" };
+      if (value < 10) return DIGITS[value];
+
+      const tens = Math.floor(value / 10);
+      const units = value % 10;
+      const tensHanzi = tens === 1 ? "十" : `${DIGITS[tens].hanzi}十`;
+      const tensPinyin = tens === 1 ? "shí" : `${DIGITS[tens].pinyin} shí`;
+
+      return {
+        hanzi: units ? `${tensHanzi}${DIGITS[units].hanzi}` : tensHanzi,
+        pinyin: units ? `${tensPinyin} ${DIGITS[units].pinyin}` : tensPinyin
+      };
+    }
+
+    const numbers = Array.from({ length: 100 }, (_, index) => {
+      const value = index + 1;
+      return { value, ...chineseNumber(value) };
+    });
+
+    let order = [...numbers];
+    let currentIndex = 0;
+    let shuffled = false;
+    let toastTimer;
+
+    const cardsElement = document.querySelector("#cards");
+    const previousButton = document.querySelector("#previousButton");
+    const nextButton = document.querySelector("#nextButton");
+    const playButton = document.querySelector("#playButton");
+    const answerButton = document.querySelector("#answerButton");
+    const shuffleButton = document.querySelector("#shuffleButton");
+    const positionText = document.querySelector("#positionText");
+    const modeText = document.querySelector("#modeText");
+    const progressBar = document.querySelector("#progressBar");
+    const progressElement = document.querySelector(".progress");
+    const toast = document.querySelector("#toast");
+
+    function cardTemplate(item, index) {
+      return `
+        <article class="card${index === currentIndex ? " active" : ""}" data-index="${index}" data-value="${item.value}" tabindex="-1">
+          <div class="card__meta">
+            <span>Số ${String(index + 1).padStart(3, "0")}</span>
+            <span class="card__badge">● Đang luyện</span>
+          </div>
+          <div class="answer">
+            <div class="answer__hidden">🔒 <span>Đáp án đang ẩn</span></div>
+            <div class="answer__content">
+              <div class="answer__number">${item.value}</div>
+              <div class="answer__hanzi" lang="zh-CN">${item.hanzi}</div>
+              <div class="answer__pinyin">${item.pinyin}</div>
+            </div>
+          </div>
+          <div class="card__actions">
+            <button class="button button--primary listen-button" type="button" data-action="listen"><span class="button__icon">🔊</span> Nghe số</button>
+            <button class="button reveal-button" type="button" data-action="reveal"><span class="button__icon">◉</span> Hiện đáp án</button>
+          </div>
+        </article>`;
+    }
+
+    function renderCards() {
+      cardsElement.innerHTML = order.map(cardTemplate).join("");
+      updateState({ scroll: false });
+    }
+
+    function currentCard() {
+      return cardsElement.querySelector(`[data-index="${currentIndex}"]`);
+    }
+
+    function showToast(message) {
+      clearTimeout(toastTimer);
+      toast.textContent = message;
+      toast.classList.add("show");
+      toastTimer = setTimeout(() => toast.classList.remove("show"), 2600);
+    }
+
+    function speak(item = order[currentIndex]) {
+      if (!("speechSynthesis" in window)) {
+        showToast("Trình duyệt này chưa hỗ trợ đọc văn bản.");
+        return;
+      }
+
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(item.hanzi);
+      utterance.lang = "zh-CN";
+      utterance.rate = 0.72;
+      utterance.pitch = 1;
+
+      const chineseVoice = window.speechSynthesis.getVoices().find((voice) => voice.lang.toLowerCase().startsWith("zh"));
+      if (chineseVoice) utterance.voice = chineseVoice;
+
+      utterance.onerror = () => showToast("Không phát được âm thanh. Hãy kiểm tra giọng đọc tiếng Trung trên thiết bị.");
+      window.speechSynthesis.speak(utterance);
+    }
+
+    function setRevealed(card, reveal) {
+      card.classList.toggle("revealed", reveal);
+      const button = card.querySelector(".reveal-button");
+      button.innerHTML = reveal
+        ? '<span class="button__icon">🙈</span> Ẩn đáp án'
+        : '<span class="button__icon">◉</span> Hiện đáp án';
+      updateAnswerButton();
+    }
+
+    function updateAnswerButton() {
+      const revealed = currentCard()?.classList.contains("revealed");
+      answerButton.innerHTML = revealed
+        ? '<span class="button__icon">🙈</span> Ẩn đáp án'
+        : '<span class="button__icon">◉</span> Hiện đáp án';
+    }
+
+    function updateState({ scroll = true } = {}) {
+      const cards = [...cardsElement.querySelectorAll(".card")];
+      cards.forEach((card, index) => card.classList.toggle("active", index === currentIndex));
+
+      previousButton.disabled = currentIndex === 0;
+      nextButton.disabled = currentIndex === order.length - 1;
+      positionText.textContent = `Số ${currentIndex + 1} / ${order.length}`;
+      modeText.textContent = shuffled ? "Thứ tự: ngẫu nhiên" : "Thứ tự: 1 → 100";
+      const progress = ((currentIndex + 1) / order.length) * 100;
+      progressBar.style.width = `${progress}%`;
+      progressElement.setAttribute("aria-valuenow", String(currentIndex + 1));
+      updateAnswerButton();
+
+      if (scroll) currentCard()?.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+
+    function goTo(index) {
+      const nextIndex = Math.max(0, Math.min(index, order.length - 1));
+      if (nextIndex === currentIndex) return;
+      currentIndex = nextIndex;
+      updateState();
+    }
+
+    function toggleCurrentAnswer() {
+      const card = currentCard();
+      if (card) setRevealed(card, !card.classList.contains("revealed"));
+    }
+
+    function shuffleNumbers() {
+      if (shuffled) {
+        order = [...numbers];
+        shuffled = false;
+      } else {
+        order = [...numbers];
+        for (let index = order.length - 1; index > 0; index -= 1) {
+          const randomIndex = Math.floor(Math.random() * (index + 1));
+          [order[index], order[randomIndex]] = [order[randomIndex], order[index]];
+        }
+        shuffled = true;
+      }
+
+      currentIndex = 0;
+      shuffleButton.innerHTML = shuffled
+        ? '<span class="button__icon">↺</span> Về thứ tự 1–100'
+        : '<span class="button__icon">↝</span> Trộn thứ tự';
+      renderCards();
+      currentCard()?.scrollIntoView({ behavior: "smooth", block: "center" });
+      showToast(shuffled ? "Đã trộn ngẫu nhiên 100 số." : "Đã trở về thứ tự từ 1 đến 100.");
+    }
+
+    previousButton.addEventListener("click", () => goTo(currentIndex - 1));
+    nextButton.addEventListener("click", () => goTo(currentIndex + 1));
+    playButton.addEventListener("click", () => speak());
+    answerButton.addEventListener("click", toggleCurrentAnswer);
+    shuffleButton.addEventListener("click", shuffleNumbers);
+
+    cardsElement.addEventListener("click", (event) => {
+      const card = event.target.closest(".card");
+      if (!card) return;
+
+      currentIndex = Number(card.dataset.index);
+      updateState({ scroll: false });
+
+      if (event.target.closest('[data-action="listen"]')) speak(order[currentIndex]);
+      if (event.target.closest('[data-action="reveal"]')) setRevealed(card, !card.classList.contains("revealed"));
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.target.matches("button")) return;
+      if (event.key === "ArrowUp") { event.preventDefault(); goTo(currentIndex - 1); }
+      if (event.key === "ArrowDown") { event.preventDefault(); goTo(currentIndex + 1); }
+      if (event.key === "Enter") { event.preventDefault(); speak(); }
+      if (event.code === "Space") { event.preventDefault(); toggleCurrentAnswer(); }
+    });
+
+    renderCards();
+  </script>
+</body>
+</html>
