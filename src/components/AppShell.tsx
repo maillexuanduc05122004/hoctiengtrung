@@ -8,7 +8,7 @@ import { UpdateBanner } from './UpdateBanner.tsx';
 /**
  * Khung ứng dụng.
  *
- * Trên điện thoại: thanh tiêu đề dính trên cùng và thanh điều hướng sáu đích
+ * Trên điện thoại: thanh tiêu đề dính trên cùng và thanh điều hướng bảy đích
  * đến dính dưới cùng. Trên máy tính: cột điều hướng bên trái và vùng nội dung
  * rộng, không phải bản phóng to của giao diện điện thoại.
  *
@@ -167,10 +167,10 @@ export function AppShell() {
         </div>
       </div>
 
-      {/* Sáu đích đến chính, chỉ hiện trên điện thoại. */}
+      {/* Bảy đích đến chính, chỉ hiện trên điện thoại. */}
       <nav
         aria-label="Điều hướng chính"
-        className="hidden xsm:fixed xsm:right-0 xsm:bottom-0 xsm:left-0 xsm:z-30 xsm:grid xsm:grid-cols-6 xsm:border-t xsm:border-line xsm:bg-surface xsm:pb-[env(safe-area-inset-bottom)]"
+        className="hidden xsm:fixed xsm:right-0 xsm:bottom-0 xsm:left-0 xsm:z-30 xsm:grid xsm:grid-cols-7 xsm:border-t xsm:border-line xsm:bg-surface xsm:pb-[env(safe-area-inset-bottom)]"
       >
         {MAIN_NAV.map((item) => (
           <NavLink

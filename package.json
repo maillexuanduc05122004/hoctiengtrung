@@ -21,6 +21,7 @@
     "data:verify": "tsx scripts/verify-data.ts",
     "data:syllables": "tsx scripts/generate-syllables.ts",
     "data:tasks": "tsx scripts/prepare-annotation-tasks.ts",
+    "data:nghe": "tsx scripts/import-fixed-listening.ts",
     "assets:icons": "tsx scripts/generate-icons.ts",
     "check:ui": "tsx scripts/check-ui-conventions.ts"
   },

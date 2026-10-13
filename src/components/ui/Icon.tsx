@@ -7,6 +7,7 @@ export type IconName =
   | 'card'
   | 'keyboard'
   | 'ear'
+  | 'headphones'
   | 'mic'
   | 'search'
   | 'chart'
@@ -36,6 +37,7 @@ const PATHS: Record<IconName, string> = {
   card: 'M3 6.5h13.5v11H3zM6.5 3.5H21v11',
   keyboard: 'M2.5 6.5h19v11h-19zM6 10h.01M9.5 10h.01M13 10h.01M16.5 10h.01M6 13.5h.01M8 13.5h8M18 13.5h.01',
   ear: 'M8 8a4 4 0 1 1 8 0c0 2.5-2.5 3-3.2 4.6-.5 1.2-.3 2.4-1.6 3.2M12 19.5a3 3 0 0 1-3-3',
+  headphones: 'M4.5 18v-5.5a7.5 7.5 0 0 1 15 0V18M4.5 14.5h3v5.5h-3zM16.5 14.5h3v5.5h-3z',
   mic: 'M12 3.5a2.5 2.5 0 0 1 2.5 2.5v5a2.5 2.5 0 0 1-5 0V6A2.5 2.5 0 0 1 12 3.5zM5.5 11a6.5 6.5 0 0 0 13 0M12 17.5v3M8.5 20.5h7',
   search: 'M10.5 3.5a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM15.6 15.6 20.5 20.5',
   chart: 'M3.5 20.5h17M6.5 17V9.5M11 17V4.5M15.5 17v-6M20 17v-9',

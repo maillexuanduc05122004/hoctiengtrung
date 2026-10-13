@@ -181,6 +181,29 @@ Hết lượt tự thử lại (hoặc máy chủ trả lỗi thật như 500) t
 ngay khi mở ứng dụng (`lib/api/wake.ts`, `no-cors`) để máy chủ bắt đầu dậy từ lúc người học còn
 ở trang chủ.
 
+### Nghe cố định
+
+Tab riêng (`/nghe-co-dinh`) cho các bài nghe soạn sẵn, không đổi: mở lúc nào cũng đúng những
+từ và câu đó, đúng thứ tự đó. Chạy hoàn toàn ngoại tuyến, không cần máy chủ. Bài 1 là
+"20 từ mới + 50 câu ghép", chuyển từ trang HTML `HSK_20_tu_moi_50_cau_ghep_audio_bai_moi.html`.
+
+Cách nghe giữ đúng trang HTML gốc: mọi mục hiện sẵn chữ Hán, pinyin và nghĩa; ↓ mục sau, ↑ mục
+trước, Enter phát mục đang chọn, Esc dừng; mục đang chọn được tô viền và tự cuộn tới giữa màn
+hình; đọc ở tốc độ của bài (0,75×) chứ không theo cài đặt chung. Thanh Trước / Phát / Tiếp dính
+ở đáy màn hình như các phiên luyện khác.
+
+**Thêm bài mới** từ một trang HTML cùng khung (`<h1>`, khối `.note`, các `<h2>` và thẻ `.card`
+gồm `.num` `.zh` `.py` `.vi`, thuộc tính `data-text`):
+
+```bash
+npm run data:nghe -- duong-dan/bai-moi.html             # thành bài kế tiếp (bai-02, bai-03, …)
+npm run data:nghe -- duong-dan/bai-moi.html --id bai-01 # ghi đè đúng bài đó
+```
+
+Lệnh ghi một tệp `src/features/fixed-listening/lessons/bai-NN.ts`; trang tự nhận mọi tệp
+`bai-*.ts` trong thư mục đó và xếp theo số bài, không phải đăng ký thêm ở đâu. Tệp sinh ra đọc
+và sửa tay được. Kiểm thử `registry.test.ts` chặn bài thiếu chữ Hán, pinyin hay nghĩa.
+
 ### Tra từ
 
 Tìm theo chữ Hán, pinyin có hoặc không dấu thanh, tiếng Việt có hoặc không dấu, và tiếng Anh.
@@ -200,8 +223,8 @@ hiện thêm chữ phồn thể; chế độ tối (không dùng đen tuyệt đ
 điều hướng bàn phím; aria-label cho nút chỉ có biểu tượng; tôn trọng `prefers-reduced-motion`;
 không tự phát âm thanh; không xin quyền micro trước khi người dùng bấm nút luyện nói.
 
-Thanh điều hướng mang năm đích đến — Hôm nay, Buổi học, Sổ tay, Tra từ, Tiến độ — chứ không
-mang bốn cách luyện, vì vào thẳng một cách luyện thì không rõ đang học từ nào. Mọi thao tác
+Thanh điều hướng mang bảy đích đến — Hôm nay, Buổi học, Câu của tôi, Nghe cố định, Sổ tay,
+Tra từ, Tiến độ — chứ không mang bốn cách luyện, vì vào thẳng một cách luyện thì không rõ đang học từ nào. Mọi thao tác
 lưu và chấm điểm đều báo lại bằng một câu trong vùng `aria-live`. Màu chữ và màu viền đã được
 đo lại theo ngưỡng tương phản WCAG.
 
@@ -244,6 +267,7 @@ src/
     lessons/       buổi học
     saved/         sổ tay từ và buổi học đã lưu
     sentences/     vốn từ riêng và câu luyện nghe ghép từ vốn từ đó
+    fixed-listening/  bài nghe cố định; mỗi bài một tệp trong lessons/
     shared/        thành phần trình bày dùng chung
   hooks/           state của ứng dụng và bộ máy phiên học
   lib/
@@ -263,6 +287,7 @@ public/
 scripts/
   import-hsk.ts    nhập dữ liệu
   verify-data.ts   kiểm tra dữ liệu
+  import-fixed-listening.ts  nhập trang HTML bài nghe thành bài nghe cố định
 ```
 
 Ba thuật toán cốt lõi — chấm đáp án, FSRS và lớp bọc giọng nói — **không phụ thuộc React** và

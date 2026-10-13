@@ -15,6 +15,8 @@ const SpeakingPage = lazy(() => import('./pages/SpeakingPage.tsx'));
 const LessonsPage = lazy(() => import('./pages/LessonsPage.tsx'));
 const LessonDetailPage = lazy(() => import('./pages/LessonDetailPage.tsx'));
 const SentencesPage = lazy(() => import('./pages/SentencesPage.tsx'));
+const FixedListeningPage = lazy(() => import('./pages/FixedListeningPage.tsx'));
+const FixedListeningLessonPage = lazy(() => import('./pages/FixedListeningLessonPage.tsx'));
 const DictionaryPage = lazy(() => import('./pages/DictionaryPage.tsx'));
 const SavedPage = lazy(() => import('./pages/SavedPage.tsx'));
 const ProgressPage = lazy(() => import('./pages/ProgressPage.tsx'));
@@ -39,6 +41,8 @@ export function App() {
                 <Route path="buoi-hoc" element={<LessonsPage />} />
                 <Route path="buoi-hoc/:lessonId" element={<LessonDetailPage />} />
                 <Route path="cau-cua-toi" element={<SentencesPage />} />
+                <Route path="nghe-co-dinh" element={<FixedListeningPage />} />
+                <Route path="nghe-co-dinh/:lessonId" element={<FixedListeningLessonPage />} />
                 <Route path="tra-tu" element={<DictionaryPage />} />
                 <Route path="da-luu" element={<SavedPage />} />
                 <Route path="tien-do" element={<ProgressPage />} />

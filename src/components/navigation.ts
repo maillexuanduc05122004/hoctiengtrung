@@ -49,7 +49,7 @@ export const STUDY_NAV: readonly NavItem[] = [
 ];
 
 /**
- * Sáu đích đến chính, cũng là thanh điều hướng dưới cùng trên điện thoại.
+ * Bảy đích đến chính, cũng là thanh điều hướng dưới cùng trên điện thoại.
  *
  * Thứ tự theo đúng nhịp một ngày học: mở app xem hôm nay cần gì, vào buổi học,
  * nghe lại vốn từ của riêng mình, ghé sổ tay, tra một từ lạ, rồi thỉnh thoảng
@@ -58,11 +58,15 @@ export const STUDY_NAV: readonly NavItem[] = [
  * "Câu của tôi" là đích đến chứ không phải một cách luyện: nó chạy trên danh
  * sách từ người học tự khai, không phải trên bộ HSK chia buổi, nên không có chỗ
  * nào khác dẫn vào nó được.
+ *
+ * "Nghe cố định" là đích đến vì cùng lý do: nó chạy trên những bài nghe soạn
+ * sẵn, không đổi, chứ không trên bộ HSK hay vốn từ riêng.
  */
 export const MAIN_NAV: readonly NavItem[] = [
   { to: '/', label: 'Hôm nay', icon: 'home' },
   { to: '/buoi-hoc', label: 'Buổi học', shortLabel: 'Buổi học', icon: 'book' },
   { to: '/cau-cua-toi', label: 'Câu của tôi', shortLabel: 'Câu', icon: 'lightbulb' },
+  { to: '/nghe-co-dinh', label: 'Nghe cố định', shortLabel: 'Nghe', icon: 'headphones' },
   { to: '/da-luu', label: 'Sổ tay', icon: 'star' },
   { to: '/tra-tu', label: 'Tra từ', icon: 'search' },
   { to: '/tien-do', label: 'Tiến độ', icon: 'chart' },
