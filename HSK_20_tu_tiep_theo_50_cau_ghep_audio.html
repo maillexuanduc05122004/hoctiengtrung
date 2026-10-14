@@ -1,0 +1,461 @@
+<!doctype html><html lang="vi"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>20 từ mới + 50 câu ghép audio</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f5f8ff;color:#17202a;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+.wrap{max-width:900px;margin:auto;padding:20px 14px 70px}h1,h2{color:#17365d}
+.note{background:#fff;border:1px solid #dbe5f1;border-radius:15px;padding:14px;line-height:1.65}
+.toolbar{position:sticky;top:0;z-index:10;background:rgba(245,248,255,.97);padding:10px 0;display:flex;gap:7px;flex-wrap:wrap}
+.card{background:#fff;border:1px solid #dbe5f1;border-radius:15px;padding:17px;margin:12px 0}
+.card.active{border:3px solid #2675b5;box-shadow:0 0 0 3px rgba(38,117,181,.10)}
+.num{font-size:13px;color:#7b8794}.zh{font-size:38px;font-weight:700;color:#17365d;line-height:1.5;margin:8px 0 12px}
+.py{font-size:18px;margin-top:10px}.vi{font-size:16px;color:#66717d;margin-top:8px;line-height:1.5}
+button{border:0;border-radius:10px;background:#2675b5;color:#fff;padding:10px 15px;font-size:15px;cursor:pointer}
+.secondary{background:#fff;color:#17365d;border:1px solid #b9cbe0}
+</style></head><body><div class="wrap">
+<h1>🎧 20 từ mới + 50 câu ghép</h1>
+<div class="note">
+<b>20 từ tiếp theo:</b> 还是、黑色、红茶、红色、画、坏、回来、回去、机票、记得、间、进来、进去、经常、酒店、开学、考、裤子、快要、篮球.<br>
+50 câu ghép ưu tiên các từ này và kết hợp với những từ bạn đã học trước đó.<br><br>
+🔊 Audio kiểu cũ (SpeechSynthesis tiếng Trung) · ⬇️ / ⬆️ chuyển mục · <b>Enter</b> phát mục đang chọn · Highlight + tự cuộn · 0.75×.
+</div>
+<div class="toolbar">
+<button class="secondary" onclick="move(-1)">⬆️ Mục trước</button>
+<button class="secondary" onclick="move(1)">⬇️ Mục tiếp</button>
+<button onclick="playCurrent()">🔊 Phát hiện tại</button>
+<button class="secondary" onclick="stopAudio()">⏹ Dừng</button>
+</div>
+<h2>📚 20 từ mới</h2>
+<div class="card" data-text="还是">
+<div class="num">Từ mới 01</div>
+<div class="zh">还是</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">háishi</div>
+<div class="vi">hay là; vẫn</div>
+</div><div class="card" data-text="黑色">
+<div class="num">Từ mới 02</div>
+<div class="zh">黑色</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">hēisè</div>
+<div class="vi">màu đen</div>
+</div><div class="card" data-text="红茶">
+<div class="num">Từ mới 03</div>
+<div class="zh">红茶</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">hóngchá</div>
+<div class="vi">trà đen</div>
+</div><div class="card" data-text="红色">
+<div class="num">Từ mới 04</div>
+<div class="zh">红色</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">hóngsè</div>
+<div class="vi">màu đỏ</div>
+</div><div class="card" data-text="画">
+<div class="num">Từ mới 05</div>
+<div class="zh">画</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">huà</div>
+<div class="vi">vẽ; tranh</div>
+</div><div class="card" data-text="坏">
+<div class="num">Từ mới 06</div>
+<div class="zh">坏</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">huài</div>
+<div class="vi">xấu; hỏng</div>
+</div><div class="card" data-text="回来">
+<div class="num">Từ mới 07</div>
+<div class="zh">回来</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">huílái</div>
+<div class="vi">quay về</div>
+</div><div class="card" data-text="回去">
+<div class="num">Từ mới 08</div>
+<div class="zh">回去</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">huíqù</div>
+<div class="vi">trở về</div>
+</div><div class="card" data-text="机票">
+<div class="num">Từ mới 09</div>
+<div class="zh">机票</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">jīpiào</div>
+<div class="vi">vé máy bay</div>
+</div><div class="card" data-text="记得">
+<div class="num">Từ mới 10</div>
+<div class="zh">记得</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">jìde</div>
+<div class="vi">nhớ</div>
+</div><div class="card" data-text="间">
+<div class="num">Từ mới 11</div>
+<div class="zh">间</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">jiān</div>
+<div class="vi">lượng từ cho phòng</div>
+</div><div class="card" data-text="进来">
+<div class="num">Từ mới 12</div>
+<div class="zh">进来</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">jìnlái</div>
+<div class="vi">đi vào đây</div>
+</div><div class="card" data-text="进去">
+<div class="num">Từ mới 13</div>
+<div class="zh">进去</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">jìnqù</div>
+<div class="vi">đi vào</div>
+</div><div class="card" data-text="经常">
+<div class="num">Từ mới 14</div>
+<div class="zh">经常</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">jīngcháng</div>
+<div class="vi">thường xuyên</div>
+</div><div class="card" data-text="酒店">
+<div class="num">Từ mới 15</div>
+<div class="zh">酒店</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">jiǔdiàn</div>
+<div class="vi">khách sạn</div>
+</div><div class="card" data-text="开学">
+<div class="num">Từ mới 16</div>
+<div class="zh">开学</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">kāixué</div>
+<div class="vi">khai giảng; bắt đầu học kỳ</div>
+</div><div class="card" data-text="考">
+<div class="num">Từ mới 17</div>
+<div class="zh">考</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">kǎo</div>
+<div class="vi">thi; kiểm tra</div>
+</div><div class="card" data-text="裤子">
+<div class="num">Từ mới 18</div>
+<div class="zh">裤子</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">kùzi</div>
+<div class="vi">quần</div>
+</div><div class="card" data-text="快要">
+<div class="num">Từ mới 19</div>
+<div class="zh">快要</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">kuàiyào</div>
+<div class="vi">sắp; sắp sửa</div>
+</div><div class="card" data-text="篮球">
+<div class="num">Từ mới 20</div>
+<div class="zh">篮球</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">lánqiú</div>
+<div class="vi">bóng rổ</div>
+</div>
+<h2>🎧 50 câu ghép tiếp</h2>
+<div class="card" data-text="你喝茶还是喝咖啡？">
+<div class="num">Câu ghép 01</div>
+<div class="zh">你喝茶还是喝咖啡？</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Nǐ hē chá háishi hē kāfēi?</div>
+<div class="vi">Bạn uống trà hay cà phê?</div>
+</div><div class="card" data-text="你坐飞机还是坐火车？">
+<div class="num">Câu ghép 02</div>
+<div class="zh">你坐飞机还是坐火车？</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Nǐ zuò fēijī háishi zuò huǒchē?</div>
+<div class="vi">Bạn đi máy bay hay tàu hỏa?</div>
+</div><div class="card" data-text="我还是喜欢喝茶。">
+<div class="num">Câu ghép 03</div>
+<div class="zh">我还是喜欢喝茶。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ háishi xǐhuan hē chá.</div>
+<div class="vi">Tôi vẫn thích uống trà.</div>
+</div><div class="card" data-text="我还是想回家。">
+<div class="num">Câu ghép 04</div>
+<div class="zh">我还是想回家。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ háishi xiǎng huí jiā.</div>
+<div class="vi">Tôi vẫn muốn về nhà.</div>
+</div><div class="card" data-text="他穿黑色的衣服。">
+<div class="num">Câu ghép 05</div>
+<div class="zh">他穿黑色的衣服。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tā chuān hēisè de yīfu.</div>
+<div class="vi">Anh ấy mặc quần áo màu đen.</div>
+</div><div class="card" data-text="我喜欢黑色，也喜欢红色。">
+<div class="num">Câu ghép 06</div>
+<div class="zh">我喜欢黑色，也喜欢红色。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ xǐhuan hēisè, yě xǐhuan hóngsè.</div>
+<div class="vi">Tôi thích màu đen, cũng thích màu đỏ.</div>
+</div><div class="card" data-text="她穿红色的衣服。">
+<div class="num">Câu ghép 07</div>
+<div class="zh">她穿红色的衣服。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tā chuān hóngsè de yīfu.</div>
+<div class="vi">Cô ấy mặc quần áo màu đỏ.</div>
+</div><div class="card" data-text="我喜欢红茶，但是妈妈喜欢咖啡。">
+<div class="num">Câu ghép 08</div>
+<div class="zh">我喜欢红茶，但是妈妈喜欢咖啡。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ xǐhuan hóngchá, dànshì māma xǐhuan kāfēi.</div>
+<div class="vi">Tôi thích trà đen, nhưng mẹ thích cà phê.</div>
+</div><div class="card" data-text="姐姐会画画。">
+<div class="num">Câu ghép 09</div>
+<div class="zh">姐姐会画画。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Jiějie huì huà huà.</div>
+<div class="vi">Chị gái biết vẽ tranh.</div>
+</div><div class="card" data-text="我喜欢看画，也喜欢看书。">
+<div class="num">Câu ghép 10</div>
+<div class="zh">我喜欢看画，也喜欢看书。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ xǐhuan kàn huà, yě xǐhuan kàn shū.</div>
+<div class="vi">Tôi thích xem tranh, cũng thích đọc sách.</div>
+</div><div class="card" data-text="我的电脑坏了，所以不能用。">
+<div class="num">Câu ghép 11</div>
+<div class="zh">我的电脑坏了，所以不能用。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ de diànnǎo huài le, suǒyǐ bù néng yòng.</div>
+<div class="vi">Máy tính của tôi hỏng rồi nên không thể dùng.</div>
+</div><div class="card" data-text="门坏了，但是电梯很好。">
+<div class="num">Câu ghép 12</div>
+<div class="zh">门坏了，但是电梯很好。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Mén huài le, dànshì diàntī hěn hǎo.</div>
+<div class="vi">Cửa bị hỏng nhưng thang máy vẫn tốt.</div>
+</div><div class="card" data-text="爸爸什么时候回来？">
+<div class="num">Câu ghép 13</div>
+<div class="zh">爸爸什么时候回来？</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Bàba shénme shíhou huílái?</div>
+<div class="vi">Bố khi nào về?</div>
+</div><div class="card" data-text="哥哥晚上回来。">
+<div class="num">Câu ghép 14</div>
+<div class="zh">哥哥晚上回来。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Gēge wǎnshang huílái.</div>
+<div class="vi">Anh trai tối sẽ về.</div>
+</div><div class="card" data-text="我吃饭以后就回去。">
+<div class="num">Câu ghép 15</div>
+<div class="zh">我吃饭以后就回去。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ chīfàn yǐhòu jiù huíqù.</div>
+<div class="vi">Ăn cơm xong tôi sẽ về.</div>
+</div><div class="card" data-text="你先回去，我晚上回来。">
+<div class="num">Câu ghép 16</div>
+<div class="zh">你先回去，我晚上回来。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Nǐ xiān huíqù, wǒ wǎnshang huílái.</div>
+<div class="vi">Bạn về trước đi, tối tôi về.</div>
+</div><div class="card" data-text="我已经买了机票。">
+<div class="num">Câu ghép 17</div>
+<div class="zh">我已经买了机票。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ yǐjīng mǎi le jīpiào.</div>
+<div class="vi">Tôi đã mua vé máy bay rồi.</div>
+</div><div class="card" data-text="机票很贵，但是我还是要买。">
+<div class="num">Câu ghép 18</div>
+<div class="zh">机票很贵，但是我还是要买。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Jīpiào hěn guì, dànshì wǒ háishi yào mǎi.</div>
+<div class="vi">Vé máy bay rất đắt nhưng tôi vẫn muốn mua.</div>
+</div><div class="card" data-text="你记得书在桌子上。">
+<div class="num">Câu ghép 19</div>
+<div class="zh">你记得书在桌子上。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Nǐ jìde shū zài zhuōzi shàng.</div>
+<div class="vi">Bạn nhớ sách ở trên bàn.</div>
+</div><div class="card" data-text="我记得这个地方。">
+<div class="num">Câu ghép 20</div>
+<div class="zh">我记得这个地方。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ jìde zhège dìfang.</div>
+<div class="vi">Tôi nhớ nơi này.</div>
+</div><div class="card" data-text="我住在三号房间。">
+<div class="num">Câu ghép 21</div>
+<div class="zh">我住在三号房间。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ zhù zài sān hào fángjiān.</div>
+<div class="vi">Tôi ở phòng số 3.</div>
+</div><div class="card" data-text="这个房间很大，但是那间很小。">
+<div class="num">Câu ghép 22</div>
+<div class="zh">这个房间很大，但是那间很小。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhège fángjiān hěn dà, dànshì nà jiān hěn xiǎo.</div>
+<div class="vi">Phòng này rất lớn, nhưng phòng kia rất nhỏ.</div>
+</div><div class="card" data-text="请进来坐。">
+<div class="num">Câu ghép 23</div>
+<div class="zh">请进来坐。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Qǐng jìnlái zuò.</div>
+<div class="vi">Mời vào đây ngồi.</div>
+</div><div class="card" data-text="妈妈让我进来。">
+<div class="num">Câu ghép 24</div>
+<div class="zh">妈妈让我进来。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Māma ràng wǒ jìnlái.</div>
+<div class="vi">Mẹ bảo tôi vào đây.</div>
+</div><div class="card" data-text="请进去看看。">
+<div class="num">Câu ghép 25</div>
+<div class="zh">请进去看看。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Qǐng jìnqù kànkan.</div>
+<div class="vi">Hãy vào trong xem nhé.</div>
+</div><div class="card" data-text="他进去了，但是我没有进去。">
+<div class="num">Câu ghép 26</div>
+<div class="zh">他进去了，但是我没有进去。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tā jìnqù le, dànshì wǒ méiyǒu jìnqù.</div>
+<div class="vi">Anh ấy đã vào trong, nhưng tôi không vào.</div>
+</div><div class="card" data-text="我经常坐公交车去学校。">
+<div class="num">Câu ghép 27</div>
+<div class="zh">我经常坐公交车去学校。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ jīngcháng zuò gōngjiāochē qù xuéxiào.</div>
+<div class="vi">Tôi thường đi xe buýt đến trường.</div>
+</div><div class="card" data-text="爸爸经常喝红茶。">
+<div class="num">Câu ghép 28</div>
+<div class="zh">爸爸经常喝红茶。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Bàba jīngcháng hē hóngchá.</div>
+<div class="vi">Bố thường uống trà đen.</div>
+</div><div class="card" data-text="我们经常一起打篮球。">
+<div class="num">Câu ghép 29</div>
+<div class="zh">我们经常一起打篮球。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒmen jīngcháng yìqǐ dǎ lánqiú.</div>
+<div class="vi">Chúng tôi thường chơi bóng rổ cùng nhau.</div>
+</div><div class="card" data-text="酒店在机场附近。">
+<div class="num">Câu ghép 30</div>
+<div class="zh">酒店在机场附近。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Jiǔdiàn zài jīchǎng fùjìn.</div>
+<div class="vi">Khách sạn ở gần sân bay.</div>
+</div><div class="card" data-text="这个酒店很方便，也很好看。">
+<div class="num">Câu ghép 31</div>
+<div class="zh">这个酒店很方便，也很好看。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhège jiǔdiàn hěn fāngbiàn, yě hěn hǎokàn.</div>
+<div class="vi">Khách sạn này rất thuận tiện và cũng đẹp.</div>
+</div><div class="card" data-text="我和朋友住在酒店。">
+<div class="num">Câu ghép 32</div>
+<div class="zh">我和朋友住在酒店。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ hé péngyou zhù zài jiǔdiàn.</div>
+<div class="vi">Tôi và bạn ở khách sạn.</div>
+</div><div class="card" data-text="明天开学，所以我今天准备书。">
+<div class="num">Câu ghép 33</div>
+<div class="zh">明天开学，所以我今天准备书。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Míngtiān kāixué, suǒyǐ wǒ jīntiān zhǔnbèi shū.</div>
+<div class="vi">Ngày mai khai giảng nên hôm nay tôi chuẩn bị sách.</div>
+</div><div class="card" data-text="开学以后，我经常在教室学习。">
+<div class="num">Câu ghép 34</div>
+<div class="zh">开学以后，我经常在教室学习。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Kāixué yǐhòu, wǒ jīngcháng zài jiàoshì xuéxí.</div>
+<div class="vi">Sau khi khai giảng, tôi thường học trong lớp.</div>
+</div><div class="card" data-text="明天要考汉语，所以我晚上复习。">
+<div class="num">Câu ghép 35</div>
+<div class="zh">明天要考汉语，所以我晚上复习。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Míngtiān yào kǎo Hànyǔ, suǒyǐ wǒ wǎnshang fùxí.</div>
+<div class="vi">Ngày mai thi tiếng Trung nên tối tôi ôn tập.</div>
+</div><div class="card" data-text="老师说这个问题很重要，考试会考。">
+<div class="num">Câu ghép 36</div>
+<div class="zh">老师说这个问题很重要，考试会考。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Lǎoshī shuō zhège wèntí hěn zhòngyào, kǎoshì huì kǎo.</div>
+<div class="vi">Giáo viên nói vấn đề này rất quan trọng, trong kỳ thi sẽ kiểm tra.</div>
+</div><div class="card" data-text="我买了一条黑色的裤子。">
+<div class="num">Câu ghép 37</div>
+<div class="zh">我买了一条黑色的裤子。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ mǎi le yì tiáo hēisè de kùzi.</div>
+<div class="vi">Tôi đã mua một chiếc quần màu đen.</div>
+</div><div class="card" data-text="这条裤子很好看，但是有点贵。">
+<div class="num">Câu ghép 38</div>
+<div class="zh">这条裤子很好看，但是有点贵。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhè tiáo kùzi hěn hǎokàn, dànshì yǒudiǎn guì.</div>
+<div class="vi">Chiếc quần này rất đẹp nhưng hơi đắt.</div>
+</div><div class="card" data-text="天气快要冷了，所以我买裤子。">
+<div class="num">Câu ghép 39</div>
+<div class="zh">天气快要冷了，所以我买裤子。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tiānqì kuàiyào lěng le, suǒyǐ wǒ mǎi kùzi.</div>
+<div class="vi">Thời tiết sắp lạnh nên tôi mua quần.</div>
+</div><div class="card" data-text="考试快要开始了，请大家进来。">
+<div class="num">Câu ghép 40</div>
+<div class="zh">考试快要开始了，请大家进来。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Kǎoshì kuàiyào kāishǐ le, qǐng dàjiā jìnlái.</div>
+<div class="vi">Kỳ thi sắp bắt đầu, mời mọi người vào.</div>
+</div><div class="card" data-text="我们快要到学校了。">
+<div class="num">Câu ghép 41</div>
+<div class="zh">我们快要到学校了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒmen kuàiyào dào xuéxiào le.</div>
+<div class="vi">Chúng ta sắp đến trường rồi.</div>
+</div><div class="card" data-text="哥哥喜欢打篮球，弟弟也喜欢。">
+<div class="num">Câu ghép 42</div>
+<div class="zh">哥哥喜欢打篮球，弟弟也喜欢。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Gēge xǐhuan dǎ lánqiú, dìdi yě xǐhuan.</div>
+<div class="vi">Anh trai thích chơi bóng rổ, em trai cũng thích.</div>
+</div><div class="card" data-text="下午我们一起打篮球吧。">
+<div class="num">Câu ghép 43</div>
+<div class="zh">下午我们一起打篮球吧。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Xiàwǔ wǒmen yìqǐ dǎ lánqiú ba.</div>
+<div class="vi">Chiều nay chúng ta cùng chơi bóng rổ nhé.</div>
+</div><div class="card" data-text="如果下雨，我们还是在教室学习。">
+<div class="num">Câu ghép 44</div>
+<div class="zh">如果下雨，我们还是在教室学习。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Rúguǒ xiàyǔ, wǒmen háishi zài jiàoshì xuéxí.</div>
+<div class="vi">Nếu trời mưa, chúng ta vẫn học trong lớp.</div>
+</div><div class="card" data-text="如果机票太贵，我就坐火车回去。">
+<div class="num">Câu ghép 45</div>
+<div class="zh">如果机票太贵，我就坐火车回去。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Rúguǒ jīpiào tài guì, wǒ jiù zuò huǒchē huíqù.</div>
+<div class="vi">Nếu vé máy bay quá đắt, tôi sẽ đi tàu hỏa về.</div>
+</div><div class="card" data-text="你记得告诉我，我马上回来。">
+<div class="num">Câu ghép 46</div>
+<div class="zh">你记得告诉我，我马上回来。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Nǐ jìde gàosu wǒ, wǒ mǎshàng huílái.</div>
+<div class="vi">Bạn nhớ nói cho tôi biết, tôi sẽ quay lại ngay.</div>
+</div><div class="card" data-text="爸爸让我进去看书，然后我马上出来。">
+<div class="num">Câu ghép 47</div>
+<div class="zh">爸爸让我进去看书，然后我马上出来。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Bàba ràng wǒ jìnqù kàn shū, ránhòu wǒ mǎshàng chūlái.</div>
+<div class="vi">Bố bảo tôi vào đọc sách, sau đó tôi ra ngay.</div>
+</div><div class="card" data-text="我们经常去那个饭馆，因为菜很好吃。">
+<div class="num">Câu ghép 48</div>
+<div class="zh">我们经常去那个饭馆，因为菜很好吃。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒmen jīngcháng qù nàge fànguǎn, yīnwèi cài hěn hǎochī.</div>
+<div class="vi">Chúng tôi thường đến nhà hàng đó vì món ăn rất ngon.</div>
+</div><div class="card" data-text="开学以后，如果有时间，我和朋友一起打篮球。">
+<div class="num">Câu ghép 49</div>
+<div class="zh">开学以后，如果有时间，我和朋友一起打篮球。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Kāixué yǐhòu, rúguǒ yǒu shíjiān, wǒ hé péngyou yìqǐ dǎ lánqiú.</div>
+<div class="vi">Sau khi khai giảng, nếu có thời gian tôi sẽ chơi bóng rổ cùng bạn.</div>
+</div><div class="card" data-text="今天晚上我们一起看篮球比赛吧。">
+<div class="num">Câu ghép 50</div>
+<div class="zh">今天晚上我们一起看篮球比赛吧。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Jīntiān wǎnshang wǒmen yìqǐ kàn lánqiú bǐsài ba.</div>
+<div class="vi">Tối nay chúng ta cùng xem trận bóng rổ nhé.</div>
+</div>
+</div>
+<script>
+let index=0;const cards=[...document.querySelectorAll('.card')];
+function speak(text){speechSynthesis.cancel();speechSynthesis.resume();const u=new SpeechSynthesisUtterance(text);u.lang='zh-CN';u.rate=.75;u.pitch=1;speechSynthesis.speak(u)}
+function selectCard(i,scroll=true){index=Math.max(0,Math.min(i,cards.length-1));cards.forEach(c=>c.classList.remove('active'));cards[index].classList.add('active');if(scroll)cards[index].scrollIntoView({behavior:'smooth',block:'center'})}
+function playItem(card){selectCard(cards.indexOf(card),false);speak(card.dataset.text)}
+function playCurrent(){speak(cards[index].dataset.text)}function stopAudio(){speechSynthesis.cancel()}function move(step){selectCard(index+step,true)}
+document.addEventListener('keydown',e=>{if(['INPUT','TEXTAREA','SELECT'].includes(document.activeElement?.tagName))return;if(e.key==='ArrowDown'){e.preventDefault();move(1)}if(e.key==='ArrowUp'){e.preventDefault();move(-1)}if(e.key==='Enter'){e.preventDefault();playCurrent()}});
+selectCard(0,false);
+</script></body></html>
