@@ -216,6 +216,50 @@ describe('PassagePlayer', () => {
     expect(spoken.map((u) => u.rate)).toEqual([0.6, 0.6]);
   });
 
+  it('có khoá lưu thì nhớ đoạn đang nghe, lần sau mở lại có nút nghe tiếp từ đoạn đó', async () => {
+    window.localStorage.clear();
+    const first = render(
+      <PassagePlayer
+        passage={PASSAGE}
+        storageKey="thu"
+      />,
+    );
+    await click('Bắt đầu');
+    await advance(1000);
+    await click('Bỏ qua');
+    await advance(1000);
+    expect(window.localStorage.getItem('thu')).toBe('1');
+    first.unmount();
+
+    render(
+      <PassagePlayer
+        passage={PASSAGE}
+        storageKey="thu"
+      />,
+    );
+    expect(status()).toBe('Lần trước nghe tới đoạn 2/3');
+    expect(screen.getByRole('button', { name: 'Từ đầu' })).toBeEnabled();
+    spoken.length = 0;
+    await click('Tiếp đoạn 2');
+    await advance(1000);
+    expect(texts()).toEqual(['我去学校。']);
+  });
+
+  it('nghe hết bài thì quên chỗ nghe dở, lần sau nghe từ đầu', async () => {
+    window.localStorage.setItem('thu', '2');
+    render(
+      <PassagePlayer
+        passage={PASSAGE}
+        storageKey="thu"
+      />,
+    );
+    await click('Tiếp đoạn 3');
+    await advance(1000);
+    expect(texts()).toEqual(['我回家了。']);
+    expect(status()).toBe('Đã nghe hết 3 đoạn');
+    expect(window.localStorage.getItem('thu')).toBeNull();
+  });
+
   it('rời trang lúc đang nghỉ thì không tự đọc đoạn sau nữa', async () => {
     const { unmount } = render(<PassagePlayer passage={PASSAGE} />);
 

@@ -1,17 +1,18 @@
 /**
- * Trang "Nghe đoạn văn": nghe một câu chuyện ngắn chia đoạn, soạn từ vốn từ đã học.
+ * Trang "Nghe đoạn văn": nghe một câu chuyện chia đoạn, soạn từ vốn từ đã học.
  *
  * `/nghe-doan-van` mở thẳng bài mới nhất — đa số lần mở là để nghe bài đang
  * học, không cần qua một danh sách; `/nghe-doan-van/bai-NN` mở đúng bài đó.
- * Có từ hai bài trở lên thì cuối trang liệt kê các bài còn lại. Toàn bộ phần
- * nghe nằm trong <PassagePlayer>.
+ * Có từ hai bài trở lên thì đầu trang có hàng chọn bài. Đầu bài ghi rõ bài dùng
+ * bao nhiêu từ đã học, để bài "dùng đủ mọi từ" thấy được là đủ thật. Toàn bộ
+ * phần nghe nằm trong <PassagePlayer>.
  */
 import { Link, useParams } from 'react-router';
+import { Chip } from '../components/ui/Controls.tsx';
 import { EmptyState } from '../components/ui/Feedback.tsx';
-import { Icon } from '../components/ui/Icon.tsx';
 import {
+  coverageOf,
   findPassage,
-  paragraphText,
   PassagePlayer,
   PASSAGES,
   type PassageEntry,
@@ -45,7 +46,9 @@ export function PassageListeningPage() {
     );
   }
 
-  const others = PASSAGES.filter((item) => item.id !== passage.id);
+  const coverage = coverageOf(passage);
+  const complete = coverage.missing.length === 0;
+  const sentenceCount = passage.paragraphs.reduce((sum, p) => sum + p.sentences.length, 0);
 
   return (
     <div
@@ -59,8 +62,28 @@ export function PassageListeningPage() {
       <p
         className="mt-1 mb-5 text-[0.9375rem] text-ink-soft"
       >
-        {`Câu chuyện ngắn soạn từ những từ bạn đã học. Đọc xong mỗi đoạn nghỉ ${passage.pauseSeconds} giây rồi tự sang đoạn sau; bấm "Bỏ qua" để sang ngay.`}
+        {`Câu chuyện soạn từ những từ bạn đã học. Đọc xong mỗi đoạn nghỉ ${passage.pauseSeconds} giây rồi tự sang đoạn sau; bấm "Bỏ qua" để sang ngay.`}
       </p>
+
+      {PASSAGES.length > 1 ? (
+        <nav
+          aria-label="Chọn bài"
+          className="mb-5"
+        >
+          <ul
+            className="grid grid-cols-2 gap-2"
+          >
+            {PASSAGES.map((item) => (
+              <li key={item.id}>
+                <PassageTab
+                  passage={item}
+                  active={item.id === passage.id}
+                />
+              </li>
+            ))}
+          </ul>
+        </nav>
+      ) : null}
 
       <header
         className="mb-4 min-w-0 border-b border-line pb-4"
@@ -68,7 +91,7 @@ export function PassageListeningPage() {
         <p
           className="text-[0.75rem] tabular-nums text-ink-faint"
         >
-          {`Bài ${passage.number} · ${passage.level} · ${passage.paragraphs.length} đoạn`}
+          {`Bài ${passage.number} · ${passage.level} · ${passage.paragraphs.length} đoạn · ${sentenceCount} câu`}
         </p>
         <h2
           lang="zh-CN"
@@ -81,12 +104,24 @@ export function PassageListeningPage() {
         >
           {`${passage.titlePinyin} · ${passage.titleVi}`}
         </p>
+        <p
+          className="mt-2"
+        >
+          <Chip
+            tone={complete ? 'teal' : 'neutral'}
+          >
+            {complete
+              ? `Dùng đủ ${coverage.used}/${coverage.total} từ đã học`
+              : `Dùng ${coverage.used}/${coverage.total} từ đã học`}
+          </Chip>
+        </p>
       </header>
 
-      {/* Khoá theo mã bài: sang bài khác thì lượt nghe cũ dừng hẳn, bắt đầu lại từ đoạn 1. */}
+      {/* Khoá theo mã bài: sang bài khác thì lượt nghe cũ dừng hẳn, mở bài mới ở chỗ nghe dở của nó. */}
       <PassagePlayer
         key={passage.id}
         passage={passage}
+        storageKey={`nghe-doan-van:${passage.id}`}
       />
 
       {passage.words.length > 0 ? (
@@ -96,7 +131,9 @@ export function PassageListeningPage() {
           <summary
             className="tap flex cursor-pointer items-center text-[0.9375rem] font-medium text-ink"
           >
-            {`Từ đã học có trong bài (${passage.words.length})`}
+            {complete && passage.words.length === coverage.total
+              ? `Toàn bộ từ đã học, đều có trong bài (${passage.words.length})`
+              : `Từ đã học có trong bài (${passage.words.length})`}
           </summary>
           <ul
             className="mt-2 grid grid-cols-2 gap-x-4 gap-y-1.5 xsm:grid-cols-1"
@@ -122,69 +159,35 @@ export function PassageListeningPage() {
           </ul>
         </details>
       ) : null}
-
-      {others.length > 0 ? (
-        <nav
-          aria-label="Bài nghe đoạn văn khác"
-          className="mt-6 border-t border-line pt-4"
-        >
-          <h2
-            className="mb-2.5 text-[1rem] font-semibold tracking-tight text-ink"
-          >
-            Bài khác
-          </h2>
-          <ul
-            className="space-y-2"
-          >
-            {others.map((item) => (
-              <li key={item.id}>
-                <OtherPassage passage={item} />
-              </li>
-            ))}
-          </ul>
-        </nav>
-      ) : null}
     </div>
   );
 }
 
-function OtherPassage({ passage }: { passage: PassageEntry }) {
-  const first = passage.paragraphs[0];
+function PassageTab({ passage, active }: { passage: PassageEntry; active: boolean }) {
   return (
     <Link
       to={`${BASE_PATH}/${encodeURIComponent(passage.id)}`}
-      aria-label={`Bài ${passage.number}: ${passage.titleVi}`}
-      className="flex min-w-0 items-center rounded-[0.375rem] border border-line bg-surface px-3 py-2.5 no-underline transition-colors duration-150 hover:border-line-strong"
+      aria-current={active ? 'page' : undefined}
+      className={[
+        'block min-w-0 rounded-[0.375rem] border px-3 py-2 no-underline transition-colors duration-150',
+        active ? 'border-cinnabar bg-cinnabar-soft' : 'border-line bg-surface hover:border-line-strong',
+      ].join(' ')}
     >
-      <div
-        className="min-w-0 flex-1"
-      >
-        <p
-          className="text-[0.875rem] font-semibold text-ink"
-        >
-          {`Bài ${passage.number}`}
-          <span
-            lang="zh-CN"
-            className="han ml-2 font-normal text-ink-soft"
-          >
-            {passage.title}
-          </span>
-        </p>
-        {first !== undefined ? (
-          <p
-            lang="zh-CN"
-            aria-hidden="true"
-            className="han mt-1 min-w-0 truncate text-[0.9375rem] text-ink-faint"
-          >
-            {paragraphText(first)}
-          </p>
-        ) : null}
-      </div>
       <span
-        aria-hidden="true"
-        className="ml-2 shrink-0 text-ink-faint"
+        className="block text-[0.75rem] tabular-nums text-ink-faint"
       >
-        <Icon name="chevron-right" size={1.125} />
+        {`Bài ${passage.number} · ${passage.paragraphs.length} đoạn`}
+      </span>
+      <span
+        lang="zh-CN"
+        className="han block truncate text-[1.0625rem] text-ink"
+      >
+        {passage.title}
+      </span>
+      <span
+        className="block truncate text-[0.8125rem] text-ink-soft"
+      >
+        {passage.titleVi}
       </span>
     </Link>
   );

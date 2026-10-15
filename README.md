@@ -207,19 +207,28 @@ và sửa tay được. Kiểm thử `registry.test.ts` chặn bài thiếu ch�
 ### Nghe đoạn văn
 
 Tab riêng (`/nghe-doan-van`, thế chỗ "Tiến độ" trên thanh điều hướng; "Tiến độ" chuyển xuống
-các mục phụ cạnh "Cài đặt") để nghe một câu chuyện ngắn chia đoạn, soạn tay chỉ từ những từ đã
-học (lộ trình 300 từ và các bài nghe cố định), ngữ pháp HSK 1–2. Bài 1 là "快要开学了 — Sắp
-khai giảng rồi", 5 đoạn.
+các mục phụ cạnh "Cài đặt") để nghe những câu chuyện chia đoạn, soạn tay chỉ từ những từ đã học,
+ngữ pháp HSK 1–2:
 
-Nghe như một bài nghe bình thường: bấm "Bắt đầu" một lần, bộ đọc đọc từng câu của đoạn 1,
-xong đoạn thì nghỉ 20 giây (có đồng hồ đếm ngược) rồi tự sang đoạn sau. "Bỏ qua" sang ngay đoạn
-sau dù đang đọc hay đang nghỉ; "Tạm dừng" giữ nguyên chỗ đang nghe; "Nghe lại" đọc lại đoạn vừa
-nghe. Lời mặc định ẩn, bật riêng chữ Hán, pinyin và nghĩa để dò lại; chọn tốc độ 0,6× – 1×.
-Phím tắt: Enter bắt đầu / tạm dừng, → bỏ qua, Esc tạm dừng.
+- Bài 1 "快要开学了 — Sắp khai giảng rồi": 5 đoạn.
+- Bài 2 "我在北京的一年 — Một năm ở Bắc Kinh": 24 đoạn, 179 câu, **dùng đủ toàn bộ 319 từ đã học**
+  (259 từ của lộ trình 300 từ sau khi bỏ từ lặp, cộng 60 từ của ba bài nghe cố định).
+
+Nghe như một bài nghe bình thường: bấm "Bắt đầu" một lần, bộ đọc đọc từng câu của đoạn 1, xong
+đoạn thì nghỉ 20 giây (có đồng hồ đếm ngược) rồi tự sang đoạn sau. "Bỏ qua" sang ngay đoạn sau dù
+đang đọc hay đang nghỉ; "Tạm dừng" giữ nguyên chỗ đang nghe; "Nghe lại" đọc lại đoạn vừa nghe.
+Lời mặc định ẩn, bật riêng chữ Hán, pinyin và nghĩa để dò lại; chọn tốc độ 0,6× – 1×. Phím tắt:
+Enter bắt đầu / tạm dừng, → bỏ qua, Esc tạm dừng. Máy nhớ đoạn đang nghe dở của từng bài (lưu
+trong trình duyệt), lần sau mở lại có nút "Tiếp đoạn N"; nghe hết bài thì quên đi.
+
+Danh sách từ đã học nằm ở `src/features/passage-listening/learned-words.ts`. Đầu mỗi bài ghi bài
+dùng bao nhiêu từ trong danh sách đó; một từ chỉ được tính khi nó đứng riêng ít nhất một lần,
+không tính khi chỉ nằm lọt trong một từ dài hơn (好 trong 好吃, 回 trong 回来). Kiểm thử
+`registry.test.ts` chặn bài 2 nếu sót dù một từ.
 
 **Thêm bài mới**: thả một tệp `src/features/passage-listening/passages/bai-NN.ts` (chép theo
-`bai-01.ts`); trang tự nhận và mở bài mới nhất. Kiểm thử `registry.test.ts` chặn câu thiếu
-pinyin hay nghĩa, và từ trong danh sách ôn lại mà không có trong bài.
+`bai-01.ts`); trang tự nhận và mở bài mới nhất. Học thêm từ thì thêm vào cuối `learned-words.ts`
+— khi đó bài 2 sẽ không còn đủ và kiểm thử báo đúng những từ cần thêm vào bài.
 
 ### Tra từ
 

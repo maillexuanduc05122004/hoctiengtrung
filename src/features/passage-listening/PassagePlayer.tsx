@@ -14,6 +14,9 @@
  * dò lại sau. Tốc độ đọc chọn ngay trên trang, đổi giữa chừng thì áp dụng từ
  * câu kế tiếp.
  *
+ * Có `storageKey` thì nhớ đoạn đang nghe trên máy: bài dài nghe dở, lần sau mở
+ * lại có nút "Tiếp đoạn N". Nghe hết bài thì quên đi để lần sau nghe từ đầu.
+ *
  * Bộ đọc chỉ phát sau một thao tác của người học (nút "Bắt đầu"); các đoạn
  * sau tự phát nối tiếp trong cùng lượt nghe mà người học đã chủ động mở.
  */
@@ -56,6 +59,8 @@ interface Visibility {
 
 export interface PassagePlayerProps {
   passage: Passage;
+  /** Khoá lưu đoạn đang nghe dở trên máy; thiếu thì không nhớ gì. */
+  storageKey?: string;
 }
 
 /** Vài môi trường (kể cả khi chạy kiểm thử) không có matchMedia, khi đó coi như không giảm chuyển động. */
@@ -72,15 +77,40 @@ function wait(ms: number): Promise<void> {
   });
 }
 
-export function PassagePlayer({ passage }: PassagePlayerProps) {
+/** Đoạn đã nghe dở lần trước; 0 khi chưa có, khi số lưu không còn hợp, hoặc khi kho bị chặn. */
+function readSaved(key: string | undefined, total: number): number {
+  if (key === undefined) return 0;
+  try {
+    const value = Number(window.localStorage.getItem(key));
+    return Number.isInteger(value) && value > 0 && value < total ? value : 0;
+  } catch {
+    return 0;
+  }
+}
+
+/** Ghi đoạn đang nghe; `null` hay đoạn đầu thì xoá, lần sau nghe từ đầu. */
+function writeSaved(key: string | undefined, index: number | null): void {
+  if (key === undefined) return;
+  try {
+    if (index === null || index === 0) window.localStorage.removeItem(key);
+    else window.localStorage.setItem(key, String(index));
+  } catch {
+    // Kho bị chặn (duyệt ẩn danh, chặn dữ liệu trang) thì chỉ không nhớ được chỗ nghe dở.
+  }
+}
+
+export function PassagePlayer({ passage, storageKey }: PassagePlayerProps) {
   const { supported, speak, cancel } = useSpeech();
   const total = passage.paragraphs.length;
   const last = total - 1;
 
   const [phase, setPhase] = useState<Phase>('ready');
   const [paused, setPaused] = useState(false);
-  /** Đoạn đang đọc; lúc nghỉ là đoạn VỪA đọc xong, để "Nghe lại" đọc lại đúng đoạn đó. */
-  const [current, setCurrent] = useState(0);
+  /**
+   * Đoạn đang đọc; lúc nghỉ là đoạn VỪA đọc xong, để "Nghe lại" đọc lại đúng đoạn đó.
+   * Mở trang thì là đoạn nghe dở lần trước (nếu có).
+   */
+  const [current, setCurrent] = useState(() => readSaved(storageKey, total));
   /** Câu đang đọc trong đoạn; -1 khi không đọc câu nào. */
   const [sentence, setSentence] = useState(-1);
   /** Số giây nghỉ còn lại trước đoạn sau. */
@@ -152,6 +182,7 @@ export function PassagePlayer({ passage }: PassagePlayerProps) {
     if (paragraph === undefined) return;
     const token = halt();
     const ctl = control.current;
+    writeSaved(storageKey, index);
     setCurrent(index);
     setPhase('speaking');
     setPaused(false);
@@ -173,6 +204,7 @@ export function PassagePlayer({ passage }: PassagePlayerProps) {
     setSentence(-1);
     setHeard((prev) => new Set(prev).add(index));
     if (index >= last) {
+      writeSaved(storageKey, null);
       setPhase('done');
       return;
     }
@@ -183,6 +215,7 @@ export function PassagePlayer({ passage }: PassagePlayerProps) {
     if (current >= last) {
       // Bỏ qua đoạn cuối là nghe xong bài.
       halt();
+      writeSaved(storageKey, null);
       setSentence(-1);
       setPaused(false);
       setPhase('done');
@@ -191,8 +224,9 @@ export function PassagePlayer({ passage }: PassagePlayerProps) {
     void playFrom(current + 1, 0);
   }
 
+  /** Nút bên trái: lúc chưa nghe mà có chỗ nghe dở thì nghe từ đầu, còn lại là đọc lại đoạn này. */
   function replay(): void {
-    void playFrom(current, 0);
+    void playFrom(phase === 'ready' ? 0 : current, 0);
   }
 
   /** Nút chính: bắt đầu, tạm dừng, tiếp tục, hoặc nghe lại từ đầu tuỳ lúc. */
@@ -263,8 +297,12 @@ export function PassagePlayer({ passage }: PassagePlayerProps) {
   const anyVisible = visible.hanzi || visible.pinyin || visible.vi;
   const sentenceCount = passage.paragraphs[current]?.sentences.length ?? 0;
 
+  const resuming = phase === 'ready' && current > 0;
+
   let status: string;
-  if (phase === 'ready') {
+  if (resuming) {
+    status = `Lần trước nghe tới đoạn ${current + 1}/${total}`;
+  } else if (phase === 'ready') {
     status = `${total} đoạn · đọc xong mỗi đoạn nghỉ ${passage.pauseSeconds} giây`;
   } else if (phase === 'done') {
     status = `Đã nghe hết ${total} đoạn`;
@@ -278,7 +316,7 @@ export function PassagePlayer({ passage }: PassagePlayerProps) {
   let primaryLabel: string;
   let primaryIcon: 'volume' | 'pause' | 'play' | 'refresh';
   if (phase === 'ready') {
-    primaryLabel = 'Bắt đầu';
+    primaryLabel = resuming ? `Tiếp đoạn ${current + 1}` : 'Bắt đầu';
     primaryIcon = 'volume';
   } else if (phase === 'done') {
     primaryLabel = 'Từ đầu';
@@ -367,7 +405,7 @@ export function PassagePlayer({ passage }: PassagePlayerProps) {
             <ParagraphCard
               paragraph={paragraph}
               index={index}
-              current={index === current && phase !== 'ready'}
+              current={index === current && (phase !== 'ready' || resuming)}
               speakingSentence={index === current && phase === 'speaking' ? sentence : -1}
               paused={paused}
               heard={heard.has(index)}
@@ -424,7 +462,7 @@ export function PassagePlayer({ passage }: PassagePlayerProps) {
           {/* Trên điện thoại hai nút bên bỏ biểu tượng, nhường chỗ cho nhãn nút chính. */}
           <Button
             variant="secondary"
-            disabled={!supported || phase === 'ready'}
+            disabled={!supported || (phase === 'ready' && !resuming)}
             onClick={replay}
           >
             <span
@@ -432,7 +470,7 @@ export function PassagePlayer({ passage }: PassagePlayerProps) {
             >
               <Icon name="refresh" size={1.125} />
             </span>
-            Nghe lại
+            {resuming ? 'Từ đầu' : 'Nghe lại'}
           </Button>
           <Button
             variant="primary"

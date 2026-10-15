@@ -6,6 +6,14 @@ export type {
   PassageWord,
 } from './types.ts';
 
-export { PASSAGES, findPassage, paragraphText } from './registry.ts';
+export { LEARNED_WORDS } from './learned-words.ts';
+
+export {
+  PASSAGES,
+  coverageOf,
+  findPassage,
+  paragraphText,
+  type Coverage,
+} from './registry.ts';
 
 export { PassagePlayer } from './PassagePlayer.tsx';
