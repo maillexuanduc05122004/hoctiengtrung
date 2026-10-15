@@ -26,6 +26,18 @@ describe('buildRegistry', () => {
       ['bai-10', 10],
     ]);
   });
+
+  it('ghép câu gõ pinyin với bài theo tên tệp; bài chưa có câu gõ thì danh sách rỗng', () => {
+    const sentence = { hanzi: '好', pinyin: 'hǎo', vi: 'tốt' };
+    const entries = buildRegistry(
+      { './lessons/bai-01.ts': TINY, './lessons/bai-02.ts': TINY },
+      { './typing/bai-02.ts': [sentence], './typing/bai-07.ts': [sentence] },
+    );
+    expect(entries.map((entry) => [entry.id, entry.typing.length])).toEqual([
+      ['bai-01', 0],
+      ['bai-02', 1],
+    ]);
+  });
 });
 
 describe('các bài đang có', () => {

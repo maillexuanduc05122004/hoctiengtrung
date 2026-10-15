@@ -1,7 +1,7 @@
 // Sinh tự động bởi scripts/generate-syllables.ts — không sửa tay.
 // Nguồn: âm tiết pinyin trong CC-CEDICT, lọc theo cấu trúc âm tiết Hán ngữ chuẩn.
 
-/** 416 âm tiết pinyin hợp lệ, viết không dấu thanh, dùng "u:" cho "ü". */
+/** 415 âm tiết pinyin hợp lệ, viết không dấu thanh, dùng "u:" cho "ü". */
 export const PINYIN_SYLLABLES: readonly string[] = [
   'a',
   'ai',
@@ -343,7 +343,6 @@ export const PINYIN_SYLLABLES: readonly string[] = [
   'tui',
   'tun',
   'tuo',
-  'u',
   'wa',
   'wai',
   'wan',
@@ -421,7 +420,7 @@ export const PINYIN_SYLLABLES: readonly string[] = [
   'zuo',
 ];
 
-/** Tập tra cứu nhanh cho 416 âm tiết. */
+/** Tập tra cứu nhanh cho 415 âm tiết. */
 export const PINYIN_SYLLABLE_SET: ReadonlySet<string> = new Set(PINYIN_SYLLABLES);
 
 /** Độ dài âm tiết dài nhất, dùng cho thuật toán khớp dài nhất. */

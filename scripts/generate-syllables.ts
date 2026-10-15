@@ -48,7 +48,11 @@ const MIN_FREQUENCY = 5;
 function isStructurallyValid(syllable: string): boolean {
   if (STANDALONE.has(syllable)) return true;
   for (const initial of INITIALS) {
-    if (initial !== '' && !syllable.startsWith(initial)) continue;
+    // Không có thanh mẫu thì chỉ những âm tiết trong STANDALONE mới đứng một mình
+    // được; "u", "i", "uan" … phải viết "wu", "yi", "wan". Để lọt "u" là "fanguan"
+    // bị tách thành "fang u an" thay vì "fan guan".
+    if (initial === '') continue;
+    if (!syllable.startsWith(initial)) continue;
     const final = syllable.slice(initial.length);
     if (FINALS.includes(final)) return true;
     if (PALATAL.has(initial) && PALATAL_FINALS.includes(final)) return true;

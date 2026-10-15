@@ -151,4 +151,14 @@ describe('kho âm tiết', () => {
       expect(PINYIN_SYLLABLE_SET.has(junk)).toBe(false);
     }
   });
+
+  it('vận mẫu không có thanh mẫu không đứng một mình được, nên "fanguan" là fan guan', () => {
+    // Đứng một mình phải viết "wu", "yi", "wan"; từng lọt "u" vào kho nên
+    // 饭馆 viết liền bị tách thành "fang u an" và gõ "fan4guan3" bị chấm sai.
+    for (const final of ['u', 'i', 'ia', 'ua', 'uo', 'uan', 'ian', 'iu']) {
+      expect(PINYIN_SYLLABLE_SET.has(final)).toBe(false);
+    }
+    expect(segmentPinyin('fanguan')).toEqual(['fan', 'guan']);
+    expect(formatPinyin(parsePinyin('fànguǎn') ?? [])).toBe('fàn guǎn');
+  });
 });

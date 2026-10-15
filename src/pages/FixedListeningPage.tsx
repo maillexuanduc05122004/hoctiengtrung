@@ -73,7 +73,7 @@ function LessonRow({ lesson }: { lesson: FixedListeningEntry }) {
   return (
     <Link
       to={`/nghe-co-dinh/${encodeURIComponent(lesson.id)}`}
-      aria-label={`Bài ${lesson.number}: ${lesson.title}. ${parts}.`}
+      aria-label={`Bài ${lesson.number}: ${lesson.title}. ${parts}${lesson.typing.length > 0 ? `, ${lesson.typing.length} câu gõ pinyin` : ''}.`}
       className="flex min-w-0 items-center rounded-[0.375rem] border border-line bg-surface px-3 py-2.5 no-underline transition-colors duration-150 hover:border-line-strong"
     >
       <div
@@ -102,6 +102,7 @@ function LessonRow({ lesson }: { lesson: FixedListeningEntry }) {
           className="mt-1 text-[0.75rem] tabular-nums text-ink-faint"
         >
           {`${parts} · ${itemCount(lesson)} mục`}
+          {lesson.typing.length > 0 ? ` · ${lesson.typing.length} câu gõ pinyin` : ''}
         </p>
       </div>
       <span

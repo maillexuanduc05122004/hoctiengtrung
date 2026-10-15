@@ -32,8 +32,23 @@ export interface FixedListeningLesson {
   sections: readonly FixedListeningSection[];
 }
 
+/**
+ * Một câu dài để tập gõ pinyin, ghép từ mới của bài với từ HSK 1–2.
+ *
+ * `pinyin` ghi theo cách đọc thật: 一 / 不 đã biến điệu (yìqǐ, bú tài), thanh
+ * nhẹ không ghi dấu. Cách ghi thanh gốc của 一 / 不 (yīqǐ, bù tài) cũng được
+ * chấm là đúng, nên không phải chép thêm một bản nữa vào dữ liệu.
+ */
+export interface FixedTypingSentence {
+  hanzi: string;
+  pinyin: string;
+  vi: string;
+}
+
 /** Bài đã đăng ký: dữ liệu bài cộng mã và số bài suy ra từ tên tệp `bai-NN.ts`. */
 export interface FixedListeningEntry extends FixedListeningLesson {
   id: string;
   number: number;
+  /** Câu dài tập gõ pinyin của bài, từ `typing/bai-NN.ts`; rỗng khi bài chưa có. */
+  typing: readonly FixedTypingSentence[];
 }

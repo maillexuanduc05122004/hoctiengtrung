@@ -204,6 +204,14 @@ Lệnh ghi một tệp `src/features/fixed-listening/lessons/bai-NN.ts`; trang t
 `bai-*.ts` trong thư mục đó và xếp theo số bài, không phải đăng ký thêm ở đâu. Tệp sinh ra đọc
 và sửa tay được. Kiểm thử `registry.test.ts` chặn bài thiếu chữ Hán, pinyin hay nghĩa.
 
+**Gõ pinyin câu dài.** Bài có tệp `src/features/fixed-listening/typing/bai-NN.ts` (cùng tên
+với bài) thì trang bài có thêm cách luyện "Gõ pinyin": mỗi lần một câu dài ghép từ mới của bài
+với từ HSK 1–2, người học gõ pinyin cả câu (số hay dấu thanh, liền hay cách đều được) rồi Enter
+để chấm theo từng âm tiết. 一 / 不 gõ thanh gốc cũng đúng, âm tiết thanh nhẹ gõ thanh nào cũng
+được, và có thể chọn "Chỉ chấm âm". Hết lượt thì gõ lại riêng câu chưa đúng. Bài 1–3 mỗi bài
+20 câu. Pinyin viết tay; `typing-data.test.ts` chặn câu lệch số âm tiết với số chữ, câu ngắn
+hơn 12 chữ, và từ mới nào của bài chưa được tập.
+
 ### Nghe đoạn văn
 
 Tab riêng (`/nghe-doan-van`, thế chỗ "Tiến độ" trên thanh điều hướng; "Tiến độ" chuyển xuống

@@ -5,21 +5,33 @@
  * nguyên từ tệp gốc, rồi lối sang bài trước / bài sau ở cuối để nghe xong
  * không phải quay lại danh sách. Toàn bộ phần nghe nằm trong
  * <FixedListeningPlayer>.
+ *
+ * Bài có câu dài tập gõ pinyin thì có thêm hàng chọn "Nghe / Gõ pinyin". Cách
+ * đang chọn nằm trên địa chỉ (`?che-do=go-pinyin`) nên tải lại trang hay sang
+ * bài kế vẫn giữ đúng cách đang luyện.
  */
-import { Link, useParams } from 'react-router';
+import { Link, useParams, useSearchParams } from 'react-router';
+import { Segmented, type SegmentedOption } from '../components/ui/Controls.tsx';
 import { EmptyState } from '../components/ui/Feedback.tsx';
 import { Icon } from '../components/ui/Icon.tsx';
 import {
   FIXED_LISTENING_LESSONS,
   FixedListeningPlayer,
+  PinyinTypingDrill,
   findFixedLesson,
+  itemCount,
 } from '../features/fixed-listening/index.ts';
 
 const LIST_PATH = '/nghe-co-dinh';
+const MODE_PARAM = 'che-do';
+const TYPING_MODE = 'go-pinyin';
+
+type Mode = 'nghe' | 'go';
 
 export function FixedListeningLessonPage() {
   const { lessonId } = useParams();
   const lesson = findFixedLesson(lessonId);
+  const [params, setParams] = useSearchParams();
 
   if (lesson === null) {
     return (
@@ -49,6 +61,27 @@ export function FixedListeningLessonPage() {
     position >= 0 && position < FIXED_LISTENING_LESSONS.length - 1
       ? FIXED_LISTENING_LESSONS[position + 1]
       : null;
+
+  const canType = lesson.typing.length > 0;
+  const mode: Mode = canType && params.get(MODE_PARAM) === TYPING_MODE ? 'go' : 'nghe';
+  // Sang bài khác vẫn giữ cách đang luyện; bài kia chưa có câu gõ thì tự về phần nghe.
+  const modeQuery = mode === 'go' ? `?${MODE_PARAM}=${TYPING_MODE}` : '';
+  const modes: readonly SegmentedOption<Mode>[] = [
+    { value: 'nghe', label: `Nghe (${itemCount(lesson)} mục)` },
+    { value: 'go', label: `Gõ pinyin (${lesson.typing.length} câu dài)` },
+  ];
+
+  const changeMode = (value: Mode): void => {
+    setParams(
+      (previousParams) => {
+        const nextParams = new URLSearchParams(previousParams);
+        if (value === 'go') nextParams.set(MODE_PARAM, TYPING_MODE);
+        else nextParams.delete(MODE_PARAM);
+        return nextParams;
+      },
+      { replace: true },
+    );
+  };
 
   return (
     <div
@@ -85,11 +118,32 @@ export function FixedListeningLessonPage() {
         ))}
       </header>
 
-      {/* Khoá theo mã bài: sang bài khác thì mục đang chọn về lại mục đầu. */}
-      <FixedListeningPlayer
-        key={lesson.id}
-        lesson={lesson}
-      />
+      {canType ? (
+        <div
+          className="mb-5"
+        >
+          <Segmented
+            legend="Cách luyện"
+            options={modes}
+            value={mode}
+            onChange={changeMode}
+            hideLegend
+          />
+        </div>
+      ) : null}
+
+      {/* Khoá theo mã bài: sang bài khác thì cả hai phần đều bắt đầu lại từ đầu. */}
+      {mode === 'go' ? (
+        <PinyinTypingDrill
+          key={lesson.id}
+          lesson={lesson}
+        />
+      ) : (
+        <FixedListeningPlayer
+          key={lesson.id}
+          lesson={lesson}
+        />
+      )}
 
       {previous !== null || next !== null ? (
         <nav
@@ -98,7 +152,7 @@ export function FixedListeningLessonPage() {
         >
           {previous !== null ? (
             <Link
-              to={`${LIST_PATH}/${encodeURIComponent(previous.id)}`}
+              to={`${LIST_PATH}/${encodeURIComponent(previous.id)}${modeQuery}`}
               className="tap inline-flex items-center text-[0.9375rem] font-medium text-ink-soft no-underline hover:text-ink"
             >
               <span
@@ -114,7 +168,7 @@ export function FixedListeningLessonPage() {
           )}
           {next !== null ? (
             <Link
-              to={`${LIST_PATH}/${encodeURIComponent(next.id)}`}
+              to={`${LIST_PATH}/${encodeURIComponent(next.id)}${modeQuery}`}
               className="tap inline-flex items-center text-[0.9375rem] font-medium text-ink-soft no-underline hover:text-ink"
             >
               {`Bài ${next.number}`}
