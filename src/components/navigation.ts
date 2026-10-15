@@ -52,15 +52,20 @@ export const STUDY_NAV: readonly NavItem[] = [
  * Bảy đích đến chính, cũng là thanh điều hướng dưới cùng trên điện thoại.
  *
  * Thứ tự theo đúng nhịp một ngày học: mở app xem hôm nay cần gì, vào buổi học,
- * nghe lại vốn từ của riêng mình, ghé sổ tay, tra một từ lạ, rồi thỉnh thoảng
- * ngó lại tiến độ.
+ * nghe lại vốn từ của riêng mình, ghé sổ tay, tra một từ lạ, rồi nghe một đoạn
+ * văn dài hơn để luyện tai.
  *
  * "Câu của tôi" là đích đến chứ không phải một cách luyện: nó chạy trên danh
  * sách từ người học tự khai, không phải trên bộ HSK chia buổi, nên không có chỗ
  * nào khác dẫn vào nó được.
  *
  * "Nghe cố định" là đích đến vì cùng lý do: nó chạy trên những bài nghe soạn
- * sẵn, không đổi, chứ không trên bộ HSK hay vốn từ riêng.
+ * sẵn, không đổi, chứ không trên bộ HSK hay vốn từ riêng. "Nghe đoạn văn" cũng
+ * vậy: những câu chuyện ngắn soạn sẵn từ vốn từ đã học.
+ *
+ * "Tiến độ" nhường chỗ trên thanh này cho "Nghe đoạn văn": xem tiến độ là việc
+ * thỉnh thoảng mới làm, nên nó xuống các mục phụ và vẫn mở được từ thẻ tiến độ
+ * ở trang Hôm nay.
  */
 export const MAIN_NAV: readonly NavItem[] = [
   { to: '/', label: 'Hôm nay', icon: 'home' },
@@ -69,10 +74,11 @@ export const MAIN_NAV: readonly NavItem[] = [
   { to: '/nghe-co-dinh', label: 'Nghe cố định', shortLabel: 'Nghe', icon: 'headphones' },
   { to: '/da-luu', label: 'Sổ tay', icon: 'star' },
   { to: '/tra-tu', label: 'Tra từ', icon: 'search' },
-  { to: '/tien-do', label: 'Tiến độ', icon: 'chart' },
+  { to: '/nghe-doan-van', label: 'Nghe đoạn văn', shortLabel: 'Đoạn văn', icon: 'text' },
 ];
 
 /** Các mục phụ, chỉ có ở cột bên trái trên máy tính và ở đầu trang trên điện thoại. */
 export const SECONDARY_NAV: readonly NavItem[] = [
+  { to: '/tien-do', label: 'Tiến độ', icon: 'chart' },
   { to: '/cai-dat', label: 'Cài đặt', icon: 'settings' },
 ];

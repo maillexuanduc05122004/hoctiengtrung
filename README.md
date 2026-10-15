@@ -204,6 +204,23 @@ Lệnh ghi một tệp `src/features/fixed-listening/lessons/bai-NN.ts`; trang t
 `bai-*.ts` trong thư mục đó và xếp theo số bài, không phải đăng ký thêm ở đâu. Tệp sinh ra đọc
 và sửa tay được. Kiểm thử `registry.test.ts` chặn bài thiếu chữ Hán, pinyin hay nghĩa.
 
+### Nghe đoạn văn
+
+Tab riêng (`/nghe-doan-van`, thế chỗ "Tiến độ" trên thanh điều hướng; "Tiến độ" chuyển xuống
+các mục phụ cạnh "Cài đặt") để nghe một câu chuyện ngắn chia đoạn, soạn tay chỉ từ những từ đã
+học (lộ trình 300 từ và các bài nghe cố định), ngữ pháp HSK 1–2. Bài 1 là "快要开学了 — Sắp
+khai giảng rồi", 5 đoạn.
+
+Nghe như một bài nghe bình thường: bấm "Bắt đầu" một lần, bộ đọc đọc từng câu của đoạn 1,
+xong đoạn thì nghỉ 20 giây (có đồng hồ đếm ngược) rồi tự sang đoạn sau. "Bỏ qua" sang ngay đoạn
+sau dù đang đọc hay đang nghỉ; "Tạm dừng" giữ nguyên chỗ đang nghe; "Nghe lại" đọc lại đoạn vừa
+nghe. Lời mặc định ẩn, bật riêng chữ Hán, pinyin và nghĩa để dò lại; chọn tốc độ 0,6× – 1×.
+Phím tắt: Enter bắt đầu / tạm dừng, → bỏ qua, Esc tạm dừng.
+
+**Thêm bài mới**: thả một tệp `src/features/passage-listening/passages/bai-NN.ts` (chép theo
+`bai-01.ts`); trang tự nhận và mở bài mới nhất. Kiểm thử `registry.test.ts` chặn câu thiếu
+pinyin hay nghĩa, và từ trong danh sách ôn lại mà không có trong bài.
+
 ### Tra từ
 
 Tìm theo chữ Hán, pinyin có hoặc không dấu thanh, tiếng Việt có hoặc không dấu, và tiếng Anh.
@@ -224,7 +241,7 @@ hiện thêm chữ phồn thể; chế độ tối (không dùng đen tuyệt đ
 không tự phát âm thanh; không xin quyền micro trước khi người dùng bấm nút luyện nói.
 
 Thanh điều hướng mang bảy đích đến — Hôm nay, Buổi học, Câu của tôi, Nghe cố định, Sổ tay,
-Tra từ, Tiến độ — chứ không mang bốn cách luyện, vì vào thẳng một cách luyện thì không rõ đang học từ nào. Mọi thao tác
+Tra từ, Nghe đoạn văn — chứ không mang bốn cách luyện, vì vào thẳng một cách luyện thì không rõ đang học từ nào. Mọi thao tác
 lưu và chấm điểm đều báo lại bằng một câu trong vùng `aria-live`. Màu chữ và màu viền đã được
 đo lại theo ngưỡng tương phản WCAG.
 

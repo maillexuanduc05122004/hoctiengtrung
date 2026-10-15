@@ -31,7 +31,11 @@ export type IconName =
   | 'info'
   | 'flip'
   | 'lightbulb'
-  | 'stop';
+  | 'stop'
+  | 'play'
+  | 'pause'
+  | 'skip'
+  | 'text';
 
 const PATHS: Record<IconName, string> = {
   card: 'M3 6.5h13.5v11H3zM6.5 3.5H21v11',
@@ -62,9 +66,13 @@ const PATHS: Record<IconName, string> = {
   flip: 'M8 4.5H5.5a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2H8M16 4.5h2.5a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H16M12 2.5v19',
   lightbulb: 'M12 3.5a5.5 5.5 0 0 0-3.2 10c.5.4.7 1 .7 1.6v.4h5v-.4c0-.6.2-1.2.7-1.6A5.5 5.5 0 0 0 12 3.5zM9.5 19h5M10.5 21.5h3',
   stop: 'M7 7h10v10H7z',
+  play: 'M7.5 5.5v13l10.5-6.5z',
+  pause: 'M7 5.5h3.5v13H7zM13.5 5.5H17v13h-3.5z',
+  skip: 'M5.5 6v12l9-6zM17.5 6v12',
+  text: 'M4.5 6h15M4.5 10h15M4.5 14h15M4.5 18h9',
 };
 
-const FILLED: ReadonlySet<IconName> = new Set(['star-filled', 'stop']);
+const FILLED: ReadonlySet<IconName> = new Set(['star-filled', 'stop', 'play', 'pause', 'skip']);
 
 export interface IconProps {
   name: IconName;
