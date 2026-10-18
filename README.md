@@ -185,7 +185,10 @@ ngay khi mở ứng dụng (`lib/api/wake.ts`, `no-cors`) để máy chủ bắt
 
 Tab riêng (`/nghe-co-dinh`) cho các bài nghe soạn sẵn, không đổi: mở lúc nào cũng đúng những
 từ và câu đó, đúng thứ tự đó. Chạy hoàn toàn ngoại tuyến, không cần máy chủ. Bài 1 là
-"20 từ mới + 50 câu ghép", chuyển từ trang HTML `HSK_20_tu_moi_50_cau_ghep_audio_bai_moi.html`.
+"20 từ mới + 50 câu ghép", chuyển từ trang HTML `HSK_20_tu_moi_50_cau_ghep_audio_bai_moi.html`;
+bài 2, 3 cũng từ HTML người học đưa. Bài 4 (10 từ HSK 2 离开 … 旅游, 10 từ HSK 3 安排 … 表演) soạn
+sẵn trong `HSK_20_tu_moi_10_hsk2_10_hsk3_50_cau_ghep_audio.html` cùng khung, câu ghép chỉ dùng từ đã
+học (`passage-listening/learned-words.ts`) cộng 20 từ mới.
 
 Cách nghe giữ đúng trang HTML gốc: mọi mục hiện sẵn chữ Hán, pinyin và nghĩa; ↓ mục sau, ↑ mục
 trước, Enter phát mục đang chọn, Esc dừng; mục đang chọn được tô viền và tự cuộn tới giữa màn
@@ -208,7 +211,7 @@ và sửa tay được. Kiểm thử `registry.test.ts` chặn bài thiếu ch�
 với bài) thì trang bài có thêm cách luyện "Gõ pinyin": mỗi lần một câu dài ghép từ mới của bài
 với từ HSK 1–2, người học gõ pinyin cả câu (số hay dấu thanh, liền hay cách đều được) rồi Enter
 để chấm theo từng âm tiết. 一 / 不 gõ thanh gốc cũng đúng, âm tiết thanh nhẹ gõ thanh nào cũng
-được, và có thể chọn "Chỉ chấm âm". Hết lượt thì gõ lại riêng câu chưa đúng. Bài 1–3 mỗi bài
+được, và có thể chọn "Chỉ chấm âm". Hết lượt thì gõ lại riêng câu chưa đúng. Bài 1–4 mỗi bài
 20 câu. Pinyin viết tay; `typing-data.test.ts` chặn câu lệch số âm tiết với số chữ, câu ngắn
 hơn 12 chữ, và từ mới nào của bài chưa được tập.
 
