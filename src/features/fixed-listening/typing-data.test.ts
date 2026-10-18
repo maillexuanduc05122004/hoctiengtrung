@@ -12,12 +12,13 @@ import { checkTyping, syllableCount } from './typing-check.ts';
 const WITH_TYPING = FIXED_LISTENING_LESSONS.filter((lesson) => lesson.typing.length > 0);
 
 describe('câu gõ pinyin của các bài', () => {
-  it('bốn bài đầu đều có 20 câu', () => {
+  it('năm bài đầu đều có 20 câu', () => {
     expect(WITH_TYPING.map((lesson) => [lesson.id, lesson.typing.length])).toEqual([
       ['bai-01', 20],
       ['bai-02', 20],
       ['bai-03', 20],
       ['bai-04', 20],
+      ['bai-05', 20],
     ]);
   });
 
