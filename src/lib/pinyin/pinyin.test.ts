@@ -161,4 +161,15 @@ describe('kho âm tiết', () => {
     expect(segmentPinyin('fanguan')).toEqual(['fan', 'guan']);
     expect(formatPinyin(parsePinyin('fànguǎn') ?? [])).toBe('fàn guǎn');
   });
+
+  it('âm tiết giữa từ không mở đầu bằng nguyên âm, trừ khi không còn cách tách nào khác', () => {
+    // "bang o ng shi" cũng toàn âm tiết hợp lệ, nhưng chính tả pinyin bắt buộc
+    // viết "bàng'ōng…" nếu đúng là như vậy; viết liền thì chỉ có thể là 办公室.
+    expect(segmentPinyin('bangongshi')).toEqual(['ban', 'gong', 'shi']);
+    expect(formatPinyin(parsePinyin('bàngōngshì') ?? [])).toBe('bàn gōng shì');
+    expect(segmentPinyin('xian')).toEqual(['xian']);
+    expect(segmentPinyin('erzi')).toEqual(['er', 'zi']);
+    // Gõ thiếu dấu cách âm vẫn tách được như trước.
+    expect(segmentPinyin('tiananmen')).toEqual(['tian', 'an', 'men']);
+  });
 });

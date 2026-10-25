@@ -85,23 +85,28 @@ function isSyllable(candidate: string): boolean {
   return PINYIN_SYLLABLE_SET.has(candidate.replace(/\u00fc/g, 'u:'));
 }
 
-function canSegment(text: string): boolean {
+/**
+ * Âm tiết mở đầu bằng nguyên âm (an, ou, er…) hay chỉ là âm mũi (n, ng, m)
+ * thì theo chính tả pinyin, đứng giữa từ phải có dấu cách âm: 西安 viết "xī'ān".
+ */
+function needsSeparator(syllable: string): boolean {
+  return /^[aoe]/.test(syllable) || ['n', 'ng', 'm', 'hm', 'hng'].includes(syllable);
+}
+
+/** Phần còn lại tách được không; `joined` thì cấm âm tiết cần dấu cách âm. */
+function canSegment(text: string, joined = false): boolean {
   if (text === '') return true;
   const max = Math.min(MAX_SYLLABLE_LENGTH, text.length);
   for (let len = max; len > 0; len--) {
-    if (isSyllable(text.slice(0, len)) && canSegment(text.slice(len))) return true;
+    const candidate = text.slice(0, len);
+    if (!isSyllable(candidate) || (joined && needsSeparator(candidate))) continue;
+    if (canSegment(text.slice(len), joined)) return true;
   }
   return false;
 }
 
-/**
- * Tách chuỗi pinyin viết liền thành các âm tiết bằng thuật toán khớp dài nhất
- * có kiểm tra phần còn lại, nên "xian" không bị cắt nhầm thành "xi" + "an".
- * Trả về `null` khi không tách được.
- */
-export function segmentPinyin(plain: string): string[] | null {
-  const text = plain.replace(/[\s'-]+/g, '');
-  if (text === '') return [];
+/** Khớp dài nhất có kiểm tra phần còn lại. `joined`: không nhận âm tiết cần dấu cách âm ở giữa. */
+function segmentLongest(text: string, joined: boolean): string[] | null {
   const parts: string[] = [];
   let i = 0;
   while (i < text.length) {
@@ -110,19 +115,35 @@ export function segmentPinyin(plain: string): string[] | null {
     const max = Math.min(MAX_SYLLABLE_LENGTH, text.length - i);
     for (let len = max; len > 0; len--) {
       const candidate = text.slice(i, i + len);
-      if (!isSyllable(candidate)) continue;
+      if (!isSyllable(candidate) || (joined && i > 0 && needsSeparator(candidate))) continue;
       if (fallback === '') fallback = candidate;
-      if (canSegment(text.slice(i + len))) {
+      if (canSegment(text.slice(i + len), joined)) {
         matched = candidate;
         break;
       }
     }
-    const chosen = matched || fallback;
+    const chosen = matched || (joined ? '' : fallback);
     if (chosen === '') return null;
     parts.push(chosen);
     i += chosen.length;
   }
   return parts;
+}
+
+/**
+ * Tách chuỗi pinyin viết liền thành các âm tiết bằng thuật toán khớp dài nhất
+ * có kiểm tra phần còn lại, nên "xian" không bị cắt nhầm thành "xi" + "an".
+ *
+ * Lượt đầu theo đúng chính tả: âm tiết giữa từ không được mở đầu bằng nguyên
+ * âm, nên "bangongshi" (办公室) là ban gong shi chứ không phải bang o ng shi.
+ * Người học gõ ẩu thiếu dấu cách âm ("tiananmen") thì lượt đầu không tách
+ * được và lượt sau nới quy tắc đó ra.
+ * Trả về `null` khi không tách được.
+ */
+export function segmentPinyin(plain: string): string[] | null {
+  const text = plain.replace(/[\s'-]+/g, '');
+  if (text === '') return [];
+  return segmentLongest(text, true) ?? segmentLongest(text, false);
 }
 
 const TRAILING_TONE = /^([a-z\u00fc]+)([1-5])$/;
