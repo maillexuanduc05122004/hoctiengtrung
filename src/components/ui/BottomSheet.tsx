@@ -11,7 +11,7 @@ export interface BottomSheetProps {
 }
 
 /**
- * Tấm trượt lên từ đáy màn hình, dùng cho hộp tra từ.
+ * Tấm trượt lên từ đáy màn hình, dùng cho các hộp xác nhận.
  *
  * Trên máy tính nó hiện ra như một hộp thoại giữa màn hình. Bẫy tiêu điểm bàn
  * phím trong tấm này để người dùng bàn phím không lạc ra nền phía sau.

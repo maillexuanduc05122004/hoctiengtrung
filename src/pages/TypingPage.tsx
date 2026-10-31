@@ -11,19 +11,18 @@ import { useStudySession, type PoolKind } from '../hooks/useStudySession.ts';
 import { useVocabulary } from '../hooks/vocabulary-context.ts';
 import { isHskLevel, type HskLevel } from '../types/vocabulary.ts';
 
-/** Số từ tối đa của một phiên gõ; gõ mệt hơn lật thẻ nên phiên ngắn hơn. */
+/** Số từ tối đa của một phiên gõ; gõ đáp án tốn sức nên phiên không dài. */
 const SESSION_LIMIT = 20;
 
 /** Lời gợi ý khi hàng đợi rỗng, nói đúng nguyên nhân của từng nguồn từ. */
 const EMPTY_HINT: Record<PoolKind, string> = {
   due: 'Hôm nay chưa có từ nào tới hạn ôn. Chọn "Từ mới" để học thêm từ chưa gặp.',
   new: 'Bạn đã học hết từ mới của các cấp đang chọn. Thử thêm một cấp khác hoặc chuyển sang "Cần ôn".',
-  starred: 'Sổ tay của bạn còn trống. Trong lúc học, bấm hình ngôi sao ở góc trên để lưu một từ.',
   mixed: 'Không còn từ nào trong các cấp đang chọn. Thử thêm một cấp khác.',
   lesson: 'Buổi học này chưa có từ nào.',
 };
 
-const POOLS: readonly PoolKind[] = ['due', 'new', 'starred', 'mixed', 'lesson'];
+const POOLS: readonly PoolKind[] = ['due', 'new', 'mixed', 'lesson'];
 
 /** Đọc "1,2" trên địa chỉ thành danh sách cấp, bỏ qua mọi giá trị lạ. */
 function parseLevels(raw: string | null, fallback: readonly HskLevel[]): HskLevel[] {
@@ -100,7 +99,7 @@ export function TypingPage() {
     setParams(updated, { replace: true });
   };
 
-  // Chỉ gắn vào cây khi thật sự mở: bảng này đếm bốn nguồn từ bằng bốn lượt
+  // Chỉ gắn vào cây khi thật sự mở: bảng này đếm các nguồn từ bằng mấy lượt
   // quét kho, không đáng chạy suốt phiên học chỉ để phòng khi người học mở nó.
   const options = !optionsOpen ? null : (
     <div

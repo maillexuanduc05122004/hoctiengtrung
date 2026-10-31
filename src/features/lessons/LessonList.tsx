@@ -10,9 +10,6 @@ export interface LessonListProps {
   /** Nhãn nhóm cho trình đọc màn hình, ví dụ "Các buổi học HSK 2". */
   label: string;
   showLevel?: boolean;
-  /** Mã các buổi đang nằm trong sổ tay. */
-  savedIds?: ReadonlySet<string>;
-  onToggleSave?: (lesson: Lesson) => void;
   /** Buổi người học vừa rời đi, được viền đậm và có neo để cuộn tới. */
   currentId?: string | null;
   /** Chuỗi truy vấn của trang danh sách, để đường quay lại giữ đúng cấp và bộ lọc. */
@@ -40,8 +37,6 @@ export function LessonList({
   progress,
   label,
   showLevel = false,
-  savedIds,
-  onToggleSave,
   currentId = null,
   listQuery = '',
   empty,
@@ -73,8 +68,6 @@ export function LessonList({
             lesson={lesson}
             progress={progress.get(lesson.id)}
             showLevel={showLevel}
-            saved={savedIds?.has(lesson.id) ?? false}
-            onToggleSave={onToggleSave}
             current={lesson.id === currentId}
             listQuery={listQuery}
           />

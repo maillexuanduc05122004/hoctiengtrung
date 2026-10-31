@@ -9,17 +9,11 @@ describe('studySourceLabel', () => {
   });
 
   it('nói ra phần bị cắt khi nguồn có nhiều hơn một phiên', () => {
-    // Đây là con số người học không có cách nào khác để biết: lưu 63 từ mà mỗi
-    // phiên chỉ gặp 20 thì màn hình phải nói ra, nếu không họ tưởng chỉ có 20.
+    // Đây là con số người học không có cách nào khác để biết: 63 từ tới hạn mà
+    // mỗi phiên chỉ gặp 20 thì màn hình phải nói ra, nếu không họ tưởng chỉ có 20.
     expect(
-      studySourceLabel({ pool: 'starred', levels: [1], shown: 20, total: 63 }),
-    ).toBe('Từ đã lưu · 20 trong 63 từ');
-  });
-
-  it('sổ tay không nhắc tới cấp vì nó không lọc theo cấp', () => {
-    expect(studySourceLabel({ pool: 'starred', levels: [1, 2, 3], shown: 5, total: 5 })).toBe(
-      'Từ đã lưu · 5 từ',
-    );
+      studySourceLabel({ pool: 'due', levels: [1], shown: 20, total: 63 }),
+    ).toBe('Từ cần ôn · HSK 1 · 20 trong 63 từ');
   });
 
   it('học theo buổi thì tên buổi thay chỗ cho nguồn từ', () => {

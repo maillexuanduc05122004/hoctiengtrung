@@ -1,4 +1,4 @@
-/** Các thành phần dùng chung cho bốn chế độ luyện tập và trang tra từ. */
+/** Các thành phần dùng chung cho các chế độ luyện tập và các trang học. */
 
 export { containsHanzi } from './hanzi.ts';
 
@@ -14,13 +14,11 @@ export type { MeaningListProps } from './MeaningList.tsx';
 export { ModeSwitch } from './ModeSwitch.tsx';
 export type { ModeSwitchProps } from './ModeSwitch.tsx';
 
-export { SaveWordButton } from './SaveWordButton.tsx';
-export type { SaveWordButtonProps } from './SaveWordButton.tsx';
-
-export { saveWordMessage } from './save-word.ts';
-
 export { PinyinLine } from './PinyinLine.tsx';
 export type { PinyinLineProps } from './PinyinLine.tsx';
+
+export { SearchField } from './SearchField.tsx';
+export type { SearchFieldProps } from './SearchField.tsx';
 
 export { SessionSummary } from './SessionSummary.tsx';
 export type { SessionSummaryProps } from './SessionSummary.tsx';

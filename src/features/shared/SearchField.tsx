@@ -1,5 +1,5 @@
 /**
- * Ô nhập của phần tra từ, dùng chung cho hộp trượt và trang Tra từ.
+ * Ô tìm kiếm có kính lúp và nút xoá, hiện dùng cho ô tìm của "Câu của tôi".
  *
  * Biểu tượng kính lúp và nút xoá đặt tuyệt đối ở hai mép nên ô nhập vẫn là một
  * hình chữ nhật liền: viền tiêu điểm bao trọn ô thay vì lồng thêm một khung nữa
@@ -15,7 +15,7 @@ export interface SearchFieldProps {
   /** Nhãn cho trình đọc màn hình, vì ô nhập không có nhãn nhìn thấy được. */
   label: string;
   placeholder?: string;
-  /** Cho nơi gọi giành lại tiêu điểm sau khi tấm trượt đã mở xong. */
+  /** Cho nơi gọi tự đưa tiêu điểm vào ô khi cần. */
   inputRef?: RefObject<HTMLInputElement | null>;
   autoFocus?: boolean;
 }
@@ -61,17 +61,15 @@ export function SearchField({
         placeholder={placeholder}
         onChange={(event) => onChange(event.target.value)}
         onKeyDown={(event) => {
-          // Ô này tìm ngay trong lúc gõ nên Enter không có việc gì để làm. Phải
-          // chặn hẳn: hộp tra từ được mở giữa lúc làm bài nên có khi nằm trong
-          // form gõ đáp án, để nguyên thì Enter (phím "tìm kiếm" của bàn phím
-          // ảo) chấm luôn câu đang làm rồi hộp tra từ biến mất. Đang gõ dở bằng
-          // bộ gõ tiếng Trung thì Enter là để chốt chữ, không đụng vào.
+          // Ô này tìm ngay trong lúc gõ nên Enter không có việc gì để làm. Vẫn
+          // chặn hẳn để ô đặt trong một form nào đó không vô tình gửi form khi
+          // người học bấm phím "tìm kiếm" của bàn phím ảo. Đang gõ dở bằng bộ
+          // gõ tiếng Trung thì Enter là để chốt chữ, không đụng vào.
           if (event.key === 'Enter' && !event.nativeEvent.isComposing) {
             event.preventDefault();
             return;
           }
-          // Phím Esc xoá nhanh ô tìm kiếm. Trong hộp trượt, phím này đã bị tấm
-          // trượt bắt trước để đóng lại nên ở đây chỉ có tác dụng trên trang.
+          // Phím Esc xoá nhanh ô tìm kiếm.
           if (event.key === 'Escape' && value !== '') onChange('');
         }}
         className="tap w-full min-w-0 rounded-[0.375rem] border border-line-strong bg-surface py-2.5 pr-12 pl-10 text-ink placeholder:text-ink-faint [&::-webkit-search-cancel-button]:appearance-none"

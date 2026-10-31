@@ -6,6 +6,8 @@ import type { SpeechRecognitionConstructor, SpeechRecognitionLike } from './type
  */
 
 export interface RecognitionUpdate {
+  /** Vị trí kết quả trong lượt nghe; nghe liên tục thì mỗi đoạn câu một vị trí. */
+  index: number;
   transcript: string;
   confidence: number;
   isFinal: boolean;
@@ -18,10 +20,18 @@ export interface RecognitionHandlers {
   onStart?(): void;
 }
 
+export interface RecognitionOptions {
+  /**
+   * Nghe liên tục tới khi gọi stop(): dùng cho câu dài, người học ngắt hơi giữa
+   * câu mà không bị cắt lượt nghe. Mặc định một lượt nghe ứng với một câu trả lời.
+   */
+  continuous?: boolean;
+}
+
 export interface SpeechRecognizer {
   isSupported(): boolean;
   /** Bắt đầu nghe. Chỉ được gọi sau khi người dùng bấm nút. */
-  start(lang: string, handlers: RecognitionHandlers): void;
+  start(lang: string, handlers: RecognitionHandlers, options?: RecognitionOptions): void;
   stop(): void;
   abort(): void;
   isListening(): boolean;
@@ -138,7 +148,7 @@ export function createSpeechRecognizer(win?: Window | null): SpeechRecognizer {
     }, waitMs);
   }
 
-  function start(lang: string, handlers: RecognitionHandlers): void {
+  function start(lang: string, handlers: RecognitionHandlers, options: RecognitionOptions = {}): void {
     // Gọi start() hai lần liên tiếp làm trình duyệt ném InvalidStateError. Vẫn phải trả lời
     // người gọi: im lặng bỏ qua thì giao diện chờ mãi một sự kiện không bao giờ tới.
     if (session !== null) {
@@ -164,7 +174,7 @@ export function createSpeechRecognizer(win?: Window | null): SpeechRecognizer {
     };
     recognition.lang = lang;
     // Một lượt nghe ứng với một câu trả lời; bản nháp giúp hiện chữ ngay khi người học nói.
-    recognition.continuous = false;
+    recognition.continuous = options.continuous === true;
     recognition.interimResults = true;
     recognition.maxAlternatives = 1;
 
@@ -180,6 +190,7 @@ export function createSpeechRecognizer(win?: Window | null): SpeechRecognizer {
         const alternative = result[0];
         if (!alternative) continue;
         handlers.onResult({
+          index: i,
           transcript: alternative.transcript.trim(),
           confidence: alternative.confidence,
           isFinal: result.isFinal,

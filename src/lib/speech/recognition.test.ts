@@ -148,12 +148,19 @@ describe('createSpeechRecognizer khi trình duyệt hỗ trợ', () => {
     created[0].emitEnd();
 
     expect(handlers.onResult).toHaveBeenCalledWith({
+      index: 0,
       transcript: '你好',
       confidence: 0.82,
       isFinal: true,
     });
     expect(handlers.onEnd).toHaveBeenCalledTimes(1);
     expect(recognizer.isListening()).toBe(false);
+  });
+
+  it('câu dài thì nghe liên tục tới khi người học bấm dừng', () => {
+    const recognizer = createSpeechRecognizer(fakeWindow(FakeRecognition));
+    recognizer.start('zh-CN', makeHandlers(), { continuous: true });
+    expect(created[0].continuous).toBe(true);
   });
 
   it('dịch mã lỗi của trình duyệt sang thông báo tiếng Việt', () => {

@@ -1,8 +1,8 @@
 /**
- * Câu mô tả nguồn từ của một phiên, dùng chung cho cả bốn chế độ.
+ * Câu mô tả nguồn từ của một phiên, dùng chung cho mọi chế độ luyện.
  *
  * Trước đây mỗi chế độ tự ghép một chuỗi riêng, nên chế độ nói không hiện nguồn
- * từ còn chế độ gõ lại hiện hai lần. Gom về một hàm để bốn màn hình nói giống
+ * từ còn chế độ gõ lại hiện hai lần. Gom về một hàm để các màn hình nói giống
  * hệt nhau, và để câu đó nói được điều quan trọng nhất mà trước đây bị giấu:
  * phiên này chỉ lấy bao nhiêu từ trong tổng số đang có.
  */
@@ -12,7 +12,6 @@ import type { HskLevel } from '../../types/vocabulary.ts';
 export const POOL_LABEL: Record<PoolKind, string> = {
   due: 'Từ cần ôn',
   new: 'Từ mới',
-  starred: 'Từ đã lưu',
   mixed: 'Trộn ôn và từ mới',
   lesson: 'Theo buổi học',
 };
@@ -38,10 +37,7 @@ export function studySourceLabel({
   const head =
     lessonLabel !== undefined && lessonLabel !== ''
       ? lessonLabel
-      : pool === 'starred'
-        ? // Sổ tay không lọc theo cấp nên nhắc tới cấp ở đây là nói sai.
-          POOL_LABEL.starred
-        : `${POOL_LABEL[pool]} · HSK ${[...levels].sort((a, b) => a - b).join(', ')}`;
+      : `${POOL_LABEL[pool]} · HSK ${[...levels].sort((a, b) => a - b).join(', ')}`;
 
   // Chỉ nói "20 trong 63" khi thật sự có phần bị cắt; còn lại chỉ cần một số.
   if (total > shown && shown > 0) return `${head} · ${shown} trong ${total} từ`;
@@ -53,8 +49,8 @@ export function studySourceLabel({
  * Chuỗi truy vấn mô tả phiên đang học, để hàng đổi cách luyện mang theo đúng
  * tập từ này sang chế độ khác.
  *
- * Luôn ghi đủ cả `level` lẫn `pool` ngay cả khi địa chỉ hiện tại chưa có: bốn
- * trang luyện có bốn nguồn từ mặc định khác nhau, nên chuyển một chuỗi rỗng
+ * Luôn ghi đủ cả `level` lẫn `pool` ngay cả khi địa chỉ hiện tại chưa có: các
+ * trang luyện có nguồn từ mặc định khác nhau, nên chuyển một chuỗi rỗng
  * sang trang khác là lặng lẽ đổi luôn nguồn từ giữa chừng.
  */
 export function studySessionQuery(

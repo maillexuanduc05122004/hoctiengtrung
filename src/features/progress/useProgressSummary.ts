@@ -11,8 +11,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import {
   countLearnedByWordIds,
-  countSavedLessons,
-  countStarred,
   dayKey,
   getCards,
   getDueCards,
@@ -89,17 +87,12 @@ export function useProgressSummary(): ProgressSummaryState {
       const now = Date.now();
       const today = dayKey(now);
       // Giới hạn bằng chính số từ ứng viên: cần đếm hết chứ không cắt bớt như hàng đợi học.
-      const [due, fresh, streak, lastSevenDays, starredTotal, savedLessonsTotal] =
-        await Promise.all([
-          getDueCards(activeIds, now, activeIds.length),
-          getNewWordIds(activeIds, activeIds.length),
-          getStreak(today),
-          getRecentDays(today, RECENT_DAYS),
-          // Sổ tay đếm trên cả kho: người học lưu một từ HSK 3 rồi quay về học
-          // HSK 1 thì từ đó vẫn còn trong sổ tay, không được biến mất khỏi số đếm.
-          countStarred(),
-          countSavedLessons(),
-        ]);
+      const [due, fresh, streak, lastSevenDays] = await Promise.all([
+        getDueCards(activeIds, now, activeIds.length),
+        getNewWordIds(activeIds, activeIds.length),
+        getStreak(today),
+        getRecentDays(today, RECENT_DAYS),
+      ]);
 
       const perLevel = await Promise.all(
         HSK_LEVELS.filter((level) => (idsByLevel.get(level) ?? []).length > 0).map(async (level) => {
@@ -120,8 +113,6 @@ export function useProgressSummary(): ProgressSummaryState {
         lastSevenDays,
         todayReviews,
         todayGoalReached: settings.dailyGoal > 0 && todayReviews >= settings.dailyGoal,
-        starredTotal,
-        savedLessonsTotal,
       };
     };
 

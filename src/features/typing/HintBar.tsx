@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { Button } from '../../components/ui/Button.tsx';
-import { DictionarySheet } from '../dictionary/DictionarySheet.tsx';
 import { SpeakerButton } from '../shared/SpeakerButton.tsx';
 import type { VocabularyWord } from '../../types/vocabulary.ts';
 import { hintUnits, type TypingChallenge } from './prompt.ts';
@@ -10,8 +9,6 @@ export interface HintBarProps {
   challenge: TypingChallenge;
   /** Đánh dấu câu đang làm là đã dùng gợi ý. */
   onUseHint: () => void;
-  /** Đưa chữ chọn được trong hộp tra từ vào ô nhập. */
-  onInsert: (text: string) => void;
 }
 
 interface RevealedRow {
@@ -41,12 +38,11 @@ const BLANK = '＿';
  * chữ Hán ra: nhãn đi thẳng vào `title` và `aria-label`, rê chuột lên hay nghe
  * bằng trình đọc màn hình là thấy nguyên đáp án mà lượt đó vẫn tính là tự trả lời.
  */
-export function HintBar({ word, challenge, onUseHint, onInsert }: HintBarProps) {
+export function HintBar({ word, challenge, onUseHint }: HintBarProps) {
   const [revealed, setRevealed] = useState(0);
   const [showPinyin, setShowPinyin] = useState(false);
   const [showVi, setShowVi] = useState(false);
   const [showEn, setShowEn] = useState(false);
-  const [dictionaryOpen, setDictionaryOpen] = useState(false);
 
   const units = hintUnits(challenge);
   const hanziAnswer = challenge.answerKind === 'hanzi';
@@ -113,7 +109,7 @@ export function HintBar({ word, challenge, onUseHint, onInsert }: HintBarProps) 
         </dl>
       ) : null}
 
-      {/* Bảy nút không vừa bề ngang 20rem nên hàng này cuộn ngang được. */}
+      {/* Sáu nút không vừa bề ngang 20rem nên hàng này cuộn ngang được. */}
       <div
         className="flex min-w-0 items-center overflow-x-auto py-1"
       >
@@ -185,25 +181,8 @@ export function HintBar({ word, challenge, onUseHint, onInsert }: HintBarProps) 
           >
             Nghĩa Anh
           </Button>
-          <Button
-            variant="secondary"
-            icon="search"
-            className="shrink-0 px-3 text-[0.8125rem] whitespace-nowrap"
-            onClick={() => {
-              setDictionaryOpen(true);
-              onUseHint();
-            }}
-          >
-            Tra từ
-          </Button>
         </div>
       </div>
-
-      <DictionarySheet
-        open={dictionaryOpen}
-        onClose={() => setDictionaryOpen(false)}
-        onInsert={onInsert}
-      />
     </div>
   );
 }

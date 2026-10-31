@@ -17,9 +17,13 @@ import type {
   ImportRowInput,
   MessageResponse,
   PageResponse,
+  PronunciationRequest,
+  PronunciationResponse,
   Sentence,
   SentenceInput,
   SentenceSource,
+  TranslationCheckRequest,
+  TranslationCheckResponse,
   UserWord,
   UserWordStats,
   UserWordStatus,
@@ -172,4 +176,28 @@ export function generateSentences(
 
 export function aiStatus(signal?: AbortSignal): Promise<AiStatus> {
   return apiFetch<AiStatus>('/ai/status', { signal });
+}
+
+/** AI chấm một câu người học tự dịch từ tiếng Việt sang tiếng Trung. */
+export function checkTranslation(
+  body: TranslationCheckRequest,
+  signal?: AbortSignal,
+): Promise<TranslationCheckResponse> {
+  return apiFetch<TranslationCheckResponse>('/ai/translation-check', {
+    method: 'POST',
+    body: json(body),
+    signal,
+  });
+}
+
+/** AI nghe bản ghi giọng đọc và chấm từng âm tiết. */
+export function assessPronunciation(
+  body: PronunciationRequest,
+  signal?: AbortSignal,
+): Promise<PronunciationResponse> {
+  return apiFetch<PronunciationResponse>('/ai/pronunciation', {
+    method: 'POST',
+    body: json(body),
+    signal,
+  });
 }

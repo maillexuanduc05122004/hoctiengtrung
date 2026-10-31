@@ -28,7 +28,6 @@ interface PoolOption {
 const POOL_OPTIONS: readonly PoolOption[] = [
   { value: 'due', label: 'Cần ôn', hint: 'Từ đã học, tới hẹn ôn lại hôm nay' },
   { value: 'new', label: 'Từ mới', hint: 'Từ chưa gặp lần nào' },
-  { value: 'starred', label: 'Từ đã lưu', hint: 'Những từ bạn bấm sao, mọi cấp' },
   { value: 'mixed', label: 'Trộn', hint: 'Ôn trước, hết mới lấy thêm từ mới' },
 ];
 

@@ -11,7 +11,12 @@ export type {
 export type { SpeakOptions, SpeechLang, TtsAdapter } from './tts.ts';
 export { createTtsAdapter } from './tts.ts';
 
-export type { RecognitionHandlers, RecognitionUpdate, SpeechRecognizer } from './recognition.ts';
+export type {
+  RecognitionHandlers,
+  RecognitionOptions,
+  RecognitionUpdate,
+  SpeechRecognizer,
+} from './recognition.ts';
 export { createSpeechRecognizer } from './recognition.ts';
 
 export type {

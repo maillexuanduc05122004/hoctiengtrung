@@ -7,9 +7,8 @@ import {
   type FormEvent,
   type ReactNode,
 } from 'react';
-import { Button, IconButton } from '../../components/ui/Button.tsx';
+import { Button } from '../../components/ui/Button.tsx';
 import { isBlankAnswer, type MatchResult } from '../../lib/answer-matcher/index.ts';
-import { useLiveMessage } from '../../hooks/useLiveMessage.ts';
 import { useSettings } from '../../hooks/settings-context.ts';
 import type { StudySession } from '../../hooks/useStudySession.ts';
 import type { VocabularyWord } from '../../types/vocabulary.ts';
@@ -19,7 +18,6 @@ import { MeaningList } from '../shared/MeaningList.tsx';
 import { PinyinLine } from '../shared/PinyinLine.tsx';
 import { SpeakerButton } from '../shared/SpeakerButton.tsx';
 import { StudyHeader } from '../shared/StudyHeader.tsx';
-import { saveWordMessage } from '../shared/save-word.ts';
 import { VerdictBanner } from '../shared/VerdictBanner.tsx';
 import { WordFace } from '../shared/WordFace.tsx';
 import { containsHanzi } from '../shared/hanzi.ts';
@@ -87,7 +85,6 @@ export function TypingRound({
   const { settings } = useSettings();
   const inputId = useId();
   const inputRef = useRef<HTMLInputElement>(null);
-  const { message, token, announce } = useLiveMessage();
 
   const [input, setInput] = useState('');
   const [graded, setGraded] = useState<GradedAnswer | null>(null);
@@ -121,14 +118,6 @@ export function TypingRound({
     [word, session.index],
   );
 
-  const starred = session.starred.has(word.id);
-
-  const handleToggleStar = (): void => {
-    void session.toggleStar(word.id).then(
-      (saved) => announce(saveWordMessage(word.simplified, saved)),
-      () => announce('Không lưu được vào máy này.'),
-    );
-  };
   const answered = graded !== null;
   const example = word.examples[0];
   const expectedAnswer = challenge.expected[0] ?? '';
@@ -164,11 +153,6 @@ export function TypingRound({
     inputRef.current?.focus();
   };
 
-  const handleInsert = (text: string): void => {
-    setInput((previous) => previous + text);
-    inputRef.current?.focus();
-  };
-
   return (
     <form
       onSubmit={handleSubmit}
@@ -183,19 +167,6 @@ export function TypingRound({
         onEditSource={onEditSource}
         lessonId={lessonId}
         sessionQuery={sessionQuery}
-        message={message}
-        messageToken={token}
-        right={
-          // Nhãn không nhắc chữ Hán: `IconButton` gán nhãn vào cả `title`, mà những
-          // dạng đề hỏi chữ Hán lấy chính chữ đó làm đáp án — rê chuột là lộ bài.
-          <IconButton
-            icon={starred ? 'star-filled' : 'star'}
-            label={starred ? 'Bỏ lưu từ này' : 'Lưu từ này vào sổ tay'}
-            pressed={starred}
-            pressedVariant="saved"
-            onClick={handleToggleStar}
-          />
-        }
       />
 
       {options}
@@ -416,7 +387,6 @@ export function TypingRound({
             word={word}
             challenge={challenge}
             onUseHint={() => setUsedHint(true)}
-            onInsert={handleInsert}
           />
         )}
 

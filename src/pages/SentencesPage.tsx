@@ -38,7 +38,7 @@ import { Segmented, type SegmentedOption } from '../components/ui/Controls.tsx';
 import { Notice } from '../components/ui/Feedback.tsx';
 import { LiveMessage } from '../components/ui/LiveMessage.tsx';
 import { ACCOUNTS } from '../features/account/accounts.ts';
-import { SearchField } from '../features/dictionary/SearchField.tsx';
+import { SearchField } from '../features/shared/SearchField.tsx';
 import { SentenceDrill } from '../features/sentences/SentenceDrill.tsx';
 import { SentenceImport } from '../features/sentences/SentenceImport.tsx';
 import { WordImport } from '../features/sentences/WordImport.tsx';

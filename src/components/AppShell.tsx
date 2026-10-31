@@ -1,21 +1,20 @@
 import { useEffect, useRef } from 'react';
 import { NavLink, Outlet, useLocation } from 'react-router';
 import { MAIN_NAV, SECONDARY_NAV, STUDY_NAV, type NavItem } from './navigation.ts';
-import { QuickLookupButton } from './QuickLookupButton.tsx';
 import { Icon } from './ui/Icon.tsx';
 import { UpdateBanner } from './UpdateBanner.tsx';
 
 /**
  * Khung ứng dụng.
  *
- * Trên điện thoại: thanh tiêu đề dính trên cùng và thanh điều hướng bảy đích
- * đến dính dưới cùng. Trên máy tính: cột điều hướng bên trái và vùng nội dung
- * rộng, không phải bản phóng to của giao diện điện thoại.
+ * Trên điện thoại: thanh tiêu đề dính trên cùng và thanh điều hướng các đích
+ * đến chính dính dưới cùng. Trên máy tính: cột điều hướng bên trái và vùng nội
+ * dung rộng, không phải bản phóng to của giao diện điện thoại.
  *
- * Thanh dưới cùng mang các ĐÍCH ĐẾN chứ không mang bốn chế độ luyện tập. Bốn
- * chế độ là công cụ: vào thẳng chúng từ thanh điều hướng là rơi vào một hàng đợi
- * không ai chọn. Chúng có mặt ở nơi đã biết mình luyện từ nào — trang buổi học,
- * sổ tay, và hàng đổi chế độ ngay trong phiên.
+ * Thanh dưới cùng mang các ĐÍCH ĐẾN chứ không mang các cách luyện tập. Cách
+ * luyện là công cụ: vào thẳng chúng từ thanh điều hướng là rơi vào một hàng đợi
+ * không ai chọn. Chúng có mặt ở nơi đã biết mình luyện từ nào — trang buổi học
+ * và hàng đổi chế độ ngay trong phiên.
  */
 export function AppShell() {
   const location = useLocation();
@@ -93,8 +92,6 @@ export function AppShell() {
             title="Khác"
             items={SECONDARY_NAV}
           />
-          {/* Tra từ nhanh đứng cạnh "Cài đặt": là công cụ mở hộp, không phải đích đến. */}
-          <QuickLookupButton variant="sidebar" />
 
           <NavLink
             to="/nguon-du-lieu"
@@ -130,7 +127,6 @@ export function AppShell() {
               aria-label="Điều hướng phụ"
               className="flex items-center space-x-0.5"
             >
-              <QuickLookupButton variant="header" />
               {SECONDARY_NAV.map((item) => (
                 <NavLink
                   key={item.to}
@@ -167,7 +163,7 @@ export function AppShell() {
         </div>
       </div>
 
-      {/* Bảy đích đến chính, chỉ hiện trên điện thoại. */}
+      {/* Các đích đến chính, chỉ hiện trên điện thoại. */}
       <nav
         aria-label="Điều hướng chính"
         className="hidden xsm:fixed xsm:right-0 xsm:bottom-0 xsm:left-0 xsm:z-30 xsm:grid xsm:grid-cols-7 xsm:border-t xsm:border-line xsm:bg-surface xsm:pb-[env(safe-area-inset-bottom)]"
@@ -186,7 +182,7 @@ export function AppShell() {
           >
             {({ isActive }) => (
               <>
-                <Icon name={isActive && item.icon === 'star' ? 'star-filled' : item.icon} size={1.3125} />
+                <Icon name={item.icon} size={1.3125} />
                 <span
                   className={[
                     'mt-0.5 text-center text-[0.6875rem] leading-tight',

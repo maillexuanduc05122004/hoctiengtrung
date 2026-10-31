@@ -26,6 +26,9 @@ export const RETRY_DELAYS_MS: readonly number[] = [
 /** Lỗi tạm thời — máy chủ đang dậy hoặc mạng chập chờn — đáng thử lại. */
 export function isTransientError(error: unknown): boolean {
   if (error instanceof ApiError) {
+    // Có mã nghiệp vụ (`AI_DISABLED`, `AI_RATE_LIMIT`…) là chính máy chủ của mình
+    // trả lời, không phải proxy báo máy chủ đang ngủ: gọi lại cũng ra đúng câu đó.
+    if (error.code !== undefined) return false;
     return (
       error.isNetworkError || error.status === 502 || error.status === 503 || error.status === 504
     );

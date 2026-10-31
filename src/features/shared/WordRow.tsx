@@ -1,10 +1,8 @@
 import { useState } from 'react';
-import { Button } from '../../components/ui/Button.tsx';
 import { Chip } from '../../components/ui/Controls.tsx';
 import type { DisplayMode } from '../../types/settings.ts';
 import type { VocabularyWord } from '../../types/vocabulary.ts';
 import { MeaningList } from './MeaningList.tsx';
-import { SaveWordButton } from './SaveWordButton.tsx';
 import { SpeakerButton } from './SpeakerButton.tsx';
 
 export interface WordRowProps {
@@ -12,19 +10,9 @@ export interface WordRowProps {
   displayMode: DisplayMode;
   /** Ẩn pinyin cho tới khi người học bấm vào, theo cài đặt "Ẩn pinyin". */
   hidePinyin?: boolean;
-  /** Đưa chữ Hán vào ô nhập đang mở, dùng khi tra từ giữa lúc làm bài. */
-  onInsert?: (text: string) => void;
-  onSelect?: (word: VocabularyWord) => void;
   showLevel?: boolean;
   /** Hiện thêm chữ phồn thể nhỏ bên cạnh chữ giản thể khi hai cách viết khác nhau. */
   showTraditional?: boolean;
-  /**
-   * Từ này đang nằm trong sổ tay. Có `onToggleSave` thì dòng mọc thêm nút sao,
-   * để lưu ngay tại danh sách thay vì phải mở thêm một lớp hộp chi tiết nữa —
-   * lúc gặp một từ khó giữa giờ học chính là lúc muốn lưu nhất.
-   */
-  saved?: boolean;
-  onToggleSave?: (word: VocabularyWord) => void;
 }
 
 /**
@@ -32,21 +20,13 @@ export interface WordRowProps {
  *
  * Các dòng phân tách nhau bằng đường kẻ mảnh ở khối cha chứ không tự bọc mình
  * trong thẻ, để một danh sách dài đọc như một trang từ điển thay vì một chồng ô.
- *
- * Khi có onSelect, vùng bấm là một nút phủ lên cả dòng thay vì bọc phần chữ vào
- * trong thẻ button: như vậy cả dòng đều bấm được mà vẫn không lồng khối vào nút,
- * còn nút nghe và nút chèn được nâng lên trên nên vẫn bấm riêng được.
  */
 export function WordRow({
   word,
   displayMode,
   hidePinyin = false,
-  onInsert,
-  onSelect,
   showLevel = false,
   showTraditional = false,
-  saved = false,
-  onToggleSave,
 }: WordRowProps) {
   const [pinyinRevealed, setPinyinRevealed] = useState(false);
 
@@ -63,17 +43,8 @@ export function WordRow({
 
   return (
     <div
-      className="relative flex min-w-0 items-start py-3"
+      className="flex min-w-0 items-start py-3"
     >
-      {onSelect !== undefined ? (
-        <button
-          type="button"
-          aria-label={`Xem chi tiết từ ${word.simplified}`}
-          onClick={() => onSelect(word)}
-          className="absolute top-0 right-0 bottom-0 left-0 rounded-[0.375rem]"
-        />
-      ) : null}
-
       <div
         className="min-w-0 flex-1"
       >
@@ -111,12 +82,11 @@ export function WordRow({
               {word.pinyin}
             </span>
           ) : (
-            // Nút phải nổi lên trên vùng bấm phủ cả dòng thì mới bấm riêng được.
             <button
               type="button"
               aria-label={`Hiện pinyin của từ ${word.simplified}`}
               onClick={() => setPinyinRevealed(true)}
-              className="tap relative z-10 inline-flex shrink-0 items-center self-center space-x-1.5 rounded-[0.375rem] px-1"
+              className="tap inline-flex shrink-0 items-center self-center space-x-1.5 rounded-[0.375rem] px-1"
             >
               {syllables.map((syllable, index) => (
                 <span
@@ -147,31 +117,13 @@ export function WordRow({
       </div>
 
       <div
-        className="relative z-10 ml-2 flex shrink-0 items-center space-x-1"
+        className="ml-2 flex shrink-0 items-center"
       >
         <SpeakerButton
           text={word.simplified}
           label={`Nghe phát âm từ ${word.simplified}`}
           size={1.0625}
         />
-        {onToggleSave !== undefined ? (
-          <SaveWordButton
-            word={word.simplified}
-            saved={saved}
-            iconSize={1.0625}
-            onToggle={() => onToggleSave(word)}
-          />
-        ) : null}
-        {onInsert !== undefined ? (
-          <Button
-            variant="quiet"
-            icon="plus"
-            onClick={() => onInsert(word.simplified)}
-            aria-label={`Chèn ${word.simplified} vào ô nhập`}
-          >
-            Chèn
-          </Button>
-        ) : null}
       </div>
     </div>
   );

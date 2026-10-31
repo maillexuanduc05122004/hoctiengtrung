@@ -6,32 +6,31 @@
  * `lesson` nên rơi về nguồn "cần ôn" của cả cấp. Hàng chip này mang theo đúng
  * chuỗi truy vấn đang có, nhờ vậy đổi cách luyện không đổi tập từ đang luyện.
  *
- * Đây là điều hướng trong một phiên chứ không phải năm liên kết rời, nên dùng
+ * Đây là điều hướng trong một phiên chứ không phải ba liên kết rời, nên dùng
  * `aria-current="page"` cho chế độ đang mở thay vì `aria-pressed`.
  */
 import { Link } from 'react-router';
 import { STUDY_NAV } from '../../components/navigation.ts';
 import { Icon } from '../../components/ui/Icon.tsx';
-import type { StudyMode } from '../../types/study.ts';
+import type { PracticeMode } from '../../types/study.ts';
 
 /** Đường dẫn của từng chế độ, để biết chip nào đang là chế độ hiện tại. */
-const PATH_BY_MODE: Record<StudyMode, string> = {
-  flashcards: '/the',
+const PATH_BY_MODE: Record<PracticeMode, string> = {
   typing: '/go',
   listening: '/nghe',
   speaking: '/noi',
 };
 
 export interface ModeSwitchProps {
-  current: StudyMode;
+  current: PracticeMode;
   /**
    * Chuỗi truy vấn mô tả phiên đang học, ví dụ "?level=1,2&pool=due".
    *
    * Bên gọi phải dựng sẵn chuỗi này từ lựa chọn ĐÃ GIẢI, không để ModeSwitch
-   * tự lấy `location.search`: mở /the trần thì địa chỉ chưa có tham số nào,
-   * mà bốn trang lại có bốn nguồn từ mặc định khác nhau (thẻ và gõ lùi về
-   * "cần ôn", nghe và nói lùi về "trộn"). Chuyển một chuỗi rỗng sang trang
-   * khác nghĩa là lặng lẽ đổi luôn nguồn từ giữa chừng.
+   * tự lấy `location.search`: mở /go trần thì địa chỉ chưa có tham số nào,
+   * mà các trang lại có nguồn từ mặc định khác nhau (gõ lùi về "cần ôn", nghe
+   * và nói lùi về "trộn"). Chuyển một chuỗi rỗng sang trang khác nghĩa là lặng
+   * lẽ đổi luôn nguồn từ giữa chừng.
    */
   sessionQuery: string;
 }

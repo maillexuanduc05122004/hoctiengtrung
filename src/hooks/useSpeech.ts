@@ -9,8 +9,8 @@ let sharedAdapter: TtsAdapter | null = null;
  * Chỗ dùng hook nào đang chiếm bộ đọc dùng chung.
  *
  * Bộ đọc chỉ có một, nên lúc tháo chỉ chỗ đang phát mới được dừng nó. Không phân biệt
- * thì tháo một nút loa bất kỳ (thanh gợi ý biến mất sau khi chấm bài, đóng hộp tra từ,
- * đổi từ...) sẽ cắt ngang tiếng mà chỗ khác đang đọc dở.
+ * thì tháo một nút loa bất kỳ (thanh gợi ý biến mất sau khi chấm bài, đổi từ...) sẽ
+ * cắt ngang tiếng mà chỗ khác đang đọc dở.
  */
 let speakingOwner: object | null = null;
 

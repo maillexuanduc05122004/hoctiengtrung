@@ -5,7 +5,7 @@ import { SpeakerButton } from './SpeakerButton.tsx';
 export interface MeaningListProps {
   word: VocabularyWord;
   displayMode: DisplayMode;
-  /** Dạng gọn một dòng, dùng cho hàng danh sách và kết quả tra từ. */
+  /** Dạng gọn một dòng, dùng cho hàng danh sách từ. */
   compact?: boolean;
 }
 

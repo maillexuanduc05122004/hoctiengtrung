@@ -1,5 +1,4 @@
 import { Link } from 'react-router';
-import { IconButton } from '../../components/ui/Button.tsx';
 import { Chip } from '../../components/ui/Controls.tsx';
 import { useVocabulary } from '../../hooks/vocabulary-context.ts';
 import type { Lesson } from '../../types/vocabulary.ts';
@@ -11,9 +10,6 @@ export interface LessonCardProps {
   progress?: LessonProgress;
   /** Ghi thêm cấp HSK vào thẻ, dùng khi danh sách trộn nhiều cấp. */
   showLevel?: boolean;
-  /** Buổi này đang nằm trong sổ tay. */
-  saved?: boolean;
-  onToggleSave?: (lesson: Lesson) => void;
   /** Đánh dấu đây là chỗ người học vừa rời đi. */
   current?: boolean;
   /**
@@ -54,16 +50,14 @@ const PREVIEW_WORDS = 4;
  * buổi, tiến độ và việc cần làm.
  *
  * Vùng bấm là một liên kết phủ cả dòng thay vì bọc cả dòng vào trong liên kết.
- * Cách này giữ được một điểm dừng duy nhất cho trình đọc màn hình, mà nút lưu
- * vẫn bấm riêng được — nút nằm trong liên kết là HTML không hợp lệ, và thanh
- * tiến độ nằm trong liên kết thì bị đọc thành một phần của tên liên kết.
+ * Cách này giữ được một điểm dừng duy nhất cho trình đọc màn hình với nhãn tự
+ * soạn, thay vì để thanh tiến độ nằm trong liên kết và bị đọc thành một phần
+ * của tên liên kết.
  */
 export function LessonCard({
   lesson,
   progress,
   showLevel = false,
-  saved = false,
-  onToggleSave,
   current = false,
   listQuery = '',
 }: LessonCardProps) {
@@ -164,21 +158,6 @@ export function LessonCard({
           </span>
         </div>
       </div>
-
-      {onToggleSave !== undefined ? (
-        <span
-          className="relative z-10 ml-2 shrink-0"
-        >
-          <IconButton
-            icon={saved ? 'star-filled' : 'star'}
-            label={saved ? `Bỏ lưu ${title}` : `Lưu ${title} vào sổ tay`}
-            pressed={saved}
-            pressedVariant="saved"
-            iconSize={1.125}
-            onClick={() => onToggleSave(lesson)}
-          />
-        </span>
-      ) : null}
     </div>
   );
 }

@@ -7,15 +7,13 @@
  */
 import { useCallback, useMemo, useState, type ReactNode } from 'react';
 import { Link, useNavigate, useSearchParams } from 'react-router';
-import { Button, IconButton } from '../components/ui/Button.tsx';
+import { Button } from '../components/ui/Button.tsx';
 import { EmptyState, Notice, Spinner } from '../components/ui/Feedback.tsx';
 import { SpeakingRound } from '../features/speaking/index.ts';
 import { SessionSummary } from '../features/shared/SessionSummary.tsx';
 import { StudyHeader } from '../features/shared/StudyHeader.tsx';
 import { StudyOptions, type StudyOptionsValue } from '../features/shared/StudyOptions.tsx';
 import { studySessionQuery, studySourceLabel } from '../features/shared/study-source.ts';
-import { saveWordMessage } from '../features/shared/save-word.ts';
-import { useLiveMessage } from '../hooks/useLiveMessage.ts';
 import { useSettings } from '../hooks/settings-context.ts';
 import { useVocabulary } from '../hooks/vocabulary-context.ts';
 import {
@@ -28,13 +26,12 @@ import { isHskLevel, type HskLevel } from '../types/vocabulary.ts';
 /** Một phiên nói ngắn hơn phiên gõ: đọc thành tiếng mệt hơn gõ phím nhiều. */
 const SESSION_LIMIT = 12;
 
-const POOL_VALUES: readonly PoolKind[] = ['due', 'new', 'starred', 'mixed', 'lesson'];
+const POOL_VALUES: readonly PoolKind[] = ['due', 'new', 'mixed', 'lesson'];
 
 /** Lời giải thích khi hàng đợi rỗng, viết riêng cho từng nguồn từ. */
 const EMPTY_HINTS: Record<PoolKind, string> = {
   due: 'Chưa có từ nào tới hạn ôn. Chọn “Từ mới” để học thêm từ chưa gặp bao giờ.',
   new: 'Các cấp đang chọn đã hết từ mới. Chọn “Cần ôn” hoặc thêm một cấp HSK khác.',
-  starred: 'Sổ tay của bạn còn trống. Bấm ngôi sao khi gặp một từ khó để lưu lại.',
   mixed: 'Không còn từ nào để ôn hay học mới ở các cấp đang chọn.',
   lesson: 'Buổi học này chưa có từ nào.',
 };
@@ -115,11 +112,9 @@ export function SpeakingPage() {
   );
 
   const current = session.current;
-  const starred = current !== null && session.starred.has(current.id);
 
   const optionsValue: StudyOptionsValue = { levels, pool };
   const [optionsOpen, setOptionsOpen] = useState(false);
-  const { message, token, announce } = useLiveMessage();
   const source = studySourceLabel({
     pool,
     levels,
@@ -218,24 +213,6 @@ export function SpeakingPage() {
         onEditSource={() => setOptionsOpen((open) => !open)}
         lessonId={lessonId}
         sessionQuery={studySessionQuery(pool, levels, lessonId === '' ? undefined : lessonId)}
-        message={message}
-        messageToken={token}
-        right={
-          current === null ? null : (
-            <IconButton
-              icon={starred ? 'star-filled' : 'star'}
-              label={starred ? 'Bỏ lưu từ này' : 'Lưu từ này vào sổ tay'}
-              pressed={starred}
-              pressedVariant="saved"
-              onClick={() => {
-                void session.toggleStar(current.id).then(
-                  (saved) => announce(saveWordMessage(current.simplified, saved)),
-                  () => announce('Không lưu được vào máy này.'),
-                );
-              }}
-            />
-          )
-        }
       />
 
       {optionsOpen ? (

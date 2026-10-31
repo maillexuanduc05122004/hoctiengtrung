@@ -10,8 +10,17 @@ export const RATING = {
   easy: 4,
 } as const satisfies Record<string, Rating>;
 
-/** Bốn chế độ luyện tập chính. */
+/**
+ * Các chế độ luyện tập từng ghi vào nhật ký ôn.
+ *
+ * Vẫn giữ 'flashcards' dù chế độ lật thẻ đã bỏ: thẻ và nhật ký ôn cũ trong máy
+ * hay trong tệp sao lưu còn mang nhãn này, bỏ đi thì những dữ liệu đó không nạp
+ * được nữa.
+ */
 export type StudyMode = 'flashcards' | 'typing' | 'listening' | 'speaking';
+
+/** Các chế độ còn mở được phiên học trong giao diện. */
+export type PracticeMode = Exclude<StudyMode, 'flashcards'>;
 
 /** Kết quả chấm một câu trả lời. */
 export type AnswerVerdict = 'correct' | 'close' | 'wrong';
@@ -49,10 +58,15 @@ export interface CardState {
   dueAt: number;
   /** Số bước đã qua trong giai đoạn học lần đầu hoặc học lại. */
   learningStep: number;
-  /** Người học đã lưu từ này vào sổ tay. */
+  /**
+   * Người học đã lưu từ này vào sổ tay.
+   *
+   * Sổ tay đã bỏ khỏi giao diện nhưng cờ này vẫn nằm trong kho và trong tệp sao
+   * lưu, để dữ liệu cũ vẫn nhập và xuất được nguyên vẹn.
+   */
   starred: boolean;
   /**
-   * Thời điểm lưu gần nhất, để sổ tay xếp từ mới lưu lên đầu.
+   * Thời điểm lưu gần nhất.
    *
    * Không bắt buộc vì các thẻ tạo ra trước khi có sổ tay không có mốc này, và
    * tệp sao lưu cũ cũng vậy. Thiếu mốc thì coi như đã lưu từ rất lâu rồi.
@@ -136,7 +150,7 @@ export interface SavedLesson {
 export interface StudyQueueOptions {
   levels: HskLevel[];
   /** Nguồn từ đưa vào hàng đợi. */
-  pool: 'due' | 'new' | 'starred' | 'mixed' | 'lesson';
+  pool: 'due' | 'new' | 'mixed' | 'lesson';
   /** Chỉ lấy từ trong một buổi học cụ thể. */
   lessonId?: string;
   limit: number;
@@ -155,8 +169,4 @@ export interface ProgressSummary {
   lastSevenDays: DailyStat[];
   todayReviews: number;
   todayGoalReached: boolean;
-  /** Số từ đang nằm trong sổ tay, đếm trên toàn bộ kho chứ không theo cấp đang chọn. */
-  starredTotal: number;
-  /** Số buổi học đã lưu. */
-  savedLessonsTotal: number;
 }

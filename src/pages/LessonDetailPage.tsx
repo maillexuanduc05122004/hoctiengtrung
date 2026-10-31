@@ -4,26 +4,16 @@
  * Trang này trả lời đúng một câu: bấm gì để bắt đầu. Trước đây nó bày bốn ô chế
  * độ giống hệt nhau nên câu hỏi bị đẩy ngược về phía người học ở đúng bước quan
  * trọng nhất. Nay có một nút chính duy nhất, nội dung nút đổi theo tình trạng
- * thật của buổi (còn từ mới, tới hẹn ôn, hay đã thuộc cả), ba cách luyện còn
- * lại lùi xuống hàng phụ.
+ * thật của buổi (còn từ mới, tới hẹn ôn, hay đã thuộc cả) và luôn mở Gõ đáp
+ * án; hai cách luyện còn lại lùi xuống hàng phụ.
  */
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo } from 'react';
 import { Link, useLocation, useParams } from 'react-router';
-import { Button } from '../components/ui/Button.tsx';
 import { EmptyState, Notice, ProgressBar, Spinner } from '../components/ui/Feedback.tsx';
 import { Icon } from '../components/ui/Icon.tsx';
-import { LiveMessage } from '../components/ui/LiveMessage.tsx';
 import { STUDY_NAV } from '../components/navigation.ts';
-import {
-  SaveWordButton,
-  saveWordMessage,
-  WordRow,
-  WordStatusChip,
-  wordStatus,
-} from '../features/shared/index.ts';
-import { isLearned, useSavedLessonIds, useWordCards } from '../features/lessons/index.ts';
-import { toggleStar } from '../db/index.ts';
-import { useLiveMessage } from '../hooks/useLiveMessage.ts';
+import { WordRow, WordStatusChip, wordStatus } from '../features/shared/index.ts';
+import { isLearned, useWordCards } from '../features/lessons/index.ts';
 import { useSettings } from '../hooks/settings-context.ts';
 import { useVocabulary } from '../hooks/vocabulary-context.ts';
 import type { VocabularyWord } from '../types/vocabulary.ts';
@@ -34,14 +24,11 @@ export function LessonDetailPage() {
   const lessonId = params.lessonId ?? '';
   const { index, loading, error } = useVocabulary();
   const { settings, update } = useSettings();
-  const { message, token, announce } = useLiveMessage();
 
   const lesson = index.byLesson.get(lessonId) ?? null;
 
   const wordIds = useMemo(() => lesson?.wordIds ?? [], [lesson]);
   const { cards, loading: cardsLoading, readAt } = useWordCards(wordIds);
-  const { ids: savedLessons, toggle: toggleSavedLesson } = useSavedLessonIds();
-  const saved = savedLessons.has(lessonId);
 
   const words = useMemo(
     () =>
@@ -67,39 +54,6 @@ export function LessonDetailPage() {
   const position = siblings.findIndex((item) => item.id === lessonId);
   const previous = position > 0 ? siblings[position - 1] : null;
   const next = position >= 0 && position < siblings.length - 1 ? siblings[position + 1] : null;
-
-  /**
-   * Lưu từ ghi thẳng xuống kho cục bộ, nhưng đọc lại cả buổi chỉ vì một ngôi sao
-   * thì phí, nên giữ riêng phần vừa đổi và ưu tiên nó khi vẽ.
-   */
-  const [starOverrides, setStarOverrides] = useState<ReadonlyMap<string, boolean>>(
-    () => new Map(),
-  );
-
-  const handleToggleStar = useCallback(
-    async (word: VocabularyWord): Promise<void> => {
-      try {
-        const starred = await toggleStar(word.id);
-        setStarOverrides((current) => new Map(current).set(word.id, starred));
-        announce(saveWordMessage(word.simplified, starred));
-      } catch {
-        // Kho cục bộ bị chặn thì nói ra, đừng để ngôi sao đổi hình như thể đã lưu.
-        announce('Không lưu được vào máy này. Kiểm tra quyền lưu dữ liệu của trình duyệt.');
-      }
-    },
-    [announce],
-  );
-
-  const handleToggleLesson = useCallback((): void => {
-    if (lesson === null) return;
-    void toggleSavedLesson(lesson.id).then((nowSaved) => {
-      announce(
-        nowSaved
-          ? `Đã lưu buổi ${lesson.index} vào sổ tay`
-          : `Đã bỏ buổi ${lesson.index} khỏi sổ tay`,
-      );
-    });
-  }, [lesson, toggleSavedLesson, announce]);
 
   const learned = useMemo(
     () => wordIds.reduce((count, id) => (isLearned(cards.get(id)) ? count + 1 : count), 0),
@@ -179,7 +133,8 @@ export function LessonDetailPage() {
         ? `Bạn đã thuộc cả ${total} từ, trong đó ${due} từ tới hẹn ôn hôm nay.`
         : `Bạn đã thuộc cả ${total} từ, chưa từ nào tới hẹn ôn.`;
 
-  const otherModes = STUDY_NAV.filter((item) => item.to !== '/the');
+  // Gõ đáp án là nút chính nên hàng phụ chỉ còn những cách luyện kia.
+  const otherModes = STUDY_NAV.filter((item) => item.to !== '/go');
 
   return (
     <div
@@ -208,35 +163,24 @@ export function LessonDetailPage() {
         className="min-w-0 border-b border-line pb-4"
       >
         <div
-          className="flex min-w-0 items-start justify-between"
+          className="min-w-0"
         >
-          <div
-            className="min-w-0 pr-3"
+          <h1
+            className="text-[1.375rem] font-semibold tracking-tight break-words text-ink"
           >
-            <h1
-              className="text-[1.375rem] font-semibold tracking-tight break-words text-ink"
-            >
-              {`Buổi ${lesson.index} · HSK ${lesson.level}`}
-            </h1>
-            <p
-              className="mt-1 min-w-0 break-words text-[0.875rem] text-ink-soft"
-            >
-              {`${total} từ · `}
-              <span
-                lang="zh-Hans"
-                className="han"
-              >
-                {`${lesson.range.from} → ${lesson.range.to}`}
-              </span>
-            </p>
-          </div>
-          <Button
-            variant={saved ? 'saved' : 'secondary'}
-            icon={saved ? 'star-filled' : 'star'}
-            onClick={handleToggleLesson}
+            {`Buổi ${lesson.index} · HSK ${lesson.level}`}
+          </h1>
+          <p
+            className="mt-1 min-w-0 break-words text-[0.875rem] text-ink-soft"
           >
-            {saved ? 'Đã lưu' : 'Lưu buổi'}
-          </Button>
+            {`${total} từ · `}
+            <span
+              lang="zh-Hans"
+              className="han"
+            >
+              {`${lesson.range.from} → ${lesson.range.to}`}
+            </span>
+          </p>
         </div>
 
         <div
@@ -257,7 +201,7 @@ export function LessonDetailPage() {
         className="min-w-0"
       >
         <Link
-          to={`/the?lesson=${encodeURIComponent(lesson.id)}`}
+          to={`/go?lesson=${encodeURIComponent(lesson.id)}`}
           className="tap flex w-full min-w-0 items-center justify-center border border-cinnabar bg-cinnabar px-5 py-3 text-center text-[1rem] font-medium text-paper no-underline rounded-[0.375rem] transition-colors duration-150 hover:bg-cinnabar-ink"
         >
           {primaryLabel}
@@ -265,7 +209,7 @@ export function LessonDetailPage() {
         <p
           className="mt-2 text-[0.8125rem] leading-relaxed text-ink-faint"
         >
-          {`${primaryHint} Bắt đầu bằng lật thẻ để làm quen mặt chữ, rồi kiểm tra lại bằng ba cách dưới đây.`}
+          {`${primaryHint} Gõ đáp án để nhớ chữ Hán, pinyin và nghĩa, rồi luyện tai và luyện miệng bằng hai cách dưới đây.`}
         </p>
 
         <p
@@ -274,7 +218,7 @@ export function LessonDetailPage() {
           Luyện cách khác
         </p>
         <ul
-          className="m-0 mt-2 grid list-none grid-cols-3 gap-2 p-0 xsm:grid-cols-1"
+          className="m-0 mt-2 grid list-none grid-cols-2 gap-2 p-0 xsm:grid-cols-1"
         >
           {otherModes.map((item) => (
             <li
@@ -298,8 +242,6 @@ export function LessonDetailPage() {
         </ul>
       </section>
 
-      <LiveMessage message={message} token={token} />
-
       <section
         className="min-w-0"
       >
@@ -314,7 +256,6 @@ export function LessonDetailPage() {
           {words.map((word) => {
             const card = cards.get(word.id);
             const status = wordStatus(card, readAt);
-            const starred = starOverrides.get(word.id) ?? card?.starred ?? false;
             return (
               <li
                 key={word.id}
@@ -333,18 +274,13 @@ export function LessonDetailPage() {
                       showTraditional={settings.showTraditional}
                     />
                   </div>
-                  <div
-                    className="ml-2 flex shrink-0 flex-col items-end space-y-1.5"
-                  >
-                    <SaveWordButton
-                      word={word.simplified}
-                      saved={starred}
-                      onToggle={() => {
-                        void handleToggleStar(word);
-                      }}
-                    />
-                    {cardsLoading ? null : <WordStatusChip status={status} />}
-                  </div>
+                  {cardsLoading ? null : (
+                    <div
+                      className="ml-2 shrink-0"
+                    >
+                      <WordStatusChip status={status} />
+                    </div>
+                  )}
                 </div>
               </li>
             );

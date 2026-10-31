@@ -19,6 +19,11 @@ describe('isTransientError', () => {
     expect(isTransientError(new TypeError('fetch failed'))).toBe(true);
   });
 
+  it('503 mang mã nghiệp vụ của máy chủ (AI chưa bật) thì không phải chuyện tạm thời', () => {
+    expect(isTransientError(new ApiError(503, { status: 503, code: 'AI_DISABLED' }))).toBe(false);
+    expect(isTransientError(new ApiError(504, { status: 504, code: 'AI_TIMEOUT' }))).toBe(false);
+  });
+
   it('lỗi nghiệp vụ và lỗi lạ thì không', () => {
     expect(isTransientError(new ApiError(400))).toBe(false);
     expect(isTransientError(new ApiError(403))).toBe(false);

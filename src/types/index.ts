@@ -20,6 +20,7 @@ export type {
   LastMistake,
   LookupEntry,
   LookupSource,
+  PracticeMode,
   ProgressSummary,
   Rating,
   ReviewLogEntry,

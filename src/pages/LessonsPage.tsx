@@ -26,15 +26,12 @@ import { Button } from '../components/ui/Button.tsx';
 import { Segmented, type SegmentedOption } from '../components/ui/Controls.tsx';
 import { EmptyState, Notice, ProgressBar, Spinner } from '../components/ui/Feedback.tsx';
 import { Icon } from '../components/ui/Icon.tsx';
-import { LiveMessage } from '../components/ui/LiveMessage.tsx';
 import {
   LessonList,
   lessonStatus,
   pickNextLesson,
   useLessonProgress,
-  useSavedLessonIds,
 } from '../features/lessons/index.ts';
-import { useLiveMessage } from '../hooks/useLiveMessage.ts';
 import { useSettings } from '../hooks/settings-context.ts';
 import { useLessons, useVocabulary } from '../hooks/vocabulary-context.ts';
 import { HSK_LEVELS, type HskLevel, type Lesson } from '../types/vocabulary.ts';
@@ -57,16 +54,16 @@ const LEVEL_PARAM = 'cap';
 /** Bộ lọc cũng nằm trên địa chỉ, vì cùng lý do. */
 const FILTER_PARAM = 'loc';
 
-type FilterKey = 'tat-ca' | 'can-on' | 'dang-hoc' | 'chua-hoc' | 'da-luu';
+// Bộ lọc "Đã lưu" đã bỏ cùng sổ tay; địa chỉ cũ `?loc=da-luu` tự rơi về "Tất cả".
+type FilterKey = 'tat-ca' | 'can-on' | 'dang-hoc' | 'chua-hoc';
 
-const FILTER_KEYS: readonly FilterKey[] = ['tat-ca', 'can-on', 'dang-hoc', 'chua-hoc', 'da-luu'];
+const FILTER_KEYS: readonly FilterKey[] = ['tat-ca', 'can-on', 'dang-hoc', 'chua-hoc'];
 
 const FILTER_LABEL: Record<FilterKey, string> = {
   'tat-ca': 'Tất cả',
   'can-on': 'Cần ôn',
   'dang-hoc': 'Đang học',
   'chua-hoc': 'Chưa học',
-  'da-luu': 'Đã lưu',
 };
 
 export function LessonsPage() {
@@ -75,7 +72,6 @@ export function LessonsPage() {
   const [params, setParams] = useSearchParams();
   const location = useLocation();
   const navigate = useNavigate();
-  const { message, token, announce } = useLiveMessage();
 
   const jumpId = useId();
   const jumpErrorId = `${jumpId}-loi`;
@@ -104,7 +100,6 @@ export function LessonsPage() {
   // đọc kho là chuỗi ghép các mã từ, nên lọc trước sẽ bắt đọc lại IndexedDB mỗi
   // lần đổi bộ lọc, mà số đếm trên nhãn bộ lọc cũng sai theo.
   const { progress, cards, loading: progressLoading } = useLessonProgress(lessons);
-  const { ids: savedIds, toggle: toggleSaved } = useSavedLessonIds();
 
   const counts = useMemo(() => {
     let done = 0;
@@ -123,13 +118,6 @@ export function LessonsPage() {
     }
     return { done, doing, fresh, due };
   }, [lessons, progress]);
-
-  // Danh sách chỉ hiện buổi của một cấp, nên nhãn bộ lọc cũng phải đếm trong
-  // cấp đó — nếu không thì "Đã lưu 3" mà lọc ra danh sách rỗng.
-  const savedInLevel = useMemo(
-    () => lessons.reduce((count, lesson) => (savedIds.has(lesson.id) ? count + 1 : count), 0),
-    [lessons, savedIds],
-  );
 
   const learnedWords = useMemo(() => {
     let learned = 0;
@@ -155,13 +143,11 @@ export function LessonsPage() {
           return lessonStatus(item) === 'doing';
         case 'chua-hoc':
           return lessonStatus(item) === 'new';
-        case 'da-luu':
-          return savedIds.has(lesson.id);
         default:
           return true;
       }
     },
-    [filterKey, progress, savedIds],
+    [filterKey, progress],
   );
 
   // Trong lúc tiến độ chưa đọc xong thì mọi buổi đều trông như chưa học, nên bộ
@@ -177,7 +163,6 @@ export function LessonsPage() {
       'can-on': counts.due,
       'dang-hoc': counts.doing,
       'chua-hoc': counts.fresh,
-      'da-luu': savedInLevel,
     };
     return FILTER_KEYS.map((key) => ({
       value: key,
@@ -186,7 +171,7 @@ export function LessonsPage() {
         ? FILTER_LABEL[key]
         : `${FILTER_LABEL[key]}, ${size[key]} buổi`,
     }));
-  }, [lessons.length, counts, savedInLevel, progressLoading]);
+  }, [lessons.length, counts, progressLoading]);
 
   const changeLevel = (next: LevelKey): void => {
     const nextParams = new URLSearchParams(params);
@@ -202,19 +187,6 @@ export function LessonsPage() {
     else nextParams.set(FILTER_PARAM, next);
     setParams(nextParams, { replace: true });
   };
-
-  const handleToggleSave = useCallback(
-    (lesson: Lesson): void => {
-      void toggleSaved(lesson.id).then((saved) => {
-        announce(
-          saved
-            ? `Đã lưu buổi ${lesson.index} vào sổ tay`
-            : `Đã bỏ buổi ${lesson.index} khỏi sổ tay`,
-        );
-      });
-    },
-    [toggleSaved, announce],
-  );
 
   /*
     Quay lại từ một buổi học mang theo neo `#buoi-42`. Chỉ cuộn sau khi dữ liệu
@@ -397,25 +369,17 @@ export function LessonsPage() {
             </form>
           </div>
 
-          <LiveMessage message={message} token={token} />
-
           <LessonList
             lessons={visible}
             progress={progress}
             label={`Các buổi học HSK ${level}`}
-            savedIds={savedIds}
-            onToggleSave={handleToggleSave}
             currentId={resume !== null && resume.reason === 'dang-do' ? resume.lesson.id : null}
             listQuery={location.search}
             empty={
               <EmptyState
                 icon="book"
                 title="Không có buổi nào ở trạng thái này"
-                description={
-                  filterKey === 'da-luu'
-                    ? 'Bấm ngôi sao trên một buổi để lưu buổi đó vào sổ tay.'
-                    : 'Thử bỏ bộ lọc để xem lại toàn bộ buổi học của cấp này.'
-                }
+                description="Thử bỏ bộ lọc để xem lại toàn bộ buổi học của cấp này."
                 action={
                   <Button
                     variant="secondary"

@@ -1,8 +1,8 @@
 # Mỗi Ngày 中文
 
 Ứng dụng web học từ vựng **HSK 3.0 cấp 1 đến cấp 4** dành cho người Việt. Toàn bộ 3.245 từ
-được chia sẵn thành **324 buổi học khoảng 10 từ**, học bằng bốn cách: lật thẻ, gõ đáp án,
-nghe chép và luyện nói.
+được chia sẵn thành **324 buổi học khoảng 10 từ**, học bằng ba cách: gõ đáp án, nghe chép
+và luyện nói.
 
 Không cần đăng nhập, không có backend. Tiến độ nằm trên máy người học (IndexedDB) và ứng dụng
 dùng được khi ngoại tuyến sau lần tải đầu tiên.
@@ -70,53 +70,46 @@ Chi tiết đầy đủ nằm ở trang **Nguồn dữ liệu** trong ứng dụ
 
 ## Chức năng đã làm
 
-### Bốn chế độ luyện tập
+### Ba chế độ luyện tập
 
-1. **Lật thẻ** — mặt trước là chữ Hán cỡ lớn; mặt sau có pinyin, nghĩa Việt, nghĩa Anh, từ
-   loại và một câu ví dụ kèm pinyin, bản dịch. Có nút nghe, nghe chậm, ba mức tự đánh giá
-   (chưa nhớ / gần nhớ / đã nhớ) và nút tra từ. Vuốt trái phải trên điện thoại, và vẫn có
-   đủ nút bấm cho người dùng bàn phím.
-2. **Gõ đáp án** — bốn dạng đề (nghĩa Việt → chữ Hán hoặc pinyin, nghĩa Anh → chữ Hán hoặc
+1. **Gõ đáp án** — bốn dạng đề (nghĩa Việt → chữ Hán hoặc pinyin, nghĩa Anh → chữ Hán hoặc
    pinyin, chữ Hán → pinyin, pinyin → nghĩa). Thanh trợ giúp nằm ngay trên ô nhập. Chấm ba
    mức đúng / gần đúng / chưa đúng và chỉ rõ ký tự hoặc âm tiết nào sai. Enter để kiểm tra,
    Enter lần nữa để sang câu kế.
-3. **Nghe chép** — ẩn chữ Hán, chỉ có nút phát. Trả lời bằng chữ Hán, pinyin hoặc chọn nghĩa.
+2. **Nghe chép** — ẩn chữ Hán, chỉ có nút phát. Trả lời bằng chữ Hán, pinyin hoặc chọn nghĩa.
    Có nghe lại, phát chậm, nghe từng âm tiết, hé dần pinyin, xem nghĩa, xem đáp án.
-4. **Luyện nói** — nghe mẫu rồi đọc lại, dùng Web Speech Recognition với `zh-CN`.
+3. **Luyện nói** — nghe mẫu rồi đọc lại, dùng Web Speech Recognition với `zh-CN`.
 
-### Sổ tay
+### Đã bỏ
 
-Bấm ngôi sao ở bất cứ đâu — lúc lật thẻ, lúc gõ, lúc tra từ, hay trên một buổi học — thì từ
-hoặc buổi đó vào **Sổ tay**. Sổ tay có ba mục: từ đã lưu, buổi đã lưu, và các từ vừa tra. Hai
-mục đầu do người học tự chọn nên giữ đến khi chính họ bỏ; mục thứ ba do máy tự ghi và chỉ giữ
-300 từ gần nhất — ứng dụng nói rõ khác biệt đó ngay trên màn hình.
-
-Ôn riêng các từ đã lưu bằng một nút, và phiên đó lấy toàn bộ sổ tay chứ không lọc theo cấp
-đang học: sổ tay là danh sách cá nhân, không phải một lát cắt của bộ từ.
+**Lật thẻ**, **Sổ tay** (lưu từ / buổi bằng ngôi sao), trang **Tra từ** và nút **Tra từ nhanh**
+(Ctrl/⌘+K) đã bỏ vì người học ít dùng. Đường dẫn cũ không rơi vào trang 404: `/the` chuyển sang
+`/go` giữ nguyên tham số (`?lesson=…`, `?level=…&pool=…`), `/da-luu` và `/tra-tu` về trang chủ.
+Dữ liệu cũ vẫn ở yên trong máy: lượt ôn ghi nhãn "Lật thẻ" vẫn hiện ở trang Tiến độ, và tệp sao
+lưu vẫn xuất / nhập cả sổ tay lẫn lịch sử tra từ như trước.
 
 ### Học tập và tiến độ
 
 - Thuật toán lặp lại ngắt quãng **FSRS 4.5** (`src/lib/srs/fsrs.ts`), có ghi rõ công thức và
   lý do trong chú thích.
 - Lưu trên máy: từ đã học, số lần đúng sai, lỗi gần nhất, ngày cần ôn, mức ghi nhớ, chế độ
-  hay sai, sổ tay từ và buổi học đã lưu, chuỗi ngày học thật.
+  hay sai, chuỗi ngày học thật.
 - Trang chủ: số từ cần ôn hôm nay, mục tiêu ngày, nút học tiếp, tiến độ từng cấp HSK, những
   từ hay sai, lịch sử bảy ngày gần nhất.
 - **Người dùng mới bắt đầu từ trạng thái trống hoàn toàn.** Không có dữ liệu mẫu.
 - Đổi cách luyện giữa chừng vẫn giữ nguyên tập từ đang luyện, nhờ hàng chip đổi chế độ ngay
   trong phiên học.
-- Ba nút tự đánh giá ghi luôn khoảng ôn dự kiến, để người học thấy hệ quả của lựa chọn.
 
 ### Buổi học
 
 Mỗi cấp được chia thành các buổi khoảng 10 từ: HSK 1 có 50 buổi, HSK 2 có 77 buổi, HSK 3 có
-97 buổi, HSK 4 có 100 buổi. Danh sách có bộ lọc theo trạng thái (cần ôn, đang học, chưa học,
-đã lưu), ô nhảy thẳng tới buổi số N, và thẻ "học tiếp" đưa về đúng chỗ vừa rời đi. Trang mở lại
+97 buổi, HSK 4 có 100 buổi. Danh sách có bộ lọc theo trạng thái (cần ôn, đang học, chưa học),
+ô nhảy thẳng tới buổi số N, và thẻ "học tiếp" đưa về đúng chỗ vừa rời đi. Trang mở lại
 đúng cấp người học đang theo chứ không luôn quay về HSK 1, và quay lại từ một buổi thì rơi
 đúng chỗ cũ trong danh sách.
 
-Mỗi buổi có một hành động chính nói rõ việc sắp làm ("Học 4 từ chưa thuộc", "Ôn 6 từ tới
-hạn"), ba cách luyện còn lại nằm ở hàng phụ.
+Mỗi buổi có một hành động chính nói rõ việc sắp làm ("Bắt đầu buổi này", "Ôn lại buổi này") và
+mở Gõ đáp án cho cả buổi; Nghe chép và Luyện nói nằm ở hàng phụ.
 
 ### Câu của tôi
 
@@ -243,17 +236,13 @@ không tính khi chỉ nằm lọt trong một từ dài hơn (好 trong 好吃,
 `bai-01.ts`); trang tự nhận và mở bài mới nhất. Học thêm từ thì thêm vào cuối `learned-words.ts`
 — khi đó bài 2 sẽ không còn đủ và kiểm thử báo đúng những từ cần thêm vào bài.
 
-### Tra từ
-
-Tìm theo chữ Hán, pinyin có hoặc không dấu thanh, tiếng Việt có hoặc không dấu, và tiếng Anh.
-Mở được ngay giữa lúc làm bài dưới dạng bottom sheet, có nút nghe và nút chèn vào ô nhập.
-
 ### Giữ dữ liệu
 
 Tiến độ nằm trong IndexedDB của máy, mà mặc định trình duyệt được phép xoá kho đó khi máy hết
 chỗ. Trang **Tiến độ** cho biết kho đã được ghim hay chưa, xin ghim bằng
-`navigator.storage.persist()`, và nhắc sao lưu khi đã quá lâu. Tệp sao lưu mang theo cả sổ tay
-từ, sổ tay buổi học và lịch sử tra từ; tệp cũ vẫn nạp được vì các phần mới không bắt buộc.
+`navigator.storage.persist()`, và nhắc sao lưu khi đã quá lâu. Tệp sao lưu vẫn mang theo sổ tay
+và lịch sử tra từ còn trong máy từ trước (hai phần này đã bỏ khỏi giao diện); tệp cũ vẫn nạp được
+vì các phần đó không bắt buộc.
 
 ### Trải nghiệm
 
@@ -262,9 +251,9 @@ hiện thêm chữ phồn thể; chế độ tối (không dùng đen tuyệt đ
 điều hướng bàn phím; aria-label cho nút chỉ có biểu tượng; tôn trọng `prefers-reduced-motion`;
 không tự phát âm thanh; không xin quyền micro trước khi người dùng bấm nút luyện nói.
 
-Thanh điều hướng mang bảy đích đến — Hôm nay, Buổi học, Câu của tôi, Nghe cố định, Sổ tay,
-Tra từ, Nghe đoạn văn — chứ không mang bốn cách luyện, vì vào thẳng một cách luyện thì không rõ đang học từ nào. Mọi thao tác
-lưu và chấm điểm đều báo lại bằng một câu trong vùng `aria-live`. Màu chữ và màu viền đã được
+Thanh điều hướng mang các đích đến — Hôm nay, Buổi học, Câu của tôi, Nghe cố định, Nghe đoạn
+văn — chứ không mang các cách luyện, vì vào thẳng một cách luyện thì không rõ đang học từ nào.
+Mọi thao tác chấm điểm đều báo lại bằng một câu trong vùng `aria-live`. Màu chữ và màu viền đã được
 đo lại theo ngưỡng tương phản WCAG.
 
 Lý do đằng sau các quyết định này nằm ở [docs/thiet-ke-ux.md](docs/thiet-ke-ux.md).
@@ -297,14 +286,11 @@ src/
     ui/            nút, bottom sheet, thanh tiến độ, biểu tượng
     providers/     cài đặt và dữ liệu từ vựng
   features/
-    flashcards/    lật thẻ
     typing/        gõ đáp án
     listening/     nghe chép
     speaking/      luyện nói
-    dictionary/    tra từ
     progress/      tiến độ
     lessons/       buổi học
-    saved/         sổ tay từ và buổi học đã lưu
     sentences/     vốn từ riêng và câu luyện nghe ghép từ vốn từ đó
     fixed-listening/  bài nghe cố định; mỗi bài một tệp trong lessons/
     shared/        thành phần trình bày dùng chung
@@ -350,8 +336,8 @@ Kho đã có `vercel.json` cấu hình sẵn cho SPA. Trên Vercel chỉ cần t
 Phần **Câu của tôi** lưu từ đã học và câu luyện nghe trên máy chủ Spring Boot
 (`bewebtiengtrung`) và dùng AI trên máy chủ để viết câu mới và điền từ. **Không cần đăng nhập**:
 máy chủ tự chạy request không mang token dưới tài khoản chủ trang (`DEFAULT_ACCOUNT`, mặc định
-`2222`). Mọi phần còn lại — buổi học, lật thẻ, gõ, nghe, nói, sổ tay, tra từ, tiến độ — vẫn nằm
-trên máy và chạy ngoại tuyến như trước.
+`2222`). Mọi phần còn lại — buổi học, gõ, nghe, nói, tiến độ — vẫn nằm trên máy và chạy ngoại
+tuyến như trước.
 
 Ứng dụng đọc địa chỉ máy chủ từ biến môi trường `VITE_API_URL` (xem `.env.example`); bỏ trống
 thì dùng `http://localhost:8080`. Biến này được nhúng vào lúc build, nên đổi giá trị là phải

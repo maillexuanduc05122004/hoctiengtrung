@@ -35,7 +35,9 @@ export type IconName =
   | 'play'
   | 'pause'
   | 'skip'
-  | 'text';
+  | 'text'
+  | 'translate'
+  | 'waveform';
 
 const PATHS: Record<IconName, string> = {
   card: 'M3 6.5h13.5v11H3zM6.5 3.5H21v11',
@@ -70,6 +72,8 @@ const PATHS: Record<IconName, string> = {
   pause: 'M7 5.5h3.5v13H7zM13.5 5.5H17v13h-3.5z',
   skip: 'M5.5 6v12l9-6zM17.5 6v12',
   text: 'M4.5 6h15M4.5 10h15M4.5 14h15M4.5 18h9',
+  translate: 'M3.5 5.5h9M8 3.5v2M5.5 5.5c.8 3 3 5.5 6 6.5M10.5 5.5c-.8 3-3 5.5-6 6.5M13 20.5l4-9 4 9M14.3 17.5h5.4',
+  waveform: 'M3.5 12h1M7 9v6M10.5 5v14M14 8v8M17.5 10.5v3M20.5 12h0',
 };
 
 const FILLED: ReadonlySet<IconName> = new Set(['star-filled', 'stop', 'play', 'pause', 'skip']);

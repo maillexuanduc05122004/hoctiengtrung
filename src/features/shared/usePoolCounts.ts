@@ -1,20 +1,16 @@
 /**
  * Còn bao nhiêu từ trong mỗi nguồn.
  *
- * Bảng chọn nguồn từ trước đây chỉ có bốn nhãn trần, nên cách duy nhất để biết
+ * Bảng chọn nguồn từ trước đây chỉ có vài nhãn trần, nên cách duy nhất để biết
  * một nguồn có rỗng hay không là chọn nó rồi vấp vào màn hình trống. Hook này
  * đếm sẵn để bảng chọn nói trước, và để nguồn rỗng bị khoá thay vì mời bấm.
  *
  * Hook chỉ chạy khi bảng chọn thật sự được gắn vào cây — mọi nơi gọi đều vẽ có
- * điều kiện. Đây là bốn lượt quét kho, không đáng chạy nền suốt phiên học chỉ
+ * điều kiện. Đây là hai lượt quét kho, không đáng chạy nền suốt phiên học chỉ
  * để phòng khi người học mở bảng.
  */
 import { useEffect, useState } from 'react';
-import {
-  countStarred,
-  getDueCards,
-  getNewWordIds,
-} from '../../db/index.ts';
+import { getDueCards, getNewWordIds } from '../../db/index.ts';
 import { useVocabulary } from '../../hooks/vocabulary-context.ts';
 import type { PoolKind } from '../../hooks/useStudySession.ts';
 import type { HskLevel } from '../../types/vocabulary.ts';
@@ -26,7 +22,7 @@ export interface PoolCountsState {
   loading: boolean;
 }
 
-const EMPTY_COUNTS: PoolCounts = { due: 0, new: 0, starred: 0, mixed: 0, lesson: 0 };
+const EMPTY_COUNTS: PoolCounts = { due: 0, new: 0, mixed: 0, lesson: 0 };
 
 export function usePoolCounts(
   levels: readonly HskLevel[],
@@ -49,17 +45,14 @@ export function usePoolCounts(
 
     const count = async (): Promise<PoolCounts> => {
       const now = Date.now();
-      const [due, fresh, starred] = await Promise.all([
+      const [due, fresh] = await Promise.all([
         getDueCards(ids, now, ids.length),
         getNewWordIds(ids, ids.length),
-        // Sổ tay đếm trên cả kho, không theo cấp: đó là danh sách cá nhân.
-        countStarred(),
       ]);
       const lesson = lessonId ? index.byLesson.get(lessonId) : undefined;
       return {
         due: due.length,
         new: fresh.length,
-        starred,
         // 'mixed' lấy từ cần ôn rồi bù từ mới, nên tổng của nó là tổng hai nguồn.
         mixed: due.length + fresh.length,
         lesson: lesson?.wordIds.length ?? 0,
@@ -71,7 +64,7 @@ export function usePoolCounts(
         if (active) setLoaded({ key: requestKey, counts });
       },
       () => {
-        // Không đếm được thì bảng chọn quay về bốn nhãn trần, vẫn dùng được.
+        // Không đếm được thì bảng chọn quay về các nhãn trần, vẫn dùng được.
         if (active) setLoaded({ key: requestKey, counts: EMPTY_COUNTS });
       },
     );

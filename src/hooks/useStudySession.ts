@@ -3,22 +3,19 @@ import {
   countByMode,
   dayKey,
   getCard,
-  getCards,
   getDueCards,
   getNewWordIds,
-  getStarredCards,
   recordReview,
   saveCard,
-  toggleStar as toggleStarInDb,
 } from '../db/index.ts';
 import { applyReview, createInitialCard, ratingFromAnswer } from '../lib/srs/index.ts';
 import { useVocabulary } from './vocabulary-context.ts';
 import { useSettings } from './settings-context.ts';
-import type { AnswerVerdict, CardState, StudyMode } from '../types/study.ts';
+import type { AnswerVerdict, StudyMode } from '../types/study.ts';
 import type { HskLevel, VocabularyWord } from '../types/vocabulary.ts';
 
 /** Nguồn từ đưa vào một phiên học. */
-export type PoolKind = 'due' | 'new' | 'starred' | 'mixed' | 'lesson';
+export type PoolKind = 'due' | 'new' | 'mixed' | 'lesson';
 
 export interface StudySessionOptions {
   mode: StudyMode;
@@ -61,18 +58,14 @@ export interface StudySession {
   error: string | null;
   queue: VocabularyWord[];
   current: VocabularyWord | null;
-  /** Thẻ ghi nhớ của từ đang hiện, để giao diện xem trước hạn ôn kế tiếp. */
-  currentCard: CardState | null;
-  /** Mốc đọc kho, dùng làm "bây giờ" khi tính hạn ôn để hiển thị. */
-  readAt: number;
   index: number;
   stats: SessionStats;
   /**
    * Tổng số từ nguồn này đang có, trước khi cắt còn `limit`.
    *
-   * Giao diện phải nói ra con số này: lưu 63 từ mà mỗi phiên chỉ gặp 20 thì
-   * người học cần biết mình đang ở đâu trong số đó, thay vì tưởng sổ tay chỉ
-   * có 20 từ.
+   * Giao diện phải nói ra con số này: có 63 từ tới hạn mà mỗi phiên chỉ gặp 20
+   * thì người học cần biết mình đang ở đâu trong số đó, thay vì tưởng chỉ còn
+   * 20 từ.
    */
   poolTotal: number;
   finished: boolean;
@@ -86,8 +79,6 @@ export interface StudySession {
   replayMissed: () => void;
   /** Các từ đã trả lời sai hoặc gần đúng trong phiên này. */
   missed: VocabularyWord[];
-  starred: ReadonlySet<string>;
-  toggleStar: (wordId: string) => Promise<boolean>;
 }
 
 const MODES: readonly StudyMode[] = ['flashcards', 'typing', 'listening', 'speaking'];
@@ -102,8 +93,6 @@ const EMPTY_STATS: SessionStats = {
   skipped: 0,
 };
 const EMPTY_QUEUE: VocabularyWord[] = [];
-const EMPTY_STARRED: ReadonlySet<string> = new Set<string>();
-const EMPTY_CARDS: ReadonlyMap<string, CardState> = new Map<string, CardState>();
 
 /** Kết quả của một lần dựng hàng đợi, gắn với khoá yêu cầu đã sinh ra nó. */
 interface LoadedSession {
@@ -111,16 +100,6 @@ interface LoadedSession {
   queue: VocabularyWord[];
   /** Số từ nguồn này có, trước khi cắt còn `limit`. */
   total: number;
-  starred: ReadonlySet<string>;
-  cards: ReadonlyMap<string, CardState>;
-  /**
-   * Mốc của lần đọc kho, dùng làm "bây giờ" cho phần xem trước hạn ôn.
-   *
-   * Chốt ở đây chứ không đọc đồng hồ giữa lúc vẽ: gọi `Date.now()` trong thân
-   * thành phần thì mỗi lượt vẽ lại cho một con số khác, mà khoảng "3 ngày" trên
-   * nút chấm không cần chính xác tới từng lượt vẽ.
-   */
-  at: number;
 }
 
 /** Một hàng đợi do chính người học yêu cầu phát lại, không đọc lại kho. */
@@ -132,7 +111,7 @@ interface ReplayQueue {
 
 /**
  * Chế độ người học hay sai nhất, tính trên cả nhật ký ôn của từ chứ không phải
- * chế độ vừa sai: sai chín lần khi gõ đáp án rồi sai một lần khi lật thẻ thì chỗ
+ * chế độ vừa sai: sai chín lần khi gõ đáp án rồi sai một lần khi nghe chép thì chỗ
  * yếu vẫn là gõ đáp án. Hoà nhau thì lấy chế độ vừa sai vì đó là bằng chứng mới nhất.
  */
 function weakestModeOf(
@@ -152,7 +131,7 @@ function weakestModeOf(
  * Bộ máy của một phiên luyện tập.
  *
  * Chịu trách nhiệm dựng hàng đợi từ, chấm điểm qua FSRS và ghi lại tiến độ.
- * Phần giao diện của bốn chế độ chỉ việc hiển thị `current` rồi gọi `submit`,
+ * Phần giao diện của các chế độ chỉ việc hiển thị `current` rồi gọi `submit`,
  * nhờ vậy logic lặp lại ngắt quãng nằm ngoài component.
  *
  * Trạng thái "đang tải" được suy ra bằng cách so khoá yêu cầu hiện tại với khoá
@@ -196,35 +175,6 @@ export function useStudySession(options: StudySessionOptions): StudySession {
 
     /** Trả về cả hàng đợi đã cắt lẫn tổng số từ nguồn này đang có. */
     const build = async (): Promise<{ words: VocabularyWord[]; total: number }> => {
-      if (pool === 'starred') {
-        /*
-          Sổ tay là danh sách cá nhân, không phải một lát cắt của bộ từ, nên KHÔNG
-          lọc theo cấp đang chọn: lưu một từ HSK 3 rồi quay về học HSK 1 mà từ đó
-          biến mất thì chẳng khác gì mất dữ liệu.
-
-          Thứ tự là "lâu chưa ôn nhất trước", không phải "lưu lâu nhất trước" và
-          cũng không xáo trộn. Lý do: khoá sắp xếp phải là thứ THAY ĐỔI sau mỗi
-          lượt học, nếu không thì phiên nào cũng cắt ra đúng 20 từ đầu danh sách
-          và từ thứ 21 trở đi không bao giờ tới lượt. `lastReviewedAt` được ghi
-          lại sau mỗi lượt ôn nên nhóm vừa học tự tụt xuống cuối, phiên sau lấy
-          sang nhóm kế tiếp và cả sổ tay đi hết được một vòng.
-
-          Từ chưa ôn lần nào có `lastReviewedAt` là null nên tự đứng đầu — đúng
-          thứ tự người học mong: những từ mới lưu vì thấy khó được gặp trước.
-        */
-        const saved = await getStarredCards();
-        saved.sort(
-          (a, b) =>
-            (a.lastReviewedAt ?? 0) - (b.lastReviewedAt ?? 0) ||
-            (a.starredAt ?? 0) - (b.starredAt ?? 0) ||
-            a.wordId.localeCompare(b.wordId),
-        );
-        const words = saved
-          .map((card) => vocabulary.byId.get(card.wordId))
-          .filter((word): word is VocabularyWord => word !== undefined);
-        return { words: words.slice(0, limit), total: words.length };
-      }
-
       const ids = candidates.map((w) => w.id);
       if (ids.length === 0) return { words: [], total: 0 };
       const byId = new Map(candidates.map((w) => [w.id, w]));
@@ -257,18 +207,9 @@ export function useStudySession(options: StudySessionOptions): StudySession {
     };
 
     build()
-      .then(async ({ words, total }) => {
+      .then(({ words, total }) => {
         if (!active) return;
-        const cards = await getCards(words.map((w) => w.id));
-        if (!active) return;
-        setLoaded({
-          key: requestKey,
-          queue: words,
-          total,
-          cards,
-          at: Date.now(),
-          starred: new Set([...cards.values()].filter((c) => c.starred).map((c) => c.wordId)),
-        });
+        setLoaded({ key: requestKey, queue: words, total });
         setCursor(0);
         setReplayed(null);
         setMissedIds([]);
@@ -285,7 +226,7 @@ export function useStudySession(options: StudySessionOptions): StudySession {
     return () => {
       active = false;
     };
-  }, [candidates, pool, limit, settings.newPerDay, vocabularyLoading, requestKey, vocabulary.byId]);
+  }, [candidates, pool, limit, settings.newPerDay, vocabularyLoading, requestKey]);
 
   const ready = loaded?.key === requestKey;
   const failed = failure?.key === requestKey;
@@ -294,10 +235,7 @@ export function useStudySession(options: StudySessionOptions): StudySession {
   // vừa bấm, còn hàng đợi kia là kết quả của lần dựng trước đó.
   const built = ready ? loaded.queue : EMPTY_QUEUE;
   const queue = replayed !== null ? replayed.words : built;
-  const starred = ready ? loaded.starred : EMPTY_STARRED;
-  const cards = ready ? loaded.cards : EMPTY_CARDS;
   const current = queue[cursor] ?? null;
-  const currentCard = current === null ? null : (cards.get(current.id) ?? null);
 
   const missed = useMemo(
     () =>
@@ -409,25 +347,11 @@ export function useStudySession(options: StudySessionOptions): StudySession {
   const replay = useCallback(() => replayWords(queue), [replayWords, queue]);
   const replayMissed = useCallback(() => replayWords(missed), [replayWords, missed]);
 
-  const toggleStar = useCallback(async (wordId: string): Promise<boolean> => {
-    const next = await toggleStarInDb(wordId);
-    setLoaded((prev) => {
-      if (!prev) return prev;
-      const copy = new Set(prev.starred);
-      if (next) copy.add(wordId);
-      else copy.delete(wordId);
-      return { ...prev, starred: copy };
-    });
-    return next;
-  }, []);
-
   return {
     loading,
     error: failed ? failure.message : null,
     queue,
     current,
-    currentCard,
-    readAt: ready ? loaded.at : 0,
     index: cursor,
     stats,
     poolTotal: ready ? loaded.total : 0,
@@ -438,7 +362,5 @@ export function useStudySession(options: StudySessionOptions): StudySession {
     replay,
     replayMissed,
     missed,
-    starred,
-    toggleStar,
   };
 }

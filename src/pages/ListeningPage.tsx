@@ -15,8 +15,6 @@ import { SessionSummary } from '../features/shared/SessionSummary.tsx';
 import { StudyHeader } from '../features/shared/StudyHeader.tsx';
 import { StudyOptions, type StudyOptionsValue } from '../features/shared/StudyOptions.tsx';
 import { studySessionQuery, studySourceLabel } from '../features/shared/study-source.ts';
-import { saveWordMessage } from '../features/shared/save-word.ts';
-import { useLiveMessage } from '../hooks/useLiveMessage.ts';
 import { useSettings } from '../hooks/settings-context.ts';
 import { useStudySession, type PoolKind } from '../hooks/useStudySession.ts';
 import { useVocabulary } from '../hooks/vocabulary-context.ts';
@@ -28,7 +26,6 @@ const SESSION_LIMIT = 15;
 const EMPTY_HINTS: Record<PoolKind, string> = {
   due: 'Hôm nay chưa có từ nào tới hạn ôn. Chọn "Từ mới" hoặc "Trộn" để học tiếp.',
   new: 'Bạn đã mở hết từ mới của những cấp đang chọn. Thử thêm một cấp khác.',
-  starred: 'Sổ tay của bạn còn trống. Bấm ngôi sao ở đầu trang khi gặp từ khó.',
   mixed: 'Chưa có từ nào cho phiên này. Thử chọn thêm cấp HSK.',
   lesson: 'Buổi học này chưa có từ nào.',
 };
@@ -47,7 +44,7 @@ function parseLevels(raw: string | null, fallback: readonly HskLevel[]): HskLeve
 /** Có tham số buổi học thì nguồn từ luôn là buổi học đó, bỏ qua tham số pool. */
 function parsePool(raw: string | null, lessonId: string | null): PoolKind {
   if (lessonId !== null && lessonId.trim() !== '') return 'lesson';
-  if (raw === 'due' || raw === 'new' || raw === 'starred' || raw === 'mixed') return raw;
+  if (raw === 'due' || raw === 'new' || raw === 'mixed') return raw;
   return 'mixed';
 }
 
@@ -57,7 +54,6 @@ export function ListeningPage() {
   const [searchParams, setSearchParams] = useSearchParams();
   const [answerMode, setAnswerMode] = useState<ListeningAnswerMode>('hanzi');
   const [optionsOpen, setOptionsOpen] = useState(false);
-  const { message, token, announce } = useLiveMessage();
 
   const levelParam = searchParams.get('level');
   const poolParam = searchParams.get('pool');
@@ -98,7 +94,6 @@ export function ListeningPage() {
   };
 
   const current = session.current;
-  const starred = current !== null && session.starred.has(current.id);
 
   const source = studySourceLabel({
     pool,
@@ -109,30 +104,12 @@ export function ListeningPage() {
   });
 
   const headerActions = (
-    <>
-      {current !== null ? (
-        <IconButton
-          icon={starred ? 'star-filled' : 'star'}
-          // Nhãn không nhắc chữ Hán: IconButton dùng nhãn này làm cả title lẫn
-          // aria-label, mà chế độ nghe giấu chữ Hán cho tới khi trả lời xong.
-          label={starred ? 'Bỏ lưu từ này' : 'Lưu từ này vào sổ tay'}
-          pressed={starred}
-          pressedVariant="saved"
-          onClick={() => {
-            void session.toggleStar(current.id).then(
-              (saved) => announce(saveWordMessage(current.simplified, saved)),
-              () => announce('Không lưu được vào máy này.'),
-            );
-          }}
-        />
-      ) : null}
-      <IconButton
-        icon="settings"
-        label="Tuỳ chọn phiên nghe"
-        pressed={optionsOpen}
-        onClick={() => setOptionsOpen((open) => !open)}
-      />
-    </>
+    <IconButton
+      icon="settings"
+      label="Tuỳ chọn phiên nghe"
+      pressed={optionsOpen}
+      onClick={() => setOptionsOpen((open) => !open)}
+    />
   );
 
   const empty = !session.loading && session.error === null && session.queue.length === 0;
@@ -214,8 +191,6 @@ export function ListeningPage() {
         sessionQuery={studySessionQuery(pool, levels, lessonId)}
         done={session.stats.done + session.stats.skipped}
         total={session.stats.total}
-        message={message}
-        messageToken={token}
         right={headerActions}
       />
 

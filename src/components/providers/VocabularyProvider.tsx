@@ -6,9 +6,9 @@ import { HSK_LEVELS } from '../../types/vocabulary.ts';
 /**
  * Nạp toàn bộ từ vựng của mọi cấp trong `HSK_LEVELS` một lần khi mở ứng dụng.
  *
- * Nạp cả các cấp thay vì nạp dần vì hộp tra từ phải tìm được mọi từ, và vì dữ
- * liệu đã nằm sẵn trong gói cài đặt nên lần sau service worker phục vụ ngay từ
- * bộ nhớ đệm, không cần mạng.
+ * Nạp cả các cấp thay vì nạp dần vì trang tiến độ và các phiên trộn nhiều cấp
+ * cần đủ mọi từ, và vì dữ liệu đã nằm sẵn trong gói cài đặt nên lần sau service
+ * worker phục vụ ngay từ bộ nhớ đệm, không cần mạng.
  *
  * `loading` được suy ra từ việc kết quả đã nạp có khớp lần thử hiện tại hay
  * chưa, nên effect chỉ đặt trạng thái trong nhánh bất đồng bộ.

@@ -1,8 +1,9 @@
 /**
  * Trạng thái ghi nhớ của một từ.
  *
- * Tách khỏi phần vẽ vì trang buổi học và sổ tay đều cần đúng phép phân loại này;
- * nếu mỗi nơi tự tính thì hai màn hình sẽ nói khác nhau về cùng một thẻ.
+ * Tách khỏi phần vẽ vì cả số đếm đầu trang buổi học lẫn nhãn của từng từ đều
+ * cần đúng phép phân loại này; nếu mỗi nơi tự tính thì hai chỗ sẽ nói khác nhau
+ * về cùng một thẻ.
  */
 import type { CardState } from '../../types/study.ts';
 

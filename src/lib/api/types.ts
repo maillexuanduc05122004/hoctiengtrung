@@ -251,4 +251,74 @@ export interface AiStatus {
   enabled: boolean;
   model: string;
   reason?: string;
+  /**
+   * Máy chủ có chấm phát âm và chấm bản dịch bằng AI không (cần Gemini vì phải
+   * nghe được âm thanh). Máy chủ bản cũ không có trường này: `undefined` nghĩa
+   * là chưa biết, cứ gọi thử rồi xử lý lỗi.
+   */
+  tutorEnabled?: boolean;
+}
+
+// ---- AI chấm bài: dịch Việt → Trung và phát âm ----
+
+export type TutorVerdict = 'correct' | 'close' | 'wrong';
+
+export interface TranslationCheckRequest {
+  vi: string;
+  expectedHanzi: string;
+  expectedPinyin?: string;
+  answer: string;
+}
+
+export interface TranslationMistake {
+  wrong: string;
+  right: string;
+  note: string;
+}
+
+export interface TranslationCheckResponse {
+  verdict: TutorVerdict;
+  /** Bản sửa giữ sát câu người học nhất có thể; trùng câu người học khi đã đúng. */
+  corrected: string;
+  correctedPinyin: string;
+  explanation: string;
+  mistakes: TranslationMistake[];
+  model: string;
+}
+
+/** Một âm tiết cần đọc: một chữ Hán và cách đọc đúng của nó trong câu. */
+export interface ExpectedSyllable {
+  hanzi: string;
+  pinyin: string;
+}
+
+export interface PronunciationRequest {
+  hanzi: string;
+  syllables: ExpectedSyllable[];
+  /** Âm thanh mã hoá base64, không kèm tiền tố `data:`. */
+  audioBase64: string;
+  mimeType: string;
+}
+
+export type SyllableIssue = 'none' | 'tone' | 'initial' | 'final' | 'missing' | 'unclear';
+
+export interface SyllableAssessment {
+  hanzi: string;
+  expected: string;
+  /** Âm AI nghe được thật; rỗng khi không nghe ra. */
+  heard: string;
+  ok: boolean;
+  issue: SyllableIssue;
+  tip: string;
+}
+
+export interface PronunciationResponse {
+  heardHanzi: string;
+  heardPinyin: string;
+  /** 0–100. */
+  score: number;
+  summary: string;
+  /** Đúng bằng số âm tiết đã gửi, cùng thứ tự. */
+  syllables: SyllableAssessment[];
+  model: string;
 }

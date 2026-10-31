@@ -219,7 +219,7 @@ export function HomePage() {
                     to={
                       suggestion !== null
                         ? `/buoi-hoc/${suggestion.lesson.id}`
-                        : studyLink('/the', 'new', levels)
+                        : studyLink('/go', 'new', levels)
                     }
                   >
                     Học buổi đầu tiên
@@ -264,7 +264,7 @@ export function HomePage() {
                 className="mt-4 shrink-0 xsm:w-full"
               >
                 <ActionLink
-                  to={studyLink('/the', 'mixed', levels)}
+                  to={studyLink('/go', 'mixed', levels)}
                   tone={isNewLearner ? 'secondary' : 'primary'}
                 >
                   Học tiếp
@@ -402,13 +402,13 @@ export function HomePage() {
       )}
 
       <Section
-        id="bon-che-do"
-        title="Bốn cách luyện tập"
+        id="ba-cach-luyen"
+        title="Ba cách luyện tập"
       >
         <p
           className="mb-2 text-[0.8125rem] leading-relaxed text-ink-faint"
         >
-          Cả bốn đều lấy từ trong các cấp bạn đang chọn: ôn trước, hết mới lấy từ mới. Muốn luyện
+          Cả ba đều lấy từ trong các cấp bạn đang chọn: ôn trước, hết mới lấy từ mới. Muốn luyện
           đúng một buổi thì mở buổi đó rồi chọn cách luyện.
         </p>
         <ul
@@ -462,43 +462,6 @@ export function HomePage() {
           ))}
         </ul>
       </Section>
-
-      {summary !== null && (summary.starredTotal > 0 || summary.savedLessonsTotal > 0) ? (
-        <Section
-          id="so-tay"
-          title="Sổ tay"
-          action={
-            <Link
-              to="/da-luu"
-              className="tap inline-flex items-center justify-end text-[0.8125rem] text-ink-soft underline underline-offset-2"
-            >
-              Mở sổ tay
-            </Link>
-          }
-        >
-          <div
-            className="flex min-w-0 flex-wrap items-center justify-between"
-          >
-            <p
-              className="min-w-0 text-[0.875rem] leading-relaxed text-ink-soft"
-            >
-              {`Bạn đã lưu ${summary.starredTotal} từ và ${summary.savedLessonsTotal} buổi học.`}
-            </p>
-            {summary.starredTotal > 0 ? (
-              <div
-                className="mt-3 shrink-0 xsm:w-full"
-              >
-                <ActionLink
-                  to="/the?pool=starred"
-                  tone="secondary"
-                >
-                  {`Ôn ${summary.starredTotal} từ đã lưu`}
-                </ActionLink>
-              </div>
-            ) : null}
-          </div>
-        </Section>
-      ) : null}
 
       {summary !== null ? (
         <Section

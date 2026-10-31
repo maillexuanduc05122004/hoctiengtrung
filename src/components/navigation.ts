@@ -10,21 +10,17 @@ export interface NavItem {
 }
 
 /**
- * Bốn cách luyện tập.
+ * Ba cách luyện tập.
  *
  * Đây là CÔNG CỤ chứ không phải ĐÍCH ĐẾN: vào thẳng "/go" mà không kèm buổi học
  * hay nguồn từ thì người học rơi vào một hàng đợi họ không chọn. Vì vậy chúng
- * không còn chiếm thanh điều hướng chính; chúng xuất hiện ở nơi đã biết mình
- * đang luyện tập từ nào — trang buổi học, sổ tay, và hàng đổi chế độ trong phiên.
+ * không chiếm thanh điều hướng chính; chúng xuất hiện ở nơi đã biết mình đang
+ * luyện tập từ nào — trang buổi học và hàng đổi chế độ trong phiên.
+ *
+ * Lật thẻ đã bỏ vì người học ít dùng; đường dẫn cũ `/the` được chuyển sang
+ * `/go` (xem App.tsx).
  */
 export const STUDY_NAV: readonly NavItem[] = [
-  {
-    to: '/the',
-    label: 'Lật thẻ',
-    shortLabel: 'Thẻ',
-    icon: 'card',
-    description: 'Xem mặt chữ rồi tự kiểm tra trí nhớ',
-  },
   {
     to: '/go',
     label: 'Gõ đáp án',
@@ -49,11 +45,15 @@ export const STUDY_NAV: readonly NavItem[] = [
 ];
 
 /**
- * Bảy đích đến chính, cũng là thanh điều hướng dưới cùng trên điện thoại.
+ * Các đích đến chính, cũng là thanh điều hướng dưới cùng trên điện thoại.
  *
  * Thứ tự theo đúng nhịp một ngày học: mở app xem hôm nay cần gì, vào buổi học,
- * nghe lại vốn từ của riêng mình, ghé sổ tay, tra một từ lạ, rồi nghe một đoạn
- * văn dài hơn để luyện tai.
+ * nghe lại vốn từ của riêng mình, nghe bài cố định, tự dịch câu Việt → Trung,
+ * đọc to câu dài cho AI chấm phát âm, rồi nghe một đoạn văn dài hơn để luyện
+ * tai. "Sổ tay" và "Tra từ" đã bỏ vì người học ít dùng.
+ *
+ * "Dịch câu" và "Luyện phát âm" là đích đến vì chạy trên kho câu của các bài
+ * nghe cố định, không trên bộ HSK chia buổi hay vốn từ riêng.
  *
  * "Câu của tôi" là đích đến chứ không phải một cách luyện: nó chạy trên danh
  * sách từ người học tự khai, không phải trên bộ HSK chia buổi, nên không có chỗ
@@ -72,8 +72,8 @@ export const MAIN_NAV: readonly NavItem[] = [
   { to: '/buoi-hoc', label: 'Buổi học', shortLabel: 'Buổi học', icon: 'book' },
   { to: '/cau-cua-toi', label: 'Câu của tôi', shortLabel: 'Câu', icon: 'lightbulb' },
   { to: '/nghe-co-dinh', label: 'Nghe cố định', shortLabel: 'Nghe', icon: 'headphones' },
-  { to: '/da-luu', label: 'Sổ tay', icon: 'star' },
-  { to: '/tra-tu', label: 'Tra từ', icon: 'search' },
+  { to: '/dich-cau', label: 'Dịch câu', shortLabel: 'Dịch', icon: 'translate' },
+  { to: '/phat-am', label: 'Luyện phát âm', shortLabel: 'Phát âm', icon: 'waveform' },
   { to: '/nghe-doan-van', label: 'Nghe đoạn văn', shortLabel: 'Đoạn văn', icon: 'text' },
 ];
 

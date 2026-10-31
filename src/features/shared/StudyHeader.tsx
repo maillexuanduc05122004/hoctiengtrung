@@ -1,9 +1,8 @@
 import type { ReactNode } from 'react';
 import { Link } from 'react-router';
 import { ProgressBar } from '../../components/ui/Feedback.tsx';
-import { LiveMessage } from '../../components/ui/LiveMessage.tsx';
 import { Icon } from '../../components/ui/Icon.tsx';
-import type { StudyMode } from '../../types/study.ts';
+import type { PracticeMode } from '../../types/study.ts';
 import { ModeSwitch } from './ModeSwitch.tsx';
 
 export interface StudyHeaderProps {
@@ -11,9 +10,9 @@ export interface StudyHeaderProps {
   done: number;
   total: number;
   /** Chế độ đang mở, để vẽ hàng đổi cách luyện. */
-  mode: StudyMode;
+  mode: PracticeMode;
   /**
-   * Nguồn từ của phiên, viết cho người đọc hiểu ngay: "Từ đã lưu · 20 trong 63".
+   * Nguồn từ của phiên, viết cho người đọc hiểu ngay: "Từ cần ôn · HSK 1 · 20 trong 63 từ".
    * Bấm vào là mở bảng tuỳ chọn — trước đây lối vào duy nhất là một nút bánh
    * răng không nhãn, nên gần như không ai tìm ra.
    */
@@ -23,12 +22,8 @@ export interface StudyHeaderProps {
   lessonId?: string;
   /** Chuỗi truy vấn của phiên, để hàng đổi cách luyện mang theo đúng tập từ này. */
   sessionQuery: string;
-  /** Các nút phụ của phiên học, ví dụ nút lưu từ. */
+  /** Các nút phụ của phiên học, ví dụ nút mở tuỳ chọn. */
   right?: ReactNode;
-  /** Câu báo ngắn cho vùng aria-live, ví dụ "Đã lưu 好 vào sổ tay". */
-  message?: string;
-  /** Tăng sau mỗi lần báo, để câu giống câu trước vẫn được đọc lại. */
-  messageToken?: number;
 }
 
 /** Tiêu đề phiên học kèm thanh tiến độ, luôn cho biết còn bao nhiêu từ nữa. */
@@ -42,8 +37,6 @@ export function StudyHeader({
   lessonId,
   sessionQuery,
   right,
-  message,
-  messageToken = 0,
 }: StudyHeaderProps) {
   return (
     <header
@@ -133,14 +126,6 @@ export function StudyHeader({
           tone="teal"
         />
       </div>
-
-      {message !== undefined ? (
-        <div
-          className="mt-2"
-        >
-          <LiveMessage message={message} token={messageToken} />
-        </div>
-      ) : null}
     </header>
   );
 }

@@ -6,9 +6,8 @@ import { useStudySession } from './useStudySession.ts';
 import { SettingsContext } from './settings-context.ts';
 import { VocabularyContext } from './vocabulary-context.ts';
 import { buildIndex } from '../lib/vocabulary/store.ts';
-import { db, getCard, getRecentDays, resetDatabase, saveCard, toggleStar } from '../db/index.ts';
+import { db, getCard, getRecentDays, resetDatabase } from '../db/index.ts';
 import { DEFAULT_SETTINGS } from '../types/settings.ts';
-import type { CardState } from '../types/study.ts';
 import type { HskLevel, LevelDataFile, VocabularyWord } from '../types/vocabulary.ts';
 
 function makeWord(index: number, level: HskLevel = 1): VocabularyWord {
@@ -67,9 +66,9 @@ function wrapper({ children }: { children: ReactNode }) {
   );
 }
 
-function renderSession(pool: 'new' | 'due' | 'lesson' | 'starred' | 'mixed', limit = 5) {
+function renderSession(pool: 'new' | 'due' | 'lesson' | 'mixed', limit = 5) {
   return renderHook(
-    () => useStudySession({ mode: 'flashcards', levels: [1], pool, lessonId: 'L1-B01', limit }),
+    () => useStudySession({ mode: 'typing', levels: [1], pool, lessonId: 'L1-B01', limit }),
     { wrapper },
   );
 }
@@ -140,8 +139,8 @@ describe('useStudySession', () => {
     const card = await getCard(word.id);
     expect(card?.wrongCount).toBe(1);
     expect(card?.lastMistake?.given).toBe('sai rồi');
-    expect(card?.lastMistake?.mode).toBe('flashcards');
-    expect(card?.weakestMode).toBe('flashcards');
+    expect(card?.lastMistake?.mode).toBe('typing');
+    expect(card?.weakestMode).toBe('typing');
   });
 
   it('đếm riêng câu gần đúng và câu đã dùng gợi ý', async () => {
@@ -215,19 +214,6 @@ describe('useStudySession', () => {
     expect(result.current.queue.map((w) => w.id)).toEqual(FILE.lessons[0].wordIds);
   });
 
-  it('đánh dấu từ rồi lọc theo từ đã đánh dấu', async () => {
-    const first = renderSession('new');
-    await waitFor(() => expect(first.result.current.loading).toBe(false));
-    await act(async () => {
-      await first.result.current.toggleStar('L1-0003');
-    });
-    expect(first.result.current.starred.has('L1-0003')).toBe(true);
-
-    const starred = renderSession('starred');
-    await waitFor(() => expect(starred.result.current.loading).toBe(false));
-    expect(starred.result.current.queue.map((w) => w.id)).toEqual(['L1-0003']);
-  });
-
   it('bỏ qua từ không tính là đã trả lời, nhưng vẫn tính là đã đi qua', async () => {
     const { result } = renderSession('new');
     await waitFor(() => expect(result.current.loading).toBe(false));
@@ -296,40 +282,5 @@ describe('useStudySession', () => {
     });
 
     expect(result.current.queue.map((word) => word.id)).toEqual([wrongWord]);
-  });
-
-  it('sổ tay xếp từ lâu chưa ôn nhất lên trước để đi hết được vòng', async () => {
-    // Đây là lỗi từng có: xếp theo mốc LƯU thì phiên nào cũng cắt ra đúng cùng
-    // một nhóm đầu danh sách, và từ thứ (limit + 1) trở đi không bao giờ tới lượt.
-    await toggleStar('L1-0001', { at: 1_000 });
-    await toggleStar('L1-0002', { at: 2_000 });
-    await toggleStar('L1-0003', { at: 3_000 });
-    // L1-0001 vừa được ôn nên phải tụt xuống cuối.
-    await saveCard({
-      ...((await getCard('L1-0001')) as CardState),
-      phase: 'review',
-      reps: 1,
-      lastReviewedAt: 9_000,
-      dueAt: 9_000,
-    });
-
-    const { result } = renderSession('starred', 2);
-    await waitFor(() => expect(result.current.loading).toBe(false));
-
-    expect(result.current.queue.map((word) => word.id)).toEqual(['L1-0002', 'L1-0003']);
-    expect(result.current.poolTotal).toBe(3);
-  });
-
-  it('sổ tay không lọc theo cấp đang chọn', async () => {
-    // Lưu một từ rồi đổi cấp học mà từ đó biến mất thì chẳng khác gì mất dữ liệu.
-    await toggleStar('L1-0004', { at: 1_000 });
-
-    const { result } = renderHook(
-      () => useStudySession({ mode: 'flashcards', levels: [2, 3], pool: 'starred', limit: 5 }),
-      { wrapper },
-    );
-    await waitFor(() => expect(result.current.loading).toBe(false));
-
-    expect(result.current.queue.map((word) => word.id)).toEqual(['L1-0004']);
   });
 });
