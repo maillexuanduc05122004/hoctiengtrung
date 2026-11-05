@@ -185,6 +185,12 @@ học (`passage-listening/learned-words.ts`) cộng 20 từ mới. Bài 5 tiếp
 HSK 3 不必 … 成功), câu ghép dùng thêm cả từ của bài 4. Bài 6 cũng vậy (HSK 2 鸟 … 平常, HSK 3 成果 … 充满),
 câu ghép dùng từ bài 1–5.
 
+Bài 7, 8, 9 mỗi bài 20 từ HSK 3 nối tiếp sau 充满 (bài 7 初级 … 大夫, bài 8 代表 … 订, bài 9 定期 … 反对; bỏ
+các chữ lặp hay khó dùng một mình như 重, 初, 传, 代, 调), vẫn 50 câu ghép, và có thêm mục thứ ba
+**Bài văn**: một câu chuyện ngắn chia từng câu (nhãn "Câu văn"), dùng đủ 20 từ mới của bài, chỉ dùng
+chữ đã học như câu ghép. Tệp HTML cùng khung: `HSK_20_tu_moi_bai_N_20_hsk3_50_cau_ghep_bai_van_audio.html`.
+`registry.test.ts` chặn bài văn sót từ mới.
+
 Cách nghe giữ đúng trang HTML gốc: mọi mục hiện sẵn chữ Hán, pinyin và nghĩa; ↓ mục sau, ↑ mục
 trước, Enter phát mục đang chọn, Esc dừng; mục đang chọn được tô viền và tự cuộn tới giữa màn
 hình; đọc ở tốc độ của bài (0,75×) chứ không theo cài đặt chung. Thanh Trước / Phát / Tiếp dính
@@ -206,7 +212,7 @@ và sửa tay được. Kiểm thử `registry.test.ts` chặn bài thiếu ch�
 với bài) thì trang bài có thêm cách luyện "Gõ pinyin": mỗi lần một câu dài ghép từ mới của bài
 với từ HSK 1–2, người học gõ pinyin cả câu (số hay dấu thanh, liền hay cách đều được) rồi Enter
 để chấm theo từng âm tiết. 一 / 不 gõ thanh gốc cũng đúng, âm tiết thanh nhẹ gõ thanh nào cũng
-được, và có thể chọn "Chỉ chấm âm". Hết lượt thì gõ lại riêng câu chưa đúng. Bài 1–6 mỗi bài
+được, và có thể chọn "Chỉ chấm âm". Hết lượt thì gõ lại riêng câu chưa đúng. Bài 1–9 mỗi bài
 20 câu. Pinyin viết tay; `typing-data.test.ts` chặn câu lệch số âm tiết với số chữ, câu ngắn
 hơn 12 chữ, và từ mới nào của bài chưa được tập.
 

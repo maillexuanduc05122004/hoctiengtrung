@@ -4,7 +4,13 @@
  * pinyin, thiếu nghĩa, tốc độ lạ) phải hỏng ở đây chứ không lộ ra trên trang.
  */
 import { describe, expect, it } from 'vitest';
-import { buildRegistry, findFixedLesson, FIXED_LISTENING_LESSONS, itemCount } from './registry.ts';
+import {
+  buildRegistry,
+  findFixedLesson,
+  FIXED_LISTENING_LESSONS,
+  itemCount,
+  newWordsOf,
+} from './registry.ts';
 import type { FixedListeningLesson } from './types.ts';
 
 const TINY: FixedListeningLesson = {
@@ -47,6 +53,19 @@ describe('các bài đang có', () => {
     expect(lesson?.sections.map((section) => section.items.length)).toEqual([20, 50]);
     expect(lesson?.rate).toBe(0.75);
     expect(lesson ? itemCount(lesson) : 0).toBe(70);
+  });
+
+  it('bài 7–9 có thêm bài văn, và bài văn dùng đủ 20 từ mới của bài', () => {
+    for (const id of ['bai-07', 'bai-08', 'bai-09']) {
+      const lesson = findFixedLesson(id);
+      expect(lesson, id).not.toBeNull();
+      if (lesson === null) continue;
+      expect(lesson.sections.map((section) => section.items.length).slice(0, 2), id).toEqual([20, 50]);
+      expect(lesson.sections, id).toHaveLength(3);
+      const passage = lesson.sections[2].items.map((item) => item.hanzi).join('');
+      const missing = newWordsOf(lesson).filter((word) => !passage.includes(word));
+      expect(missing, id).toEqual([]);
+    }
   });
 
   it('mọi bài đều đủ chữ Hán, pinyin, nghĩa và có tốc độ bộ đọc nhận được', () => {
