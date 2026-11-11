@@ -1,6 +1,7 @@
 /**
- * Câu dài tập gõ pinyin cho bài 10: mỗi câu ghép một từ mới của bài (20 từ HSK 3
- * 父母 … 各种, chọn trải ra để không có hai từ chung chữ) với từ HSK 1–2. Pinyin
+ * Câu dài tập gõ pinyin cho bài 10: mỗi câu ghép từ mới của bài (20 từ HSK 3
+ * 父母 … 各种 chọn trải ra để không có hai từ chung chữ, cộng 4 từ về công ty
+ * 公司、上班、同事、经理) với từ HSK 1–2. Pinyin
  * viết tay theo cách đọc thật (一 / 不 đã biến điệu, thanh nhẹ để trống); bản
  * không biến điệu tự được chấp nhận.
  */
@@ -38,14 +39,14 @@ const sentences: FixedTypingSentence[] = [
     vi: 'Lần đầu tiên đi máy bay một mình, trong lòng tôi rất sợ.',
   },
   {
-    hanzi: '老师说休息十分钟，然后我们继续上课。',
-    pinyin: 'Lǎoshī shuō xiūxi shí fēnzhōng, ránhòu wǒmen jìxù shàngkè.',
-    vi: 'Thầy nói nghỉ mười phút, sau đó chúng ta tiếp tục học.',
+    hanzi: '经理说先休息十分钟，然后会议再继续。',
+    pinyin: 'Jīnglǐ shuō xiān xiūxi shí fēnzhōng, ránhòu huìyì zài jìxù.',
+    vi: 'Giám đốc nói nghỉ mười phút trước đã, sau đó cuộc họp sẽ tiếp tục.',
   },
   {
-    hanzi: '这个工作的工资不太高，但是离我家很近。',
-    pinyin: 'Zhège gōngzuò de gōngzī bú tài gāo, dànshì lí wǒ jiā hěn jìn.',
-    vi: 'Lương của công việc này không cao lắm, nhưng gần nhà tôi.',
+    hanzi: '这家公司离我家很近，我每天走路去上班。',
+    pinyin: 'Zhè jiā gōngsī lí wǒ jiā hěn jìn, wǒ měi tiān zǒu lù qù shàngbān.',
+    vi: 'Công ty này gần nhà tôi, ngày nào tôi cũng đi bộ đi làm.',
   },
   {
     hanzi: '弟弟对什么都很好奇，每天都问妈妈很多问题。',
@@ -63,9 +64,9 @@ const sentences: FixedTypingSentence[] = [
     vi: 'Trước khi trận đấu bắt đầu, nhà thi đấu đã chật kín khán giả.',
   },
   {
-    hanzi: '我们是十年的老朋友了，经常互相帮助。',
-    pinyin: 'Wǒmen shì shí nián de lǎo péngyou le, jīngcháng hùxiāng bāngzhù.',
-    vi: 'Chúng tôi là bạn cũ mười năm rồi, thường giúp đỡ lẫn nhau.',
+    hanzi: '我和同事们是好朋友，工作的时候经常互相帮助。',
+    pinyin: 'Wǒ hé tóngshìmen shì hǎo péngyou, gōngzuò de shíhou jīngcháng hùxiāng bāngzhù.',
+    vi: 'Tôi và các đồng nghiệp là bạn tốt, lúc làm việc thường giúp đỡ lẫn nhau.',
   },
   {
     hanzi: '你不想去就别去了，反正明天还有时间。',

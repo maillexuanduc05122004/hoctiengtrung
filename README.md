@@ -191,19 +191,23 @@ các chữ lặp hay khó dùng một mình như 重, 初, 传, 代, 调), vẫn
 chữ đã học như câu ghép. Tệp HTML cùng khung: `HSK_20_tu_moi_bai_N_20_hsk3_50_cau_ghep_bai_van_audio.html`.
 `registry.test.ts` chặn bài văn sót từ mới.
 
-Bài 10 cùng khung với bài 7–9 (20 từ HSK 3, 50 câu ghép, bài văn "一个人在北京 — Một mình ở Bắc Kinh"
-19 câu), nhưng **đổi cách chọn từ**. Bài 7–9 lấy liền theo thứ tự danh sách HSK nên dính thành cụm
+Bài 10 cùng khung với bài 7–9 (50 câu ghép, bài văn "一个人在北京 — Một mình ở Bắc Kinh" 20 câu),
+nhưng có **24 từ mới**: 20 từ HSK 3 cộng 4 từ về công ty người học xin thêm (公司, 上班, 同事, 经理;
+HSK 1–2), để nói được những câu như 我每天早上去公司上班, 我从公司到学校…. 下班 đã ghép được từ chữ
+đã học nên chỉ dùng trong câu. Tệp HTML: `HSK_24_tu_moi_bai_10_20_hsk3_4_tu_cong_ty_50_cau_ghep_bai_van_audio.html`.
+Bài 10 cũng **đổi cách chọn từ**. Bài 7–9 lấy liền theo thứ tự danh sách HSK nên dính thành cụm
 (短处 / 短裤 / 短期, 对待 / 对方 / 对手 / 对象, 发表 / 发出 / 发明 / 发生 / 发展). Người học thấy các từ
 giống nhau quá, đứng sát nhau nên khó nhớ. Từ bài 10, chọn từ theo các quy tắc sau:
 
 - Lấy 20 từ trải ra trên đoạn HSK 3 chưa học kế tiếp (bài 10 lấy từ 反正 đến 坚持), mỗi cụm chung chữ
-  **chỉ lấy một từ**. Bài 10 có 父母、告别、环境、房租、歌手、害怕、继续、工资、好奇、费用、观众、互相、
-  反正、感冒、合作、规定、丰富、根本、坚持、各种.
+  **chỉ lấy một từ**. Thứ tự 24 từ của bài 10: 父母、告别、环境、公司、上班、房租、歌手、害怕、继续、同事、
+  好奇、费用、观众、互相、经理、反正、感冒、会议、丰富、根本、坚持、规定、合作、各种.
 - Từ bị bỏ qua (反复, 反应, 房东, 父亲, 工厂, 工具, 公开, 各地, 观看 …) vẫn ở lại cho các bài sau.
   Mỗi bài sau cũng chỉ lấy tối đa một từ của mỗi cụm.
 - Từ đọc gần giống nhau (歌手 gē / 各种 gè / 根本 gēn, 房租 fáng / 反正 fǎn, 害怕 hài / 好奇 hào) có
   thể chung một bài, nhưng xếp cách xa nhau trong danh sách 20 từ chứ không đặt cạnh nhau. Cặp
-  quá giống như 故乡 gùxiāng / 互相 hùxiāng thì chỉ giữ một từ.
+  quá giống như 故乡 gùxiāng / 互相 hùxiāng thì chỉ giữ một từ. Vì thêm 公司 gōngsī nên 工资 gōngzī
+  được đổi sang 会议 (cũng HSK 3, cũng về công ty); 工资 để dành cho bài sau.
 - Câu ghép và bài văn vẫn chỉ dùng chữ Hán đã học (`learned-words.ts` cộng từ mới của bài 1 đến bài
   hiện tại). Từ đã học chỉ được dùng trong câu, không tính là từ mới.
 

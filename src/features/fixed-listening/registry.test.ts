@@ -55,12 +55,14 @@ describe('các bài đang có', () => {
     expect(lesson ? itemCount(lesson) : 0).toBe(70);
   });
 
-  it('bài 7–10 có thêm bài văn, và bài văn dùng đủ 20 từ mới của bài', () => {
-    for (const id of ['bai-07', 'bai-08', 'bai-09', 'bai-10']) {
+  it('bài 7–10 có thêm bài văn, và bài văn dùng đủ từ mới của bài', () => {
+    // Bài 10 có 20 từ HSK 3 cộng 4 từ về công ty (公司、上班、同事、经理) người học xin thêm.
+    const wordCount: Record<string, number> = { 'bai-07': 20, 'bai-08': 20, 'bai-09': 20, 'bai-10': 24 };
+    for (const [id, words] of Object.entries(wordCount)) {
       const lesson = findFixedLesson(id);
       expect(lesson, id).not.toBeNull();
       if (lesson === null) continue;
-      expect(lesson.sections.map((section) => section.items.length).slice(0, 2), id).toEqual([20, 50]);
+      expect(lesson.sections.map((section) => section.items.length).slice(0, 2), id).toEqual([words, 50]);
       expect(lesson.sections, id).toHaveLength(3);
       const passage = lesson.sections[2].items.map((item) => item.hanzi).join('');
       const missing = newWordsOf(lesson).filter((word) => !passage.includes(word));
