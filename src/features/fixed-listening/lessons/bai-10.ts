@@ -1,27 +1,26 @@
 /**
- * Bài nghe cố định, sinh từ `HSK_24_tu_moi_bai_10_20_hsk3_4_tu_cong_ty_50_cau_ghep_bai_van_audio.html` bằng `npm run data:nghe`.
+ * Bài nghe cố định, sinh từ `HSK_23_tu_moi_bai_10_20_hsk3_3_tu_cong_ty_50_cau_ghep_bai_van_audio.html` bằng `npm run data:nghe`.
  * Sửa tay được; chạy lại lệnh với cùng `--id` sẽ ghi đè tệp này.
  */
 import type { FixedListeningLesson } from '../types.ts';
 
 const lesson: FixedListeningLesson = {
-  title: '24 từ mới + 50 câu ghép + bài văn',
+  title: '23 từ mới + 50 câu ghép + bài văn',
   notes: [
-    'Bài 10 — 20 từ HSK 3 tiếp theo + 4 từ về công ty (公司、上班、同事、经理), chọn trải ra cho dễ nhớ: không có hai từ chung chữ, từ đọc gần giống xếp cách xa nhau (父母、告别、环境、公司、上班、房租、歌手、害怕、继续、同事、好奇、费用、观众、互相、经理、反正、感冒、会议、丰富、根本、坚持、规定、合作、各种).',
-    '50 câu ghép ưu tiên 24 từ mới và chỉ kết hợp với những từ bạn đã học trước đó.',
-    'Bài văn cuối bài dùng đủ 24 từ mới, chia từng câu để nghe và dò theo cho dễ.',
+    'Bài 10 — 20 từ HSK 3 tiếp theo + 3 từ về công ty (公司、同事、经理), chọn trải ra cho dễ nhớ: không có hai từ chung chữ, từ đọc gần giống xếp cách xa nhau (父母、告别、环境、公司、房租、歌手、害怕、继续、同事、好奇、费用、观众、互相、经理、反正、感冒、会议、丰富、根本、坚持、规定、合作、各种).',
+    '50 câu ghép ưu tiên 23 từ mới và chỉ kết hợp với những từ bạn đã học trước đó.',
+    'Bài văn cuối bài dùng đủ 23 từ mới, chia từng câu để nghe và dò theo cho dễ.',
   ],
   rate: 0.75,
   sections: [
     {
-      title: '24 từ mới',
+      title: '23 từ mới',
       itemLabel: 'Từ mới',
       items: [
         { hanzi: '父母', pinyin: 'fùmǔ', vi: 'bố mẹ, cha mẹ' },
         { hanzi: '告别', pinyin: 'gàobié', vi: 'từ biệt, chào tạm biệt' },
         { hanzi: '环境', pinyin: 'huánjìng', vi: 'môi trường; hoàn cảnh' },
         { hanzi: '公司', pinyin: 'gōngsī', vi: 'công ty' },
-        { hanzi: '上班', pinyin: 'shàngbān', vi: 'đi làm, vào ca' },
         { hanzi: '房租', pinyin: 'fángzū', vi: 'tiền thuê nhà' },
         { hanzi: '歌手', pinyin: 'gēshǒu', vi: 'ca sĩ' },
         { hanzi: '害怕', pinyin: 'hàipà', vi: 'sợ, sợ hãi' },
@@ -55,8 +54,8 @@ const lesson: FixedListeningLesson = {
         { hanzi: '我们要保护环境。', pinyin: 'Wǒmen yào bǎohù huánjìng.', vi: 'Chúng ta phải bảo vệ môi trường.' },
         { hanzi: '我每天早上去公司上班。', pinyin: 'Wǒ měi tiān zǎoshang qù gōngsī shàngbān.', vi: 'Sáng nào tôi cũng đến công ty làm việc.' },
         { hanzi: '我从公司到学校要坐四十分钟公交车。', pinyin: 'Wǒ cóng gōngsī dào xuéxiào yào zuò sìshí fēnzhōng gōngjiāochē.', vi: 'Từ công ty đến trường tôi phải đi xe buýt mất bốn mươi phút.' },
-        { hanzi: '我早上八点上班，下午五点下班。', pinyin: 'Wǒ zǎoshang bā diǎn shàngbān, xiàwǔ wǔ diǎn xiàbān.', vi: 'Tôi vào làm lúc tám giờ sáng, tan làm lúc năm giờ chiều.' },
-        { hanzi: '今天是周末，我不用上班。', pinyin: 'Jīntiān shì zhōumò, wǒ bú yòng shàngbān.', vi: 'Hôm nay là cuối tuần, tôi không phải đi làm.' },
+        { hanzi: '我早上八点到公司，下午五点下班。', pinyin: 'Wǒ zǎoshang bā diǎn dào gōngsī, xiàwǔ wǔ diǎn xiàbān.', vi: 'Tôi đến công ty lúc tám giờ sáng, năm giờ chiều tan làm.' },
+        { hanzi: '今天是周末，公司里一个人也没有。', pinyin: 'Jīntiān shì zhōumò, gōngsī li yí ge rén yě méiyǒu.', vi: 'Hôm nay là cuối tuần, trong công ty không có một ai.' },
         { hanzi: '这个房子的房租太贵了。', pinyin: 'Zhège fángzi de fángzū tài guì le.', vi: 'Tiền thuê căn nhà này đắt quá.' },
         { hanzi: '我每个月一号交房租。', pinyin: 'Wǒ měi ge yuè yī hào jiāo fángzū.', vi: 'Tôi nộp tiền nhà vào mùng một hằng tháng.' },
         { hanzi: '姐姐喜欢的歌手明天来北京表演。', pinyin: 'Jiějie xǐhuan de gēshǒu míngtiān lái Běijīng biǎoyǎn.', vi: 'Ca sĩ mà chị gái thích ngày mai đến Bắc Kinh biểu diễn.' },

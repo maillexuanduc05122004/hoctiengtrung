@@ -1,7 +1,7 @@
 /**
  * Câu dài tập gõ pinyin cho bài 10: mỗi câu ghép từ mới của bài (20 từ HSK 3
- * 父母 … 各种 chọn trải ra để không có hai từ chung chữ, cộng 4 từ về công ty
- * 公司、上班、同事、经理) với từ HSK 1–2. Pinyin
+ * 父母 … 各种 chọn trải ra để không có hai từ chung chữ, cộng 3 từ về công ty
+ * 公司、同事、经理) với từ HSK 1–2. Pinyin
  * viết tay theo cách đọc thật (一 / 不 đã biến điệu, thanh nhẹ để trống); bản
  * không biến điệu tự được chấp nhận.
  */
