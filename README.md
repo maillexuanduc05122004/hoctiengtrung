@@ -191,6 +191,24 @@ các chữ lặp hay khó dùng một mình như 重, 初, 传, 代, 调), vẫn
 chữ đã học như câu ghép. Tệp HTML cùng khung: `HSK_20_tu_moi_bai_N_20_hsk3_50_cau_ghep_bai_van_audio.html`.
 `registry.test.ts` chặn bài văn sót từ mới.
 
+Bài 10 cùng khung với bài 7–9 (20 từ HSK 3, 50 câu ghép, bài văn "一个人在北京 — Một mình ở Bắc Kinh"
+19 câu), nhưng **đổi cách chọn từ**. Bài 7–9 lấy liền theo thứ tự danh sách HSK nên dính thành cụm
+(短处 / 短裤 / 短期, 对待 / 对方 / 对手 / 对象, 发表 / 发出 / 发明 / 发生 / 发展). Người học thấy các từ
+giống nhau quá, đứng sát nhau nên khó nhớ. Từ bài 10, chọn từ theo các quy tắc sau:
+
+- Lấy 20 từ trải ra trên đoạn HSK 3 chưa học kế tiếp (bài 10 lấy từ 反正 đến 坚持), mỗi cụm chung chữ
+  **chỉ lấy một từ**. Bài 10 có 父母、告别、环境、房租、歌手、害怕、继续、工资、好奇、费用、观众、互相、
+  反正、感冒、合作、规定、丰富、根本、坚持、各种.
+- Từ bị bỏ qua (反复, 反应, 房东, 父亲, 工厂, 工具, 公开, 各地, 观看 …) vẫn ở lại cho các bài sau.
+  Mỗi bài sau cũng chỉ lấy tối đa một từ của mỗi cụm.
+- Từ đọc gần giống nhau (歌手 gē / 各种 gè / 根本 gēn, 房租 fáng / 反正 fǎn, 害怕 hài / 好奇 hào) có
+  thể chung một bài, nhưng xếp cách xa nhau trong danh sách 20 từ chứ không đặt cạnh nhau. Cặp
+  quá giống như 故乡 gùxiāng / 互相 hùxiāng thì chỉ giữ một từ.
+- Câu ghép và bài văn vẫn chỉ dùng chữ Hán đã học (`learned-words.ts` cộng từ mới của bài 1 đến bài
+  hiện tại). Từ đã học chỉ được dùng trong câu, không tính là từ mới.
+
+`registry.test.ts` chặn hai từ mới chung chữ trong cùng một bài, từ bài 10 trở đi.
+
 Cách nghe giữ đúng trang HTML gốc: mọi mục hiện sẵn chữ Hán, pinyin và nghĩa; ↓ mục sau, ↑ mục
 trước, Enter phát mục đang chọn, Esc dừng; mục đang chọn được tô viền và tự cuộn tới giữa màn
 hình; đọc ở tốc độ của bài (0,75×) chứ không theo cài đặt chung. Thanh Trước / Phát / Tiếp dính
@@ -212,7 +230,7 @@ và sửa tay được. Kiểm thử `registry.test.ts` chặn bài thiếu ch�
 với bài) thì trang bài có thêm cách luyện "Gõ pinyin": mỗi lần một câu dài ghép từ mới của bài
 với từ HSK 1–2, người học gõ pinyin cả câu (số hay dấu thanh, liền hay cách đều được) rồi Enter
 để chấm theo từng âm tiết. 一 / 不 gõ thanh gốc cũng đúng, âm tiết thanh nhẹ gõ thanh nào cũng
-được, và có thể chọn "Chỉ chấm âm". Hết lượt thì gõ lại riêng câu chưa đúng. Bài 1–9 mỗi bài
+được, và có thể chọn "Chỉ chấm âm". Hết lượt thì gõ lại riêng câu chưa đúng. Bài 1–10 mỗi bài
 20 câu. Pinyin viết tay; `typing-data.test.ts` chặn câu lệch số âm tiết với số chữ, câu ngắn
 hơn 12 chữ, và từ mới nào của bài chưa được tập.
 

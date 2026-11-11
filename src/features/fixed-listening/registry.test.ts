@@ -55,8 +55,8 @@ describe('các bài đang có', () => {
     expect(lesson ? itemCount(lesson) : 0).toBe(70);
   });
 
-  it('bài 7–9 có thêm bài văn, và bài văn dùng đủ 20 từ mới của bài', () => {
-    for (const id of ['bai-07', 'bai-08', 'bai-09']) {
+  it('bài 7–10 có thêm bài văn, và bài văn dùng đủ 20 từ mới của bài', () => {
+    for (const id of ['bai-07', 'bai-08', 'bai-09', 'bai-10']) {
       const lesson = findFixedLesson(id);
       expect(lesson, id).not.toBeNull();
       if (lesson === null) continue;
@@ -65,6 +65,21 @@ describe('các bài đang có', () => {
       const passage = lesson.sections[2].items.map((item) => item.hanzi).join('');
       const missing = newWordsOf(lesson).filter((word) => !passage.includes(word));
       expect(missing, id).toEqual([]);
+    }
+  });
+
+  it('từ bài 10, không có hai từ mới nào trong cùng một bài chung chữ Hán', () => {
+    // Bài 7–9 lấy liền theo thứ tự danh sách HSK nên dính cụm 短处 / 短裤 / 短期,
+    // 发表 / 发出 / 发明 …: người học thấy khó nhớ. Từ bài 10 chọn trải ra.
+    for (const lesson of FIXED_LISTENING_LESSONS.filter((entry) => entry.number >= 10)) {
+      const words = newWordsOf(lesson);
+      const clashes: string[] = [];
+      words.forEach((word, i) => {
+        for (const other of words.slice(i + 1)) {
+          if ([...word].some((ch) => other.includes(ch))) clashes.push(`${word} / ${other}`);
+        }
+      });
+      expect(clashes, lesson.id).toEqual([]);
     }
   });
 
