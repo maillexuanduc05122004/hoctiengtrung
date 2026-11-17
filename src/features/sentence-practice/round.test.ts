@@ -35,6 +35,7 @@ describe('kho câu luyện', () => {
       'bai-08',
       'bai-09',
       'bai-10',
+      'bai-11',
     ]);
     for (const s of PRACTICE_SENTENCES) {
       expect(s.vi, s.hanzi).not.toBe('');

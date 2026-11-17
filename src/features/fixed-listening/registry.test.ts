@@ -55,9 +55,16 @@ describe('các bài đang có', () => {
     expect(lesson ? itemCount(lesson) : 0).toBe(70);
   });
 
-  it('bài 7–10 có thêm bài văn, và bài văn dùng đủ từ mới của bài', () => {
+  it('từ bài 7 có thêm bài văn, và bài văn dùng đủ từ mới của bài', () => {
     // Bài 10 có 20 từ HSK 3 cộng 3 từ về công ty (公司、同事、经理) người học xin thêm.
-    const wordCount: Record<string, number> = { 'bai-07': 20, 'bai-08': 20, 'bai-09': 20, 'bai-10': 23 };
+    // Bài 11 có 27 từ lấy từ đề thi HSK 3 người học đưa, cộng từ về đường đi.
+    const wordCount: Record<string, number> = {
+      'bai-07': 20,
+      'bai-08': 20,
+      'bai-09': 20,
+      'bai-10': 23,
+      'bai-11': 27,
+    };
     for (const [id, words] of Object.entries(wordCount)) {
       const lesson = findFixedLesson(id);
       expect(lesson, id).not.toBeNull();

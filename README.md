@@ -215,6 +215,14 @@ giống nhau quá, đứng sát nhau nên khó nhớ. Từ bài 10, chọn từ 
 
 `registry.test.ts` chặn hai từ mới chung chữ trong cùng một bài, từ bài 10 trở đi.
 
+Bài 11 lấy từ mới từ hai đoạn đề thi HSK 3 người học dán vào (phần nối câu: 我下班会经过那里…, 我们先坐公共汽车，
+然后换地铁…, 我的作业早就完成了…) cộng từ về đường đi từ nhà đến trường, từ trường đến công ty mà người học xin
+thêm: **27 từ mới** 出门、经过、饿、公共汽车、作业、换、把、地铁、远、检查、先、然后、骑、最好、蓝色、借、迟到、不用、早就、
+路、机会、放心、吧、条、完成、再、一般. Từ trong đề mà người học đã có (那么, 衬衫, 当然, 比较, 城市, 裤子, 坏, 回来, 下班 …)
+chỉ dùng trong câu. 一会儿 chung chữ với 一般 / 机会 nên để dành, chỉ xuất hiện trong câu; 自行车 chung chữ 车 với
+公共汽车 nên từ mới là 骑 (骑车). 50 câu ghép có đủ các câu của đề, bài văn "从家到学校，从学校到公司" 21 câu.
+Tệp HTML: `HSK_27_tu_moi_bai_11_de_thi_hsk3_di_lai_50_cau_ghep_bai_van_audio.html`.
+
 Cách nghe giữ đúng trang HTML gốc: mọi mục hiện sẵn chữ Hán, pinyin và nghĩa; ↓ mục sau, ↑ mục
 trước, Enter phát mục đang chọn, Esc dừng; mục đang chọn được tô viền và tự cuộn tới giữa màn
 hình; đọc ở tốc độ của bài (0,75×) chứ không theo cài đặt chung. Thanh Trước / Phát / Tiếp dính
@@ -236,7 +244,7 @@ và sửa tay được. Kiểm thử `registry.test.ts` chặn bài thiếu ch�
 với bài) thì trang bài có thêm cách luyện "Gõ pinyin": mỗi lần một câu dài ghép từ mới của bài
 với từ HSK 1–2, người học gõ pinyin cả câu (số hay dấu thanh, liền hay cách đều được) rồi Enter
 để chấm theo từng âm tiết. 一 / 不 gõ thanh gốc cũng đúng, âm tiết thanh nhẹ gõ thanh nào cũng
-được, và có thể chọn "Chỉ chấm âm". Hết lượt thì gõ lại riêng câu chưa đúng. Bài 1–10 mỗi bài
+được, và có thể chọn "Chỉ chấm âm". Hết lượt thì gõ lại riêng câu chưa đúng. Bài 1–11 mỗi bài
 20 câu. Pinyin viết tay; `typing-data.test.ts` chặn câu lệch số âm tiết với số chữ, câu ngắn
 hơn 12 chữ, và từ mới nào của bài chưa được tập.
 
