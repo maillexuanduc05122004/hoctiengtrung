@@ -58,6 +58,7 @@ describe('các bài đang có', () => {
   it('từ bài 7 có thêm bài văn, và bài văn dùng đủ từ mới của bài', () => {
     // Bài 10 có 20 từ HSK 3 cộng 3 từ về công ty (公司、同事、经理) người học xin thêm.
     // Bài 11 có 27 từ lấy từ đề thi HSK 3 người học đưa, cộng từ về đường đi.
+    // Bài 12–21 mỗi bài 20 từ HSK 3.0 để luyện thi, chia theo chủ đề.
     const wordCount: Record<string, number> = {
       'bai-07': 20,
       'bai-08': 20,
@@ -65,6 +66,7 @@ describe('các bài đang có', () => {
       'bai-10': 23,
       'bai-11': 27,
     };
+    for (let n = 12; n <= 21; n += 1) wordCount[`bai-${n}`] = 20;
     for (const [id, words] of Object.entries(wordCount)) {
       const lesson = findFixedLesson(id);
       expect(lesson, id).not.toBeNull();

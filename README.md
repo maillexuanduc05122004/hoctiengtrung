@@ -223,6 +223,25 @@ chỉ dùng trong câu. 一会儿 chung chữ với 一般 / 机会 nên để d
 公共汽车 nên từ mới là 骑 (骑车). 50 câu ghép có đủ các câu của đề, bài văn "从家到学校，从学校到公司" 21 câu.
 Tệp HTML: `HSK_27_tu_moi_bai_11_de_thi_hsk3_di_lai_50_cau_ghep_bai_van_audio.html`.
 
+Bài 12–21 là **200 từ HSK 3 (HSK 3.0) để luyện thi**, mỗi bài 20 từ theo một chủ đề, cùng khung với bài 7–11
+(50 câu ghép, bài văn, 20 câu gõ pinyin). Từ được chọn trong số từ HSK 3 người học chưa có, ưu tiên từ hay
+gặp trong đề thi; mỗi bài không có hai từ chung chữ, từ đọc gần giống (汤 / 糖, 支持 / 值得 …) xếp cách xa nhau.
+Câu ghép và bài văn của bài N chỉ dùng chữ đã học tới bài N. Tệp HTML:
+`HSK_20_tu_moi_bai_N_20_hsk3_50_cau_ghep_bai_van_audio.html`.
+
+| Bài | Chủ đề | 20 từ mới |
+| --- | --- | --- |
+| 12 | học tập và thi cử (学习和考试) | 简单、容易、题目、听力、进步、复杂、理解、文章、另外、区别、准、提前、紧张、只好、终于、其实、突然、注意、具体、千万 |
+| 13 | công việc ở công ty (在公司工作) | 老板、工资、负责、管理、任务、压力、经验、职业、生意、及时、复印、邮件、正式、联系、交流、主动、解决、建议、退休、积极 |
+| 14 | nhà cửa, chuyển nhà (搬家) | 搬、家具、沙发、空调、卫生间、整理、乱、修、挂、张、父亲、暖和、阳光、周围、旧、照、双、价格、现金、付 |
+| 15 | mua sắm và ăn uống (买东西和吃饭) | 啤酒、汤、香蕉、胖、裙子、市场、浪费、满足、跑步、适合、至少、糖、只有、杂志、拍、要是、恐怕、甜、优点、增加 |
+| 16 | thể thao, sức khỏe, biểu diễn (运动和比赛) | 受伤、危险、速度、输、赢、跳舞、散步、气候、深、游戏、足够、精彩、举办、演出、庆祝、绝对、立刻、赶快、握手、难道 |
+| 17 | con người và tính cách (人和性格) | 性格、亲切、姑娘、个人、感情、伤心、幸福、印象、主意、年纪、美丽、记者、演员、警察、信任、敢、吵、批评、愿望、表现 |
+| 18 | quê hương, đi xa, thế giới (家乡和世界) | 行李、首都、农村、家乡、世界、文化、现代、母亲、互联网、消息、转、左右、直到、因此、由于、据说、社会、环保、光、火 |
+| 19 | chuyện đời, quá khứ và tương lai (过去和将来) | 情况、目前、将来、过去、经历、结婚、通常、总是、决定、仍然、面对、同意、取消、适应、关系、保证、理由、被、活、一切 |
+| 20 | giải quyết khó khăn, máy tính và đồ dùng (解决困难) | 意外、计算、工具、失去、效果、利用、明显、确实、基本、并且、为了、任何、支持、困难、值得、专门、麻烦、奇怪、内容、能力 |
+| 21 | thư từ, lời chúc, thói quen tốt (写信和祝福) | 按照、保持、表达、发言、办理、反应、感受、更加、极了、看起来、目标、首先、谈、抓住、信、祝、专业、缺点、久、自然 |
+
 Cách nghe giữ đúng trang HTML gốc: mọi mục hiện sẵn chữ Hán, pinyin và nghĩa; ↓ mục sau, ↑ mục
 trước, Enter phát mục đang chọn, Esc dừng; mục đang chọn được tô viền và tự cuộn tới giữa màn
 hình; đọc ở tốc độ của bài (0,75×) chứ không theo cài đặt chung. Thanh Trước / Phát / Tiếp dính
@@ -244,7 +263,7 @@ và sửa tay được. Kiểm thử `registry.test.ts` chặn bài thiếu ch�
 với bài) thì trang bài có thêm cách luyện "Gõ pinyin": mỗi lần một câu dài ghép từ mới của bài
 với từ HSK 1–2, người học gõ pinyin cả câu (số hay dấu thanh, liền hay cách đều được) rồi Enter
 để chấm theo từng âm tiết. 一 / 不 gõ thanh gốc cũng đúng, âm tiết thanh nhẹ gõ thanh nào cũng
-được, và có thể chọn "Chỉ chấm âm". Hết lượt thì gõ lại riêng câu chưa đúng. Bài 1–11 mỗi bài
+được, và có thể chọn "Chỉ chấm âm". Hết lượt thì gõ lại riêng câu chưa đúng. Bài 1–21 mỗi bài
 20 câu. Pinyin viết tay; `typing-data.test.ts` chặn câu lệch số âm tiết với số chữ, câu ngắn
 hơn 12 chữ, và từ mới nào của bài chưa được tập.
 

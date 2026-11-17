@@ -1,0 +1,678 @@
+<!doctype html><html lang="vi"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>20 từ mới + 50 câu ghép + bài văn audio</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f5f8ff;color:#17202a;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+.wrap{max-width:900px;margin:auto;padding:20px 14px 70px}h1,h2{color:#17365d}
+.note{background:#fff;border:1px solid #dbe5f1;border-radius:15px;padding:14px;line-height:1.65}
+.toolbar{position:sticky;top:0;z-index:10;background:rgba(245,248,255,.97);padding:10px 0;display:flex;gap:7px;flex-wrap:wrap}
+.card{background:#fff;border:1px solid #dbe5f1;border-radius:15px;padding:17px;margin:12px 0}
+.card.active{border:3px solid #2675b5;box-shadow:0 0 0 3px rgba(38,117,181,.10)}
+.num{font-size:13px;color:#7b8794}.zh{font-size:38px;font-weight:700;color:#17365d;line-height:1.5;margin:8px 0 12px}
+.py{font-size:18px;margin-top:10px}.vi{font-size:16px;color:#66717d;margin-top:8px;line-height:1.5}
+button{border:0;border-radius:10px;background:#2675b5;color:#fff;padding:10px 15px;font-size:15px;cursor:pointer}
+.secondary{background:#fff;color:#17365d;border:1px solid #b9cbe0}
+</style></head><body><div class="wrap">
+<h1>🎧 20 từ mới + 50 câu ghép + bài văn</h1>
+<div class="note">
+<b>Bài 14 — 20 từ HSK 3 (HSK 3.0) để luyện thi, chủ đề nhà cửa và chuyển nhà; không có hai từ chung chữ, từ đọc gần giống xếp cách xa nhau (搬、家具、沙发、空调、卫生间、整理、乱、修、挂、张、父亲、暖和、阳光、周围、旧、照、双、价格、现金、付).</b><br>
+50 câu ghép ưu tiên 20 từ mới và chỉ kết hợp với những từ bạn đã học trước đó.<br>
+Bài văn cuối bài dùng đủ 20 từ mới, chia từng câu để nghe và dò theo cho dễ.<br><br>
+🔊 Audio kiểu cũ (SpeechSynthesis tiếng Trung) · ⬇️ / ⬆️ chuyển mục · <b>Enter</b> phát mục đang chọn · Highlight + tự cuộn · 0.75×.
+</div>
+<div class="toolbar">
+<button class="secondary" onclick="move(-1)">⬆️ Mục trước</button>
+<button class="secondary" onclick="move(1)">⬇️ Mục tiếp</button>
+<button onclick="playCurrent()">🔊 Phát hiện tại</button>
+<button class="secondary" onclick="stopAudio()">⏹ Dừng</button>
+</div>
+<h2>📚 20 từ mới</h2>
+<div class="card" data-text="搬">
+<div class="num">Từ mới 01</div>
+<div class="zh">搬</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">bān</div>
+<div class="vi">chuyển, dọn (nhà); bê, khiêng (搬到…: chuyển đến…; 搬不动: khiêng không nổi)</div>
+</div>
+<div class="card" data-text="家具">
+<div class="num">Từ mới 02</div>
+<div class="zh">家具</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">jiājù</div>
+<div class="vi">đồ nội thất, đồ đạc trong nhà (bàn, ghế, giường, tủ…)</div>
+</div>
+<div class="card" data-text="沙发">
+<div class="num">Từ mới 03</div>
+<div class="zh">沙发</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">shāfā</div>
+<div class="vi">ghế sofa</div>
+</div>
+<div class="card" data-text="空调">
+<div class="num">Từ mới 04</div>
+<div class="zh">空调</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">kōngtiáo</div>
+<div class="vi">máy điều hòa (开空调: bật điều hòa)</div>
+</div>
+<div class="card" data-text="卫生间">
+<div class="num">Từ mới 05</div>
+<div class="zh">卫生间</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">wèishēngjiān</div>
+<div class="vi">nhà vệ sinh, phòng tắm (trong nhà)</div>
+</div>
+<div class="card" data-text="整理">
+<div class="num">Từ mới 06</div>
+<div class="zh">整理</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">zhěnglǐ</div>
+<div class="vi">sắp xếp, dọn dẹp (整理房间: dọn phòng)</div>
+</div>
+<div class="card" data-text="乱">
+<div class="num">Từ mới 07</div>
+<div class="zh">乱</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">luàn</div>
+<div class="vi">bừa bộn, lộn xộn; lung tung (乱放: để lung tung)</div>
+</div>
+<div class="card" data-text="修">
+<div class="num">Từ mới 08</div>
+<div class="zh">修</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">xiū</div>
+<div class="vi">sửa, sửa chữa</div>
+</div>
+<div class="card" data-text="挂">
+<div class="num">Từ mới 09</div>
+<div class="zh">挂</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">guà</div>
+<div class="vi">treo; cúp (máy điện thoại: 挂电话)</div>
+</div>
+<div class="card" data-text="张">
+<div class="num">Từ mới 10</div>
+<div class="zh">张</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">zhāng</div>
+<div class="vi">lượng từ cho vật phẳng: tờ, tấm (ảnh, vé), cái (bàn, giường)</div>
+</div>
+<div class="card" data-text="父亲">
+<div class="num">Từ mới 11</div>
+<div class="zh">父亲</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">fùqīn</div>
+<div class="vi">cha, bố (cách nói trang trọng của 爸爸)</div>
+</div>
+<div class="card" data-text="暖和">
+<div class="num">Từ mới 12</div>
+<div class="zh">暖和</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">nuǎnhuo</div>
+<div class="vi">ấm áp, ấm</div>
+</div>
+<div class="card" data-text="阳光">
+<div class="num">Từ mới 13</div>
+<div class="zh">阳光</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">yángguāng</div>
+<div class="vi">ánh nắng, ánh mặt trời</div>
+</div>
+<div class="card" data-text="周围">
+<div class="num">Từ mới 14</div>
+<div class="zh">周围</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">zhōuwéi</div>
+<div class="vi">xung quanh</div>
+</div>
+<div class="card" data-text="旧">
+<div class="num">Từ mới 15</div>
+<div class="zh">旧</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">jiù</div>
+<div class="vi">cũ (trái nghĩa với 新)</div>
+</div>
+<div class="card" data-text="照">
+<div class="num">Từ mới 16</div>
+<div class="zh">照</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">zhào</div>
+<div class="vi">chiếu (sáng); chụp (ảnh) (照片: tấm ảnh; 照相: chụp ảnh)</div>
+</div>
+<div class="card" data-text="双">
+<div class="num">Từ mới 17</div>
+<div class="zh">双</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">shuāng</div>
+<div class="vi">đôi (lượng từ: 一双鞋 một đôi giày, 一双眼睛 một đôi mắt); đôi, hai (双人床: giường đôi)</div>
+</div>
+<div class="card" data-text="价格">
+<div class="num">Từ mới 18</div>
+<div class="zh">价格</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">jiàgé</div>
+<div class="vi">giá cả, giá (价格很高: giá cao)</div>
+</div>
+<div class="card" data-text="现金">
+<div class="num">Từ mới 19</div>
+<div class="zh">现金</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">xiànjīn</div>
+<div class="vi">tiền mặt</div>
+</div>
+<div class="card" data-text="付">
+<div class="num">Từ mới 20</div>
+<div class="zh">付</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">fù</div>
+<div class="vi">trả (tiền) (付钱: trả tiền; 付房租: trả tiền nhà)</div>
+</div>
+<h2>🎧 50 câu ghép</h2>
+<div class="card" data-text="我们下个月要搬到新家去。">
+<div class="num">Câu ghép 01</div>
+<div class="zh">我们下个月要搬到新家去。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒmen xià ge yuè yào bān dào xīn jiā qù.</div>
+<div class="vi">Tháng sau chúng tôi sẽ chuyển đến nhà mới.</div>
+</div>
+<div class="card" data-text="这张桌子太大了，我一个人搬不动。">
+<div class="num">Câu ghép 02</div>
+<div class="zh">这张桌子太大了，我一个人搬不动。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhè zhāng zhuōzi tài dà le, wǒ yí ge rén bān bu dòng.</div>
+<div class="vi">Cái bàn này to quá, một mình tôi khiêng không nổi.</div>
+</div>
+<div class="card" data-text="新家的家具都是新买的。">
+<div class="num">Câu ghép 03</div>
+<div class="zh">新家的家具都是新买的。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Xīn jiā de jiājù dōu shì xīn mǎi de.</div>
+<div class="vi">Đồ nội thất ở nhà mới đều là đồ mới mua.</div>
+</div>
+<div class="card" data-text="这家商店的家具很漂亮，可是价格太高了。">
+<div class="num">Câu ghép 04</div>
+<div class="zh">这家商店的家具很漂亮，可是价格太高了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhè jiā shāngdiàn de jiājù hěn piàoliang, kěshì jiàgé tài gāo le.</div>
+<div class="vi">Đồ nội thất của cửa hàng này rất đẹp, nhưng giá cao quá.</div>
+</div>
+<div class="card" data-text="爸爸喜欢坐在沙发上看电视。">
+<div class="num">Câu ghép 05</div>
+<div class="zh">爸爸喜欢坐在沙发上看电视。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Bàba xǐhuan zuò zài shāfā shang kàn diànshì.</div>
+<div class="vi">Bố thích ngồi trên sofa xem tivi.</div>
+</div>
+<div class="card" data-text="这个沙发太大了，进不了门。">
+<div class="num">Câu ghép 06</div>
+<div class="zh">这个沙发太大了，进不了门。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhège shāfā tài dà le, jìn bu liǎo mén.</div>
+<div class="vi">Cái sofa này to quá, không lọt qua cửa.</div>
+</div>
+<div class="card" data-text="房间里太热了，我们开空调吧。">
+<div class="num">Câu ghép 07</div>
+<div class="zh">房间里太热了，我们开空调吧。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Fángjiān li tài rè le, wǒmen kāi kōngtiáo ba.</div>
+<div class="vi">Trong phòng nóng quá, mình bật điều hòa đi.</div>
+</div>
+<div class="card" data-text="空调坏了，明天得找人来修。">
+<div class="num">Câu ghép 08</div>
+<div class="zh">空调坏了，明天得找人来修。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Kōngtiáo huài le, míngtiān děi zhǎo rén lái xiū.</div>
+<div class="vi">Điều hòa hỏng rồi, mai phải tìm người đến sửa.</div>
+</div>
+<div class="card" data-text="请问，卫生间在哪儿？">
+<div class="num">Câu ghép 09</div>
+<div class="zh">请问，卫生间在哪儿？</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Qǐngwèn, wèishēngjiān zài nǎr?</div>
+<div class="vi">Xin hỏi, nhà vệ sinh ở đâu ạ?</div>
+</div>
+<div class="card" data-text="新家的卫生间比旧家的大多了。">
+<div class="num">Câu ghép 10</div>
+<div class="zh">新家的卫生间比旧家的大多了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Xīn jiā de wèishēngjiān bǐ jiù jiā de dà duō le.</div>
+<div class="vi">Phòng vệ sinh ở nhà mới rộng hơn nhà cũ nhiều.</div>
+</div>
+<div class="card" data-text="你的房间太乱了，快整理一下吧。">
+<div class="num">Câu ghép 11</div>
+<div class="zh">你的房间太乱了，快整理一下吧。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Nǐ de fángjiān tài luàn le, kuài zhěnglǐ yíxià ba.</div>
+<div class="vi">Phòng của bạn bừa quá, mau dọn dẹp một chút đi.</div>
+</div>
+<div class="card" data-text="我花了一个下午整理书和衣服。">
+<div class="num">Câu ghép 12</div>
+<div class="zh">我花了一个下午整理书和衣服。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ huā le yí ge xiàwǔ zhěnglǐ shū hé yīfu.</div>
+<div class="vi">Tôi mất cả một buổi chiều để sắp xếp sách và quần áo.</div>
+</div>
+<div class="card" data-text="别把东西乱放，用完以后要放回去。">
+<div class="num">Câu ghép 13</div>
+<div class="zh">别把东西乱放，用完以后要放回去。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Bié bǎ dōngxi luàn fàng, yòng wán yǐhòu yào fàng huíqù.</div>
+<div class="vi">Đừng để đồ lung tung, dùng xong phải để lại chỗ cũ.</div>
+</div>
+<div class="card" data-text="搬家那天，家里乱极了，到处都是东西。">
+<div class="num">Câu ghép 14</div>
+<div class="zh">搬家那天，家里乱极了，到处都是东西。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Bānjiā nà tiān, jiā li luàn jí le, dàochù dōu shì dōngxi.</div>
+<div class="vi">Hôm chuyển nhà, trong nhà bừa bộn kinh khủng, chỗ nào cũng là đồ.</div>
+</div>
+<div class="card" data-text="父亲会修很多东西，电脑坏了也能修。">
+<div class="num">Câu ghép 15</div>
+<div class="zh">父亲会修很多东西，电脑坏了也能修。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Fùqīn huì xiū hěn duō dōngxi, diànnǎo huài le yě néng xiū.</div>
+<div class="vi">Bố biết sửa nhiều thứ, máy tính hỏng cũng sửa được.</div>
+</div>
+<div class="card" data-text="我的自行车坏了，你能帮我修一下吗？">
+<div class="num">Câu ghép 16</div>
+<div class="zh">我的自行车坏了，你能帮我修一下吗？</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ de zìxíngchē huài le, nǐ néng bāng wǒ xiū yíxià ma?</div>
+<div class="vi">Xe đạp của tôi hỏng rồi, bạn sửa giúp tôi được không?</div>
+</div>
+<div class="card" data-text="我们把这张照片挂在沙发上面吧。">
+<div class="num">Câu ghép 17</div>
+<div class="zh">我们把这张照片挂在沙发上面吧。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒmen bǎ zhè zhāng zhàopiàn guà zài shāfā shàngmiàn ba.</div>
+<div class="vi">Mình treo tấm ảnh này phía trên sofa nhé.</div>
+</div>
+<div class="card" data-text="他没说完就把电话挂了。">
+<div class="num">Câu ghép 18</div>
+<div class="zh">他没说完就把电话挂了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tā méi shuō wán jiù bǎ diànhuà guà le.</div>
+<div class="vi">Anh ấy chưa nói xong đã cúp máy.</div>
+</div>
+<div class="card" data-text="衣服洗好了，快挂起来吧。">
+<div class="num">Câu ghép 19</div>
+<div class="zh">衣服洗好了，快挂起来吧。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Yīfu xǐ hǎo le, kuài guà qǐlái ba.</div>
+<div class="vi">Quần áo giặt xong rồi, mau treo lên đi.</div>
+</div>
+<div class="card" data-text="我想买一张双人床。">
+<div class="num">Câu ghép 20</div>
+<div class="zh">我想买一张双人床。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ xiǎng mǎi yì zhāng shuāngrén chuáng.</div>
+<div class="vi">Tôi muốn mua một cái giường đôi.</div>
+</div>
+<div class="card" data-text="我买了一张去北京的机票。">
+<div class="num">Câu ghép 21</div>
+<div class="zh">我买了一张去北京的机票。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ mǎi le yì zhāng qù Běijīng de jīpiào.</div>
+<div class="vi">Tôi đã mua một vé máy bay đi Bắc Kinh.</div>
+</div>
+<div class="card" data-text="我父亲今年六十岁了，还在工作。">
+<div class="num">Câu ghép 22</div>
+<div class="zh">我父亲今年六十岁了，还在工作。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ fùqīn jīnnián liùshí suì le, hái zài gōngzuò.</div>
+<div class="vi">Bố tôi năm nay sáu mươi tuổi rồi, vẫn còn đi làm.</div>
+</div>
+<div class="card" data-text="父亲帮我把家具搬到了新家。">
+<div class="num">Câu ghép 23</div>
+<div class="zh">父亲帮我把家具搬到了新家。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Fùqīn bāng wǒ bǎ jiājù bān dào le xīn jiā.</div>
+<div class="vi">Bố giúp tôi chuyển đồ đạc sang nhà mới.</div>
+</div>
+<div class="card" data-text="今天天气很暖和，我们出去走走吧。">
+<div class="num">Câu ghép 24</div>
+<div class="zh">今天天气很暖和，我们出去走走吧。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Jīntiān tiānqì hěn nuǎnhuo, wǒmen chūqù zǒuzou ba.</div>
+<div class="vi">Hôm nay trời ấm áp, mình ra ngoài đi dạo chút đi.</div>
+</div>
+<div class="card" data-text="房间里开了空调，很暖和。">
+<div class="num">Câu ghép 25</div>
+<div class="zh">房间里开了空调，很暖和。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Fángjiān li kāi le kōngtiáo, hěn nuǎnhuo.</div>
+<div class="vi">Trong phòng đã bật điều hòa, rất ấm.</div>
+</div>
+<div class="card" data-text="这个房间阳光很好，我很喜欢。">
+<div class="num">Câu ghép 26</div>
+<div class="zh">这个房间阳光很好，我很喜欢。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhège fángjiān yángguāng hěn hǎo, wǒ hěn xǐhuan.</div>
+<div class="vi">Phòng này nhiều nắng, tôi rất thích.</div>
+</div>
+<div class="card" data-text="早上的阳光照进房间里，暖和极了。">
+<div class="num">Câu ghép 27</div>
+<div class="zh">早上的阳光照进房间里，暖和极了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zǎoshang de yángguāng zhào jìn fángjiān li, nuǎnhuo jí le.</div>
+<div class="vi">Nắng sớm chiếu vào phòng, ấm áp vô cùng.</div>
+</div>
+<div class="card" data-text="我家周围有很多商店和饭馆，买东西很方便。">
+<div class="num">Câu ghép 28</div>
+<div class="zh">我家周围有很多商店和饭馆，买东西很方便。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ jiā zhōuwéi yǒu hěn duō shāngdiàn hé fànguǎn, mǎi dōngxi hěn fāngbiàn.</div>
+<div class="vi">Xung quanh nhà tôi có nhiều cửa hàng và quán ăn, mua sắm rất tiện.</div>
+</div>
+<div class="card" data-text="新家周围有一个大超市。">
+<div class="num">Câu ghép 29</div>
+<div class="zh">新家周围有一个大超市。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Xīn jiā zhōuwéi yǒu yí ge dà chāoshì.</div>
+<div class="vi">Gần nhà mới có một siêu thị lớn.</div>
+</div>
+<div class="card" data-text="这个沙发太旧了，我们换一个新的吧。">
+<div class="num">Câu ghép 30</div>
+<div class="zh">这个沙发太旧了，我们换一个新的吧。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhège shāfā tài jiù le, wǒmen huàn yí ge xīn de ba.</div>
+<div class="vi">Cái sofa này cũ quá rồi, mình đổi cái mới đi.</div>
+</div>
+<div class="card" data-text="我把旧衣服都整理好了。">
+<div class="num">Câu ghép 31</div>
+<div class="zh">我把旧衣服都整理好了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ bǎ jiù yīfu dōu zhěnglǐ hǎo le.</div>
+<div class="vi">Tôi đã xếp gọn hết quần áo cũ rồi.</div>
+</div>
+<div class="card" data-text="这张照片是我在北京照的。">
+<div class="num">Câu ghép 32</div>
+<div class="zh">这张照片是我在北京照的。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhè zhāng zhàopiàn shì wǒ zài Běijīng zhào de.</div>
+<div class="vi">Tấm ảnh này tôi chụp ở Bắc Kinh.</div>
+</div>
+<div class="card" data-text="来，我们一起照张相吧！">
+<div class="num">Câu ghép 33</div>
+<div class="zh">来，我们一起照张相吧！</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Lái, wǒmen yìqǐ zhào zhāng xiàng ba!</div>
+<div class="vi">Nào, chúng mình cùng chụp một tấm ảnh đi!</div>
+</div>
+<div class="card" data-text="妹妹有一双漂亮的大眼睛。">
+<div class="num">Câu ghép 34</div>
+<div class="zh">妹妹有一双漂亮的大眼睛。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Mèimei yǒu yì shuāng piàoliang de dà yǎnjing.</div>
+<div class="vi">Em gái có một đôi mắt to rất đẹp.</div>
+</div>
+<div class="card" data-text="我们买了一个双人沙发，放在电视前面。">
+<div class="num">Câu ghép 35</div>
+<div class="zh">我们买了一个双人沙发，放在电视前面。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒmen mǎi le yí ge shuāngrén shāfā, fàng zài diànshì qiánmiàn.</div>
+<div class="vi">Chúng tôi mua một cái sofa đôi, đặt trước tivi.</div>
+</div>
+<div class="card" data-text="这里房子的价格比较高。">
+<div class="num">Câu ghép 36</div>
+<div class="zh">这里房子的价格比较高。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhèlǐ fángzi de jiàgé bǐjiào gāo.</div>
+<div class="vi">Giá nhà ở đây khá cao.</div>
+</div>
+<div class="card" data-text="请问，这张桌子的价格是多少？">
+<div class="num">Câu ghép 37</div>
+<div class="zh">请问，这张桌子的价格是多少？</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Qǐngwèn, zhè zhāng zhuōzi de jiàgé shì duōshao?</div>
+<div class="vi">Xin hỏi, cái bàn này giá bao nhiêu?</div>
+</div>
+<div class="card" data-text="对不起，我身上没有现金了。">
+<div class="num">Câu ghép 38</div>
+<div class="zh">对不起，我身上没有现金了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Duìbuqǐ, wǒ shēnshang méiyǒu xiànjīn le.</div>
+<div class="vi">Xin lỗi, trong người tôi hết tiền mặt rồi.</div>
+</div>
+<div class="card" data-text="现在很多人买东西不用现金，用手机付钱。">
+<div class="num">Câu ghép 39</div>
+<div class="zh">现在很多人买东西不用现金，用手机付钱。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Xiànzài hěn duō rén mǎi dōngxi bú yòng xiànjīn, yòng shǒujī fù qián.</div>
+<div class="vi">Bây giờ nhiều người mua đồ không dùng tiền mặt, mà trả bằng điện thoại.</div>
+</div>
+<div class="card" data-text="今天的饭我来付钱吧。">
+<div class="num">Câu ghép 40</div>
+<div class="zh">今天的饭我来付钱吧。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Jīntiān de fàn wǒ lái fù qián ba.</div>
+<div class="vi">Bữa hôm nay để tôi trả tiền nhé.</div>
+</div>
+<div class="card" data-text="房租要在每个月一号以前付。">
+<div class="num">Câu ghép 41</div>
+<div class="zh">房租要在每个月一号以前付。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Fángzū yào zài měi ge yuè yī hào yǐqián fù.</div>
+<div class="vi">Tiền nhà phải trả trước ngày mùng một mỗi tháng.</div>
+</div>
+<div class="card" data-text="搬家以前，我们先把旧家具卖了。">
+<div class="num">Câu ghép 42</div>
+<div class="zh">搬家以前，我们先把旧家具卖了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Bānjiā yǐqián, wǒmen xiān bǎ jiù jiājù mài le.</div>
+<div class="vi">Trước khi chuyển nhà, chúng tôi bán đồ đạc cũ trước.</div>
+</div>
+<div class="card" data-text="卫生间的门坏了，父亲说他明天来修。">
+<div class="num">Câu ghép 43</div>
+<div class="zh">卫生间的门坏了，父亲说他明天来修。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wèishēngjiān de mén huài le, fùqīn shuō tā míngtiān lái xiū.</div>
+<div class="vi">Cửa nhà vệ sinh hỏng rồi, bố nói mai bố đến sửa.</div>
+</div>
+<div class="card" data-text="这个房子周围环境不错，阳光也很好，价格也不高。">
+<div class="num">Câu ghép 44</div>
+<div class="zh">这个房子周围环境不错，阳光也很好，价格也不高。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhège fángzi zhōuwéi huánjìng búcuò, yángguāng yě hěn hǎo, jiàgé yě bù gāo.</div>
+<div class="vi">Căn nhà này môi trường xung quanh khá tốt, nhiều nắng, giá cũng không cao.</div>
+</div>
+<div class="card" data-text="你先整理一下沙发上的东西，太乱了。">
+<div class="num">Câu ghép 45</div>
+<div class="zh">你先整理一下沙发上的东西，太乱了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Nǐ xiān zhěnglǐ yíxià shāfā shang de dōngxi, tài luàn le.</div>
+<div class="vi">Bạn dọn đồ trên sofa trước đi, bừa quá.</div>
+</div>
+<div class="card" data-text="这台旧空调我们不要了，新家已经有空调了。">
+<div class="num">Câu ghép 46</div>
+<div class="zh">这台旧空调我们不要了，新家已经有空调了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhè tái jiù kōngtiáo wǒmen bú yào le, xīn jiā yǐjīng yǒu kōngtiáo le.</div>
+<div class="vi">Cái điều hòa cũ này chúng tôi không lấy nữa, nhà mới có điều hòa rồi.</div>
+</div>
+<div class="card" data-text="这张双人床的价格是三千元，可以用现金付吗？">
+<div class="num">Câu ghép 47</div>
+<div class="zh">这张双人床的价格是三千元，可以用现金付吗？</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhè zhāng shuāngrén chuáng de jiàgé shì sānqiān yuán, kěyǐ yòng xiànjīn fù ma?</div>
+<div class="vi">Cái giường đôi này giá ba nghìn tệ, trả bằng tiền mặt được không?</div>
+</div>
+<div class="card" data-text="父亲把那张旧照片挂在了房间里。">
+<div class="num">Câu ghép 48</div>
+<div class="zh">父亲把那张旧照片挂在了房间里。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Fùqīn bǎ nà zhāng jiù zhàopiàn guà zài le fángjiān li.</div>
+<div class="vi">Bố treo tấm ảnh cũ đó trong phòng.</div>
+</div>
+<div class="card" data-text="阳光照在沙发上，房间里很暖和。">
+<div class="num">Câu ghép 49</div>
+<div class="zh">阳光照在沙发上，房间里很暖和。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Yángguāng zhào zài shāfā shang, fángjiān li hěn nuǎnhuo.</div>
+<div class="vi">Nắng chiếu lên sofa, trong phòng rất ấm.</div>
+</div>
+<div class="card" data-text="搬家公司的人帮我们把家具都搬进了新家。">
+<div class="num">Câu ghép 50</div>
+<div class="zh">搬家公司的人帮我们把家具都搬进了新家。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Bānjiā gōngsī de rén bāng wǒmen bǎ jiājù dōu bān jìn le xīn jiā.</div>
+<div class="vi">Người của công ty chuyển nhà giúp chúng tôi chuyển hết đồ đạc vào nhà mới.</div>
+</div>
+<h2>📖 Bài văn: 我们搬家了 — Nhà mình chuyển nhà rồi</h2>
+<div class="card" data-text="上个月，我们家搬到了一个新的地方。">
+<div class="num">Câu văn 01</div>
+<div class="zh">上个月，我们家搬到了一个新的地方。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Shàng ge yuè, wǒmen jiā bān dào le yí ge xīn de dìfang.</div>
+<div class="vi">Tháng trước, nhà tôi chuyển đến một nơi mới.</div>
+</div>
+<div class="card" data-text="以前的房子太旧了，离我的公司也很远。">
+<div class="num">Câu văn 02</div>
+<div class="zh">以前的房子太旧了，离我的公司也很远。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Yǐqián de fángzi tài jiù le, lí wǒ de gōngsī yě hěn yuǎn.</div>
+<div class="vi">Căn nhà trước đây cũ quá, lại xa công ty của tôi.</div>
+</div>
+<div class="card" data-text="新房子周围有超市、饭馆和地铁站，买东西、上班都很方便。">
+<div class="num">Câu văn 03</div>
+<div class="zh">新房子周围有超市、饭馆和地铁站，买东西、上班都很方便。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Xīn fángzi zhōuwéi yǒu chāoshì, fànguǎn hé dìtiě zhàn, mǎi dōngxi, shàngbān dōu hěn fāngbiàn.</div>
+<div class="vi">Xung quanh nhà mới có siêu thị, quán ăn và ga tàu điện ngầm, mua sắm hay đi làm đều rất tiện.</div>
+</div>
+<div class="card" data-text="我们去看房子那天，阳光从外面照进来，房间里暖和极了。">
+<div class="num">Câu văn 04</div>
+<div class="zh">我们去看房子那天，阳光从外面照进来，房间里暖和极了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒmen qù kàn fángzi nà tiān, yángguāng cóng wàimiàn zhào jìnlái, fángjiān li nuǎnhuo jí le.</div>
+<div class="vi">Hôm chúng tôi đi xem nhà, nắng từ bên ngoài chiếu vào, trong phòng ấm áp vô cùng.</div>
+</div>
+<div class="card" data-text="父亲问了一下价格，一个月的房租是三千元，不太贵。">
+<div class="num">Câu văn 05</div>
+<div class="zh">父亲问了一下价格，一个月的房租是三千元，不太贵。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Fùqīn wèn le yíxià jiàgé, yí ge yuè de fángzū shì sānqiān yuán, bú tài guì.</div>
+<div class="vi">Bố hỏi giá, tiền thuê một tháng là ba nghìn tệ, không đắt lắm.</div>
+</div>
+<div class="card" data-text="我们都很满意，马上就决定搬过来。">
+<div class="num">Câu văn 06</div>
+<div class="zh">我们都很满意，马上就决定搬过来。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒmen dōu hěn mǎnyì, mǎshàng jiù juédìng bān guòlái.</div>
+<div class="vi">Cả nhà đều rất hài lòng, quyết định chuyển đến ngay.</div>
+</div>
+<div class="card" data-text="搬家那天，父亲很早就起床了。">
+<div class="num">Câu văn 07</div>
+<div class="zh">搬家那天，父亲很早就起床了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Bānjiā nà tiān, fùqīn hěn zǎo jiù qǐchuáng le.</div>
+<div class="vi">Hôm chuyển nhà, bố dậy từ rất sớm.</div>
+</div>
+<div class="card" data-text="我们的家具不多，可是有一个很大的沙发，很不容易搬。">
+<div class="num">Câu văn 08</div>
+<div class="zh">我们的家具不多，可是有一个很大的沙发，很不容易搬。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒmen de jiājù bù duō, kěshì yǒu yí ge hěn dà de shāfā, hěn bù róngyì bān.</div>
+<div class="vi">Đồ đạc nhà tôi không nhiều, nhưng có một cái sofa rất to, khiêng rất vất vả.</div>
+</div>
+<div class="card" data-text="我和哥哥花了四十分钟，终于把沙发搬进了新家。">
+<div class="num">Câu văn 09</div>
+<div class="zh">我和哥哥花了四十分钟，终于把沙发搬进了新家。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ hé gēge huā le sìshí fēnzhōng, zhōngyú bǎ shāfā bān jìn le xīn jiā.</div>
+<div class="vi">Tôi và anh trai mất bốn mươi phút, cuối cùng cũng khiêng được sofa vào nhà mới.</div>
+</div>
+<div class="card" data-text="东西都搬进来以后，家里乱极了。">
+<div class="num">Câu văn 10</div>
+<div class="zh">东西都搬进来以后，家里乱极了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Dōngxi dōu bān jìnlái yǐhòu, jiā li luàn jí le.</div>
+<div class="vi">Đồ đạc chuyển vào hết rồi, trong nhà bừa bộn kinh khủng.</div>
+</div>
+<div class="card" data-text="妈妈说：“我们先整理房间，然后再休息。”">
+<div class="num">Câu văn 11</div>
+<div class="zh">妈妈说：“我们先整理房间，然后再休息。”</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Māma shuō: "Wǒmen xiān zhěnglǐ fángjiān, ránhòu zài xiūxi."</div>
+<div class="vi">Mẹ nói: "Mình dọn phòng trước, rồi hẵng nghỉ."</div>
+</div>
+<div class="card" data-text="我整理了自己的书和衣服，把衣服都挂了起来。">
+<div class="num">Câu văn 12</div>
+<div class="zh">我整理了自己的书和衣服，把衣服都挂了起来。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ zhěnglǐ le zìjǐ de shū hé yīfu, bǎ yīfu dōu guà le qǐlái.</div>
+<div class="vi">Tôi sắp xếp sách vở và quần áo của mình, treo hết quần áo lên.</div>
+</div>
+<div class="card" data-text="父亲把一张旧照片挂在了沙发上面，那是我小时候照的。">
+<div class="num">Câu văn 13</div>
+<div class="zh">父亲把一张旧照片挂在了沙发上面，那是我小时候照的。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Fùqīn bǎ yì zhāng jiù zhàopiàn guà zài le shāfā shàngmiàn, nà shì wǒ xiǎo shíhou zhào de.</div>
+<div class="vi">Bố treo một tấm ảnh cũ phía trên sofa, đó là ảnh chụp hồi tôi còn nhỏ.</div>
+</div>
+<div class="card" data-text="晚上，我们发现卫生间的门坏了，关不上。">
+<div class="num">Câu văn 14</div>
+<div class="zh">晚上，我们发现卫生间的门坏了，关不上。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǎnshang, wǒmen fāxiàn wèishēngjiān de mén huài le, guān bu shàng.</div>
+<div class="vi">Buổi tối, chúng tôi phát hiện cửa nhà vệ sinh bị hỏng, đóng không được.</div>
+</div>
+<div class="card" data-text="父亲看了看，说：“没问题，我来修。”">
+<div class="num">Câu văn 15</div>
+<div class="zh">父亲看了看，说：“没问题，我来修。”</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Fùqīn kàn le kàn, shuō: "Méi wèntí, wǒ lái xiū."</div>
+<div class="vi">Bố xem qua rồi nói: "Không sao, để bố sửa."</div>
+</div>
+<div class="card" data-text="他只用了十分钟就把门修好了。">
+<div class="num">Câu văn 16</div>
+<div class="zh">他只用了十分钟就把门修好了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tā zhǐ yòng le shí fēnzhōng jiù bǎ mén xiū hǎo le.</div>
+<div class="vi">Bố chỉ mất mười phút là sửa xong cửa.</div>
+</div>
+<div class="card" data-text="第二天，我们去商店买了一台新空调和一张双人床。">
+<div class="num">Câu văn 17</div>
+<div class="zh">第二天，我们去商店买了一台新空调和一张双人床。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Dì èr tiān, wǒmen qù shāngdiàn mǎi le yì tái xīn kōngtiáo hé yì zhāng shuāngrén chuáng.</div>
+<div class="vi">Hôm sau, chúng tôi ra cửa hàng mua một cái điều hòa mới và một cái giường đôi.</div>
+</div>
+<div class="card" data-text="付钱的时候，那家商店只要现金，还好父亲带了现金。">
+<div class="num">Câu văn 18</div>
+<div class="zh">付钱的时候，那家商店只要现金，还好父亲带了现金。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Fù qián de shíhou, nà jiā shāngdiàn zhǐ yào xiànjīn, hái hǎo fùqīn dài le xiànjīn.</div>
+<div class="vi">Lúc trả tiền, cửa hàng đó chỉ nhận tiền mặt, may mà bố có mang tiền mặt.</div>
+</div>
+<div class="card" data-text="现在，新家已经整理好了，一点儿也不乱了。">
+<div class="num">Câu văn 19</div>
+<div class="zh">现在，新家已经整理好了，一点儿也不乱了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Xiànzài, xīn jiā yǐjīng zhěnglǐ hǎo le, yìdiǎnr yě bú luàn le.</div>
+<div class="vi">Bây giờ, nhà mới đã dọn dẹp xong, không còn bừa chút nào nữa.</div>
+</div>
+<div class="card" data-text="每个周末，我都喜欢坐在沙发上，在阳光里看书。">
+<div class="num">Câu văn 20</div>
+<div class="zh">每个周末，我都喜欢坐在沙发上，在阳光里看书。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Měi ge zhōumò, wǒ dōu xǐhuan zuò zài shāfā shang, zài yángguāng li kàn shū.</div>
+<div class="vi">Cuối tuần nào tôi cũng thích ngồi trên sofa, đọc sách dưới nắng.</div>
+</div>
+<div class="card" data-text="我很喜欢我们的新家。">
+<div class="num">Câu văn 21</div>
+<div class="zh">我很喜欢我们的新家。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ hěn xǐhuan wǒmen de xīn jiā.</div>
+<div class="vi">Tôi rất thích ngôi nhà mới của chúng tôi.</div>
+</div>
+</div>
+<script>
+let index=0;const cards=[...document.querySelectorAll('.card')];
+function speak(text){speechSynthesis.cancel();speechSynthesis.resume();const u=new SpeechSynthesisUtterance(text);u.lang='zh-CN';u.rate=.75;u.pitch=1;speechSynthesis.speak(u)}
+function selectCard(i,scroll=true){index=Math.max(0,Math.min(i,cards.length-1));cards.forEach(c=>c.classList.remove('active'));cards[index].classList.add('active');if(scroll)cards[index].scrollIntoView({behavior:'smooth',block:'center'})}
+function playItem(card){selectCard(cards.indexOf(card),false);speak(card.dataset.text)}
+function playCurrent(){speak(cards[index].dataset.text)}function stopAudio(){speechSynthesis.cancel()}function move(step){selectCard(index+step,true)}
+document.addEventListener('keydown',e=>{if(['INPUT','TEXTAREA','SELECT'].includes(document.activeElement?.tagName))return;if(e.key==='ArrowDown'){e.preventDefault();move(1)}if(e.key==='ArrowUp'){e.preventDefault();move(-1)}if(e.key==='Enter'){e.preventDefault();playCurrent()}});
+selectCard(0,false);
+</script></body></html>

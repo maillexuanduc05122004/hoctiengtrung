@@ -1,0 +1,685 @@
+<!doctype html><html lang="vi"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>20 từ mới + 50 câu ghép + bài văn audio</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f5f8ff;color:#17202a;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+.wrap{max-width:900px;margin:auto;padding:20px 14px 70px}h1,h2{color:#17365d}
+.note{background:#fff;border:1px solid #dbe5f1;border-radius:15px;padding:14px;line-height:1.65}
+.toolbar{position:sticky;top:0;z-index:10;background:rgba(245,248,255,.97);padding:10px 0;display:flex;gap:7px;flex-wrap:wrap}
+.card{background:#fff;border:1px solid #dbe5f1;border-radius:15px;padding:17px;margin:12px 0}
+.card.active{border:3px solid #2675b5;box-shadow:0 0 0 3px rgba(38,117,181,.10)}
+.num{font-size:13px;color:#7b8794}.zh{font-size:38px;font-weight:700;color:#17365d;line-height:1.5;margin:8px 0 12px}
+.py{font-size:18px;margin-top:10px}.vi{font-size:16px;color:#66717d;margin-top:8px;line-height:1.5}
+button{border:0;border-radius:10px;background:#2675b5;color:#fff;padding:10px 15px;font-size:15px;cursor:pointer}
+.secondary{background:#fff;color:#17365d;border:1px solid #b9cbe0}
+</style></head><body><div class="wrap">
+<h1>🎧 20 từ mới + 50 câu ghép + bài văn</h1>
+<div class="note">
+<b>Bài 20 — 20 từ HSK 3 (HSK 3.0) để luyện thi, chủ đề giải quyết khó khăn, máy tính và đồ dùng; không có hai từ chung chữ, từ đọc gần giống xếp cách xa nhau (意外、计算、工具、失去、效果、利用、明显、确实、基本、并且、为了、任何、支持、困难、值得、专门、麻烦、奇怪、内容、能力).</b><br>
+50 câu ghép ưu tiên 20 từ mới và chỉ kết hợp với những từ bạn đã học trước đó.<br>
+Bài văn cuối bài dùng đủ 20 từ mới, chia từng câu để nghe và dò theo cho dễ.<br><br>
+🔊 Audio kiểu cũ (SpeechSynthesis tiếng Trung) · ⬇️ / ⬆️ chuyển mục · <b>Enter</b> phát mục đang chọn · Highlight + tự cuộn · 0.75×.
+</div>
+<div class="toolbar">
+<button class="secondary" onclick="move(-1)">⬆️ Mục trước</button>
+<button class="secondary" onclick="move(1)">⬇️ Mục tiếp</button>
+<button onclick="playCurrent()">🔊 Phát hiện tại</button>
+<button class="secondary" onclick="stopAudio()">⏹ Dừng</button>
+</div>
+<h2>📚 20 từ mới</h2>
+<div class="card" data-text="意外">
+<div class="num">Từ mới 01</div>
+<div class="zh">意外</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">yìwài</div>
+<div class="vi">bất ngờ, ngoài ý muốn; sự cố, tai nạn (出意外: xảy ra chuyện)</div>
+</div>
+<div class="card" data-text="计算">
+<div class="num">Từ mới 02</div>
+<div class="zh">计算</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">jìsuàn</div>
+<div class="vi">tính, tính toán (计算机: máy tính)</div>
+</div>
+<div class="card" data-text="工具">
+<div class="num">Từ mới 03</div>
+<div class="zh">工具</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">gōngjù</div>
+<div class="vi">công cụ, dụng cụ</div>
+</div>
+<div class="card" data-text="失去">
+<div class="num">Từ mới 04</div>
+<div class="zh">失去</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">shīqù</div>
+<div class="vi">mất, mất đi (失去机会: mất cơ hội)</div>
+</div>
+<div class="card" data-text="效果">
+<div class="num">Từ mới 05</div>
+<div class="zh">效果</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">xiàoguǒ</div>
+<div class="vi">hiệu quả, tác dụng</div>
+</div>
+<div class="card" data-text="利用">
+<div class="num">Từ mới 06</div>
+<div class="zh">利用</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">lìyòng</div>
+<div class="vi">tận dụng, dùng; lợi dụng (利用时间: tận dụng thời gian)</div>
+</div>
+<div class="card" data-text="明显">
+<div class="num">Từ mới 07</div>
+<div class="zh">明显</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">míngxiǎn</div>
+<div class="vi">rõ ràng, rõ rệt</div>
+</div>
+<div class="card" data-text="确实">
+<div class="num">Từ mới 08</div>
+<div class="zh">确实</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">quèshí</div>
+<div class="vi">quả thật, đúng là</div>
+</div>
+<div class="card" data-text="基本">
+<div class="num">Từ mới 09</div>
+<div class="zh">基本</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">jīběn</div>
+<div class="vi">cơ bản (基本上: về cơ bản, gần như)</div>
+</div>
+<div class="card" data-text="并且">
+<div class="num">Từ mới 10</div>
+<div class="zh">并且</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">bìngqiě</div>
+<div class="vi">hơn nữa, và (nối hai vế câu)</div>
+</div>
+<div class="card" data-text="为了">
+<div class="num">Từ mới 11</div>
+<div class="zh">为了</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">wèile</div>
+<div class="vi">để, vì (chỉ mục đích: 为了学好汉语…)</div>
+</div>
+<div class="card" data-text="任何">
+<div class="num">Từ mới 12</div>
+<div class="zh">任何</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">rènhé</div>
+<div class="vi">bất kỳ, bất cứ (任何人: bất kỳ ai)</div>
+</div>
+<div class="card" data-text="支持">
+<div class="num">Từ mới 13</div>
+<div class="zh">支持</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">zhīchí</div>
+<div class="vi">ủng hộ, hỗ trợ</div>
+</div>
+<div class="card" data-text="困难">
+<div class="num">Từ mới 14</div>
+<div class="zh">困难</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">kùnnan</div>
+<div class="vi">khó khăn</div>
+</div>
+<div class="card" data-text="值得">
+<div class="num">Từ mới 15</div>
+<div class="zh">值得</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">zhíde</div>
+<div class="vi">đáng (để), xứng đáng (值得一看: đáng xem)</div>
+</div>
+<div class="card" data-text="专门">
+<div class="num">Từ mới 16</div>
+<div class="zh">专门</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">zhuānmén</div>
+<div class="vi">chuyên, riêng (để); cất công (专门来看你: cất công đến thăm bạn)</div>
+</div>
+<div class="card" data-text="麻烦">
+<div class="num">Từ mới 17</div>
+<div class="zh">麻烦</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">máfan</div>
+<div class="vi">phiền phức, rắc rối; làm phiền (麻烦你…: phiền bạn…)</div>
+</div>
+<div class="card" data-text="奇怪">
+<div class="num">Từ mới 18</div>
+<div class="zh">奇怪</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">qíguài</div>
+<div class="vi">lạ, kỳ lạ</div>
+</div>
+<div class="card" data-text="内容">
+<div class="num">Từ mới 19</div>
+<div class="zh">内容</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">nèiróng</div>
+<div class="vi">nội dung</div>
+</div>
+<div class="card" data-text="能力">
+<div class="num">Từ mới 20</div>
+<div class="zh">能力</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">nénglì</div>
+<div class="vi">năng lực, khả năng</div>
+</div>
+<h2>🎧 50 câu ghép</h2>
+<div class="card" data-text="他突然来看我，我觉得很意外。">
+<div class="num">Câu ghép 01</div>
+<div class="zh">他突然来看我，我觉得很意外。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tā tūrán lái kàn wǒ, wǒ juéde hěn yìwài.</div>
+<div class="vi">Anh ấy bỗng nhiên đến thăm tôi, tôi thấy rất bất ngờ.</div>
+</div>
+<div class="card" data-text="开车的时候要小心，千万别出意外。">
+<div class="num">Câu ghép 02</div>
+<div class="zh">开车的时候要小心，千万别出意外。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Kāichē de shíhou yào xiǎoxīn, qiānwàn bié chū yìwài.</div>
+<div class="vi">Lái xe phải cẩn thận, nhất định đừng để xảy ra tai nạn.</div>
+</div>
+<div class="card" data-text="这个题目很复杂，我计算了一个小时。">
+<div class="num">Câu ghép 03</div>
+<div class="zh">这个题目很复杂，我计算了一个小时。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhège tímù hěn fùzá, wǒ jìsuàn le yí ge xiǎoshí.</div>
+<div class="vi">Bài này phức tạp lắm, tôi tính mất một tiếng.</div>
+</div>
+<div class="card" data-text="你帮我计算一下，这个月一共花了多少钱？">
+<div class="num">Câu ghép 04</div>
+<div class="zh">你帮我计算一下，这个月一共花了多少钱？</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Nǐ bāng wǒ jìsuàn yíxià, zhège yuè yígòng huā le duōshao qián?</div>
+<div class="vi">Bạn tính giúp tôi xem tháng này tổng cộng đã tiêu bao nhiêu tiền?</div>
+</div>
+<div class="card" data-text="电脑是我学习汉语最好的工具。">
+<div class="num">Câu ghép 05</div>
+<div class="zh">电脑是我学习汉语最好的工具。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Diànnǎo shì wǒ xuéxí Hànyǔ zuì hǎo de gōngjù.</div>
+<div class="vi">Máy tính là công cụ học tiếng Trung tốt nhất của tôi.</div>
+</div>
+<div class="card" data-text="我的自行车坏了，你家有修车的工具吗？">
+<div class="num">Câu ghép 06</div>
+<div class="zh">我的自行车坏了，你家有修车的工具吗？</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ de zìxíngchē huài le, nǐ jiā yǒu xiū chē de gōngjù ma?</div>
+<div class="vi">Xe đạp của tôi hỏng rồi, nhà bạn có dụng cụ sửa xe không?</div>
+</div>
+<div class="card" data-text="他因为常常迟到，失去了这个工作。">
+<div class="num">Câu ghép 07</div>
+<div class="zh">他因为常常迟到，失去了这个工作。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tā yīnwèi chángcháng chídào, shīqù le zhège gōngzuò.</div>
+<div class="vi">Vì hay đi muộn nên anh ấy đã mất công việc này.</div>
+</div>
+<div class="card" data-text="考得不好也别失去信心，我们继续努力。">
+<div class="num">Câu ghép 08</div>
+<div class="zh">考得不好也别失去信心，我们继续努力。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Kǎo de bù hǎo yě bié shīqù xìnxīn, wǒmen jìxù nǔlì.</div>
+<div class="vi">Thi không tốt cũng đừng mất tự tin, chúng ta tiếp tục cố gắng.</div>
+</div>
+<div class="card" data-text="这种药的效果很好，我吃了一天就好了。">
+<div class="num">Câu ghép 09</div>
+<div class="zh">这种药的效果很好，我吃了一天就好了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhè zhǒng yào de xiàoguǒ hěn hǎo, wǒ chī le yì tiān jiù hǎo le.</div>
+<div class="vi">Thuốc này hiệu quả lắm, tôi uống một ngày là khỏi.</div>
+</div>
+<div class="card" data-text="老师，每天这样练习有效果吗？">
+<div class="num">Câu ghép 10</div>
+<div class="zh">老师，每天这样练习有效果吗？</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Lǎoshī, měi tiān zhèyàng liànxí yǒu xiàoguǒ ma?</div>
+<div class="vi">Thưa thầy, ngày nào cũng luyện tập thế này có hiệu quả không ạ?</div>
+</div>
+<div class="card" data-text="我常常利用周末的时间学习汉语。">
+<div class="num">Câu ghép 11</div>
+<div class="zh">我常常利用周末的时间学习汉语。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ chángcháng lìyòng zhōumò de shíjiān xuéxí Hànyǔ.</div>
+<div class="vi">Tôi hay tận dụng thời gian cuối tuần để học tiếng Trung.</div>
+</div>
+<div class="card" data-text="你可以利用互联网查一下这个词的意思。">
+<div class="num">Câu ghép 12</div>
+<div class="zh">你可以利用互联网查一下这个词的意思。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Nǐ kěyǐ lìyòng hùliánwǎng chá yíxià zhège cí de yìsi.</div>
+<div class="vi">Bạn có thể dùng Internet tra nghĩa của từ này.</div>
+</div>
+<div class="card" data-text="这个月他的汉语有了明显的进步。">
+<div class="num">Câu ghép 13</div>
+<div class="zh">这个月他的汉语有了明显的进步。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhège yuè tā de Hànyǔ yǒu le míngxiǎn de jìnbù.</div>
+<div class="vi">Tháng này tiếng Trung của anh ấy tiến bộ rõ rệt.</div>
+</div>
+<div class="card" data-text="很明显，他今天不太高兴。">
+<div class="num">Câu ghép 14</div>
+<div class="zh">很明显，他今天不太高兴。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Hěn míngxiǎn, tā jīntiān bú tài gāoxìng.</div>
+<div class="vi">Rõ ràng là hôm nay anh ấy không vui lắm.</div>
+</div>
+<div class="card" data-text="你说得对，这个问题确实很复杂。">
+<div class="num">Câu ghép 15</div>
+<div class="zh">你说得对，这个问题确实很复杂。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Nǐ shuō de duì, zhège wèntí quèshí hěn fùzá.</div>
+<div class="vi">Bạn nói đúng, vấn đề này quả thật rất phức tạp.</div>
+</div>
+<div class="card" data-text="这件事确实是我做错了，对不起。">
+<div class="num">Câu ghép 16</div>
+<div class="zh">这件事确实是我做错了，对不起。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhè jiàn shì quèshí shì wǒ zuò cuò le, duìbuqǐ.</div>
+<div class="vi">Chuyện này đúng là tôi làm sai, xin lỗi.</div>
+</div>
+<div class="card" data-text="学汉语，最基本的是多听多说。">
+<div class="num">Câu ghép 17</div>
+<div class="zh">学汉语，最基本的是多听多说。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Xué Hànyǔ, zuì jīběn de shì duō tīng duō shuō.</div>
+<div class="vi">Học tiếng Trung, điều cơ bản nhất là nghe nhiều nói nhiều.</div>
+</div>
+<div class="card" data-text="我的工作基本上完成了，明天再检查一下。">
+<div class="num">Câu ghép 18</div>
+<div class="zh">我的工作基本上完成了，明天再检查一下。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ de gōngzuò jīběnshang wánchéng le, míngtiān zài jiǎnchá yíxià.</div>
+<div class="vi">Công việc của tôi về cơ bản đã xong, mai tôi kiểm tra lại một lượt.</div>
+</div>
+<div class="card" data-text="这家饭馆的菜很好吃，并且价格不贵。">
+<div class="num">Câu ghép 19</div>
+<div class="zh">这家饭馆的菜很好吃，并且价格不贵。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhè jiā fànguǎn de cài hěn hǎochī, bìngqiě jiàgé bú guì.</div>
+<div class="vi">Món ăn của quán này rất ngon, hơn nữa giá cũng không đắt.</div>
+</div>
+<div class="card" data-text="他会说汉语，并且说得很流利。">
+<div class="num">Câu ghép 20</div>
+<div class="zh">他会说汉语，并且说得很流利。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tā huì shuō Hànyǔ, bìngqiě shuō de hěn liúlì.</div>
+<div class="vi">Anh ấy biết nói tiếng Trung, hơn nữa nói rất lưu loát.</div>
+</div>
+<div class="card" data-text="为了学好汉语，他每天早上六点起床。">
+<div class="num">Câu ghép 21</div>
+<div class="zh">为了学好汉语，他每天早上六点起床。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wèile xué hǎo Hànyǔ, tā měi tiān zǎoshang liù diǎn qǐchuáng.</div>
+<div class="vi">Để học giỏi tiếng Trung, ngày nào anh ấy cũng dậy lúc sáu giờ sáng.</div>
+</div>
+<div class="card" data-text="为了不迟到，我今天提前出门了。">
+<div class="num">Câu ghép 22</div>
+<div class="zh">为了不迟到，我今天提前出门了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wèile bù chídào, wǒ jīntiān tíqián chūmén le.</div>
+<div class="vi">Để không bị muộn, hôm nay tôi ra khỏi nhà sớm hơn.</div>
+</div>
+<div class="card" data-text="有任何问题，你都可以给我打电话。">
+<div class="num">Câu ghép 23</div>
+<div class="zh">有任何问题，你都可以给我打电话。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Yǒu rènhé wèntí, nǐ dōu kěyǐ gěi wǒ dǎ diànhuà.</div>
+<div class="vi">Có bất kỳ vấn đề gì, bạn cứ gọi điện cho tôi.</div>
+</div>
+<div class="card" data-text="这件事你不要告诉任何人。">
+<div class="num">Câu ghép 24</div>
+<div class="zh">这件事你不要告诉任何人。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhè jiàn shì nǐ bú yào gàosu rènhé rén.</div>
+<div class="vi">Chuyện này bạn đừng nói với bất kỳ ai.</div>
+</div>
+<div class="card" data-text="我的父母一直很支持我学汉语。">
+<div class="num">Câu ghép 25</div>
+<div class="zh">我的父母一直很支持我学汉语。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ de fùmǔ yìzhí hěn zhīchí wǒ xué Hànyǔ.</div>
+<div class="vi">Bố mẹ tôi luôn rất ủng hộ tôi học tiếng Trung.</div>
+</div>
+<div class="card" data-text="你的决定我们都支持，你放心吧。">
+<div class="num">Câu ghép 26</div>
+<div class="zh">你的决定我们都支持，你放心吧。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Nǐ de juédìng wǒmen dōu zhīchí, nǐ fàngxīn ba.</div>
+<div class="vi">Quyết định của bạn chúng tôi đều ủng hộ, bạn cứ yên tâm.</div>
+</div>
+<div class="card" data-text="学汉语的时候，我最大的困难是听力。">
+<div class="num">Câu ghép 27</div>
+<div class="zh">学汉语的时候，我最大的困难是听力。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Xué Hànyǔ de shíhou, wǒ zuì dà de kùnnan shì tīnglì.</div>
+<div class="vi">Khi học tiếng Trung, khó khăn lớn nhất của tôi là nghe.</div>
+</div>
+<div class="card" data-text="有困难就告诉我，别不好意思。">
+<div class="num">Câu ghép 28</div>
+<div class="zh">有困难就告诉我，别不好意思。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Yǒu kùnnan jiù gàosu wǒ, bié bù hǎoyìsi.</div>
+<div class="vi">Có khó khăn thì cứ nói với tôi, đừng ngại.</div>
+</div>
+<div class="card" data-text="这本书很好，值得一看。">
+<div class="num">Câu ghép 29</div>
+<div class="zh">这本书很好，值得一看。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhè běn shū hěn hǎo, zhíde yí kàn.</div>
+<div class="vi">Quyển sách này rất hay, đáng đọc.</div>
+</div>
+<div class="card" data-text="北京是一个值得去的城市。">
+<div class="num">Câu ghép 30</div>
+<div class="zh">北京是一个值得去的城市。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Běijīng shì yí ge zhíde qù de chéngshì.</div>
+<div class="vi">Bắc Kinh là một thành phố đáng để đến.</div>
+</div>
+<div class="card" data-text="这是我专门给你买的礼物。">
+<div class="num">Câu ghép 31</div>
+<div class="zh">这是我专门给你买的礼物。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhè shì wǒ zhuānmén gěi nǐ mǎi de lǐwù.</div>
+<div class="vi">Đây là món quà tôi mua riêng cho bạn.</div>
+</div>
+<div class="card" data-text="这家商店专门卖电脑。">
+<div class="num">Câu ghép 32</div>
+<div class="zh">这家商店专门卖电脑。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhè jiā shāngdiàn zhuānmén mài diànnǎo.</div>
+<div class="vi">Cửa hàng này chuyên bán máy tính.</div>
+</div>
+<div class="card" data-text="麻烦你帮我把门打开，好吗？">
+<div class="num">Câu ghép 33</div>
+<div class="zh">麻烦你帮我把门打开，好吗？</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Máfan nǐ bāng wǒ bǎ mén dǎkāi, hǎo ma?</div>
+<div class="vi">Phiền bạn mở cửa giúp tôi được không?</div>
+</div>
+<div class="card" data-text="这件事太麻烦了，我不想做了。">
+<div class="num">Câu ghép 34</div>
+<div class="zh">这件事太麻烦了，我不想做了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhè jiàn shì tài máfan le, wǒ bù xiǎng zuò le.</div>
+<div class="vi">Việc này phiền phức quá, tôi không muốn làm nữa.</div>
+</div>
+<div class="card" data-text="真奇怪，我的手机怎么不见了？">
+<div class="num">Câu ghép 35</div>
+<div class="zh">真奇怪，我的手机怎么不见了？</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhēn qíguài, wǒ de shǒujī zěnme bú jiàn le?</div>
+<div class="vi">Lạ thật, điện thoại của tôi sao lại không thấy đâu nữa?</div>
+</div>
+<div class="card" data-text="他今天很奇怪，什么话都不说。">
+<div class="num">Câu ghép 36</div>
+<div class="zh">他今天很奇怪，什么话都不说。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tā jīntiān hěn qíguài, shénme huà dōu bù shuō.</div>
+<div class="vi">Hôm nay anh ấy lạ lắm, chẳng nói câu nào.</div>
+</div>
+<div class="card" data-text="这篇文章的内容很丰富。">
+<div class="num">Câu ghép 37</div>
+<div class="zh">这篇文章的内容很丰富。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhè piān wénzhāng de nèiróng hěn fēngfù.</div>
+<div class="vi">Nội dung bài viết này rất phong phú.</div>
+</div>
+<div class="card" data-text="会议的内容我已经发邮件告诉大家了。">
+<div class="num">Câu ghép 38</div>
+<div class="zh">会议的内容我已经发邮件告诉大家了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Huìyì de nèiróng wǒ yǐjīng fā yóujiàn gàosu dàjiā le.</div>
+<div class="vi">Nội dung cuộc họp tôi đã gửi email báo cho mọi người rồi.</div>
+</div>
+<div class="card" data-text="他很有能力，经理很信任他。">
+<div class="num">Câu ghép 39</div>
+<div class="zh">他很有能力，经理很信任他。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tā hěn yǒu nénglì, jīnglǐ hěn xìnrèn tā.</div>
+<div class="vi">Anh ấy rất có năng lực, giám đốc rất tin tưởng anh ấy.</div>
+</div>
+<div class="card" data-text="我想提高自己的汉语能力。">
+<div class="num">Câu ghép 40</div>
+<div class="zh">我想提高自己的汉语能力。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ xiǎng tígāo zìjǐ de Hànyǔ nénglì.</div>
+<div class="vi">Tôi muốn nâng cao khả năng tiếng Trung của mình.</div>
+</div>
+<div class="card" data-text="我的电脑突然坏了，确实很麻烦。">
+<div class="num">Câu ghép 41</div>
+<div class="zh">我的电脑突然坏了，确实很麻烦。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ de diànnǎo tūrán huài le, quèshí hěn máfan.</div>
+<div class="vi">Máy tính của tôi đột nhiên hỏng, đúng là phiền thật.</div>
+</div>
+<div class="card" data-text="这个工具很好用，并且效果很明显。">
+<div class="num">Câu ghép 42</div>
+<div class="zh">这个工具很好用，并且效果很明显。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhège gōngjù hěn hǎo yòng, bìngqiě xiàoguǒ hěn míngxiǎn.</div>
+<div class="vi">Dụng cụ này rất dễ dùng, hơn nữa hiệu quả thấy rõ.</div>
+</div>
+<div class="card" data-text="碰到任何困难，我们都会支持你。">
+<div class="num">Câu ghép 43</div>
+<div class="zh">碰到任何困难，我们都会支持你。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Pèngdào rènhé kùnnan, wǒmen dōu huì zhīchí nǐ.</div>
+<div class="vi">Gặp bất kỳ khó khăn nào, chúng tôi cũng sẽ ủng hộ bạn.</div>
+</div>
+<div class="card" data-text="真奇怪，我和他计算的结果不一样。">
+<div class="num">Câu ghép 44</div>
+<div class="zh">真奇怪，我和他计算的结果不一样。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhēn qíguài, wǒ hé tā jìsuàn de jiéguǒ bù yíyàng.</div>
+<div class="vi">Lạ thật, kết quả tôi tính với anh ấy tính không giống nhau.</div>
+</div>
+<div class="card" data-text="这篇文章的内容很有意思，确实值得一读。">
+<div class="num">Câu ghép 45</div>
+<div class="zh">这篇文章的内容很有意思，确实值得一读。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhè piān wénzhāng de nèiróng hěn yǒu yìsi, quèshí zhíde yì dú.</div>
+<div class="vi">Nội dung bài viết này rất thú vị, quả thật đáng đọc.</div>
+</div>
+<div class="card" data-text="他失去了工作，这让大家都很意外。">
+<div class="num">Câu ghép 46</div>
+<div class="zh">他失去了工作，这让大家都很意外。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tā shīqù le gōngzuò, zhè ràng dàjiā dōu hěn yìwài.</div>
+<div class="vi">Anh ấy mất việc, chuyện này khiến mọi người đều bất ngờ.</div>
+</div>
+<div class="card" data-text="他专门利用周末的时间来帮我修电脑。">
+<div class="num">Câu ghép 47</div>
+<div class="zh">他专门利用周末的时间来帮我修电脑。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tā zhuānmén lìyòng zhōumò de shíjiān lái bāng wǒ xiū diànnǎo.</div>
+<div class="vi">Anh ấy cất công tranh thủ thời gian cuối tuần đến sửa máy tính giúp tôi.</div>
+</div>
+<div class="card" data-text="会用电脑是现在工作最基本的能力。">
+<div class="num">Câu ghép 48</div>
+<div class="zh">会用电脑是现在工作最基本的能力。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Huì yòng diànnǎo shì xiànzài gōngzuò zuì jīběn de nénglì.</div>
+<div class="vi">Biết dùng máy tính là năng lực cơ bản nhất khi đi làm bây giờ.</div>
+</div>
+<div class="card" data-text="为了不麻烦别人，他自己解决了所有的困难。">
+<div class="num">Câu ghép 49</div>
+<div class="zh">为了不麻烦别人，他自己解决了所有的困难。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wèile bù máfan biérén, tā zìjǐ jiějué le suǒyǒu de kùnnan.</div>
+<div class="vi">Để không làm phiền người khác, anh ấy tự mình giải quyết mọi khó khăn.</div>
+</div>
+<div class="card" data-text="为了提高听力，我专门买了一个新手机。">
+<div class="num">Câu ghép 50</div>
+<div class="zh">为了提高听力，我专门买了一个新手机。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wèile tígāo tīnglì, wǒ zhuānmén mǎi le yí ge xīn shǒujī.</div>
+<div class="vi">Để nâng cao kỹ năng nghe, tôi mua hẳn một chiếc điện thoại mới.</div>
+</div>
+<h2>📖 Bài văn: 电脑坏了以后 — Sau khi máy tính bị hỏng</h2>
+<div class="card" data-text="上个星期，我碰到了一件很意外的事。">
+<div class="num">Câu văn 01</div>
+<div class="zh">上个星期，我碰到了一件很意外的事。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Shàng ge xīngqī, wǒ pèngdào le yí jiàn hěn yìwài de shì.</div>
+<div class="vi">Tuần trước, tôi gặp một chuyện rất bất ngờ.</div>
+</div>
+<div class="card" data-text="星期三早上，经理让我准备星期四会议的内容。">
+<div class="num">Câu văn 02</div>
+<div class="zh">星期三早上，经理让我准备星期四会议的内容。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Xīngqīsān zǎoshang, jīnglǐ ràng wǒ zhǔnbèi xīngqīsì huìyì de nèiróng.</div>
+<div class="vi">Sáng thứ Tư, giám đốc bảo tôi chuẩn bị nội dung cho cuộc họp thứ Năm.</div>
+</div>
+<div class="card" data-text="这个工作有点儿复杂，要计算公司这一年的各种费用。">
+<div class="num">Câu văn 03</div>
+<div class="zh">这个工作有点儿复杂，要计算公司这一年的各种费用。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhège gōngzuò yǒudiǎnr fùzá, yào jìsuàn gōngsī zhè yì nián de gè zhǒng fèiyòng.</div>
+<div class="vi">Việc này hơi phức tạp, phải tính các khoản chi phí của công ty trong năm nay.</div>
+</div>
+<div class="card" data-text="工作了一天，我基本上做完了，可是电脑突然坏了。">
+<div class="num">Câu văn 04</div>
+<div class="zh">工作了一天，我基本上做完了，可是电脑突然坏了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Gōngzuò le yì tiān, wǒ jīběnshang zuò wán le, kěshì diànnǎo tūrán huài le.</div>
+<div class="vi">Làm cả một ngày, tôi gần như đã làm xong, nhưng máy tính đột nhiên hỏng.</div>
+</div>
+<div class="card" data-text="电脑里的东西都打不开了，我真怕失去所有做好的内容。">
+<div class="num">Câu văn 05</div>
+<div class="zh">电脑里的东西都打不开了，我真怕失去所有做好的内容。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Diànnǎo li de dōngxi dōu dǎ bu kāi le, wǒ zhēn pà shīqù suǒyǒu zuò hǎo de nèiróng.</div>
+<div class="vi">Mọi thứ trong máy đều không mở được, tôi rất sợ mất hết phần nội dung đã làm xong.</div>
+</div>
+<div class="card" data-text="真奇怪，电脑昨天还好好的，今天怎么就坏了？">
+<div class="num">Câu văn 06</div>
+<div class="zh">真奇怪，电脑昨天还好好的，今天怎么就坏了？</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhēn qíguài, diànnǎo zuótiān hái hǎohǎo de, jīntiān zěnme jiù huài le?</div>
+<div class="vi">Lạ thật, hôm qua máy tính vẫn còn tốt, sao hôm nay lại hỏng?</div>
+</div>
+<div class="card" data-text="我很紧张，因为明天就要开会了。">
+<div class="num">Câu văn 07</div>
+<div class="zh">我很紧张，因为明天就要开会了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ hěn jǐnzhāng, yīnwèi míngtiān jiù yào kāihuì le.</div>
+<div class="vi">Tôi rất lo, vì ngày mai là họp rồi.</div>
+</div>
+<div class="card" data-text="我给同事小李打了一个电话，他以前专门学过计算机。">
+<div class="num">Câu văn 08</div>
+<div class="zh">我给同事小李打了一个电话，他以前专门学过计算机。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ gěi tóngshì Xiǎo Lǐ dǎ le yí ge diànhuà, tā yǐqián zhuānmén xué guo jìsuànjī.</div>
+<div class="vi">Tôi gọi điện cho đồng nghiệp Tiểu Lý, trước đây anh ấy từng học chuyên ngành máy tính.</div>
+</div>
+<div class="card" data-text="他说：“没关系，有任何问题都可以找我。”">
+<div class="num">Câu văn 09</div>
+<div class="zh">他说：“没关系，有任何问题都可以找我。”</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tā shuō: "Méi guānxi, yǒu rènhé wèntí dōu kěyǐ zhǎo wǒ."</div>
+<div class="vi">Anh ấy nói: "Không sao, có bất kỳ vấn đề gì cứ tìm tôi."</div>
+</div>
+<div class="card" data-text="那天晚上，他带了很多工具来我家。">
+<div class="num">Câu văn 10</div>
+<div class="zh">那天晚上，他带了很多工具来我家。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Nà tiān wǎnshang, tā dài le hěn duō gōngjù lái wǒ jiā.</div>
+<div class="vi">Tối hôm đó, anh ấy mang rất nhiều dụng cụ đến nhà tôi.</div>
+</div>
+<div class="card" data-text="他检查了一下电脑，说：“这个问题确实有点儿麻烦，可是能解决。”">
+<div class="num">Câu văn 11</div>
+<div class="zh">他检查了一下电脑，说：“这个问题确实有点儿麻烦，可是能解决。”</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tā jiǎnchá le yíxià diànnǎo, shuō: "Zhège wèntí quèshí yǒudiǎnr máfan, kěshì néng jiějué."</div>
+<div class="vi">Anh ấy kiểm tra máy tính một lượt rồi nói: "Lỗi này đúng là hơi rắc rối, nhưng sửa được."</div>
+</div>
+<div class="card" data-text="为了帮我，他一直工作到晚上十一点。">
+<div class="num">Câu văn 12</div>
+<div class="zh">为了帮我，他一直工作到晚上十一点。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wèile bāng wǒ, tā yìzhí gōngzuò dào wǎnshang shíyī diǎn.</div>
+<div class="vi">Để giúp tôi, anh ấy làm liền một mạch đến mười một giờ đêm.</div>
+</div>
+<div class="card" data-text="最后，他利用一个小工具，把电脑里的东西都找回来了。">
+<div class="num">Câu văn 13</div>
+<div class="zh">最后，他利用一个小工具，把电脑里的东西都找回来了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zuìhòu, tā lìyòng yí ge xiǎo gōngjù, bǎ diànnǎo li de dōngxi dōu zhǎo huílái le.</div>
+<div class="vi">Cuối cùng, anh ấy dùng một công cụ nhỏ, lấy lại được hết mọi thứ trong máy.</div>
+</div>
+<div class="card" data-text="我高兴地对他说：“真是太谢谢你了！”">
+<div class="num">Câu văn 14</div>
+<div class="zh">我高兴地对他说：“真是太谢谢你了！”</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ gāoxìng de duì tā shuō: "Zhēn shì tài xièxie nǐ le!"</div>
+<div class="vi">Tôi vui mừng nói với anh ấy: "Thật sự cảm ơn anh nhiều lắm!"</div>
+</div>
+<div class="card" data-text="小李笑了笑说：“不客气，我们是同事，当然要互相支持。”">
+<div class="num">Câu văn 15</div>
+<div class="zh">小李笑了笑说：“不客气，我们是同事，当然要互相支持。”</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Xiǎo Lǐ xiào le xiào shuō: "Bú kèqi, wǒmen shì tóngshì, dāngrán yào hùxiāng zhīchí."</div>
+<div class="vi">Tiểu Lý cười cười nói: "Không có gì, chúng ta là đồng nghiệp, đương nhiên phải hỗ trợ nhau."</div>
+</div>
+<div class="card" data-text="他还告诉我，最好每天把做好的东西存到别的地方。">
+<div class="num">Câu văn 16</div>
+<div class="zh">他还告诉我，最好每天把做好的东西存到别的地方。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tā hái gàosu wǒ, zuìhǎo měi tiān bǎ zuò hǎo de dōngxi cún dào bié de dìfang.</div>
+<div class="vi">Anh ấy còn dặn tôi, tốt nhất là ngày nào cũng lưu những gì đã làm xong sang chỗ khác.</div>
+</div>
+<div class="card" data-text="我觉得他的建议很有用，并且很简单。">
+<div class="num">Câu văn 17</div>
+<div class="zh">我觉得他的建议很有用，并且很简单。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ juéde tā de jiànyì hěn yǒuyòng, bìngqiě hěn jiǎndān.</div>
+<div class="vi">Tôi thấy lời khuyên của anh ấy rất có ích, hơn nữa lại rất đơn giản.</div>
+</div>
+<div class="card" data-text="星期四的会议上，我的介绍效果很好，经理很满意。">
+<div class="num">Câu văn 18</div>
+<div class="zh">星期四的会议上，我的介绍效果很好，经理很满意。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Xīngqīsì de huìyì shang, wǒ de jièshào xiàoguǒ hěn hǎo, jīnglǐ hěn mǎnyì.</div>
+<div class="vi">Trong cuộc họp thứ Năm, phần trình bày của tôi rất hiệu quả, giám đốc rất hài lòng.</div>
+</div>
+<div class="card" data-text="经理说：“你的工作能力有了明显的进步。”">
+<div class="num">Câu văn 19</div>
+<div class="zh">经理说：“你的工作能力有了明显的进步。”</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Jīnglǐ shuō: "Nǐ de gōngzuò nénglì yǒu le míngxiǎn de jìnbù."</div>
+<div class="vi">Giám đốc nói: "Năng lực làm việc của cậu đã tiến bộ rõ rệt."</div>
+</div>
+<div class="card" data-text="我告诉经理，这都是因为有小李的帮助。">
+<div class="num">Câu văn 20</div>
+<div class="zh">我告诉经理，这都是因为有小李的帮助。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ gàosu jīnglǐ, zhè dōu shì yīnwèi yǒu Xiǎo Lǐ de bāngzhù.</div>
+<div class="vi">Tôi nói với giám đốc rằng tất cả là nhờ có Tiểu Lý giúp đỡ.</div>
+</div>
+<div class="card" data-text="这件事让我明白了，碰到困难的时候不要害怕。">
+<div class="num">Câu văn 21</div>
+<div class="zh">这件事让我明白了，碰到困难的时候不要害怕。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhè jiàn shì ràng wǒ míngbai le, pèngdào kùnnan de shíhou bú yào hàipà.</div>
+<div class="vi">Chuyện này giúp tôi hiểu ra rằng khi gặp khó khăn thì đừng sợ.</div>
+</div>
+<div class="card" data-text="有小李这样的同事，真是一件值得高兴的事。">
+<div class="num">Câu văn 22</div>
+<div class="zh">有小李这样的同事，真是一件值得高兴的事。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Yǒu Xiǎo Lǐ zhèyàng de tóngshì, zhēn shì yí jiàn zhíde gāoxìng de shì.</div>
+<div class="vi">Có người đồng nghiệp như Tiểu Lý, thật là một chuyện đáng mừng.</div>
+</div>
+</div>
+<script>
+let index=0;const cards=[...document.querySelectorAll('.card')];
+function speak(text){speechSynthesis.cancel();speechSynthesis.resume();const u=new SpeechSynthesisUtterance(text);u.lang='zh-CN';u.rate=.75;u.pitch=1;speechSynthesis.speak(u)}
+function selectCard(i,scroll=true){index=Math.max(0,Math.min(i,cards.length-1));cards.forEach(c=>c.classList.remove('active'));cards[index].classList.add('active');if(scroll)cards[index].scrollIntoView({behavior:'smooth',block:'center'})}
+function playItem(card){selectCard(cards.indexOf(card),false);speak(card.dataset.text)}
+function playCurrent(){speak(cards[index].dataset.text)}function stopAudio(){speechSynthesis.cancel()}function move(step){selectCard(index+step,true)}
+document.addEventListener('keydown',e=>{if(['INPUT','TEXTAREA','SELECT'].includes(document.activeElement?.tagName))return;if(e.key==='ArrowDown'){e.preventDefault();move(1)}if(e.key==='ArrowUp'){e.preventDefault();move(-1)}if(e.key==='Enter'){e.preventDefault();playCurrent()}});
+selectCard(0,false);
+</script></body></html>

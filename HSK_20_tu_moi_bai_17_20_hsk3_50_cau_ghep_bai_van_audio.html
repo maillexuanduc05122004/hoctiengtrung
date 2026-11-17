@@ -1,0 +1,685 @@
+<!doctype html><html lang="vi"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>20 từ mới + 50 câu ghép + bài văn audio</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f5f8ff;color:#17202a;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+.wrap{max-width:900px;margin:auto;padding:20px 14px 70px}h1,h2{color:#17365d}
+.note{background:#fff;border:1px solid #dbe5f1;border-radius:15px;padding:14px;line-height:1.65}
+.toolbar{position:sticky;top:0;z-index:10;background:rgba(245,248,255,.97);padding:10px 0;display:flex;gap:7px;flex-wrap:wrap}
+.card{background:#fff;border:1px solid #dbe5f1;border-radius:15px;padding:17px;margin:12px 0}
+.card.active{border:3px solid #2675b5;box-shadow:0 0 0 3px rgba(38,117,181,.10)}
+.num{font-size:13px;color:#7b8794}.zh{font-size:38px;font-weight:700;color:#17365d;line-height:1.5;margin:8px 0 12px}
+.py{font-size:18px;margin-top:10px}.vi{font-size:16px;color:#66717d;margin-top:8px;line-height:1.5}
+button{border:0;border-radius:10px;background:#2675b5;color:#fff;padding:10px 15px;font-size:15px;cursor:pointer}
+.secondary{background:#fff;color:#17365d;border:1px solid #b9cbe0}
+</style></head><body><div class="wrap">
+<h1>🎧 20 từ mới + 50 câu ghép + bài văn</h1>
+<div class="note">
+<b>Bài 17 — 20 từ HSK 3 (HSK 3.0) để luyện thi, chủ đề con người và tính cách; không có hai từ chung chữ, từ đọc gần giống xếp cách xa nhau (性格、亲切、姑娘、个人、感情、伤心、幸福、印象、主意、年纪、美丽、记者、演员、警察、信任、敢、吵、批评、愿望、表现).</b><br>
+50 câu ghép ưu tiên 20 từ mới và chỉ kết hợp với những từ bạn đã học trước đó.<br>
+Bài văn cuối bài dùng đủ 20 từ mới, chia từng câu để nghe và dò theo cho dễ.<br><br>
+🔊 Audio kiểu cũ (SpeechSynthesis tiếng Trung) · ⬇️ / ⬆️ chuyển mục · <b>Enter</b> phát mục đang chọn · Highlight + tự cuộn · 0.75×.
+</div>
+<div class="toolbar">
+<button class="secondary" onclick="move(-1)">⬆️ Mục trước</button>
+<button class="secondary" onclick="move(1)">⬇️ Mục tiếp</button>
+<button onclick="playCurrent()">🔊 Phát hiện tại</button>
+<button class="secondary" onclick="stopAudio()">⏹ Dừng</button>
+</div>
+<h2>📚 20 từ mới</h2>
+<div class="card" data-text="性格">
+<div class="num">Từ mới 01</div>
+<div class="zh">性格</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">xìnggé</div>
+<div class="vi">tính cách, tính tình</div>
+</div>
+<div class="card" data-text="亲切">
+<div class="num">Từ mới 02</div>
+<div class="zh">亲切</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">qīnqiè</div>
+<div class="vi">thân thiện, niềm nở, trìu mến (亲切地说: nói một cách thân mật)</div>
+</div>
+<div class="card" data-text="姑娘">
+<div class="num">Từ mới 03</div>
+<div class="zh">姑娘</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">gūniang</div>
+<div class="vi">cô gái, cô gái trẻ (小姑娘: cô bé)</div>
+</div>
+<div class="card" data-text="个人">
+<div class="num">Từ mới 04</div>
+<div class="zh">个人</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">gèrén</div>
+<div class="vi">cá nhân, riêng (我个人觉得…: cá nhân tôi thấy…)</div>
+</div>
+<div class="card" data-text="感情">
+<div class="num">Từ mới 05</div>
+<div class="zh">感情</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">gǎnqíng</div>
+<div class="vi">tình cảm</div>
+</div>
+<div class="card" data-text="伤心">
+<div class="num">Từ mới 06</div>
+<div class="zh">伤心</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">shāngxīn</div>
+<div class="vi">đau lòng, buồn</div>
+</div>
+<div class="card" data-text="幸福">
+<div class="num">Từ mới 07</div>
+<div class="zh">幸福</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">xìngfú</div>
+<div class="vi">hạnh phúc</div>
+</div>
+<div class="card" data-text="印象">
+<div class="num">Từ mới 08</div>
+<div class="zh">印象</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">yìnxiàng</div>
+<div class="vi">ấn tượng (留下印象: để lại ấn tượng)</div>
+</div>
+<div class="card" data-text="主意">
+<div class="num">Từ mới 09</div>
+<div class="zh">主意</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">zhǔyi</div>
+<div class="vi">ý kiến, cách, ý hay (好主意: ý hay; 出主意: nghĩ cách giúp)</div>
+</div>
+<div class="card" data-text="年纪">
+<div class="num">Từ mới 10</div>
+<div class="zh">年纪</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">niánjì</div>
+<div class="vi">tuổi (thường nói về người lớn tuổi: 年纪大了)</div>
+</div>
+<div class="card" data-text="美丽">
+<div class="num">Từ mới 11</div>
+<div class="zh">美丽</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">měilì</div>
+<div class="vi">đẹp, xinh đẹp (trang trọng hơn 漂亮)</div>
+</div>
+<div class="card" data-text="记者">
+<div class="num">Từ mới 12</div>
+<div class="zh">记者</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">jìzhě</div>
+<div class="vi">phóng viên, nhà báo</div>
+</div>
+<div class="card" data-text="演员">
+<div class="num">Từ mới 13</div>
+<div class="zh">演员</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">yǎnyuán</div>
+<div class="vi">diễn viên</div>
+</div>
+<div class="card" data-text="警察">
+<div class="num">Từ mới 14</div>
+<div class="zh">警察</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">jǐngchá</div>
+<div class="vi">cảnh sát</div>
+</div>
+<div class="card" data-text="信任">
+<div class="num">Từ mới 15</div>
+<div class="zh">信任</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">xìnrèn</div>
+<div class="vi">tin tưởng, tín nhiệm</div>
+</div>
+<div class="card" data-text="敢">
+<div class="num">Từ mới 16</div>
+<div class="zh">敢</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">gǎn</div>
+<div class="vi">dám (不敢: không dám)</div>
+</div>
+<div class="card" data-text="吵">
+<div class="num">Từ mới 17</div>
+<div class="zh">吵</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">chǎo</div>
+<div class="vi">ồn ào; cãi nhau (太吵了: ồn quá; 别吵了: đừng cãi nữa)</div>
+</div>
+<div class="card" data-text="批评">
+<div class="num">Từ mới 18</div>
+<div class="zh">批评</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">pīpíng</div>
+<div class="vi">phê bình, chê trách, mắng</div>
+</div>
+<div class="card" data-text="愿望">
+<div class="num">Từ mới 19</div>
+<div class="zh">愿望</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">yuànwàng</div>
+<div class="vi">mong ước, nguyện vọng</div>
+</div>
+<div class="card" data-text="表现">
+<div class="num">Từ mới 20</div>
+<div class="zh">表现</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">biǎoxiàn</div>
+<div class="vi">thể hiện, biểu hiện (表现很好: thể hiện tốt)</div>
+</div>
+<h2>🎧 50 câu ghép</h2>
+<div class="card" data-text="他的性格很好，大家都喜欢跟他做朋友。">
+<div class="num">Câu ghép 01</div>
+<div class="zh">他的性格很好，大家都喜欢跟他做朋友。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tā de xìnggé hěn hǎo, dàjiā dōu xǐhuan gēn tā zuò péngyou.</div>
+<div class="vi">Tính cách anh ấy rất tốt, ai cũng thích kết bạn với anh ấy.</div>
+</div>
+<div class="card" data-text="我和哥哥的性格很不一样，他爱说话，我不爱说话。">
+<div class="num">Câu ghép 02</div>
+<div class="zh">我和哥哥的性格很不一样，他爱说话，我不爱说话。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ hé gēge de xìnggé hěn bù yíyàng, tā ài shuōhuà, wǒ bú ài shuōhuà.</div>
+<div class="vi">Tôi và anh trai tính cách rất khác nhau, anh ấy thích nói chuyện, còn tôi thì ít nói.</div>
+</div>
+<div class="card" data-text="新来的老师说话很亲切。">
+<div class="num">Câu ghép 03</div>
+<div class="zh">新来的老师说话很亲切。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Xīn lái de lǎoshī shuōhuà hěn qīnqiè.</div>
+<div class="vi">Thầy giáo mới đến nói chuyện rất thân thiện.</div>
+</div>
+<div class="card" data-text="奶奶亲切地问我：“你吃饭了吗？”">
+<div class="num">Câu ghép 04</div>
+<div class="zh">奶奶亲切地问我：“你吃饭了吗？”</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Nǎinai qīnqiè de wèn wǒ: "Nǐ chī fàn le ma?"</div>
+<div class="vi">Bà trìu mến hỏi tôi: "Cháu ăn cơm chưa?"</div>
+</div>
+<div class="card" data-text="那个穿红裙子的姑娘是谁？">
+<div class="num">Câu ghép 05</div>
+<div class="zh">那个穿红裙子的姑娘是谁？</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Nàge chuān hóng qúnzi de gūniang shì shéi?</div>
+<div class="vi">Cô gái mặc váy đỏ kia là ai vậy?</div>
+</div>
+<div class="card" data-text="他妹妹已经是一个大姑娘了。">
+<div class="num">Câu ghép 06</div>
+<div class="zh">他妹妹已经是一个大姑娘了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tā mèimei yǐjīng shì yí ge dà gūniang le.</div>
+<div class="vi">Em gái anh ấy đã thành thiếu nữ rồi.</div>
+</div>
+<div class="card" data-text="这是我个人的事情，你不用问了。">
+<div class="num">Câu ghép 07</div>
+<div class="zh">这是我个人的事情，你不用问了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhè shì wǒ gèrén de shìqing, nǐ bú yòng wèn le.</div>
+<div class="vi">Đây là chuyện riêng của tôi, bạn không cần hỏi nữa.</div>
+</div>
+<div class="card" data-text="我个人觉得这个主意不错。">
+<div class="num">Câu ghép 08</div>
+<div class="zh">我个人觉得这个主意不错。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ gèrén juéde zhège zhǔyi búcuò.</div>
+<div class="vi">Cá nhân tôi thấy ý này không tệ.</div>
+</div>
+<div class="card" data-text="我和姐姐的感情很好，有什么事都会告诉对方。">
+<div class="num">Câu ghép 09</div>
+<div class="zh">我和姐姐的感情很好，有什么事都会告诉对方。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ hé jiějie de gǎnqíng hěn hǎo, yǒu shénme shì dōu huì gàosu duìfāng.</div>
+<div class="vi">Tôi và chị gái rất thân nhau, có chuyện gì cũng kể cho nhau nghe.</div>
+</div>
+<div class="card" data-text="他们在一起十年了，感情还是那么好。">
+<div class="num">Câu ghép 10</div>
+<div class="zh">他们在一起十年了，感情还是那么好。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tāmen zài yìqǐ shí nián le, gǎnqíng háishi nàme hǎo.</div>
+<div class="vi">Họ ở bên nhau mười năm rồi, tình cảm vẫn tốt đẹp như thế.</div>
+</div>
+<div class="card" data-text="小狗不见了，妹妹伤心地哭了。">
+<div class="num">Câu ghép 11</div>
+<div class="zh">小狗不见了，妹妹伤心地哭了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Xiǎogǒu bú jiàn le, mèimei shāngxīn de kū le.</div>
+<div class="vi">Chú chó nhỏ bị lạc, em gái buồn đến phát khóc.</div>
+</div>
+<div class="card" data-text="别伤心了，这不是你的错。">
+<div class="num">Câu ghép 12</div>
+<div class="zh">别伤心了，这不是你的错。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Bié shāngxīn le, zhè bú shì nǐ de cuò.</div>
+<div class="vi">Đừng buồn nữa, đây không phải lỗi của bạn.</div>
+</div>
+<div class="card" data-text="爸爸妈妈身体都很好，我觉得很幸福。">
+<div class="num">Câu ghép 13</div>
+<div class="zh">爸爸妈妈身体都很好，我觉得很幸福。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Bàba māma shēntǐ dōu hěn hǎo, wǒ juéde hěn xìngfú.</div>
+<div class="vi">Bố mẹ đều khỏe mạnh, tôi thấy rất hạnh phúc.</div>
+</div>
+<div class="card" data-text="他们一家人在一起，过得很幸福。">
+<div class="num">Câu ghép 14</div>
+<div class="zh">他们一家人在一起，过得很幸福。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tāmen yì jiā rén zài yìqǐ, guò de hěn xìngfú.</div>
+<div class="vi">Cả nhà họ sống bên nhau rất hạnh phúc.</div>
+</div>
+<div class="card" data-text="你对新同事的印象怎么样？">
+<div class="num">Câu ghép 15</div>
+<div class="zh">你对新同事的印象怎么样？</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Nǐ duì xīn tóngshì de yìnxiàng zěnmeyàng?</div>
+<div class="vi">Bạn thấy ấn tượng về đồng nghiệp mới thế nào?</div>
+</div>
+<div class="card" data-text="那个城市给我留下了很深的印象。">
+<div class="num">Câu ghép 16</div>
+<div class="zh">那个城市给我留下了很深的印象。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Nàge chéngshì gěi wǒ liúxià le hěn shēn de yìnxiàng.</div>
+<div class="vi">Thành phố đó để lại cho tôi ấn tượng rất sâu sắc.</div>
+</div>
+<div class="card" data-text="这是个好主意，我们就这样做吧。">
+<div class="num">Câu ghép 17</div>
+<div class="zh">这是个好主意，我们就这样做吧。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhè shì ge hǎo zhǔyi, wǒmen jiù zhèyàng zuò ba.</div>
+<div class="vi">Ý này hay đấy, chúng ta cứ làm như vậy đi.</div>
+</div>
+<div class="card" data-text="我不知道怎么办，你帮我出个主意吧。">
+<div class="num">Câu ghép 18</div>
+<div class="zh">我不知道怎么办，你帮我出个主意吧。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ bù zhīdào zěnme bàn, nǐ bāng wǒ chū ge zhǔyi ba.</div>
+<div class="vi">Tôi không biết phải làm sao, bạn nghĩ giúp tôi một cách đi.</div>
+</div>
+<div class="card" data-text="奶奶年纪大了，耳朵不太好。">
+<div class="num">Câu ghép 19</div>
+<div class="zh">奶奶年纪大了，耳朵不太好。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Nǎinai niánjì dà le, ěrduo bú tài hǎo.</div>
+<div class="vi">Bà lớn tuổi rồi, tai không còn nghe rõ lắm.</div>
+</div>
+<div class="card" data-text="他年纪不大，可是经验很丰富。">
+<div class="num">Câu ghép 20</div>
+<div class="zh">他年纪不大，可是经验很丰富。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tā niánjì bú dà, kěshì jīngyàn hěn fēngfù.</div>
+<div class="vi">Anh ấy tuổi còn trẻ nhưng kinh nghiệm rất phong phú.</div>
+</div>
+<div class="card" data-text="这个小村子很美丽，我很喜欢。">
+<div class="num">Câu ghép 21</div>
+<div class="zh">这个小村子很美丽，我很喜欢。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhège xiǎo cūnzi hěn měilì, wǒ hěn xǐhuan.</div>
+<div class="vi">Ngôi làng nhỏ này rất đẹp, tôi rất thích.</div>
+</div>
+<div class="card" data-text="那是一个美丽的姑娘，眼睛大大的。">
+<div class="num">Câu ghép 22</div>
+<div class="zh">那是一个美丽的姑娘，眼睛大大的。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Nà shì yí ge měilì de gūniang, yǎnjing dàdà de.</div>
+<div class="vi">Đó là một cô gái xinh đẹp, đôi mắt to tròn.</div>
+</div>
+<div class="card" data-text="我姐姐是电视台的记者。">
+<div class="num">Câu ghép 23</div>
+<div class="zh">我姐姐是电视台的记者。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ jiějie shì diànshìtái de jìzhě.</div>
+<div class="vi">Chị gái tôi là phóng viên của đài truyền hình.</div>
+</div>
+<div class="card" data-text="记者问了他很多问题。">
+<div class="num">Câu ghép 24</div>
+<div class="zh">记者问了他很多问题。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Jìzhě wèn le tā hěn duō wèntí.</div>
+<div class="vi">Phóng viên hỏi anh ấy rất nhiều câu hỏi.</div>
+</div>
+<div class="card" data-text="这个演员演得真好！">
+<div class="num">Câu ghép 25</div>
+<div class="zh">这个演员演得真好！</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhège yǎnyuán yǎn de zhēn hǎo!</div>
+<div class="vi">Diễn viên này diễn hay thật!</div>
+</div>
+<div class="card" data-text="我小时候的愿望是当一个演员。">
+<div class="num">Câu ghép 26</div>
+<div class="zh">我小时候的愿望是当一个演员。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ xiǎoshíhou de yuànwàng shì dāng yí ge yǎnyuán.</div>
+<div class="vi">Hồi nhỏ, ước mơ của tôi là trở thành diễn viên.</div>
+</div>
+<div class="card" data-text="我的包不见了，我们快去找警察吧！">
+<div class="num">Câu ghép 27</div>
+<div class="zh">我的包不见了，我们快去找警察吧！</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ de bāo bú jiàn le, wǒmen kuài qù zhǎo jǐngchá ba!</div>
+<div class="vi">Túi của tôi mất rồi, chúng ta mau đi tìm cảnh sát đi!</div>
+</div>
+<div class="card" data-text="有问题可以找警察帮忙。">
+<div class="num">Câu ghép 28</div>
+<div class="zh">有问题可以找警察帮忙。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Yǒu wèntí kěyǐ zhǎo jǐngchá bāngmáng.</div>
+<div class="vi">Có chuyện gì thì có thể nhờ cảnh sát giúp.</div>
+</div>
+<div class="card" data-text="他做事很认真，大家都很信任他。">
+<div class="num">Câu ghép 29</div>
+<div class="zh">他做事很认真，大家都很信任他。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tā zuò shì hěn rènzhēn, dàjiā dōu hěn xìnrèn tā.</div>
+<div class="vi">Anh ấy làm việc rất nghiêm túc, mọi người đều rất tin tưởng anh ấy.</div>
+</div>
+<div class="card" data-text="谢谢你这么信任我。">
+<div class="num">Câu ghép 30</div>
+<div class="zh">谢谢你这么信任我。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Xièxie nǐ zhème xìnrèn wǒ.</div>
+<div class="vi">Cảm ơn bạn đã tin tưởng tôi như vậy.</div>
+</div>
+<div class="card" data-text="我妹妹很怕狗，晚上不敢出门。">
+<div class="num">Câu ghép 31</div>
+<div class="zh">我妹妹很怕狗，晚上不敢出门。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ mèimei hěn pà gǒu, wǎnshang bù gǎn chūmén.</div>
+<div class="vi">Em gái tôi rất sợ chó, buổi tối không dám ra ngoài.</div>
+</div>
+<div class="card" data-text="这件事你敢跟老板说吗？">
+<div class="num">Câu ghép 32</div>
+<div class="zh">这件事你敢跟老板说吗？</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhè jiàn shì nǐ gǎn gēn lǎobǎn shuō ma?</div>
+<div class="vi">Chuyện này bạn có dám nói với sếp không?</div>
+</div>
+<div class="card" data-text="外面太吵了，请把门关上吧。">
+<div class="num">Câu ghép 33</div>
+<div class="zh">外面太吵了，请把门关上吧。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wàimiàn tài chǎo le, qǐng bǎ mén guānshàng ba.</div>
+<div class="vi">Bên ngoài ồn quá, làm ơn đóng cửa lại nhé.</div>
+</div>
+<div class="card" data-text="别吵了，妈妈在睡觉呢。">
+<div class="num">Câu ghép 34</div>
+<div class="zh">别吵了，妈妈在睡觉呢。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Bié chǎo le, māma zài shuìjiào ne.</div>
+<div class="vi">Đừng làm ồn nữa, mẹ đang ngủ đấy.</div>
+</div>
+<div class="card" data-text="他昨天又迟到了，被经理批评了。">
+<div class="num">Câu ghép 35</div>
+<div class="zh">他昨天又迟到了，被经理批评了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tā zuótiān yòu chídào le, bèi jīnglǐ pīpíng le.</div>
+<div class="vi">Hôm qua anh ấy lại đến muộn, bị giám đốc phê bình.</div>
+</div>
+<div class="card" data-text="老师批评了我，可是我知道老师是为我好。">
+<div class="num">Câu ghép 36</div>
+<div class="zh">老师批评了我，可是我知道老师是为我好。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Lǎoshī pīpíng le wǒ, kěshì wǒ zhīdào lǎoshī shì wèi wǒ hǎo.</div>
+<div class="vi">Thầy giáo phê bình tôi, nhưng tôi biết thầy muốn tốt cho tôi.</div>
+</div>
+<div class="card" data-text="你今年的生日愿望是什么？">
+<div class="num">Câu ghép 37</div>
+<div class="zh">你今年的生日愿望是什么？</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Nǐ jīnnián de shēngrì yuànwàng shì shénme?</div>
+<div class="vi">Điều ước sinh nhật năm nay của bạn là gì?</div>
+</div>
+<div class="card" data-text="我的愿望是带父母去中国旅游。">
+<div class="num">Câu ghép 38</div>
+<div class="zh">我的愿望是带父母去中国旅游。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ de yuànwàng shì dài fùmǔ qù Zhōngguó lǚyóu.</div>
+<div class="vi">Mong ước của tôi là đưa bố mẹ đi du lịch Trung Quốc.</div>
+</div>
+<div class="card" data-text="他这个月在公司表现很好。">
+<div class="num">Câu ghép 39</div>
+<div class="zh">他这个月在公司表现很好。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tā zhège yuè zài gōngsī biǎoxiàn hěn hǎo.</div>
+<div class="vi">Tháng này anh ấy thể hiện rất tốt ở công ty.</div>
+</div>
+<div class="card" data-text="这个队员在比赛中表现得很好。">
+<div class="num">Câu ghép 40</div>
+<div class="zh">这个队员在比赛中表现得很好。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhège duìyuán zài bǐsài zhōng biǎoxiàn de hěn hǎo.</div>
+<div class="vi">Cầu thủ này thể hiện rất tốt trong trận đấu.</div>
+</div>
+<div class="card" data-text="那个姑娘性格很好，对谁都很亲切。">
+<div class="num">Câu ghép 41</div>
+<div class="zh">那个姑娘性格很好，对谁都很亲切。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Nàge gūniang xìnggé hěn hǎo, duì shéi dōu hěn qīnqiè.</div>
+<div class="vi">Cô gái đó tính tình rất tốt, với ai cũng niềm nở.</div>
+</div>
+<div class="card" data-text="这个警察年纪不大，可是大家都很信任他。">
+<div class="num">Câu ghép 42</div>
+<div class="zh">这个警察年纪不大，可是大家都很信任他。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhège jǐngchá niánjì bú dà, kěshì dàjiā dōu hěn xìnrèn tā.</div>
+<div class="vi">Anh cảnh sát này tuổi còn trẻ, nhưng mọi người đều rất tin tưởng anh ấy.</div>
+</div>
+<div class="card" data-text="记者问那个演员：“你现在幸福吗？”">
+<div class="num">Câu ghép 43</div>
+<div class="zh">记者问那个演员：“你现在幸福吗？”</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Jìzhě wèn nàge yǎnyuán: "Nǐ xiànzài xìngfú ma?"</div>
+<div class="vi">Phóng viên hỏi diễn viên đó: "Bây giờ anh có hạnh phúc không?"</div>
+</div>
+<div class="card" data-text="他被老师批评了，心里很伤心。">
+<div class="num">Câu ghép 44</div>
+<div class="zh">他被老师批评了，心里很伤心。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tā bèi lǎoshī pīpíng le, xīnli hěn shāngxīn.</div>
+<div class="vi">Cậu ấy bị thầy giáo phê bình, trong lòng rất buồn.</div>
+</div>
+<div class="card" data-text="你们别吵了，这样会伤感情的。">
+<div class="num">Câu ghép 45</div>
+<div class="zh">你们别吵了，这样会伤感情的。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Nǐmen bié chǎo le, zhèyàng huì shāng gǎnqíng de.</div>
+<div class="vi">Các bạn đừng cãi nhau nữa, như vậy sẽ mất lòng nhau đấy.</div>
+</div>
+<div class="card" data-text="第一天上班，他的表现给经理留下了很好的印象。">
+<div class="num">Câu ghép 46</div>
+<div class="zh">第一天上班，他的表现给经理留下了很好的印象。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Dì yī tiān shàngbān, tā de biǎoxiàn gěi jīnglǐ liúxià le hěn hǎo de yìnxiàng.</div>
+<div class="vi">Ngày đầu đi làm, anh ấy thể hiện tốt nên để lại ấn tượng rất tốt cho giám đốc.</div>
+</div>
+<div class="card" data-text="我不敢告诉爸爸我的愿望，我怕他批评我。">
+<div class="num">Câu ghép 47</div>
+<div class="zh">我不敢告诉爸爸我的愿望，我怕他批评我。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ bù gǎn gàosu bàba wǒ de yuànwàng, wǒ pà tā pīpíng wǒ.</div>
+<div class="vi">Tôi không dám nói với bố ước mơ của mình, tôi sợ bố chê trách.</div>
+</div>
+<div class="card" data-text="这个主意是我个人想出来的，不是经理的。">
+<div class="num">Câu ghép 48</div>
+<div class="zh">这个主意是我个人想出来的，不是经理的。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhège zhǔyi shì wǒ gèrén xiǎng chūlái de, bú shì jīnglǐ de.</div>
+<div class="vi">Ý này là do riêng tôi nghĩ ra, không phải của giám đốc.</div>
+</div>
+<div class="card" data-text="姐姐是记者，哥哥是警察，我是演员，我们的性格都不一样。">
+<div class="num">Câu ghép 49</div>
+<div class="zh">姐姐是记者，哥哥是警察，我是演员，我们的性格都不一样。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Jiějie shì jìzhě, gēge shì jǐngchá, wǒ shì yǎnyuán, wǒmen de xìnggé dōu bù yíyàng.</div>
+<div class="vi">Chị gái là phóng viên, anh trai là cảnh sát, tôi là diễn viên, tính cách của chúng tôi đều khác nhau.</div>
+</div>
+<div class="card" data-text="妈妈年纪大了，可是还是那么美丽。">
+<div class="num">Câu ghép 50</div>
+<div class="zh">妈妈年纪大了，可是还是那么美丽。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Māma niánjì dà le, kěshì háishi nàme měilì.</div>
+<div class="vi">Mẹ đã có tuổi, nhưng vẫn đẹp như thế.</div>
+</div>
+<h2>📖 Bài văn: 我和姐姐 — Tôi và chị gái</h2>
+<div class="card" data-text="我姐姐比我大五岁，是电视台的记者。">
+<div class="num">Câu văn 01</div>
+<div class="zh">我姐姐比我大五岁，是电视台的记者。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ jiějie bǐ wǒ dà wǔ suì, shì diànshìtái de jìzhě.</div>
+<div class="vi">Chị gái tôi hơn tôi năm tuổi, là phóng viên của đài truyền hình.</div>
+</div>
+<div class="card" data-text="我们的性格很不一样：姐姐很热情，很爱说话，我不太爱说话，也不敢跟别人交流。">
+<div class="num">Câu văn 02</div>
+<div class="zh">我们的性格很不一样：姐姐很热情，很爱说话，我不太爱说话，也不敢跟别人交流。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒmen de xìnggé hěn bù yíyàng: jiějie hěn rèqíng, hěn ài shuōhuà, wǒ bú tài ài shuōhuà, yě bù gǎn gēn biérén jiāoliú.</div>
+<div class="vi">Tính cách hai chị em tôi rất khác nhau: chị rất nhiệt tình, thích nói chuyện, còn tôi ít nói, cũng không dám giao tiếp với người khác.</div>
+</div>
+<div class="card" data-text="小时候，我在学校表现不好，常常被老师批评。">
+<div class="num">Câu văn 03</div>
+<div class="zh">小时候，我在学校表现不好，常常被老师批评。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Xiǎoshíhou, wǒ zài xuéxiào biǎoxiàn bù hǎo, chángcháng bèi lǎoshī pīpíng.</div>
+<div class="vi">Hồi nhỏ, tôi ở trường học hành không tốt, thường bị thầy cô phê bình.</div>
+</div>
+<div class="card" data-text="老师批评我的时候，我很伤心，回到家就一个人在房间里哭。">
+<div class="num">Câu văn 04</div>
+<div class="zh">老师批评我的时候，我很伤心，回到家就一个人在房间里哭。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Lǎoshī pīpíng wǒ de shíhou, wǒ hěn shāngxīn, huí dào jiā jiù yí ge rén zài fángjiān li kū.</div>
+<div class="vi">Mỗi lần bị thầy cô phê bình, tôi rất buồn, về đến nhà là ngồi khóc một mình trong phòng.</div>
+</div>
+<div class="card" data-text="这时候，姐姐就会走进来，很亲切地跟我说话。">
+<div class="num">Câu văn 05</div>
+<div class="zh">这时候，姐姐就会走进来，很亲切地跟我说话。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhè shíhou, jiějie jiù huì zǒu jìnlái, hěn qīnqiè de gēn wǒ shuōhuà.</div>
+<div class="vi">Những lúc như vậy, chị lại đi vào, dịu dàng nói chuyện với tôi.</div>
+</div>
+<div class="card" data-text="姐姐说：“别难过了，只要你努力，就一定能做好。”">
+<div class="num">Câu văn 06</div>
+<div class="zh">姐姐说：“别难过了，只要你努力，就一定能做好。”</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Jiějie shuō: "Bié nánguò le, zhǐyào nǐ nǔlì, jiù yídìng néng zuò hǎo."</div>
+<div class="vi">Chị nói: "Đừng buồn nữa, chỉ cần em cố gắng thì nhất định sẽ làm tốt."</div>
+</div>
+<div class="card" data-text="我很信任姐姐，有什么问题都跟姐姐说。">
+<div class="num">Câu văn 07</div>
+<div class="zh">我很信任姐姐，有什么问题都跟姐姐说。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ hěn xìnrèn jiějie, yǒu shénme wèntí dōu gēn jiějie shuō.</div>
+<div class="vi">Tôi rất tin chị, có chuyện gì cũng kể với chị.</div>
+</div>
+<div class="card" data-text="姐姐的愿望是做一个好记者，我小时候的愿望是当演员。">
+<div class="num">Câu văn 08</div>
+<div class="zh">姐姐的愿望是做一个好记者，我小时候的愿望是当演员。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Jiějie de yuànwàng shì zuò yí ge hǎo jìzhě, wǒ xiǎoshíhou de yuànwàng shì dāng yǎnyuán.</div>
+<div class="vi">Mong ước của chị là trở thành một phóng viên giỏi, còn mong ước hồi nhỏ của tôi là làm diễn viên.</div>
+</div>
+<div class="card" data-text="有一年，姐姐要写一篇文章，写的是一个老警察。">
+<div class="num">Câu văn 09</div>
+<div class="zh">有一年，姐姐要写一篇文章，写的是一个老警察。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Yǒu yì nián, jiějie yào xiě yì piān wénzhāng, xiě de shì yí ge lǎo jǐngchá.</div>
+<div class="vi">Có một năm, chị phải viết một bài báo về một ông cảnh sát già.</div>
+</div>
+<div class="card" data-text="这个警察年纪已经很大了，可是还在工作。">
+<div class="num">Câu văn 10</div>
+<div class="zh">这个警察年纪已经很大了，可是还在工作。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhège jǐngchá niánjì yǐjīng hěn dà le, kěshì hái zài gōngzuò.</div>
+<div class="vi">Ông cảnh sát này đã nhiều tuổi rồi, nhưng vẫn còn đi làm.</div>
+</div>
+<div class="card" data-text="姐姐带我一起去见他。">
+<div class="num">Câu văn 11</div>
+<div class="zh">姐姐带我一起去见他。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Jiějie dài wǒ yìqǐ qù jiàn tā.</div>
+<div class="vi">Chị dẫn tôi cùng đi gặp ông ấy.</div>
+</div>
+<div class="card" data-text="他对我们很热情，给我留下了很深的印象。">
+<div class="num">Câu văn 12</div>
+<div class="zh">他对我们很热情，给我留下了很深的印象。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tā duì wǒmen hěn rèqíng, gěi wǒ liúxià le hěn shēn de yìnxiàng.</div>
+<div class="vi">Ông rất nhiệt tình với chúng tôi, để lại cho tôi ấn tượng rất sâu sắc.</div>
+</div>
+<div class="card" data-text="他告诉我们，他已经当了三十年警察，大家都很信任他。">
+<div class="num">Câu văn 13</div>
+<div class="zh">他告诉我们，他已经当了三十年警察，大家都很信任他。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tā gàosu wǒmen, tā yǐjīng dāng le sānshí nián jǐngchá, dàjiā dōu hěn xìnrèn tā.</div>
+<div class="vi">Ông kể với chúng tôi rằng ông đã làm cảnh sát ba mươi năm, ai cũng rất tin tưởng ông.</div>
+</div>
+<div class="card" data-text="姐姐问他：“你觉得当警察幸福吗？”">
+<div class="num">Câu văn 14</div>
+<div class="zh">姐姐问他：“你觉得当警察幸福吗？”</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Jiějie wèn tā: "Nǐ juéde dāng jǐngchá xìngfú ma?"</div>
+<div class="vi">Chị hỏi ông: "Ông thấy làm cảnh sát có hạnh phúc không?"</div>
+</div>
+<div class="card" data-text="他笑了笑说：“当警察很忙，也很危险，可是能帮助别人，我觉得很幸福。”">
+<div class="num">Câu văn 15</div>
+<div class="zh">他笑了笑说：“当警察很忙，也很危险，可是能帮助别人，我觉得很幸福。”</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tā xiào le xiào shuō: "Dāng jǐngchá hěn máng, yě hěn wēixiǎn, kěshì néng bāngzhù biérén, wǒ juéde hěn xìngfú."</div>
+<div class="vi">Ông cười cười nói: "Làm cảnh sát rất bận, cũng rất nguy hiểm, nhưng được giúp người khác, tôi thấy rất hạnh phúc."</div>
+</div>
+<div class="card" data-text="我们回去的时候，看见一个美丽的姑娘跟一个男人在商店外面吵了起来。">
+<div class="num">Câu văn 16</div>
+<div class="zh">我们回去的时候，看见一个美丽的姑娘跟一个男人在商店外面吵了起来。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒmen huíqù de shíhou, kànjiàn yí ge měilì de gūniang gēn yí ge nánrén zài shāngdiàn wàimiàn chǎo le qǐlái.</div>
+<div class="vi">Lúc chúng tôi ra về, thấy một cô gái xinh đẹp và một người đàn ông cãi nhau ầm lên trước cửa hàng.</div>
+</div>
+<div class="card" data-text="旁边的人都不敢过去，老警察马上走了过去。">
+<div class="num">Câu văn 17</div>
+<div class="zh">旁边的人都不敢过去，老警察马上走了过去。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Pángbiān de rén dōu bù gǎn guòqù, lǎo jǐngchá mǎshàng zǒu le guòqù.</div>
+<div class="vi">Người xung quanh đều không dám lại gần, ông cảnh sát già lập tức bước tới.</div>
+</div>
+<div class="card" data-text="他听他们说完，很快就解决了问题，他们也不吵了。">
+<div class="num">Câu văn 18</div>
+<div class="zh">他听他们说完，很快就解决了问题，他们也不吵了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tā tīng tāmen shuō wán, hěn kuài jiù jiějué le wèntí, tāmen yě bù chǎo le.</div>
+<div class="vi">Ông nghe hai người nói xong, rất nhanh đã giải quyết được chuyện, họ cũng thôi cãi nhau.</div>
+</div>
+<div class="card" data-text="回家的路上，我对姐姐说：“我不想当演员了，我也想当警察。”">
+<div class="num">Câu văn 19</div>
+<div class="zh">回家的路上，我对姐姐说：“我不想当演员了，我也想当警察。”</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Huí jiā de lùshang, wǒ duì jiějie shuō: "Wǒ bù xiǎng dāng yǎnyuán le, wǒ yě xiǎng dāng jǐngchá."</div>
+<div class="vi">Trên đường về nhà, tôi nói với chị: "Em không muốn làm diễn viên nữa, em cũng muốn làm cảnh sát."</div>
+</div>
+<div class="card" data-text="姐姐说：“这是你个人的事情，你自己决定吧。不过我觉得这是个好主意！”">
+<div class="num">Câu văn 20</div>
+<div class="zh">姐姐说：“这是你个人的事情，你自己决定吧。不过我觉得这是个好主意！”</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Jiějie shuō: "Zhè shì nǐ gèrén de shìqing, nǐ zìjǐ juédìng ba. Búguò wǒ juéde zhè shì ge hǎo zhǔyi!"</div>
+<div class="vi">Chị nói: "Đây là chuyện riêng của em, em tự quyết định nhé. Nhưng chị thấy đó là một ý hay!"</div>
+</div>
+<div class="card" data-text="从那以后，我努力学习，也开始积极跟别人交流。">
+<div class="num">Câu văn 21</div>
+<div class="zh">从那以后，我努力学习，也开始积极跟别人交流。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Cóng nà yǐhòu, wǒ nǔlì xuéxí, yě kāishǐ jījí gēn biérén jiāoliú.</div>
+<div class="vi">Từ đó trở đi, tôi chăm chỉ học hành, cũng bắt đầu chủ động trò chuyện với mọi người.</div>
+</div>
+<div class="card" data-text="现在我已经是一个警察了，我和姐姐的感情还是那么好。">
+<div class="num">Câu văn 22</div>
+<div class="zh">现在我已经是一个警察了，我和姐姐的感情还是那么好。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Xiànzài wǒ yǐjīng shì yí ge jǐngchá le, wǒ hé jiějie de gǎnqíng háishi nàme hǎo.</div>
+<div class="vi">Bây giờ tôi đã là một cảnh sát, hai chị em tôi vẫn thân thiết như xưa.</div>
+</div>
+</div>
+<script>
+let index=0;const cards=[...document.querySelectorAll('.card')];
+function speak(text){speechSynthesis.cancel();speechSynthesis.resume();const u=new SpeechSynthesisUtterance(text);u.lang='zh-CN';u.rate=.75;u.pitch=1;speechSynthesis.speak(u)}
+function selectCard(i,scroll=true){index=Math.max(0,Math.min(i,cards.length-1));cards.forEach(c=>c.classList.remove('active'));cards[index].classList.add('active');if(scroll)cards[index].scrollIntoView({behavior:'smooth',block:'center'})}
+function playItem(card){selectCard(cards.indexOf(card),false);speak(card.dataset.text)}
+function playCurrent(){speak(cards[index].dataset.text)}function stopAudio(){speechSynthesis.cancel()}function move(step){selectCard(index+step,true)}
+document.addEventListener('keydown',e=>{if(['INPUT','TEXTAREA','SELECT'].includes(document.activeElement?.tagName))return;if(e.key==='ArrowDown'){e.preventDefault();move(1)}if(e.key==='ArrowUp'){e.preventDefault();move(-1)}if(e.key==='Enter'){e.preventDefault();playCurrent()}});
+selectCard(0,false);
+</script></body></html>

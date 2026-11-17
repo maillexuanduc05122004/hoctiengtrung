@@ -1,0 +1,685 @@
+<!doctype html><html lang="vi"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>20 từ mới + 50 câu ghép + bài văn audio</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f5f8ff;color:#17202a;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+.wrap{max-width:900px;margin:auto;padding:20px 14px 70px}h1,h2{color:#17365d}
+.note{background:#fff;border:1px solid #dbe5f1;border-radius:15px;padding:14px;line-height:1.65}
+.toolbar{position:sticky;top:0;z-index:10;background:rgba(245,248,255,.97);padding:10px 0;display:flex;gap:7px;flex-wrap:wrap}
+.card{background:#fff;border:1px solid #dbe5f1;border-radius:15px;padding:17px;margin:12px 0}
+.card.active{border:3px solid #2675b5;box-shadow:0 0 0 3px rgba(38,117,181,.10)}
+.num{font-size:13px;color:#7b8794}.zh{font-size:38px;font-weight:700;color:#17365d;line-height:1.5;margin:8px 0 12px}
+.py{font-size:18px;margin-top:10px}.vi{font-size:16px;color:#66717d;margin-top:8px;line-height:1.5}
+button{border:0;border-radius:10px;background:#2675b5;color:#fff;padding:10px 15px;font-size:15px;cursor:pointer}
+.secondary{background:#fff;color:#17365d;border:1px solid #b9cbe0}
+</style></head><body><div class="wrap">
+<h1>🎧 20 từ mới + 50 câu ghép + bài văn</h1>
+<div class="note">
+<b>Bài 18 — 20 từ HSK 3 (HSK 3.0) để luyện thi, chủ đề quê hương, đi xa và thế giới; không có hai từ chung chữ, từ đọc gần giống xếp cách xa nhau (行李、首都、农村、家乡、世界、文化、现代、母亲、互联网、消息、转、左右、直到、因此、由于、据说、社会、环保、光、火).</b><br>
+50 câu ghép ưu tiên 20 từ mới và chỉ kết hợp với những từ bạn đã học trước đó.<br>
+Bài văn cuối bài dùng đủ 20 từ mới, chia từng câu để nghe và dò theo cho dễ.<br><br>
+🔊 Audio kiểu cũ (SpeechSynthesis tiếng Trung) · ⬇️ / ⬆️ chuyển mục · <b>Enter</b> phát mục đang chọn · Highlight + tự cuộn · 0.75×.
+</div>
+<div class="toolbar">
+<button class="secondary" onclick="move(-1)">⬆️ Mục trước</button>
+<button class="secondary" onclick="move(1)">⬇️ Mục tiếp</button>
+<button onclick="playCurrent()">🔊 Phát hiện tại</button>
+<button class="secondary" onclick="stopAudio()">⏹ Dừng</button>
+</div>
+<h2>📚 20 từ mới</h2>
+<div class="card" data-text="行李">
+<div class="num">Từ mới 01</div>
+<div class="zh">行李</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">xíngli</div>
+<div class="vi">hành lý</div>
+</div>
+<div class="card" data-text="首都">
+<div class="num">Từ mới 02</div>
+<div class="zh">首都</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">shǒudū</div>
+<div class="vi">thủ đô</div>
+</div>
+<div class="card" data-text="农村">
+<div class="num">Từ mới 03</div>
+<div class="zh">农村</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">nóngcūn</div>
+<div class="vi">nông thôn, làng quê</div>
+</div>
+<div class="card" data-text="家乡">
+<div class="num">Từ mới 04</div>
+<div class="zh">家乡</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">jiāxiāng</div>
+<div class="vi">quê hương, quê nhà</div>
+</div>
+<div class="card" data-text="世界">
+<div class="num">Từ mới 05</div>
+<div class="zh">世界</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">shìjiè</div>
+<div class="vi">thế giới (世界各地: khắp nơi trên thế giới)</div>
+</div>
+<div class="card" data-text="文化">
+<div class="num">Từ mới 06</div>
+<div class="zh">文化</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">wénhuà</div>
+<div class="vi">văn hóa</div>
+</div>
+<div class="card" data-text="现代">
+<div class="num">Từ mới 07</div>
+<div class="zh">现代</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">xiàndài</div>
+<div class="vi">hiện đại; thời nay</div>
+</div>
+<div class="card" data-text="母亲">
+<div class="num">Từ mới 08</div>
+<div class="zh">母亲</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">mǔqīn</div>
+<div class="vi">mẹ, người mẹ (cách nói trang trọng của 妈妈)</div>
+</div>
+<div class="card" data-text="互联网">
+<div class="num">Từ mới 09</div>
+<div class="zh">互联网</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">hùliánwǎng</div>
+<div class="vi">mạng Internet</div>
+</div>
+<div class="card" data-text="消息">
+<div class="num">Từ mới 10</div>
+<div class="zh">消息</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">xiāoxi</div>
+<div class="vi">tin, tin tức; tin nhắn (发消息: nhắn tin)</div>
+</div>
+<div class="card" data-text="转">
+<div class="num">Từ mới 11</div>
+<div class="zh">转</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">zhuǎn</div>
+<div class="vi">rẽ, quay; chuyển (左转: rẽ trái, 转车: đổi xe, 转告: nhắn lại)</div>
+</div>
+<div class="card" data-text="左右">
+<div class="num">Từ mới 12</div>
+<div class="zh">左右</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">zuǒyòu</div>
+<div class="vi">khoảng, chừng (đặt sau số: 七点左右)</div>
+</div>
+<div class="card" data-text="直到">
+<div class="num">Từ mới 13</div>
+<div class="zh">直到</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">zhídào</div>
+<div class="vi">mãi đến, cho đến (直到…才…: mãi đến… mới…)</div>
+</div>
+<div class="card" data-text="因此">
+<div class="num">Từ mới 14</div>
+<div class="zh">因此</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">yīncǐ</div>
+<div class="vi">vì vậy, do đó</div>
+</div>
+<div class="card" data-text="由于">
+<div class="num">Từ mới 15</div>
+<div class="zh">由于</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">yóuyú</div>
+<div class="vi">do, bởi vì (由于…，因此…: do… nên…)</div>
+</div>
+<div class="card" data-text="据说">
+<div class="num">Từ mới 16</div>
+<div class="zh">据说</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">jùshuō</div>
+<div class="vi">nghe nói, theo người ta nói</div>
+</div>
+<div class="card" data-text="社会">
+<div class="num">Từ mới 17</div>
+<div class="zh">社会</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">shèhuì</div>
+<div class="vi">xã hội</div>
+</div>
+<div class="card" data-text="环保">
+<div class="num">Từ mới 18</div>
+<div class="zh">环保</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">huánbǎo</div>
+<div class="vi">bảo vệ môi trường; thân thiện với môi trường</div>
+</div>
+<div class="card" data-text="光">
+<div class="num">Từ mới 19</div>
+<div class="zh">光</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">guāng</div>
+<div class="vi">ánh sáng; hết sạch (花光: tiêu hết); chỉ, chỉ mỗi (光玩: chỉ chơi)</div>
+</div>
+<div class="card" data-text="火">
+<div class="num">Từ mới 20</div>
+<div class="zh">火</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">huǒ</div>
+<div class="vi">lửa; (khẩu ngữ) nổi, đắt khách, đang hot</div>
+</div>
+<h2>🎧 50 câu ghép</h2>
+<div class="card" data-text="你的行李太多了，我来帮你吧。">
+<div class="num">Câu ghép 01</div>
+<div class="zh">你的行李太多了，我来帮你吧。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Nǐ de xíngli tài duō le, wǒ lái bāng nǐ ba.</div>
+<div class="vi">Hành lý của bạn nhiều quá, để tôi giúp bạn nhé.</div>
+</div>
+<div class="card" data-text="下了出租车，我发现行李还在车上。">
+<div class="num">Câu ghép 02</div>
+<div class="zh">下了出租车，我发现行李还在车上。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Xià le chūzūchē, wǒ fāxiàn xíngli hái zài chē shang.</div>
+<div class="vi">Xuống taxi rồi, tôi mới phát hiện hành lý vẫn còn trên xe.</div>
+</div>
+<div class="card" data-text="北京是中国的首都。">
+<div class="num">Câu ghép 03</div>
+<div class="zh">北京是中国的首都。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Běijīng shì Zhōngguó de shǒudū.</div>
+<div class="vi">Bắc Kinh là thủ đô của Trung Quốc.</div>
+</div>
+<div class="card" data-text="我哥哥在首都工作，已经三年了。">
+<div class="num">Câu ghép 04</div>
+<div class="zh">我哥哥在首都工作，已经三年了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ gēge zài shǒudū gōngzuò, yǐjīng sān nián le.</div>
+<div class="vi">Anh trai tôi làm việc ở thủ đô đã ba năm rồi.</div>
+</div>
+<div class="card" data-text="我爸爸是在农村长大的。">
+<div class="num">Câu ghép 05</div>
+<div class="zh">我爸爸是在农村长大的。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ bàba shì zài nóngcūn zhǎng dà de.</div>
+<div class="vi">Bố tôi lớn lên ở nông thôn.</div>
+</div>
+<div class="card" data-text="现在很多年轻人离开农村，去城市工作。">
+<div class="num">Câu ghép 06</div>
+<div class="zh">现在很多年轻人离开农村，去城市工作。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Xiànzài hěn duō niánqīngrén líkāi nóngcūn, qù chéngshì gōngzuò.</div>
+<div class="vi">Bây giờ nhiều người trẻ rời nông thôn lên thành phố làm việc.</div>
+</div>
+<div class="card" data-text="我的家乡在南方，那里的气候很暖和。">
+<div class="num">Câu ghép 07</div>
+<div class="zh">我的家乡在南方，那里的气候很暖和。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ de jiāxiāng zài nánfāng, nàlǐ de qìhòu hěn nuǎnhuo.</div>
+<div class="vi">Quê tôi ở miền Nam, khí hậu ở đó rất ấm áp.</div>
+</div>
+<div class="card" data-text="我已经好几年没回家乡了，真想家啊。">
+<div class="num">Câu ghép 08</div>
+<div class="zh">我已经好几年没回家乡了，真想家啊。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ yǐjīng hǎo jǐ nián méi huí jiāxiāng le, zhēn xiǎng jiā a.</div>
+<div class="vi">Đã mấy năm rồi tôi chưa về quê, nhớ nhà quá.</div>
+</div>
+<div class="card" data-text="我的愿望是去世界各地旅游。">
+<div class="num">Câu ghép 09</div>
+<div class="zh">我的愿望是去世界各地旅游。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ de yuànwàng shì qù shìjiè gèdì lǚyóu.</div>
+<div class="vi">Mong ước của tôi là đi du lịch khắp nơi trên thế giới.</div>
+</div>
+<div class="card" data-text="这个世界很大，我想去看看。">
+<div class="num">Câu ghép 10</div>
+<div class="zh">这个世界很大，我想去看看。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhège shìjiè hěn dà, wǒ xiǎng qù kànkan.</div>
+<div class="vi">Thế giới này rộng lớn lắm, tôi muốn đi xem thử.</div>
+</div>
+<div class="card" data-text="我很喜欢中国文化，所以开始学汉语。">
+<div class="num">Câu ghép 11</div>
+<div class="zh">我很喜欢中国文化，所以开始学汉语。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ hěn xǐhuan Zhōngguó wénhuà, suǒyǐ kāishǐ xué Hànyǔ.</div>
+<div class="vi">Tôi rất thích văn hóa Trung Quốc, nên bắt đầu học tiếng Trung.</div>
+</div>
+<div class="card" data-text="每个国家都有自己的文化。">
+<div class="num">Câu ghép 12</div>
+<div class="zh">每个国家都有自己的文化。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Měi ge guójiā dōu yǒu zìjǐ de wénhuà.</div>
+<div class="vi">Mỗi quốc gia đều có nền văn hóa riêng.</div>
+</div>
+<div class="card" data-text="现代的年轻人都喜欢在网上买东西。">
+<div class="num">Câu ghép 13</div>
+<div class="zh">现代的年轻人都喜欢在网上买东西。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Xiàndài de niánqīngrén dōu xǐhuan zài wǎng shang mǎi dōngxi.</div>
+<div class="vi">Giới trẻ thời nay đều thích mua đồ trên mạng.</div>
+</div>
+<div class="card" data-text="我们村现在也很现代了，家家都有电脑。">
+<div class="num">Câu ghép 14</div>
+<div class="zh">我们村现在也很现代了，家家都有电脑。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒmen cūn xiànzài yě hěn xiàndài le, jiājiā dōu yǒu diànnǎo.</div>
+<div class="vi">Làng tôi bây giờ cũng hiện đại lắm rồi, nhà nào cũng có máy tính.</div>
+</div>
+<div class="card" data-text="我母亲是一名老师。">
+<div class="num">Câu ghép 15</div>
+<div class="zh">我母亲是一名老师。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ mǔqīn shì yì míng lǎoshī.</div>
+<div class="vi">Mẹ tôi là giáo viên.</div>
+</div>
+<div class="card" data-text="每个星期我都给母亲打电话。">
+<div class="num">Câu ghép 16</div>
+<div class="zh">每个星期我都给母亲打电话。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Měi ge xīngqī wǒ dōu gěi mǔqīn dǎ diànhuà.</div>
+<div class="vi">Tuần nào tôi cũng gọi điện cho mẹ.</div>
+</div>
+<div class="card" data-text="有了互联网，在家里也能买到各种东西。">
+<div class="num">Câu ghép 17</div>
+<div class="zh">有了互联网，在家里也能买到各种东西。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Yǒu le hùliánwǎng, zài jiā li yě néng mǎi dào gèzhǒng dōngxi.</div>
+<div class="vi">Có Internet rồi, ở nhà cũng mua được đủ thứ.</div>
+</div>
+<div class="card" data-text="现在农村也有互联网了。">
+<div class="num">Câu ghép 18</div>
+<div class="zh">现在农村也有互联网了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Xiànzài nóngcūn yě yǒu hùliánwǎng le.</div>
+<div class="vi">Bây giờ nông thôn cũng có Internet rồi.</div>
+</div>
+<div class="card" data-text="我告诉你一个好消息：我考上大学了！">
+<div class="num">Câu ghép 19</div>
+<div class="zh">我告诉你一个好消息：我考上大学了！</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ gàosu nǐ yí ge hǎo xiāoxi: wǒ kǎoshàng dàxué le!</div>
+<div class="vi">Báo bạn một tin vui: tôi đỗ đại học rồi!</div>
+</div>
+<div class="card" data-text="你听到那个消息了吗？">
+<div class="num">Câu ghép 20</div>
+<div class="zh">你听到那个消息了吗？</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Nǐ tīng dào nàge xiāoxi le ma?</div>
+<div class="vi">Bạn nghe tin đó chưa?</div>
+</div>
+<div class="card" data-text="我们要在下一站转车，别坐过站了。">
+<div class="num">Câu ghép 21</div>
+<div class="zh">我们要在下一站转车，别坐过站了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒmen yào zài xià yí zhàn zhuǎn chē, bié zuò guò zhàn le.</div>
+<div class="vi">Chúng ta phải đổi xe ở trạm tới, đừng đi quá trạm nhé.</div>
+</div>
+<div class="card" data-text="请你转告他，明天的会议九点开始。">
+<div class="num">Câu ghép 22</div>
+<div class="zh">请你转告他，明天的会议九点开始。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Qǐng nǐ zhuǎngào tā, míngtiān de huìyì jiǔ diǎn kāishǐ.</div>
+<div class="vi">Nhờ bạn nhắn lại với anh ấy, cuộc họp ngày mai bắt đầu lúc chín giờ.</div>
+</div>
+<div class="card" data-text="我每天早上七点左右起床。">
+<div class="num">Câu ghép 23</div>
+<div class="zh">我每天早上七点左右起床。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ měi tiān zǎoshang qī diǎn zuǒyòu qǐchuáng.</div>
+<div class="vi">Sáng nào tôi cũng dậy khoảng bảy giờ.</div>
+</div>
+<div class="card" data-text="他三十岁左右，个子很高。">
+<div class="num">Câu ghép 24</div>
+<div class="zh">他三十岁左右，个子很高。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tā sānshí suì zuǒyòu, gèzi hěn gāo.</div>
+<div class="vi">Anh ấy chừng ba mươi tuổi, dáng người cao.</div>
+</div>
+<div class="card" data-text="直到晚上十点，他还在公司工作。">
+<div class="num">Câu ghép 25</div>
+<div class="zh">直到晚上十点，他还在公司工作。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhídào wǎnshang shí diǎn, tā hái zài gōngsī gōngzuò.</div>
+<div class="vi">Mãi đến mười giờ tối, anh ấy vẫn còn làm việc ở công ty.</div>
+</div>
+<div class="card" data-text="这个问题直到现在也没有解决。">
+<div class="num">Câu ghép 26</div>
+<div class="zh">这个问题直到现在也没有解决。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhège wèntí zhídào xiànzài yě méiyǒu jiějué.</div>
+<div class="vi">Vấn đề này cho đến giờ vẫn chưa được giải quyết.</div>
+</div>
+<div class="card" data-text="他每天坚持跑步，因此身体很好。">
+<div class="num">Câu ghép 27</div>
+<div class="zh">他每天坚持跑步，因此身体很好。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tā měi tiān jiānchí pǎobù, yīncǐ shēntǐ hěn hǎo.</div>
+<div class="vi">Ngày nào anh ấy cũng kiên trì chạy bộ, vì vậy sức khỏe rất tốt.</div>
+</div>
+<div class="card" data-text="路上车很多，因此我们提前一个小时出门。">
+<div class="num">Câu ghép 28</div>
+<div class="zh">路上车很多，因此我们提前一个小时出门。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Lùshang chē hěn duō, yīncǐ wǒmen tíqián yí ge xiǎoshí chūmén.</div>
+<div class="vi">Trên đường đông xe, vì vậy chúng tôi ra khỏi nhà sớm hơn một tiếng.</div>
+</div>
+<div class="card" data-text="由于天气不好，飞机晚到了一个小时。">
+<div class="num">Câu ghép 29</div>
+<div class="zh">由于天气不好，飞机晚到了一个小时。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Yóuyú tiānqì bù hǎo, fēijī wǎn dào le yí ge xiǎoshí.</div>
+<div class="vi">Do thời tiết xấu, máy bay đến muộn một tiếng.</div>
+</div>
+<div class="card" data-text="由于工作的关系，他经常去外国。">
+<div class="num">Câu ghép 30</div>
+<div class="zh">由于工作的关系，他经常去外国。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Yóuyú gōngzuò de guānxi, tā jīngcháng qù wàiguó.</div>
+<div class="vi">Vì công việc, anh ấy thường xuyên ra nước ngoài.</div>
+</div>
+<div class="card" data-text="据说明天会下雪。">
+<div class="num">Câu ghép 31</div>
+<div class="zh">据说明天会下雪。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Jùshuō míngtiān huì xià xuě.</div>
+<div class="vi">Nghe nói ngày mai sẽ có tuyết.</div>
+</div>
+<div class="card" data-text="据说这家饭馆的菜很好吃，我们一起去吧。">
+<div class="num">Câu ghép 32</div>
+<div class="zh">据说这家饭馆的菜很好吃，我们一起去吧。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Jùshuō zhè jiā fànguǎn de cài hěn hǎochī, wǒmen yìqǐ qù ba.</div>
+<div class="vi">Nghe nói đồ ăn quán này ngon lắm, chúng mình cùng đi nhé.</div>
+</div>
+<div class="card" data-text="我们要多帮助社会上需要帮助的人。">
+<div class="num">Câu ghép 33</div>
+<div class="zh">我们要多帮助社会上需要帮助的人。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒmen yào duō bāngzhù shèhuì shang xūyào bāngzhù de rén.</div>
+<div class="vi">Chúng ta nên giúp đỡ nhiều hơn những người cần giúp trong xã hội.</div>
+</div>
+<div class="card" data-text="学校里学的东西，在社会上不一定都有用。">
+<div class="num">Câu ghép 34</div>
+<div class="zh">学校里学的东西，在社会上不一定都有用。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Xuéxiào li xué de dōngxi, zài shèhuì shang bù yídìng dōu yǒuyòng.</div>
+<div class="vi">Những gì học ở trường, ra xã hội không hẳn đều dùng được.</div>
+</div>
+<div class="card" data-text="为了环保，我出门一般骑自行车，不开车。">
+<div class="num">Câu ghép 35</div>
+<div class="zh">为了环保，我出门一般骑自行车，不开车。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wèile huánbǎo, wǒ chūmén yìbān qí zìxíngchē, bù kāichē.</div>
+<div class="vi">Để bảo vệ môi trường, tôi ra ngoài thường đạp xe, không lái ô tô.</div>
+</div>
+<div class="card" data-text="这种包很环保，可以用很多年。">
+<div class="num">Câu ghép 36</div>
+<div class="zh">这种包很环保，可以用很多年。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhè zhǒng bāo hěn huánbǎo, kěyǐ yòng hěn duō nián.</div>
+<div class="vi">Loại túi này rất thân thiện với môi trường, dùng được nhiều năm.</div>
+</div>
+<div class="card" data-text="在首都玩了一个星期，我的钱都花光了。">
+<div class="num">Câu ghép 37</div>
+<div class="zh">在首都玩了一个星期，我的钱都花光了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zài shǒudū wán le yí ge xīngqī, wǒ de qián dōu huā guāng le.</div>
+<div class="vi">Chơi ở thủ đô một tuần, tôi tiêu hết sạch tiền rồi.</div>
+</div>
+<div class="card" data-text="别光玩游戏，快去做作业！">
+<div class="num">Câu ghép 38</div>
+<div class="zh">别光玩游戏，快去做作业！</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Bié guāng wán yóuxì, kuài qù zuò zuòyè!</div>
+<div class="vi">Đừng có chỉ chơi game, mau đi làm bài tập!</div>
+</div>
+<div class="card" data-text="这首歌现在很火，年轻人都喜欢听。">
+<div class="num">Câu ghép 39</div>
+<div class="zh">这首歌现在很火，年轻人都喜欢听。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhè shǒu gē xiànzài hěn huǒ, niánqīngrén dōu xǐhuan tīng.</div>
+<div class="vi">Bài hát này giờ đang rất hot, giới trẻ ai cũng thích nghe.</div>
+</div>
+<div class="card" data-text="这家饭馆最近很火，每天都要排队。">
+<div class="num">Câu ghép 40</div>
+<div class="zh">这家饭馆最近很火，每天都要排队。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhè jiā fànguǎn zuìjìn hěn huǒ, měi tiān dōu yào páiduì.</div>
+<div class="vi">Quán ăn này dạo này rất đắt khách, ngày nào cũng phải xếp hàng.</div>
+</div>
+<div class="card" data-text="现代社会，大家都离不开互联网。">
+<div class="num">Câu ghép 41</div>
+<div class="zh">现代社会，大家都离不开互联网。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Xiàndài shèhuì, dàjiā dōu lí bu kāi hùliánwǎng.</div>
+<div class="vi">Trong xã hội hiện đại, ai cũng không thể thiếu Internet.</div>
+</div>
+<div class="card" data-text="互联网让世界变小了，在家里也能了解外国的文化。">
+<div class="num">Câu ghép 42</div>
+<div class="zh">互联网让世界变小了，在家里也能了解外国的文化。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Hùliánwǎng ràng shìjiè biàn xiǎo le, zài jiā li yě néng liǎojiě wàiguó de wénhuà.</div>
+<div class="vi">Internet làm thế giới thu nhỏ lại, ở nhà cũng có thể tìm hiểu văn hóa nước ngoài.</div>
+</div>
+<div class="card" data-text="据说首都这几年变化很大，你最近去过吗？">
+<div class="num">Câu ghép 43</div>
+<div class="zh">据说首都这几年变化很大，你最近去过吗？</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Jùshuō shǒudū zhè jǐ nián biànhuà hěn dà, nǐ zuìjìn qù guo ma?</div>
+<div class="vi">Nghe nói mấy năm nay thủ đô thay đổi nhiều lắm, dạo này bạn có lên đó không?</div>
+</div>
+<div class="card" data-text="我把行李放好以后，马上给母亲发了一个消息。">
+<div class="num">Câu ghép 44</div>
+<div class="zh">我把行李放好以后，马上给母亲发了一个消息。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ bǎ xíngli fàng hǎo yǐhòu, mǎshàng gěi mǔqīn fā le yí ge xiāoxi.</div>
+<div class="vi">Cất hành lý xong, tôi lập tức nhắn tin cho mẹ.</div>
+</div>
+<div class="card" data-text="出了火车站左转，走十分钟左右就到了。">
+<div class="num">Câu ghép 45</div>
+<div class="zh">出了火车站左转，走十分钟左右就到了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Chū le huǒchēzhàn zuǒ zhuǎn, zǒu shí fēnzhōng zuǒyòu jiù dào le.</div>
+<div class="vi">Ra khỏi ga tàu thì rẽ trái, đi chừng mười phút là tới.</div>
+</div>
+<div class="card" data-text="由于路上车太多，因此我们晚到了二十分钟左右。">
+<div class="num">Câu ghép 46</div>
+<div class="zh">由于路上车太多，因此我们晚到了二十分钟左右。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Yóuyú lùshang chē tài duō, yīncǐ wǒmen wǎn dào le èrshí fēnzhōng zuǒyòu.</div>
+<div class="vi">Do trên đường quá đông xe nên chúng tôi đến muộn khoảng hai mươi phút.</div>
+</div>
+<div class="card" data-text="我的家乡在农村，那里的空气很好，因此城市里的人周末喜欢去那里玩。">
+<div class="num">Câu ghép 47</div>
+<div class="zh">我的家乡在农村，那里的空气很好，因此城市里的人周末喜欢去那里玩。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ de jiāxiāng zài nóngcūn, nàlǐ de kōngqì hěn hǎo, yīncǐ chéngshì li de rén zhōumò xǐhuan qù nàlǐ wán.</div>
+<div class="vi">Quê tôi ở nông thôn, không khí ở đó rất trong lành, vì vậy cuối tuần người thành phố thích về đó chơi.</div>
+</div>
+<div class="card" data-text="直到今天，我还记得离开家乡那天母亲说的话。">
+<div class="num">Câu ghép 48</div>
+<div class="zh">直到今天，我还记得离开家乡那天母亲说的话。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhídào jīntiān, wǒ hái jìde líkāi jiāxiāng nà tiān mǔqīn shuō de huà.</div>
+<div class="vi">Cho đến hôm nay, tôi vẫn nhớ lời mẹ nói hôm tôi rời quê.</div>
+</div>
+<div class="card" data-text="环保是现代社会大家都关心的问题。">
+<div class="num">Câu ghép 49</div>
+<div class="zh">环保是现代社会大家都关心的问题。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Huánbǎo shì xiàndài shèhuì dàjiā dōu guānxīn de wèntí.</div>
+<div class="vi">Bảo vệ môi trường là vấn đề mà mọi người trong xã hội hiện đại đều quan tâm.</div>
+</div>
+<div class="card" data-text="由于很多人在网上发了照片，这个小村子一下子就火了。">
+<div class="num">Câu ghép 50</div>
+<div class="zh">由于很多人在网上发了照片，这个小村子一下子就火了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Yóuyú hěn duō rén zài wǎng shang fā le zhàopiàn, zhège xiǎo cūnzi yíxiàzi jiù huǒ le.</div>
+<div class="vi">Vì nhiều người đăng ảnh lên mạng, ngôi làng nhỏ này bỗng chốc nổi tiếng.</div>
+</div>
+<h2>📖 Bài văn: 我的家乡 — Quê hương tôi</h2>
+<div class="card" data-text="我的家乡在南方的一个小农村，我在那里长大。">
+<div class="num">Câu văn 01</div>
+<div class="zh">我的家乡在南方的一个小农村，我在那里长大。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ de jiāxiāng zài nánfāng de yí ge xiǎo nóngcūn, wǒ zài nàlǐ zhǎng dà.</div>
+<div class="vi">Quê tôi là một làng nhỏ ở miền Nam, tôi lớn lên ở đó.</div>
+</div>
+<div class="card" data-text="小时候，我最大的愿望是去看看外面的世界。">
+<div class="num">Câu văn 02</div>
+<div class="zh">小时候，我最大的愿望是去看看外面的世界。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Xiǎo shíhou, wǒ zuì dà de yuànwàng shì qù kànkan wàimiàn de shìjiè.</div>
+<div class="vi">Hồi nhỏ, mong ước lớn nhất của tôi là được đi xem thế giới bên ngoài.</div>
+</div>
+<div class="card" data-text="十八岁那年，我考上了首都的一所大学。">
+<div class="num">Câu văn 03</div>
+<div class="zh">十八岁那年，我考上了首都的一所大学。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Shíbā suì nà nián, wǒ kǎoshàng le shǒudū de yì suǒ dàxué.</div>
+<div class="vi">Năm mười tám tuổi, tôi đỗ vào một trường đại học ở thủ đô.</div>
+</div>
+<div class="card" data-text="离开家乡以前，母亲帮我准备行李，还在里面放了很多吃的。">
+<div class="num">Câu văn 04</div>
+<div class="zh">离开家乡以前，母亲帮我准备行李，还在里面放了很多吃的。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Líkāi jiāxiāng yǐqián, mǔqīn bāng wǒ zhǔnbèi xíngli, hái zài lǐmiàn fàng le hěn duō chī de.</div>
+<div class="vi">Trước khi rời quê, mẹ giúp tôi chuẩn bị hành lý, còn bỏ vào đó rất nhiều đồ ăn.</div>
+</div>
+<div class="card" data-text="从我们村到首都，要先坐汽车到城里，然后转火车。">
+<div class="num">Câu văn 05</div>
+<div class="zh">从我们村到首都，要先坐汽车到城里，然后转火车。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Cóng wǒmen cūn dào shǒudū, yào xiān zuò qìchē dào chéng li, ránhòu zhuǎn huǒchē.</div>
+<div class="vi">Từ làng tôi lên thủ đô, phải đi ô tô ra thị trấn trước, rồi chuyển sang tàu hỏa.</div>
+</div>
+<div class="card" data-text="坐火车要十个小时左右，到首都的时候已经是晚上了。">
+<div class="num">Câu văn 06</div>
+<div class="zh">坐火车要十个小时左右，到首都的时候已经是晚上了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zuò huǒchē yào shí ge xiǎoshí zuǒyòu, dào shǒudū de shíhou yǐjīng shì wǎnshang le.</div>
+<div class="vi">Đi tàu mất khoảng mười tiếng, lúc đến thủ đô thì trời đã tối.</div>
+</div>
+<div class="card" data-text="我发现首都和家乡很不一样：到处都是车和人，什么都很现代。">
+<div class="num">Câu văn 07</div>
+<div class="zh">我发现首都和家乡很不一样：到处都是车和人，什么都很现代。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǒ fāxiàn shǒudū hé jiāxiāng hěn bù yíyàng: dàochù dōu shì chē hé rén, shénme dōu hěn xiàndài.</div>
+<div class="vi">Tôi thấy thủ đô khác hẳn quê nhà: đâu đâu cũng là xe và người, cái gì cũng hiện đại.</div>
+</div>
+<div class="card" data-text="在大学里，我认识了很多外国同学，也了解了世界各地的文化。">
+<div class="num">Câu văn 08</div>
+<div class="zh">在大学里，我认识了很多外国同学，也了解了世界各地的文化。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zài dàxué li, wǒ rènshi le hěn duō wàiguó tóngxué, yě liǎojiě le shìjiè gèdì de wénhuà.</div>
+<div class="vi">Ở trường đại học, tôi quen nhiều bạn nước ngoài, cũng tìm hiểu được văn hóa khắp nơi trên thế giới.</div>
+</div>
+<div class="card" data-text="由于学习很忙，路又远，因此我三年都没有回家。">
+<div class="num">Câu văn 09</div>
+<div class="zh">由于学习很忙，路又远，因此我三年都没有回家。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Yóuyú xuéxí hěn máng, lù yòu yuǎn, yīncǐ wǒ sān nián dōu méiyǒu huí jiā.</div>
+<div class="vi">Vì việc học bận, đường lại xa, nên suốt ba năm tôi không về nhà.</div>
+</div>
+<div class="card" data-text="还好有互联网，我经常在网上给母亲发消息。">
+<div class="num">Câu văn 10</div>
+<div class="zh">还好有互联网，我经常在网上给母亲发消息。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Háihǎo yǒu hùliánwǎng, wǒ jīngcháng zài wǎng shang gěi mǔqīn fā xiāoxi.</div>
+<div class="vi">May mà có Internet, tôi thường nhắn tin cho mẹ trên mạng.</div>
+</div>
+<div class="card" data-text="有一天，母亲在电话里说：“据说村里要修一条新路，以后回家就方便了。”">
+<div class="num">Câu văn 11</div>
+<div class="zh">有一天，母亲在电话里说：“据说村里要修一条新路，以后回家就方便了。”</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Yǒu yì tiān, mǔqīn zài diànhuà li shuō: "Jùshuō cūn li yào xiū yì tiáo xīn lù, yǐhòu huí jiā jiù fāngbiàn le."</div>
+<div class="vi">Một hôm, mẹ nói qua điện thoại: "Nghe nói trong làng sắp làm một con đường mới, sau này về nhà sẽ tiện hơn."</div>
+</div>
+<div class="card" data-text="直到去年八月，我终于回到了家乡。">
+<div class="num">Câu văn 12</div>
+<div class="zh">直到去年八月，我终于回到了家乡。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Zhídào qùnián bā yuè, wǒ zhōngyú huí dào le jiāxiāng.</div>
+<div class="vi">Mãi đến tháng Tám năm ngoái, cuối cùng tôi cũng về được quê.</div>
+</div>
+<div class="card" data-text="家乡的变化很大：新路已经修好了，房子也都是新的。">
+<div class="num">Câu văn 13</div>
+<div class="zh">家乡的变化很大：新路已经修好了，房子也都是新的。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Jiāxiāng de biànhuà hěn dà: xīn lù yǐjīng xiū hǎo le, fángzi yě dōu shì xīn de.</div>
+<div class="vi">Quê thay đổi nhiều lắm: con đường mới đã làm xong, nhà cửa cũng đều mới.</div>
+</div>
+<div class="card" data-text="那天晚上，母亲做了很多我爱吃的菜，很快就被我吃光了。">
+<div class="num">Câu văn 14</div>
+<div class="zh">那天晚上，母亲做了很多我爱吃的菜，很快就被我吃光了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Nà tiān wǎnshang, mǔqīn zuò le hěn duō wǒ ài chī de cài, hěn kuài jiù bèi wǒ chī guāng le.</div>
+<div class="vi">Tối hôm đó, mẹ nấu nhiều món tôi thích, chẳng mấy chốc tôi đã ăn sạch.</div>
+</div>
+<div class="card" data-text="母亲告诉我，现在村里的年轻人都用互联网卖水果，生意很好。">
+<div class="num">Câu văn 15</div>
+<div class="zh">母亲告诉我，现在村里的年轻人都用互联网卖水果，生意很好。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Mǔqīn gàosu wǒ, xiànzài cūn li de niánqīngrén dōu yòng hùliánwǎng mài shuǐguǒ, shēngyi hěn hǎo.</div>
+<div class="vi">Mẹ kể, bây giờ thanh niên trong làng đều bán hoa quả qua mạng, làm ăn rất khá.</div>
+</div>
+<div class="card" data-text="他们还把家乡的照片发到网上，我们村一下子就火了。">
+<div class="num">Câu văn 16</div>
+<div class="zh">他们还把家乡的照片发到网上，我们村一下子就火了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Tāmen hái bǎ jiāxiāng de zhàopiàn fā dào wǎng shang, wǒmen cūn yíxiàzi jiù huǒ le.</div>
+<div class="vi">Họ còn đăng ảnh quê lên mạng, làng tôi bỗng chốc nổi tiếng.</div>
+</div>
+<div class="card" data-text="现在每个周末，都有很多城市里的人来我们村玩。">
+<div class="num">Câu văn 17</div>
+<div class="zh">现在每个周末，都有很多城市里的人来我们村玩。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Xiànzài měi ge zhōumò, dōu yǒu hěn duō chéngshì li de rén lái wǒmen cūn wán.</div>
+<div class="vi">Bây giờ cuối tuần nào cũng có nhiều người thành phố đến làng tôi chơi.</div>
+</div>
+<div class="card" data-text="村里的人都很注意环保，所以这里的山和水都很漂亮。">
+<div class="num">Câu văn 18</div>
+<div class="zh">村里的人都很注意环保，所以这里的山和水都很漂亮。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Cūn li de rén dōu hěn zhùyì huánbǎo, suǒyǐ zhèlǐ de shān hé shuǐ dōu hěn piàoliang.</div>
+<div class="vi">Người trong làng đều rất có ý thức bảo vệ môi trường, nên núi non sông nước ở đây đều rất đẹp.</div>
+</div>
+<div class="card" data-text="晚上，大家坐在火旁边，一边吃东西一边说话。">
+<div class="num">Câu văn 19</div>
+<div class="zh">晚上，大家坐在火旁边，一边吃东西一边说话。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Wǎnshang, dàjiā zuò zài huǒ pángbiān, yìbiān chī dōngxi yìbiān shuōhuà.</div>
+<div class="vi">Buổi tối, mọi người ngồi quanh đống lửa, vừa ăn vừa trò chuyện.</div>
+</div>
+<div class="card" data-text="社会发展得很快，我的家乡也一天比一天好了。">
+<div class="num">Câu văn 20</div>
+<div class="zh">社会发展得很快，我的家乡也一天比一天好了。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Shèhuì fāzhǎn de hěn kuài, wǒ de jiāxiāng yě yì tiān bǐ yì tiān hǎo le.</div>
+<div class="vi">Xã hội phát triển nhanh, quê tôi cũng ngày một tốt hơn.</div>
+</div>
+<div class="card" data-text="离开的时候，母亲又帮我准备了很多东西，我的行李比来的时候还多。">
+<div class="num">Câu văn 21</div>
+<div class="zh">离开的时候，母亲又帮我准备了很多东西，我的行李比来的时候还多。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Líkāi de shíhou, mǔqīn yòu bāng wǒ zhǔnbèi le hěn duō dōngxi, wǒ de xíngli bǐ lái de shíhou hái duō.</div>
+<div class="vi">Lúc đi, mẹ lại chuẩn bị cho tôi rất nhiều thứ, hành lý của tôi còn nhiều hơn lúc về.</div>
+</div>
+<div class="card" data-text="不管以后走到世界的哪里，家乡都是我最爱的地方。">
+<div class="num">Câu văn 22</div>
+<div class="zh">不管以后走到世界的哪里，家乡都是我最爱的地方。</div>
+<button onclick="playItem(this.parentElement)">🔊 Nghe</button>
+<div class="py">Bùguǎn yǐhòu zǒu dào shìjiè de nǎlǐ, jiāxiāng dōu shì wǒ zuì ài de dìfang.</div>
+<div class="vi">Dù sau này đi đến đâu trên thế giới, quê hương vẫn là nơi tôi yêu nhất.</div>
+</div>
+</div>
+<script>
+let index=0;const cards=[...document.querySelectorAll('.card')];
+function speak(text){speechSynthesis.cancel();speechSynthesis.resume();const u=new SpeechSynthesisUtterance(text);u.lang='zh-CN';u.rate=.75;u.pitch=1;speechSynthesis.speak(u)}
+function selectCard(i,scroll=true){index=Math.max(0,Math.min(i,cards.length-1));cards.forEach(c=>c.classList.remove('active'));cards[index].classList.add('active');if(scroll)cards[index].scrollIntoView({behavior:'smooth',block:'center'})}
+function playItem(card){selectCard(cards.indexOf(card),false);speak(card.dataset.text)}
+function playCurrent(){speak(cards[index].dataset.text)}function stopAudio(){speechSynthesis.cancel()}function move(step){selectCard(index+step,true)}
+document.addEventListener('keydown',e=>{if(['INPUT','TEXTAREA','SELECT'].includes(document.activeElement?.tagName))return;if(e.key==='ArrowDown'){e.preventDefault();move(1)}if(e.key==='ArrowUp'){e.preventDefault();move(-1)}if(e.key==='Enter'){e.preventDefault();playCurrent()}});
+selectCard(0,false);
+</script></body></html>
